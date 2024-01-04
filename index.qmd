@@ -1,11 +1,9 @@
 ---
-title: "psci3200-globaldev"
+title: "Global Development: Intermediate Topics in Politics, Policy, and Data"
 ---
 
-This is a Quarto website.
+**Course ID:** PSCI 3200-001
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+**Schedule:** Tuesday, Thursday 3:30-4:59 PM
 
-```{r}
-1 + 1
-```
+**Instructor:** Jeremy Springman
