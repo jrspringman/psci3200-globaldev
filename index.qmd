@@ -1,6 +1,6 @@
 ---
-title: "Global Development: Intermediate Topics in Politics, Policy, and Data"
-subtitle: "Global Development: Intermediate Topics in Politics, Policy, and Data"
+title: "Global Development"
+subtitle: "Intermediate Topics in Politics, Policy, and Data"
 details: |
   PSCI 3200 • Spring 2024<br>University of Pennsylvania
 sidebar: false

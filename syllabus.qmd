@@ -22,16 +22,6 @@ output:
 - {{< fa brands twitter >}} &nbsp; [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})
 - {{< fa calendar-check >}} &nbsp; [Schedule an appointment]({{< var instructor.appointment_url >}})
 
-### Teaching fellows
-
-- Ahmet Akbiyik
-- James Jolin
-- Jerry Min
-- Laura Royden
-- Julio Solis Arce
-- Andy Wang
-
-
 :::
 
 ::: {.g-col-6}
@@ -42,10 +32,6 @@ output:
 - {{< fa clock >}} &nbsp; {{< var course.time >}}
 - {{< fa location-dot >}} &nbsp; {{< var course.location >}}
 - {{< fa brands slack >}} &nbsp; [Slack]({{< var course.slack >}})
-
-### Course assistants
-
-- TBD
 
 :::
 
