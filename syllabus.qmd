@@ -1,7 +1,7 @@
 ---
 title: "Syllabus"
 slug: syllabus
-summary: "Information about the content and policies for Gov 50"
+summary: "Information about the content and policies for PSCI 3200"
 citeproc: true
 output:
   blogdown::html_page:
@@ -25,7 +25,7 @@ output:
 :::
 
 ::: {.g-col-6}
-### Course details
+### Course Details
 
 - {{< fa calendar >}} &nbsp; {{< var course.days >}}
 - {{< fa calendar-alt >}} &nbsp; {{< var course.dates >}}
@@ -38,21 +38,45 @@ output:
 :::
 
 
-## Course objectives
+## Course Description and Objectives
+
+Recent years have seen a tremendous growth in the amount of data available and our ability to process it. This raises the exciting possibility that these advances can be used to improve governance and benefit the world's poor. In this course, students will engage with cutting-edge research that deploys new data and contemporary social science research methods and gain hands-on experience analyzing diverse types of data using rigorous research designs and broadly useful computational tools. 
+
+The course will be organized around several timely substantive topics in global development, including democratic backsliding and autocratization, political accountability and citizen engagement, crime and corruption, climate change resilience, and migration. As we explore these topics, students will gain a deeper understanding of the challenges that shape governance and development outcomes and ways that contemporary social science and the development 'industry' seeks to address them. 
+
+At the same time, students will be introduced to data analysis methods, inferential techniques, and computational tools that are useful across a wide range of applications. Specifically, students will deepen their understanding of basic statistical methods common to the social sciences, learn how these methods can be used to make inferences about population characteristics and causal relationships, and prepare documents that contain reproducible data analysis workflows.
+
+At the end of the course you should be able to:
+
+- Evaluate the quality of evidence in the development field
+- Think clearly about how data can be used to learn about development and governance challenges
+- Use tools for data analysis such as R, RStudio, git, and GitHub
+- Produce professional-quality documents that summarize and visualize data
+
+I hope that this course will encourage both passion and measured optimism about the potential for contemporary social science tools to address complex problems affecting less developed countries.
 
 
-In this course, you will learn the basics of data science as applied to the social sciences. This involves two broad skill sets: (1) learning the computing and programming tools to both manage and analyze data; and (2) understanding the conceptual foundations of why we might manage or analyze data in one way versus another. This course will address both of these topics.
+## Course Materials
 
-Specifically, at the end of the course you should be able to:
+###  Books
+We will use the following books in this class:
 
-- Summarize and visualize data
-- Wrangle messy data into tidy forms
-- Evaluate claims about causality
-- Be able to use linear regression to analyze data
-- Understand uncertainty in data analysis and how to quantify it
-- Use professional tools for data analysis such as R, RStudio, git, and GitHub
+We will use [Data Analysis for Social Science: A Friendly and Practical Introduction (DSS)](https://press.princeton.edu/books/paperback/9780691199436/data-analysis-for-social-science) as a jumping-off point for this course. While students are expected to already be familiar with many of the tools and concepts covered this book, it will serve as a method to review core concepts and orient discussion about how to expand on these skills. 
 
-We will also attempt to inspire a passion for data analysis and create a community among the students to deepen their learning. 
+Students are encouraged, but definitely not required, to purchase a personal copy.
+
+
+
+### Computing
+
+In the course, we will be using R for data cleaning, analysis, and visualization. [R](https://www.r-project.org/foundation/) is free, open source, and available on all major operating systems. We will also be using [RStudio](http://www.rstudio.com), which is a free, widely used graphical interface for R. For document preparation, we will be using [Quarto](https://quarto.org/), an open-source scientific and technical publishing system that is compatible with both R and Python, as well as several other languages. Both Quarto and RStudio are supported by a company called [Posit](https://posit.co/). For version control, we will be using [Github]{https://github.com/}. 
+
+
+## Course Structure
+
+Weekly reading assignments will be divided between contemporary research on substantive topics in global development and textbook chapters focused on social science research methods. You are expected to attend class and be prepared to engage in discussion about the assigned readings. Performance in this class will be evaluated by class attendance and participation (10%), short blog posts engaging with the methods or substance of weekly readings (20%), data exercises (30%), and a final project (40%). 
+
+
 
 ### Expectations
 
@@ -63,68 +87,13 @@ In this course, you will be expected to
 - take two take-home, open-book exams, and
 - write one final data analysis project.
 
-
 ### Prerequisites
 
-No prerequisites will be assumed.  If you are unfamiliar with downloading and installing software programs on your Mac or PC, you may want to allocate additional time to make sure those aspects of the course go smoothly. In particular, we have developed a [Problem Set 0][ps0] to guide you through installing R, RStudio, and git to give you a sense of the tools we will be using.
+You should already have R and RStudio installed 
 
-### Credit
+We will also use git and Github to manage our projects. 
 
-This course satisfies the Methods requirement for the Government department and the [Quantitative Reasoning with Data](https://qrd.college.harvard.edu) requirement in the Harvard College Curriculum. It also counts toward completion of the Government department [Data Science track](https://www.gov.harvard.edu/undergraduate/programs-of-study/data-science/). 
-
-### Speaker Series
-
-On various Fridays throughout the semester, we will host the [Gov 50 Speaker Series](/resources/speaker-series.html), where guest speakers working in data science in various industries will discuss their career paths and answer student questions. 
-
-
-## Course structure
-
-### Flow of the Course
-
-The course will follow a basic flow each week, with small differences if a tutorial or problem set is due or not. 
-
-- **Monday**: Complete reading/watching course material, complete tutorial (if due). 
-- **Tuesday**: Lecture meets. 
-- **Wednesday**: Submit problem set by 11:55 PM (if due). 
-- **Thursday**: Lecture meets; problem sets and exams posted; sections meet.
-- **Friday**: Sections meet. 
-- **Sunday**: Submit exams by 11:55 PM (if due)
-
-### Tutorials
-
-We will assign short weekly tutorials to assess your knowledge of the material covered in the reading/video materials that week. While you are expected to complete them on time, they will be graded based on completion not on how correct the answers are. With some exceptions, they will usually be due Mondays at 11:59pm ET. 
-
-### Lectures
-
-We will meet twice a week for lectures where I will combine presenting material and doing live coding demonstrations. Ideally, you should bring your laptop to class and be ready to code along with me! We will have a Slack channel dedicated to answer computing questions by TFs during lecture. Lectures will be recorded and usually posted to Canvas within 24 hours of the lecture time. Keeping up with these lectures is vital to your success in the class. 
-
-
-### Sections
-
-Sections will be small-group settings to practice the tools and techniques that we cover in class. These meetings are *essential* to gaining the skills you need for the problem sets, exams, and final project. You are **expected** to attend sections. We will not assign you a particular section, so you are free to attend one that works for your schedule and attend different sections throughout the semester if a conflict arises. 
-
-Sections will fall into two types based on prior exposure to the course material: more comfortable and less comfortable. While Gov 50 is designed to be accessible to students without prior exposure to data science and computing, we recognize that students with different backgrounds in the material may require different pedagogical approaches. 
-
-
-### Study Halls
-
-Study halls are a combination of office hours and drop-in tutoring sessions. Course assistants will hold a table usually at one of the house dining halls or common rooms and help students with assignments and course material. Study halls work best if you come as a group and work on the assignments on your own while you are there and ask for help from the CAs when you get stuck. 
-
-You can find a list of the Study Hall times on the [Study Hall Schedule](/resources/study-halls.html) page. 
-
-
-### Problem Sets
-
-Only reading about data science is about as instructive as reading a lot about hammers or watching someone else wield a hammer. You need to get your hands on a hammer or two. Thus, in this course, you will have mostly-weekly problem sets that will give you an opportunity to apply the statistical techniques you are learning. They will usually be focused on data analysis in general and will often involve a real dataset. 
-
-We encourage students to rely on peer working groups as they work on these homeworks, but each student will submit their own work individually. We will facilitate the formation of homework peer groups.
-
-:::{.callout-note}
-## Grace policy
-
-When calculating the final homework portion of the overall grade, we will drop the lowest score and use the remaining scores. Thus, if you have an emergency that forces you to miss one homework, your grade will not be severely affected.
-
-:::
+This class is also designed as a follow-up to PSCI 1102. Students are encouraged but not required to take that course before this one. Students should be ready to engage with data assignments in the programming language R. This means that students should also have taken PSCI 1800 or an equivalent course. Students that have not taken PSCI 1102 and PSCI 1800 (or an equivalent) should contact the instructor before enrolling. Students more comfortable in Python are welcome, but will receive less instructor support. 
 
 
 ### Exams
@@ -136,10 +105,6 @@ There will be two take-home exams during the course. This exam will be similar t
 | Exam 1 | Thu, Oct 19th 5:00pm ET | Sun, Oct 22nd 11:59pm ET |
 | Exam 2 | Thu, Dec 7th 5:00pm ET | Sun, Dec 10th 11:59pm ET |
  
-### Discussion
-
-We will be using the [Ed platform]() for discussions on course material. There is a [users guide](https://us.edstem.org/quickstart/ed-discussion.pdf) to help orient yourself to the platform. We will enroll you into the platform toward the start of the semester. 
-
 
 ### Grading
 
@@ -153,9 +118,6 @@ Here are how each portion of course contributes to the overall grade:
 | Problem Sets  | 40%                    |
 | Exams         | 30%                    |
 | Final Project | 20%                    |
-
-
-We will use [Gradescope](https://www.gradescope.com/) for submission of the various assignments throughout the semester. Once enrollment is finished, Gradescope will automatically connect through Canvas. 
 
 
 **Bump-up policy**: We reserve the right to "bump up" the grades of students who have made valuable contributions to the course in the lecture, sections, study halls, or discussion/Slack. This also applies to students who show tremendous progress and growth over the semester. 
@@ -187,66 +149,46 @@ The data collection and cleaning must be meaningful---it's not sufficient to sim
 
 
 
-
 ## Course Policies
 
-### Late Policy
+You will need to bring a personal laptop to class.
 
-For problem sets, late submissions will be penalized 10% if submitted 0-24 hours late and penalized 20% if submitted 24-48 hours late. We will not accept any submissions after 48 hours. This penalty will be waived the **first time** a submission is late. 
+### Late Submissions and Regrading
+
+Late submission of assignments will incur a penalty of 2 points deducted for every day late, except in **documented** cases of serious illness or family emergency.
+
+If you feel there has been an error in the grading of one your assignment, you may request in writing a regrade of the assignment. I will regrade the entire assignment, not just the part you are disputing. Therefore, your regrade might increase or decrease the overall grade on the assignment. 
 
 
-### Regrading Policy
+### Use of AI Tools
 
-If you feel there has been an error in the grading of one your assignment, you may request (in writing) a regrade of the assignment. Please send your request in an email to Professor Blackwell and the Head TF. A member of the teaching staff will regrade the entire assignment, not just the part you are disputing. Therefore, your regrade might increase or decrease the overall grade on the assignment. 
-
-
-### Office Hours and Availability
-
-Office hours for the teaching staff are listed on the [Office Hours Schedule](/resources/office-hours.html) page. 
-
-If you have a general question, you should post it to the Ed discussion board (where you can make your question anonymous if you would like). This is almost always the fastest way to get an answer. However, you can also email me directly at [mblackwell@gov.harvard.edu](mailto:mblackwell@gov.harvard.edu) if you have a question that is about a personal situation. 
+You are welcome to use generative AI tools, such as ChatGPT, to assist you with your work in this course. In the future, we will all be using these tools, so I believe it is important that we gain experience with their use. However, AI tools frequently make errors and 'hallucinate' information about things that do not exist (journal articles, R functions, etc.). It is your responsibility to verify the information provided by such tools. Most importantly, you are required to disclose your use of AI tools for assignments in the form of footnotes or citations. The use of AI tools will not be counted against you. On the contrary, I want to adopt and share your clever or innovative applications of AI tools.
 
 ### Academic Honesty
 
 The work that you do in both the problem sets should be your own work. You may seek help from others so long as this does not result in someone else completing your work for you. When asking for help, you may show others your code to help diagnose a bug or highlight a potential issue, but you should not view their (working) code. You should cite any discussions you have with other students in your problem set and note if they helped you with your code. You should never copy and paste code from another student or elsewhere (e.g., websites, former students). 
 
-I also strongly suggest that you make a solo effort at all the problems before consulting others. The exams will be very difficult if you have no experience working on your own. **There is no collaboration allowed on the exams.**
 
 
-## Course materials
-
-###  Books
-We will use the following books in this class:
-
-- Imai, Kosuke and Nora Webb Willaims. 2022. [*Quantitative Social Science: An Introduction with Tidyverse*](https://press.princeton.edu/books/paperback/9780691222288/quantitative-social-science), 2022. Princeton University Press.
-- Ismay, Chester and Albert Y. Kim. 2022. [*Statistical Inference via Data Science: A ModernDive into R and the Tidyverse*](https://moderndive.com/index.html). 
-- Mine Cetinkaya-Rundel and Johanna Hardin. 2021. [*Introduction to Modern Statistics*](https://www.openintro.org/book/ims/). OpenIntro. 
-
-The following books are optional, but may be helpful to build you understanding of the material:
-
-- Freedman, David, Pisani, Robert, and Purves, Roger. 2007. *Statistics*. W.W. Norton & Company. 4th edition.
-- Gonick, Larry, and Woollcott Smith. 1993. *The Cartoon Guide to Statistics*. HarperPerinnial. 
 
 
-### Computing
 
-We'll use R in this class to conduct data analysis. R is free,  open source, and available on all
-major platforms (including Solaris, so no excuses). [RStudio](http://www.rstudio.com) (also free) is a graphical interface to R that is widely used to work with the R language. You can find a virtually endless set of resources for R and RStudio on the internet. For beginners, there are several web-based tutorials. In these, you will be able to learn the basic syntax of R. We'll post more R resources on the course website. We will also use git and Github to manage our projects. 
 
-You can get setup with all of these tools by completing [Problem Set 0][ps0]. 
+
 
 ## Mental Health
 
-College is a stressful time in one's life and mixing it with a global pandemic, remote learning, and dislocation makes this one of the most fraught semester any of us have probably faced. We acknowledge that nothing is quite normal and that there may be times when you feel overwhelmed by this course or by life more generally. Please feel free to reach out to any of the course staff if you want to talk about any issues you are having with the course or anything else. We will always try to help and we are committed to being extra accommodating this semester on course policy issues. Please just get in touch. 
+Your mental health is important to me. Struggles with mental health, as well as serious mental illnesses, are common across students, faculty, and staff. Please feel free to reach out to me about issues you are having within or outside of this course. I emphatically encourage anyone who thinks they may benefit to utilize the university resources listed below:
 
-Of course, there are other resources at Harvard if you need them. A few are listed below:
+* [Counseling and Mental Health Services](https://wellness.upenn.edu/student-health-and-counseling/student-health-and-counseling-counseling)
+* [24/7 Services: 215-746-9355](https://wellness.upenn.edu/student-health-and-counseling/student-health-and-counseling-counseling#Drop-In%20Services)
 
-* [Counseling and Mental Health Services](https://camhs.huhs.harvard.edu/)
-* [Room 13](https://www.hcs.harvard.edu/~room13/)
-
-
-[ps0]: assignments/00-problem-set.html
+Please note that this list is not comprehensive. If there are services that you think should be added to this list, please let me know.
 
 ## Accessibility 
 
-Harvard University values inclusive excellence and providing equal educational opportunities for all students. Our goal is to remove barriers for disabled students related to inaccessible elements of instruction or design in this course. If reasonable accommodations are necessary to provide access, please contact the [Disability Access Office (DAO)](https://aeo.fas.harvard.edu/). Accommodations do not alter fundamental requirements of the course and are not retroactive. Students should request accommodations as early as possible, since they may take time to implement. Students should notify DAO at any time during the semester if adjustments to their communicated accommodation plan are needed.
+Accessibility is a shared value and a shared responsibility at Penn. The Weingarten Center partners with other departments throughout campus to coordinate and improve the accessibility of buildings and grounds, transportation, communication, and digital infrastructure. Students that require academic accommodations should contact the [Weingarten Center](https://weingartencenter.universitylife.upenn.edu/academic-accommodations/). Academic accommodations are determined on an individualized basis through an interactive process that involves student self-disclosure, documentation of disability, and an initial meeting with a Disability Specialist. Accommodations do not alter fundamental requirements of the course and are not retroactive. Students should request accommodations as early as possible, since they may take time to implement. Students can notify the Weingarten Center at any time during the semester if adjustments to their communicated accommodation plan are needed.
+
+
+
+

@@ -12,7 +12,10 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme:
+      light: flatly
+      dark: darkly
+
     css: html/custom.scss
     toc: true
 
