@@ -3,17 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "psci3200-globaldev"
+  title: "PSCI 3200"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - syllabus.qmd
 
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: html/custom.scss
     toc: true
 
 

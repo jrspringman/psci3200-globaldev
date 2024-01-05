@@ -1,0 +1,30 @@
+author: Jeremy Springman
+
+instructor:
+  name: Jeremy Springman
+  name_no_title: Jeremy Springman
+  email: jspr@sas.upenn.edu
+  url: "https://web.sas.upenn.edu/jeremyspringman/"
+  twitter: JRGSpringman
+  github: jrspringman
+  office: "448 - Perelman Center for Political Science"
+  contact_policy: >-
+    General questions about the course, materials, or assignments should be posted to the course Slack. For other issues (absences, etc), feel free to email me or send me a direct message on Slack. I will attempt to respond to these messages within 25 hours, but life can be busy and chaotic for everyone, so if I don't respond right away, don't worry!
+  appointment_url: https://calendly.com/matt_blackwell/
+
+course:
+  number: "PSCI 3200"
+  semester: "Spring 2024"
+  days: "Tue/Thu"
+  time: "3:00–4:59 PM"
+  location: "TBD"
+  dates: "January 18th - May 14th, 2024"
+  github: "https://github.com/jrspringman/psci3200-globaldev"
+  url: "https://jrspringman.github.io/psci3200-globaldev/"
+  copyright_year: "2024"
+  slack: "https://psci3200-globaldev.slack.com/ssb/signin_redirect"
+  canvas: "https://canvas.upenn.edu/courses/1771152"
+
+university:
+  name: "University of Pennsylvania"
+  url: "https://www.upenn.edu/"
