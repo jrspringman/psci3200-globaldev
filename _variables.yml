@@ -7,9 +7,9 @@ instructor:
   url: "https://web.sas.upenn.edu/jeremyspringman/"
   twitter: JRGSpringman
   github: jrspringman
-  office: "448 - Perelman Center for Political Science"
+  office: "448 - Perelman Center for<br>Political Science"
   contact_policy: >-
-    General questions about the course, materials, or assignments should be posted to the course Slack. For other issues (absences, accomodations, etc.), email me or send me a direct message on Slack. I will attempt to respond to these messages within 48 hours, but please be patient!
+    General questions about the course, materials, or assignments should be posted to the course Slack. This will allow other students to benefit from the answer(s) provided. For other issues (absences, accomodations, etc.), email me or send me a direct message on Slack. I will attempt to respond to these messages within 48 hours, but please be patient!
   appointment_url: https://calendly.com/jspr-m8a/office-hours
 
 course:
@@ -18,7 +18,7 @@ course:
   days: "Tue/Thu"
   time: "3:00–4:59 PM"
   location: "TBD"
-  dates: "January 18th - May 14th, 2024"
+  dates: "January 18th - May 14th"
   github: "https://github.com/jrspringman/psci3200-globaldev"
   url: "https://jrspringman.github.io/psci3200-globaldev/"
   copyright_year: "2024"
