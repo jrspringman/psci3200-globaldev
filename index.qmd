@@ -13,29 +13,24 @@ format:
 course-logo: /files/img/stacked_logo_1.png
 ---
 
-
 ::: {.grid .course-details}
-
 ::: {.g-col-12 .g-col-md-4}
-
 ### Instructor
 
-- {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
-- {{< fa university >}} &nbsp; {{< var instructor.office >}}
-- {{< fa envelope >}} &nbsp; <a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a>
-<!-- - {{< fa brands twitter >}} &nbsp; [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}}) -->
-- {{< fa calendar-check >}} &nbsp; [Schedule an appointment]({{< var instructor.appointment_url >}})
-
-::: 
+-   {{< fa user >}}   [{{< var instructor.name >}}](%7B%7B%3C%20var%20instructor.url%20%3E%7D%7D)
+-   {{< fa university >}}   {{< var instructor.office >}}
+-   {{< fa envelope >}}   <a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a> <!-- - {{< fa brands twitter >}} &nbsp; [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}}) -->
+-   {{< fa calendar-check >}}   [Schedule an appointment](%7B%7B%3C%20var%20instructor.appointment_url%20%3E%7D%7D)
+:::
 
 ::: {.g-col-12 .g-col-md-3}
 ### Course details
 
-- {{< fa calendar >}} &nbsp; {{< var course.days >}}
-- {{< fa calendar-alt >}} &nbsp; {{< var course.dates >}}
-- {{< fa clock >}} &nbsp; {{< var course.time >}}
-- {{< fa location-dot >}} &nbsp; {{< var course.location >}}
-- {{< fa brands slack >}} &nbsp; [Slack]({{< var course.slack >}})
+-   {{< fa calendar >}}   {{< var course.days >}}
+-   {{< fa calendar-alt >}}   {{< var course.dates >}}
+-   {{< fa clock >}}   {{< var course.time >}}
+-   {{< fa location-dot >}}   {{< var course.location >}}
+-   {{< fa brands slack >}}   [Slack](%7B%7B%3C%20var%20course.slack%20%3E%7D%7D)
 :::
 
 ::: {.g-col-12 .g-col-md-5 .contact-policy}
@@ -43,7 +38,6 @@ course-logo: /files/img/stacked_logo_1.png
 
 {{< var instructor.contact_policy >}}
 :::
-
 :::
 
 ![](/files/img/map_luwero.jpg)

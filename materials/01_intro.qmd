@@ -1,0 +1,14 @@
+---
+title: "Introduction to PSCI 3200"
+date: 2024-01-18
+---
+
+
+## Readings 
+
+- Review the [syllabus](/syllabus.qmd) and [schedule](/schedule.qmd)
+- Complete the [PSCI 3200 Student Survey](https://upenn.co1.qualtrics.com/jfe/form/SV_0Cg0okE1EBZraXc)
+
+## Slides
+
+- Thursday (1/18) lecture: [Slides](/slides/01-intro.html)

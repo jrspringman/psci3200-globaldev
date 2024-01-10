@@ -1,0 +1,70 @@
+---
+title: "Introduction to PSCI 3200"
+subtitle: "Nuts and bolts of the course"
+author: "Jeremy Springman"
+institute: "University of Pennsylvania"
+
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+      - title-slide.html
+    gfm:
+    mermaid-format: png
+editor: source
+---
+
+# Introductions
+
+## Me
+
+Background:
+
+-   PhD from UPenn PSCI, Postdoc at Duke
+-   *Very* applied work; PI on Machine Learning for Peace
+
+Interests:
+
+-   Democracy and civil society, foreign aid and NGOs 
+-   Randomized experiments, machine learning
+-   Field Projects: Uganda, Ethiopia, Cambodia, Serbia
+-   Improving research for decision makers
+
+## You
+
+Tell us:
+
+-   Name, Year, Major
+-   One thing you're interested in
+-   One thing you'd like to get from the course
+
+
+# Course Description and Objectives
+
+## Course Description
+
+## Course Objectives
+
+At the end of the course you should be able to:
+
+- Evaluate the quality of evidence in the development field
+- Think clearly about how data can be used to learn about development and governance challenges
+- Use tools for data analysis such as R, RStudio, Quarto, and GitHub
+- Produce professional-quality documents that summarize original research
+
+##  {#slide4-id background-iframe="https://jrspringman.github.io/psci3200-globaldev/schedule.html" background-interactive="true" data-menu-title="Schedule"}
+
+## scraps
+::: columns
+::: {.column width="50%"}
+:::
+
+::: {.column width="50%"}
+:::
+:::

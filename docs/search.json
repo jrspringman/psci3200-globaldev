@@ -165,6 +165,97 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should generally:\n\nwatch the lecture videos (if any) and complete the readings by Monday;\ncomplete the tutorials by Monday evening at 11:59pm; and\nsubmit the problem set or exam by Wednesday at 11:59pm.\n\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting.\nTutorial (): A link to the tutorial for that week.\nAssignment (): This page contains the instructions for each assignment.\n\nThe readings refer to following texts:\n\nQSS: Quantitative Social Science: An Introduction in tidyverse by Kosuke Imai and Nora Webb Williams\nMD: Statistical Inference via Data Science: A ModernDive into R and the Tidyverse by Chester Ismay and Albert Y. Kim\nIMS: Introduction to Modern Statistics by Mine Çetinkaya-Rundel and Johanna Hardin.\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nTutorial\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nIntroduction to the course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nR, Rstudio, and data visualization\n\n\nMD Ch 1\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nTutorial 1  (submit by 23:59:00)\n\n\nMD Ch 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nData visualization\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nTutorial 2  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nData wrangling\n\n\nMD Ch 3\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nTutorial 3  (submit by 23:59:00)\n\n\nQSS 2.1-2.2\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nData wrangling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nProblem Set 1  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nCausal inference\n\n\nQSS Ch 2.3\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nCausal inference and randomized experiments\n\n\nQSS 2.4\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nProblem Set 2  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nCausal inference and observational studies\n\n\nQSS 2.5\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nFinal Project Milestone 1  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nTutorial 4  (submit by 23:59:00)\n\n\nQSS Ch 2.6-3.3\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nSummarizing data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nProblem Set 3  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nSurvey sampling\n\n\nQSS 3.4\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nTutorial 5  (submit by 23:59:00)\n\n\nQSS Ch 3.5-3.6 or MD Ch 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nSummarizing relationships in our data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nProblem Set 4  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nImporting and joining data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nFinal Project Milestone 2  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nTutorial 6  (submit by 23:59:00)\n\n\nQSS 4.1 (except 4.1.2)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nMidterm review & prediction\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nRegression\n\n\nMD Ch 5 or QSS 4.2.1-4.2.4\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18–October 22\n\n\nExam 1  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nRegression and model fit\n\n\nMD Ch 6.1-6.2 or QSS 4.2.6-4.3.2\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nMultiple regression and interpretation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nTutorial 7  (submit by 23:59:00)\n\n\nMD Ch 7\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 2\n\n\nSampling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 17\n\n\n\n\nMay 7\n\n\nProblem Set 5  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 9\n\n\nSampling distributions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 18\n\n\n\n\nMay 14\n\n\nNA"
+    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should generally:\n\ncomplete the required readings before each meeting\n\nsubmit the problem set or exam by Wednesday at 11:59pm\n\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting.\nTutorial (): A link to the tutorial for that week.\nAssignment (): This page contains the instructions for each assignment.\n\nThe readings refer to following texts:\n\nDSS:Data Analysis for Social Science: A Friendly and Practical Introduction (DSS) by Kosuke Imai and Elena Llaudet\nTCD: Thinking clearly with data: A guide to quantitative reasoning and analysis by Ethan Bueno de Mesquita and Anthony Fowler\nMD: Statistical Inference via Data Science: A ModernDive into R and the Tidyverse by Chester Ismay and Albert Y. Kim\nIMS: Introduction to Modern Statistics by Mine Çetinkaya-Rundel and Johanna Hardin.\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nTutorial\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nIntroduction to the course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nNA\n\n\nDSS Ch 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 2\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 17\n\n\n\n\nMay 7\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay 9\n\n\nNA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 18\n\n\n\n\nMay 14\n\n\nNA"
+  },
+  {
+    "objectID": "slides/01-intro.html#welcome",
+    "href": "slides/01-intro.html#welcome",
+    "title": "Introduction to PSCI 3200",
+    "section": "Welcome",
+    "text": "Welcome\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "materials/01_intro.html",
+    "href": "materials/01_intro.html",
+    "title": "Introduction to PSCI 3200",
+    "section": "",
+    "text": "Review the syllabus and schedule\nComplete the PSCI 3200 Student Survey"
+  },
+  {
+    "objectID": "materials/01_intro.html#readings",
+    "href": "materials/01_intro.html#readings",
+    "title": "Introduction to PSCI 3200",
+    "section": "",
+    "text": "Review the syllabus and schedule\nComplete the PSCI 3200 Student Survey"
+  },
+  {
+    "objectID": "materials/01_intro.html#slides",
+    "href": "materials/01_intro.html#slides",
+    "title": "Introduction to PSCI 3200",
+    "section": "Slides",
+    "text": "Slides\n\nThursday (1/18) lecture: Slides"
+  },
+  {
+    "objectID": "slides/01-intro.html#course-description-and-objectives",
+    "href": "slides/01-intro.html#course-description-and-objectives",
+    "title": "Introduction to PSCI 3200",
+    "section": "Course Description and Objectives",
+    "text": "Course Description and Objectives\nAt the end of the course you should be able to:\n\nEvaluate the quality of evidence in the development field\nThink clearly about how data can be used to learn about development and governance challenges\nUse tools for data analysis such as R, RStudio, Quarto, and GitHub\nProduce professional-quality documents that summarize original research\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/01-intro.html#myself",
+    "href": "slides/01-intro.html#myself",
+    "title": "Introduction to PSCI 3200",
+    "section": "Myself",
+    "text": "Myself"
+  },
+  {
+    "objectID": "slides/01-intro.html#course-description",
+    "href": "slides/01-intro.html#course-description",
+    "title": "Introduction to PSCI 3200",
+    "section": "Course Description",
+    "text": "Course Description"
+  },
+  {
+    "objectID": "slides/01-intro.html#course-objectives",
+    "href": "slides/01-intro.html#course-objectives",
+    "title": "Introduction to PSCI 3200",
+    "section": "Course Objectives",
+    "text": "Course Objectives\nAt the end of the course you should be able to:\n\nEvaluate the quality of evidence in the development field\nThink clearly about how data can be used to learn about development and governance challenges\nUse tools for data analysis such as R, RStudio, Quarto, and GitHub\nProduce professional-quality documents that summarize original research"
+  },
+  {
+    "objectID": "slides/01-intro.html#slide4-id",
+    "href": "slides/01-intro.html#slide4-id",
+    "title": "Introduction to PSCI 3200",
+    "section": "",
+    "text": "jrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/01-intro.html#jeremy",
+    "href": "slides/01-intro.html#jeremy",
+    "title": "Introduction to PSCI 3200",
+    "section": "Jeremy",
+    "text": "Jeremy\nBackground:\n\nPhD from UPenn PSCI, Postdoc at Duke\nVery applied work; PI on Machine Learning for Peace\n\nInterests:\n\nDemocracy and civil society, foreign aid and NGOs\nRandomized experiments, machine learning\nField Projects: Uganda, Ethiopia, Cambodia, Serbia\nImproving research for decision makers"
+  },
+  {
+    "objectID": "slides/01-intro.html",
+    "href": "slides/01-intro.html",
+    "title": "Introduction to PSCI 3200",
+    "section": "",
+    "text": "Background:\n\nPhD in CP/IR from UPenn PSCI\nPostdoc at Duke\nSenior Research Associate\n\nResearch interests:\n\nForeign aid and NGOs\nDemocracy civil society\nRandomized experiments (field and survey), machine learning\nField Projects: Uganda, Ethiopia, Cambodia, Serbia\n\n\n\n\nTell us:\n\nName, year, major\nOne thing you’re interested in"
+  },
+  {
+    "objectID": "slides/01-intro.html#you",
+    "href": "slides/01-intro.html#you",
+    "title": "Introduction to PSCI 3200",
+    "section": "You",
+    "text": "You\nTell us:\n\nName, Year, Major\nOne thing you’re interested in\nOne thing you’d like to get from the course"
+  },
+  {
+    "objectID": "slides/01-intro.html#scraps",
+    "href": "slides/01-intro.html#scraps",
+    "title": "Introduction to PSCI 3200",
+    "section": "scraps",
+    "text": "scraps\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   }
 ]
