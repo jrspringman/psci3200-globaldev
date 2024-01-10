@@ -1,0 +1,13 @@
+---
+title: "Causal Inference"
+date: 2024-01-18
+---
+
+
+## Readings 
+
+- [The Economist as Plumber](/files/duflo-2017-the-economist-as-plumber.pdf) by Esther Duflo
+
+## Slides
+
+- Thursday (1/18) lecture: [Slides](/slides/01-intro.html)

@@ -1,8 +1,8 @@
 week,date,date_end,title,deadline, reading,content,tutorial,assignment
 1,2024-01-18,,Introduction to the course,,,/materials/01_intro,,
-2,2024-01-23,,,,DSS Ch 2,,,
+2,2024-01-23,,Causal Inference,,DSS Ch 2,/materials/02_causal,,
 2,2024-01-25,,,,,,https://mblackwell.shinyapps.io/01-r-basics-data-viz/,
-3,2024-01-30,,,,,materials/02_r_data_viz,,
+3,2024-01-30,,,,,,,
 3,2024-02-01,,,,,,,
 4,2024-02-06,,,,,,,
 4,2024-02-08,,,,,,,
