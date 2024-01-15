@@ -4,11 +4,16 @@ date: 2024-01-18
 ---
 
 
-## Readings 
+## Required Readings
 
 - Review the [syllabus](/syllabus.qmd) and [schedule](/schedule.qmd)
+
+## Tasks
+
 - Complete the [PSCI 3200 Student Survey](https://upenn.co1.qualtrics.com/jfe/form/SV_0Cg0okE1EBZraXc)
+- Get logged-in on the course {{< fa brands slack >}} [Slack](%7B%7B%3C%20var%20course.slack%20%3E%7D%7D)
 
 ## Slides
 
 - Thursday (1/18) lecture: [Slides](/slides/01-intro.html)
+

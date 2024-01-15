@@ -1,0 +1,19 @@
+---
+title: "Causal Inference"
+date: 2024-01-18
+---
+
+
+## Required Readings
+
+- DSS Ch 2
+- [The Economist as Plumber](/files/duflo-2017-the-economist-as-plumber.pdf) by Esther Duflo
+
+## Slides
+
+- Thursday (1/18) lecture: [Slides](/slides/01-intro.html)
+
+## Interesting Stuff (non-required)
+
+- [Cause, Effect, and the Structure of the Social World](/files/STEVENSON.pdf) by Megan Stevenson
+  + This very recent article argues that the types of interventions that get evaluated using RCTs are unlikely to create meaningful change because of the way the social world is structured. In essence, we are not actually able to engineeer real change. Stevenson provides evidence from a meta-analysis of experimental criminology research.

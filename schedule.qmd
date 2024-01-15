@@ -32,7 +32,7 @@ Here's a guide to the schedule:
 
 The readings refer to following texts:   
 
-- **DSS**:[*Data Analysis for Social Science: A Friendly and Practical Introduction (DSS*)](https://press.princeton.edu/books/paperback/9780691199436/data-analysis-for-social-science) by Kosuke Imai and Elena Llaudet
+- **DSS**: [*Data Analysis for Social Science: A Friendly and Practical Introduction (DSS*)](https://press.princeton.edu/books/paperback/9780691199436/data-analysis-for-social-science) by Kosuke Imai and Elena Llaudet
 - **TCD**: [*Thinking clearly with data: A guide to quantitative reasoning and analysis*](https://moderndive.com/index.html) by Ethan Bueno de Mesquita and Anthony Fowler
 
 

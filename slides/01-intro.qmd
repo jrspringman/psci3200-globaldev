@@ -1,6 +1,6 @@
 ---
 title: "Introduction to PSCI 3200"
-subtitle: "Nuts and bolts of the course"
+subtitle: "Overview of the course"
 author: "Jeremy Springman"
 institute: "University of Pennsylvania"
 
@@ -27,7 +27,7 @@ editor: source
 Background:
 
 -   PhD from UPenn PSCI, Postdoc at Duke
--   *Very* applied work; PI on Machine Learning for Peace
+-   *Very* applied work
 
 Interests:
 
@@ -38,7 +38,9 @@ Interests:
 
 ## You
 
-Tell us:
+\
+
+Please tell us:
 
 -   Name, Year, Major
 -   One thing you're interested in
@@ -49,6 +51,42 @@ Tell us:
 
 ## Course Description
 
+\
+\
+
+- Blending subject-matter, research methods, and computational tools
+- Focusing on the type of work that goes on with and within development agencies 
+- Almost no math
+
+## Course Description
+
+- Follow-up to PSCI 1102
+  + 1102 covered big academic debates that we won’t (ex. institutions vs geography)
+  + This research is the domain of academics conducting *basic research*
+- Focus on *applied research* with development agencies/industry 
+  + We *can’t* change geography or airlift new institutions
+  + We *can* use insights from academic work to improve governance and wellbeing (malaria pills, institutional reforms) 
+
+## Course Description
+
+\
+
+- Substantive focus areas
+  + Democracy and Autocratization
+  + Political Engagement
+  + Migration
+  + Crime and Conflict
+  + Foreign Aid
+
+## Course Description
+
+- Methods: 
+  + Deepen understanding of 'workhorse' statistical methods and research designs
+  + How these methods can be used to make inferences about population characteristics and causal relationships
+- Tools
+  + Introduce the computational tools that are needed to implement these methods 
+  + Software necessary to prepare professional documents and reproducible data analysis workflows
+
 ## Course Objectives
 
 At the end of the course you should be able to:
@@ -58,13 +96,103 @@ At the end of the course you should be able to:
 - Use tools for data analysis such as R, RStudio, Quarto, and GitHub
 - Produce professional-quality documents that summarize original research
 
+## Prerequisites
+
+\
+
+- Substance (PSCI 1102)
+  + Big academic debates in development research (PSCI 1102)
+- Methods and Tools (PSCI 1800)
+  + Basic familiarity with R and RStudio
+  + Basic knowledge of statistics/econometrics/data science
+
+## Textbook
+
+\
+
+- [Data Analysis for Social Science: A Friendly and Practical Introduction (DSS)](https://press.princeton.edu/books/paperback/9780691199436/data-analysis-for-social-science)
+  + We will use DSS as a jumping-off point for this course
+  + Some of this material will be review
+
+
+## Grading
+
+Performance in this class will be evaluated by according to performance on the following course requirements:
+
+| Requirement      | Percent of Final Grade |
+|:-----------------|:-------------|
+| Quizzes (4)          | 10%          |
+| Workshops (4)        | 10%          |
+| Data Assignments (3) | 36%          |
+| Final Project (1)    | 44%          |
+
+## Quizzes
+
+\
+
+- On 4 randomly selected meetings, there will be a brief quiz 
+- If you paid any attention or did readings, you should get full credit
+- One pre-approved absence allowed
+
+## Workshops
+
+- 4 interactive, hands-on workshops working with diverse types of data, covering different statistical methods, or using new computational tools. 
+  + Tools: Quarto, github
+  + Data: Survey data, text data, financial data
+  + Methods: Randomized and quasi-experiments, network analysis
+- You will be required to submit a product demonstrating completion of the workshop
+
+## Data Assignments
+
+- 3 data assignments designed to give you an opportunity to apply tools and methods discussed in readings, lectures, and workshops to data from the real world
+- You will be required to submit your own code and write-up
+
+| Data Assignment | Due Date|
+|:----------------|:--------|
+| Assignment 1 | Feb 29th  |
+| Assignment 2 | Mar 21st  |
+| Assignment 3 | Apr 25th  |
+
+
+## Final Project
+
+- Data analysis project with data of your choosing
+  + Formulate a research question
+  + Find data that can help you answer that question
+  + Apply the tools and methods from this course
+  + Write-up analysis
+- Produce a webpage to present your results for public consumption 
+
+::: {.notes}
+Your final submission will be a publicly available webpage that contains: (1) a brief introduction to your research question and data; (2) a discussion of your research design, its assumptions, and threats to inference; (3) a visualization that describes your data; (4) a presentation of the results from a regression model (as a table or graph) and discussion of its implications for your research question; and (5) a discussion of the implications of your findings for development policy or practice, including the limitations of your analysis and suggestions for future research.
+:::
+
+## Final Project
+
+\
+
+| Milestone                    | Due Date                 |
+|:-----------------------------|:-------------------------|
+| Create a GitHub repository   | Feb 8th |
+| Identify data source         | Mar 5th |
+| Submit proposal              | Apr 2nd |
+| Submit final project         | May 2nd |
+
+
+::: {.notes}
+By April, I'll give you a break-down of how the grading will be done
+:::
+
+
 ##  {#slide4-id background-iframe="https://jrspringman.github.io/psci3200-globaldev/schedule.html" background-interactive="true" data-menu-title="Schedule"}
 
-## scraps
-::: columns
-::: {.column width="50%"}
-:::
 
-::: {.column width="50%"}
-:::
-:::
+
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- ::: -->
+<!-- ::: -->

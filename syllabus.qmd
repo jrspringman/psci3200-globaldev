@@ -43,7 +43,7 @@ output:
 
 Recent years have seen a tremendous growth in the amount of data available and our ability to process it. This raises the exciting possibility that these advances can be used to improve governance and benefit the world's poor. In this course, students will engage with cutting-edge research that deploys new data and contemporary social science research methods and gain hands-on experience analyzing diverse types of data using rigorous research designs and broadly useful computational tools. 
 
-The course will be organized around several timely substantive topics in global development, including political accountability and citizen engagement, democratic backsliding and autocratization, crime and corruption, and climate change and migration. As we explore these topics, students will gain a deeper understanding of the challenges that shape governance and development outcomes and ways that contemporary social science and the development 'industry' seeks to address them. 
+The course will be organized around several timely substantive topics in global development, including democratic backsliding and autocratization, citizen engagement, crime and corruption, and climate change and migration. As we explore these topics, students will gain a deeper understanding of the challenges that shape governance and development outcomes and ways that contemporary social science and the development 'industry' seeks to address them. 
 
 At the same time, students will be introduced to data analysis methods, inferential techniques, and computational tools that are useful across a wide range of applications. Specifically, students will deepen their understanding of basic statistical methods common to the social sciences, learn how these methods can be used to make inferences about population characteristics and causal relationships, and prepare documents that contain reproducible data analysis workflows.
 
@@ -97,7 +97,7 @@ Substantively, the course is divided into several parts. Part 1 presents a gener
 
 ### Grading
 
-Performance in this class will be evaluated by according to performance on the following course requirements.
+Performance in this class will be evaluated by according to performance on the following course requirements:
 
 | Requirement      | Percent of Final Grade |
 |:-----------------|:-------------|
@@ -160,7 +160,7 @@ Late submission of assignments will incur a penalty of 2 points for every day la
 
 ### Use of AI Tools
 
-You are welcome to use generative AI tools, such as ChatGPT, to assist you with your work in this course. There is mounting evidence from rigorous research that these tools increase human productivity. I believe that their use will continue to proliferate, so it is important to gain experience with their use. However, AI tools frequently make errors and 'hallucinate' information about things that do not exist (journal articles, R functions, etc.). It is your responsibility to verify the information provided by such tools. Most importantly, you are required to disclose your use of AI tools for assignments in the form of footnotes or citations. The use of AI tools will not be counted against you. On the contrary, I want to adopt and share your clever or innovative applications of AI tools.
+You are welcome to use generative AI tools, such as ChatGPT, to assist you with your work in this course. There is mounting evidence from rigorous research that these tools increase human productivity. I believe that their use will continue to proliferate, so it is important to gain experience integrating them into professional tasks. However, AI tools frequently make errors and 'hallucinate' information about things that do not exist (journal articles, R functions, etc.). It is your responsibility to verify the information provided by such tools. Most importantly, you are required to disclose your use of AI tools for assignments in the form of footnotes or citations. The use of AI tools will not be counted against you. On the contrary, I want to adopt and share your clever or innovative applications of AI tools.
 
 ### Electronic Devices
 
