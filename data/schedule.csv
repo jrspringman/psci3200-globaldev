@@ -1,35 +1,31 @@
 week,date,date_end,title,deadline, reading,content,tutorial,assignment
 1,2024-01-18,,Introduction to the course,,,/materials/01_intro,,
-2,2024-01-23,,Causal Inference,,DSS Ch 2,/materials/02_causal,,
-2,2024-01-25,,,,,,https://mblackwell.shinyapps.io/01-r-basics-data-viz/,
-3,2024-01-30,,,,,,,
-3,2024-02-01,,,,,,,
+2,2024-01-23,,Correlation and Causation,,TCD Ch 2-3,/materials/02_causal,,
+2,2024-01-25,,Causal Inference,,DSS Ch 2; Duflo (2017),/materials/03_causal,,
+3,2024-01-30,,Democracy and Autocracy,,Waldner and Lust (2018),,,
+3,2024-02-01,,Survey Research,,DSS Ch 3; Springman (working paper),/materials/04_survey,,
 4,2024-02-06,,,,,,,
-4,2024-02-08,,,,,,,
-5,2024-02-13,,,,,,,
-5,2024-02-15,,,,,,,/assignments/01_hw_data_viz
-6,2024-02-20,,,,,,,
-6,2024-02-22,,,,,,,
+4,2024-02-08,,,,,,,/assignments/github_repo
+5,2024-02-13,,Migration 1,,,,,
+5,2024-02-15,,Migration 2 (guest: Wibbels),,DSS Ch 5; TBD,,,
+6,2024-02-20,,No class,,,,,
+6,2024-02-22,,Crime (guest: Schmidt-Padilla),,TBD,,,
 7,2024-02-27,,,,,,,
-7,2024-02-29,,,,,,,
-8,2024-03-05,,,,,,,
-8,2024-03-07,,,,,,,
+7,2024-02-29,,,,,,,/assignments/da_1
+8,2024-03-05,,Spring Break,,,,,/assignments/data_source
+8,2024-03-07,,Spring Break,,,,,
 9,2024-03-12,,,,,,,
 9,2024-03-14,,,,,,,
 10,2024-03-19,,,,,,,
-10,2024-03-21,,,,,,,
+10,2024-03-21,,,,,,,/assignments/da_2
 11,2024-03-26,,,,,,,
 11,2024-03-28,,,,,,,
-12,2024-04-02,,,,,,,
+12,2024-04-02,,,,,,,/assignments/fp_proposal
 12,2024-04-04,,,,,,,
 13,2024-04-09,,,,,,,
 13,2024-04-11,,,,,,,
 14,2024-04-16,,,,,,,
 14,2024-04-18,,,,,,,
 15,2024-04-23,,,,,,,
-15,2024-04-25,,,,,,,
-16,2024-04-30,,,,,,,
-16,2024-05-02,,,,,,,
-17,2024-05-07,,,,,,,
-17,2024-05-09,,,,,,,
-18,2024-05-14,,,,,,,
+15,2024-04-25,,,,,,,/assignments/da_5
+16,2024-04-30,,,,,,,/assignments/fp_webpage
