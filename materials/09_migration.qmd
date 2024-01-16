@@ -1,0 +1,16 @@
+---
+title: "Causal Inference"
+date: 2024-01-18
+---
+
+
+## Required Readings
+
+
+## Slides
+
+- Thursday (1/18) lecture: [Slides](/slides/01-intro.html)
+
+## Interesting Stuff (non-required)
+
+https://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/addressing-root-causes-and-drivers-irregular-migration

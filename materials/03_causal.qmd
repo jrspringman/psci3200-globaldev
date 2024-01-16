@@ -6,7 +6,7 @@ date: 2024-01-18
 
 ## Required Readings
 
-- DSS Ch 2
+- DSS Ch 2 ([interactive visualization](https://ellaudet.iq.harvard.edu/random_treatment))
 - [The Economist as Plumber](/files/duflo-2017-the-economist-as-plumber.pdf) by Esther Duflo
 
 ## Slides

@@ -18,12 +18,8 @@ schedule <- read_csv("data/schedule.csv", show_col_types = FALSE)
 ```
         
 
-Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should generally: 
-   
-- complete the required readings before each meeting
-- 
-- submit the problem set or exam by Wednesday at 11:59pm
-                
+Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should complete the required readings before each meeting.
+
 Here's a guide to the schedule: 
 
 - **Materials** ({{< fa book-open-reader >}}): This page contains the readings and slides for the meeting.

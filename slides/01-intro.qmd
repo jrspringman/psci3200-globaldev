@@ -67,6 +67,12 @@ Please tell us:
   + We *can’t* change geography or airlift new institutions
   + We *can* use insights from academic work to improve governance and wellbeing (malaria pills, institutional reforms) 
 
+::: {.notes}
+
+- super applied work is based partly on big picture/theory/basic research, so we’ll see some of that too
+- I’ll often focus on my own research because it’s highly applied and you can get a sense of what research looks like mid-stream
+:::
+
 ## Course Description
 
 \
@@ -105,6 +111,12 @@ At the end of the course you should be able to:
 - Methods and Tools (PSCI 1800)
   + Basic familiarity with R and RStudio
   + Basic knowledge of statistics/econometrics/data science
+
+::: {.notes}
+
+if you didn’t take 1102, talk with me; I can give you a copy of the syllabus
+:::
+
 
 ## Textbook
 

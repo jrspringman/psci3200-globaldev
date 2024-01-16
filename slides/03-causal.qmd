@@ -1,0 +1,71 @@
+---
+title: "Correlation and Causation"
+subtitle: "What are they good for?"
+author: "Jeremy Springman"
+institute: "University of Pennsylvania"
+
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+      - title-slide.html
+    gfm:
+    mermaid-format: png
+editor: source
+---
+
+# Introductions
+
+
+Duflo: big picture + details
+
+Why focus on details:
+1. policymakers don’t have time to focus on details
+2. details make all of the difference
+
+Example of water connections:
+- Big picture: people really need water
+- Details: they won’t navigate bureaucracy
+
+1. Design of the tap: details about communication or defaults
+2. Layout of the pipes: logistics of authority and responsibility
+
+Plumbing vs Science
+
+- “It turns out that most policymakers, and most bureaucrats, are not very good plumbers.”
+- “And not all plumbers need to be economists. Sometimes, what a policymaker needs is a good software engineer, lawyer, or subject expert”
+“To summarize, economists have the disciplinary training to make good plumbers: economics trains us in behavioral science, incentives issues, and firm behavior; it also gives us an understanding of both governments and firms as organizations, though more work probably remains to be done there. We economists are even equipped to think about market equilibrium consequences of apparently small
+changes. This comparative advantage, along with the importance of getting these issues right,
+makes it a responsibility for our profession to engage with the world on those terms.”
+“Plumbing experiments, since they are primarily motivated by pragmatism, must focus on what is important for the world, not necessarily on the very subtle issues that theorists would
+find worth discussing.”
+“Scientists design general frames, engineers turn them into relevant machinery, and plumbers finally make them work in a complicated, messy policy environment.”
+
+Any normatively uncomfortable findings?
+
+
+M2: What do we mean by ‘development’ and why do we study it?
+- Describing development: Economic Lives of the Poor
+- What causes development and can we cause it to happen? Probably not really.
+- So what is the role of social scientists: Duflo; help at the margins. Answer questions like:
+-- basic research: what do people want/need? What is preventing that from happening? 
+-- applied research: do specific things work to resolve these issues?
+-- “There may not be a theory fully worked out to accommodate these features, but she can use
+computation and lab experiments to simulate how they will play out”
+-- “The uncertainty in the environment creates a highly stochastic world: the natural way to “pay attention” to what happens, as I will argue below, is thus to analyze natural experiments or set up field experiments to try out different plumbing possibilities.
+
+
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- ::: -->
+<!-- ::: -->

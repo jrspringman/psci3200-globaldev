@@ -6,7 +6,8 @@ date: 2024-01-18
 
 ## Required Readings
 
-- TCD Ch 2-3
+- TCD Ch 2
+- TCD Ch 3
 
 ## Tasks
 
