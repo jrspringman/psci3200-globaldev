@@ -20,6 +20,16 @@ format:
 editor: source
 ---
 
+## Agenda
+
+\
+\
+
+1. Introductions
+2. Course Description and Objectives
+3. Requirements and Policies
+4. Schedule
+
 # Introductions
 
 ## Me
@@ -51,12 +61,20 @@ Please tell us:
 
 ## Course Description
 
-\
-\
+::: {.r-stack}
 
 - Blending subject-matter, research methods, and computational tools
 - Focusing on the type of work that goes on with and within development agencies 
-- Almost no math
+- Almost no math; very little theory
+
+![](basics_tweet.png){.fragment .fade-up }
+
+:::
+
+::: {.notes}
+- Best suited for folks that have small background in all 3 areas
+- 
+:::
 
 ## Course Description
 
@@ -100,6 +118,8 @@ At the end of the course you should be able to:
 - Think clearly about how data can be used to learn about development and governance challenges
 - Use tools for data analysis such as R, RStudio, Quarto, and GitHub
 - Produce professional-quality documents that summarize original research
+
+# Requirements and Policies
 
 ## Prerequisites
 
