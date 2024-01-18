@@ -22,9 +22,9 @@ Below is the schedule for the semester. You can find the materials for each cour
 
 Here's a guide to the schedule: 
 
-- **Materials** ({{< fa book-open-reader >}}): This page contains the readings and slides for the meeting.
-- **Tutorial** ({{< fa laptop-code >}}): A link to the tutorial for that week. 
-- **Assignment** ({{< fa pen-ruler >}}): This page contains the instructions for each assignment.
+- **Materials** ({{< fa book-open-reader >}}): This page contains the readings and slides for the meeting
+- **Workshop** ({{< fa laptop-code >}}): A link to the workshop for that week 
+- **Assignment** ({{< fa pen-ruler >}}): This page contains the instructions for each assignment
 
 The readings refer to following texts:   
 
@@ -65,7 +65,7 @@ schedule <- schedule %>%
            col_reading = var_reading,
            col_assignment = var_assignment) %>%
   select(Week = week, Date = col_date, Title = col_title, Reading = col_reading, Materials = col_content,
-         Tutorial = col_tutorial, Assignment = col_assignment) 
+         Workshop = col_tutorial, Assignment = col_assignment) 
 
 week_count <- schedule |> count(Week)
 week_index <- week_count |> pull(n) |> set_names(paste0("Week ", week_count$Week))

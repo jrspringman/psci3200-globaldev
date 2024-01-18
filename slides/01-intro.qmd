@@ -27,8 +27,15 @@ editor: source
 
 1. Introductions
 2. Course Description and Objectives
-3. Requirements and Policies
-4. Schedule
+3. Requirements
+4. Policies
+5. Schedule
+
+::: {.notes}
+- email
+- course website
+- survey
+:::
 
 # Introductions
 
@@ -44,7 +51,7 @@ Interests:
 -   Democracy and civil society, foreign aid and NGOs 
 -   Randomized experiments, machine learning
 -   Field Projects: Uganda, Ethiopia, Cambodia, Serbia
--   Improving research for decision makers
+<!-- -   Improving research for decision makers -->
 
 ## You
 
@@ -100,6 +107,7 @@ Please tell us:
   + Migration
   + Crime and Conflict
   + Foreign Aid
+  + Climate change and adaptation
 
 ## Course Description
 
@@ -125,7 +133,7 @@ At the end of the course you should be able to:
 
 \
 
-- Substance (PSCI 1102)
+- Substance
   + Big academic debates in development research (PSCI 1102)
 - Methods and Tools (PSCI 1800)
   + Basic familiarity with R and RStudio
@@ -214,6 +222,48 @@ Your final submission will be a publicly available webpage that contains: (1) a 
 By April, I'll give you a break-down of how the grading will be done
 :::
 
+# Policies
+
+## Late Submissions and Regrading
+
+- Late submission of assignments
+  + penalty of 2 points for every day late
+  + except in **documented** cases of serious illness or family emergency
+- Regrade request
+  + detailed write-up of your dispute
+  + Regrade of the entire assignment (might increase or decrease) 
+
+## Use of AI Tools
+
+- You are welcome to use generative AI tools
+- It is important to gain experience integrating them into professional tasks
+- AI tools frequently make errors and 'hallucinate' (journal articles, R functions, etc.)
+- It is your responsibility to verify the information provided 
+- You *must* disclose your use of AI tools for assignments in the form of footnotes or citations
+
+
+## Electronic Devices
+
+\
+
+- Laptops will be required in class
+- All other electronic devices should be silenced and hidden
+- Please don't make me devise consequences for violating this policy
+
+## Controversial Topics and Statements
+
+- Diverse perspectives, experiences, and backgrounds are essential for effective development research and practice
+- Contact me directly if you feel we're not achieving an inclusive environment
+- Students are required to treat one another with respect
+- Engage with any evidence that challenges your prior beliefs
+
+
+## Academic Honesty
+
+- Students are expected to follow the University of Pennsylvania's [Code of Academic Integrity](https://catalog.upenn.edu/pennbook/code-of-academic-integrity/)
+- Suspected violations will be referred to university administration for disciplinary action. 
+
+# Schedule
 
 ##  {#slide4-id background-iframe="https://jrspringman.github.io/psci3200-globaldev/schedule.html" background-interactive="true" data-menu-title="Schedule"}
 

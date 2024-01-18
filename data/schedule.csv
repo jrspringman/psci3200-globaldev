@@ -3,29 +3,29 @@ week,date,date_end,title,deadline, reading,content,tutorial,assignment,
 2,2024-01-23,,Correlation and Causation,,TCD Ch 2-3,/materials/02_causal,,,Inference
 2,2024-01-25,,Causal Inference 1,,DSS Ch 2; Duflo (2017),/materials/03_causal,,,Inference
 3,2024-01-30,,Survey Research and Linear Regression,,DSS Ch 3-4,/materials/04_survey,,,Inference
-3,2024-02-01,,Introduction to Autocratization,,Waldner and Lust (2018); VDem (2023),/materials/05_democracy,,,Democracy
-4,2024-02-06,,Autocratization and Survey Data,,Hollerbauer et al. (2024); Adamu et al. (2024),/materials/06_democracy,,,Democracy
+3,2024-02-01,,Introduction to Autocratization,,Waldner and Lust (2018); VDem (2023); Grady ,/materials/05_democracy,/workshop/survey_data,,Democracy
+4,2024-02-06,,Autocratization and Survey Data,,Hollerbauer et al. (2024); Adamu et al. (2024),/materials/06_democracy,/workshop/finance_data,,Democracy
 4,2024-02-08,,Causal Inference 2,,DSS Ch 5,,,/assignments/github_repo,Methods
-5,2024-02-13,,Migration 1,,,,,,Migration
-5,2024-02-15,,Migration (guest: Wibbels),,TBD,,,,Migration
-6,2024-02-20,,No class,,,,,/assignments/da_1,Migration
+5,2024-02-13,,Migration 1,,TBD,,,,Migration
+5,2024-02-15,,Migration 2 (guest: Wibbels),,TBD,,,,Migration
+6,2024-02-20,,No class,,TBD,,,/assignments/da_1,Migration
 6,2024-02-22,,Crime (guest: Schmidt-Padilla),,TBD,,,,Crime and Conflict
-7,2024-02-27,,Quarto and Github,,,,,,
-7,2024-02-29,,Conflict,,Grady et al. (2023),,,,Methods
-8,2024-03-05,,Spring Break,,,,,/assignments/data_source,
-8,2024-03-07,,Spring Break,,,,,,
+7,2024-02-27,,Conflict,,Grady et al. (2023),,,,
+7,2024-02-29,,Conflict,,TBD,,,,Methods
+8,2024-03-05,,Spring Break,,TBD,,,/assignments/data_source,
+8,2024-03-07,,Spring Break,,TBD,,,,
 9,2024-03-12,,Probability,,DSS Ch 6,,,,
 9,2024-03-14,,Uncertainty,,DSS Ch 7,,,,
-10,2024-03-19,,Github Pages,,,,,,
-10,2024-03-21,,Network data,,,,,/assignments/da_2,
-11,2024-03-26,,,,,,,,
-11,2024-03-28,,Survey Experiments,,Grady,,,,
-12,2024-04-02,,,,,,,/assignments/fp_proposal,
-12,2024-04-04,,,,,,,,
-13,2024-04-09,,,,,,,,
-13,2024-04-11,,,,,,,,
-14,2024-04-16,,,,,,,,
-14,2024-04-18,,,,,,,,
-15,2024-04-23,,,,,,,,
-15,2024-04-25,,,,,,,/assignments/da_5,
-16,2024-04-30,,,,,,,/assignments/fp_webpage,
+10,2024-03-19,,TBD,,TBD,,,,
+10,2024-03-21,,TBD,,TBD,,,/assignments/da_2,
+11,2024-03-26,,TBD,,TBD,,,,
+11,2024-03-28,,TBD,,TBD,,,,
+12,2024-04-02,,TBD,,TBD,,,/assignments/fp_proposal,
+12,2024-04-04,,TBD,,TBD,,,,
+13,2024-04-09,,TBD,,TBD,,,,
+13,2024-04-11,,TBD,,TBD,,,,
+14,2024-04-16,,TBD,,TBD,,,,
+14,2024-04-18,,TBD,,TBD,,,,
+15,2024-04-23,,TBD,,TBD,,,,
+15,2024-04-25,,TBD,,TBD,,,/assignments/da_5,
+16,2024-04-30,,TBD,,TBD,,,/assignments/fp_webpage,
