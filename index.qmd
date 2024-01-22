@@ -29,7 +29,7 @@ course-logo: /files/img/stacked_logo_1.png
 -   {{< fa calendar >}} &nbsp; {{< var course.days >}}
 -   {{< fa calendar-alt >}} &nbsp; {{< var course.dates >}}
 -   {{< fa clock >}} &nbsp; {{< var course.time >}}
--   {{< fa location-dot >}} &nbsp; [{{< var course.location >}}](https://www.isc-cts.upenn.edu/finder/classroominfo.asp?id=WILL-6)
+-   {{< fa location-dot >}} &nbsp; [{{< var course.location >}}](https://www.isc-cts.upenn.edu/finder/classroominfo.asp?id=EDUC-201)
 -   {{< fa brands slack >}} &nbsp; [Slack](%7B%7B%3C%20var%20course.slack%20%3E%7D%7D)
 :::
 

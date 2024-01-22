@@ -17,14 +17,212 @@ format:
       - title-slide.html
     gfm:
     mermaid-format: png
+    highlight-style: atom-one-dark
+    code-overflow: wrap
 editor: source
 ---
 
 
+# Correlation
+
+## Which of the following statements describe a correlation?
+
+1. Most professional data analysis took a statistics course in college.
+
+::: {.fragment .highlight-red}
+2. The longer a person runs the more calories they burn.
+:::
+3. People who live to be 100 years old typically take vitamins.
+
+::: {.fragment .highlight-red}
+4. Older people vote more than younger people.
+:::
+
+
+## Correlations: Quantitative Comparison
+
+\
+
+- Avoid 'selecting on the dependent variable'
+  + Applies to qualitative work as well
+- Lots of bad analysis and evaluation *implies* comparisons
+  + Ex. 70% of participants felt they had improved
+  + Ex. 60% of Americans live paycheck-to-paycheck
+
+## Correlations: Necessary Components
+
+\
+
+**What do we need to calculate correlations?**
+
+- Measures of central tendency
+  + Mean 
+- Measures of spread
+  + Variance
+  + Standard deviation
+
+
+## Central Tendency: Mean
+
+
+$\mu_X = \frac{1}{n} \sum_{i}^{n} X_i$
+
+```{r}
+#| echo: true
+
+## Create vector
+my_vector = rnorm(10, mean = 10, sd = 5)
+
+# Step 1: Sum the values
+sum_values <- sum(my_vector)
+
+# Step 2: Count the number of elements
+count_elements <- length(my_vector)
+
+# Step 3: Calculate the mean
+mean_value <- sum_values / count_elements
+
+# Print the result
+print(mean_value)
+mean(my_vector)
+```
+
+
+## Spread: Variance
+
+$$
+\sigma^2_X = \frac{1}{N} \sum_{i}^{N} (X_i - \mu_X)^2
+$$
+
+::: {.incremental}
+- What does the square in $\sigma^2$ accomplish?
+- What are the implications for interpretation?
+  + Units
+  + Distribution
+- Even with these basic measures, we're already thinking about the distribution!
+
+:::
+
+## Spread: Variance
+
+```{r}
+#| echo: true
+#| code-fold: true
+#| code-summary: "Create a vector"
+
+## Create vector, sort by size, and store var
+set.seed(123)
+dat = rnorm(10, mean = 10, sd = 5)
+dat = sort(dat)
+o_var = var(dat)
+print(dat)
+
+```
+
+```{r}
+#| echo: true
+#| code-fold: true
+#| code-summary: "Add a constant to a big number"
+
+## Create new dataframe for big addition and store vector length
+b_dat = dat
+ind = length(b_dat)
+
+## Add four to the largest number in the vector and calculate size of var increase
+b_dat[ind] = b_dat[ind] + 4
+b_var = var(b_dat)
+val = b_var - o_var
+cat("Variance increases by", val )
+```
+
+
+
+```{r}
+#| echo: true
+#| code-fold: true
+#| code-summary: "Add a constant to a smaller number"
+
+## Create new dataframe for small addition
+s_dat = dat
+
+## Add four to the smallest number in the vector and calculate size of var increase
+s_dat[ind-2] = s_dat[ind-2] + 4
+s_var = var(s_dat)
+val = s_var - o_var
+cat("Variance increases by", val )
+
+```
+
+## Spread: Standard Deviation
+
+$$
+\sigma_X = \sqrt{\frac{1}{N} \sum_{i}^{N} (X_i - \mu_X)^2}
+$$
+
+::: {.incremental}
+- What does the $\sqrt{}$ accomplish?
+- What are the implications for interpretation?
+  + Expressed in the same units as the observations
+  + How far we expect each observation to be from the mean, on average
+- This means we can report effect sizes as SDs
+:::
+
+
+## Measures of Correlation
+
+::: {.incremental}
+- <span style="color:red;">Covariance</span> $\text{Cov}(X, Y) = \frac{1}{n} \sum_{i=1}^{n} (X_i - \bar{X})(Y_i - \bar{Y})$
+  + Product of the deviations
+  + Range: unbounded
+- <span style="color:red;">Correlation coefficient</span> $\text{Cor}(X, Y) = \frac{\text{Cov}(X, Y)}{\sigma_X \sigma_Y}$
+  + Covariance normalized by product of SDs
+  + Range: -1 to 1
+- <span style="color:red;">Slope</span> $\beta_X = \frac{\text{Cov}(X, Y)}{\sigma^2_X}$
+  + Covariance normalized by variance
+  + Expected change in $Y$ with 1-unit change in $X$
+:::
+
+
+## Measures of Correlation
+
+
+::: {.incremental}
+- What does the correlation coefficient tell you that slope doesn't?
+  + Strength of the correlation on bounded (0-1) scale
+- What does slope tell you that the correlation coefficient doesn't?
+  + Substantive importance 
+  + Correlations tell you consistency; not magnitude
+:::
+
+
+## Correlation
+
+**What can correlations do?**
+
+- Description = comparison [sample matters]
+- Forecasting = sample population -> out-of-sample [sample matters]
+- Causal inference = correlation + research design [sample matters less]
+
+**Simple, but powerful**
+
+- So much ML is just this, but fancier
 
 
 
 
+<!-- **The correlation between two variables is “the extent to which they tend to occur together” (p. 14). -->
+<!-- A relation between two variables (or “features of the world”). -->
+<!-- Two variables/features are: -->
+<!-- Positively correlated if the two tend to occur together -->
+<!-- Negatively correlated if one feature occurs when the other does not -->
+<!-- Uncorrelated if the occurrence of one does not affect the occurrence of the other. -->
+
+<!-- ## Politicians facing scandals tend to win re-election -->
+
+<!-- - what data does this rely on? -->
+<!-- - why is this not a correlation: we don't learn if these things tend to happen together -->
+<!-- - what would make it a correlation  -->
+<!-- - what data would we need to assess: rate of re-election for both scandal and non-scandal politicians -->
 
 <!-- ::: columns -->
 <!-- ::: {.column width="50%"} -->
