@@ -1229,13 +1229,6 @@ margin-right: 0; }
 </div>
 
 </section>
-<section id="logistics" class="slide level2">
-<h2>Logistics</h2>
-<ul>
-<li>Did everyone find the readings and slides for today?</li>
-<li></li>
-</ul>
-</section>
 <section>
 <section id="correlation" class="title-slide slide level1 center">
 <h1>Correlation</h1>
@@ -1295,25 +1288,28 @@ margin-right: 0; }
 </section>
 <section id="central-tendency-mean" class="slide level2">
 <h2>Central Tendency: Mean</h2>
-<p><span class="math display">\[
-\mu_X = \frac{1}{n} \sum_{i}^{n} X_i
-\]</span></p>
+<p><span class="math inline">\(\mu_X = \frac{1}{n} \sum_{i}^{n} X_i\)</span></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>my_vector <span class="ot">=</span> <span class="fu">rnorm</span>(<span class="dv">10</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">5</span>)</span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="co"># Step 1: Sum the values</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a>sum_values <span class="ot">&lt;-</span> <span class="fu">sum</span>(my_vector)</span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="co"># Step 2: Count the number of elements</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a>count_elements <span class="ot">&lt;-</span> <span class="fu">length</span>(my_vector)</span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="co"># Step 3: Calculate the mean</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a>mean_value <span class="ot">&lt;-</span> sum_values <span class="sc">/</span> count_elements</span>
-<span id="cb1-8"><a href="#cb1-8"></a></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="fu">print</span>(mean_value)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="do">## Create vector</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a>my_vector <span class="ot">=</span> <span class="fu">rnorm</span>(<span class="dv">10</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">5</span>)</span>
+<span id="cb1-3"><a href="#cb1-3"></a></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="co"># Step 1: Sum the values</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a>sum_values <span class="ot">&lt;-</span> <span class="fu">sum</span>(my_vector)</span>
+<span id="cb1-6"><a href="#cb1-6"></a></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="co"># Step 2: Count the number of elements</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a>count_elements <span class="ot">&lt;-</span> <span class="fu">length</span>(my_vector)</span>
+<span id="cb1-9"><a href="#cb1-9"></a></span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="co"># Step 3: Calculate the mean</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a>mean_value <span class="ot">&lt;-</span> sum_values <span class="sc">/</span> count_elements</span>
+<span id="cb1-12"><a href="#cb1-12"></a></span>
+<span id="cb1-13"><a href="#cb1-13"></a><span class="co"># Print the result</span></span>
+<span id="cb1-14"><a href="#cb1-14"></a><span class="fu">print</span>(mean_value)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 11.09455</code></pre>
+<pre><code>[1] 9.196109</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">mean</span>(my_vector)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 11.09455</code></pre>
+<pre><code>[1] 9.196109</code></pre>
 </div>
 </div>
 </section>
@@ -1444,9 +1440,9 @@ margin-right: 0; }
 <h2>Correlation</h2>
 <p><strong>What can correlations do?</strong></p>
 <ul>
-<li>Description = comparison [sample matters]</li>
-<li>Forecasting = sample population -&gt; out-of-sample [sample matters]</li>
-<li>Causal inference = correlation + research design [sample matters less]</li>
+<li>description = comparison [sample matters]</li>
+<li>forecasting = sample population -&gt; out-of-sample [sample matters]</li>
+<li>causal inference = correlation + research design [sample matters less]</li>
 </ul>
 <p><strong>Simple, but powerful</strong></p>
 <ul>

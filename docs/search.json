@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "\n            Global Development\n        ",
     "section": "",
-    "text": "Global Development\n        \n        \n            Intermediate Topics in Politics, Policy, and Data\n        \n        \n            PSCI 3200 • Spring 2024University of Pennsylvania\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\nInstructor\n\n   Jeremy Springman\n   448 - Perelman Center forPolitical Science\n   jspr@sas.upenn.edu \n   Schedule an appointment\n\n\n\nCourse details\n\n   Tue/Thu\n   January 18th - May 1st\n   3:30–4:59 PM\n   WILL 6\n   Slack\n\n\n\nContacting me\nGeneral questions about the course, materials, or assignments should be posted to the course Slack. This will allow other students to benefit from the answer(s) provided. For other issues (absences, accomodations, etc.), email me or send me a direct message on Slack. I will attempt to respond to these messages within 48 hours, but please be patient!"
+    "text": "Global Development\n        \n        \n            Intermediate Topics in Politics, Policy, and Data\n        \n        \n            PSCI 3200 • Spring 2024University of Pennsylvania\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\nInstructor\n\n   Jeremy Springman\n   448 - Perelman Center forPolitical Science\n   jspr@sas.upenn.edu \n   Schedule an appointment\n\n\n\nCourse details\n\n   Tue/Thu\n   January 18th - May 1st\n   3:30–4:59 PM\n   EDUC 201\n   Slack\n\n\n\nContacting me\nGeneral questions about the course, materials, or assignments should be posted to the course Slack. This will allow other students to benefit from the answer(s) provided. For other issues (absences, accomodations, etc.), email me or send me a direct message on Slack. I will attempt to respond to these messages within 48 hours, but please be patient!"
   },
   {
     "objectID": "about.html",
@@ -46,7 +46,7 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Jeremy Springman\n   448 - Perelman Center forPolitical Science\n   jspr@sas.upenn.edu \n   Schedule an appointment\n\n\n\n\n\n   Tue/Thu\n   January 18th - May 1st\n   3:30–4:59 PM\n   WILL 6\n   Slack"
+    "text": "Jeremy Springman\n   448 - Perelman Center forPolitical Science\n   jspr@sas.upenn.edu \n   Schedule an appointment\n\n\n\n\n\n   Tue/Thu\n   January 18th - May 1st\n   3:30–4:59 PM\n   EDUC 201\n   Slack"
   },
   {
     "objectID": "syllabus.html#course-objectives",
@@ -473,7 +473,7 @@
     "href": "materials/05_democracy.html#interesting-stuff-non-required",
     "title": "Causal Inference",
     "section": "Interesting Stuff (non-required)",
-    "text": "Interesting Stuff (non-required)\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/strengthening-civil-society-evidence-gap-map\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/human-rights-evidence-gap-map\nhttps://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-Analysis-report-Chapeau-summary.pdf\nhttps://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-DRG-Comparative-Analysis-Report.pdf\nhttps://www.v-dem.net/documents/29/V-dem_democracyreport2023_lowres.pdf\nhttps://www.amazon.com/How-Democracies-Die-Steven-Levitsky/dp/1524762938\nhttps://protectdemocracy.org/wp-content/uploads/2022/06/the-authoritarian-playbook-how-reporters-can-contextualize-and-cover-authoritarian-threats-as-distinct-from-politics-as-usual-1.pdf"
+    "text": "Interesting Stuff (non-required)\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/strengthening-civil-society-evidence-gap-map\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/human-rights-evidence-gap-map\nhttps://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-Analysis-report-Chapeau-summary.pdf\nhttps://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-DRG-Comparative-Analysis-Report.pdf\nhttps://www.v-dem.net/documents/29/V-dem_democracyreport2023_lowres.pdf\nhttps://www.amazon.com/How-Democracies-Die-Steven-Levitsky/dp/1524762938\nhttps://protectdemocracy.org/wp-content/uploads/2022/06/the-authoritarian-playbook-how-reporters-can-contextualize-and-cover-authoritarian-threats-as-distinct-from-politics-as-usual-1.pdf\nhttps://onlinelibrary.wiley.com/doi/10.1111/ajps.12798"
   },
   {
     "objectID": "materials/04_causal.html",
@@ -509,5 +509,47 @@
     "title": "Causal Inference",
     "section": "Tasks",
     "text": "Tasks\n\nCreate a github account and post your git handle to the #general channel on the course Slack"
+  },
+  {
+    "objectID": "materials/05_aid.html",
+    "href": "materials/05_aid.html",
+    "title": "Survey Experiments",
+    "section": "",
+    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nhttps://www.npr.org/sections/goatsandsoda/2018/09/14/647212387/which-foreign-aid-programs-work-the-u-s-runs-a-test-but-wont-talk-about-it\nhttps://www.cambridge.org/core/journals/american-political-science-review/article/international-rewards-for-gender-equality-reforms-in-autocracies/0462BEE8EB91A57AD810EFD137597F43"
+  },
+  {
+    "objectID": "materials/05_aid.html#readings",
+    "href": "materials/05_aid.html#readings",
+    "title": "Survey Experiments",
+    "section": "",
+    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nhttps://www.npr.org/sections/goatsandsoda/2018/09/14/647212387/which-foreign-aid-programs-work-the-u-s-runs-a-test-but-wont-talk-about-it\nhttps://www.cambridge.org/core/journals/american-political-science-review/article/international-rewards-for-gender-equality-reforms-in-autocracies/0462BEE8EB91A57AD810EFD137597F43"
+  },
+  {
+    "objectID": "materials/05_aid.html#slides",
+    "href": "materials/05_aid.html#slides",
+    "title": "Survey Experiments",
+    "section": "Slides",
+    "text": "Slides\n\nThursday (1/18) lecture: Slides"
+  },
+  {
+    "objectID": "materials/05_climate.html",
+    "href": "materials/05_climate.html",
+    "title": "Survey Experiments",
+    "section": "",
+    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nCleo’s paper\nhttps://osf.io/nyhz4"
+  },
+  {
+    "objectID": "materials/05_climate.html#readings",
+    "href": "materials/05_climate.html#readings",
+    "title": "Survey Experiments",
+    "section": "",
+    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nCleo’s paper\nhttps://osf.io/nyhz4"
+  },
+  {
+    "objectID": "materials/05_climate.html#slides",
+    "href": "materials/05_climate.html#slides",
+    "title": "Survey Experiments",
+    "section": "Slides",
+    "text": "Slides\n\nThursday (1/18) lecture: Slides"
   }
 ]

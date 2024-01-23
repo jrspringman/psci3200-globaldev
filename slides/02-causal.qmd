@@ -23,6 +23,12 @@ editor: source
 ---
 
 
+## Logistics
+
+- Did everyone find the readings and slides for today?
+- 
+
+
 # Correlation
 
 ## Which of the following statements describe a correlation?
@@ -65,24 +71,21 @@ editor: source
 ## Central Tendency: Mean
 
 
-$\mu_X = \frac{1}{n} \sum_{i}^{n} X_i$
+$$
+\mu_X = \frac{1}{n} \sum_{i}^{n} X_i
+$$
 
 ```{r}
 #| echo: true
 
-## Create vector
 my_vector = rnorm(10, mean = 10, sd = 5)
-
 # Step 1: Sum the values
 sum_values <- sum(my_vector)
-
 # Step 2: Count the number of elements
 count_elements <- length(my_vector)
-
 # Step 3: Calculate the mean
 mean_value <- sum_values / count_elements
 
-# Print the result
 print(mean_value)
 mean(my_vector)
 ```
