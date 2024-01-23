@@ -26,7 +26,9 @@ editor: source
 ## Logistics
 
 - Did everyone find the readings and slides for today?
-- 
+- For next week:
+  + I'll scan the chapter and upload tonight
+  + Remember you have a quasi-assignment
 
 
 # Correlation
@@ -191,26 +193,111 @@ $$
 
 ::: {.incremental}
 - What does the correlation coefficient tell you that slope doesn't?
-  + Strength of the correlation on bounded (0-1) scale
+  + Consistency of the relationship on bounded (0-1) scale
 - What does slope tell you that the correlation coefficient doesn't?
-  + Substantive importance 
-  + Correlations tell you consistency; not magnitude
+  + Substantive importance (magnitude)
 :::
 
 
 ## Correlation
 
-**What can correlations do?**
+::: columns
+::: {.column width="60%"}
 
-- Description = comparison [sample matters]
-- Forecasting = sample population -> out-of-sample [sample matters]
-- Causal inference = correlation + research design [sample matters less]
+\
+**What can with do with them?**
+
+- <span style="color:red;">Description</span> = comparison 
+:::
+
+::: {.column width="35%"}
+
+::: {.fragment}
+
+::: {.callout-note appearance="simple" icon=false} 
+-   <span style="color:red;">*sample matters alot*</span>
+-   <span style="color:blue;">*sample matters less*</span>
+:::
+
+:::
+
+:::
+:::
+- <span style="color:red;">Forecasting</span> = sample population -> out-of-sample
+- <span style="color:blue;">Causal inference</span> = correlation + research design
+
+::: {.fragment}
 
 **Simple, but powerful**
 
-- So much ML is just this, but fancier
+- Non-linearities, interactions, machine learning
+
+:::
 
 
+# Causation
+
+## Schools of Thought
+
+- Potential outcomes and counterfactuals (Econ)
+- DAGs and do-calculus (CS)
+- Manipulability (Philosophy)
+
+
+“We think of a cause as something that makes a difference, and the difference it makes must be a difference from what would have happened without it.” (Lewis, 1973)
+
+## Causality: Why bother?
+
+- Understanding cause and effect is how we change things in the real world
+
+## Causality: What makes it hard?
+
+Fundamental Problem of Causal Inference
+
+We only observe any given unit in one treatment status at any one time so we can never directly observe the causal effect of a treatment on a unit. 
+We don’t know the counterfactual. 
+The actual outcome for unit 𝑖 which was assigned to treatment 𝑇=1  is  𝑌_𝑖 (1) and we cannot observe the value of 𝑌_𝑖 (0).
+Solution: 
+We must infer counterfactual outcomes
+We can estimate average treatment effects
+
+
+## Potential Outcomes and Counterfactuals
+
+$$
+Y_i = 
+\begin{cases} 
+Y_i(1) & \text{if } D_i = 1 \text{ (treatment group)} \\
+Y_i(0) & \text{if } D_i = 0 \text{ (control group)}
+\end{cases}
+$$
+
+Treatment Effect for individual $i$
+
+- $TE_i = Y_i(1) - Y_i(0)$
+
+Average Treatment Effect (ATE)
+
+- $ATE = \frac{1}{N} \sum_{i=1}^{N} TE_i$
+
+
+
+## DAGs and Confounding
+
+```{r}
+library(ggdag)
+
+dagify(
+  x ~ a,
+  y ~ x,
+  y ~ a
+
+) %>%
+  ggdag()
+
+```
+
+## Flawed Evaluations
 
 
 <!-- **The correlation between two variables is “the extent to which they tend to occur together” (p. 14). -->
