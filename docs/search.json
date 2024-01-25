@@ -551,5 +551,145 @@
     "title": "Survey Experiments",
     "section": "Slides",
     "text": "Slides\n\nThursday (1/18) lecture: Slides"
+  },
+  {
+    "objectID": "slides/03-causal.html#assignments",
+    "href": "slides/03-causal.html#assignments",
+    "title": "Causal Inference 1",
+    "section": "Assignments",
+    "text": "Assignments\n\nIf you didn’t post your git handle on Slack, please do\nNext week:\n\nReadings\nInstall Quarto and create an empty pdf\nI’ll create a page before Saturday"
+  },
+  {
+    "objectID": "slides/03-causal.html#agenda",
+    "href": "slides/03-causal.html#agenda",
+    "title": "Causal Inference 1",
+    "section": "Agenda",
+    "text": "Agenda\n\nHow to follow-along with the slides\nEstimating Causal Effects with Randomized Experiments\nEconomists as Plumbers"
+  },
+  {
+    "objectID": "slides/03-causal.html#how-do-we-think-about-causality",
+    "href": "slides/03-causal.html#how-do-we-think-about-causality",
+    "title": "Causal Inference 1",
+    "section": "How do we think about causality?",
+    "text": "How do we think about causality?\n\nPotential Outcomes\n\\[\nY_i =\n\\begin{cases}\nY_i(1) & \\text{if } D_i = 1 \\text{ (treatment group)} \\\\\nY_i(0) & \\text{if } D_i = 0 \\text{ (control group)}\n\\end{cases}\n\\]\n\n\nTreatment Effect for individual \\(i\\)\n\\[\nTE_i = Y_i(1) - Y_i(0)\n\\]"
+  },
+  {
+    "objectID": "slides/03-causal.html#whats-the-problem",
+    "href": "slides/03-causal.html#whats-the-problem",
+    "title": "Causal Inference 1",
+    "section": "What’s the problem?",
+    "text": "What’s the problem?\n\n\n\nFundamental Problem of Causal Inference\n\nWe only observe any given unit in one treatment status at any one time so we can never directly observe the causal effect of a treatment on an individual unit"
+  },
+  {
+    "objectID": "slides/03-causal.html#whats-the-solution",
+    "href": "slides/03-causal.html#whats-the-solution",
+    "title": "Causal Inference 1",
+    "section": "What’s the solution?",
+    "text": "What’s the solution?\n\nCounterfactuals\n\nIndividuals in the control group serve as a stand-in for the counter-factual of the treatment group\n\n\\[\n\\widehat{ATE} = \\overline{Y}_{treatment\\_group} - \\overline{Y}_{control\\_group}\n\\]"
+  },
+  {
+    "objectID": "slides/03-causal.html#whats-complicated-about-this",
+    "href": "slides/03-causal.html#whats-complicated-about-this",
+    "title": "Causal Inference 1",
+    "section": "What’s complicated about this?",
+    "text": "What’s complicated about this?\n\n\n“Only valid when when the treatment and control group are comparable with respect to all the variables that might affect the outcome other than the treatment variable itself.”\n“We must find or create a situation in which the treated observations and the untreated observations are similar with respect to all the variables that might affect the outcome”\n“By randomly assigning treatment, we ensure that treatment and control groups are, on average, identical to each other in all observed and unobserved pre-treatment characteristics”"
+  },
+  {
+    "objectID": "slides/03-causal.html#cant-we-just-observe-and-compare",
+    "href": "slides/03-causal.html#cant-we-just-observe-and-compare",
+    "title": "Causal Inference 1",
+    "section": "Can’t we just observe and compare?",
+    "text": "Can’t we just observe and compare?"
+  },
+  {
+    "objectID": "slides/03-causal.html#cant-we-just-observe-and-compare-1",
+    "href": "slides/03-causal.html#cant-we-just-observe-and-compare-1",
+    "title": "Causal Inference 1",
+    "section": "Can’t we just observe and compare?",
+    "text": "Can’t we just observe and compare?\n\n\nExample: What is the effect of class size on test scores"
+  },
+  {
+    "objectID": "slides/03-causal.html#cant-we-just-observe-and-compare-2",
+    "href": "slides/03-causal.html#cant-we-just-observe-and-compare-2",
+    "title": "Causal Inference 1",
+    "section": "Can’t we just observe and compare?",
+    "text": "Can’t we just observe and compare?"
+  },
+  {
+    "objectID": "slides/03-causal.html#cant-we-just-observe-and-compare-3",
+    "href": "slides/03-causal.html#cant-we-just-observe-and-compare-3",
+    "title": "Causal Inference 1",
+    "section": "Can’t we just observe and compare?",
+    "text": "Can’t we just observe and compare?"
+  },
+  {
+    "objectID": "slides/03-causal.html#cant-we-just-observe-and-compare-4",
+    "href": "slides/03-causal.html#cant-we-just-observe-and-compare-4",
+    "title": "Causal Inference 1",
+    "section": "Can’t we just observe and compare?",
+    "text": "Can’t we just observe and compare?"
+  },
+  {
+    "objectID": "slides/03-causal.html#cant-we-just-observe-and-compare-5",
+    "href": "slides/03-causal.html#cant-we-just-observe-and-compare-5",
+    "title": "Causal Inference 1",
+    "section": "Can’t we just observe and compare?",
+    "text": "Can’t we just observe and compare?"
+  },
+  {
+    "objectID": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time",
+    "href": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time",
+    "title": "Causal Inference 1",
+    "section": "Why can’t we just observe how individuals change over time?",
+    "text": "Why can’t we just observe how individuals change over time?\n\n\nShow code\nlibrary(ggplot2)\n\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.3, 1.7,NA)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  scale_linetype_manual(values=c(\"solid\")) +\n  xlim(0,3) + \n  scale_y_continuous(limits = c(1,1.85), breaks = seq(1, 1.85, by = .1)) + \n  scale_color_manual(values = c(\"blue\") ) +\n  theme(legend.position = \"none\", text = element_text(size=20))"
+  },
+  {
+    "objectID": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-1",
+    "href": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-1",
+    "title": "Causal Inference 1",
+    "section": "Why can’t we just observe how individuals change over time?",
+    "text": "Why can’t we just observe how individuals change over time?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(0.9, 1.3, 1.7, 2.1)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"blue\") ) +\n  coord_cartesian(ylim = c(1, 1.85), clip = \"on\") +\n  theme(legend.position = \"none\", text = element_text(size=20))"
+  },
+  {
+    "objectID": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-2",
+    "href": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-2",
+    "title": "Causal Inference 1",
+    "section": "Why can’t we just observe how individuals change over time?",
+    "text": "Why can’t we just observe how individuals change over time?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.2, 1.4, NA, \n            NA, 1.3, 1.7, NA)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(limits = c(1,1.85), breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"red\", \"blue\") ) +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
+  },
+  {
+    "objectID": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-3",
+    "href": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-3",
+    "title": "Causal Inference 1",
+    "section": "Why can’t we just observe how individuals change over time?",
+    "text": "Why can’t we just observe how individuals change over time?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(1, 1.2, 1.4, 1.6, \n            0.9, 1.3, 1.7, 2.1)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"red\", \"blue\") ) +\n  coord_cartesian(ylim = c(1, 1.85), clip = \"on\") +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
+  },
+  {
+    "objectID": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-4",
+    "href": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-4",
+    "title": "Causal Inference 1",
+    "section": "Why can’t we just observe how individuals change over time?",
+    "text": "Why can’t we just observe how individuals change over time?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.2, 1.4, NA, \n            NA, 1.3, 1.7, NA, \n            NA, 1.3, 1.5, NA)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\",\n              \"Comparison\",\"Comparison\",\"Comparison\",\"Comparison\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(limits = c(1,1.85), breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"dotted\", \"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"black\", \"red\", \"blue\") ) +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
+  },
+  {
+    "objectID": "slides/03-causal.html#dealing-with-small-sample-sizes",
+    "href": "slides/03-causal.html#dealing-with-small-sample-sizes",
+    "title": "Causal Inference 1",
+    "section": "Dealing with Small Sample Sizes",
+    "text": "Dealing with Small Sample Sizes\n\nRe-randomization\nBlocking\nNon-bipartite matching"
+  },
+  {
+    "objectID": "slides/03-causal.html#counterpoint",
+    "href": "slides/03-causal.html#counterpoint",
+    "title": "Causal Inference 1",
+    "section": "Counterpoint",
+    "text": "Counterpoint"
+  },
+  {
+    "objectID": "slides/03-causal.html#section",
+    "href": "slides/03-causal.html#section",
+    "title": "Causal Inference 1",
+    "section": "",
+    "text": "Duflo: big picture + details\nWhy focus on details: 1. policymakers don’t have time to focus on details 2. details make all of the difference\nExample of water connections: - Big picture: people really need water - Details: they won’t navigate bureaucracy\n\nDesign of the tap: details about communication or defaults\nLayout of the pipes: logistics of authority and responsibility\n\nPlumbing vs Science\n\n“It turns out that most policymakers, and most bureaucrats, are not very good plumbers.”\n“And not all plumbers need to be economists. Sometimes, what a policymaker needs is a good software engineer, lawyer, or subject expert” “To summarize, economists have the disciplinary training to make good plumbers: economics trains us in behavioral science, incentives issues, and firm behavior; it also gives us an understanding of both governments and firms as organizations, though more work probably remains to be done there. We economists are even equipped to think about market equilibrium consequences of apparently small changes. This comparative advantage, along with the importance of getting these issues right, makes it a responsibility for our profession to engage with the world on those terms.” “Plumbing experiments, since they are primarily motivated by pragmatism, must focus on what is important for the world, not necessarily on the very subtle issues that theorists would find worth discussing.” “Scientists design general frames, engineers turn them into relevant machinery, and plumbers finally make them work in a complicated, messy policy environment.”\n\nAny normatively uncomfortable findings?\nM2: What do we mean by ‘development’ and why do we study it? - What causes development and can we cause it to happen? Probably not really. - So what is the role of social scientists: Duflo; help at the margins. Answer questions like: – basic research: what do people want/need? What is preventing that from happening? – applied research: do specific things work to resolve these issues? – “There may not be a theory fully worked out to accommodate these features, but she can use computation and lab experiments to simulate how they will play out” – “The uncertainty in the environment creates a highly stochastic world: the natural way to “pay attention” to what happens, as I will argue below, is thus to analyze natural experiments or set up field experiments to try out different plumbing possibilities.\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   }
 ]
