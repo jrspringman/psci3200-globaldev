@@ -214,7 +214,7 @@
     "href": "slides/01-intro.html#course-description",
     "title": "Introduction to PSCI 3200",
     "section": "Course Description",
-    "text": "Course Description\n\n\n\n\nBlending subject-matter, research methods, and computational tools\nFocusing on the type of work that goes on with and within development agencies\nAlmost no math"
+    "text": "Course Description\n\n\nBlending subject-matter, research methods, and computational tools\nFocusing on the type of work that goes on with and within development agencies\nAlmost no math; very little theory\n\n\n\n\n\nBest suited for folks that have small background in all 3 areas"
   },
   {
     "objectID": "slides/01-intro.html#course-objectives",
@@ -242,7 +242,7 @@
     "href": "slides/01-intro.html",
     "title": "Introduction to PSCI 3200",
     "section": "",
-    "text": "Background:\n\nPhD from UPenn PSCI, Postdoc at Duke\nVery applied work; PI on Machine Learning for Peace\n\nInterests:\n\nDemocracy and civil society, foreign aid and NGOs\nRandomized experiments, machine learning\nField Projects: Uganda, Ethiopia, Cambodia, Serbia\nImproving research for decision makers\n\n\n\n\nTell us:\n\nName, Year, Major\nOne thing you’re interested in\nOne thing you’d like to get from the course"
+    "text": "Introductions\nCourse Description and Objectives\nRequirements\nPolicies\nSchedule\n\n\n\nemail\ncourse website\nsurvey"
   },
   {
     "objectID": "slides/01-intro.html#you",
@@ -263,7 +263,7 @@
     "href": "slides/01-intro.html#me",
     "title": "Introduction to PSCI 3200",
     "section": "Me",
-    "text": "Me\nBackground:\n\nPhD from UPenn PSCI, Postdoc at Duke\nVery applied work\n\nInterests:\n\nDemocracy and civil society, foreign aid and NGOs\nRandomized experiments, machine learning\nField Projects: Uganda, Ethiopia, Cambodia, Serbia\nImproving research for decision makers"
+    "text": "Me\nBackground:\n\nPhD from UPenn PSCI, Postdoc at Duke\nVery applied work\n\nInterests:\n\nDemocracy and civil society, foreign aid and NGOs\nRandomized experiments, machine learning\nField Projects: Uganda, Ethiopia, Cambodia, Serbia"
   },
   {
     "objectID": "materials/02_causal.html",
@@ -375,21 +375,21 @@
     "href": "slides/01-intro.html#course-description-1",
     "title": "Introduction to PSCI 3200",
     "section": "Course Description",
-    "text": "Course Description\n\nFollow-up to PSCI 1102\n\n1102 covered big academic debates that we won’t (ex. institutions vs geography)\nThis research is the domain of academics conducting basic research\n\nFocus on applied research with development agencies/industry\n\nWe can’t change geography or airlift new institutions\nWe can use insights from academic work to improve governance and wellbeing (malaria pills, institutional reforms)"
+    "text": "Course Description\n\nFollow-up to PSCI 1102\n\n1102 covered big academic debates that we won’t (ex. institutions vs geography)\nThis research is the domain of academics conducting basic research\n\nFocus on applied research with development agencies/industry\n\nWe can’t change geography or airlift new institutions\nWe can use insights from academic work to improve governance and wellbeing (malaria pills, institutional reforms)\n\n\n\n\nsuper applied work is based partly on big picture/theory/basic research, so we’ll see some of that too\nI’ll often focus on my own research because it’s highly applied and you can get a sense of what research looks like mid-stream"
   },
   {
     "objectID": "slides/01-intro.html#course-description-2",
     "href": "slides/01-intro.html#course-description-2",
     "title": "Introduction to PSCI 3200",
     "section": "Course Description",
-    "text": "Course Description\n\nMethods:\n\nDeepen understanding of ‘workhorse’ statistical methods and research designs\nHow these methods can be used to make inferences about population characteristics and causal relationships\n\nTools\n\nIntroduce the computational tools that are needed to implement these methods\nSoftware necessary to prepare professional documents and reproducible data analysis workflows"
+    "text": "Course Description\n\n\n\nSubstantive focus areas\n\nDemocracy and Autocratization\nMigration\nCrime and Conflict\nForeign Aid\nClimate change and adaptation"
   },
   {
     "objectID": "slides/01-intro.html#prerequisites",
     "href": "slides/01-intro.html#prerequisites",
     "title": "Introduction to PSCI 3200",
     "section": "Prerequisites",
-    "text": "Prerequisites\n\n\n\nSubstance (PSCI 1102)\n\nBig academic debates in development research (PSCI 1102)\n\nMethods and Tools (PSCI 1800)\n\nBasic familiarity with R and RStudio\nBasic knowledge of statistics/econometrics/data science"
+    "text": "Prerequisites\n\n\n\nSubstance\n\nBig academic debates in development research (PSCI 1102)\n\nMethods and Tools (PSCI 1800)\n\nBasic familiarity with R and RStudio\nBasic knowledge of statistics/econometrics/data science\n\n\n\nif you didn’t take 1102, talk with me; I can give you a copy of the syllabus"
   },
   {
     "objectID": "slides/01-intro.html#requirements",
@@ -478,30 +478,30 @@
   {
     "objectID": "materials/04_causal.html",
     "href": "materials/04_causal.html",
-    "title": "Causal Inference",
+    "title": "Sampling and Population Characteristics",
     "section": "",
-    "text": "Install Quarto"
+    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation\n\nDSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
   },
   {
     "objectID": "materials/04_causal.html#required-readings",
     "href": "materials/04_causal.html#required-readings",
-    "title": "Causal Inference",
+    "title": "Sampling and Population Characteristics",
     "section": "",
-    "text": "Install Quarto"
+    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation\n\nDSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
   },
   {
     "objectID": "materials/04_causal.html#slides",
     "href": "materials/04_causal.html#slides",
-    "title": "Causal Inference",
+    "title": "Sampling and Population Characteristics",
     "section": "Slides",
     "text": "Slides\n\nThursday (1/18) lecture: Slides"
   },
   {
     "objectID": "materials/04_causal.html#interesting-stuff-non-required",
     "href": "materials/04_causal.html#interesting-stuff-non-required",
-    "title": "Causal Inference",
+    "title": "Sampling and Population Characteristics",
     "section": "Interesting Stuff (non-required)",
-    "text": "Interesting Stuff (non-required)"
+    "text": "Interesting Stuff (non-required)\n\nAndrew Heiss’s Quarto Resource\nHadley Wickham’s Quarto Guide"
   },
   {
     "objectID": "materials/03_causal.html#tasks",
@@ -556,15 +556,15 @@
     "objectID": "slides/03-causal.html#assignments",
     "href": "slides/03-causal.html#assignments",
     "title": "Causal Inference 1",
-    "section": "Assignments",
-    "text": "Assignments\n\nIf you didn’t post your git handle on Slack, please do\nNext week:\n\nReadings\nInstall Quarto and create an empty pdf\nI’ll put some helpful resources on next week’s page"
+    "section": "",
+    "text": "If you didn’t post your git handle on Slack, please do\nNext week:\n\nReadings\nInstall Quarto and create an empty pdf\nI’ll put some helpful resources on next week’s page"
   },
   {
     "objectID": "slides/03-causal.html#agenda",
     "href": "slides/03-causal.html#agenda",
     "title": "Causal Inference 1",
-    "section": "Agenda",
-    "text": "Agenda\n\nHow to follow-along with the slides\nEstimating Causal Effects with Randomized Experiments\nRCTs in International Development\nEconomists as Plumbers"
+    "section": "",
+    "text": "How to follow-along with the slides\nEstimating Causal Effects with Randomized Experiments\nRCTs in International Development\nEconomists as Plumbers"
   },
   {
     "objectID": "slides/03-causal.html#how-do-we-think-about-causality",
@@ -613,7 +613,7 @@
     "href": "slides/03-causal.html#cant-we-just-observe-and-compare-2",
     "title": "Causal Inference 1",
     "section": "Can’t we just observe and compare?",
-    "text": "Can’t we just observe and compare?\n\n\nExample: What is the effect of class size on test scores"
+    "text": "Can’t we just observe and compare?\n\n\nExample: What is the effect of class size on test scores\n\n\n\nAttaching package: 'ggdag'\n\n\nThe following object is masked from 'package:stats':\n\n    filter"
   },
   {
     "objectID": "slides/03-causal.html#cant-we-just-observe-and-compare-3",
@@ -865,7 +865,7 @@
     "href": "slides/03-causal.html#cant-we-just-observe-and-compare-10",
     "title": "Causal Inference 1",
     "section": "Can’t we just observe and compare?",
-    "text": "Can’t we just observe and compare?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Can’t we just observe and compare?"
   },
   {
     "objectID": "slides/03-causal.html#impact-evaluations-vs-me",
@@ -1076,5 +1076,103 @@
     "title": "Correlation and Causation",
     "section": "Next Meeting",
     "text": "Next Meeting\n\nRandomized experiments\n\nReview of FPCI\nHow randomization addresses confounding\n\nThe role of social science researchers?\n\nWhat should people with social science training be doing with their skills?\n\nFinal Project\n\nWhat are your options?\nPossible data sources"
+  },
+  {
+    "objectID": "materials/04_causal.html#tasks",
+    "href": "materials/04_causal.html#tasks",
+    "title": "Sampling and Population Characteristics",
+    "section": "Tasks",
+    "text": "Tasks\n\nInstall Quarto and produce a blank document\n\nInstalling Quarto\nInstalling on Windows\nInstalling on Mac\nIntro to Quarto"
+  },
+  {
+    "objectID": "slides/01-intro.html#agenda",
+    "href": "slides/01-intro.html#agenda",
+    "title": "Introduction to PSCI 3200",
+    "section": "",
+    "text": "Introductions\nCourse Description and Objectives\nRequirements\nPolicies\nSchedule\n\n\n\nemail\ncourse website\nsurvey"
+  },
+  {
+    "objectID": "slides/01-intro.html#course-description-3",
+    "href": "slides/01-intro.html#course-description-3",
+    "title": "Introduction to PSCI 3200",
+    "section": "Course Description",
+    "text": "Course Description\n\nMethods:\n\nDeepen understanding of ‘workhorse’ statistical methods and research designs\nHow these methods can be used to make inferences about population characteristics and causal relationships\n\nTools\n\nIntroduce the computational tools that are needed to implement these methods\nSoftware necessary to prepare professional documents and reproducible data analysis workflows"
+  },
+  {
+    "objectID": "slides/01-intro.html#late-submissions-and-regrading",
+    "href": "slides/01-intro.html#late-submissions-and-regrading",
+    "title": "Introduction to PSCI 3200",
+    "section": "Late Submissions and Regrading",
+    "text": "Late Submissions and Regrading\n\nLate submission of assignments\n\npenalty of 2 points for every day late\nexcept in documented cases of serious illness or family emergency\n\nRegrade request\n\ndetailed write-up of your dispute\nRegrade of the entire assignment (might increase or decrease)"
+  },
+  {
+    "objectID": "slides/01-intro.html#use-of-ai-tools",
+    "href": "slides/01-intro.html#use-of-ai-tools",
+    "title": "Introduction to PSCI 3200",
+    "section": "Use of AI Tools",
+    "text": "Use of AI Tools\n\nYou are welcome to use generative AI tools\nIt is important to gain experience integrating them into professional tasks\nAI tools frequently make errors and ‘hallucinate’ (journal articles, R functions, etc.)\nIt is your responsibility to verify the information provided\nYou must disclose your use of AI tools for assignments in the form of footnotes or citations"
+  },
+  {
+    "objectID": "slides/01-intro.html#electronic-devices",
+    "href": "slides/01-intro.html#electronic-devices",
+    "title": "Introduction to PSCI 3200",
+    "section": "Electronic Devices",
+    "text": "Electronic Devices\n\n\n\nLaptops will be required in class\nAll other electronic devices should be silenced and hidden\nPlease don’t make me devise consequences for violating this policy"
+  },
+  {
+    "objectID": "slides/01-intro.html#controversial-topics-and-statements",
+    "href": "slides/01-intro.html#controversial-topics-and-statements",
+    "title": "Introduction to PSCI 3200",
+    "section": "Controversial Topics and Statements",
+    "text": "Controversial Topics and Statements\n\nDiverse perspectives, experiences, and backgrounds are essential for effective development research and practice\nContact me directly if you feel we’re not achieving an inclusive environment\nStudents are required to treat one another with respect\nEngage with any evidence that challenges your prior beliefs"
+  },
+  {
+    "objectID": "slides/01-intro.html#academic-honesty",
+    "href": "slides/01-intro.html#academic-honesty",
+    "title": "Introduction to PSCI 3200",
+    "section": "Academic Honesty",
+    "text": "Academic Honesty\n\nStudents are expected to follow the University of Pennsylvania’s Code of Academic Integrity\nSuspected violations will be referred to university administration for disciplinary action."
+  },
+  {
+    "objectID": "slides/03-causal.html",
+    "href": "slides/03-causal.html",
+    "title": "Causal Inference 1",
+    "section": "",
+    "text": "If you didn’t post your git handle on Slack, please do\nNext week:\n\nReadings\nInstall Quarto and create an empty pdf\nI’ll put some helpful resources on next week’s page\n\n\n\n\n\n\nHow to follow-along with the slides\nEstimating Causal Effects with Randomized Experiments\nRCTs in International Development\nEconomists as Plumbers"
+  },
+  {
+    "objectID": "materials/04_sampling.html",
+    "href": "materials/04_sampling.html",
+    "title": "Sampling and Population Characteristics",
+    "section": "",
+    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation\n\nDSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
+  },
+  {
+    "objectID": "materials/04_sampling.html#required-readings",
+    "href": "materials/04_sampling.html#required-readings",
+    "title": "Sampling and Population Characteristics",
+    "section": "",
+    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation\n\nDSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
+  },
+  {
+    "objectID": "materials/04_sampling.html#tasks",
+    "href": "materials/04_sampling.html#tasks",
+    "title": "Sampling and Population Characteristics",
+    "section": "Tasks",
+    "text": "Tasks\n\nInstall Quarto and produce a blank document\n\nInstalling Quarto\nInstalling on Windows\nInstalling on Mac\nIntro to Quarto"
+  },
+  {
+    "objectID": "materials/04_sampling.html#slides",
+    "href": "materials/04_sampling.html#slides",
+    "title": "Sampling and Population Characteristics",
+    "section": "Slides",
+    "text": "Slides\n\nThursday (1/18) lecture: Slides"
+  },
+  {
+    "objectID": "materials/04_sampling.html#interesting-stuff-non-required",
+    "href": "materials/04_sampling.html#interesting-stuff-non-required",
+    "title": "Sampling and Population Characteristics",
+    "section": "Interesting Stuff (non-required)",
+    "text": "Interesting Stuff (non-required)\n\nAndrew Heiss’s Quarto Resource\nHadley Wickham’s Quarto Guide"
   }
 ]
