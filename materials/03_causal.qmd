@@ -15,7 +15,7 @@ date: 2024-01-24
 
 ## Slides
 
-- [Slides](/slides/03-causals.html)
+- [Slides](/slides/03-causal.html)
 
 ## Interesting Stuff (non-required)
 
