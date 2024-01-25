@@ -556,15 +556,15 @@
     "objectID": "slides/03-causal.html#assignments",
     "href": "slides/03-causal.html#assignments",
     "title": "Causal Inference 1",
-    "section": "",
-    "text": "If you didn’t post your git handle on Slack, please do\nNext week:\n\nReadings\nInstall Quarto and create an empty pdf\nI’ll put some helpful resources on next week’s page"
+    "section": "Assignments",
+    "text": "Assignments\n\nIf you didn’t post your git handle on Slack, please do\nNext week:\n\nReadings\nInstall Quarto and create an empty pdf\nI’ll put some helpful resources on next week’s page"
   },
   {
     "objectID": "slides/03-causal.html#agenda",
     "href": "slides/03-causal.html#agenda",
     "title": "Causal Inference 1",
-    "section": "",
-    "text": "How to follow-along with the slides\nEstimating Causal Effects with Randomized Experiments\nRCTs in International Development\nEconomists as Plumbers"
+    "section": "Agenda",
+    "text": "Agenda\n\nHow to follow-along with the slides\nEstimating Causal Effects with Randomized Experiments\nRCTs in International Development\nEconomists as Plumbers"
   },
   {
     "objectID": "slides/03-causal.html#how-do-we-think-about-causality",
@@ -613,7 +613,7 @@
     "href": "slides/03-causal.html#cant-we-just-observe-and-compare-2",
     "title": "Causal Inference 1",
     "section": "Can’t we just observe and compare?",
-    "text": "Can’t we just observe and compare?\n\n\nExample: What is the effect of class size on test scores\n\n\n\nAttaching package: 'ggdag'\n\n\nThe following object is masked from 'package:stats':\n\n    filter"
+    "text": "Can’t we just observe and compare?\n\n\nExample: What is the effect of class size on test scores"
   },
   {
     "objectID": "slides/03-causal.html#cant-we-just-observe-and-compare-3",
@@ -865,7 +865,7 @@
     "href": "slides/03-causal.html#cant-we-just-observe-and-compare-10",
     "title": "Causal Inference 1",
     "section": "Can’t we just observe and compare?",
-    "text": "Can’t we just observe and compare?"
+    "text": "Can’t we just observe and compare?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
     "objectID": "slides/03-causal.html#impact-evaluations-vs-me",
