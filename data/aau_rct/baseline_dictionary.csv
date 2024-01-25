@@ -1,0 +1,106 @@
+qualtrics_name,description,values
+user_language,User Language,"AMH, EN, AFAN_OROMO, SO"
+q2,Do you agree to participate in the survey?,"Yes, No"
+q3,How do you describe your gender?,"Female, Male"
+q4,Do you work to support yourself while you are a student?,"Yes, No"
+q5,"Thinking about where you grew up, would you say your upbringing was mostly Urban or Rural?","Urban, Rural"
+q6,Do you receive financial support from your parents or other members of your family to help pay your tuition or living expenses?,"No, Yes"
+q8,"Before coming to AAU, which of Ethiopia’s 13 regions did you reside in? - Selected Choice","Addis Ababa, Oromia Region, Other, Tigray Region, Dire Dawa (city), Amhara Region, Sidama Region, Southern Nations, Nationalities, and Peoples Region, Somali Region, Harari Region, Prefer not to say, Benishangul-Gumuz Region, South West Ethiopia Peoples Region, Afar Region, Gambela Region"
+q9,"Thinking about your family heritage, what is the ethnic community, cultural group, or tribe that your family belongs to? If your family comes from multiple groups, you may select more than one. - Selected Choice","Other, Prefer not to say, Amhara, Amhara,Oromo,Welayta, Amhara,Oromo, Oromo, Guragie,Oromo, Amhara,Tigre, Tigre, Amhara,Guragie,Oromo,Tigre, Guragie, Sidama, Adere (Harari),Amhara,Oromo, Adere (Harari),Amhara, Silte,Other, Amhara,Guragie, Kembata, Silte, Amhara,Prefer not to say, Amhara,Other, Welayta, Adere (Harari), Guragie,Welayta, Somali, Amhara,Guragie,Oromo,Silte, Gamo, Hadiya, Amhara,Guragie,Oromo, Amhara,Oromo,Tigre, Oromo,Other, Gamo,Kaffa, Amhara,Guragie,Oromo,Somali, Guragie,Hadiya, Prefer not to say,Other, Hadiya,Kembata, Hadiya,Other, Gamo,Welayta, Amhara,Oromo,Other, Welayta,Other, Amhara,Silte, Amhara,Hadiya, Shinasha, Gamo,Oromo, Amhara,Tigre,Other, Oromo,Sidama, Guragie,Tigre, Amhara,Welayta, Adere (Harari),Afar,Amhara,Oromo,Tigre, Amhara,Oromo,Prefer not to say, Sidama,Other, Guragie,Oromo,Prefer not to say, Gedeo,Oromo, Amhara,Hadiya,Kembata, Amhara,Guragie,Hadiya, Amhara,Kembata,Oromo, Kembata,Oromo, Hadiya,Oromo, Gedeo, Oromo,Welayta, Kembata,Prefer not to say, Amhara,Guragie,Oromo,Other, Amhara,Oromo,Tigre,Other, Nuer, Kaffa, Oromo,Tigre, Amhara,Oromo,Sidama,Welayta, Oromo,Somali, Adere (Harari),Oromo, Amhara,Gumuz, Agnawak"
+q10_1,"Most people have different identities or groups that they identify with. Some Ethiopians identify most strongly with their region, others with their ethnic community, while others identify most strongly with the country as a whole. Looking at the three identities below, please rank them from ""1"" to ""3"", where ""1"" is your most important identity and ""3"" is your least important identity. - Ethiopian","3, 2, 1"
+q10_2,"Most people have different identities or groups that they identify with. Some Ethiopians identify most strongly with their region, others with their ethnic community, while others identify most strongly with the country as a whole. Looking at the three identities below, please rank them from ""1"" to ""3"", where ""1"" is your most important identity and ""3"" is your least important identity. - My home region","2, 3, 1"
+q10_3,"Most people have different identities or groups that they identify with. Some Ethiopians identify most strongly with their region, others with their ethnic community, while others identify most strongly with the country as a whole. Looking at the three identities below, please rank them from ""1"" to ""3"", where ""1"" is your most important identity and ""3"" is your least important identity. - My ethnic group","1, 3, 2"
+q11_1,How often do you get news from the following sources? - Radio,"A few times a week, Never, A few times a month, Less than once a month, Every day"
+q11_2,How often do you get news from the following sources? - Television,"Every day, Less than once a month, A few times a week, A few times a month, Never"
+q11_3,How often do you get news from the following sources? - Print or online newspapers,"A few times a month, Never, Less than once a month, A few times a week, Every day"
+q11_4,"How often do you get news from the following sources? - Social media such as Facebook, Twitter, WhatsApp, or others","Every day, A few times a month, Never, A few times a week, Less than once a month"
+q12,How often do you post or share something about politics or current events on social media?,"Never, Less than once a month, A few times a week, A few times a month, Every day"
+q13_1,"Here is a list of actions that people sometimes take as citizens. For each of these, please tell me whether you have taken any of these actions during the past twelve months. - Attended a community or student government meeting","Never, More than 10 times, More than 5 times, More than twice, Once or Twice"
+q13_2,"Here is a list of actions that people sometimes take as citizens. For each of these, please tell me whether you have taken any of these actions during the past twelve months. - Participated in a demonstration or protest","Never, Once or Twice, More than 10 times, More than twice, More than 5 times"
+q13_3,"Here is a list of actions that people sometimes take as citizens. For each of these, please tell me whether you have taken any of these actions during the past twelve months. - Attended an event organized by an NGO","Never, Once or Twice, More than 10 times, More than 5 times, More than twice"
+q13_4,"Here is a list of actions that people sometimes take as citizens. For each of these, please tell me whether you have taken any of these actions during the past twelve months. - Signed a petition","Never, Once or Twice, More than 5 times, More than twice, More than 10 times"
+q13_5,"Here is a list of actions that people sometimes take as citizens. For each of these, please tell me whether you have taken any of these actions during the past twelve months. - Contacted a government official to ask for help or make a complaint","Never, Once or Twice, More than twice, More than 10 times, More than 5 times"
+q13_6,"Here is a list of actions that people sometimes take as citizens. For each of these, please tell me whether you have taken any of these actions during the past twelve months. - Contacted a community or student government representative to ask for help or make a complaint","Never, More than 10 times, Once or Twice, More than twice, More than 5 times"
+q13_7,"Here is a list of actions that people sometimes take as citizens. For each of these, please tell me whether you have taken any of these actions during the past twelve months. - Contacted an NGO to ask for help or make a complaint","Never, More than 10 times, Once or Twice, More than twice, More than 5 times"
+q14_1,"When thinking about these kinds of actions, how often would you say you were prevented from doing them by the following obstacles: - Lack of time or economic resources","Never, More than 5 times, More than 10 times, Once or Twice, More than twice"
+q14_2,"When thinking about these kinds of actions, how often would you say you were prevented from doing them by the following obstacles: - Fear of other people’s opinions","Never, Once or Twice, More than twice, More than 5 times, More than 10 times"
+q14_3,"When thinking about these kinds of actions, how often would you say you were prevented from doing them by the following obstacles: - Fear of other consequences","Never, More than twice, More than 5 times, Once or Twice, More than 10 times"
+q14_4,"When thinking about these kinds of actions, how often would you say you were prevented from doing them by the following obstacles: - Lack of interest","Never, More than 10 times, More than 5 times, Once or Twice, More than twice"
+q14_5,"When thinking about these kinds of actions, how often would you say you were prevented from doing them by the following obstacles: - Lack of information","Never, More than twice, Once or Twice, More than 5 times, More than 10 times"
+q15_1,"Now I am going to read out a list of groups that people join or attend. For each one, could you tell me whether you are a CURRENT official leader, an active member, an inactive member, or not a member. - A religious group that meets outside of regular worship services","Not a member, Inactive member, Active member, Official leader, Prefer not to say"
+q15_2,"Now I am going to read out a list of groups that people join or attend. For each one, could you tell me whether you are a CURRENT official leader, an active member, an inactive member, or not a member. - A group of people that share the same ethnicity or culture and meet regularly to discuss or advance the interests of the group.","Not a member, Prefer not to say, Active member, Inactive member, Official leader"
+q15_3,"Now I am going to read out a list of groups that people join or attend. For each one, could you tell me whether you are a CURRENT official leader, an active member, an inactive member, or not a member. - An organization associated with a political party","Not a member, Prefer not to say, Inactive member, Official leader, Active member"
+q15_4,"Now I am going to read out a list of groups that people join or attend. For each one, could you tell me whether you are a CURRENT official leader, an active member, an inactive member, or not a member. - Some other voluntary association or community group (NGOs, idirs, etc.)","Active member, Inactive member, Not a member, Official leader, Prefer not to say"
+q16_1,"Now I am going to read out a list of groups that people join or attend. For each one, could you tell me whether you INTEND to become a member. - A religious group that meets outside of regular worship services","No, Yes"
+q16_2,"Now I am going to read out a list of groups that people join or attend. For each one, could you tell me whether you INTEND to become a member. - A group of people that share the same ethnicity or culture and meet regularly to discuss or advance the interests of the group.","No, Yes"
+q16_3,"Now I am going to read out a list of groups that people join or attend. For each one, could you tell me whether you INTEND to become a member. - An organization associated with a political party","No, Yes"
+q16_4,"Now I am going to read out a list of groups that people join or attend. For each one, could you tell me whether you INTEND to become a member. - Some other voluntary association or community group (NGOs, idirs, etc.)","Yes, No"
+q17_1,"Please read the following statements and consider the extent to which you agree or disagree. Slide the bar to indicate your level of agreement, with 0 meaning that you do not agree at all with the statement and 10 meaning that you completely agree. - The youth in this country are given adequate opportunities to engage in social, economic and political affairs.","0, 6, 2, 5, 8, 3, 1, 7, 4, 9, 10"
+q17_2,"Please read the following statements and consider the extent to which you agree or disagree. Slide the bar to indicate your level of agreement, with 0 meaning that you do not agree at all with the statement and 10 meaning that you completely agree. - The active participation  of the youth in the social and political affairs of Ethiopia can help bring positive changes in the country.","10, 5, 3, 9, 4, 8, 1, 7, 0, 2, 6"
+q17_3,"Please read the following statements and consider the extent to which you agree or disagree. Slide the bar to indicate your level of agreement, with 0 meaning that you do not agree at all with the statement and 10 meaning that you completely agree. - Your own personal participation in the social and political affairs of Ethiopia can help bring positive changes in the country.","5, 10, 9, 4, 2, 8, 0, 6, 7, 1, 3"
+q18,"There are many ways to govern a country. Would you disagree or agree with the following statement: 
+
+Only one political party should be allowed to stand for election and hold office.","Neither agree nor disagree, Strongly disagree, Somewhat agree, Somewhat disagree, Strongly agree"
+q19,"Which of the following statements is closest to your view?
+
+
+Statement A: Whichever party or group wins elections should be able to pursue the policies they prefer, without needing to compromise with others.
+
+
+
+Statement B: In a democracy, it is important to make compromises between the preferences and needs of different groups.","I agree with neither, I agree with B, I agree strongly with B, I agree with A, I agree strongly with A"
+q20,"Which of the following statements is closest to your view?
+
+
+Statement A: Communities are stronger when they are made up of people from different ethnic groups, races, or religions.
+
+
+
+Statement B: Communities are stronger when they are made up of people who are similar to each other, that is, people from the same ethnic group, race, or religion.","I agree with neither, I agree with A, I agree strongly with A, I agree with B, I agree strongly with B"
+q21,"Which of the following statements is closest to your view?
+
+
+Statement A: When dealing with other people, most people can be trusted.
+
+
+
+Statement B: When dealing with other people, you must be very careful.","I agree with B, I agree with neither, I agree strongly with B, I agree with A, I agree strongly with A"
+q22,"Ethiopians are very diverse. They come from different religions, ethnic groups, political parties, and economic and social backgrounds. Which of the following statements is closest to your view?
+
+
+Statement A: Overall, there is more that unites all Ethiopian as one people, than there is that divides them.
+
+
+
+Statement B: Overall, there is more that divides Ethiopian into different social and political groups, than there is that unites them as a single group.","I agree strongly with A, I agree with neither, I agree with A, I agree with B, I agree strongly with B"
+q23,"Which of the following statements is closest to your view?
+
+
+Statement A: In Ethiopia, federal states should continue to be defined based on ethnic homelands.
+
+
+Statement B: In Ethiopia, federal states should change so that they are defined based on geographical features, not ethnic homelands.","I agree with neither, I agree strongly with B, I agree with A, I agree with B, I agree strongly with A"
+q24,"""I have been treated unfairly by others because of my ethnicity."" To what extent do you agree or disagree?","Strongly agree, Neither agree nor disagree, Strongly disagree, Agree, Disagree"
+q25_1,"For each of the following types of people, please tell me whether you would like having people from this group as neighbours, dislike it, or not care: - People from other ethnic groups","Strongly like, Neither like nor dislike, Somewhat like, Somewhat dislike, Strongly dislike"
+q25_2,"For each of the following types of people, please tell me whether you would like having people from this group as neighbours, dislike it, or not care: - People who support a different political party","Neither like nor dislike, Strongly like, Somewhat like, Somewhat dislike, Strongly dislike"
+q25_3,"For each of the following types of people, please tell me whether you would like having people from this group as neighbours, dislike it, or not care: - People migrating from a different region of the country","Somewhat like, Neither like nor dislike, Strongly like, Strongly dislike, Somewhat dislike"
+q26,"Thinking about the work that you would like to do after you graduate, what field do you think that you will work in?","Public sector or civil service (ex. public university, government ministry), Civil society (private not-for-profit organizations), Business sector (private for-profit companies), I don't know yet, Politics (pursuing elected office or working for a campaign or political party)"
+q27_1,"In the last few years, have you ever thought about taking the following actions? - Running for political office","No, I have not thought about it, Yes, it has crossed my mind"
+q27_2,"In the last few years, have you ever thought about taking the following actions? - Starting a business","Yes, it has crossed my mind, No, I have not thought about it"
+q27_3,"In the last few years, have you ever thought about taking the following actions? - Starting a non-governmental organization","No, I have not thought about it, Yes, it has crossed my mind"
+q28,"Thinking now about once you have completed your education at AAU, do you have any plans to move to another place outside of Addis Ababa?","I don't know my plans yet, No, I plan to stay in Addis, Yes, I plan to move to another region, Yes, I plan to move back to my home region"
+q29,"What are the main reasons you plan to move there?
+
+Please select all that apply. - Selected Choice","Job opportunities, Other, Job opportunities,Other educational opportunities, Job opportunities,Other educational opportunities,Other, Job opportunities,Other, Other educational opportunities, Proximity to family, Job opportunities,Other educational opportunities,Proximity to family, Other educational opportunities,Proximity to family, Proximity to family,Other, Other educational opportunities,Other, Job opportunities,Other educational opportunities,Proximity to family,Other, Job opportunities,Proximity to family,Other, Job opportunities,Proximity to family"
+q30,"What are the main reasons you plan to stay in Addis?
+
+Please select all that apply. - Selected Choice","Job opportunities, Job opportunities,Other educational opportunities,Other, Job opportunities,Other educational opportunities,Proximity to family, Job opportunities,Other, Other educational opportunities, Other, Job opportunities,Other educational opportunities, Job opportunities,Other educational opportunities,Proximity to family,Other, Proximity to family, Job opportunities,Proximity to family, Other educational opportunities,Proximity to family, Job opportunities,Proximity to family,Other, Proximity to family,Other, Other educational opportunities,Other"
+q31,"We are now interested in learning about social life at AAU.
+
+
+Thinking about the average week, how many friends or family members do you talk with on the phone, online, or in person?","4, 1, 3, 50, 10, 40, 5, 15, 25, 8, 5.30, 7, 20, 12, 18, 100, 6, 2, 13, 0, 21, 9, 30, 16, 250, 70, 17, 110, 11, 400, 35, 943804526, 930005969, 87, 45, 60, 124, 56, 33, 28, 21.5, 19, 22, 27, 1000, 985980440, 939376535"
+q38,How interested are you in participating in this one-day event?,"Very interested, Very uninterested, Somewhat interested, Somewhat uninterested"
+q45_1,"Under the new system, how do you think that power should be divided between the states and the central government? On a scale from 0 to 10, how much power do you think should go to the federal government? - How much power should go to the federal government?","1, 5, 7, 6, 4, 10, 9, 8, 3, 2, 0"
+fl_15_do,FL_15 - Block Randomizer - Display Order,"FL_18, FL_17"
+tolerant_engagement_forums_invitation_do,Tolerant Engagement Forums Invitation - Display Order,"Q34, Q35, Q37, Q36"
+federalism_do,Federalism - Display Order,"Q40|Q44|Q45, Q40|Q41|Q45, Q40|Q43|Q45, Q40|Q42|Q45"
