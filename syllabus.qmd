@@ -145,7 +145,7 @@ There are four graded requirements for this course.
 | Milestone                    | Due Date                 |
 |:-----------------------------|:-------------------------|
 | Create a GitHub repository                     | Feb 8th 11:59pm ET |
-| Identify data source                           | Mar 5th 11:59pm ET |
+| Identify data source                           | Feb 29th 11:59pm ET |
 | Submit proposal (research question and design) | Apr 2nd 11:59pm ET |
 | Submit final project (webpage url and repo)    | May 2nd 11:59pm ET |
 

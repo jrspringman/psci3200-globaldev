@@ -3,16 +3,16 @@ week,date,date_end,title,deadline, reading,content,tutorial,assignment,
 2,2024-01-23,,Correlation and Causation,,TCD Ch 2-3,/materials/02_causal,,,Inference
 2,2024-01-25,,Causal Inference 1,,DSS Ch 2; Duflo (2017),/materials/03_causal,,,Inference
 3,2024-01-30,,Survey Research and Linear Regression,,DSS Ch 3-4,/materials/04_survey,,,Inference
-3,2024-02-01,,Introduction to Autocratization,,Waldner and Lust (2018); VDem (2023); Grady ,/materials/05_democracy,/workshop/survey_data,,Democracy
-4,2024-02-06,,Autocratization and Survey Data,,Hollerbauer et al. (2024); Adamu et al. (2024),/materials/06_democracy,/workshop/finance_data,,Democracy
-4,2024-02-08,,Causal Inference 2,,DSS Ch 5,,,/assignments/github_repo,Methods
-5,2024-02-13,,Migration 1,,TBD,,,,Migration
+3,2024-02-01,,Introduction to Autocratization,,Waldner and Lust (2018); VDem (2023); Grady ,,,,Democracy
+4,2024-02-06,,Autocratization and Survey Data,,Hollerbauer et al. (2024); Adamu et al. (2024),,,,Democracy
+4,2024-02-08,,Causal Inference 2,,DSS Ch 5,,/workshop/survey_data,/assignments/github_repo,Methods
+5,2024-02-13,,Migration 1,,TBD,,/workshop/finance_data,,Migration
 5,2024-02-15,,Migration 2 (guest: Wibbels),,TBD,,,,Migration
-6,2024-02-20,,No class,,TBD,,,/assignments/da_1,Migration
-6,2024-02-22,,Crime (guest: Schmidt-Padilla),,TBD,,,,Crime and Conflict
+6,2024-02-20,,Crime & Corruption (guest: Schmidt-Padilla),,TBD,,,/assignments/da_1,Corruption
+6,2024-02-22,,Crime & Corruption (guest: Schmidt-Padilla),,TBD,,,,Corruption
 7,2024-02-27,,Conflict,,Grady et al. (2023),,,,
-7,2024-02-29,,Conflict,,TBD,,,,Methods
-8,2024-03-05,,Spring Break,,TBD,,,/assignments/data_source,
+7,2024-02-29,,Conflict,,TBD,,,/assignments/data_source,Methods
+8,2024-03-05,,Spring Break,,TBD,,,,
 8,2024-03-07,,Spring Break,,TBD,,,,
 9,2024-03-12,,Probability,,DSS Ch 6,,,,
 9,2024-03-14,,Uncertainty,,DSS Ch 7,,,,
