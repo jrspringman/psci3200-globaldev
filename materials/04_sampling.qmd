@@ -1,6 +1,6 @@
 ---
 title: "Sampling and Population Characteristics"
-date: 2024-02-30
+date: 2024-01-30
 ---
 
 
@@ -10,21 +10,16 @@ date: 2024-02-30
   + [interactive visualization: sampling](https://ellaudet.iq.harvard.edu/random_sampling)
   + [interactive visualization: mean and sd](https://ellaudet.iq.harvard.edu/mean_sd)
   + [interactive visualization: correlation](https://ellaudet.iq.harvard.edu/correlation)
-- DSS [Ch 4](/files/dss_ch4.pdf)
-  + [interactive visualization: linear model](https://ellaudet.iq.harvard.edu/linear_model)
-  + [interactive visualization: OLS](https://ellaudet.iq.harvard.edu/least_squares)
 
-## Tasks
+## Assignment
 
 - Install Quarto and produce a blank document
-  + [Installing Quarto](https://quarto.org/docs/get-started/)
-  + [Installing on Windows](https://www.youtube.com/watch?v=JQ8WbI2_Rc4)
-  + [Installing on Mac](https://www.youtube.com/watch?v=786TihPpw-g)
+  + [Instructions](/assignments/01_quarto.html)
   + [Intro to Quarto](https://quarto.org/docs/get-started/hello/rstudio.html)
 
 ## Slides
 
-- Thursday (1/18) lecture: [Slides](/slides/04-sampling.html)
+- [Slides](/slides/04-sampling.html)
 
 ## Interesting Stuff (non-required)
 

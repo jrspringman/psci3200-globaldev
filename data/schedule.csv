@@ -1,31 +1,31 @@
-week,date,date_end,title,deadline, reading,content,tutorial,assignment,
-1,2024-01-18,,Introduction to the course,,,/materials/01_intro,,,
-2,2024-01-23,,Correlation and Causation,,TCD Ch 2-3,/materials/02_causal,,,Inference
-2,2024-01-25,,Causal Inference 1,,DSS Ch 2; Duflo (2017),/materials/03_causal,,,Inference
-3,2024-01-30,,Survey Research and Linear Regression,,DSS Ch 3-4,/materials/04_sampling,,,Inference
-3,2024-02-01,,Introduction to Autocratization,,Waldner and Lust (2018); VDem (2023); Grady ,,,,Democracy
-4,2024-02-06,,Autocratization and Survey Data,,Hollerbauer et al. (2024); Adamu et al. (2024),,,,Democracy
-4,2024-02-08,,Causal Inference 2,,DSS Ch 5,,/workshop/survey_data,/assignments/github_repo,Methods
-5,2024-02-13,,Migration 1,,TBD,,/workshop/finance_data,,Migration
-5,2024-02-15,,Migration 2 (guest: Wibbels),,TBD,,,,Migration
-6,2024-02-20,,Crime & Corruption (guest: Schmidt-Padilla),,TBD,,,/assignments/da_1,Corruption
-6,2024-02-22,,Crime & Corruption (guest: Schmidt-Padilla),,TBD,,,,Corruption
-7,2024-02-27,,Conflict,,Grady et al. (2023),,,,
-7,2024-02-29,,Conflict,,TBD,,,/assignments/data_source,Methods
-8,2024-03-05,,Spring Break,,TBD,,,,
-8,2024-03-07,,Spring Break,,TBD,,,,
-9,2024-03-12,,Probability,,DSS Ch 6,,,,
-9,2024-03-14,,Uncertainty,,DSS Ch 7,,,,
-10,2024-03-19,,TBD,,TBD,,,,
-10,2024-03-21,,TBD,,TBD,,,/assignments/da_2,
-11,2024-03-26,,TBD,,TBD,,,,
-11,2024-03-28,,TBD,,TBD,,,,
-12,2024-04-02,,TBD,,TBD,,,/assignments/fp_proposal,
-12,2024-04-04,,TBD,,TBD,,,,
-13,2024-04-09,,TBD,,TBD,,,,
-13,2024-04-11,,TBD,,TBD,,,,
-14,2024-04-16,,TBD,,TBD,,,,
-14,2024-04-18,,TBD,,TBD,,,,
-15,2024-04-23,,TBD,,TBD,,,,
-15,2024-04-25,,TBD,,TBD,,,/assignments/da_5,
-16,2024-04-30,,TBD,,TBD,,,/assignments/fp_webpage,
+week,date,date_end,title,deadline, reading,content,tutorial,assignment
+1,2024-01-18,,Introduction to the course,,,/materials/01_intro,,
+2,2024-01-23,,Correlation and Causation,,TCD Ch 2-3,/materials/02_causal,,
+2,2024-01-25,,Causal Inference 1,,DSS Ch 2; Duflo (2017),/materials/03_causal,,
+3,2024-01-30,,Survey Research ,,DSS Ch 3,/materials/04_sampling,,/assignments/01_quarto
+3,2024-02-01,,Democracy and Autocratization 1 (Survey Experiments),,Grady; Albertus and Grossman (2021); Hollerbauer et al. (2024),/materials/05_autocracy1,/workshop/survey_data,
+4,2024-02-06,,Linear Regression,,DSS Ch 4,,,/assignments/github_repo
+4,2024-02-08,,Causal Inference 2,,DSS Ch 5,,,
+5,2024-02-13,,Migration 1,,Evidence Action; Gazeaud (2020),,/workshop/khm_budget,
+5,2024-02-15,,Migration 2 (guest: Wibbels),,TBD,,,
+6,2024-02-20,,Crime & Corruption 1 (guest: Schmidt-Padilla),,TBD,,,/assignments/aau_survey
+6,2024-02-22,,Crime & Corruption 2 (guest: Schmidt-Padilla),,TBD,,,
+7,2024-02-27,,Conflict & Cohesion 1,,Paluck et al. (2021); Grady et al. (2023); Mousa (2020),,,
+7,2024-02-29,,Conflict & Cohesion 2,,Conflict,,,/assignments/data_source
+8,2024-03-05,,Spring Break,,,,,
+8,2024-03-07,,Spring Break,,,,,
+9,2024-03-12,,Probability,,DSS Ch 6,,,
+9,2024-03-14,,Uncertainty,,DSS Ch 7,,,
+10,2024-03-19,,Democracy and Autocratization 2,,Waldner and Lust (2018); VDem (2023) ,,,
+10,2024-03-21,,Democracy and Autocratization 3 (Polarization and Engagement),,Adamu et al. (2024); Svolik (2019),,,/assignments/khm_budget
+11,2024-03-26,,Foreign Aid and NGOs 1,,Briggs,,,
+11,2024-03-28,,Foreign Aid and NGOs 2,,O’Brien (2023); Springman (2021); Cruz (2017),,,
+12,2024-04-02,,Foreign Aid and NGOs 3,,TBD,,,/assignments/fp_proposal
+12,2024-04-04,,Climate and Adaptation 1,,TBD,,,
+13,2024-04-09,,Climate and Adaptation 2,,TBD,,,
+13,2024-04-11,,Accountability and Information 1,,Jablonski and Seim (2023),,,
+14,2024-04-16,,Accountability 2,,Metaketa,,,
+14,2024-04-18,,Accountability 3,,Mares et al. (2023),,,
+15,2024-04-23,,Effective Interventions 1,,CCTs,,,
+15,2024-04-25,,Effective Interventions 2,,Health,,,/assignments/da_5
+16,2024-04-30,,Effective Interventions 3,,Other,,,/assignments/fp_webpage

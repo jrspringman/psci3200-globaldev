@@ -1,0 +1,28 @@
+---
+title: "Regression"
+date: 2024-02-02
+---
+
+
+## Required Readings
+
+- DSS [Ch 4](/files/dss_ch4.pdf)
+  + [interactive visualization: linear model](https://ellaudet.iq.harvard.edu/linear_model)
+  + [interactive visualization: OLS](https://ellaudet.iq.harvard.edu/least_squares)
+
+## Tasks
+
+- Install Quarto and produce a blank document
+  + [Installing Quarto](https://quarto.org/docs/get-started/)
+  + [Installing on Windows](https://www.youtube.com/watch?v=JQ8WbI2_Rc4)
+  + [Installing on Mac](https://www.youtube.com/watch?v=786TihPpw-g)
+  + [Intro to Quarto](https://quarto.org/docs/get-started/hello/rstudio.html)
+
+## Slides
+
+- [Slides](/slides/04-sampling.html)
+
+## Interesting Stuff (non-required)
+
+- Andrew Heiss's [Quarto Resource](https://evalsp24.classes.andrewheiss.com/resource/quarto.html)
+- Hadley Wickham's [Quarto Guide](https://r4ds.hadley.nz/quarto.html)

@@ -1,0 +1,186 @@
+---
+title: "Causal Inference 1"
+subtitle: "Digging Deeper"
+author: "Jeremy Springman"
+institute: "University of Pennsylvania"
+
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+      - title-slide.html
+    gfm:
+    mermaid-format: png
+editor: source
+---
+
+# Logistics
+
+## Poll
+
+- Anyone not using Mac/Windows?
+
+## Assignments
+
+- Today
+  + Read Ch 3
+  + Install Quarto and create an empty html
+- Thursday 
+  + Read Ch 4
+  + Create a git repo for this class
+
+## Agenda
+
+1. Finishing up Causality 1
+2. Inferring Population Characteristics via Survey Research
+3. Messing around in Quarto
+
+# Finishing up Causality 1
+
+## Plumbing vs Science
+
+::: {.incremental}
+- Scientists can tell us the drivers of human wellfare and prosperity
+  + But can we manipulate these macro-forces?
+  + Probably not really.
+- So what can we do as social scientists?
+  + Help at the margins in specific places with specific policies and programs
+:::
+
+::: {.fragment}
+- Any normatively uncomfortable findings?
+:::
+
+
+# Inferring Population Characteristics via Survey Research
+
+
+## Survey Research
+-   In social sciences, we often want to learn *something* about a population of interest
+-   However, collecting data on the entire population might be too expensive or unfeasible. 
+-   Objective of a **survey**: to collect data from a *subset* of observations from the population of interest to understand something about the entire population.
+
+
+## Sample
+-   The subset of individuals chosen for the survey.
+-   It is important that the sample chosen is *representative* of the population of interest. 
+
+    -   A sample that accurately reflects the characteristics of the population from which it is drawn.
+    -   If the sample is *not* representative, our inferences are invalid (we introduce *bias*) in our estimates. 
+    
+
+## Sampling Strategies
+
+-   Probability Sampling Strategies:
+
+    -   Simple Random Sampling 
+    -   Stratified sampling
+    -   Cluster sampling
+    
+-   Non-Probability Sampling Strategies:
+
+    -   Convenience sample
+
+
+## Sampling Strategies
+
+Simple Random Sampling
+
+-   The best way of drawing a representative sample from a population. 
+-   Each and every individual within the population has the sample probability of being chosen.
+-   With random sampling, as the sample size increases the characteristics of the sample more closely resemble the characteristics of the population.
+
+
+## Potential Challenges when Sampling
+-   To implement random sampling we need a complete list of *all* individuals in the population (this list is known as *sample frame*).
+
+    -   Obtaining a complete sample frame is not always possible. 
+    -   The missing observations tend to differ systematically from those included in the list.
+    -   E.g., A list of all studets at USU to conduct a survey about students' opinions.
+    
+    
+## Potential Challenges when Sampling
+-   **Unit nonresponse**: even when our sample frame is complete, some individuals may choose not to answer.
+
+    -   IF the individuals who refuse to participate differ systematically from those that do participate, the resulting sample will not be representative. 
+    -   E.g., the students who refuse to answer might be the busiest.
+
+
+## Potential Challenges when Sampling
+-   **Item nonresponse**: some individuals may choose not to answer some questions.
+
+    -   IF the missing answers differ systematically from the recorded answers, the data collected for that particular question will not accurately reflect the characteristics of the population.
+    -   E.g., some students may prefer not to answer questions about delicate topics. 
+
+
+## Potential Challenges when Sampling
+-   **Misreporting**: some individuals may choose not to answer truthfully.
+
+    -   This is particularly common with sensitive questions or when specific answers are seen as more socially desirable than others.
+    -   Depending on the question, this problem may induce additional noise or, in the worse case, bias, into our measures.
+    -   E.g., some students may answer that they really like Aggie Icecream even when they do not. 
+
+
+## Stratified sampling
+
+-   Divide the entire population into *homogeneous* sub-groups (*strata*). 
+-   Then, take the random samples from each stratum and pool them together.
+-   Strata can be based on income, educational level, race, or gender. 
+
+
+## Cluster sampling
+
+-   Divide de population into *clusters*. 
+-   Then, then take a random sample of clusters (and then one more within each cluster) and pool the observations together
+-   Observations within the clusters may be *similar*, but not homogeneous along any characteristic.
+
+## Non-Probability Sampling Strategies
+
+-   Convenience sample:
+
+    -   Instead of randomly choosing participants, choose the ones that are easily available.
+    
+
+## Working with Survey Data
+
+Measuring support for Brexit.
+
+-   British Election Study (BES) Survey
+-   Conducted about 6 weeks before the Brexit referendum (June 23, 2016)
+
+
+
+## Final Project
+
+- Data analysis project with data of your choosing
+  + Formulate a research question
+  + Find data that can help you answer that question
+  + Apply the tools and methods from this course
+  + Write-up analysis
+- Produce a webpage to present your results for public consumption 
+
+::: {.notes}
+Your final submission will be a publicly available webpage that contains: (1) a brief introduction to your research question and data; (2) a discussion of your research design, its assumptions, and threats to inference; (3) a visualization that describes your data; (4) a presentation of the results from a regression model (as a table or graph) and discussion of its implications for your research question; and (5) a discussion of the implications of your findings for development policy or practice, including the limitations of your analysis and suggestions for future research.
+:::
+
+## Final Project
+
+\
+
+| Milestone                    | Due Date                 |
+|:-----------------------------|:-------------------------|
+| Create a GitHub repository   | Feb 8th |
+| Identify data source         | Mar 5th |
+| Submit proposal              | Apr 2nd |
+| Submit final project         | May 2nd |
+
+
+::: {.notes}
+By April, I'll give you a break-down of how the grading will be done
+:::

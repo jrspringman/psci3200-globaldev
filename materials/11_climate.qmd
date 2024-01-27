@@ -1,0 +1,29 @@
+---
+title: "Causal Inference"
+date: 2024-01-18
+---
+
+
+## Required Readings
+
+Michaelowa, Axel, and Katharina Michaelowa. “Coding error or statistical embellishment?
+The political economy of reporting climate aid.” World Development 39.11 (2011): 2010-
+2020.
+Weiler, Florian, Carola Klöck, and Matthew Dornan. “Vulnerability, good governance, or
+donor interests? The allocation of aid for climate change adaptation.” World Development
+104 (2018): 65-77.
+
+Kono, Daniel Yuichi, and Gabriella R. Montinola. “Foreign aid and climate change policy:
+what can (’t) the data tell us?.” Politics and Governance 7.2 (2019): 68-92.
+
+Marcoux, Christopher, Bradley C. Parks, Christian M. Peratsakis, J. Timmons Roberts,
+and Michael J. Tierney. “Environmental and climate finance in a new world: How past
+environmental aid allocation impacts future climate aid.” No. 2013/128. WIDER Working
+Paper, 2013.
+
+## Slides
+
+- [Slides](/slides/01-intro.html)
+
+## Interesting Stuff (non-required)
+

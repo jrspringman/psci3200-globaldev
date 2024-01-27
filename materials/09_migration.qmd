@@ -6,6 +6,18 @@ date: 2024-01-18
 
 ## Required Readings
 
+https://www.evidenceaction.org/newsroom/were-shutting-down-no-lean-season-our-seasonal-migration-program-heres-why
+
+Gazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck. “Cash transfers and migration: Theory
+and evidence from a randomized controlled trial.” The Review of Economics and Statistics
+(2020): 1-45.
+
+Berthélemy, Jean-Claude, Monica Beuran, and Mathilde Maurel. “Aid and migration: Sub-
+stitutes or complements?.” World Development 37.10 (2009): 1589-1599.
+
+Gamso, Jonas, and Farhod Yuldashev. “Targeted foreign aid and international migration: Is
+development-promotion an effective immigration policy?.” International Studies Quarterly
+62.4 (2018): 809-820.
 
 ## Slides
 
@@ -14,3 +26,5 @@ date: 2024-01-18
 ## Interesting Stuff (non-required)
 
 https://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/addressing-root-causes-and-drivers-irregular-migration
+
+https://www.npr.org/sections/goatsandsoda/2019/09/30/764349336/in-guatemala-a-bad-year-for-corn-and-for-u-s-aid

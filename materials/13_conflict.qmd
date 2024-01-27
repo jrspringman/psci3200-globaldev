@@ -1,0 +1,36 @@
+---
+title: "Causal Inference"
+date: 2024-01-18
+---
+
+
+## Required Readings
+
+Paler, Laura, Camille Strauss-Kahn, and Korhan Kocak. “Is bigger always better? how
+targeting aid windfalls affects capture and social cohesion.” Comparative Political Studies
+53.3-4 (2020): 359-398. (skip pp 366-369)
+
+Dube, Oeindrila, and Suresh Naidu. “Bases, bullets, and ballots: The effect of US military
+aid on political conflict in Colombia.” The Journal of Politics 77.1 (2015): 249-267.
+
+Iyengar, Radha, Jonathan Monten, and Matthew Hanson. “Building peace: The impact
+of aid on the labor market for insurgents.” No. w17297. National Bureau of Economic
+Research, 2011.
+
+Swedlund, Haley, Romain Malejacq and Malte Lierl.“‘Foreign Aid Won’t Moderate the
+Taliban.” Foreign Policy. October 27, 2021. https://foreignpolicy.com/2021/10/27/
+taliban-afghanistan-foreign-aid-assistance-moderate-human-rights/
+
+Nunn, Nathan, and Nancy Qian. “US food aid and civil conflict.” American Economic
+Review 104.6 (2014): 1630-66.
+
+
+## Slides
+
+- Thursday (1/18) lecture: [Slides](/slides/01-intro.html)
+
+## Interesting Stuff (non-required)
+
+https://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/addressing-root-causes-and-drivers-irregular-migration
+
+https://www.npr.org/sections/goatsandsoda/2019/09/30/764349336/in-guatemala-a-bad-year-for-corn-and-for-u-s-aid

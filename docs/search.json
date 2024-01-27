@@ -1,150 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\n            Global Development\n        ",
-    "section": "",
-    "text": "Global Development\n        \n        \n            Intermediate Topics in Politics, Policy, and Data\n        \n        \n            PSCI 3200 • Spring 2024University of Pennsylvania\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\nInstructor\n\n   Jeremy Springman\n   448 - Perelman Center forPolitical Science\n   jspr@sas.upenn.edu \n   Schedule an appointment\n\n\n\nCourse details\n\n   Tue/Thu\n   January 18th - May 1st\n   3:30–4:59 PM\n   EDUC 201\n   Slack\n\n\n\nContacting me\nGeneral questions about the course, materials, or assignments should be posted to the course Slack. This will allow other students to benefit from the answer(s) provided. For other issues (absences, accomodations, etc.), email me or send me a direct message on Slack. I will attempt to respond to these messages within 48 hours, but please be patient!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html#course-description",
-    "href": "index.html#course-description",
-    "title": "PSCI 3200",
-    "section": "Course Description",
-    "text": "Course Description\nTremendous growth in the amount of data available and our ability to process it raises the exciting possibility that these advances could benefit the world’s poor. This course will allow students to engage with cutting-edge research that deploys new data and contemporary social science research methods to understand development, as well as hands-on experience analyzing diverse types of data. The course will be organized around several timely substantive topics in global development, including democratic backsliding and autocratization, political accountability and citizen engagement, climate change resilience, and migration. As we explore these topics, students will be introduced to data analysis methods, inferential techniques, and computational tools that are useful across a wide range of applications. Specifically, students will deepen their understanding of basic statistical methods common to the social sciences (such as linear regression), learn how these methods can be used to make inferences about population characteristics and causal relationships, and prepare documents that contain reproducible data analysis workflows using markdown.\nThis class is also designed as a follow-up to PSCI 1102. Students are encouraged but not required to take that course before this one. Students should be ready to engage with data assignments in the programming language R. This means that students should also have taken PSCI 1800 or an equivalent course. Students that have not taken PSCI 1102 and PSCI 1800 (or an equivalent) should contact the instructor before enrolling. Students more comfortable in Python are welcome, but will receive less instructor support."
-  },
-  {
-    "objectID": "index.html#activities-assessments",
-    "href": "index.html#activities-assessments",
-    "title": "PSCI 3200",
-    "section": "Activities & Assessments",
-    "text": "Activities & Assessments\nWeekly reading assignments will be divided between contemporary research on substantive topics in global development and textbook chapters focused on social science research methods. You are expected to attend class and be prepared to engage in discussion about the assigned readings. Performance in this class will be evaluated by class attendance and participation (10%), short blog posts engaging with the methods or substance of weekly readings (20%), data exercises (30%), and a final project (40%).\nWe will use as a jumping-off point for this course. While students are expected to already be familiar with many of the tools and concepts covered this book, it will serve as a method to review core concepts and orient discussion about how to expand on these skills. Students are encouraged, but definitely not required, to purchase a personal copy."
-  },
-  {
-    "objectID": "index.html#course-policies",
-    "href": "index.html#course-policies",
-    "title": "PSCI 3200",
-    "section": "Course Policies",
-    "text": "Course Policies\n\nA personal laptop will be required during class.\nLate submission of assignments will incur a penalty of 2 points deducted for every day late, except in documented cases of serious illness or family tragedy.\nThis course aspires to be as inclusive as possible. Students requiring special accommodation should notify the instructor prior to the second week of class to determine the most appropriate adaptations."
-  },
-  {
-    "objectID": "index.html#instructor-details",
-    "href": "index.html#instructor-details",
-    "title": "PSCI 3200",
-    "section": "Instructor Details",
-    "text": "Instructor Details\nI am Jeremy Springman, a Senior Research Associate working at PDRI-DevLab@Penn. You can reach me at . You can learn more about my research on .\n\n\nInstructor\n\n   Jeremy Springman\n   \n   jspr@sas.upenn.edu\n   JRGSpringman\n   Schedule an appointment\n\n\n\nCourse details\n\n   Tue/Thu\n   January 18th - May 14th, 2024\n   3:00–4:59 PM\n   TBD\n   Slack\n   Study Hall Schedule\n   Office Hours Schedule\n   Gov 50 Google Calendar\n\n\n\nContacting me\nGeneral questions about the course, materials, or assignments should be posted to the course Slack. For other issues (absences, etc), feel free to email me or send me a direct message on Slack. I will attempt to respond to these messages within 25 hours, but life can be busy and chaotic for everyone, so if I don’t respond right away, don’t worry!"
-  },
-  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Jeremy Springman\n   448 - Perelman Center forPolitical Science\n   jspr@sas.upenn.edu \n   Schedule an appointment\n\n\n\n\n\n   Tue/Thu\n   January 18th - May 1st\n   3:30–4:59 PM\n   EDUC 201\n   Slack"
-  },
-  {
-    "objectID": "syllabus.html#course-objectives",
-    "href": "syllabus.html#course-objectives",
-    "title": "Syllabus",
-    "section": "Course Objectives",
-    "text": "Course Objectives\nIn this course, you will learn the basics of data science as applied to the social sciences. This involves two broad skill sets: (1) learning the computing and programming tools to both manage and analyze data; and (2) understanding the conceptual foundations of why we might manage or analyze data in one way versus another. This course will address both of these topics.\nSpecifically, at the end of the course you should be able to:\n\nSummarize and visualize data\nWrangle messy data into tidy forms\nEvaluate claims about causality\nBe able to use linear regression to analyze data\nUnderstand uncertainty in data analysis and how to quantify it\nUse professional tools for data analysis such as R, RStudio, git, and GitHub\n\nWe will also attempt to inspire a passion for data analysis and create a community among the students to deepen their learning.\n\nExpectations\nIn this course, you will be expected to\n\ncomplete eight problem sets,\ncomplete eight weekly tutorials,\ntake two take-home, open-book exams, and\nwrite one final data analysis project.\n\n\n\nPrerequisites\nYou should already have R and RStudio installed\nWe will also use git and Github to manage our projects.\nThis class is also designed as a follow-up to PSCI 1102. Students are encouraged but not required to take that course before this one. Students should be ready to engage with data assignments in the programming language R. This means that students should also have taken PSCI 1800 or an equivalent course. Students that have not taken PSCI 1102 and PSCI 1800 (or an equivalent) should contact the instructor before enrolling. Students more comfortable in Python are welcome, but will receive less instructor support."
-  },
-  {
-    "objectID": "syllabus.html#course-structure",
-    "href": "syllabus.html#course-structure",
-    "title": "Syllabus",
-    "section": "Course Structure",
-    "text": "Course Structure\nSubstantively, the course is divided into several parts. Part 1 presents a general introduction to the course and a brief introduction to correlation, causality and statistical inference. The remaining parts are structured around key substantive topics in development. For each topic, we will begin with a brief overview of the literature. Then, we will focus on one particular research question and use it as a guide to learn how to implement some of the most common research designs in the social sciences. Throughout, you will gain hands-on experience with diverse kinds of data through in-class workshops and data assignments. Weekly reading assignments will be divided between contemporary research on substantive topics in global development and textbook chapters focused on social science research methods. You are expected to attend class and be prepared to engage in discussion about the assigned readings.\n\n\nGrading\nPerformance in this class will be evaluated by according to performance on the following course requirements:\n\n\n\nRequirement\nPercent of Final Grade\n\n\n\n\nQuizzes (4)\n10%\n\n\nWorkshops (4)\n10%\n\n\nData Assignments (3)\n36%\n\n\nFinal Project (1)\n44%\n\n\n\n\n\n\n\n\n\nBump-up policy\n\n\n\nI reserve the right to “bump up” the grades of students who have made valuable contributions to the course, including participation in lectures or workshops or helping other students by answering questions on Slack. This also applies to students who show tremendous progress over the semester.\n\n\n\n\nRequirement Descriptions\nThere are four graded requirements for this course.\nQuizzes\n\nYou are expected to attend each course meeting. On four randomly selected meetings, there will be a brief quiz designed to test whether or not students did the readings. Students with a pre-approved absence will be required to take the quiz remotely within 24 hours of its administration (in the event your absence falls on a quiz date). Students will be permitted one pre-approved absence for the semester.\nGrade: 10%\n\nWorkshops\n\nWe will have four workshops throughout the semester. These will be interactive, hands-on workshops allowing students to gain familiarity with new statistical methods or computational tools. These workshops will cover important tools, such as quarto and github, and data analysis tasks, including cleaning, visualization, and modeling. After each workshop, you will be required to submit a product (ex. the link to a git repo, a quarto doc, an R script, etc.) demonstrating completion of the workshop.\nGrade: 10%\n\nData Assignments\n\nThere will be three data assignments throughout the semester. These assignments are designed to give you an opportunity to apply tools and methods discussed in readings, lectures, and workshops to data from the real world. Where possible, we will use data collected by DevLab@Penn researchers. These are individual assignments. While I encourage you to collaborate with your colleagues as you think through the tasks, you will be required to submit your own code and write-up.\nGrade: 36%\n\n\n\n\nData Assignment\nDue Date\n\n\n\n\nAssignment 1\nFeb 29th 11:59pm ET\n\n\nAssignment 2\nMar 21st 11:59pm ET\n\n\nAssignment 3\nApr 25th 11:59pm ET\n\n\n\nFinal Project\n\nThe final project is a data analysis project that will use data of your choosing. The only stipulation is that this data must be relevant to one of the global development topics covered in this course. The assignment will require you to formulate a research question, find data that can help you answer that question, apply the tools and methods from this course to the data you have selected to answer your research question, and present those results for public consumption.\nThe goal will be to produce a professional project that can showcase the skills that you have gained to potential employers. Your final submission will be a publicly available webpage that contains: (1) a brief introduction to your research question and data; (2) a discussion of your research design, its assumptions, and threats to inference; (3) a visualization that describes your data; (4) a presentation of the results from a regression model (as a table or graph) and discussion of its implications for your research question; and (5) a discussion of the implications of your findings for development policy or practice, including the limitations of your analysis and suggestions for future research. In addition to the public-facing webpage, you must share access to a GitHub repo that contains the code to reproduce the project output.\nGrade: 44%\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 8th 11:59pm ET\n\n\nIdentify data source\nFeb 29th 11:59pm ET\n\n\nSubmit proposal (research question and design)\nApr 2nd 11:59pm ET\n\n\nSubmit final project (webpage url and repo)\nMay 2nd 11:59pm ET"
-  },
-  {
-    "objectID": "syllabus.html#final-project",
-    "href": "syllabus.html#final-project",
-    "title": "Syllabus",
-    "section": "Final Project",
-    "text": "Final Project\nThe final project is a data analysis project about whatever data excites you. That could be public opinion in U.S. elections, United Nations voting patterns, patterns of racial discrimination in police behavior, the distribution of salaries in basketball, or the economics of the Marvel Cinematic Universe. No matter the topic, you will formula a key research question, find data on that question, answer the question using the tools of the course, and present those results for public consumption.\nThe goal is for this to be a professional project that you can use to showcase the skills that you have gained to potential employers. Your final submission will be a publicly available article/website that contains: (1) a brief introduction to the research question and data collected; (2) a visualization of the data in question that speaks to your research question; (3) a presentation (as a table or graph) of a regression model assessing your question along with a plain-English interpretation; (4) a brief (one-paragraph) section that describes limitations of your analysis and threats to inference, and states how your analysis could be improved (e.g., improved data that would be useful to collect). Finally, there must be a link to the GitHub repo that contains the source code to load, clean, and analyze the data and produce the article.\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreating a GitHub Repository\nFri, Sep 29th 11:59pm ET\n\n\nData and Proposal\nFri, Oct 13th 11:59pm ET\n\n\nFirst Visualization\nFri, Nov 3rd 11:59pm ET\n\n\nFirst Analysis\nFri, Nov 17th 11:59pm ET\n\n\nFinal Report\nWed, Dec 13th 11:59pm ET"
-  },
-  {
-    "objectID": "syllabus.html#course-policies",
-    "href": "syllabus.html#course-policies",
-    "title": "Syllabus",
-    "section": "Course Policies",
-    "text": "Course Policies\nPlease review these course policies carefully. Any questions or concerns about these policies should be raised during the first week of class.\n\nLate Submissions and Regrading\nLate submission of assignments will incur a penalty of 2 points for every day late, except in documented cases of serious illness or family emergency. If you feel there has been an error in the grading of one your assignment, you may request in writing a regrade of the assignment. First, I will request a detailed write-up of your dispute. Second, I will regrade the entire assignment, not just the part you are disputing. Therefore, your regrade might increase or decrease the overall grade on the assignment.\n\n\nUse of AI Tools\nYou are welcome to use generative AI tools, such as ChatGPT, to assist you with your work in this course. There is mounting evidence from rigorous research that these tools increase human productivity. I believe that their use will continue to proliferate, so it is important to gain experience integrating them into professional tasks. However, AI tools frequently make errors and ‘hallucinate’ information about things that do not exist (journal articles, R functions, etc.). It is your responsibility to verify the information provided by such tools. Most importantly, you are required to disclose your use of AI tools for assignments in the form of footnotes or citations. The use of AI tools will not be counted against you. On the contrary, I want to adopt and share your clever or innovative applications of AI tools.\n\n\nElectronic Devices\nLaptops will be required in class. All other electronic devices should be silenced and hidden. If there is an emergency situation and your phone must be visible, please inform me at the beginning of class. Please don’t make me come up with consequences for violating this policy.\n\n\nControversial Topics and Statements\nIn our exploration of global development, we will strive to maintain an inclusive learning environment. I believe that respect for diverse perspectives, experiences, and backgrounds is essential for effective development research and practice. If you feel that statements made during class (by other students or by me) have undermined this, please contact me directly so that we can address the issue.\nThis course may deal with subject-matter that is difficult or controversial. It is crucial to approach these topics with sensitivity and openness. Students are required to treat one another with respect, even in cases of disagreement. At times, research findings may be in-tension with your normative commitments. I urge students to engage earnestly and critically with any evidence that challenges your prior beliefs.\n\n\nAcademic Honesty\nStudents are expected to follow the University of Pennsylvania’s Code of Academic Integrity. Suspected violations will be referred to university administration for disciplinary action. If you have any doubts or questions about what constitutes academic misconduct, please do not hesitate to contact me."
-  },
-  {
-    "objectID": "syllabus.html#course-materials",
-    "href": "syllabus.html#course-materials",
-    "title": "Syllabus",
-    "section": "Course Materials",
-    "text": "Course Materials\nThis course relies primarily on free, open-source materials. However, the purchase of one textbook will be required. All other reading materials will be uploaded to this website or circulated on Slack at least one week before the meeting.\n\nBooks\nStudents are required to purchase a copy of Data Analysis for Social Science: A Friendly and Practical Introduction (DSS). We will use DSS as a jumping-off point for this course. While students are expected to already be familiar with many of the tools and concepts covered by this book, it will serve as a method to review core concepts and orient discussion about how to expand on these skills.\n\n\n\n\n\n\nRequired book\n\n\n\nI am asking students to purchase a copy of DSS because it comes with access to additional, helpful resources. If you are unable to purchase this book, you must let me know. To save money, consider e-renting the textbook.\n\n\n\n\nComputing\nIn the course, we will be using R for data cleaning, analysis, and visualization. R is free, open source statistical computing environment available on all major operating systems. We will also be using RStudio, a free, widely used graphical interface for R. For document preparation, we will be using Quarto, a free, open-source scientific and technical publishing system that is compatible with both R/RStudio and Python, as well as several other languages. Both Quarto and RStudio are supported by a company called Posit. For version control, we will be using Github.\n\n\n\n\n\n\nRequired software\n\n\n\nStudents are expected to already have R and RStudio installed on the personal computer that they will be using for class. We will cover the installation of all other required computing tools during the course.\n\n\nSeveral course requirements will require you to write and submit R code. Your code must be appropriately commented and reproducible. To ensure your code meets the course standards, please follow this style guide from Hadley Wickham (Chief Scientist at Posit and developer of ggplot2 and tidyverse)."
-  },
-  {
-    "objectID": "syllabus.html#mental-health",
-    "href": "syllabus.html#mental-health",
-    "title": "Syllabus",
-    "section": "Mental Health",
-    "text": "Mental Health\nYour mental health is important to me. Struggles with mental health, as well as serious mental illnesses, are common across students, faculty, and staff. Please feel free to reach out to me about issues you are having within or outside of this course. I emphatically encourage anyone who thinks they may benefit to utilize the university resources listed below:\n\nCounseling and Mental Health Services\n24/7 Services: 215-746-9355\n\nPlease note that this list is not comprehensive. If there are services that you think should be added to this list, please let me know."
-  },
-  {
-    "objectID": "syllabus.html#accessibility",
-    "href": "syllabus.html#accessibility",
-    "title": "Syllabus",
-    "section": "Accessibility",
-    "text": "Accessibility\nAccessibility is a shared value and a shared responsibility at Penn. The Weingarten Center partners with other departments throughout campus to coordinate and improve the accessibility of buildings and grounds, transportation, communication, and digital infrastructure. Students that require academic accommodations should contact the Weingarten Center. Academic accommodations are determined on an individualized basis through an interactive process that involves student self-disclosure, documentation of disability, and an initial meeting with a Disability Specialist. Accommodations do not alter fundamental requirements of the course and are not retroactive. Students should request accommodations as early as possible, since they may take time to implement. Students can notify the Weingarten Center at any time during the semester if adjustments to their communicated accommodation plan are needed."
-  },
-  {
-    "objectID": "syllabus.html#course-description",
-    "href": "syllabus.html#course-description",
-    "title": "Syllabus",
-    "section": "Course Description",
-    "text": "Course Description\nTremendous growth in the amount of data available and our ability to process it raises the exciting possibility that these advances could benefit the world’s poor. This course will allow students to engage with cutting-edge research that deploys new data and contemporary social science research methods to understand development, as well as hands-on experience analyzing diverse types of data. The course will be organized around several timely substantive topics in global development, including democratic backsliding and autocratization, political accountability and citizen engagement, climate change resilience, and migration. As we explore these topics, students will be introduced to data analysis methods, inferential techniques, and computational tools that are useful across a wide range of applications. Specifically, students will deepen their understanding of basic statistical methods common to the social sciences (such as linear regression), learn how these methods can be used to make inferences about population characteristics and causal relationships, and prepare documents that contain reproducible data analysis workflows using markdown."
-  },
-  {
-    "objectID": "syllabus.html#activities-assessments",
-    "href": "syllabus.html#activities-assessments",
-    "title": "Syllabus",
-    "section": "Activities & Assessments",
-    "text": "Activities & Assessments\nWeekly reading assignments will be divided between contemporary research on substantive topics in global development and textbook chapters focused on social science research methods. You are expected to attend class and be prepared to engage in discussion about the assigned readings. Performance in this class will be evaluated by class attendance and participation (10%), short blog posts engaging with the methods or substance of weekly readings (20%), data exercises (30%), and a final project (40%).\nWe will use as a jumping-off point for this course. While students are expected to already be familiar with many of the tools and concepts covered this book, it will serve as a method to review core concepts and orient discussion about how to expand on these skills. Students are encouraged, but definitely not required, to purchase a personal copy."
-  },
-  {
-    "objectID": "syllabus.html#course-policies-1",
-    "href": "syllabus.html#course-policies-1",
-    "title": "Syllabus",
-    "section": "Course Policies",
-    "text": "Course Policies\n\nLate Policy\nFor problem sets, late submissions will be penalized 10% if submitted 0-24 hours late and penalized 20% if submitted 24-48 hours late. We will not accept any submissions after 48 hours. This penalty will be waived the first time a submission is late.\n\n\nRegrading Policy\nIf you feel there has been an error in the grading of one your assignment, you may request (in writing) a regrade of the assignment. Please send your request in an email to Professor Blackwell and the Head TF. A member of the teaching staff will regrade the entire assignment, not just the part you are disputing. Therefore, your regrade might increase or decrease the overall grade on the assignment.\n\n\nOffice Hours and Availability\nOffice hours for the teaching staff are listed on the Office Hours Schedule page.\nIf you have a general question, you should post it to the Ed discussion board (where you can make your question anonymous if you would like). This is almost always the fastest way to get an answer. However, you can also email me directly at mblackwell@gov.harvard.edu if you have a question that is about a personal situation.\n\n\nAcademic Honesty\nThe work that you do in both the problem sets should be your own work. You may seek help from others so long as this does not result in someone else completing your work for you. When asking for help, you may show others your code to help diagnose a bug or highlight a potential issue, but you should not view their (working) code. You should cite any discussions you have with other students in your problem set and note if they helped you with your code. You should never copy and paste code from another student or elsewhere (e.g., websites, former students).\nI also strongly suggest that you make a solo effort at all the problems before consulting others. The exams will be very difficult if you have no experience working on your own. There is no collaboration allowed on the exams."
-  },
-  {
-    "objectID": "syllabus.html#use-of-ai-tools",
-    "href": "syllabus.html#use-of-ai-tools",
-    "title": "Syllabus",
-    "section": "Use of AI Tools",
-    "text": "Use of AI Tools\nYou are welcome to use generative AI tools, such as ChatGPT, to assist you with your work in this course. In the future, we will all be using these tools, so I believe it is important that we gain experience with their use. However, AI tools frequently make errors and ‘hallucinate’ information about things that do not exist (journal articles, R functions, etc.). It is your responsibility to verify the information provided by such tools. Most importantly, you are required to disclose your use of AI tools for assignments in the form of footnotes or citations. The use of AI tools will not be counted against you. On the contrary, I want to adopt and share your clever or innovative applications of AI tools."
-  },
-  {
-    "objectID": "syllabus.html#prerequisites",
-    "href": "syllabus.html#prerequisites",
-    "title": "Syllabus",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nYou should already have R and RStudio installed\nWe will also use git and Github to manage our projects."
-  },
-  {
-    "objectID": "syllabus.html#computing",
-    "href": "syllabus.html#computing",
-    "title": "Syllabus",
-    "section": "Computing",
-    "text": "Computing\nIn the course, we will be using R for data cleaning, analysis, and visualization. R is free, open source, and available on all major operating systems. We will also be using RStudio, which is a free, widely used graphical interface for R. For document preparation, we will be using Quarto, an open-source scientific and technical publishing system that is compatible with both R and Python, as well as several other languages. Both Quarto and RStudio are supported by a company called Posit. For version control, we will be using [Github]{https://github.com/}."
-  },
-  {
-    "objectID": "syllabus.html#course-evaluation",
-    "href": "syllabus.html#course-evaluation",
-    "title": "Syllabus",
-    "section": "Course Evaluation",
-    "text": "Course Evaluation\n\nExams\nThere will be two take-home exams during the course. This exam will be similar to a homework in format and in the sense that it will be open book and open internet, but you will not be allowed to collaborate with other students or be able to communicate with any humans about the exam. You will be given several days to complete the exam. We will provide more information about the exam as it approaches.\n\n\n\nExam\nRelease Date\nDue Date\n\n\n\n\nExam 1\nThu, Oct 19th 5:00pm ET\nSun, Oct 22nd 11:59pm ET\n\n\nExam 2\nThu, Dec 7th 5:00pm ET\nSun, Dec 10th 11:59pm ET\n\n\n\n\n\nDiscussion\nWe will be using the Ed platform for discussions on course material. There is a users guide to help orient yourself to the platform. We will enroll you into the platform toward the start of the semester.\n\n\nGrading\nYou (the student) and I (the instructor) should care the most about what you learn, not what numerical/letter summary of that learning you get at the end of the semester. So I would love to not have grades at all, but unfortunately we humans are very good at procrastinating on our good intentions when there is no incentive not to. Thus, we have grades to help solve this commitment problem and to encourage you to put effort into learning the course material.\nHere are how each portion of course contributes to the overall grade:\n\n\n\nCategory\nPercent of Final Grade\n\n\n\n\nR Tutorials\n10%\n\n\nProblem Sets\n40%\n\n\nExams\n30%\n\n\nFinal Project\n20%\n\n\n\nWe will use Gradescope for submission of the various assignments throughout the semester. Once enrollment is finished, Gradescope will automatically connect through Canvas.\nBump-up policy: We reserve the right to “bump up” the grades of students who have made valuable contributions to the course in the lecture, sections, study halls, or discussion/Slack. This also applies to students who show tremendous progress and growth over the semester."
+    "text": "Jeremy Springman\n   333 - Perelman Center forPolitical Science\n   jspr@sas.upenn.edu \n   Schedule an appointment\n\n\n\n\n\n   Tue/Thu\n   January 18th - May 1st\n   3:30–4:59 PM\n   EDUC 201\n   Slack"
   },
   {
     "objectID": "syllabus.html#course-description-and-objectives",
@@ -154,403 +14,32 @@
     "text": "Course Description and Objectives\nRecent years have seen a tremendous growth in the amount of data available and our ability to process it. This raises the exciting possibility that these advances can be used to improve governance and benefit the world’s poor. In this course, students will engage with cutting-edge research that deploys new data and contemporary social science research methods and gain hands-on experience analyzing diverse types of data using rigorous research designs and broadly useful computational tools.\nThe course will be organized around several timely substantive topics in global development, including democratic backsliding and autocratization, citizen engagement, crime and corruption, and climate change and migration. As we explore these topics, students will gain a deeper understanding of the challenges that shape governance and development outcomes and ways that contemporary social science and the development ‘industry’ seeks to address them.\nAt the same time, students will be introduced to data analysis methods, inferential techniques, and computational tools that are useful across a wide range of applications. Specifically, students will deepen their understanding of basic statistical methods common to the social sciences, learn how these methods can be used to make inferences about population characteristics and causal relationships, and prepare documents that contain reproducible data analysis workflows.\nAt the end of the course you should be able to:\n\nEvaluate the quality of evidence in the development field\nThink clearly about how data can be used to learn about development and governance challenges\nUse tools for data analysis such as R, RStudio, Quarto, and GitHub\nProduce professional-quality documents that summarize original research\n\nI hope that this course will encourage both passion and measured optimism about the potential for contemporary social science tools to address complex problems affecting governance and development in less developed countries.\n\n\n\n\n\n\nPrerequisites\n\n\n\nThis class is designed as a follow-up to PSCI 1102. Students that have not taken PSCI 1102 and PSCI 1800 (or an equivalent) should contact the instructor before enrolling."
   },
   {
+    "objectID": "syllabus.html#course-materials",
+    "href": "syllabus.html#course-materials",
+    "title": "Syllabus",
+    "section": "Course Materials",
+    "text": "Course Materials\nThis course relies primarily on free, open-source materials. However, the purchase of one textbook will be required. All other reading materials will be uploaded to this website or circulated on Slack at least one week before the meeting.\n\nBooks\nStudents are required to purchase a copy of Data Analysis for Social Science: A Friendly and Practical Introduction (DSS). We will use DSS as a jumping-off point for this course. While students are expected to already be familiar with many of the tools and concepts covered by this book, it will serve as a method to review core concepts and orient discussion about how to expand on these skills.\n\n\n\n\n\n\nRequired book\n\n\n\nI am asking students to purchase a copy of DSS because it comes with access to additional, helpful resources. If you are unable to purchase this book, you must let me know. To save money, consider e-renting the textbook.\n\n\n\n\nComputing\nIn the course, we will be using R for data cleaning, analysis, and visualization. R is free, open source statistical computing environment available on all major operating systems. We will also be using RStudio, a free, widely used graphical interface for R. For document preparation, we will be using Quarto, a free, open-source scientific and technical publishing system that is compatible with both R/RStudio and Python, as well as several other languages. Both Quarto and RStudio are supported by a company called Posit. For version control, we will be using Github.\n\n\n\n\n\n\nRequired software\n\n\n\nStudents are expected to already have R and RStudio installed on the personal computer that they will be using for class. We will cover the installation of all other required computing tools during the course.\n\n\nSeveral course requirements will require you to write and submit R code. Your code must be appropriately commented and reproducible. To ensure your code meets the course standards, please follow this style guide from Hadley Wickham (Chief Scientist at Posit and developer of ggplot2 and tidyverse)."
+  },
+  {
+    "objectID": "syllabus.html#course-structure",
+    "href": "syllabus.html#course-structure",
+    "title": "Syllabus",
+    "section": "Course Structure",
+    "text": "Course Structure\nSubstantively, the course is divided into several parts. Part 1 presents a general introduction to the course and a brief introduction to correlation, causality and statistical inference. The remaining parts are structured around key substantive topics in development. For each topic, we will begin with a brief overview of the literature. Then, we will focus on one particular research question and use it as a guide to learn how to implement some of the most common research designs in the social sciences. Throughout, you will gain hands-on experience with diverse kinds of data through in-class workshops and data assignments. Weekly reading assignments will be divided between contemporary research on substantive topics in global development and textbook chapters focused on social science research methods. You are expected to attend class and be prepared to engage in discussion about the assigned readings.\n\n\nGrading\nPerformance in this class will be evaluated by according to performance on the following course requirements:\n\n\n\nRequirement\nPercent of Final Grade\n\n\n\n\nQuizzes (4)\n10%\n\n\nWorkshops (4)\n10%\n\n\nData Assignments (3)\n36%\n\n\nFinal Project (1)\n44%\n\n\n\n\n\n\n\n\n\nBump-up policy\n\n\n\nI reserve the right to “bump up” the grades of students who have made valuable contributions to the course, including participation in lectures or workshops or helping other students by answering questions on Slack. This also applies to students who show tremendous progress over the semester.\n\n\n\n\nRequirement Descriptions\nThere are four graded requirements for this course.\nQuizzes\n\nYou are expected to attend each course meeting. On four randomly selected meetings, there will be a brief quiz designed to test whether or not students did the readings. Students with a pre-approved absence will be required to take the quiz remotely within 24 hours of its administration (in the event your absence falls on a quiz date). Students will be permitted one pre-approved absence for the semester.\nGrade: 10%\n\nWorkshops\n\nWe will have four workshops throughout the semester. These will be interactive, hands-on workshops allowing students to gain familiarity with new statistical methods or computational tools. These workshops will cover important tools, such as quarto and github, and data analysis tasks, including cleaning, visualization, and modeling. After each workshop, you will be required to submit a product (ex. the link to a git repo, a quarto doc, an R script, etc.) demonstrating completion of the workshop.\nGrade: 10%\n\nData Assignments\n\nThere will be three data assignments throughout the semester. These assignments are designed to give you an opportunity to apply tools and methods discussed in readings, lectures, and workshops to data from the real world. Where possible, we will use data collected by DevLab@Penn researchers. These are individual assignments. While I encourage you to collaborate with your colleagues as you think through the tasks, you will be required to submit your own code and write-up.\nGrade: 36%\n\n\n\n\nData Assignment\nDue Date\n\n\n\n\nAssignment 1\nFeb 29th 11:59pm ET\n\n\nAssignment 2\nMar 21st 11:59pm ET\n\n\nAssignment 3\nApr 25th 11:59pm ET\n\n\n\nFinal Project\n\nThe final project is a data analysis project that will use data of your choosing. The only stipulation is that this data must be relevant to one of the global development topics covered in this course. The assignment will require you to formulate a research question, find data that can help you answer that question, apply the tools and methods from this course to the data you have selected to answer your research question, and present those results for public consumption.\nThe goal will be to produce a professional project that can showcase the skills that you have gained to potential employers. Your final submission will be a publicly available webpage that contains: (1) a brief introduction to your research question and data; (2) a discussion of your research design, its assumptions, and threats to inference; (3) a visualization that describes your data; (4) a presentation of the results from a regression model (as a table or graph) and discussion of its implications for your research question; and (5) a discussion of the implications of your findings for development policy or practice, including the limitations of your analysis and suggestions for future research. In addition to the public-facing webpage, you must share access to a GitHub repo that contains the code to reproduce the project output.\nGrade: 44%\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 8th 11:59pm ET\n\n\nIdentify data source\nFeb 29th 11:59pm ET\n\n\nSubmit proposal (research question and design)\nApr 2nd 11:59pm ET\n\n\nSubmit final project (webpage url and repo)\nMay 2nd 11:59pm ET"
+  },
+  {
+    "objectID": "syllabus.html#course-policies",
+    "href": "syllabus.html#course-policies",
+    "title": "Syllabus",
+    "section": "Course Policies",
+    "text": "Course Policies\nPlease review these course policies carefully. Any questions or concerns about these policies should be raised during the first week of class.\n\nLate Submissions and Regrading\nLate submission of assignments will incur a penalty of 2 points for every day late, except in documented cases of serious illness or family emergency. If you feel there has been an error in the grading of one your assignment, you may request in writing a regrade of the assignment. First, I will request a detailed write-up of your dispute. Second, I will regrade the entire assignment, not just the part you are disputing. Therefore, your regrade might increase or decrease the overall grade on the assignment.\n\n\nUse of AI Tools\nYou are welcome to use generative AI tools, such as ChatGPT, to assist you with your work in this course. There is mounting evidence from rigorous research that these tools increase human productivity. I believe that their use will continue to proliferate, so it is important to gain experience integrating them into professional tasks. However, AI tools frequently make errors and ‘hallucinate’ information about things that do not exist (journal articles, R functions, etc.). It is your responsibility to verify the information provided by such tools. Most importantly, you are required to disclose your use of AI tools for assignments in the form of footnotes or citations. The use of AI tools will not be counted against you. On the contrary, I want to adopt and share your clever or innovative applications of AI tools.\n\n\nElectronic Devices\nLaptops will be required in class. All other electronic devices should be silenced and hidden. If there is an emergency situation and your phone must be visible, please inform me at the beginning of class. Please don’t make me come up with consequences for violating this policy.\n\n\nControversial Topics and Statements\nIn our exploration of global development, we will strive to maintain an inclusive learning environment. I believe that respect for diverse perspectives, experiences, and backgrounds is essential for effective development research and practice. If you feel that statements made during class (by other students or by me) have undermined this, please contact me directly so that we can address the issue.\nThis course may deal with subject-matter that is difficult or controversial. It is crucial to approach these topics with sensitivity and openness. Students are required to treat one another with respect, even in cases of disagreement. At times, research findings may be in-tension with your normative commitments. I urge students to engage earnestly and critically with any evidence that challenges your prior beliefs.\n\n\nAcademic Honesty\nStudents are expected to follow the University of Pennsylvania’s Code of Academic Integrity. Suspected violations will be referred to university administration for disciplinary action. If you have any doubts or questions about what constitutes academic misconduct, please do not hesitate to contact me."
+  },
+  {
     "objectID": "syllabus.html#university-resources",
     "href": "syllabus.html#university-resources",
     "title": "Syllabus",
     "section": "University Resources",
     "text": "University Resources\nUtilizing university resources can be key to a successful college experience. These resources are available for a reason, and students should feel comfortable taking full advantage of them. I am not an expert in accessing these resources, but I will be happy to help you secure support that will help you succeed at Penn.\n\nMental Health\nYour mental health is important to me. Struggles with mental health, as well as serious mental illnesses, are common across students, faculty, and staff. Please feel free to reach out to me about issues you are having within or outside of this course. I emphatically encourage anyone who thinks they may benefit to utilize the university resources listed below:\n\nCounseling and Mental Health Services\n24/7 Services: 215-746-9355\n\nPlease note that this list is not comprehensive. If there are services that you think should be added to this list, please let me know.\n\n\nAccessibility\nAccessibility is a shared value and a shared responsibility at Penn. The Weingarten Center partners with other departments throughout campus to coordinate and improve the accessibility of buildings and grounds, transportation, communication, and digital infrastructure. Students that require academic accommodations should contact the Weingarten Center. Academic accommodations are determined on an individualized basis through an interactive process that involves student self-disclosure, documentation of disability, and an initial meeting with a Disability Specialist. Accommodations do not alter fundamental requirements of the course and are not retroactive. Students should request accommodations as early as possible, since they may take time to implement. Students can notify the Weingarten Center at any time during the semester if adjustments to their communicated accommodation plan are needed."
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should complete the required readings before each meeting.\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting\nWorkshop (): A link to the workshop for that week\nAssignment (): This page contains the instructions for each assignment\n\nThe readings refer to following texts:\n\nDSS: Data Analysis for Social Science: A Friendly and Practical Introduction (DSS) by Kosuke Imai and Elena Llaudet\nTCD: Thinking clearly with data: A guide to quantitative reasoning and analysis by Ethan Bueno de Mesquita and Anthony Fowler\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nWorkshop\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nIntroduction to the course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nCorrelation and Causation\n\n\nTCD Ch 2-3\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nCausal Inference 1\n\n\nDSS Ch 2; Duflo (2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nSurvey Research and Linear Regression\n\n\nDSS Ch 3-4\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nIntroduction to Autocratization\n\n\nWaldner and Lust (2018); VDem (2023); Grady\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nAutocratization and Survey Data\n\n\nHollerbauer et al. (2024); Adamu et al. (2024)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nCausal Inference 2\n\n\nDSS Ch 5\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nMigration 1\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nMigration 2 (guest: Wibbels)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nCrime & Corruption (guest: Schmidt-Padilla)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nCrime & Corruption (guest: Schmidt-Padilla)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nConflict\n\n\nGrady et al. (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nConflict\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nSpring Break\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nSpring Break\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nProbability\n\n\nDSS Ch 6\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nUncertainty\n\n\nDSS Ch 7\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nTBD\n\n\nTBD"
-  },
-  {
-    "objectID": "slides/01-intro.html#welcome",
-    "href": "slides/01-intro.html#welcome",
-    "title": "Introduction to PSCI 3200",
-    "section": "Welcome",
-    "text": "Welcome\n\n\n\njrspringman.github.io/psci3200-globaldev/"
-  },
-  {
-    "objectID": "materials/01_intro.html",
-    "href": "materials/01_intro.html",
-    "title": "Introduction to PSCI 3200",
-    "section": "",
-    "text": "Review the syllabus and schedule"
-  },
-  {
-    "objectID": "materials/01_intro.html#readings",
-    "href": "materials/01_intro.html#readings",
-    "title": "Introduction to PSCI 3200",
-    "section": "",
-    "text": "Review the syllabus and schedule\nComplete the PSCI 3200 Student Survey\nGet logged-in on the course  Slack"
-  },
-  {
-    "objectID": "materials/01_intro.html#slides",
-    "href": "materials/01_intro.html#slides",
-    "title": "Introduction to PSCI 3200",
-    "section": "Slides",
-    "text": "Slides\n\nThursday (1/18) lecture: Slides"
-  },
-  {
-    "objectID": "slides/01-intro.html#course-description-and-objectives",
-    "href": "slides/01-intro.html#course-description-and-objectives",
-    "title": "Introduction to PSCI 3200",
-    "section": "Course Description and Objectives",
-    "text": "Course Description and Objectives\nAt the end of the course you should be able to:\n\nEvaluate the quality of evidence in the development field\nThink clearly about how data can be used to learn about development and governance challenges\nUse tools for data analysis such as R, RStudio, Quarto, and GitHub\nProduce professional-quality documents that summarize original research\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
-  },
-  {
-    "objectID": "slides/01-intro.html#myself",
-    "href": "slides/01-intro.html#myself",
-    "title": "Introduction to PSCI 3200",
-    "section": "Myself",
-    "text": "Myself"
-  },
-  {
-    "objectID": "slides/01-intro.html#course-description",
-    "href": "slides/01-intro.html#course-description",
-    "title": "Introduction to PSCI 3200",
-    "section": "Course Description",
-    "text": "Course Description\n\n\nBlending subject-matter, research methods, and computational tools\nFocusing on the type of work that goes on with and within development agencies\nAlmost no math; very little theory\n\n\n\n\n\nBest suited for folks that have small background in all 3 areas"
-  },
-  {
-    "objectID": "slides/01-intro.html#course-objectives",
-    "href": "slides/01-intro.html#course-objectives",
-    "title": "Introduction to PSCI 3200",
-    "section": "Course Objectives",
-    "text": "Course Objectives\nAt the end of the course you should be able to:\n\nEvaluate the quality of evidence in the development field\nThink clearly about how data can be used to learn about development and governance challenges\nUse tools for data analysis such as R, RStudio, Quarto, and GitHub\nProduce professional-quality documents that summarize original research"
-  },
-  {
-    "objectID": "slides/01-intro.html#slide4-id",
-    "href": "slides/01-intro.html#slide4-id",
-    "title": "Introduction to PSCI 3200",
-    "section": "",
-    "text": "jrspringman.github.io/psci3200-globaldev/"
-  },
-  {
-    "objectID": "slides/01-intro.html#jeremy",
-    "href": "slides/01-intro.html#jeremy",
-    "title": "Introduction to PSCI 3200",
-    "section": "Jeremy",
-    "text": "Jeremy\nBackground:\n\nPhD from UPenn PSCI, Postdoc at Duke\nVery applied work; PI on Machine Learning for Peace\n\nInterests:\n\nDemocracy and civil society, foreign aid and NGOs\nRandomized experiments, machine learning\nField Projects: Uganda, Ethiopia, Cambodia, Serbia\nImproving research for decision makers"
-  },
-  {
-    "objectID": "slides/01-intro.html",
-    "href": "slides/01-intro.html",
-    "title": "Introduction to PSCI 3200",
-    "section": "",
-    "text": "Introductions\nCourse Description and Objectives\nRequirements\nPolicies\nSchedule\n\n\n\nemail\ncourse website\nsurvey"
-  },
-  {
-    "objectID": "slides/01-intro.html#you",
-    "href": "slides/01-intro.html#you",
-    "title": "Introduction to PSCI 3200",
-    "section": "You",
-    "text": "You\n\n\nPlease tell us:\n\nName, Year, Major\nOne thing you’re interested in\nOne thing you’d like to get from the course"
-  },
-  {
-    "objectID": "slides/01-intro.html#scraps",
-    "href": "slides/01-intro.html#scraps",
-    "title": "Introduction to PSCI 3200",
-    "section": "scraps",
-    "text": "scraps\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
-  },
-  {
-    "objectID": "slides/01-intro.html#me",
-    "href": "slides/01-intro.html#me",
-    "title": "Introduction to PSCI 3200",
-    "section": "Me",
-    "text": "Me\nBackground:\n\nPhD from UPenn PSCI, Postdoc at Duke\nVery applied work\n\nInterests:\n\nDemocracy and civil society, foreign aid and NGOs\nRandomized experiments, machine learning\nField Projects: Uganda, Ethiopia, Cambodia, Serbia"
-  },
-  {
-    "objectID": "materials/02_causal.html",
-    "href": "materials/02_causal.html",
-    "title": "Correlation and Causation",
-    "section": "",
-    "text": "TCD Ch 2\nTCD Ch 3"
-  },
-  {
-    "objectID": "materials/02_causal.html#readings",
-    "href": "materials/02_causal.html#readings",
-    "title": "Causal Inference",
-    "section": "",
-    "text": "TCD Ch 2-3"
-  },
-  {
-    "objectID": "materials/02_causal.html#slides",
-    "href": "materials/02_causal.html#slides",
-    "title": "Correlation and Causation",
-    "section": "Slides",
-    "text": "Slides\n\nSlides"
-  },
-  {
-    "objectID": "materials/02_causal.html#tasks",
-    "href": "materials/02_causal.html#tasks",
-    "title": "Correlation and Causation",
-    "section": "Tasks",
-    "text": "Tasks\n\nComplete the PSCI 3200 Student Survey\nGet logged-in on the course  Slack"
-  },
-  {
-    "objectID": "materials/03_causal.html",
-    "href": "materials/03_causal.html",
-    "title": "Causal Inference",
-    "section": "",
-    "text": "DSS Ch 2 (cheatsheet ; interactive visualization)\nThe Economist as Plumber by Esther Duflo"
-  },
-  {
-    "objectID": "materials/03_causal.html#required-readings",
-    "href": "materials/03_causal.html#required-readings",
-    "title": "Causal Inference",
-    "section": "",
-    "text": "DSS Ch 2 (cheatsheet ; interactive visualization)\nThe Economist as Plumber by Esther Duflo"
-  },
-  {
-    "objectID": "materials/03_causal.html#slides",
-    "href": "materials/03_causal.html#slides",
-    "title": "Causal Inference",
-    "section": "Slides",
-    "text": "Slides\n\nSlides"
-  },
-  {
-    "objectID": "materials/03_causal.html#interesting-stuff",
-    "href": "materials/03_causal.html#interesting-stuff",
-    "title": "Causal Inference",
-    "section": "Interesting Stuff",
-    "text": "Interesting Stuff\n\nCause, Effect, and the Structure of the Social World by Megan Stevenson\n\nThis very recent article argues that the types of interventions that get evaluated using RCTs are unlikely to create meaningful change because of the way the social world is structured. In essence, we are not actually able to engineeer real change. Stevenson provides evidence from a meta-analysis of experimental criminology research."
-  },
-  {
-    "objectID": "materials/02_causal.html#required-readings",
-    "href": "materials/02_causal.html#required-readings",
-    "title": "Correlation and Causation",
-    "section": "",
-    "text": "TCD Ch 2\nTCD Ch 3"
-  },
-  {
-    "objectID": "materials/01_intro.html#required-readings",
-    "href": "materials/01_intro.html#required-readings",
-    "title": "Introduction to PSCI 3200",
-    "section": "",
-    "text": "Review the syllabus and schedule"
-  },
-  {
-    "objectID": "materials/01_intro.html#tasks",
-    "href": "materials/01_intro.html#tasks",
-    "title": "Introduction to PSCI 3200",
-    "section": "Tasks",
-    "text": "Tasks\n\nComplete the PSCI 3200 Student Survey\nGet logged-in on the course  Slack"
-  },
-  {
-    "objectID": "materials/14_surveyexp.html",
-    "href": "materials/14_surveyexp.html",
-    "title": "Survey Experiments",
-    "section": "",
-    "text": "10 Things to Know About Survey Experiments by Christopher Grady"
-  },
-  {
-    "objectID": "materials/14_surveyexp.html#readings",
-    "href": "materials/14_surveyexp.html#readings",
-    "title": "Survey Experiments",
-    "section": "",
-    "text": "10 Things to Know About Survey Experiments by Christopher Grady"
-  },
-  {
-    "objectID": "materials/14_surveyexp.html#slides",
-    "href": "materials/14_surveyexp.html#slides",
-    "title": "Survey Experiments",
-    "section": "Slides",
-    "text": "Slides\n\nThursday (1/18) lecture: Slides"
-  },
-  {
-    "objectID": "materials/03_causal.html#interesting-stuff-non-required",
-    "href": "materials/03_causal.html#interesting-stuff-non-required",
-    "title": "Causal Inference",
-    "section": "Interesting Stuff (non-required)",
-    "text": "Interesting Stuff (non-required)\n\nCause, Effect, and the Structure of the Social World by Megan Stevenson\n\nThis very recent article argues that the types of interventions that get evaluated using RCTs are unlikely to create meaningful change because of the way the social world is structured. In essence, we are not actually able to engineeer real change. Stevenson provides evidence from a meta-analysis of experimental criminology research."
-  },
-  {
-    "objectID": "slides/01-intro.html#course-description-1",
-    "href": "slides/01-intro.html#course-description-1",
-    "title": "Introduction to PSCI 3200",
-    "section": "Course Description",
-    "text": "Course Description\n\nFollow-up to PSCI 1102\n\n1102 covered big academic debates that we won’t (ex. institutions vs geography)\nThis research is the domain of academics conducting basic research\n\nFocus on applied research with development agencies/industry\n\nWe can’t change geography or airlift new institutions\nWe can use insights from academic work to improve governance and wellbeing (malaria pills, institutional reforms)\n\n\n\n\nsuper applied work is based partly on big picture/theory/basic research, so we’ll see some of that too\nI’ll often focus on my own research because it’s highly applied and you can get a sense of what research looks like mid-stream"
-  },
-  {
-    "objectID": "slides/01-intro.html#course-description-2",
-    "href": "slides/01-intro.html#course-description-2",
-    "title": "Introduction to PSCI 3200",
-    "section": "Course Description",
-    "text": "Course Description\n\n\n\nSubstantive focus areas\n\nDemocracy and Autocratization\nMigration\nCrime and Conflict\nForeign Aid\nClimate change and adaptation"
-  },
-  {
-    "objectID": "slides/01-intro.html#prerequisites",
-    "href": "slides/01-intro.html#prerequisites",
-    "title": "Introduction to PSCI 3200",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\n\n\nSubstance\n\nBig academic debates in development research (PSCI 1102)\n\nMethods and Tools (PSCI 1800)\n\nBasic familiarity with R and RStudio\nBasic knowledge of statistics/econometrics/data science\n\n\n\nif you didn’t take 1102, talk with me; I can give you a copy of the syllabus"
-  },
-  {
-    "objectID": "slides/01-intro.html#requirements",
-    "href": "slides/01-intro.html#requirements",
-    "title": "Introduction to PSCI 3200",
-    "section": "Requirements",
-    "text": "Requirements\n\n\n\nData Analysis for Social Science: A Friendly and Practical Introduction (DSS).\n\nWe will use DSS as a jumping-off point for this course.\nSome of this material will be review"
-  },
-  {
-    "objectID": "slides/01-intro.html#grading",
-    "href": "slides/01-intro.html#grading",
-    "title": "Introduction to PSCI 3200",
-    "section": "Grading",
-    "text": "Grading\nPerformance in this class will be evaluated by according to performance on the following course requirements:\n\n\n\nRequirement\nPercent of Final Grade\n\n\n\n\nQuizzes (4)\n10%\n\n\nWorkshops (4)\n10%\n\n\nData Assignments (3)\n36%\n\n\nFinal Project (1)\n44%"
-  },
-  {
-    "objectID": "slides/01-intro.html#quizzes",
-    "href": "slides/01-intro.html#quizzes",
-    "title": "Introduction to PSCI 3200",
-    "section": "Quizzes",
-    "text": "Quizzes\n\n\n\nOn 4 randomly selected meetings, there will be a brief quiz\nIf you paid any attention or did readings, you should get full credit\nOne pre-approved absence allowed"
-  },
-  {
-    "objectID": "slides/01-intro.html#workshops",
-    "href": "slides/01-intro.html#workshops",
-    "title": "Introduction to PSCI 3200",
-    "section": "Workshops",
-    "text": "Workshops\n\n4 interactive, hands-on workshops working with diverse types of data, covering different statistical methods, or using new computational tools.\n\nTools: Quarto, github\nData: Survey data, text data, financial data\nMethods: Randomized and quasi-experiments, network analysis\n\nYou will be required to submit a product demonstrating completion of the workshop"
-  },
-  {
-    "objectID": "slides/01-intro.html#data-assignments",
-    "href": "slides/01-intro.html#data-assignments",
-    "title": "Introduction to PSCI 3200",
-    "section": "Data Assignments",
-    "text": "Data Assignments\n\n3 data assignments designed to give you an opportunity to apply tools and methods discussed in readings, lectures, and workshops to data from the real world\nYou will be required to submit your own code and write-up\n\n\n\n\nData Assignment\nDue Date\n\n\n\n\nAssignment 1\nFeb 29th\n\n\nAssignment 2\nMar 21st\n\n\nAssignment 3\nApr 25th"
-  },
-  {
-    "objectID": "slides/01-intro.html#final-project",
-    "href": "slides/01-intro.html#final-project",
-    "title": "Introduction to PSCI 3200",
-    "section": "Final Project",
-    "text": "Final Project\n\nData analysis project with data of your choosing\n\nFormulate a research question\nFind data that can help you answer that question\nApply the tools and methods from this course\nWrite-up analysis\n\nProduce a webpage to present your results for public consumption\n\n\nYour final submission will be a publicly available webpage that contains: (1) a brief introduction to your research question and data; (2) a discussion of your research design, its assumptions, and threats to inference; (3) a visualization that describes your data; (4) a presentation of the results from a regression model (as a table or graph) and discussion of its implications for your research question; and (5) a discussion of the implications of your findings for development policy or practice, including the limitations of your analysis and suggestions for future research."
-  },
-  {
-    "objectID": "slides/01-intro.html#final-project-1",
-    "href": "slides/01-intro.html#final-project-1",
-    "title": "Introduction to PSCI 3200",
-    "section": "Final Project",
-    "text": "Final Project\n\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 8th\n\n\nIdentify data source\nMar 5th\n\n\nSubmit proposal\nApr 2nd\n\n\nSubmit final project\nMay 2nd\n\n\n\n\nBy April, I’ll give you a break-down of how the grading will be done"
-  },
-  {
-    "objectID": "slides/01-intro.html#textbook",
-    "href": "slides/01-intro.html#textbook",
-    "title": "Introduction to PSCI 3200",
-    "section": "Textbook",
-    "text": "Textbook\n\n\n\nData Analysis for Social Science: A Friendly and Practical Introduction (DSS)\n\nWe will use DSS as a jumping-off point for this course\nSome of this material will be review"
-  },
-  {
-    "objectID": "materials/09_migration.html#slides",
-    "href": "materials/09_migration.html#slides",
-    "title": "Causal Inference",
-    "section": "Slides",
-    "text": "Slides\n\nThursday (1/18) lecture: Slides"
-  },
-  {
-    "objectID": "materials/09_migration.html#interesting-stuff-non-required",
-    "href": "materials/09_migration.html#interesting-stuff-non-required",
-    "title": "Causal Inference",
-    "section": "Interesting Stuff (non-required)",
-    "text": "Interesting Stuff (non-required)\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/addressing-root-causes-and-drivers-irregular-migration"
-  },
-  {
-    "objectID": "materials/05_democracy.html#slides",
-    "href": "materials/05_democracy.html#slides",
-    "title": "Causal Inference",
-    "section": "Slides",
-    "text": "Slides\n\nThursday (1/18) lecture: Slides"
-  },
-  {
-    "objectID": "materials/05_democracy.html#interesting-stuff-non-required",
-    "href": "materials/05_democracy.html#interesting-stuff-non-required",
-    "title": "Causal Inference",
-    "section": "Interesting Stuff (non-required)",
-    "text": "Interesting Stuff (non-required)\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/strengthening-civil-society-evidence-gap-map\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/human-rights-evidence-gap-map\nhttps://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-Analysis-report-Chapeau-summary.pdf\nhttps://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-DRG-Comparative-Analysis-Report.pdf\nhttps://www.v-dem.net/documents/29/V-dem_democracyreport2023_lowres.pdf\nhttps://www.amazon.com/How-Democracies-Die-Steven-Levitsky/dp/1524762938\nhttps://protectdemocracy.org/wp-content/uploads/2022/06/the-authoritarian-playbook-how-reporters-can-contextualize-and-cover-authoritarian-threats-as-distinct-from-politics-as-usual-1.pdf\nhttps://onlinelibrary.wiley.com/doi/10.1111/ajps.12798"
-  },
-  {
-    "objectID": "materials/04_causal.html",
-    "href": "materials/04_causal.html",
-    "title": "Sampling and Population Characteristics",
-    "section": "",
-    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation\n\nDSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
-  },
-  {
-    "objectID": "materials/04_causal.html#required-readings",
-    "href": "materials/04_causal.html#required-readings",
-    "title": "Sampling and Population Characteristics",
-    "section": "",
-    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation\n\nDSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
-  },
-  {
-    "objectID": "materials/04_causal.html#slides",
-    "href": "materials/04_causal.html#slides",
-    "title": "Sampling and Population Characteristics",
-    "section": "Slides",
-    "text": "Slides\n\nThursday (1/18) lecture: Slides"
-  },
-  {
-    "objectID": "materials/04_causal.html#interesting-stuff-non-required",
-    "href": "materials/04_causal.html#interesting-stuff-non-required",
-    "title": "Sampling and Population Characteristics",
-    "section": "Interesting Stuff (non-required)",
-    "text": "Interesting Stuff (non-required)\n\nAndrew Heiss’s Quarto Resource\nHadley Wickham’s Quarto Guide"
-  },
-  {
-    "objectID": "materials/03_causal.html#tasks",
-    "href": "materials/03_causal.html#tasks",
-    "title": "Causal Inference",
-    "section": "Tasks",
-    "text": "Tasks\n\nCreate a github account and post your git handle to the #general channel on the course Slack"
-  },
-  {
-    "objectID": "materials/05_aid.html",
-    "href": "materials/05_aid.html",
-    "title": "Survey Experiments",
-    "section": "",
-    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nhttps://www.npr.org/sections/goatsandsoda/2018/09/14/647212387/which-foreign-aid-programs-work-the-u-s-runs-a-test-but-wont-talk-about-it\nhttps://www.cambridge.org/core/journals/american-political-science-review/article/international-rewards-for-gender-equality-reforms-in-autocracies/0462BEE8EB91A57AD810EFD137597F43"
-  },
-  {
-    "objectID": "materials/05_aid.html#readings",
-    "href": "materials/05_aid.html#readings",
-    "title": "Survey Experiments",
-    "section": "",
-    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nhttps://www.npr.org/sections/goatsandsoda/2018/09/14/647212387/which-foreign-aid-programs-work-the-u-s-runs-a-test-but-wont-talk-about-it\nhttps://www.cambridge.org/core/journals/american-political-science-review/article/international-rewards-for-gender-equality-reforms-in-autocracies/0462BEE8EB91A57AD810EFD137597F43"
-  },
-  {
-    "objectID": "materials/05_aid.html#slides",
-    "href": "materials/05_aid.html#slides",
-    "title": "Survey Experiments",
-    "section": "Slides",
-    "text": "Slides\n\nThursday (1/18) lecture: Slides"
-  },
-  {
-    "objectID": "materials/05_climate.html",
-    "href": "materials/05_climate.html",
-    "title": "Survey Experiments",
-    "section": "",
-    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nCleo’s paper\nhttps://osf.io/nyhz4"
-  },
-  {
-    "objectID": "materials/05_climate.html#readings",
-    "href": "materials/05_climate.html#readings",
-    "title": "Survey Experiments",
-    "section": "",
-    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nCleo’s paper\nhttps://osf.io/nyhz4"
-  },
-  {
-    "objectID": "materials/05_climate.html#slides",
-    "href": "materials/05_climate.html#slides",
-    "title": "Survey Experiments",
-    "section": "Slides",
-    "text": "Slides\n\nThursday (1/18) lecture: Slides"
   },
   {
     "objectID": "slides/03-causal.html#assignments",
@@ -637,62 +126,6 @@
     "text": "Can’t we just observe and compare?"
   },
   {
-    "objectID": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time",
-    "href": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time",
-    "title": "Causal Inference 1",
-    "section": "Why can’t we just observe how individuals change over time?",
-    "text": "Why can’t we just observe how individuals change over time?\n\n\nShow code\nlibrary(ggplot2)\n\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.3, 1.7,NA)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  scale_linetype_manual(values=c(\"solid\")) +\n  xlim(0,3) + \n  scale_y_continuous(limits = c(1,1.85), breaks = seq(1, 1.85, by = .1)) + \n  scale_color_manual(values = c(\"blue\") ) +\n  theme(legend.position = \"none\", text = element_text(size=20))"
-  },
-  {
-    "objectID": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-1",
-    "href": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-1",
-    "title": "Causal Inference 1",
-    "section": "Why can’t we just observe how individuals change over time?",
-    "text": "Why can’t we just observe how individuals change over time?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(0.9, 1.3, 1.7, 2.1)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"blue\") ) +\n  coord_cartesian(ylim = c(1, 1.85), clip = \"on\") +\n  theme(legend.position = \"none\", text = element_text(size=20))"
-  },
-  {
-    "objectID": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-2",
-    "href": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-2",
-    "title": "Causal Inference 1",
-    "section": "Why can’t we just observe how individuals change over time?",
-    "text": "Why can’t we just observe how individuals change over time?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.2, 1.4, NA, \n            NA, 1.3, 1.7, NA)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(limits = c(1,1.85), breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"red\", \"blue\") ) +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
-  },
-  {
-    "objectID": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-3",
-    "href": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-3",
-    "title": "Causal Inference 1",
-    "section": "Why can’t we just observe how individuals change over time?",
-    "text": "Why can’t we just observe how individuals change over time?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(1, 1.2, 1.4, 1.6, \n            0.9, 1.3, 1.7, 2.1)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"red\", \"blue\") ) +\n  coord_cartesian(ylim = c(1, 1.85), clip = \"on\") +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
-  },
-  {
-    "objectID": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-4",
-    "href": "slides/03-causal.html#why-cant-we-just-observe-how-individuals-change-over-time-4",
-    "title": "Causal Inference 1",
-    "section": "Why can’t we just observe how individuals change over time?",
-    "text": "Why can’t we just observe how individuals change over time?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.2, 1.4, NA, \n            NA, 1.3, 1.7, NA, \n            NA, 1.3, 1.5, NA)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\",\n              \"Comparison\",\"Comparison\",\"Comparison\",\"Comparison\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(limits = c(1,1.85), breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"dotted\", \"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"black\", \"red\", \"blue\") ) +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
-  },
-  {
-    "objectID": "slides/03-causal.html#dealing-with-small-sample-sizes",
-    "href": "slides/03-causal.html#dealing-with-small-sample-sizes",
-    "title": "Causal Inference 1",
-    "section": "Dealing with Small Sample Sizes",
-    "text": "Dealing with Small Sample Sizes\n\nRe-randomization\nBlocking\nNon-bipartite matching\n\n\n\nThese fancy methods only ensure balance on observed characteristics"
-  },
-  {
-    "objectID": "slides/03-causal.html#counterpoint",
-    "href": "slides/03-causal.html#counterpoint",
-    "title": "Causal Inference 1",
-    "section": "Counterpoint",
-    "text": "Counterpoint"
-  },
-  {
-    "objectID": "slides/03-causal.html#section",
-    "href": "slides/03-causal.html#section",
-    "title": "Causal Inference 1",
-    "section": "",
-    "text": "Duflo: big picture + details\nWhy focus on details: 1. policymakers don’t have time to focus on details 2. details make all of the difference\nExample of water connections: - Big picture: people really need water - Details: they won’t navigate bureaucracy\n\nDesign of the tap: details about communication or defaults\nLayout of the pipes: logistics of authority and responsibility\n\nPlumbing vs Science\n\n“It turns out that most policymakers, and most bureaucrats, are not very good plumbers.”\n“And not all plumbers need to be economists. Sometimes, what a policymaker needs is a good software engineer, lawyer, or subject expert” “To summarize, economists have the disciplinary training to make good plumbers: economics trains us in behavioral science, incentives issues, and firm behavior; it also gives us an understanding of both governments and firms as organizations, though more work probably remains to be done there. We economists are even equipped to think about market equilibrium consequences of apparently small changes. This comparative advantage, along with the importance of getting these issues right, makes it a responsibility for our profession to engage with the world on those terms.” “Plumbing experiments, since they are primarily motivated by pragmatism, must focus on what is important for the world, not necessarily on the very subtle issues that theorists would find worth discussing.” “Scientists design general frames, engineers turn them into relevant machinery, and plumbers finally make them work in a complicated, messy policy environment.”\n\nAny normatively uncomfortable findings?\nM2: What do we mean by ‘development’ and why do we study it? - What causes development and can we cause it to happen? Probably not really. - So what is the role of social scientists: Duflo; help at the margins. Answer questions like: – basic research: what do people want/need? What is preventing that from happening? – applied research: do specific things work to resolve these issues? – “There may not be a theory fully worked out to accommodate these features, but she can use computation and lab experiments to simulate how they will play out” – “The uncertainty in the environment creates a highly stochastic world: the natural way to “pay attention” to what happens, as I will argue below, is thus to analyze natural experiments or set up field experiments to try out different plumbing possibilities.\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
-  },
-  {
     "objectID": "slides/03-causal.html#cant-we-just-observe-and-compare-6",
     "href": "slides/03-causal.html#cant-we-just-observe-and-compare-6",
     "title": "Causal Inference 1",
@@ -721,20 +154,6 @@
     "text": "Can’t we just observe and compare?"
   },
   {
-    "objectID": "slides/03-causal.html#communicating-effect-sizes",
-    "href": "slides/03-causal.html#communicating-effect-sizes",
-    "title": "Causal Inference 1",
-    "section": "Communicating Effect Sizes",
-    "text": "Communicating Effect Sizes\n\nStandard deviations\nPercentage change\nZ-scores\nIndex measures"
-  },
-  {
-    "objectID": "slides/03-causal.html#credibility-revolution",
-    "href": "slides/03-causal.html#credibility-revolution",
-    "title": "Causal Inference 1",
-    "section": "Credibility Revolution",
-    "text": "Credibility Revolution\n\n“Let’s Take the Con out of Econometrics” (Leamer, 2019)\nMinimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania (Card & Kreuger, 1994)\nIdentification and Estimation of Local Average Treatment Effects (Imbens and Angrist, 1994)\n2019 Nobel Prize in Economics (Banerjee, Duflo, and Kremer)\n2021 Nobel Prize in Economics (Imbens and Angrist)"
-  },
-  {
     "objectID": "slides/03-causal.html#why-cant-we-just-observe-how-units-change-over-time",
     "href": "slides/03-causal.html#why-cant-we-just-observe-how-units-change-over-time",
     "title": "Causal Inference 1",
@@ -749,46 +168,60 @@
     "text": "Why can’t we just observe how units change over time?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(0.9, 1.3, 1.7, 2.1)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"blue\") ) +\n  coord_cartesian(ylim = c(1, 1.85), clip = \"on\") +\n  theme(legend.position = \"none\", text = element_text(size=20))"
   },
   {
-    "objectID": "slides/03-causal.html#why-cant-we-just-compare-units-in-the-wild",
-    "href": "slides/03-causal.html#why-cant-we-just-compare-units-in-the-wild",
+    "objectID": "slides/03-causal.html#why-cant-we-just-compare-units-without-randomization",
+    "href": "slides/03-causal.html#why-cant-we-just-compare-units-without-randomization",
     "title": "Causal Inference 1",
-    "section": "Why can’t we just compare units in the wild?",
-    "text": "Why can’t we just compare units in the wild?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.2, 1.4, NA, \n            NA, 1.3, 1.7, NA)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(limits = c(1,1.85), breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"red\", \"blue\") ) +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
+    "section": "Why can’t we just compare units without randomization?",
+    "text": "Why can’t we just compare units without randomization?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.2, 1.4, NA, \n            NA, 1.3, 1.7, NA)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(limits = c(1,1.85), breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"red\", \"blue\") ) +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
   },
   {
-    "objectID": "slides/03-causal.html#why-cant-we-just-compare-units-in-the-wild-1",
-    "href": "slides/03-causal.html#why-cant-we-just-compare-units-in-the-wild-1",
+    "objectID": "slides/03-causal.html#why-cant-we-just-compare-units-without-randomization-1",
+    "href": "slides/03-causal.html#why-cant-we-just-compare-units-without-randomization-1",
     "title": "Causal Inference 1",
-    "section": "Why can’t we just compare units in the wild?",
-    "text": "Why can’t we just compare units in the wild?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(1, 1.2, 1.4, 1.6, \n            0.9, 1.3, 1.7, 2.1)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"red\", \"blue\") ) +\n  coord_cartesian(ylim = c(1, 1.85), clip = \"on\") +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
+    "section": "Why can’t we just compare units without randomization?",
+    "text": "Why can’t we just compare units without randomization?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(1, 1.2, 1.4, 1.6, \n            0.9, 1.3, 1.7, 2.1)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"red\", \"blue\") ) +\n  coord_cartesian(ylim = c(1, 1.85), clip = \"on\") +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
   },
   {
-    "objectID": "slides/03-causal.html#why-cant-we-just-compare-units-in-the-wild-2",
-    "href": "slides/03-causal.html#why-cant-we-just-compare-units-in-the-wild-2",
+    "objectID": "slides/03-causal.html#why-cant-we-just-compare-units-without-randomization-2",
+    "href": "slides/03-causal.html#why-cant-we-just-compare-units-without-randomization-2",
     "title": "Causal Inference 1",
-    "section": "Why can’t we just compare units in the wild?",
-    "text": "Why can’t we just compare units in the wild?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.2, 1.4, NA, \n            NA, 1.3, 1.7, NA, \n            NA, 1.3, 1.5, NA)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\",\n              \"Comparison\",\"Comparison\",\"Comparison\",\"Comparison\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(limits = c(1,1.85), breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"dotted\", \"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"black\", \"red\", \"blue\") ) +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
+    "section": "Why can’t we just compare units without randomization?",
+    "text": "Why can’t we just compare units without randomization?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.2, 1.4, NA, \n            NA, 1.3, 1.7, NA, \n            NA, 1.3, 1.5, NA)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\",\n              \"Comparison\",\"Comparison\",\"Comparison\",\"Comparison\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(limits = c(1,1.85), breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"dotted\", \"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"black\", \"red\", \"blue\") ) +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
   },
   {
-    "objectID": "slides/03-causal.html#impact-evaluations-vs-traditional-me",
-    "href": "slides/03-causal.html#impact-evaluations-vs-traditional-me",
+    "objectID": "slides/03-causal.html#dealing-with-small-sample-sizes",
+    "href": "slides/03-causal.html#dealing-with-small-sample-sizes",
     "title": "Causal Inference 1",
-    "section": "Impact Evaluations vs Traditional M&E",
-    "text": "Impact Evaluations vs Traditional M&E\nTraditional M&E focuses on implementation and outputs\n\nDid the intervention deliver the outputs that were planned?\nEx. Number of NGOs that attended a training\n\nImpact Evaluations focuses on theory of change and outcomes\n\nDid the intervention lead to measurable changes in the desired outcomes?\nEx. Did the training lead NGOs to pursue new sources of funding?"
+    "section": "Dealing with Small Sample Sizes",
+    "text": "Dealing with Small Sample Sizes\n\nRe-randomization\nBlocking\nNon-bipartite matching\n\n\n\nThese fancy methods only ensure balance on observed characteristics"
   },
   {
-    "objectID": "slides/03-causal.html#impact-evaluations-vs-traditional-me-1",
-    "href": "slides/03-causal.html#impact-evaluations-vs-traditional-me-1",
+    "objectID": "slides/03-causal.html#counterpoint",
+    "href": "slides/03-causal.html#counterpoint",
     "title": "Causal Inference 1",
-    "section": "Impact Evaluations vs Traditional M&E",
-    "text": "Impact Evaluations vs Traditional M&E\n\n- To answer the question: Did the training lead NGOs to pursue new sources of funding? - We need to estimate the counterfactual: What sources of funding would have been pursued by NGOs without the intervention?"
+    "section": "Counterpoint",
+    "text": "Counterpoint"
   },
   {
-    "objectID": "slides/03-causal.html#impact-evaluations-vs-traditional-me-2",
-    "href": "slides/03-causal.html#impact-evaluations-vs-traditional-me-2",
+    "objectID": "slides/03-causal.html#impact-evaluations-vs-me",
+    "href": "slides/03-causal.html#impact-evaluations-vs-me",
     "title": "Causal Inference 1",
-    "section": "Impact Evaluations vs Traditional M&E",
-    "text": "Impact Evaluations vs Traditional M&E\nRandomization Reduces Risk of Systematic Bias\n\nIf we don’t have a comparison group, we don’t know how NGOs would have changed without the intervention\nIf we purposely select which NGOs receive the intervention, they may be systematically different and improving more quickly before the intervention\nIf we randomly select NGOs to receive the intervention, it is statistically most likely that they would have been similar without the intervention"
+    "section": "Impact Evaluations vs M&E",
+    "text": "Impact Evaluations vs M&E\nTraditional M&E focuses on implementation and outputs\n\nDid the intervention deliver the outputs that were planned?\nEx. Number of NGOs that attended a training\n\nImpact Evaluations focuses on theory of change and outcomes\n\nDid the intervention lead to measurable changes in the desired outcomes?\nEx. Did the training lead NGOs to pursue new sources of funding?"
+  },
+  {
+    "objectID": "slides/03-causal.html#impact-evaluations-vs-me-1",
+    "href": "slides/03-causal.html#impact-evaluations-vs-me-1",
+    "title": "Causal Inference 1",
+    "section": "Impact Evaluations vs M&E",
+    "text": "Impact Evaluations vs M&E\n\n\n\nTo answer the question: Did the training lead NGOs to pursue new sources of funding?\nWe need to estimate the counterfactual: What sources of funding would have been pursued by NGOs without the intervention?"
+  },
+  {
+    "objectID": "slides/03-causal.html#impact-evaluations-vs-me-2",
+    "href": "slides/03-causal.html#impact-evaluations-vs-me-2",
+    "title": "Causal Inference 1",
+    "section": "Impact Evaluations vs M&E",
+    "text": "Impact Evaluations vs M&E\nRandomization Reduces Risk of Systematic Bias\n\nIf we don’t have a comparison group, we don’t know how NGOs would have changed without the intervention\nIf we purposely select which NGOs receive the intervention, they may be systematically different and improving more quickly before the intervention\nIf we randomly select NGOs to receive the intervention, it is statistically most likely that they would have been similar without the intervention"
   },
   {
     "objectID": "slides/03-causal.html#ies-in-international-development",
@@ -803,6 +236,13 @@
     "title": "Causal Inference 1",
     "section": "History of Experiments",
     "text": "History of Experiments\n\n\nStudy of scurvy (Lind, 1747)\n\nLemons\n\nEducation and cognitive psychology in 1880s\n\nteaching techniques, sensual perceptions\n\nAgriculture, medicine, econ, political science in the 1920s\n\nfertilizer, radiation, indifference curves, voter registration\n\nPolicy and program evaluation in the 1960s\n\n245 social policy RCTs in the US by 1978\n\nMexico’s PROGRESSA in 1997 (first large-scale policy RCT)"
+  },
+  {
+    "objectID": "slides/03-causal.html#credibility-revolution",
+    "href": "slides/03-causal.html#credibility-revolution",
+    "title": "Causal Inference 1",
+    "section": "Credibility Revolution",
+    "text": "Credibility Revolution\n\n“Let’s Take the Con out of Econometrics” (Leamer, 2019)\nMinimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania (Card & Kreuger, 1994)\nIdentification and Estimation of Local Average Treatment Effects (Imbens and Angrist, 1994)\n2019 Nobel Prize in Economics (Banerjee, Duflo, and Kremer)\n2021 Nobel Prize in Economics (Imbens and Angrist)"
   },
   {
     "objectID": "slides/03-causal.html#why-plumbers",
@@ -840,25 +280,11 @@
     "text": "Plumbing vs Science\n\n\nScientists can tell us the drivers of human wellfare and prosperity\n\nBut can we manipulate these macro-forces?\nProbably not really.\n\nSo what can we do as social scientists?\n\nHelp at the margins in specific places with specific policies and programs\n\n\n\n\n\nAny normatively uncomfortable findings?"
   },
   {
-    "objectID": "slides/03-causal.html#why-cant-we-just-compare-units-without-randomization",
-    "href": "slides/03-causal.html#why-cant-we-just-compare-units-without-randomization",
+    "objectID": "slides/03-causal.html#communicating-effect-sizes",
+    "href": "slides/03-causal.html#communicating-effect-sizes",
     "title": "Causal Inference 1",
-    "section": "Why can’t we just compare units without randomization?",
-    "text": "Why can’t we just compare units without randomization?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.2, 1.4, NA, \n            NA, 1.3, 1.7, NA)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(limits = c(1,1.85), breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"red\", \"blue\") ) +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
-  },
-  {
-    "objectID": "slides/03-causal.html#why-cant-we-just-compare-units-without-randomization-1",
-    "href": "slides/03-causal.html#why-cant-we-just-compare-units-without-randomization-1",
-    "title": "Causal Inference 1",
-    "section": "Why can’t we just compare units without randomization?",
-    "text": "Why can’t we just compare units without randomization?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(1, 1.2, 1.4, 1.6, \n            0.9, 1.3, 1.7, 2.1)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"red\", \"blue\") ) +\n  coord_cartesian(ylim = c(1, 1.85), clip = \"on\") +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
-  },
-  {
-    "objectID": "slides/03-causal.html#why-cant-we-just-compare-units-without-randomization-2",
-    "href": "slides/03-causal.html#why-cant-we-just-compare-units-without-randomization-2",
-    "title": "Causal Inference 1",
-    "section": "Why can’t we just compare units without randomization?",
-    "text": "Why can’t we just compare units without randomization?\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.2, 1.4, NA, \n            NA, 1.3, 1.7, NA, \n            NA, 1.3, 1.5, NA)\nTreatment = c(\"Control\", \"Control\",\"Control\",\"Control\", \n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\",\n              \"Comparison\",\"Comparison\",\"Comparison\",\"Comparison\")\n\ndat = data.frame(Year, Outcome, Treatment)\n\n\nggplot(data = dat, aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  xlim(0,3) + \n  scale_y_continuous(limits = c(1,1.85), breaks = seq(1, 1.85, by = .1)) + \n  scale_linetype_manual(values=c(\"dotted\", \"solid\", \"solid\")) +\n  scale_color_manual(values = c(\"black\", \"red\", \"blue\") ) +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))"
+    "section": "Communicating Effect Sizes",
+    "text": "Communicating Effect Sizes\n\nStandard deviations\nPercentage change\nZ-scores\nIndex measures"
   },
   {
     "objectID": "slides/03-causal.html#cant-we-just-observe-and-compare-10",
@@ -868,46 +294,536 @@
     "text": "Can’t we just observe and compare?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
-    "objectID": "slides/03-causal.html#impact-evaluations-vs-me",
-    "href": "slides/03-causal.html#impact-evaluations-vs-me",
-    "title": "Causal Inference 1",
-    "section": "Impact Evaluations vs M&E",
-    "text": "Impact Evaluations vs M&E\nTraditional M&E focuses on implementation and outputs\n\nDid the intervention deliver the outputs that were planned?\nEx. Number of NGOs that attended a training\n\nImpact Evaluations focuses on theory of change and outcomes\n\nDid the intervention lead to measurable changes in the desired outcomes?\nEx. Did the training lead NGOs to pursue new sources of funding?"
+    "objectID": "slides/01-intro.html#agenda",
+    "href": "slides/01-intro.html#agenda",
+    "title": "Introduction to PSCI 3200",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n\nIntroductions\nCourse Description and Objectives\nRequirements\nPolicies\nSchedule\n\n\n\nemail\ncourse website\nsurvey"
   },
   {
-    "objectID": "slides/03-causal.html#impact-evaluations-vs-me-1",
-    "href": "slides/03-causal.html#impact-evaluations-vs-me-1",
-    "title": "Causal Inference 1",
-    "section": "Impact Evaluations vs M&E",
-    "text": "Impact Evaluations vs M&E\n\n\n\nTo answer the question: Did the training lead NGOs to pursue new sources of funding?\nWe need to estimate the counterfactual: What sources of funding would have been pursued by NGOs without the intervention?"
+    "objectID": "slides/01-intro.html#me",
+    "href": "slides/01-intro.html#me",
+    "title": "Introduction to PSCI 3200",
+    "section": "Me",
+    "text": "Me\nBackground:\n\nPhD from UPenn PSCI, Postdoc at Duke\nVery applied work\n\nInterests:\n\nDemocracy and civil society, foreign aid and NGOs\nRandomized experiments, machine learning\nField Projects: Uganda, Ethiopia, Cambodia, Serbia"
   },
   {
-    "objectID": "slides/03-causal.html#impact-evaluations-vs-me-2",
-    "href": "slides/03-causal.html#impact-evaluations-vs-me-2",
-    "title": "Causal Inference 1",
-    "section": "Impact Evaluations vs M&E",
-    "text": "Impact Evaluations vs M&E\nRandomization Reduces Risk of Systematic Bias\n\nIf we don’t have a comparison group, we don’t know how NGOs would have changed without the intervention\nIf we purposely select which NGOs receive the intervention, they may be systematically different and improving more quickly before the intervention\nIf we randomly select NGOs to receive the intervention, it is statistically most likely that they would have been similar without the intervention"
+    "objectID": "slides/01-intro.html#you",
+    "href": "slides/01-intro.html#you",
+    "title": "Introduction to PSCI 3200",
+    "section": "You",
+    "text": "You\n\n\nPlease tell us:\n\nName, Year, Major\nOne thing you’re interested in\nOne thing you’d like to get from the course"
   },
   {
-    "objectID": "slides/02-causal.html",
-    "href": "slides/02-causal.html",
+    "objectID": "slides/01-intro.html#course-description",
+    "href": "slides/01-intro.html#course-description",
+    "title": "Introduction to PSCI 3200",
+    "section": "Course Description",
+    "text": "Course Description\n\n\nBlending subject-matter, research methods, and computational tools\nFocusing on the type of work that goes on with and within development agencies\nAlmost no math; very little theory\n\n\n\n\n\nBest suited for folks that have small background in all 3 areas"
+  },
+  {
+    "objectID": "slides/01-intro.html#course-description-1",
+    "href": "slides/01-intro.html#course-description-1",
+    "title": "Introduction to PSCI 3200",
+    "section": "Course Description",
+    "text": "Course Description\n\nFollow-up to PSCI 1102\n\n1102 covered big academic debates that we won’t (ex. institutions vs geography)\nThis research is the domain of academics conducting basic research\n\nFocus on applied research with development agencies/industry\n\nWe can’t change geography or airlift new institutions\nWe can use insights from academic work to improve governance and wellbeing (malaria pills, institutional reforms)\n\n\n\n\nsuper applied work is based partly on big picture/theory/basic research, so we’ll see some of that too\nI’ll often focus on my own research because it’s highly applied and you can get a sense of what research looks like mid-stream"
+  },
+  {
+    "objectID": "slides/01-intro.html#course-description-2",
+    "href": "slides/01-intro.html#course-description-2",
+    "title": "Introduction to PSCI 3200",
+    "section": "Course Description",
+    "text": "Course Description\n\n\n\nSubstantive focus areas\n\nDemocracy and Autocratization\nMigration\nCrime and Conflict\nForeign Aid\nClimate change and adaptation"
+  },
+  {
+    "objectID": "slides/01-intro.html#course-description-3",
+    "href": "slides/01-intro.html#course-description-3",
+    "title": "Introduction to PSCI 3200",
+    "section": "Course Description",
+    "text": "Course Description\n\nMethods:\n\nDeepen understanding of ‘workhorse’ statistical methods and research designs\nHow these methods can be used to make inferences about population characteristics and causal relationships\n\nTools\n\nIntroduce the computational tools that are needed to implement these methods\nSoftware necessary to prepare professional documents and reproducible data analysis workflows"
+  },
+  {
+    "objectID": "slides/01-intro.html#course-objectives",
+    "href": "slides/01-intro.html#course-objectives",
+    "title": "Introduction to PSCI 3200",
+    "section": "Course Objectives",
+    "text": "Course Objectives\nAt the end of the course you should be able to:\n\nEvaluate the quality of evidence in the development field\nThink clearly about how data can be used to learn about development and governance challenges\nUse tools for data analysis such as R, RStudio, Quarto, and GitHub\nProduce professional-quality documents that summarize original research"
+  },
+  {
+    "objectID": "slides/01-intro.html#prerequisites",
+    "href": "slides/01-intro.html#prerequisites",
+    "title": "Introduction to PSCI 3200",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\n\n\nSubstance\n\nBig academic debates in development research (PSCI 1102)\n\nMethods and Tools (PSCI 1800)\n\nBasic familiarity with R and RStudio\nBasic knowledge of statistics/econometrics/data science\n\n\n\nif you didn’t take 1102, talk with me; I can give you a copy of the syllabus"
+  },
+  {
+    "objectID": "slides/01-intro.html#textbook",
+    "href": "slides/01-intro.html#textbook",
+    "title": "Introduction to PSCI 3200",
+    "section": "Textbook",
+    "text": "Textbook\n\n\n\nData Analysis for Social Science: A Friendly and Practical Introduction (DSS)\n\nWe will use DSS as a jumping-off point for this course\nSome of this material will be review"
+  },
+  {
+    "objectID": "slides/01-intro.html#grading",
+    "href": "slides/01-intro.html#grading",
+    "title": "Introduction to PSCI 3200",
+    "section": "Grading",
+    "text": "Grading\nPerformance in this class will be evaluated by according to performance on the following course requirements:\n\n\n\nRequirement\nPercent of Final Grade\n\n\n\n\nQuizzes (4)\n10%\n\n\nWorkshops (4)\n10%\n\n\nData Assignments (3)\n36%\n\n\nFinal Project (1)\n44%"
+  },
+  {
+    "objectID": "slides/01-intro.html#quizzes",
+    "href": "slides/01-intro.html#quizzes",
+    "title": "Introduction to PSCI 3200",
+    "section": "Quizzes",
+    "text": "Quizzes\n\n\n\nOn 4 randomly selected meetings, there will be a brief quiz\nIf you paid any attention or did readings, you should get full credit\nOne pre-approved absence allowed"
+  },
+  {
+    "objectID": "slides/01-intro.html#workshops",
+    "href": "slides/01-intro.html#workshops",
+    "title": "Introduction to PSCI 3200",
+    "section": "Workshops",
+    "text": "Workshops\n\n4 interactive, hands-on workshops working with diverse types of data, covering different statistical methods, or using new computational tools.\n\nTools: Quarto, github\nData: Survey data, text data, financial data\nMethods: Randomized and quasi-experiments, network analysis\n\nYou will be required to submit a product demonstrating completion of the workshop"
+  },
+  {
+    "objectID": "slides/01-intro.html#data-assignments",
+    "href": "slides/01-intro.html#data-assignments",
+    "title": "Introduction to PSCI 3200",
+    "section": "Data Assignments",
+    "text": "Data Assignments\n\n3 data assignments designed to give you an opportunity to apply tools and methods discussed in readings, lectures, and workshops to data from the real world\nYou will be required to submit your own code and write-up\n\n\n\n\nData Assignment\nDue Date\n\n\n\n\nAssignment 1\nFeb 29th\n\n\nAssignment 2\nMar 21st\n\n\nAssignment 3\nApr 25th"
+  },
+  {
+    "objectID": "slides/01-intro.html#final-project",
+    "href": "slides/01-intro.html#final-project",
+    "title": "Introduction to PSCI 3200",
+    "section": "Final Project",
+    "text": "Final Project\n\nData analysis project with data of your choosing\n\nFormulate a research question\nFind data that can help you answer that question\nApply the tools and methods from this course\nWrite-up analysis\n\nProduce a webpage to present your results for public consumption\n\n\nYour final submission will be a publicly available webpage that contains: (1) a brief introduction to your research question and data; (2) a discussion of your research design, its assumptions, and threats to inference; (3) a visualization that describes your data; (4) a presentation of the results from a regression model (as a table or graph) and discussion of its implications for your research question; and (5) a discussion of the implications of your findings for development policy or practice, including the limitations of your analysis and suggestions for future research."
+  },
+  {
+    "objectID": "slides/01-intro.html#final-project-1",
+    "href": "slides/01-intro.html#final-project-1",
+    "title": "Introduction to PSCI 3200",
+    "section": "Final Project",
+    "text": "Final Project\n\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 8th\n\n\nIdentify data source\nMar 5th\n\n\nSubmit proposal\nApr 2nd\n\n\nSubmit final project\nMay 2nd\n\n\n\n\nBy April, I’ll give you a break-down of how the grading will be done"
+  },
+  {
+    "objectID": "slides/01-intro.html#late-submissions-and-regrading",
+    "href": "slides/01-intro.html#late-submissions-and-regrading",
+    "title": "Introduction to PSCI 3200",
+    "section": "Late Submissions and Regrading",
+    "text": "Late Submissions and Regrading\n\nLate submission of assignments\n\npenalty of 2 points for every day late\nexcept in documented cases of serious illness or family emergency\n\nRegrade request\n\ndetailed write-up of your dispute\nRegrade of the entire assignment (might increase or decrease)"
+  },
+  {
+    "objectID": "slides/01-intro.html#use-of-ai-tools",
+    "href": "slides/01-intro.html#use-of-ai-tools",
+    "title": "Introduction to PSCI 3200",
+    "section": "Use of AI Tools",
+    "text": "Use of AI Tools\n\nYou are welcome to use generative AI tools\nIt is important to gain experience integrating them into professional tasks\nAI tools frequently make errors and ‘hallucinate’ (journal articles, R functions, etc.)\nIt is your responsibility to verify the information provided\nYou must disclose your use of AI tools for assignments in the form of footnotes or citations"
+  },
+  {
+    "objectID": "slides/01-intro.html#electronic-devices",
+    "href": "slides/01-intro.html#electronic-devices",
+    "title": "Introduction to PSCI 3200",
+    "section": "Electronic Devices",
+    "text": "Electronic Devices\n\n\n\nLaptops will be required in class\nAll other electronic devices should be silenced and hidden\nPlease don’t make me devise consequences for violating this policy"
+  },
+  {
+    "objectID": "slides/01-intro.html#controversial-topics-and-statements",
+    "href": "slides/01-intro.html#controversial-topics-and-statements",
+    "title": "Introduction to PSCI 3200",
+    "section": "Controversial Topics and Statements",
+    "text": "Controversial Topics and Statements\n\nDiverse perspectives, experiences, and backgrounds are essential for effective development research and practice\nContact me directly if you feel we’re not achieving an inclusive environment\nStudents are required to treat one another with respect\nEngage with any evidence that challenges your prior beliefs"
+  },
+  {
+    "objectID": "slides/01-intro.html#academic-honesty",
+    "href": "slides/01-intro.html#academic-honesty",
+    "title": "Introduction to PSCI 3200",
+    "section": "Academic Honesty",
+    "text": "Academic Honesty\n\nStudents are expected to follow the University of Pennsylvania’s Code of Academic Integrity\nSuspected violations will be referred to university administration for disciplinary action."
+  },
+  {
+    "objectID": "slides/01-intro.html#slide4-id",
+    "href": "slides/01-intro.html#slide4-id",
+    "title": "Introduction to PSCI 3200",
+    "section": "",
+    "text": "jrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "materials/13_conflict.html",
+    "href": "materials/13_conflict.html",
+    "title": "Causal Inference",
+    "section": "",
+    "text": "Paler, Laura, Camille Strauss-Kahn, and Korhan Kocak. “Is bigger always better? how targeting aid windfalls affects capture and social cohesion.” Comparative Political Studies 53.3-4 (2020): 359-398. (skip pp 366-369)\nDube, Oeindrila, and Suresh Naidu. “Bases, bullets, and ballots: The effect of US military aid on political conflict in Colombia.” The Journal of Politics 77.1 (2015): 249-267.\nIyengar, Radha, Jonathan Monten, and Matthew Hanson. “Building peace: The impact of aid on the labor market for insurgents.” No. w17297. National Bureau of Economic Research, 2011.\nSwedlund, Haley, Romain Malejacq and Malte Lierl.“’Foreign Aid Won’t Moderate the Taliban.” Foreign Policy. October 27, 2021. https://foreignpolicy.com/2021/10/27/ taliban-afghanistan-foreign-aid-assistance-moderate-human-rights/\nNunn, Nathan, and Nancy Qian. “US food aid and civil conflict.” American Economic Review 104.6 (2014): 1630-66."
+  },
+  {
+    "objectID": "materials/13_conflict.html#required-readings",
+    "href": "materials/13_conflict.html#required-readings",
+    "title": "Causal Inference",
+    "section": "",
+    "text": "Paler, Laura, Camille Strauss-Kahn, and Korhan Kocak. “Is bigger always better? how targeting aid windfalls affects capture and social cohesion.” Comparative Political Studies 53.3-4 (2020): 359-398. (skip pp 366-369)\nDube, Oeindrila, and Suresh Naidu. “Bases, bullets, and ballots: The effect of US military aid on political conflict in Colombia.” The Journal of Politics 77.1 (2015): 249-267.\nIyengar, Radha, Jonathan Monten, and Matthew Hanson. “Building peace: The impact of aid on the labor market for insurgents.” No. w17297. National Bureau of Economic Research, 2011.\nSwedlund, Haley, Romain Malejacq and Malte Lierl.“’Foreign Aid Won’t Moderate the Taliban.” Foreign Policy. October 27, 2021. https://foreignpolicy.com/2021/10/27/ taliban-afghanistan-foreign-aid-assistance-moderate-human-rights/\nNunn, Nathan, and Nancy Qian. “US food aid and civil conflict.” American Economic Review 104.6 (2014): 1630-66."
+  },
+  {
+    "objectID": "materials/13_conflict.html#slides",
+    "href": "materials/13_conflict.html#slides",
+    "title": "Causal Inference",
+    "section": "Slides",
+    "text": "Slides\n\nThursday (1/18) lecture: Slides"
+  },
+  {
+    "objectID": "materials/13_conflict.html#interesting-stuff-non-required",
+    "href": "materials/13_conflict.html#interesting-stuff-non-required",
+    "title": "Causal Inference",
+    "section": "Interesting Stuff (non-required)",
+    "text": "Interesting Stuff (non-required)\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/addressing-root-causes-and-drivers-irregular-migration\nhttps://www.npr.org/sections/goatsandsoda/2019/09/30/764349336/in-guatemala-a-bad-year-for-corn-and-for-u-s-aid"
+  },
+  {
+    "objectID": "materials/09_migration.html",
+    "href": "materials/09_migration.html",
+    "title": "Causal Inference",
+    "section": "",
+    "text": "https://www.evidenceaction.org/newsroom/were-shutting-down-no-lean-season-our-seasonal-migration-program-heres-why\nGazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck. “Cash transfers and migration: Theory and evidence from a randomized controlled trial.” The Review of Economics and Statistics (2020): 1-45.\nBerthélemy, Jean-Claude, Monica Beuran, and Mathilde Maurel. “Aid and migration: Sub- stitutes or complements?.” World Development 37.10 (2009): 1589-1599.\nGamso, Jonas, and Farhod Yuldashev. “Targeted foreign aid and international migration: Is development-promotion an effective immigration policy?.” International Studies Quarterly 62.4 (2018): 809-820."
+  },
+  {
+    "objectID": "materials/09_migration.html#required-readings",
+    "href": "materials/09_migration.html#required-readings",
+    "title": "Causal Inference",
+    "section": "",
+    "text": "https://www.evidenceaction.org/newsroom/were-shutting-down-no-lean-season-our-seasonal-migration-program-heres-why\nGazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck. “Cash transfers and migration: Theory and evidence from a randomized controlled trial.” The Review of Economics and Statistics (2020): 1-45.\nBerthélemy, Jean-Claude, Monica Beuran, and Mathilde Maurel. “Aid and migration: Sub- stitutes or complements?.” World Development 37.10 (2009): 1589-1599.\nGamso, Jonas, and Farhod Yuldashev. “Targeted foreign aid and international migration: Is development-promotion an effective immigration policy?.” International Studies Quarterly 62.4 (2018): 809-820."
+  },
+  {
+    "objectID": "materials/09_migration.html#slides",
+    "href": "materials/09_migration.html#slides",
+    "title": "Causal Inference",
+    "section": "Slides",
+    "text": "Slides\n\nThursday (1/18) lecture: Slides"
+  },
+  {
+    "objectID": "materials/09_migration.html#interesting-stuff-non-required",
+    "href": "materials/09_migration.html#interesting-stuff-non-required",
+    "title": "Causal Inference",
+    "section": "Interesting Stuff (non-required)",
+    "text": "Interesting Stuff (non-required)\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/addressing-root-causes-and-drivers-irregular-migration\nhttps://www.npr.org/sections/goatsandsoda/2019/09/30/764349336/in-guatemala-a-bad-year-for-corn-and-for-u-s-aid"
+  },
+  {
+    "objectID": "materials/05_regression.html",
+    "href": "materials/05_regression.html",
+    "title": "Regression",
+    "section": "",
+    "text": "DSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
+  },
+  {
+    "objectID": "materials/05_regression.html#required-readings",
+    "href": "materials/05_regression.html#required-readings",
+    "title": "Regression",
+    "section": "",
+    "text": "DSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
+  },
+  {
+    "objectID": "materials/05_regression.html#tasks",
+    "href": "materials/05_regression.html#tasks",
+    "title": "Regression",
+    "section": "Tasks",
+    "text": "Tasks\n\nInstall Quarto and produce a blank document\n\nInstalling Quarto\nInstalling on Windows\nInstalling on Mac\nIntro to Quarto"
+  },
+  {
+    "objectID": "materials/05_regression.html#slides",
+    "href": "materials/05_regression.html#slides",
+    "title": "Regression",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/05_regression.html#interesting-stuff-non-required",
+    "href": "materials/05_regression.html#interesting-stuff-non-required",
+    "title": "Regression",
+    "section": "Interesting Stuff (non-required)",
+    "text": "Interesting Stuff (non-required)\n\nAndrew Heiss’s Quarto Resource\nHadley Wickham’s Quarto Guide"
+  },
+  {
+    "objectID": "materials/05_climate.html",
+    "href": "materials/05_climate.html",
+    "title": "Survey Experiments",
+    "section": "",
+    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nCleo’s paper\nhttps://osf.io/nyhz4"
+  },
+  {
+    "objectID": "materials/05_climate.html#readings",
+    "href": "materials/05_climate.html#readings",
+    "title": "Survey Experiments",
+    "section": "",
+    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nCleo’s paper\nhttps://osf.io/nyhz4"
+  },
+  {
+    "objectID": "materials/05_climate.html#slides",
+    "href": "materials/05_climate.html#slides",
+    "title": "Survey Experiments",
+    "section": "Slides",
+    "text": "Slides\n\nThursday (1/18) lecture: Slides"
+  },
+  {
+    "objectID": "materials/04_sampling.html",
+    "href": "materials/04_sampling.html",
+    "title": "Sampling and Population Characteristics",
+    "section": "",
+    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation"
+  },
+  {
+    "objectID": "materials/04_sampling.html#required-readings",
+    "href": "materials/04_sampling.html#required-readings",
+    "title": "Sampling and Population Characteristics",
+    "section": "",
+    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation"
+  },
+  {
+    "objectID": "materials/04_sampling.html#assignment",
+    "href": "materials/04_sampling.html#assignment",
+    "title": "Sampling and Population Characteristics",
+    "section": "Assignment",
+    "text": "Assignment\n\nInstall Quarto and produce a blank document\n\nInstructions\nIntro to Quarto"
+  },
+  {
+    "objectID": "materials/04_sampling.html#slides",
+    "href": "materials/04_sampling.html#slides",
+    "title": "Sampling and Population Characteristics",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/04_sampling.html#interesting-stuff-non-required",
+    "href": "materials/04_sampling.html#interesting-stuff-non-required",
+    "title": "Sampling and Population Characteristics",
+    "section": "Interesting Stuff (non-required)",
+    "text": "Interesting Stuff (non-required)\n\nAndrew Heiss’s Quarto Resource\nHadley Wickham’s Quarto Guide"
+  },
+  {
+    "objectID": "materials/02_causal.html",
+    "href": "materials/02_causal.html",
     "title": "Correlation and Causation",
     "section": "",
-    "text": "Did everyone find the readings and slides for today?\nFor next week:\n\nI’ll scan the chapter and upload tonight\nRemember you have a quasi-assignment\n\n\n\n\n\n\nCorrelation\n\nWhat is it?\nWhat is it composed of?\nWhat is it good for?\n\nCausation\n\nWhat is it good for?\nWhy is it hard?\nPotential outcomes and counterfactuals"
+    "text": "TCD Ch 2\nTCD Ch 3"
+  },
+  {
+    "objectID": "materials/02_causal.html#required-readings",
+    "href": "materials/02_causal.html#required-readings",
+    "title": "Correlation and Causation",
+    "section": "",
+    "text": "TCD Ch 2\nTCD Ch 3"
+  },
+  {
+    "objectID": "materials/02_causal.html#tasks",
+    "href": "materials/02_causal.html#tasks",
+    "title": "Correlation and Causation",
+    "section": "Tasks",
+    "text": "Tasks\n\nComplete the PSCI 3200 Student Survey\nGet logged-in on the course  Slack"
+  },
+  {
+    "objectID": "materials/02_causal.html#slides",
+    "href": "materials/02_causal.html#slides",
+    "title": "Correlation and Causation",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n            Global Development\n        ",
+    "section": "",
+    "text": "Global Development\n        \n        \n            Intermediate Topics in Politics, Policy, and Data\n        \n        \n            PSCI 3200 • Spring 2024University of Pennsylvania\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\nInstructor\n\n   Jeremy Springman\n   333 - Perelman Center forPolitical Science\n   jspr@sas.upenn.edu \n   Schedule an appointment\n\n\n\nCourse details\n\n   Tue/Thu\n   January 18th - May 1st\n   3:30–4:59 PM\n   EDUC 201\n   Slack\n\n\n\nContacting me\nGeneral questions about the course, materials, or assignments should be posted to the course Slack. This will allow other students to benefit from the answer(s) provided. For other issues (absences, accomodations, etc.), email me or send me a direct message on Slack. I will attempt to respond to these messages within 48 hours, but please be patient!"
+  },
+  {
+    "objectID": "assignments/01_quarto.html",
+    "href": "assignments/01_quarto.html",
+    "title": "Getting Started with Quarto",
+    "section": "",
+    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
+  },
+  {
+    "objectID": "assignments/01_quarto.html#introduction",
+    "href": "assignments/01_quarto.html#introduction",
+    "title": "Getting Started with Quarto",
+    "section": "",
+    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
+  },
+  {
+    "objectID": "assignments/01_quarto.html#instructions",
+    "href": "assignments/01_quarto.html#instructions",
+    "title": "Getting Started with Quarto",
+    "section": "Instructions",
+    "text": "Instructions\nWith newer versions of RStudio, Quarto comes pre-packaged in the installation files. To check whether you have Quarto on your computer, open RStudio, click on the “Terminal” tab in the bottom left window, type quarto check into the terminal, and hit ENTER. If you have a new enough version of RStudio, the terminal should return something like what you see in the first screenshot below.\n\n\n\nCheck Installation Terminal\n\n\nIf you DON’T have a new enough version of RStudio, you’ll receive some error message. To fix this, all you should need to do is install the newest version of RStudio by going to the posit website and installing RStudio.\nFor next class, please be sure to have quarto functioning on your laptop because we’ll be doing some work creating quarto documents in class. To be absolutely sure, go to the “New File” icon in RStudio and click “Quarto Document.”\n\n\n\nCreate a Quarto\n\n\nYou should see something like the screenshot below. Give the document a Title and then click “Create.”\n\n\n\nName the Document\n\n\nA very basic .qmd file should open. Click “Render” (screenshot below) and RStudio will ask you to name the file. After you provide name, an html file should open for you in your internet browser or in the Viewer panel of RStudio (depending on your settings). Now you’re working in Quarto!\n\n\n\nRender the Document\n\n\nIf you have any trouble, post a message to the course Slack channel and I (or one of your classmates) can lend a hand."
+  },
+  {
+    "objectID": "materials/01_intro.html",
+    "href": "materials/01_intro.html",
+    "title": "Introduction to PSCI 3200",
+    "section": "",
+    "text": "Review the syllabus and schedule"
+  },
+  {
+    "objectID": "materials/01_intro.html#required-readings",
+    "href": "materials/01_intro.html#required-readings",
+    "title": "Introduction to PSCI 3200",
+    "section": "",
+    "text": "Review the syllabus and schedule"
+  },
+  {
+    "objectID": "materials/01_intro.html#slides",
+    "href": "materials/01_intro.html#slides",
+    "title": "Introduction to PSCI 3200",
+    "section": "Slides",
+    "text": "Slides\n\nThursday (1/18) lecture: Slides"
+  },
+  {
+    "objectID": "materials/03_causal.html",
+    "href": "materials/03_causal.html",
+    "title": "Causal Inference",
+    "section": "",
+    "text": "DSS Ch 2 (cheatsheet ; interactive visualization)\nThe Economist as Plumber by Esther Duflo"
+  },
+  {
+    "objectID": "materials/03_causal.html#required-readings",
+    "href": "materials/03_causal.html#required-readings",
+    "title": "Causal Inference",
+    "section": "",
+    "text": "DSS Ch 2 (cheatsheet ; interactive visualization)\nThe Economist as Plumber by Esther Duflo"
+  },
+  {
+    "objectID": "materials/03_causal.html#tasks",
+    "href": "materials/03_causal.html#tasks",
+    "title": "Causal Inference",
+    "section": "Tasks",
+    "text": "Tasks\n\nCreate a github account and post your git handle to the #general channel on the course Slack"
+  },
+  {
+    "objectID": "materials/03_causal.html#slides",
+    "href": "materials/03_causal.html#slides",
+    "title": "Causal Inference",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/03_causal.html#interesting-stuff-non-required",
+    "href": "materials/03_causal.html#interesting-stuff-non-required",
+    "title": "Causal Inference",
+    "section": "Interesting Stuff (non-required)",
+    "text": "Interesting Stuff (non-required)\n\nCause, Effect, and the Structure of the Social World by Megan Stevenson\n\nThis very recent article argues that the types of interventions that get evaluated using RCTs are unlikely to create meaningful change because of the way the social world is structured. In essence, we are not actually able to engineeer real change. Stevenson provides evidence from a meta-analysis of experimental criminology research."
+  },
+  {
+    "objectID": "materials/05_aid.html",
+    "href": "materials/05_aid.html",
+    "title": "Foreign Aid 1",
+    "section": "",
+    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nhttps://www.npr.org/sections/goatsandsoda/2018/09/14/647212387/which-foreign-aid-programs-work-the-u-s-runs-a-test-but-wont-talk-about-it\nhttps://www.cambridge.org/core/journals/american-political-science-review/article/international-rewards-for-gender-equality-reforms-in-autocracies/0462BEE8EB91A57AD810EFD137597F43\nhttps://esoc.princeton.edu/publications/white-man-effect-how-foreigner-presence-affects-behavior-experiments"
+  },
+  {
+    "objectID": "materials/05_aid.html#readings",
+    "href": "materials/05_aid.html#readings",
+    "title": "Foreign Aid 1",
+    "section": "",
+    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nhttps://www.npr.org/sections/goatsandsoda/2018/09/14/647212387/which-foreign-aid-programs-work-the-u-s-runs-a-test-but-wont-talk-about-it\nhttps://www.cambridge.org/core/journals/american-political-science-review/article/international-rewards-for-gender-equality-reforms-in-autocracies/0462BEE8EB91A57AD810EFD137597F43\nhttps://esoc.princeton.edu/publications/white-man-effect-how-foreigner-presence-affects-behavior-experiments"
+  },
+  {
+    "objectID": "materials/05_aid.html#slides",
+    "href": "materials/05_aid.html#slides",
+    "title": "Foreign Aid 1",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/05_democracy.html#slides",
+    "href": "materials/05_democracy.html#slides",
+    "title": "Causal Inference",
+    "section": "Slides",
+    "text": "Slides\n\nThursday (1/18) lecture: Slides"
+  },
+  {
+    "objectID": "materials/05_democracy.html#interesting-stuff-non-required",
+    "href": "materials/05_democracy.html#interesting-stuff-non-required",
+    "title": "Causal Inference",
+    "section": "Interesting Stuff (non-required)",
+    "text": "Interesting Stuff (non-required)\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/strengthening-civil-society-evidence-gap-map\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/human-rights-evidence-gap-map\nhttps://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-Analysis-report-Chapeau-summary.pdf\nhttps://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-DRG-Comparative-Analysis-Report.pdf\nhttps://www.v-dem.net/documents/29/V-dem_democracyreport2023_lowres.pdf\nhttps://www.amazon.com/How-Democracies-Die-Steven-Levitsky/dp/1524762938\nhttps://protectdemocracy.org/wp-content/uploads/2022/06/the-authoritarian-playbook-how-reporters-can-contextualize-and-cover-authoritarian-threats-as-distinct-from-politics-as-usual-1.pdf\nhttps://onlinelibrary.wiley.com/doi/10.1111/ajps.12798"
+  },
+  {
+    "objectID": "materials/05_surveyexp.html",
+    "href": "materials/05_surveyexp.html",
+    "title": "Democracy and Autocratization 1 (Survey Experiments)",
+    "section": "",
+    "text": "10 Things to Know About Survey Experiments by Christopher Grady\nAlbertus and Grossman (2021)\nHollerbauer et al. (2024)"
+  },
+  {
+    "objectID": "materials/05_surveyexp.html#required-readings",
+    "href": "materials/05_surveyexp.html#required-readings",
+    "title": "Democracy and Autocratization 1 (Survey Experiments)",
+    "section": "",
+    "text": "10 Things to Know About Survey Experiments by Christopher Grady\nAlbertus and Grossman (2021)\nHollerbauer et al. (2024)"
+  },
+  {
+    "objectID": "materials/05_surveyexp.html#assignment",
+    "href": "materials/05_surveyexp.html#assignment",
+    "title": "Democracy and Autocratization 1 (Survey Experiments)",
+    "section": "Assignment",
+    "text": "Assignment\n\nCreate Github repo for the course\n\nInstructions\nGit with R"
+  },
+  {
+    "objectID": "materials/05_surveyexp.html#slides",
+    "href": "materials/05_surveyexp.html#slides",
+    "title": "Democracy and Autocratization 1 (Survey Experiments)",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/05_surveyexp.html#interesting-stuff-non-required",
+    "href": "materials/05_surveyexp.html#interesting-stuff-non-required",
+    "title": "Democracy and Autocratization 1 (Survey Experiments)",
+    "section": "Interesting Stuff (non-required)",
+    "text": "Interesting Stuff (non-required)\n\nPew’s Question Wording Experiments\nSniderman (2018): Review of advances in survey experiment design\nLeeper’s survey experiments mini-course: Leeper was an academic political scientists and is now a Research Scientist at Meta"
+  },
+  {
+    "objectID": "materials/11_climate.html",
+    "href": "materials/11_climate.html",
+    "title": "Causal Inference",
+    "section": "",
+    "text": "Michaelowa, Axel, and Katharina Michaelowa. “Coding error or statistical embellishment? The political economy of reporting climate aid.” World Development 39.11 (2011): 2010- 2020. Weiler, Florian, Carola Klöck, and Matthew Dornan. “Vulnerability, good governance, or donor interests? The allocation of aid for climate change adaptation.” World Development 104 (2018): 65-77.\nKono, Daniel Yuichi, and Gabriella R. Montinola. “Foreign aid and climate change policy: what can (’t) the data tell us?.” Politics and Governance 7.2 (2019): 68-92.\nMarcoux, Christopher, Bradley C. Parks, Christian M. Peratsakis, J. Timmons Roberts, and Michael J. Tierney. “Environmental and climate finance in a new world: How past environmental aid allocation impacts future climate aid.” No. 2013/128. WIDER Working Paper, 2013."
+  },
+  {
+    "objectID": "materials/11_climate.html#required-readings",
+    "href": "materials/11_climate.html#required-readings",
+    "title": "Causal Inference",
+    "section": "",
+    "text": "Michaelowa, Axel, and Katharina Michaelowa. “Coding error or statistical embellishment? The political economy of reporting climate aid.” World Development 39.11 (2011): 2010- 2020. Weiler, Florian, Carola Klöck, and Matthew Dornan. “Vulnerability, good governance, or donor interests? The allocation of aid for climate change adaptation.” World Development 104 (2018): 65-77.\nKono, Daniel Yuichi, and Gabriella R. Montinola. “Foreign aid and climate change policy: what can (’t) the data tell us?.” Politics and Governance 7.2 (2019): 68-92.\nMarcoux, Christopher, Bradley C. Parks, Christian M. Peratsakis, J. Timmons Roberts, and Michael J. Tierney. “Environmental and climate finance in a new world: How past environmental aid allocation impacts future climate aid.” No. 2013/128. WIDER Working Paper, 2013."
+  },
+  {
+    "objectID": "materials/11_climate.html#slides",
+    "href": "materials/11_climate.html#slides",
+    "title": "Causal Inference",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/11_climate.html#interesting-stuff-non-required",
+    "href": "materials/11_climate.html#interesting-stuff-non-required",
+    "title": "Causal Inference",
+    "section": "Interesting Stuff (non-required)",
+    "text": "Interesting Stuff (non-required)"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should complete the required readings before each meeting.\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting\nWorkshop (): A link to the workshop for that week\nAssignment (): This page contains the instructions for each assignment\n\nThe readings refer to following texts:\n\nDSS: Data Analysis for Social Science: A Friendly and Practical Introduction (DSS) by Kosuke Imai and Elena Llaudet\nTCD: Thinking clearly with data: A guide to quantitative reasoning and analysis by Ethan Bueno de Mesquita and Anthony Fowler\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nWorkshop\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nIntroduction to the course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nCorrelation and Causation\n\n\nTCD Ch 2-3\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nCausal Inference 1\n\n\nDSS Ch 2; Duflo (2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nSurvey Research\n\n\nDSS Ch 3\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nDemocracy and Autocratization 1 (Survey Experiments)\n\n\nGrady; Albertus and Grossman (2021); Hollerbauer et al. (2024)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nLinear Regression\n\n\nDSS Ch 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nCausal Inference 2\n\n\nDSS Ch 5\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nMigration 1\n\n\nEvidence Action; Gazeaud (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nMigration 2 (guest: Wibbels)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nCrime & Corruption 1 (guest: Schmidt-Padilla)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nCrime & Corruption 2 (guest: Schmidt-Padilla)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nConflict & Cohesion 1\n\n\nPaluck et al. (2021); Grady et al. (2023); Mousa (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nConflict & Cohesion 2\n\n\nConflict\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nProbability\n\n\nDSS Ch 6\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nUncertainty\n\n\nDSS Ch 7\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nDemocracy and Autocratization 2\n\n\nWaldner and Lust (2018); VDem (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nDemocracy and Autocratization 3 (Polarization and Engagement)\n\n\nAdamu et al. (2024); Svolik (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nForeign Aid and NGOs 1\n\n\nBriggs\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nForeign Aid and NGOs 2\n\n\nO’Brien (2023); Springman (2021); Cruz (2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nForeign Aid and NGOs 3\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nClimate and Adaptation 1\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nClimate and Adaptation 2\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nAccountability and Information 1\n\n\nJablonski and Seim (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nAccountability 2\n\n\nMetaketa\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nAccountability 3\n\n\nMares et al. (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nEffective Interventions 1\n\n\nCCTs\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nEffective Interventions 2\n\n\nHealth\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nEffective Interventions 3\n\n\nOther"
   },
   {
     "objectID": "slides/02-causal.html#assignments",
     "href": "slides/02-causal.html#assignments",
     "title": "Correlation and Causation",
-    "section": "",
-    "text": "Did everyone find the readings and slides for today?\nFor next week:\n\nI’ll scan the chapter and upload tonight\nRemember you have a quasi-assignment"
+    "section": "Assignments",
+    "text": "Assignments\n\nDid everyone find the readings and slides for today?\nFor next week:\n\nI’ll scan the chapter and upload tonight\nRemember you have a quasi-assignment"
   },
   {
     "objectID": "slides/02-causal.html#agenda",
     "href": "slides/02-causal.html#agenda",
     "title": "Correlation and Causation",
-    "section": "",
-    "text": "Correlation\n\nWhat is it?\nWhat is it composed of?\nWhat is it good for?\n\nCausation\n\nWhat is it good for?\nWhy is it hard?\nPotential outcomes and counterfactuals"
+    "section": "Agenda",
+    "text": "Agenda\n\nCorrelation\n\nWhat is it?\nWhat is it composed of?\nWhat is it good for?\n\nCausation\n\nWhat is it good for?\nWhy is it hard?\nPotential outcomes and counterfactuals"
   },
   {
     "objectID": "slides/02-causal.html#which-of-the-following-statements-describe-a-correlation",
@@ -935,7 +851,7 @@
     "href": "slides/02-causal.html#central-tendency-mean",
     "title": "Correlation and Causation",
     "section": "Central Tendency: Mean",
-    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 10.9649\n\nmean(my_vector)\n\n[1] 10.9649"
+    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 11.41597\n\nmean(my_vector)\n\n[1] 11.41597"
   },
   {
     "objectID": "slides/02-causal.html#spread-variance",
@@ -977,7 +893,7 @@
     "href": "slides/02-causal.html#correlation-1",
     "title": "Correlation and Causation",
     "section": "Correlation",
-    "text": "Correlation\n\n\n\nWhat can with do with them?\n\nDescription: quantitative comparisons\n\n\n\n\n\n\n\n\n\n\nsample matters alot\nsample matters less\n\n\n\n\n\n\n\n\nForecasting: sample population \\(\\rightarrow\\) out-of-sample\nCausal inference: correlation + research design\n\n\nSimple, but powerful\n\nNon-linearities, interactions, machine learning"
+    "text": "Correlation\n\n\n\nWhat can with do with them?\n\nDescription: quantitative comparisons\n\n\n\n\n\n\n\nsample matters alot\nsample matters less\n\n\n\n\n\n\n\n\nForecasting: sample population \\(\\rightarrow\\) out-of-sample\nCausal inference: correlation + research design\n\n\nSimple, but powerful\n\nNon-linearities, interactions, machine learning"
   },
   {
     "objectID": "slides/02-causal.html#schools-of-thought",
@@ -1068,111 +984,139 @@
     "href": "slides/02-causal.html#dags-and-confounding",
     "title": "Correlation and Causation",
     "section": "DAGs and Confounding",
-    "text": "DAGs and Confounding\n\nlibrary(ggdag)\n\n\nAttaching package: 'ggdag'\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\ndagify(\n  x ~ a,\n  y ~ x,\n  y ~ a\n\n) %&gt;%\n  ggdag()"
+    "text": "DAGs and Confounding"
   },
   {
     "objectID": "slides/02-causal.html#next-meeting",
     "href": "slides/02-causal.html#next-meeting",
     "title": "Correlation and Causation",
     "section": "Next Meeting",
-    "text": "Next Meeting\n\nRandomized experiments\n\nReview of FPCI\nHow randomization addresses confounding\n\nThe role of social science researchers?\n\nWhat should people with social science training be doing with their skills?\n\nFinal Project\n\nWhat are your options?\nPossible data sources"
+    "text": "Next Meeting\n\nRandomized experiments\n\nReview of FPCI\nHow randomization addresses confounding\n\nThe role of social science researchers?\n\nWhat should people with social science training be doing with their skills?\n\nFinal Project\n\nWhat are your options?\nPossible data sources\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
-    "objectID": "materials/04_causal.html#tasks",
-    "href": "materials/04_causal.html#tasks",
-    "title": "Sampling and Population Characteristics",
-    "section": "Tasks",
-    "text": "Tasks\n\nInstall Quarto and produce a blank document\n\nInstalling Quarto\nInstalling on Windows\nInstalling on Mac\nIntro to Quarto"
-  },
-  {
-    "objectID": "slides/01-intro.html#agenda",
-    "href": "slides/01-intro.html#agenda",
-    "title": "Introduction to PSCI 3200",
-    "section": "",
-    "text": "Introductions\nCourse Description and Objectives\nRequirements\nPolicies\nSchedule\n\n\n\nemail\ncourse website\nsurvey"
-  },
-  {
-    "objectID": "slides/01-intro.html#course-description-3",
-    "href": "slides/01-intro.html#course-description-3",
-    "title": "Introduction to PSCI 3200",
-    "section": "Course Description",
-    "text": "Course Description\n\nMethods:\n\nDeepen understanding of ‘workhorse’ statistical methods and research designs\nHow these methods can be used to make inferences about population characteristics and causal relationships\n\nTools\n\nIntroduce the computational tools that are needed to implement these methods\nSoftware necessary to prepare professional documents and reproducible data analysis workflows"
-  },
-  {
-    "objectID": "slides/01-intro.html#late-submissions-and-regrading",
-    "href": "slides/01-intro.html#late-submissions-and-regrading",
-    "title": "Introduction to PSCI 3200",
-    "section": "Late Submissions and Regrading",
-    "text": "Late Submissions and Regrading\n\nLate submission of assignments\n\npenalty of 2 points for every day late\nexcept in documented cases of serious illness or family emergency\n\nRegrade request\n\ndetailed write-up of your dispute\nRegrade of the entire assignment (might increase or decrease)"
-  },
-  {
-    "objectID": "slides/01-intro.html#use-of-ai-tools",
-    "href": "slides/01-intro.html#use-of-ai-tools",
-    "title": "Introduction to PSCI 3200",
-    "section": "Use of AI Tools",
-    "text": "Use of AI Tools\n\nYou are welcome to use generative AI tools\nIt is important to gain experience integrating them into professional tasks\nAI tools frequently make errors and ‘hallucinate’ (journal articles, R functions, etc.)\nIt is your responsibility to verify the information provided\nYou must disclose your use of AI tools for assignments in the form of footnotes or citations"
-  },
-  {
-    "objectID": "slides/01-intro.html#electronic-devices",
-    "href": "slides/01-intro.html#electronic-devices",
-    "title": "Introduction to PSCI 3200",
-    "section": "Electronic Devices",
-    "text": "Electronic Devices\n\n\n\nLaptops will be required in class\nAll other electronic devices should be silenced and hidden\nPlease don’t make me devise consequences for violating this policy"
-  },
-  {
-    "objectID": "slides/01-intro.html#controversial-topics-and-statements",
-    "href": "slides/01-intro.html#controversial-topics-and-statements",
-    "title": "Introduction to PSCI 3200",
-    "section": "Controversial Topics and Statements",
-    "text": "Controversial Topics and Statements\n\nDiverse perspectives, experiences, and backgrounds are essential for effective development research and practice\nContact me directly if you feel we’re not achieving an inclusive environment\nStudents are required to treat one another with respect\nEngage with any evidence that challenges your prior beliefs"
-  },
-  {
-    "objectID": "slides/01-intro.html#academic-honesty",
-    "href": "slides/01-intro.html#academic-honesty",
-    "title": "Introduction to PSCI 3200",
-    "section": "Academic Honesty",
-    "text": "Academic Honesty\n\nStudents are expected to follow the University of Pennsylvania’s Code of Academic Integrity\nSuspected violations will be referred to university administration for disciplinary action."
-  },
-  {
-    "objectID": "slides/03-causal.html",
-    "href": "slides/03-causal.html",
+    "objectID": "slides/04-sampling.html#poll",
+    "href": "slides/04-sampling.html#poll",
     "title": "Causal Inference 1",
-    "section": "",
-    "text": "If you didn’t post your git handle on Slack, please do\nNext week:\n\nReadings\nInstall Quarto and create an empty pdf\nI’ll put some helpful resources on next week’s page\n\n\n\n\n\n\nHow to follow-along with the slides\nEstimating Causal Effects with Randomized Experiments\nRCTs in International Development\nEconomists as Plumbers"
+    "section": "Poll",
+    "text": "Poll\n\nAnyone not using Mac/Windows?"
   },
   {
-    "objectID": "materials/04_sampling.html",
-    "href": "materials/04_sampling.html",
-    "title": "Sampling and Population Characteristics",
-    "section": "",
-    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation\n\nDSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
+    "objectID": "slides/04-sampling.html#assignments",
+    "href": "slides/04-sampling.html#assignments",
+    "title": "Causal Inference 1",
+    "section": "Assignments",
+    "text": "Assignments\n\nToday\n\nRead Ch 3\nInstall Quarto and create an empty html\n\nThursday\n\nRead Ch 4\nCreate a git repo for this class"
   },
   {
-    "objectID": "materials/04_sampling.html#required-readings",
-    "href": "materials/04_sampling.html#required-readings",
-    "title": "Sampling and Population Characteristics",
-    "section": "",
-    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation\n\nDSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
+    "objectID": "slides/04-sampling.html#agenda",
+    "href": "slides/04-sampling.html#agenda",
+    "title": "Causal Inference 1",
+    "section": "Agenda",
+    "text": "Agenda\n\nFinishing up Causality 1\nInferring Population Characteristics via Survey Research\nMessing around in Quarto"
   },
   {
-    "objectID": "materials/04_sampling.html#tasks",
-    "href": "materials/04_sampling.html#tasks",
-    "title": "Sampling and Population Characteristics",
-    "section": "Tasks",
-    "text": "Tasks\n\nInstall Quarto and produce a blank document\n\nInstalling Quarto\nInstalling on Windows\nInstalling on Mac\nIntro to Quarto"
+    "objectID": "slides/04-sampling.html#plumbing-vs-science",
+    "href": "slides/04-sampling.html#plumbing-vs-science",
+    "title": "Causal Inference 1",
+    "section": "Plumbing vs Science",
+    "text": "Plumbing vs Science\n\n\nScientists can tell us the drivers of human wellfare and prosperity\n\nBut can we manipulate these macro-forces?\nProbably not really.\n\nSo what can we do as social scientists?\n\nHelp at the margins in specific places with specific policies and programs\n\n\n\n\n\nAny normatively uncomfortable findings?"
   },
   {
-    "objectID": "materials/04_sampling.html#slides",
-    "href": "materials/04_sampling.html#slides",
-    "title": "Sampling and Population Characteristics",
-    "section": "Slides",
-    "text": "Slides\n\nThursday (1/18) lecture: Slides"
+    "objectID": "slides/04-sampling.html#survey-research",
+    "href": "slides/04-sampling.html#survey-research",
+    "title": "Causal Inference 1",
+    "section": "Survey Research",
+    "text": "Survey Research\n\nIn social sciences, we often want to learn something about a population of interest\nHowever, collecting data on the entire population might be too expensive or unfeasible.\nObjective of a survey: to collect data from a subset of observations from the population of interest to understand something about the entire population."
   },
   {
-    "objectID": "materials/04_sampling.html#interesting-stuff-non-required",
-    "href": "materials/04_sampling.html#interesting-stuff-non-required",
-    "title": "Sampling and Population Characteristics",
-    "section": "Interesting Stuff (non-required)",
-    "text": "Interesting Stuff (non-required)\n\nAndrew Heiss’s Quarto Resource\nHadley Wickham’s Quarto Guide"
+    "objectID": "slides/04-sampling.html#sample",
+    "href": "slides/04-sampling.html#sample",
+    "title": "Causal Inference 1",
+    "section": "Sample",
+    "text": "Sample\n\nThe subset of individuals chosen for the survey.\nIt is important that the sample chosen is representative of the population of interest.\n\nA sample that accurately reflects the characteristics of the population from which it is drawn.\nIf the sample is not representative, our inferences are invalid (we introduce bias) in our estimates."
+  },
+  {
+    "objectID": "slides/04-sampling.html#sampling-strategies",
+    "href": "slides/04-sampling.html#sampling-strategies",
+    "title": "Causal Inference 1",
+    "section": "Sampling Strategies",
+    "text": "Sampling Strategies\n\nProbability Sampling Strategies:\n\nSimple Random Sampling\nStratified sampling\nCluster sampling\n\nNon-Probability Sampling Strategies:\n\nConvenience sample"
+  },
+  {
+    "objectID": "slides/04-sampling.html#sampling-strategies-1",
+    "href": "slides/04-sampling.html#sampling-strategies-1",
+    "title": "Causal Inference 1",
+    "section": "Sampling Strategies",
+    "text": "Sampling Strategies\nSimple Random Sampling\n\nThe best way of drawing a representative sample from a population.\nEach and every individual within the population has the sample probability of being chosen.\nWith random sampling, as the sample size increases the characteristics of the sample more closely resemble the characteristics of the population."
+  },
+  {
+    "objectID": "slides/04-sampling.html#potential-challenges-when-sampling",
+    "href": "slides/04-sampling.html#potential-challenges-when-sampling",
+    "title": "Causal Inference 1",
+    "section": "Potential Challenges when Sampling",
+    "text": "Potential Challenges when Sampling\n\nTo implement random sampling we need a complete list of all individuals in the population (this list is known as sample frame).\n\nObtaining a complete sample frame is not always possible.\nThe missing observations tend to differ systematically from those included in the list.\nE.g., A list of all studets at USU to conduct a survey about students’ opinions."
+  },
+  {
+    "objectID": "slides/04-sampling.html#potential-challenges-when-sampling-1",
+    "href": "slides/04-sampling.html#potential-challenges-when-sampling-1",
+    "title": "Causal Inference 1",
+    "section": "Potential Challenges when Sampling",
+    "text": "Potential Challenges when Sampling\n\nUnit nonresponse: even when our sample frame is complete, some individuals may choose not to answer.\n\nIF the individuals who refuse to participate differ systematically from those that do participate, the resulting sample will not be representative.\nE.g., the students who refuse to answer might be the busiest."
+  },
+  {
+    "objectID": "slides/04-sampling.html#potential-challenges-when-sampling-2",
+    "href": "slides/04-sampling.html#potential-challenges-when-sampling-2",
+    "title": "Causal Inference 1",
+    "section": "Potential Challenges when Sampling",
+    "text": "Potential Challenges when Sampling\n\nItem nonresponse: some individuals may choose not to answer some questions.\n\nIF the missing answers differ systematically from the recorded answers, the data collected for that particular question will not accurately reflect the characteristics of the population.\nE.g., some students may prefer not to answer questions about delicate topics."
+  },
+  {
+    "objectID": "slides/04-sampling.html#potential-challenges-when-sampling-3",
+    "href": "slides/04-sampling.html#potential-challenges-when-sampling-3",
+    "title": "Causal Inference 1",
+    "section": "Potential Challenges when Sampling",
+    "text": "Potential Challenges when Sampling\n\nMisreporting: some individuals may choose not to answer truthfully.\n\nThis is particularly common with sensitive questions or when specific answers are seen as more socially desirable than others.\nDepending on the question, this problem may induce additional noise or, in the worse case, bias, into our measures.\nE.g., some students may answer that they really like Aggie Icecream even when they do not."
+  },
+  {
+    "objectID": "slides/04-sampling.html#stratified-sampling",
+    "href": "slides/04-sampling.html#stratified-sampling",
+    "title": "Causal Inference 1",
+    "section": "Stratified sampling",
+    "text": "Stratified sampling\n\nDivide the entire population into homogeneous sub-groups (strata).\nThen, take the random samples from each stratum and pool them together.\nStrata can be based on income, educational level, race, or gender."
+  },
+  {
+    "objectID": "slides/04-sampling.html#cluster-sampling",
+    "href": "slides/04-sampling.html#cluster-sampling",
+    "title": "Causal Inference 1",
+    "section": "Cluster sampling",
+    "text": "Cluster sampling\n\nDivide de population into clusters.\nThen, then take a random sample of clusters (and then one more within each cluster) and pool the observations together\nObservations within the clusters may be similar, but not homogeneous along any characteristic."
+  },
+  {
+    "objectID": "slides/04-sampling.html#non-probability-sampling-strategies",
+    "href": "slides/04-sampling.html#non-probability-sampling-strategies",
+    "title": "Causal Inference 1",
+    "section": "Non-Probability Sampling Strategies",
+    "text": "Non-Probability Sampling Strategies\n\nConvenience sample:\n\nInstead of randomly choosing participants, choose the ones that are easily available."
+  },
+  {
+    "objectID": "slides/04-sampling.html#working-with-survey-data",
+    "href": "slides/04-sampling.html#working-with-survey-data",
+    "title": "Causal Inference 1",
+    "section": "Working with Survey Data",
+    "text": "Working with Survey Data\nMeasuring support for Brexit.\n\nBritish Election Study (BES) Survey\nConducted about 6 weeks before the Brexit referendum (June 23, 2016)"
+  },
+  {
+    "objectID": "slides/04-sampling.html#final-project",
+    "href": "slides/04-sampling.html#final-project",
+    "title": "Causal Inference 1",
+    "section": "Final Project",
+    "text": "Final Project\n\nData analysis project with data of your choosing\n\nFormulate a research question\nFind data that can help you answer that question\nApply the tools and methods from this course\nWrite-up analysis\n\nProduce a webpage to present your results for public consumption\n\n\nYour final submission will be a publicly available webpage that contains: (1) a brief introduction to your research question and data; (2) a discussion of your research design, its assumptions, and threats to inference; (3) a visualization that describes your data; (4) a presentation of the results from a regression model (as a table or graph) and discussion of its implications for your research question; and (5) a discussion of the implications of your findings for development policy or practice, including the limitations of your analysis and suggestions for future research."
+  },
+  {
+    "objectID": "slides/04-sampling.html#final-project-1",
+    "href": "slides/04-sampling.html#final-project-1",
+    "title": "Causal Inference 1",
+    "section": "Final Project",
+    "text": "Final Project\n\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 8th\n\n\nIdentify data source\nMar 5th\n\n\nSubmit proposal\nApr 2nd\n\n\nSubmit final project\nMay 2nd\n\n\n\n\nBy April, I’ll give you a break-down of how the grading will be done\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   }
 ]
