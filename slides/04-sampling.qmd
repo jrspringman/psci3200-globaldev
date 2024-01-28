@@ -1,6 +1,6 @@
 ---
-title: "Causal Inference 1"
-subtitle: "Digging Deeper"
+title: "Sampling and Population Characteristics"
+subtitle: "Descriptive Inference"
 author: "Jeremy Springman"
 institute: "University of Pennsylvania"
 
@@ -24,7 +24,8 @@ editor: source
 
 ## Poll
 
-- Anyone not using Mac/Windows?
+- Mac vs Windows?
+- Quarto running?
 
 ## Assignments
 
@@ -33,7 +34,7 @@ editor: source
   + Install Quarto and create an empty html
 - Thursday 
   + Read Ch 4
-  + Create a git repo for this class
+  + Create a git repo for this class (psci3200_name)
 
 ## Agenda
 
@@ -43,12 +44,60 @@ editor: source
 
 # Finishing up Causality 1
 
+## Identifying Assumptions
+
+::: {.incremental}
+- You must control for...
+  + everything (observed and unobserved) that affects both the treatment variable and the outcome variable
+- You *must not* control for...
+  + anything that is affected by both the treatment variable and the outcome variable
+::: 
+
+## Colliders
+
+![](plane.png){fig-align="center"}
+
+## Colliders
+
+```{r edu-ex-full, echo=FALSE, fig.width=9, fig.height=4.5, out.width="100%"}
+library(ggplot2)
+library(ggdag)
+
+edu_ex_coords <- list(x = c(Location = 2, Number = 4, Survival = 3),
+                        y = c(Location = 2, Number = 2, Survival = 4))
+
+dagify(
+  Survival ~ Number,
+  Survival ~ Location,
+  exposure = "Number",
+  outcome = "Location",
+  latent = "Survival",
+  labels = c(Number = "Number of\nHoles", Location = "Location of\nHoles",
+             Survival = "Survival"),
+  coords = edu_ex_coords) |> 
+  tidy_dagitty() |> 
+  node_status() |> 
+  ggplot(aes(x = x, y = y, xend = xend, yend = yend)) +
+  geom_dag_edges() +
+  geom_dag_point(aes(color = status), size = 14) +
+  geom_dag_text(aes(label = label), color = "black", size = 5) +
+  scale_color_manual(values = c("#FF4136", "grey60", "#0074D9")) +
+  guides(color = "none") +
+  theme_dag()
+
+```
+
+
+::: {.notes}
+In this case, the illusion was the appearance of correlation (or statistical dependence) between the independent causes, giving rise to the theory that some locations receive more bullets than others (perhaps by being more exposed) when in fact the enemy sprayed them uniformly.
+The army observed more holes in the fuselage than the engine and recommended more armor on the former. This dependence however was created by selection bias.
+:::
+
 ## Plumbing vs Science
 
 ::: {.incremental}
-- Scientists can tell us the drivers of human wellfare and prosperity
-  + But can we manipulate these macro-forces?
-  + Probably not really.
+- Scientists can tell us the drivers of human welfare and prosperity
+  + Can we manipulate these macro-forces? Probably not.
 - So what can we do as social scientists?
   + Help at the margins in specific places with specific policies and programs
 :::
@@ -168,6 +217,22 @@ Measuring support for Brexit.
 ::: {.notes}
 Your final submission will be a publicly available webpage that contains: (1) a brief introduction to your research question and data; (2) a discussion of your research design, its assumptions, and threats to inference; (3) a visualization that describes your data; (4) a presentation of the results from a regression model (as a table or graph) and discussion of its implications for your research question; and (5) a discussion of the implications of your findings for development policy or practice, including the limitations of your analysis and suggestions for future research.
 :::
+
+## Final Project
+
+**Datasets**
+
+- Varieties of Democracy
+- 
+
+- Cambodian NGOs (n $\approx$ 100)
+  + Convenience sample
+  + Panel survey, financial data, networks, open-ended responses
+- Ethiopian University Students (n $\approx$ 900)
+  + Representative sample
+  + Panel survey, networks, open-ended responses
+- Ghanaian Radio Stations (n $\approx$ 400)
+  + Convenience sample
 
 ## Final Project
 

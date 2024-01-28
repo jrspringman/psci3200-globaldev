@@ -1,0 +1,139 @@
+---
+title: "Quarto Workshop"
+author: "Jeremy Springman"
+
+institute: "University of Pennsylvania"
+date: last-modified
+toc: true
+
+bibliography: references.bib
+
+format: 
+  html:
+    self-contained: true
+
+editor: source
+---
+
+
+## Formatting
+
+- Formatting yaml
+- Creating sections
+
+## Formulas
+
+- Math mode
+
+$$
+\widehat{ATE} = \overline{Y}_{treatment\_group} - \overline{Y}_{control\_group}
+$$
+
+## Code Chunks
+
+### Figures
+
+Check out @fig-fake-data
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: fig-fake-data
+#| fig-cap: "Fake data figure"
+#| code-fold: true
+#| code-summary: "Show code"
+
+library(ggplot2)
+
+# Set seed for reproducibility
+set.seed(123)
+
+# Generate random data
+data <- data.frame(
+  x = runif(50),
+  y = runif(50),
+  size = runif(50, min = 1, max = 10),
+  color = runif(50)
+)
+
+# Create scatterplot
+ggplot(data, aes(x = x, y = y, size = size, color = color)) +
+  geom_point(alpha = 0.5) +
+  scale_size_continuous(range = c(1, 10)) +
+  ggtitle("Random Scatterplot") +
+  xlab("X") +
+  ylab("Y")
+
+
+```
+
+
+### Tables
+
+```{r}
+#| echo: false
+#| warning: false
+
+library(gt)
+library(dplyr)
+
+# Calculate mean and standard deviation for each variable
+means <- sapply(data, mean)
+sds <- sapply(data, sd)
+
+# Create a data frame for summary statistics
+summary_data <- data.frame(
+  Variable = names(data),
+  Mean = means,
+  SD = sds
+)
+
+# Create a gt table
+summary_data %>%
+  gt() %>%
+  tab_header(
+    title = "Descriptive Table of Random Data",
+    subtitle = "Summary statistics: Mean and Standard Deviation"
+  )
+
+
+```
+
+
+### Inline Code
+
+Use code within the text to describe your data (n = `r nrow(data)`) for a more reproducible workflow.
+
+
+### Python
+
+You'll need Python installed 
+
+```{python}
+#| echo: false
+#| warning: false
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Generate random data
+np.random.seed(0)
+x = np.random.rand(50)
+y = np.random.rand(50)
+colors = np.random.rand(50)
+area = (30 * np.random.rand(50))**2  # Bubble sizes
+
+# Create scatterplot
+plt.scatter(x, y, s=area, c=colors, alpha=0.5)
+plt.title('Random Scatterplot')
+plt.xlabel('X')
+plt.ylabel('Y')
+plt.show()
+
+```
+
+
+
+## Using References
+
+Cite cool work by outstanding scholars [@springman2022political] and automatically generate a references list.
