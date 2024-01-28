@@ -1,0 +1,61 @@
+---
+title: "Quarto Workshop"
+author: "Jeremy Springman"
+
+institute: "University of Pennsylvania"
+date: last-modified
+toc: true
+
+bibliography: references.bib
+
+format: 
+  html:
+    self-contained: true
+
+editor: source
+---
+
+Workshop 2: Survey Data
+Use AAU student data
+Merge baseline/endline
+Descriptive statistics and heterogeneity
+String matching to create network data
+Visualize networks
+
+
+Check out @fig-fake-data
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: fig-fake-data
+#| fig-cap: "Fake data figure"
+
+library(ggplot2)
+library(gt)
+library(dplyr)
+
+
+```
+
+
+### Tables
+
+```{r}
+#| echo: false
+#| warning: false
+
+
+
+
+
+```
+
+
+
+
+## Using References
+
+Cite cool work by outstanding scholars [@springman2022political] and automatically generate a references list.
+
+

@@ -20,6 +20,8 @@ editor: source
 
 - Formatting yaml
 - Creating sections
+- Commenting-out text
+- End with rpubs
 
 ## Formulas
 
@@ -137,3 +139,5 @@ plt.show()
 ## Using References
 
 Cite cool work by outstanding scholars [@springman2022political] and automatically generate a references list.
+
+

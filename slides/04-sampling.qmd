@@ -223,7 +223,7 @@ Your final submission will be a publicly available webpage that contains: (1) a 
 **Datasets**
 
 - Varieties of Democracy
-- 
+- Machine Learning for Peace
 
 - Cambodian NGOs (n $\approx$ 100)
   + Convenience sample
