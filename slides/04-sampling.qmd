@@ -109,20 +109,34 @@ The army observed more holes in the fuselage than the engine and recommended mor
 
 # Inferring Population Characteristics via Survey Research
 
-
 ## Survey Research
--   In social sciences, we often want to learn *something* about a population of interest
--   However, collecting data on the entire population might be too expensive or unfeasible. 
--   Objective of a **survey**: to collect data from a *subset* of observations from the population of interest to understand something about the entire population.
 
+- We often want to *describe* a population of interest
+- However, we can't collect data on the entire population
+- Sampling allows us to estimate population characteristics from a *subset* of the population
+- Random sampling makes it most likely that our sample is *representative* of the population
 
 ## Sample
--   The subset of individuals chosen for the survey.
--   It is important that the sample chosen is *representative* of the population of interest. 
 
-    -   A sample that accurately reflects the characteristics of the population from which it is drawn.
-    -   If the sample is *not* representative, our inferences are invalid (we introduce *bias*) in our estimates. 
-    
+- Need a sampling frame (list of every unit in the population)
+  + Census, administrative records
+  + Development research: often we have to create this ourselves on-the-ground
+- Unit non-response
+  + Selection
+
+## Missingness
+
+- Unit non-response
+  + Incentives
+  + Fancy weighting
+- Item non-response
+  + Self-administration
+- Misreporting
+  + List experiments
+
+- Always look at NAs immediately
+- Always think about how this might bias estimates
+
 
 ## Sampling Strategies
 
@@ -147,6 +161,7 @@ Simple Random Sampling
 
 
 ## Potential Challenges when Sampling
+
 -   To implement random sampling we need a complete list of *all* individuals in the population (this list is known as *sample frame*).
 
     -   Obtaining a complete sample frame is not always possible. 
@@ -204,6 +219,7 @@ Measuring support for Brexit.
 -   Conducted about 6 weeks before the Brexit referendum (June 23, 2016)
 
 
+# Final Project
 
 ## Final Project
 

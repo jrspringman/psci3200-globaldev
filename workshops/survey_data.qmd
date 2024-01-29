@@ -18,6 +18,7 @@ editor: source
 Workshop 2: Survey Data
 Use AAU student data
 Merge baseline/endline
+Look at NAs
 Descriptive statistics and heterogeneity
 String matching to create network data
 Visualize networks
