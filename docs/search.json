@@ -1075,7 +1075,7 @@
     "href": "slides/04-sampling.html#poll",
     "title": "Sampling and Population Characteristics",
     "section": "Poll",
-    "text": "Poll\n\nMac vs Windows?\nQuarto running?"
+    "text": "Poll\n\n\nMac vs Windows?\nQuarto running?"
   },
   {
     "objectID": "slides/04-sampling.html#assignments",
@@ -1237,5 +1237,12 @@
     "title": "Quarto Workshop",
     "section": "Using References",
     "text": "Using References\nCite cool work by outstanding scholars (Springman 2022) and automatically generate a references list."
+  },
+  {
+    "objectID": "slides/04-sampling.html#instructions",
+    "href": "slides/04-sampling.html#instructions",
+    "title": "Sampling and Population Characteristics",
+    "section": "Instructions",
+    "text": "Instructions\n\nFollow-along as I create a quarto page\nSubmit the html for the page to me via Slack before the end of class\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   }
 ]
