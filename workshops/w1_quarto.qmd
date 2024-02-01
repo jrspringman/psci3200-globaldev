@@ -99,6 +99,23 @@ summary_data %>%
   )
 
 
+## Colliders
+n = 1000 # sample size
+
+# generating data according to a collider structure
+x1 = runif(n) # random values for explenatory variable x1
+y =  rnorm(n, sd = 0.1) # random values for target variable y
+x2 = 2 * x1 + 2 * y + rnorm(n,sd = 0.1) # x2 is a collider, no influence on y, but influenced by y and x1
+
+# including the colider in the regression prduces an estimate of -0.5 for x1
+# so we see a collider can even flip the sign of another variable, as in Simpson's paradoxon
+modelsummary::modelsummary(
+  list(lm(y ~ x1), lm(y ~ x1 + x2)),
+  estimate  = "{estimate}{stars} ({std.error})",
+             statistic = NULL,
+  )
+
+
 ```
 
 

@@ -1244,5 +1244,208 @@
     "title": "Sampling and Population Characteristics",
     "section": "Instructions",
     "text": "Instructions\n\nFollow-along as I create a quarto page\nSubmit the html for the page to me via Slack before the end of class\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#assignments",
+    "href": "slides/05-surveyexp.html#assignments",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Assignments",
+    "text": "Assignments\n\nToday\n\n3 readings\nEnsure Quarto is installed\n\nThursday\n\nCreate a git repo for this class (psci3200_yourname)\nDSS Ch4"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#agenda",
+    "href": "slides/05-surveyexp.html#agenda",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Agenda",
+    "text": "Agenda\n\nFinishing up Final Project\nRStudio and Quarto\nSurvey Experiments\n\nOverview\nAlbertus & Grossman\nHollerbauer et al."
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#examples-of-research-questions",
+    "href": "slides/05-surveyexp.html#examples-of-research-questions",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Examples of research questions",
+    "text": "Examples of research questions\n\nDo citizens with mobile internet access have more negative opinions about their government?\nDo citizens that migrate have more or less positive views about democracy?\nAre domestic media outlets less likely to report on political events after elections?"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#poll",
+    "href": "slides/05-surveyexp.html#poll",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Poll",
+    "text": "Poll\n\n\nMac vs Windows vs Other?\nQuarto running?"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#instructions",
+    "href": "slides/05-surveyexp.html#instructions",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Instructions",
+    "text": "Instructions\n\nFollow-along as I create a quarto page\nSubmit the html for the page to me via Slack before the end of class"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#what-are-survey-experiments",
+    "href": "slides/05-surveyexp.html#what-are-survey-experiments",
+    "title": "Autocratization and Survey Experiments",
+    "section": "What are survey experiments?",
+    "text": "What are survey experiments?\n\n\n\nTwo general uses\n\n\nMeasuring sensitive attitudes\n\nProviding anonymity\n\nIdentifying causal effect\n\nManipulating images and text"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#list-experiments",
+    "href": "slides/05-surveyexp.html#list-experiments",
+    "title": "Autocratization and Survey Experiments",
+    "section": "List Experiments",
+    "text": "List Experiments\n\n\nWhat can list experiments tell us?\n\nprevalence of the sensitive attitude in her survey population\n\nWhat can they not tell us\n\nattitude of any individual respondent\n\nWhen might this be useful?\n\nAssessing prevalence of something\nQuantifying measurement bias/misreporting"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#list-experiment",
+    "href": "slides/05-surveyexp.html#list-experiment",
+    "title": "Autocratization and Survey Experiments",
+    "section": "List Experiment",
+    "text": "List Experiment"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#list-experiment-1",
+    "href": "slides/05-surveyexp.html#list-experiment-1",
+    "title": "Autocratization and Survey Experiments",
+    "section": "List Experiment",
+    "text": "List Experiment"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#randomized-response",
+    "href": "slides/05-surveyexp.html#randomized-response",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Randomized Response",
+    "text": "Randomized Response\n\n\nWhat is it?\n\nInduce some \\(p &gt; 0\\) that you say “Yes” even if you disagree\n\nPitfalls\n\nComplexity, confusion\nLack of anonymity\n\nVariants\n\nRepeated randomized response\nCrosswise"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#priming",
+    "href": "slides/05-surveyexp.html#priming",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Priming",
+    "text": "Priming\n\n\nWhat is it?\n\nMeasures implicit attitudes by stimulating unconscious association\n\nPitfalls\n\nHard to know if the prime worked (false negative, confounding, etc.)\n\nVariants\n\nRepeated randomized response\nCrosswise\n\n\n\n\nConfounding: Any experimental intervention A that is meant to trigger mental construct M could also trigger mental construct C. If C is not varied in the experimental design, researchers cannot determine whether M, C, or a combination of M and C affect outcomes of interest."
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#vignette",
+    "href": "slides/05-surveyexp.html#vignette",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Vignette",
+    "text": "Vignette"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#conjoints",
+    "href": "slides/05-surveyexp.html#conjoints",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Conjoints",
+    "text": "Conjoints\n\n\nWhat is it?\n\nPresents pair of profiles while varying attributes\nAsks respondents to choose between profiles\n\nPitfalls\n\nRequires careful attention\nCan be highly synthetic"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#limitations",
+    "href": "slides/05-surveyexp.html#limitations",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Limitations",
+    "text": "Limitations\nConfounding: Any experimental intervention A that is meant to trigger mental construct M could also trigger mental construct C. If C is not varied in the experimental design, researchers cannot determine whether M, C, or a combination of M and C affect outcomes of interest.\nInformation Equivalence: Any experimental intervention A can be interpreted differently by different respondents, effectively giving each respondent a different treatment (Dafoe, Zhang, and Caughey 2018). When these interpretations vary systematically by treatment condition, those conditions are not information equivalent and researchers cannot know that their treatment caused the observed effect.\nPre-treatment contamination: Respondents may encounter the treatment outside of the experiment, causing similar outcomes in the control group and treatment group even if the treatment affects outcomes (Gaines, Kuklinski, and Quirk 2007)."
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#albertus-grossman",
+    "href": "slides/05-surveyexp.html#albertus-grossman",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Albertus & Grossman",
+    "text": "Albertus & Grossman\n\nBroad pattern of backsliding\n\nErosion rather than coups\n\n\nFirst, elected politicians seek to weaken the independence of the judiciary and the media. Second, incumbents sideline their real or perceived rivals by purging the bureaucracy, replacing career civil servants with political loyalists, and weakening or selectively ignoring the powers of the legislature. Finally, popularly elected leaders with autocratic tendencies spearhead an effort to rewrite the rules of democratic competition by creating favorable electoral frameworks, expanding executive powers, eliminating term limits, disenfranchising minorities, and drafting new constitutions to cement these changes into the national political system.\nWhy do many voters in democracies either support or choose to ignore antidemocratic actions by elected incumbents? Why are transgressions against democratic laws and norms punished infrequently? And how much is public opinion affected by the means incumbents employ to neutralize checks and balances?\ncommon assaults on horizontal checks and balances: a) a purge of career civil servants in an environmental-protection agency who do not support the president’s agenda; b) a purge of independent-minded career prosecutors in the justice department; and c) packing the courts with loyal, ideologically sympathetic judges\nasked whether they would support the incumbent’s action; whether they would think the action is consistent with democracy; and whether the action is an impeachable offense\nConditions: 1. Citizens don’t realize + Should identify and oppose 2. Citizens are conditional democrats (trade-off w/ideology) + Should identify and support conditional on ideology 3. Citizens may have differing conceptions of democracy + Don’t identify as antidemocratic\nResistance\n\nGrowing anti-democratic majority\nReticence to punish\nCollective action"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#albertus-grossman-1",
+    "href": "slides/05-surveyexp.html#albertus-grossman-1",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Albertus & Grossman",
+    "text": "Albertus & Grossman\nVignette experiment\n\nDo justifications matter?\nDoes ideology matter"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#albertus-grossman-2",
+    "href": "slides/05-surveyexp.html#albertus-grossman-2",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Albertus & Grossman",
+    "text": "Albertus & Grossman\nPolicy implications\nPushes-back against polarization based explanations, which predict that people support antidemocratic behaviors because they view the other side as so dangerous"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#hollerbauer",
+    "href": "slides/05-surveyexp.html#hollerbauer",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Hollerbauer",
+    "text": "Hollerbauer"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#different-samples",
+    "href": "slides/05-surveyexp.html#different-samples",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Different samples",
+    "text": "Different samples\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#list-experiments-1",
+    "href": "slides/05-surveyexp.html#list-experiments-1",
+    "title": "Autocratization and Survey Experiments",
+    "section": "List Experiments",
+    "text": "List Experiments"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#vignettes-and-factorials",
+    "href": "slides/05-surveyexp.html#vignettes-and-factorials",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Vignettes and Factorials",
+    "text": "Vignettes and Factorials\n\n\nWhat is it?\n\nPresents a scenario while varying key components\n\nPitfalls\n\nUnrealistic combinations\nLimited power"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#background",
+    "href": "slides/05-surveyexp.html#background",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Background",
+    "text": "Background\nDecline in the quantity and quality of democracies\n\nExecutive power grabs rather than coups\n\n\n\n\nWeaken judiciary and media independence\nPurge bureaucracy and neutralize legislature\nReduce political competition through legal changes"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#whats-the-research-question",
+    "href": "slides/05-surveyexp.html#whats-the-research-question",
+    "title": "Autocratization and Survey Experiments",
+    "section": "What’s the Research Question",
+    "text": "What’s the Research Question\n\n\nWhy do many voters support or ignore antidemocratic actions?\nWhy are transgressions rarely punished?\nHow is public opinion affected by means and justification?"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#research-question",
+    "href": "slides/05-surveyexp.html#research-question",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Research Question",
+    "text": "Research Question\nWhy don’t citizens resist?\n\n\n\nCitizens don’t realize\n\nShould identify and oppose\n\nCitizens are conditional democrats (trade-off w/ideology)\n\nShould identify and support conditional on ideology\n\nCitizens may have differing conceptions of democracy\n\nDon’t identify as antidemocratic"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#whats-the-research-design",
+    "href": "slides/05-surveyexp.html#whats-the-research-design",
+    "title": "Autocratization and Survey Experiments",
+    "section": "What’s the Research Design?",
+    "text": "What’s the Research Design?\n\nVignette Experiment\n\n\nManipulation\n\nAntidemocratic behavior\nPartisan alignment\nMeans and justifications\n\nOutcomes\n\nPerceived as antidemocratic\nSupport for action\nSupport for punishment"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#findings",
+    "href": "slides/05-surveyexp.html#findings",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Findings",
+    "text": "Findings\n\n\n\nPositive\n\nRespondents identify antidemocratic actions and oppose them\nMeans and justifications do not increase support\n\nNegative\n\nSignificant minority supports antidemocratic actions\nPartisan power increases support"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#editorial-notes",
+    "href": "slides/05-surveyexp.html#editorial-notes",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Editorial Notes",
+    "text": "Editorial Notes\n\n\nPushes back against polarization based explanations, which predict that people support antidemocratic behaviors because they view the other side as so dangerous"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#policy-implications",
+    "href": "slides/05-surveyexp.html#policy-implications",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Policy Implications?",
+    "text": "Policy Implications?\n\n\n\nNormalize punishment\nEmphasize long-run risks"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#research-questions",
+    "href": "slides/05-surveyexp.html#research-questions",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Research Questions",
+    "text": "Research Questions\n\n\n\nWhy do many voters support or ignore antidemocratic actions?\nWhy are transgressions rarely punished?\nHow is public opinion affected by means and justification?"
   }
 ]
