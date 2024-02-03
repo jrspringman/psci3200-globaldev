@@ -1292,7 +1292,7 @@
     "href": "slides/05-surveyexp.html#list-experiments",
     "title": "Autocratization and Survey Experiments",
     "section": "List Experiments",
-    "text": "List Experiments\n\n\nWhat can list experiments tell us?\n\nprevalence of the sensitive attitude in her survey population\n\nWhat can they not tell us\n\nattitude of any individual respondent\n\nWhen might this be useful?\n\nAssessing prevalence of something\nQuantifying measurement bias/misreporting"
+    "text": "List Experiments\n\n\nWhat can list experiments tell us?\n\nprevalence of the sensitive attitude in the survey population\n\nWhat can they not tell us\n\nattitude of any individual respondent\n\nWhen might this be useful?\n\nAssessing prevalence of something\nQuantifying measurement bias/misreporting"
   },
   {
     "objectID": "slides/05-surveyexp.html#list-experiment",
@@ -1320,7 +1320,7 @@
     "href": "slides/05-surveyexp.html#priming",
     "title": "Autocratization and Survey Experiments",
     "section": "Priming",
-    "text": "Priming\n\n\nWhat is it?\n\nMeasures implicit attitudes by stimulating unconscious association\n\nPitfalls\n\nHard to know if the prime worked (false negative, confounding, etc.)\n\nVariants\n\nRepeated randomized response\nCrosswise\n\n\n\n\nConfounding: Any experimental intervention A that is meant to trigger mental construct M could also trigger mental construct C. If C is not varied in the experimental design, researchers cannot determine whether M, C, or a combination of M and C affect outcomes of interest."
+    "text": "Priming\n\n\nWhat is it?\n\nMeasures implicit attitudes by stimulating unconscious association\n\nPitfalls\n\nHard to know if the prime worked (false negative, confounding, etc.)\n\n\n\n\nConfounding: Any experimental intervention A that is meant to trigger mental construct M could also trigger mental construct C. If C is not varied in the experimental design, researchers cannot determine whether M, C, or a combination of M and C affect outcomes of interest."
   },
   {
     "objectID": "slides/05-surveyexp.html#vignette",

@@ -84,7 +84,7 @@ editor: source
 
 ::: {.incremental}
 - What can list experiments tell us?
-  + prevalence of the sensitive attitude in her survey population
+  + prevalence of the sensitive attitude in the survey population
 - What can they *not* tell us
   + attitude of any individual respondent
 - When might this be useful?
@@ -122,9 +122,6 @@ editor: source
   + Measures *implicit* attitudes by stimulating unconscious association
 - Pitfalls
   + Hard to know if the prime worked (false negative, confounding, etc.)
-- Variants
-  + Repeated randomized response
-  + Crosswise
 :::
 
 ::: {.notes}

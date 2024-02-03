@@ -128,7 +128,7 @@ Use code within the text to describe your data (n = `r nrow(data)`) for a more r
 
 You'll need Python installed 
 
-# ```{python}
+```{python}
 #| echo: false
 #| warning: false
 
