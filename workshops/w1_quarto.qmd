@@ -126,30 +126,30 @@ Use code within the text to describe your data (n = `r nrow(data)`) for a more r
 
 ### Python
 
-You'll need Python installed 
+You'll need Python installed in order for this code to run. To run the code, highlight the section below and hit cntrl+c.
 
-```{python}
-#| echo: false
-#| warning: false
+<!-- ```{python} -->
+<!-- #| echo: false -->
+<!-- #| warning: false -->
 
-import matplotlib.pyplot as plt
-import numpy as np
+<!-- import matplotlib.pyplot as plt -->
+<!-- import numpy as np -->
 
-# Generate random data
-np.random.seed(0)
-x = np.random.rand(50)
-y = np.random.rand(50)
-colors = np.random.rand(50)
-area = (30 * np.random.rand(50))**2  # Bubble sizes
+<!-- # Generate random data -->
+<!-- np.random.seed(0) -->
+<!-- x = np.random.rand(50) -->
+<!-- y = np.random.rand(50) -->
+<!-- colors = np.random.rand(50) -->
+<!-- area = (30 * np.random.rand(50))**2  # Bubble sizes -->
 
-# Create scatterplot
-plt.scatter(x, y, s=area, c=colors, alpha=0.5)
-plt.title('Random Scatterplot')
-plt.xlabel('X')
-plt.ylabel('Y')
-plt.show()
+<!-- # Create scatterplot -->
+<!-- plt.scatter(x, y, s=area, c=colors, alpha=0.5) -->
+<!-- plt.title('Random Scatterplot') -->
+<!-- plt.xlabel('X') -->
+<!-- plt.ylabel('Y') -->
+<!-- plt.show() -->
 
-```
+<!-- ``` -->
 
 
 

@@ -1,0 +1,23 @@
+---
+title: "Regression"
+date: 2024-02-06
+---
+
+
+## Required Readings
+
+- DSS Ch 4
+  + [interactive visualization: linear model](https://ellaudet.iq.harvard.edu/linear_model)
+  + [interactive visualization: OLS](https://ellaudet.iq.harvard.edu/least_squares)
+
+## Assignment
+
+- Create Github repo for the course
+  + [Instructions](/assignments/01_github.html)
+  + [Git with R](https://happygitwithr.com/install-git#install-git)
+  + [Blackwell tutorial](https://github.com/gov50-f23/gov50-f23.github.io/blob/main/assignments/00-problem-set.qmd)
+
+## Slides
+
+- [Slides](/slides/06-regression.html)
+

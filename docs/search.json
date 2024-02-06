@@ -25,7 +25,7 @@
     "href": "workshops/w1_quarto.html#code-chunks",
     "title": "Quarto Workshop",
     "section": "Code Chunks",
-    "text": "Code Chunks\n\nFigures\nCheck out Figure 1\n\n\n\n\n\nFigure 1: Fake data figure\n\n\n\n\n\n\nTables\n\n\n\n\n\n\n  \n    \n      Descriptive Table of Random Data\n    \n    \n      Summary statistics: Mean and Standard Deviation\n    \n    \n      Variable\n      Mean\n      SD\n    \n  \n  \n    x\n0.5200910\n0.2942882\n    y\n0.4770270\n0.2766775\n    size\n5.6385087\n2.6461582\n    color\n0.5130599\n0.2326477\n  \n  \n  \n\n\n\n\n\n\nInline Code\nUse code within the text to describe your data (n = 50) for a more reproducible workflow.\n\n\nPython\nYou’ll need Python installed"
+    "text": "Code Chunks\n\nFigures\nCheck out Figure 1\n\n\n\n\n\nFigure 1: Fake data figure\n\n\n\n\n\n\nTables\n\n\n\n\n\n\n  \n    \n      Descriptive Table of Random Data\n    \n    \n      Summary statistics: Mean and Standard Deviation\n    \n    \n      Variable\n      Mean\n      SD\n    \n  \n  \n    x\n0.5200910\n0.2942882\n    y\n0.4770270\n0.2766775\n    size\n5.6385087\n2.6461582\n    color\n0.5130599\n0.2326477\n  \n  \n  \n\n\n\n\n\n\n\n\n (1)\n  (2)\n\n\n\n\n(Intercept)\n0.003 (0.006)\n−0.001 (0.003)\n\n\nx1\n−0.003 (0.011)\n−0.787*** (0.013)\n\n\nx2\n\n0.394*** (0.006)\n\n\nNum.Obs.\n1000\n1000\n\n\nR2\n0.000\n0.808\n\n\nR2 Adj.\n−0.001\n0.807\n\n\nAIC\n−1768.6\n−3415.7\n\n\nBIC\n−1753.9\n−3396.1\n\n\nLog.Lik.\n887.295\n1711.866\n\n\nF\n0.076\n2095.146\n\n\nRMSE\n0.10\n0.04\n\n\n\n\n\n\n\n\n\nInline Code\nUse code within the text to describe your data (n = 50) for a more reproducible workflow.\n\n\nPython\nYou’ll need Python installed in order for this code to run. To run the code, highlight the section below and hit cntrl+c."
   },
   {
     "objectID": "workshops/w1_quarto.html#using-references",
@@ -75,6 +75,139 @@
     "title": "Syllabus",
     "section": "University Resources",
     "text": "University Resources\nUtilizing university resources can be key to a successful college experience. These resources are available for a reason, and students should feel comfortable taking full advantage of them. I am not an expert in accessing these resources, but I will be happy to help you secure support that will help you succeed at Penn.\n\nMental Health\nYour mental health is important to me. Struggles with mental health, as well as serious mental illnesses, are common across students, faculty, and staff. Please feel free to reach out to me about issues you are having within or outside of this course. I emphatically encourage anyone who thinks they may benefit to utilize the university resources listed below:\n\nCounseling and Mental Health Services\n24/7 Services: 215-746-9355\n\nPlease note that this list is not comprehensive. If there are services that you think should be added to this list, please let me know.\n\n\nAccessibility\nAccessibility is a shared value and a shared responsibility at Penn. The Weingarten Center partners with other departments throughout campus to coordinate and improve the accessibility of buildings and grounds, transportation, communication, and digital infrastructure. Students that require academic accommodations should contact the Weingarten Center. Academic accommodations are determined on an individualized basis through an interactive process that involves student self-disclosure, documentation of disability, and an initial meeting with a Disability Specialist. Accommodations do not alter fundamental requirements of the course and are not retroactive. Students should request accommodations as early as possible, since they may take time to implement. Students can notify the Weingarten Center at any time during the semester if adjustments to their communicated accommodation plan are needed."
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#assignments",
+    "href": "slides/05-surveyexp.html#assignments",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Assignments",
+    "text": "Assignments\n\nToday\n\n3 readings\nEnsure Quarto is installed\n\nThursday\n\nCreate a git repo for this class (psci3200_yourname)\nDSS Ch4"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#agenda",
+    "href": "slides/05-surveyexp.html#agenda",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Agenda",
+    "text": "Agenda\n\nFinishing up Final Project\nRStudio and Quarto\nSurvey Experiments\n\nOverview\nAlbertus & Grossman\nHollerbauer et al."
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#examples-of-research-questions",
+    "href": "slides/05-surveyexp.html#examples-of-research-questions",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Examples of research questions",
+    "text": "Examples of research questions\n\nDo citizens with mobile internet access have more negative opinions about their government?\nDo citizens that migrate have more or less positive views about democracy?\nAre domestic media outlets less likely to report on political events after elections?"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#poll",
+    "href": "slides/05-surveyexp.html#poll",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Poll",
+    "text": "Poll\n\n\nMac vs Windows vs Other?\nQuarto running?"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#instructions",
+    "href": "slides/05-surveyexp.html#instructions",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Instructions",
+    "text": "Instructions\n\nFollow-along as I create a quarto page\nSubmit the html for the page to me via Slack before the end of class"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#what-are-survey-experiments",
+    "href": "slides/05-surveyexp.html#what-are-survey-experiments",
+    "title": "Autocratization and Survey Experiments",
+    "section": "What are survey experiments?",
+    "text": "What are survey experiments?\n\n\n\nTwo general uses\n\n\nMeasuring sensitive attitudes\n\nProviding anonymity\n\nIdentifying causal effect\n\nManipulating images and text"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#list-experiments",
+    "href": "slides/05-surveyexp.html#list-experiments",
+    "title": "Autocratization and Survey Experiments",
+    "section": "List Experiments",
+    "text": "List Experiments\n\n\nWhat can list experiments tell us?\n\nprevalence of the sensitive attitude in the survey population\n\nWhat can they not tell us\n\nattitude of any individual respondent\n\nWhen might this be useful?\n\nAssessing prevalence of something\nQuantifying measurement bias/misreporting"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#list-experiments-1",
+    "href": "slides/05-surveyexp.html#list-experiments-1",
+    "title": "Autocratization and Survey Experiments",
+    "section": "List Experiments",
+    "text": "List Experiments"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#randomized-response",
+    "href": "slides/05-surveyexp.html#randomized-response",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Randomized Response",
+    "text": "Randomized Response\n\n\nWhat is it?\n\nInduce some \\(p &gt; 0\\) that you say “Yes” even if you disagree\n\nPitfalls\n\nComplexity, confusion\nLack of anonymity\n\nVariants\n\nRepeated randomized response\nCrosswise"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#priming",
+    "href": "slides/05-surveyexp.html#priming",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Priming",
+    "text": "Priming\n\n\nWhat is it?\n\nMeasures implicit attitudes by stimulating unconscious association\n\nPitfalls\n\nHard to know if the prime worked (false negative, confounding, etc.)\n\n\n\n\nConfounding: Any experimental intervention A that is meant to trigger mental construct M could also trigger mental construct C. If C is not varied in the experimental design, researchers cannot determine whether M, C, or a combination of M and C affect outcomes of interest."
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#vignettes-and-factorials",
+    "href": "slides/05-surveyexp.html#vignettes-and-factorials",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Vignettes and Factorials",
+    "text": "Vignettes and Factorials\n\n\nWhat is it?\n\nPresents a scenario while varying key components\n\nPitfalls\n\nUnrealistic combinations\nLimited power"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#conjoints",
+    "href": "slides/05-surveyexp.html#conjoints",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Conjoints",
+    "text": "Conjoints\n\n\nWhat is it?\n\nPresents pair of profiles while varying attributes\nAsks respondents to choose between profiles\n\nPitfalls\n\nRequires careful attention\nCan be highly synthetic"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#background",
+    "href": "slides/05-surveyexp.html#background",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Background",
+    "text": "Background\nDecline in the quantity and quality of democracies\n\nExecutive power grabs rather than coups\n\n\n\n\nWeaken judiciary and media independence\nPurge bureaucracy and neutralize legislature\nReduce political competition through legal changes"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#research-questions",
+    "href": "slides/05-surveyexp.html#research-questions",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Research Questions",
+    "text": "Research Questions\n\n\n\nWhy do many voters support or ignore antidemocratic actions?\nWhy are transgressions rarely punished?\nHow is public opinion affected by means and justification?"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#research-question",
+    "href": "slides/05-surveyexp.html#research-question",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Research Question",
+    "text": "Research Question\nWhy don’t citizens resist?\n\n\n\nCitizens don’t realize\n\nShould identify and oppose\n\nCitizens are conditional democrats (trade-off w/ideology)\n\nShould identify and support conditional on ideology\n\nCitizens may have differing conceptions of democracy\n\nDon’t identify as antidemocratic"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#whats-the-research-design",
+    "href": "slides/05-surveyexp.html#whats-the-research-design",
+    "title": "Autocratization and Survey Experiments",
+    "section": "What’s the Research Design?",
+    "text": "What’s the Research Design?\n\nVignette Experiment\n\n\nManipulation\n\nAntidemocratic behavior\nPartisan alignment\nMeans and justifications\n\nOutcomes\n\nPerceived as antidemocratic\nSupport for action\nSupport for punishment"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#findings",
+    "href": "slides/05-surveyexp.html#findings",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Findings",
+    "text": "Findings\n\n\n\nPositive\n\nRespondents identify antidemocratic actions and oppose them\nMeans and justifications do not increase support\n\nNegative\n\nSignificant minority supports antidemocratic actions\nPartisan power increases support"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#editorial-notes",
+    "href": "slides/05-surveyexp.html#editorial-notes",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Editorial Notes",
+    "text": "Editorial Notes\n\n\nPushes back against polarization based explanations, which predict that people support antidemocratic behaviors because they view the other side as so dangerous"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html#policy-implications",
+    "href": "slides/05-surveyexp.html#policy-implications",
+    "title": "Autocratization and Survey Experiments",
+    "section": "Policy Implications?",
+    "text": "Policy Implications?\n\n\n\nNormalize punishment\nEmphasize long-run risks"
   },
   {
     "objectID": "slides/03-causal.html#assignments",
@@ -483,60 +616,74 @@
     "text": "jrspringman.github.io/psci3200-globaldev/"
   },
   {
-    "objectID": "materials/13_conflict.html",
-    "href": "materials/13_conflict.html",
-    "title": "Causal Inference",
-    "section": "",
-    "text": "Paler, Laura, Camille Strauss-Kahn, and Korhan Kocak. “Is bigger always better? how targeting aid windfalls affects capture and social cohesion.” Comparative Political Studies 53.3-4 (2020): 359-398. (skip pp 366-369)\nDube, Oeindrila, and Suresh Naidu. “Bases, bullets, and ballots: The effect of US military aid on political conflict in Colombia.” The Journal of Politics 77.1 (2015): 249-267.\nIyengar, Radha, Jonathan Monten, and Matthew Hanson. “Building peace: The impact of aid on the labor market for insurgents.” No. w17297. National Bureau of Economic Research, 2011.\nSwedlund, Haley, Romain Malejacq and Malte Lierl.“’Foreign Aid Won’t Moderate the Taliban.” Foreign Policy. October 27, 2021. https://foreignpolicy.com/2021/10/27/ taliban-afghanistan-foreign-aid-assistance-moderate-human-rights/\nNunn, Nathan, and Nancy Qian. “US food aid and civil conflict.” American Economic Review 104.6 (2014): 1630-66."
-  },
-  {
-    "objectID": "materials/13_conflict.html#required-readings",
-    "href": "materials/13_conflict.html#required-readings",
-    "title": "Causal Inference",
-    "section": "",
-    "text": "Paler, Laura, Camille Strauss-Kahn, and Korhan Kocak. “Is bigger always better? how targeting aid windfalls affects capture and social cohesion.” Comparative Political Studies 53.3-4 (2020): 359-398. (skip pp 366-369)\nDube, Oeindrila, and Suresh Naidu. “Bases, bullets, and ballots: The effect of US military aid on political conflict in Colombia.” The Journal of Politics 77.1 (2015): 249-267.\nIyengar, Radha, Jonathan Monten, and Matthew Hanson. “Building peace: The impact of aid on the labor market for insurgents.” No. w17297. National Bureau of Economic Research, 2011.\nSwedlund, Haley, Romain Malejacq and Malte Lierl.“’Foreign Aid Won’t Moderate the Taliban.” Foreign Policy. October 27, 2021. https://foreignpolicy.com/2021/10/27/ taliban-afghanistan-foreign-aid-assistance-moderate-human-rights/\nNunn, Nathan, and Nancy Qian. “US food aid and civil conflict.” American Economic Review 104.6 (2014): 1630-66."
-  },
-  {
-    "objectID": "materials/13_conflict.html#slides",
-    "href": "materials/13_conflict.html#slides",
+    "objectID": "materials/xx_democracy.html#slides",
+    "href": "materials/xx_democracy.html#slides",
     "title": "Causal Inference",
     "section": "Slides",
     "text": "Slides\n\nThursday (1/18) lecture: Slides"
   },
   {
-    "objectID": "materials/13_conflict.html#interesting-stuff-non-required",
-    "href": "materials/13_conflict.html#interesting-stuff-non-required",
+    "objectID": "materials/xx_democracy.html#interesting-stuff-non-required",
+    "href": "materials/xx_democracy.html#interesting-stuff-non-required",
     "title": "Causal Inference",
     "section": "Interesting Stuff (non-required)",
-    "text": "Interesting Stuff (non-required)\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/addressing-root-causes-and-drivers-irregular-migration\nhttps://www.npr.org/sections/goatsandsoda/2019/09/30/764349336/in-guatemala-a-bad-year-for-corn-and-for-u-s-aid"
+    "text": "Interesting Stuff (non-required)\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/strengthening-civil-society-evidence-gap-map\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/human-rights-evidence-gap-map\nhttps://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-Analysis-report-Chapeau-summary.pdf\nhttps://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-DRG-Comparative-Analysis-Report.pdf\nhttps://www.v-dem.net/documents/29/V-dem_democracyreport2023_lowres.pdf\nhttps://www.amazon.com/How-Democracies-Die-Steven-Levitsky/dp/1524762938\nhttps://protectdemocracy.org/wp-content/uploads/2022/06/the-authoritarian-playbook-how-reporters-can-contextualize-and-cover-authoritarian-threats-as-distinct-from-politics-as-usual-1.pdf\nhttps://onlinelibrary.wiley.com/doi/10.1111/ajps.12798"
   },
   {
-    "objectID": "materials/11_climate.html",
-    "href": "materials/11_climate.html",
-    "title": "Causal Inference",
+    "objectID": "materials/xx_aid.html",
+    "href": "materials/xx_aid.html",
+    "title": "Foreign Aid 1",
     "section": "",
-    "text": "Michaelowa, Axel, and Katharina Michaelowa. “Coding error or statistical embellishment? The political economy of reporting climate aid.” World Development 39.11 (2011): 2010- 2020. Weiler, Florian, Carola Klöck, and Matthew Dornan. “Vulnerability, good governance, or donor interests? The allocation of aid for climate change adaptation.” World Development 104 (2018): 65-77.\nKono, Daniel Yuichi, and Gabriella R. Montinola. “Foreign aid and climate change policy: what can (’t) the data tell us?.” Politics and Governance 7.2 (2019): 68-92.\nMarcoux, Christopher, Bradley C. Parks, Christian M. Peratsakis, J. Timmons Roberts, and Michael J. Tierney. “Environmental and climate finance in a new world: How past environmental aid allocation impacts future climate aid.” No. 2013/128. WIDER Working Paper, 2013."
+    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nhttps://www.npr.org/sections/goatsandsoda/2018/09/14/647212387/which-foreign-aid-programs-work-the-u-s-runs-a-test-but-wont-talk-about-it\nhttps://www.cambridge.org/core/journals/american-political-science-review/article/international-rewards-for-gender-equality-reforms-in-autocracies/0462BEE8EB91A57AD810EFD137597F43\nhttps://esoc.princeton.edu/publications/white-man-effect-how-foreigner-presence-affects-behavior-experiments"
   },
   {
-    "objectID": "materials/11_climate.html#required-readings",
-    "href": "materials/11_climate.html#required-readings",
-    "title": "Causal Inference",
+    "objectID": "materials/xx_aid.html#readings",
+    "href": "materials/xx_aid.html#readings",
+    "title": "Foreign Aid 1",
     "section": "",
-    "text": "Michaelowa, Axel, and Katharina Michaelowa. “Coding error or statistical embellishment? The political economy of reporting climate aid.” World Development 39.11 (2011): 2010- 2020. Weiler, Florian, Carola Klöck, and Matthew Dornan. “Vulnerability, good governance, or donor interests? The allocation of aid for climate change adaptation.” World Development 104 (2018): 65-77.\nKono, Daniel Yuichi, and Gabriella R. Montinola. “Foreign aid and climate change policy: what can (’t) the data tell us?.” Politics and Governance 7.2 (2019): 68-92.\nMarcoux, Christopher, Bradley C. Parks, Christian M. Peratsakis, J. Timmons Roberts, and Michael J. Tierney. “Environmental and climate finance in a new world: How past environmental aid allocation impacts future climate aid.” No. 2013/128. WIDER Working Paper, 2013."
+    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nhttps://www.npr.org/sections/goatsandsoda/2018/09/14/647212387/which-foreign-aid-programs-work-the-u-s-runs-a-test-but-wont-talk-about-it\nhttps://www.cambridge.org/core/journals/american-political-science-review/article/international-rewards-for-gender-equality-reforms-in-autocracies/0462BEE8EB91A57AD810EFD137597F43\nhttps://esoc.princeton.edu/publications/white-man-effect-how-foreigner-presence-affects-behavior-experiments"
   },
   {
-    "objectID": "materials/11_climate.html#slides",
-    "href": "materials/11_climate.html#slides",
-    "title": "Causal Inference",
+    "objectID": "materials/xx_aid.html#slides",
+    "href": "materials/xx_aid.html#slides",
+    "title": "Foreign Aid 1",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
-    "objectID": "materials/11_climate.html#interesting-stuff-non-required",
-    "href": "materials/11_climate.html#interesting-stuff-non-required",
-    "title": "Causal Inference",
-    "section": "Interesting Stuff (non-required)",
-    "text": "Interesting Stuff (non-required)"
+    "objectID": "materials/xx_aid.html#readings-1",
+    "href": "materials/xx_aid.html#readings-1",
+    "title": "Foreign Aid 1",
+    "section": "Readings",
+    "text": "Readings\n\nWhy does aid not target the poorest? by Ryan Briggs\n\nCleo’s paper\nhttps://osf.io/nyhz4"
+  },
+  {
+    "objectID": "materials/xx_aid.html#slides-1",
+    "href": "materials/xx_aid.html#slides-1",
+    "title": "Foreign Aid 1",
+    "section": "Slides",
+    "text": "Slides\n\nThursday (1/18) lecture: Slides"
+  },
+  {
+    "objectID": "materials/11_crime.html",
+    "href": "materials/11_crime.html",
+    "title": "Crime and Corruption",
+    "section": "",
+    "text": "Angelova et al. (2023)\n\nYou can skim the section on “Model Setup.” Just focus on the big picture issue of humans and AI in decision-making.\n\n\n\n\n\n\nNone"
+  },
+  {
+    "objectID": "materials/11_crime.html#required-readings",
+    "href": "materials/11_crime.html#required-readings",
+    "title": "Crime and Corruption",
+    "section": "",
+    "text": "Angelova et al. (2023)\n\nYou can skim the section on “Model Setup.” Just focus on the big picture issue of humans and AI in decision-making."
+  },
+  {
+    "objectID": "materials/11_crime.html#slides",
+    "href": "materials/11_crime.html#slides",
+    "title": "Crime and Corruption",
+    "section": "",
+    "text": "None"
   },
   {
     "objectID": "materials/09_migration.html",
@@ -565,20 +712,6 @@
     "title": "Causal Inference",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/addressing-root-causes-and-drivers-irregular-migration\nhttps://www.npr.org/sections/goatsandsoda/2019/09/30/764349336/in-guatemala-a-bad-year-for-corn-and-for-u-s-aid"
-  },
-  {
-    "objectID": "materials/05_democracy.html#slides",
-    "href": "materials/05_democracy.html#slides",
-    "title": "Causal Inference",
-    "section": "Slides",
-    "text": "Slides\n\nThursday (1/18) lecture: Slides"
-  },
-  {
-    "objectID": "materials/05_democracy.html#interesting-stuff-non-required",
-    "href": "materials/05_democracy.html#interesting-stuff-non-required",
-    "title": "Causal Inference",
-    "section": "Interesting Stuff (non-required)",
-    "text": "Interesting Stuff (non-required)\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/strengthening-civil-society-evidence-gap-map\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/human-rights-evidence-gap-map\nhttps://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-Analysis-report-Chapeau-summary.pdf\nhttps://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-DRG-Comparative-Analysis-Report.pdf\nhttps://www.v-dem.net/documents/29/V-dem_democracyreport2023_lowres.pdf\nhttps://www.amazon.com/How-Democracies-Die-Steven-Levitsky/dp/1524762938\nhttps://protectdemocracy.org/wp-content/uploads/2022/06/the-authoritarian-playbook-how-reporters-can-contextualize-and-cover-authoritarian-threats-as-distinct-from-politics-as-usual-1.pdf\nhttps://onlinelibrary.wiley.com/doi/10.1111/ajps.12798"
   },
   {
     "objectID": "materials/05_autocracy1.html",
@@ -616,118 +749,6 @@
     "text": "Interesting Stuff (non-required)\n\nPew’s Question Wording Experiments\nSniderman (2018): Review of advances in survey experiment design\nLeeper’s survey experiments mini-course: Leeper was an academic political scientists and is now a Research Scientist at Meta"
   },
   {
-    "objectID": "materials/04_sampling.html",
-    "href": "materials/04_sampling.html",
-    "title": "Sampling and Population Characteristics",
-    "section": "",
-    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation"
-  },
-  {
-    "objectID": "materials/04_sampling.html#required-readings",
-    "href": "materials/04_sampling.html#required-readings",
-    "title": "Sampling and Population Characteristics",
-    "section": "",
-    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation"
-  },
-  {
-    "objectID": "materials/04_sampling.html#assignment",
-    "href": "materials/04_sampling.html#assignment",
-    "title": "Sampling and Population Characteristics",
-    "section": "Assignment",
-    "text": "Assignment\n\nInstall Quarto and produce a blank document\n\nInstructions\nIntro to Quarto"
-  },
-  {
-    "objectID": "materials/04_sampling.html#slides",
-    "href": "materials/04_sampling.html#slides",
-    "title": "Sampling and Population Characteristics",
-    "section": "Slides",
-    "text": "Slides\n\nSlides"
-  },
-  {
-    "objectID": "materials/04_sampling.html#interesting-stuff-non-required",
-    "href": "materials/04_sampling.html#interesting-stuff-non-required",
-    "title": "Sampling and Population Characteristics",
-    "section": "Interesting Stuff (non-required)",
-    "text": "Interesting Stuff (non-required)\n\nAndrew Heiss’s Quarto Resource\nHadley Wickham’s Quarto Guide"
-  },
-  {
-    "objectID": "materials/02_causal.html",
-    "href": "materials/02_causal.html",
-    "title": "Correlation and Causation",
-    "section": "",
-    "text": "TCD Ch 2\nTCD Ch 3"
-  },
-  {
-    "objectID": "materials/02_causal.html#required-readings",
-    "href": "materials/02_causal.html#required-readings",
-    "title": "Correlation and Causation",
-    "section": "",
-    "text": "TCD Ch 2\nTCD Ch 3"
-  },
-  {
-    "objectID": "materials/02_causal.html#tasks",
-    "href": "materials/02_causal.html#tasks",
-    "title": "Correlation and Causation",
-    "section": "Tasks",
-    "text": "Tasks\n\nComplete the PSCI 3200 Student Survey\nGet logged-in on the course  Slack"
-  },
-  {
-    "objectID": "materials/02_causal.html#slides",
-    "href": "materials/02_causal.html#slides",
-    "title": "Correlation and Causation",
-    "section": "Slides",
-    "text": "Slides\n\nSlides"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\n            Global Development\n        ",
-    "section": "",
-    "text": "Global Development\n        \n        \n            Intermediate Topics in Politics, Policy, and Data\n        \n        \n            PSCI 3200 • Spring 2024University of Pennsylvania\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\nInstructor\n\n   Jeremy Springman\n   333 - Perelman Center forPolitical Science\n   jspr@sas.upenn.edu \n   Schedule an appointment\n\n\n\nCourse details\n\n   Tue/Thu\n   January 18th - May 1st\n   3:30–4:59 PM\n   EDUC 201\n   Slack\n\n\n\nContacting me\nGeneral questions about the course, materials, or assignments should be posted to the course Slack. This will allow other students to benefit from the answer(s) provided. For other issues (absences, accomodations, etc.), email me or send me a direct message on Slack. I will attempt to respond to these messages within 48 hours, but please be patient!"
-  },
-  {
-    "objectID": "assignments/01_quarto.html",
-    "href": "assignments/01_quarto.html",
-    "title": "Getting Started with Quarto",
-    "section": "",
-    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
-  },
-  {
-    "objectID": "assignments/01_quarto.html#introduction",
-    "href": "assignments/01_quarto.html#introduction",
-    "title": "Getting Started with Quarto",
-    "section": "",
-    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
-  },
-  {
-    "objectID": "assignments/01_quarto.html#instructions",
-    "href": "assignments/01_quarto.html#instructions",
-    "title": "Getting Started with Quarto",
-    "section": "Instructions",
-    "text": "Instructions\nWith newer versions of RStudio, Quarto comes pre-packaged in the installation files. To check whether you have Quarto on your computer, open RStudio, click on the “Terminal” tab in the bottom left window, type quarto check into the terminal, and hit ENTER. If you have a new enough version of RStudio, the terminal should return something like what you see in the first screenshot below.\n\n\n\nCheck Installation Terminal\n\n\nIf you DON’T have a new enough version of RStudio, you’ll receive some error message. To fix this, all you should need to do is install the newest version of RStudio by going to the posit website and installing RStudio.\nFor next class, please be sure to have quarto functioning on your laptop because we’ll be doing some work creating quarto documents in class. To be absolutely sure, go to the “New File” icon in RStudio and click “Quarto Document.”\n\n\n\nCreate a Quarto\n\n\nYou should see something like the screenshot below. Give the document a Title and then click “Create.”\n\n\n\nName the Document\n\n\nA very basic .qmd file should open. Click “Render” (screenshot below) and RStudio will ask you to name the file. After you provide name, an html file should open for you in your internet browser or in the Viewer panel of RStudio (depending on your settings). Now you’re working in Quarto!\n\n\n\nRender the Document\n\n\nIf you have any trouble, post a message to the course Slack channel and I (or one of your classmates) can lend a hand."
-  },
-  {
-    "objectID": "materials/01_intro.html",
-    "href": "materials/01_intro.html",
-    "title": "Introduction to PSCI 3200",
-    "section": "",
-    "text": "Review the syllabus and schedule"
-  },
-  {
-    "objectID": "materials/01_intro.html#required-readings",
-    "href": "materials/01_intro.html#required-readings",
-    "title": "Introduction to PSCI 3200",
-    "section": "",
-    "text": "Review the syllabus and schedule"
-  },
-  {
-    "objectID": "materials/01_intro.html#slides",
-    "href": "materials/01_intro.html#slides",
-    "title": "Introduction to PSCI 3200",
-    "section": "Slides",
-    "text": "Slides\n\nThursday (1/18) lecture: Slides"
-  },
-  {
     "objectID": "materials/03_causal.html",
     "href": "materials/03_causal.html",
     "title": "Causal Inference",
@@ -763,81 +784,144 @@
     "text": "Interesting Stuff (non-required)\n\nCause, Effect, and the Structure of the Social World by Megan Stevenson\n\nThis very recent article argues that the types of interventions that get evaluated using RCTs are unlikely to create meaningful change because of the way the social world is structured. In essence, we are not actually able to engineeer real change. Stevenson provides evidence from a meta-analysis of experimental criminology research."
   },
   {
-    "objectID": "materials/05_aid.html",
-    "href": "materials/05_aid.html",
-    "title": "Foreign Aid 1",
+    "objectID": "materials/01_intro.html",
+    "href": "materials/01_intro.html",
+    "title": "Introduction to PSCI 3200",
     "section": "",
-    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nhttps://www.npr.org/sections/goatsandsoda/2018/09/14/647212387/which-foreign-aid-programs-work-the-u-s-runs-a-test-but-wont-talk-about-it\nhttps://www.cambridge.org/core/journals/american-political-science-review/article/international-rewards-for-gender-equality-reforms-in-autocracies/0462BEE8EB91A57AD810EFD137597F43\nhttps://esoc.princeton.edu/publications/white-man-effect-how-foreigner-presence-affects-behavior-experiments"
+    "text": "Review the syllabus and schedule"
   },
   {
-    "objectID": "materials/05_aid.html#readings",
-    "href": "materials/05_aid.html#readings",
-    "title": "Foreign Aid 1",
+    "objectID": "materials/01_intro.html#required-readings",
+    "href": "materials/01_intro.html#required-readings",
+    "title": "Introduction to PSCI 3200",
     "section": "",
-    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nhttps://www.npr.org/sections/goatsandsoda/2018/09/14/647212387/which-foreign-aid-programs-work-the-u-s-runs-a-test-but-wont-talk-about-it\nhttps://www.cambridge.org/core/journals/american-political-science-review/article/international-rewards-for-gender-equality-reforms-in-autocracies/0462BEE8EB91A57AD810EFD137597F43\nhttps://esoc.princeton.edu/publications/white-man-effect-how-foreigner-presence-affects-behavior-experiments"
+    "text": "Review the syllabus and schedule"
   },
   {
-    "objectID": "materials/05_aid.html#slides",
-    "href": "materials/05_aid.html#slides",
-    "title": "Foreign Aid 1",
-    "section": "Slides",
-    "text": "Slides\n\nSlides"
-  },
-  {
-    "objectID": "materials/05_climate.html",
-    "href": "materials/05_climate.html",
-    "title": "Survey Experiments",
-    "section": "",
-    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nCleo’s paper\nhttps://osf.io/nyhz4"
-  },
-  {
-    "objectID": "materials/05_climate.html#readings",
-    "href": "materials/05_climate.html#readings",
-    "title": "Survey Experiments",
-    "section": "",
-    "text": "Why does aid not target the poorest? by Ryan Briggs\n\nCleo’s paper\nhttps://osf.io/nyhz4"
-  },
-  {
-    "objectID": "materials/05_climate.html#slides",
-    "href": "materials/05_climate.html#slides",
-    "title": "Survey Experiments",
+    "objectID": "materials/01_intro.html#slides",
+    "href": "materials/01_intro.html#slides",
+    "title": "Introduction to PSCI 3200",
     "section": "Slides",
     "text": "Slides\n\nThursday (1/18) lecture: Slides"
   },
   {
-    "objectID": "materials/05_regression.html",
-    "href": "materials/05_regression.html",
-    "title": "Regression",
+    "objectID": "assignments/01_quarto.html",
+    "href": "assignments/01_quarto.html",
+    "title": "Getting Started with Quarto",
     "section": "",
-    "text": "DSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
+    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
   },
   {
-    "objectID": "materials/05_regression.html#required-readings",
-    "href": "materials/05_regression.html#required-readings",
-    "title": "Regression",
+    "objectID": "assignments/01_quarto.html#introduction",
+    "href": "assignments/01_quarto.html#introduction",
+    "title": "Getting Started with Quarto",
     "section": "",
-    "text": "DSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
+    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
   },
   {
-    "objectID": "materials/05_regression.html#tasks",
-    "href": "materials/05_regression.html#tasks",
-    "title": "Regression",
+    "objectID": "assignments/01_quarto.html#instructions",
+    "href": "assignments/01_quarto.html#instructions",
+    "title": "Getting Started with Quarto",
+    "section": "Instructions",
+    "text": "Instructions\nWith newer versions of RStudio, Quarto comes pre-packaged in the installation files. To check whether you have Quarto on your computer, open RStudio, click on the “Terminal” tab in the bottom left window, type quarto check into the terminal, and hit ENTER. If you have a new enough version of RStudio, the terminal should return something like what you see in the first screenshot below.\n\n\n\nCheck Installation Terminal\n\n\nIf you DON’T have a new enough version of RStudio, you’ll receive some error message. To fix this, all you should need to do is install the newest version of RStudio by going to the posit website and installing RStudio.\nFor next class, please be sure to have quarto functioning on your laptop because we’ll be doing some work creating quarto documents in class. To be absolutely sure, go to the “New File” icon in RStudio and click “Quarto Document.”\n\n\n\nCreate a Quarto\n\n\nYou should see something like the screenshot below. Give the document a Title and then click “Create.”\n\n\n\nName the Document\n\n\nA very basic .qmd file should open. Click “Render” (screenshot below) and RStudio will ask you to name the file. After you provide name, an html file should open for you in your internet browser or in the Viewer panel of RStudio (depending on your settings). Now you’re working in Quarto!\n\n\n\nRender the Document\n\n\nIf you have any trouble, post a message to the course Slack channel and I (or one of your classmates) can lend a hand."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n            Global Development\n        ",
+    "section": "",
+    "text": "Global Development\n        \n        \n            Intermediate Topics in Politics, Policy, and Data\n        \n        \n            PSCI 3200 • Spring 2024University of Pennsylvania\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\nInstructor\n\n   Jeremy Springman\n   333 - Perelman Center forPolitical Science\n   jspr@sas.upenn.edu \n   Schedule an appointment\n\n\n\nCourse details\n\n   Tue/Thu\n   January 18th - May 1st\n   3:30–4:59 PM\n   EDUC 201\n   Slack\n\n\n\nContacting me\nGeneral questions about the course, materials, or assignments should be posted to the course Slack. This will allow other students to benefit from the answer(s) provided. For other issues (absences, accomodations, etc.), email me or send me a direct message on Slack. I will attempt to respond to these messages within 48 hours, but please be patient!"
+  },
+  {
+    "objectID": "materials/02_causal.html",
+    "href": "materials/02_causal.html",
+    "title": "Correlation and Causation",
+    "section": "",
+    "text": "TCD Ch 2\nTCD Ch 3"
+  },
+  {
+    "objectID": "materials/02_causal.html#required-readings",
+    "href": "materials/02_causal.html#required-readings",
+    "title": "Correlation and Causation",
+    "section": "",
+    "text": "TCD Ch 2\nTCD Ch 3"
+  },
+  {
+    "objectID": "materials/02_causal.html#tasks",
+    "href": "materials/02_causal.html#tasks",
+    "title": "Correlation and Causation",
     "section": "Tasks",
-    "text": "Tasks\n\nInstall Quarto and produce a blank document\n\nInstalling Quarto\nInstalling on Windows\nInstalling on Mac\nIntro to Quarto"
+    "text": "Tasks\n\nComplete the PSCI 3200 Student Survey\nGet logged-in on the course  Slack"
   },
   {
-    "objectID": "materials/05_regression.html#slides",
-    "href": "materials/05_regression.html#slides",
-    "title": "Regression",
+    "objectID": "materials/02_causal.html#slides",
+    "href": "materials/02_causal.html#slides",
+    "title": "Correlation and Causation",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
-    "objectID": "materials/05_regression.html#interesting-stuff-non-required",
-    "href": "materials/05_regression.html#interesting-stuff-non-required",
-    "title": "Regression",
+    "objectID": "materials/04_sampling.html",
+    "href": "materials/04_sampling.html",
+    "title": "Sampling and Population Characteristics",
+    "section": "",
+    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation"
+  },
+  {
+    "objectID": "materials/04_sampling.html#required-readings",
+    "href": "materials/04_sampling.html#required-readings",
+    "title": "Sampling and Population Characteristics",
+    "section": "",
+    "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation"
+  },
+  {
+    "objectID": "materials/04_sampling.html#assignment",
+    "href": "materials/04_sampling.html#assignment",
+    "title": "Sampling and Population Characteristics",
+    "section": "Assignment",
+    "text": "Assignment\n\nInstall Quarto and produce a blank document\n\nInstructions\nIntro to Quarto"
+  },
+  {
+    "objectID": "materials/04_sampling.html#slides",
+    "href": "materials/04_sampling.html#slides",
+    "title": "Sampling and Population Characteristics",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/04_sampling.html#interesting-stuff-non-required",
+    "href": "materials/04_sampling.html#interesting-stuff-non-required",
+    "title": "Sampling and Population Characteristics",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\n\nAndrew Heiss’s Quarto Resource\nHadley Wickham’s Quarto Guide"
+  },
+  {
+    "objectID": "materials/06_regression.html",
+    "href": "materials/06_regression.html",
+    "title": "Regression",
+    "section": "",
+    "text": "DSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
+  },
+  {
+    "objectID": "materials/06_regression.html#required-readings",
+    "href": "materials/06_regression.html#required-readings",
+    "title": "Regression",
+    "section": "",
+    "text": "DSS Ch 4\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
+  },
+  {
+    "objectID": "materials/06_regression.html#assignment",
+    "href": "materials/06_regression.html#assignment",
+    "title": "Regression",
+    "section": "Assignment",
+    "text": "Assignment\n\nCreate Github repo for the course\n\nInstructions\nGit with R\nBlackwell tutorial"
+  },
+  {
+    "objectID": "materials/06_regression.html#slides",
+    "href": "materials/06_regression.html#slides",
+    "title": "Regression",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/10_crime.html",
@@ -861,32 +945,67 @@
     "text": "None"
   },
   {
-    "objectID": "materials/11_crime.html",
-    "href": "materials/11_crime.html",
-    "title": "Crime and Corruption",
+    "objectID": "materials/13_conflict.html",
+    "href": "materials/13_conflict.html",
+    "title": "Causal Inference",
     "section": "",
-    "text": "Angelova et al. (2023)\n\nYou can skim the section on “Model Setup.” Just focus on the big picture issue of humans and AI in decision-making.\n\n\n\n\n\n\nNone"
+    "text": "Paler, Laura, Camille Strauss-Kahn, and Korhan Kocak. “Is bigger always better? how targeting aid windfalls affects capture and social cohesion.” Comparative Political Studies 53.3-4 (2020): 359-398. (skip pp 366-369)\nDube, Oeindrila, and Suresh Naidu. “Bases, bullets, and ballots: The effect of US military aid on political conflict in Colombia.” The Journal of Politics 77.1 (2015): 249-267.\nIyengar, Radha, Jonathan Monten, and Matthew Hanson. “Building peace: The impact of aid on the labor market for insurgents.” No. w17297. National Bureau of Economic Research, 2011.\nSwedlund, Haley, Romain Malejacq and Malte Lierl.“’Foreign Aid Won’t Moderate the Taliban.” Foreign Policy. October 27, 2021. https://foreignpolicy.com/2021/10/27/ taliban-afghanistan-foreign-aid-assistance-moderate-human-rights/\nNunn, Nathan, and Nancy Qian. “US food aid and civil conflict.” American Economic Review 104.6 (2014): 1630-66."
   },
   {
-    "objectID": "materials/11_crime.html#required-readings",
-    "href": "materials/11_crime.html#required-readings",
-    "title": "Crime and Corruption",
+    "objectID": "materials/13_conflict.html#required-readings",
+    "href": "materials/13_conflict.html#required-readings",
+    "title": "Causal Inference",
     "section": "",
-    "text": "Angelova et al. (2023)\n\nYou can skim the section on “Model Setup.” Just focus on the big picture issue of humans and AI in decision-making."
+    "text": "Paler, Laura, Camille Strauss-Kahn, and Korhan Kocak. “Is bigger always better? how targeting aid windfalls affects capture and social cohesion.” Comparative Political Studies 53.3-4 (2020): 359-398. (skip pp 366-369)\nDube, Oeindrila, and Suresh Naidu. “Bases, bullets, and ballots: The effect of US military aid on political conflict in Colombia.” The Journal of Politics 77.1 (2015): 249-267.\nIyengar, Radha, Jonathan Monten, and Matthew Hanson. “Building peace: The impact of aid on the labor market for insurgents.” No. w17297. National Bureau of Economic Research, 2011.\nSwedlund, Haley, Romain Malejacq and Malte Lierl.“’Foreign Aid Won’t Moderate the Taliban.” Foreign Policy. October 27, 2021. https://foreignpolicy.com/2021/10/27/ taliban-afghanistan-foreign-aid-assistance-moderate-human-rights/\nNunn, Nathan, and Nancy Qian. “US food aid and civil conflict.” American Economic Review 104.6 (2014): 1630-66."
   },
   {
-    "objectID": "materials/11_crime.html#slides",
-    "href": "materials/11_crime.html#slides",
-    "title": "Crime and Corruption",
+    "objectID": "materials/13_conflict.html#slides",
+    "href": "materials/13_conflict.html#slides",
+    "title": "Causal Inference",
+    "section": "Slides",
+    "text": "Slides\n\nThursday (1/18) lecture: Slides"
+  },
+  {
+    "objectID": "materials/13_conflict.html#interesting-stuff-non-required",
+    "href": "materials/13_conflict.html#interesting-stuff-non-required",
+    "title": "Causal Inference",
+    "section": "Interesting Stuff (non-required)",
+    "text": "Interesting Stuff (non-required)\nhttps://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/addressing-root-causes-and-drivers-irregular-migration\nhttps://www.npr.org/sections/goatsandsoda/2019/09/30/764349336/in-guatemala-a-bad-year-for-corn-and-for-u-s-aid"
+  },
+  {
+    "objectID": "materials/xx_climate.html",
+    "href": "materials/xx_climate.html",
+    "title": "Causal Inference",
     "section": "",
-    "text": "None"
+    "text": "Michaelowa, Axel, and Katharina Michaelowa. “Coding error or statistical embellishment? The political economy of reporting climate aid.” World Development 39.11 (2011): 2010- 2020. Weiler, Florian, Carola Klöck, and Matthew Dornan. “Vulnerability, good governance, or donor interests? The allocation of aid for climate change adaptation.” World Development 104 (2018): 65-77.\nKono, Daniel Yuichi, and Gabriella R. Montinola. “Foreign aid and climate change policy: what can (’t) the data tell us?.” Politics and Governance 7.2 (2019): 68-92.\nMarcoux, Christopher, Bradley C. Parks, Christian M. Peratsakis, J. Timmons Roberts, and Michael J. Tierney. “Environmental and climate finance in a new world: How past environmental aid allocation impacts future climate aid.” No. 2013/128. WIDER Working Paper, 2013."
+  },
+  {
+    "objectID": "materials/xx_climate.html#required-readings",
+    "href": "materials/xx_climate.html#required-readings",
+    "title": "Causal Inference",
+    "section": "",
+    "text": "Michaelowa, Axel, and Katharina Michaelowa. “Coding error or statistical embellishment? The political economy of reporting climate aid.” World Development 39.11 (2011): 2010- 2020. Weiler, Florian, Carola Klöck, and Matthew Dornan. “Vulnerability, good governance, or donor interests? The allocation of aid for climate change adaptation.” World Development 104 (2018): 65-77.\nKono, Daniel Yuichi, and Gabriella R. Montinola. “Foreign aid and climate change policy: what can (’t) the data tell us?.” Politics and Governance 7.2 (2019): 68-92.\nMarcoux, Christopher, Bradley C. Parks, Christian M. Peratsakis, J. Timmons Roberts, and Michael J. Tierney. “Environmental and climate finance in a new world: How past environmental aid allocation impacts future climate aid.” No. 2013/128. WIDER Working Paper, 2013."
+  },
+  {
+    "objectID": "materials/xx_climate.html#slides",
+    "href": "materials/xx_climate.html#slides",
+    "title": "Causal Inference",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/xx_climate.html#interesting-stuff-non-required",
+    "href": "materials/xx_climate.html#interesting-stuff-non-required",
+    "title": "Causal Inference",
+    "section": "Interesting Stuff (non-required)",
+    "text": "Interesting Stuff (non-required)"
   },
   {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should complete the required readings before each meeting.\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting\nWorkshop (): A link to the workshop for that week\nAssignment (): This page contains the instructions for each assignment\n\nThe readings refer to following texts:\n\nDSS: Data Analysis for Social Science: A Friendly and Practical Introduction (DSS) by Kosuke Imai and Elena Llaudet\nTCD: Thinking clearly with data: A guide to quantitative reasoning and analysis by Ethan Bueno de Mesquita and Anthony Fowler\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nWorkshop\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nIntroduction to the course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nCorrelation and Causation\n\n\nTCD Ch 2-3\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nCausal Inference 1\n\n\nDSS Ch 2; Duflo (2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nSurvey Research\n\n\nDSS Ch 3\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nDemocracy and Autocratization 1 (Survey Experiments)\n\n\nGrady; Albertus and Grossman (2021); Hollerbauer et al. (2024)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nLinear Regression\n\n\nDSS Ch 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nCausal Inference 2\n\n\nDSS Ch 5\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nMigration 1\n\n\nEvidence Action; Gazeaud (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nMigration 2 (guest: Wibbels)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nCrime & Corruption 1 (guest: Schmidt-Padilla)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nCrime & Corruption 2 (guest: Schmidt-Padilla)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nConflict & Cohesion 1\n\n\nPaluck et al. (2021); Grady et al. (2023); Mousa (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nConflict & Cohesion 2\n\n\nConflict\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nProbability\n\n\nDSS Ch 6\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nUncertainty\n\n\nDSS Ch 7\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nDemocracy and Autocratization 2\n\n\nWaldner and Lust (2018); VDem (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nDemocracy and Autocratization 3 (Polarization and Engagement)\n\n\nAdamu et al. (2024); Svolik (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nForeign Aid and NGOs 1\n\n\nBriggs\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nForeign Aid and NGOs 2\n\n\nO’Brien (2023); Springman (2021); Cruz (2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nForeign Aid and NGOs 3\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nClimate and Adaptation 1\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nClimate and Adaptation 2\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nAccountability and Information 1\n\n\nJablonski and Seim (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nAccountability 2\n\n\nMetaketa\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nAccountability 3\n\n\nMares et al. (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nEffective Interventions 1\n\n\nCCTs\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nEffective Interventions 2\n\n\nHealth\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nEffective Interventions 3\n\n\nOther"
+    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should complete the required readings before each meeting.\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting\nWorkshop (): A link to the workshop for that week\nAssignment (): This page contains the instructions for each assignment\n\nThe readings refer to following texts:\n\nDSS: Data Analysis for Social Science: A Friendly and Practical Introduction (DSS) by Kosuke Imai and Elena Llaudet\nTCD: Thinking clearly with data: A guide to quantitative reasoning and analysis by Ethan Bueno de Mesquita and Anthony Fowler\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nWorkshop\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nIntroduction to the course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nCorrelation and Causation\n\n\nTCD Ch 2-3\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nCausal Inference 1\n\n\nDSS Ch 2; Duflo (2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nSurvey Research\n\n\nDSS Ch 3\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nDemocracy and Autocratization 1 (Survey Experiments)\n\n\nGrady; Albertus and Grossman (2021); Hollerbauer et al. (2024)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nLinear Regression\n\n\nDSS Ch 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nCausal Inference 2\n\n\nDSS Ch 5\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nMigration 1\n\n\nEvidence Action; Gazeaud (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nMigration 2 (guest: Wibbels)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nCrime 1 (guest: Schmidt-Padilla)\n\n\nDell (2015); Sviatschi (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nCrime 2 (guest: Schmidt-Padilla)\n\n\nAngelova et al. (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nConflict & Cohesion 1\n\n\nPaluck et al. (2021); Grady et al. (2023); Mousa (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nConflict & Cohesion 2\n\n\nConflict\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nProbability\n\n\nDSS Ch 6\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nUncertainty\n\n\nDSS Ch 7\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nDemocracy and Autocratization 2\n\n\nWaldner and Lust (2018); VDem (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nDemocracy and Autocratization 3 (Polarization and Engagement)\n\n\nAdamu et al. (2024); Svolik (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nForeign Aid and NGOs 1\n\n\nBriggs\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nForeign Aid and NGOs 2\n\n\nO’Brien (2023); Springman (2021); Cruz (2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nForeign Aid and NGOs 3\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nClimate and Adaptation 1\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nClimate and Adaptation 2\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nAccountability and Information 1\n\n\nJablonski and Seim (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nAccountability 2\n\n\nMetaketa\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nAccountability 3\n\n\nMares et al. (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nEffective Interventions 1\n\n\nCCTs\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nEffective Interventions 2\n\n\nHealth\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nEffective Interventions 3\n\n\nOther"
   },
   {
     "objectID": "slides/02-causal.html#assignments",
@@ -928,7 +1047,7 @@
     "href": "slides/02-causal.html#central-tendency-mean",
     "title": "Correlation and Causation",
     "section": "Central Tendency: Mean",
-    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 12.52233\n\nmean(my_vector)\n\n[1] 12.52233"
+    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 8.881802\n\nmean(my_vector)\n\n[1] 8.881802"
   },
   {
     "objectID": "slides/02-causal.html#spread-variance",
@@ -1071,13 +1190,6 @@
     "text": "Next Meeting\n\nRandomized experiments\n\nReview of FPCI\nHow randomization addresses confounding\n\nThe role of social science researchers?\n\nWhat should people with social science training be doing with their skills?\n\nFinal Project\n\nWhat are your options?\nPossible data sources\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
-    "objectID": "slides/04-sampling.html#poll",
-    "href": "slides/04-sampling.html#poll",
-    "title": "Sampling and Population Characteristics",
-    "section": "Poll",
-    "text": "Poll\n\n\nMac vs Windows?\nQuarto running?"
-  },
-  {
     "objectID": "slides/04-sampling.html#assignments",
     "href": "slides/04-sampling.html#assignments",
     "title": "Sampling and Population Characteristics",
@@ -1218,11 +1330,214 @@
     "text": "Final Project\n\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 8th\n\n\nIdentify data source\nMar 5th\n\n\nSubmit proposal\nApr 2nd\n\n\nSubmit final project\nMay 2nd"
   },
   {
-    "objectID": "slides/04-sampling.html#poll-1",
-    "href": "slides/04-sampling.html#poll-1",
+    "objectID": "slides/04-sampling.html#poll",
+    "href": "slides/04-sampling.html#poll",
     "title": "Sampling and Population Characteristics",
     "section": "Poll",
-    "text": "Poll\n\n\nMac vs Windows?\nQuarto running?\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Poll\n\n\nMac vs Windows?\nQuarto running?"
+  },
+  {
+    "objectID": "slides/04-sampling.html#instructions",
+    "href": "slides/04-sampling.html#instructions",
+    "title": "Sampling and Population Characteristics",
+    "section": "Instructions",
+    "text": "Instructions\n\nFollow-along as I create a quarto page\nSubmit the html for the page to me via Slack before the end of class\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/06-regression.html#assignments",
+    "href": "slides/06-regression.html#assignments",
+    "title": "Linear Regression",
+    "section": "Assignments",
+    "text": "Assignments\n\nToday\n\nDSS Ch 4\nCreate a git repo for this class (psci3200_yourname)\n\nThursday\n\nDSS Ch5 (will circulate tomorrow)"
+  },
+  {
+    "objectID": "slides/06-regression.html#agenda",
+    "href": "slides/06-regression.html#agenda",
+    "title": "Linear Regression",
+    "section": "Agenda",
+    "text": "Agenda\n\nSurvey Experiments\n\nOverview\nAlbertus & Grossman\nHollerbauer et al.\n\nLinear Regression"
+  },
+  {
+    "objectID": "slides/06-regression.html#what-are-survey-experiments",
+    "href": "slides/06-regression.html#what-are-survey-experiments",
+    "title": "Linear Regression",
+    "section": "What are survey experiments?",
+    "text": "What are survey experiments?\n\n\n\nTwo general uses\n\n\nMeasuring sensitive attitudes\n\nProviding anonymity\n\nIdentifying causal effect\n\nManipulating images and text"
+  },
+  {
+    "objectID": "slides/06-regression.html#list-experiments",
+    "href": "slides/06-regression.html#list-experiments",
+    "title": "Linear Regression",
+    "section": "List Experiments",
+    "text": "List Experiments\n\n\nWhat can list experiments tell us?\n\nprevalence of the sensitive attitude in the survey population\n\nWhat can they not tell us\n\nattitude of any individual respondent\n\nWhen might this be useful?\n\nAssessing prevalence of something\nQuantifying measurement bias/misreporting"
+  },
+  {
+    "objectID": "slides/06-regression.html#list-experiments-1",
+    "href": "slides/06-regression.html#list-experiments-1",
+    "title": "Linear Regression",
+    "section": "List Experiments",
+    "text": "List Experiments"
+  },
+  {
+    "objectID": "slides/06-regression.html#randomized-response",
+    "href": "slides/06-regression.html#randomized-response",
+    "title": "Linear Regression",
+    "section": "Randomized Response",
+    "text": "Randomized Response\n\n\nWhat is it?\n\nInduce some \\(p &gt; 0\\) that you say “Yes” even if you disagree\n\nPitfalls\n\nComplexity, confusion\nLack of anonymity\n\nVariants\n\nRepeated randomized response\nCrosswise"
+  },
+  {
+    "objectID": "slides/06-regression.html#priming",
+    "href": "slides/06-regression.html#priming",
+    "title": "Linear Regression",
+    "section": "Priming",
+    "text": "Priming\n\n\nWhat is it?\n\nMeasures implicit attitudes by stimulating unconscious association\n\nPitfalls\n\nHard to know if the prime worked (false negative, confounding, etc.)\n\n\n\n\nConfounding: Any experimental intervention A that is meant to trigger mental construct M could also trigger mental construct C. If C is not varied in the experimental design, researchers cannot determine whether M, C, or a combination of M and C affect outcomes of interest."
+  },
+  {
+    "objectID": "slides/06-regression.html#vignettes-and-factorials",
+    "href": "slides/06-regression.html#vignettes-and-factorials",
+    "title": "Linear Regression",
+    "section": "Vignettes and Factorials",
+    "text": "Vignettes and Factorials\n\n\nWhat is it?\n\nPresents a scenario while varying key components\n\nPitfalls\n\nUnrealistic combinations\nLimited power"
+  },
+  {
+    "objectID": "slides/06-regression.html#conjoints",
+    "href": "slides/06-regression.html#conjoints",
+    "title": "Linear Regression",
+    "section": "Conjoints",
+    "text": "Conjoints\n\n\nWhat is it?\n\nPresents pair of profiles while varying attributes\nAsks respondents to choose between profiles\n\nPitfalls\n\nRequires careful attention\nCan be highly synthetic"
+  },
+  {
+    "objectID": "slides/06-regression.html#credibility-in-survey-experiments",
+    "href": "slides/06-regression.html#credibility-in-survey-experiments",
+    "title": "Linear Regression",
+    "section": "Credibility in Survey Experiments",
+    "text": "Credibility in Survey Experiments\n\n\n\nMultiple Hypothesis Testing\nPre-registration\nBehavioral measures"
+  },
+  {
+    "objectID": "slides/06-regression.html#background",
+    "href": "slides/06-regression.html#background",
+    "title": "Linear Regression",
+    "section": "Background",
+    "text": "Background\nDecline in the quantity and quality of democracies\n\n\nExecutive power grabs rather than military coups\n\n\n\nCommon tools used\n\n\nWeaken judiciary and media independence\nPurge bureaucracy and neutralize legislature\nReduce political competition through legal changes"
+  },
+  {
+    "objectID": "slides/06-regression.html#research-questions",
+    "href": "slides/06-regression.html#research-questions",
+    "title": "Linear Regression",
+    "section": "Research Questions",
+    "text": "Research Questions\n\n\n\n\n\nWhy do many voters support or ignore antidemocratic actions?\nWhy are transgressions rarely punished?\nHow is public opinion affected by means and justification?"
+  },
+  {
+    "objectID": "slides/06-regression.html#why-dont-citizens-resist",
+    "href": "slides/06-regression.html#why-dont-citizens-resist",
+    "title": "Linear Regression",
+    "section": "Why don’t citizens resist?",
+    "text": "Why don’t citizens resist?\nThree potential answers:\n\n\n\nCitizens don’t realize executive’s intentions\n\nShould identify and oppose\n\nCitizens are conditional democrats (trade-off w/ideology)\n\nShould identify and support conditional on ideology\n\nCitizens may have differing conceptions of democracy\n\nDon’t identify actions as antidemocratic"
+  },
+  {
+    "objectID": "slides/06-regression.html#whats-the-research-design",
+    "href": "slides/06-regression.html#whats-the-research-design",
+    "title": "Linear Regression",
+    "section": "What’s the Research Design?",
+    "text": "What’s the Research Design?\n\nVignette Experiment\n\n\nManipulation\n\nAntidemocratic behavior\nPartisan alignment\nMeans and justifications\n\nOutcomes\n\nPerceived as antidemocratic\nSupport for action\nSupport for punishment"
+  },
+  {
+    "objectID": "slides/06-regression.html#findings",
+    "href": "slides/06-regression.html#findings",
+    "title": "Linear Regression",
+    "section": "Findings",
+    "text": "Findings\n\n\n\nPositive:\n\nCitizens identify antidemocratic actions\nRespondents identify actions and oppose them\nMeans and justifications do not increase support\n\nNegative\n\nSignificant minority supports antidemocratic actions\nPartisan power increases support (is this weird?)\nLittle support for legal punishment"
+  },
+  {
+    "objectID": "slides/06-regression.html#editorial-notes",
+    "href": "slides/06-regression.html#editorial-notes",
+    "title": "Linear Regression",
+    "section": "Editorial Notes",
+    "text": "Editorial Notes\n\n\nPushes back against polarization based explanations, which predict that people support antidemocratic behaviors because they view the other side as so dangerous"
+  },
+  {
+    "objectID": "slides/06-regression.html#policy-implications",
+    "href": "slides/06-regression.html#policy-implications",
+    "title": "Linear Regression",
+    "section": "Policy Implications?",
+    "text": "Policy Implications?\n\n\n\n\n\nLegal punishment might cause backlash\nEncoding norms into law might not matter\nReducing polarization might not help"
+  },
+  {
+    "objectID": "slides/06-regression.html#background-1",
+    "href": "slides/06-regression.html#background-1",
+    "title": "Linear Regression",
+    "section": "Background",
+    "text": "Background\nGovernments seek to control NGO activities\n\n\nNGOs control significant development resources\nThey engage in activity that benefits and threatens incumbents\nGovernments respond with both accommodation and coercion"
+  },
+  {
+    "objectID": "slides/06-regression.html#research-questions-1",
+    "href": "slides/06-regression.html#research-questions-1",
+    "title": "Linear Regression",
+    "section": "Research Questions",
+    "text": "Research Questions\nHow do government interventions affect NGO behavior?\n\n\n\nWhere NGOs work\nHow they operate\nWho they engage with"
+  },
+  {
+    "objectID": "slides/06-regression.html#whats-the-research-design-1",
+    "href": "slides/06-regression.html#whats-the-research-design-1",
+    "title": "Linear Regression",
+    "section": "What’s the Research Design?",
+    "text": "What’s the Research Design?\n\nConjoint Experiment\n\n\nManipulation: subnational variation in…\n\nPositive or negative government intervention\nCooptation vs equal treatment of NGOs\nPositive vs negative rhetoric about NGOs\n\nOutcomes: community where NGO would…\n\nPrefer to work\nInvolve the public\nPartner with other actors (NGOs, govt, community leaders)\nOrganize public action"
+  },
+  {
+    "objectID": "slides/06-regression.html#attribute-table",
+    "href": "slides/06-regression.html#attribute-table",
+    "title": "Linear Regression",
+    "section": "Attribute Table",
+    "text": "Attribute Table"
+  },
+  {
+    "objectID": "slides/06-regression.html#question-appearance",
+    "href": "slides/06-regression.html#question-appearance",
+    "title": "Linear Regression",
+    "section": "Question Appearance",
+    "text": "Question Appearance"
+  },
+  {
+    "objectID": "slides/06-regression.html#findings-1",
+    "href": "slides/06-regression.html#findings-1",
+    "title": "Linear Regression",
+    "section": "Findings",
+    "text": "Findings\n\n\n\nNegative\n\nNGOs avoid repression and cooptation\nNGOs reduce partnership and public engagement\n\nPositive\n\nRepression increases public action"
+  },
+  {
+    "objectID": "slides/06-regression.html#policy-implications-1",
+    "href": "slides/06-regression.html#policy-implications-1",
+    "title": "Linear Regression",
+    "section": "Policy Implications?",
+    "text": "Policy Implications?\n\n\n\n\n\nGovernments can shape where NGOs work\nNetworks aren’t the answer\nFacilitating contentious action may increase the cost of repression"
+  },
+  {
+    "objectID": "slides/06-regression.html#predicting-outcomes",
+    "href": "slides/06-regression.html#predicting-outcomes",
+    "title": "Linear Regression",
+    "section": "Predicting Outcomes",
+    "text": "Predicting Outcomes\nWhy make predictions?\n\n\n\nData coverage\nStrategic planning\n\n\n\n\nHow does prediction work?\n\n\n\n\nMapping relationships between past and future or between measured and unmeasured units\nAgnostic out causality (what are the implications?)"
+  },
+  {
+    "objectID": "slides/06-regression.html#linear-regression-model",
+    "href": "slides/06-regression.html#linear-regression-model",
+    "title": "Linear Regression",
+    "section": "Linear Regression Model",
+    "text": "Linear Regression Model\n\n\n\\[\nY_i = \\alpha + \\beta X_i + \\epsilon_i\n\\]\n\n\n\nWhat is \\(\\alpha\\)?\nWhat is \\(\\beta\\)?\nWhat is \\(X_i\\)?\nWhat is \\(\\epsilon_i\\)?"
+  },
+  {
+    "objectID": "slides/06-regression.html#linear-regression-model-1",
+    "href": "slides/06-regression.html#linear-regression-model-1",
+    "title": "Linear Regression",
+    "section": "Linear Regression Model",
+    "text": "Linear Regression Model\nEstimating model parameters\n\\[\n\\hat{Y_i} = \\hat{\\alpha} + \\hat{\\beta} X_i\n\\] Residuals\n\\[\n\\hat{\\epsilon_i} = Y_i - \\hat{Y_i}\n\\]"
+  },
+  {
+    "objectID": "slides/06-regression.html#linear-regression-model-2",
+    "href": "slides/06-regression.html#linear-regression-model-2",
+    "title": "Linear Regression",
+    "section": "Linear Regression Model",
+    "text": "Linear Regression Model\nCoefficient \\[\n\\hat{\\beta} = \\Delta{\\hat{Y}} / \\Delta{X}\n\\]\nMinimizing Residuals\n\\[\nSSR = \\sum_{i}^{N} \\hat{\\epsilon}_i^2\n\\]\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
     "objectID": "workshops/survey_data.html",
@@ -1237,215 +1552,5 @@
     "title": "Quarto Workshop",
     "section": "Using References",
     "text": "Using References\nCite cool work by outstanding scholars (Springman 2022) and automatically generate a references list."
-  },
-  {
-    "objectID": "slides/04-sampling.html#instructions",
-    "href": "slides/04-sampling.html#instructions",
-    "title": "Sampling and Population Characteristics",
-    "section": "Instructions",
-    "text": "Instructions\n\nFollow-along as I create a quarto page\nSubmit the html for the page to me via Slack before the end of class\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#assignments",
-    "href": "slides/05-surveyexp.html#assignments",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Assignments",
-    "text": "Assignments\n\nToday\n\n3 readings\nEnsure Quarto is installed\n\nThursday\n\nCreate a git repo for this class (psci3200_yourname)\nDSS Ch4"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#agenda",
-    "href": "slides/05-surveyexp.html#agenda",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Agenda",
-    "text": "Agenda\n\nFinishing up Final Project\nRStudio and Quarto\nSurvey Experiments\n\nOverview\nAlbertus & Grossman\nHollerbauer et al."
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#examples-of-research-questions",
-    "href": "slides/05-surveyexp.html#examples-of-research-questions",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Examples of research questions",
-    "text": "Examples of research questions\n\nDo citizens with mobile internet access have more negative opinions about their government?\nDo citizens that migrate have more or less positive views about democracy?\nAre domestic media outlets less likely to report on political events after elections?"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#poll",
-    "href": "slides/05-surveyexp.html#poll",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Poll",
-    "text": "Poll\n\n\nMac vs Windows vs Other?\nQuarto running?"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#instructions",
-    "href": "slides/05-surveyexp.html#instructions",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Instructions",
-    "text": "Instructions\n\nFollow-along as I create a quarto page\nSubmit the html for the page to me via Slack before the end of class"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#what-are-survey-experiments",
-    "href": "slides/05-surveyexp.html#what-are-survey-experiments",
-    "title": "Autocratization and Survey Experiments",
-    "section": "What are survey experiments?",
-    "text": "What are survey experiments?\n\n\n\nTwo general uses\n\n\nMeasuring sensitive attitudes\n\nProviding anonymity\n\nIdentifying causal effect\n\nManipulating images and text"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#list-experiments",
-    "href": "slides/05-surveyexp.html#list-experiments",
-    "title": "Autocratization and Survey Experiments",
-    "section": "List Experiments",
-    "text": "List Experiments\n\n\nWhat can list experiments tell us?\n\nprevalence of the sensitive attitude in the survey population\n\nWhat can they not tell us\n\nattitude of any individual respondent\n\nWhen might this be useful?\n\nAssessing prevalence of something\nQuantifying measurement bias/misreporting"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#list-experiment",
-    "href": "slides/05-surveyexp.html#list-experiment",
-    "title": "Autocratization and Survey Experiments",
-    "section": "List Experiment",
-    "text": "List Experiment"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#list-experiment-1",
-    "href": "slides/05-surveyexp.html#list-experiment-1",
-    "title": "Autocratization and Survey Experiments",
-    "section": "List Experiment",
-    "text": "List Experiment"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#randomized-response",
-    "href": "slides/05-surveyexp.html#randomized-response",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Randomized Response",
-    "text": "Randomized Response\n\n\nWhat is it?\n\nInduce some \\(p &gt; 0\\) that you say “Yes” even if you disagree\n\nPitfalls\n\nComplexity, confusion\nLack of anonymity\n\nVariants\n\nRepeated randomized response\nCrosswise"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#priming",
-    "href": "slides/05-surveyexp.html#priming",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Priming",
-    "text": "Priming\n\n\nWhat is it?\n\nMeasures implicit attitudes by stimulating unconscious association\n\nPitfalls\n\nHard to know if the prime worked (false negative, confounding, etc.)\n\n\n\n\nConfounding: Any experimental intervention A that is meant to trigger mental construct M could also trigger mental construct C. If C is not varied in the experimental design, researchers cannot determine whether M, C, or a combination of M and C affect outcomes of interest."
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#vignette",
-    "href": "slides/05-surveyexp.html#vignette",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Vignette",
-    "text": "Vignette"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#conjoints",
-    "href": "slides/05-surveyexp.html#conjoints",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Conjoints",
-    "text": "Conjoints\n\n\nWhat is it?\n\nPresents pair of profiles while varying attributes\nAsks respondents to choose between profiles\n\nPitfalls\n\nRequires careful attention\nCan be highly synthetic"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#limitations",
-    "href": "slides/05-surveyexp.html#limitations",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Limitations",
-    "text": "Limitations\nConfounding: Any experimental intervention A that is meant to trigger mental construct M could also trigger mental construct C. If C is not varied in the experimental design, researchers cannot determine whether M, C, or a combination of M and C affect outcomes of interest.\nInformation Equivalence: Any experimental intervention A can be interpreted differently by different respondents, effectively giving each respondent a different treatment (Dafoe, Zhang, and Caughey 2018). When these interpretations vary systematically by treatment condition, those conditions are not information equivalent and researchers cannot know that their treatment caused the observed effect.\nPre-treatment contamination: Respondents may encounter the treatment outside of the experiment, causing similar outcomes in the control group and treatment group even if the treatment affects outcomes (Gaines, Kuklinski, and Quirk 2007)."
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#albertus-grossman",
-    "href": "slides/05-surveyexp.html#albertus-grossman",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Albertus & Grossman",
-    "text": "Albertus & Grossman\n\nBroad pattern of backsliding\n\nErosion rather than coups\n\n\nFirst, elected politicians seek to weaken the independence of the judiciary and the media. Second, incumbents sideline their real or perceived rivals by purging the bureaucracy, replacing career civil servants with political loyalists, and weakening or selectively ignoring the powers of the legislature. Finally, popularly elected leaders with autocratic tendencies spearhead an effort to rewrite the rules of democratic competition by creating favorable electoral frameworks, expanding executive powers, eliminating term limits, disenfranchising minorities, and drafting new constitutions to cement these changes into the national political system.\nWhy do many voters in democracies either support or choose to ignore antidemocratic actions by elected incumbents? Why are transgressions against democratic laws and norms punished infrequently? And how much is public opinion affected by the means incumbents employ to neutralize checks and balances?\ncommon assaults on horizontal checks and balances: a) a purge of career civil servants in an environmental-protection agency who do not support the president’s agenda; b) a purge of independent-minded career prosecutors in the justice department; and c) packing the courts with loyal, ideologically sympathetic judges\nasked whether they would support the incumbent’s action; whether they would think the action is consistent with democracy; and whether the action is an impeachable offense\nConditions: 1. Citizens don’t realize + Should identify and oppose 2. Citizens are conditional democrats (trade-off w/ideology) + Should identify and support conditional on ideology 3. Citizens may have differing conceptions of democracy + Don’t identify as antidemocratic\nResistance\n\nGrowing anti-democratic majority\nReticence to punish\nCollective action"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#albertus-grossman-1",
-    "href": "slides/05-surveyexp.html#albertus-grossman-1",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Albertus & Grossman",
-    "text": "Albertus & Grossman\nVignette experiment\n\nDo justifications matter?\nDoes ideology matter"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#albertus-grossman-2",
-    "href": "slides/05-surveyexp.html#albertus-grossman-2",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Albertus & Grossman",
-    "text": "Albertus & Grossman\nPolicy implications\nPushes-back against polarization based explanations, which predict that people support antidemocratic behaviors because they view the other side as so dangerous"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#hollerbauer",
-    "href": "slides/05-surveyexp.html#hollerbauer",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Hollerbauer",
-    "text": "Hollerbauer"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#different-samples",
-    "href": "slides/05-surveyexp.html#different-samples",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Different samples",
-    "text": "Different samples\n\n\n\njrspringman.github.io/psci3200-globaldev/"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#list-experiments-1",
-    "href": "slides/05-surveyexp.html#list-experiments-1",
-    "title": "Autocratization and Survey Experiments",
-    "section": "List Experiments",
-    "text": "List Experiments"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#vignettes-and-factorials",
-    "href": "slides/05-surveyexp.html#vignettes-and-factorials",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Vignettes and Factorials",
-    "text": "Vignettes and Factorials\n\n\nWhat is it?\n\nPresents a scenario while varying key components\n\nPitfalls\n\nUnrealistic combinations\nLimited power"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#background",
-    "href": "slides/05-surveyexp.html#background",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Background",
-    "text": "Background\nDecline in the quantity and quality of democracies\n\nExecutive power grabs rather than coups\n\n\n\n\nWeaken judiciary and media independence\nPurge bureaucracy and neutralize legislature\nReduce political competition through legal changes"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#whats-the-research-question",
-    "href": "slides/05-surveyexp.html#whats-the-research-question",
-    "title": "Autocratization and Survey Experiments",
-    "section": "What’s the Research Question",
-    "text": "What’s the Research Question\n\n\nWhy do many voters support or ignore antidemocratic actions?\nWhy are transgressions rarely punished?\nHow is public opinion affected by means and justification?"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#research-question",
-    "href": "slides/05-surveyexp.html#research-question",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Research Question",
-    "text": "Research Question\nWhy don’t citizens resist?\n\n\n\nCitizens don’t realize\n\nShould identify and oppose\n\nCitizens are conditional democrats (trade-off w/ideology)\n\nShould identify and support conditional on ideology\n\nCitizens may have differing conceptions of democracy\n\nDon’t identify as antidemocratic"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#whats-the-research-design",
-    "href": "slides/05-surveyexp.html#whats-the-research-design",
-    "title": "Autocratization and Survey Experiments",
-    "section": "What’s the Research Design?",
-    "text": "What’s the Research Design?\n\nVignette Experiment\n\n\nManipulation\n\nAntidemocratic behavior\nPartisan alignment\nMeans and justifications\n\nOutcomes\n\nPerceived as antidemocratic\nSupport for action\nSupport for punishment"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#findings",
-    "href": "slides/05-surveyexp.html#findings",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Findings",
-    "text": "Findings\n\n\n\nPositive\n\nRespondents identify antidemocratic actions and oppose them\nMeans and justifications do not increase support\n\nNegative\n\nSignificant minority supports antidemocratic actions\nPartisan power increases support"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#editorial-notes",
-    "href": "slides/05-surveyexp.html#editorial-notes",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Editorial Notes",
-    "text": "Editorial Notes\n\n\nPushes back against polarization based explanations, which predict that people support antidemocratic behaviors because they view the other side as so dangerous"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#policy-implications",
-    "href": "slides/05-surveyexp.html#policy-implications",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Policy Implications?",
-    "text": "Policy Implications?\n\n\n\nNormalize punishment\nEmphasize long-run risks"
-  },
-  {
-    "objectID": "slides/05-surveyexp.html#research-questions",
-    "href": "slides/05-surveyexp.html#research-questions",
-    "title": "Autocratization and Survey Experiments",
-    "section": "Research Questions",
-    "text": "Research Questions\n\n\n\nWhy do many voters support or ignore antidemocratic actions?\nWhy are transgressions rarely punished?\nHow is public opinion affected by means and justification?"
   }
 ]

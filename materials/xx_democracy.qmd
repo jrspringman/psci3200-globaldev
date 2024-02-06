@@ -1,0 +1,30 @@
+---
+title: "Causal Inference"
+date: 2024-01-18
+---
+
+
+## Required Readings
+
+
+## Slides
+
+- Thursday (1/18) lecture: [Slides](/slides/01-intro.html)
+
+## Interesting Stuff (non-required)
+
+https://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/strengthening-civil-society-evidence-gap-map
+
+https://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/human-rights-evidence-gap-map
+
+https://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-Analysis-report-Chapeau-summary.pdf
+
+https://www.3ieimpact.org/sites/default/files/2023-03/USAID-EGM-DRG-Comparative-Analysis-Report.pdf
+
+https://www.v-dem.net/documents/29/V-dem_democracyreport2023_lowres.pdf
+
+https://www.amazon.com/How-Democracies-Die-Steven-Levitsky/dp/1524762938
+
+https://protectdemocracy.org/wp-content/uploads/2022/06/the-authoritarian-playbook-how-reporters-can-contextualize-and-cover-authoritarian-threats-as-distinct-from-politics-as-usual-1.pdf
+
+https://onlinelibrary.wiley.com/doi/10.1111/ajps.12798
