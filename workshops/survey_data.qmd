@@ -24,13 +24,9 @@ String matching to create network data
 Visualize networks
 
 
-Check out @fig-fake-data
-
 ```{r}
 #| echo: false
 #| warning: false
-#| label: fig-fake-data
-#| fig-cap: "Fake data figure"
 
 library(ggplot2)
 library(gt)

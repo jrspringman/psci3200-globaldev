@@ -1159,7 +1159,7 @@
     "href": "slides/02-causal.html#central-tendency-mean",
     "title": "Correlation and Causation",
     "section": "Central Tendency: Mean",
-    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 11.65649\n\nmean(my_vector)\n\n[1] 11.65649"
+    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 9.586569\n\nmean(my_vector)\n\n[1] 9.586569"
   },
   {
     "objectID": "slides/02-causal.html#spread-variance",
@@ -1698,7 +1698,7 @@
     "href": "workshops/survey_data.html",
     "title": "Quarto Workshop",
     "section": "",
-    "text": "Workshop 2: Survey Data Use AAU student data Merge baseline/endline Look at NAs Descriptive statistics and heterogeneity String matching to create network data Visualize networks\nCheck out ?@fig-fake-data"
+    "text": "Workshop 2: Survey Data Use AAU student data Merge baseline/endline Look at NAs Descriptive statistics and heterogeneity String matching to create network data Visualize networks"
   },
   {
     "objectID": "workshops/survey_data.html#using-references",
