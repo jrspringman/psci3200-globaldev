@@ -18,3 +18,6 @@ date: 2024-02-08
 
 - [Slides](/slides/07-causal.html)
 
+## Interesting Stuff (non-required)
+
+- The [Peisakhin and Rozenas (2018)](https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12355)  article that Llaudet discusses in the chapter
