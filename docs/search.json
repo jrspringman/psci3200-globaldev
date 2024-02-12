@@ -53,7 +53,7 @@
     "href": "workshops/causal3.html#colliders",
     "title": "Causal Inference 3 Tutorial",
     "section": "Colliders",
-    "text": "Colliders\n\n\n\n\n\n\n\n[1] 0.05157384\n\n\n\n\n\n\n (1)\n  (2)\n\n\n\n\n(Intercept)\n2.948*** (0.033)\n0.570*** (0.041)\n\n\nx1\n0.053 (0.032)\n−0.761*** (0.020)\n\n\nx2\n\n0.399*** (0.006)\n\n\nNum.Obs.\n1000\n1000\n\n\nR2 Adj.\n0.002\n0.797"
+    "text": "Colliders\n\n\n\n\n\n\n\n[1] -0.04075762\n\n\n\n\n\n\n (1)\n  (2)\n\n\n\n\n(Intercept)\n3.040*** (0.032)\n0.620*** (0.040)\n\n\nx1\n−0.041 (0.032)\n−0.795*** (0.018)\n\n\nx2\n\n0.397*** (0.006)\n\n\nNum.Obs.\n1000\n1000\n\n\nR2 Adj.\n0.001\n0.808"
   },
   {
     "objectID": "workshops/causal3.html#post-treatment-mechanism-bias",
@@ -73,15 +73,15 @@
     "objectID": "slides/07-causal.html#assignments",
     "href": "slides/07-causal.html#assignments",
     "title": "Causal Inference 3",
-    "section": "Assignments",
-    "text": "Assignments\n\nToday\n\nDSS Ch 5\nCreate a git repo for this class (psci3200_yourname)\n\nMonday\n\nMigration readings (will post before Monday)\nGit repo workshop (semi-optional)"
+    "section": "",
+    "text": "Today\n\nDSS Ch 5\nCreate a git repo for this class (psci3200_yourname)\n\nMonday\n\nMigration readings (will post before Monday)\nGit repo workshop (semi-optional)"
   },
   {
     "objectID": "slides/07-causal.html#agenda",
     "href": "slides/07-causal.html#agenda",
     "title": "Causal Inference 3",
-    "section": "Agenda",
-    "text": "Agenda\n\n\n\nReview Linear Regression\nCausal Inference with Observational Data (pt. 1)\nWorkshop\nCausal Inference with Observational Data (pt. 2)"
+    "section": "",
+    "text": "Review Linear Regression\nCausal Inference with Observational Data (pt. 1)\nWorkshop\nCausal Inference with Observational Data (pt. 2)"
   },
   {
     "objectID": "slides/07-causal.html#linear-regression-model",
@@ -151,21 +151,21 @@
     "href": "slides/07-causal.html#adjusting-on-observables",
     "title": "Causal Inference 3",
     "section": "Adjusting on Observables",
-    "text": "Adjusting on Observables\n\n\n\nMatching\nWeighting\nSynthetic Control (very fancy weighting)\n\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Adjusting on Observables\n\n\n\nMatching\nWeighting\nSynthetic Control (very fancy weighting)"
   },
   {
     "objectID": "slides/05-surveyexp.html#assignments",
     "href": "slides/05-surveyexp.html#assignments",
     "title": "Autocratization and Survey Experiments",
-    "section": "Assignments",
-    "text": "Assignments\n\nToday\n\n3 readings\nEnsure Quarto is installed\n\nThursday\n\nCreate a git repo for this class (psci3200_yourname)\nDSS Ch4"
+    "section": "",
+    "text": "Today\n\n3 readings\nEnsure Quarto is installed\n\nThursday\n\nCreate a git repo for this class (psci3200_yourname)\nDSS Ch4"
   },
   {
     "objectID": "slides/05-surveyexp.html#agenda",
     "href": "slides/05-surveyexp.html#agenda",
     "title": "Autocratization and Survey Experiments",
-    "section": "Agenda",
-    "text": "Agenda\n\nFinishing up Final Project\nRStudio and Quarto\nSurvey Experiments\n\nOverview\nAlbertus & Grossman\nHollerbauer et al."
+    "section": "",
+    "text": "Finishing up Final Project\nRStudio and Quarto\nSurvey Experiments\n\nOverview\nAlbertus & Grossman\nHollerbauer et al."
   },
   {
     "objectID": "slides/05-surveyexp.html#examples-of-research-questions",
@@ -1123,15 +1123,15 @@
     "objectID": "slides/02-causal.html#assignments",
     "href": "slides/02-causal.html#assignments",
     "title": "Correlation and Causation",
-    "section": "Assignments",
-    "text": "Assignments\n\nDid everyone find the readings and slides for today?\nFor next week:\n\nI’ll scan the chapter and upload tonight\nRemember you have a quasi-assignment"
+    "section": "",
+    "text": "Did everyone find the readings and slides for today?\nFor next week:\n\nI’ll scan the chapter and upload tonight\nRemember you have a quasi-assignment"
   },
   {
     "objectID": "slides/02-causal.html#agenda",
     "href": "slides/02-causal.html#agenda",
     "title": "Correlation and Causation",
-    "section": "Agenda",
-    "text": "Agenda\n\nCorrelation\n\nWhat is it?\nWhat is it composed of?\nWhat is it good for?\n\nCausation\n\nWhat is it good for?\nWhy is it hard?\nPotential outcomes and counterfactuals"
+    "section": "",
+    "text": "Correlation\n\nWhat is it?\nWhat is it composed of?\nWhat is it good for?\n\nCausation\n\nWhat is it good for?\nWhy is it hard?\nPotential outcomes and counterfactuals"
   },
   {
     "objectID": "slides/02-causal.html#which-of-the-following-statements-describe-a-correlation",
@@ -1159,7 +1159,7 @@
     "href": "slides/02-causal.html#central-tendency-mean",
     "title": "Correlation and Causation",
     "section": "Central Tendency: Mean",
-    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 8.965766\n\nmean(my_vector)\n\n[1] 8.965766"
+    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 10.22786\n\nmean(my_vector)\n\n[1] 10.22786"
   },
   {
     "objectID": "slides/02-causal.html#spread-variance",
@@ -1201,7 +1201,7 @@
     "href": "slides/02-causal.html#correlation-1",
     "title": "Correlation and Causation",
     "section": "Correlation",
-    "text": "Correlation\n\n\n\nWhat can with do with them?\n\nDescription: quantitative comparisons\n\n\n\n\n\n\n\nsample matters alot\nsample matters less\n\n\n\n\n\n\n\n\nForecasting: sample population \\(\\rightarrow\\) out-of-sample\nCausal inference: correlation + research design\n\n\nSimple, but powerful\n\nNon-linearities, interactions, machine learning"
+    "text": "Correlation\n\n\n\nWhat can with do with them?\n\nDescription: quantitative comparisons\n\n\n\n\n\n\n\n\n\n\nsample matters alot\nsample matters less\n\n\n\n\n\n\n\n\nForecasting: sample population \\(\\rightarrow\\) out-of-sample\nCausal inference: correlation + research design\n\n\nSimple, but powerful\n\nNon-linearities, interactions, machine learning"
   },
   {
     "objectID": "slides/02-causal.html#schools-of-thought",
@@ -1292,28 +1292,28 @@
     "href": "slides/02-causal.html#dags-and-confounding",
     "title": "Correlation and Causation",
     "section": "DAGs and Confounding",
-    "text": "DAGs and Confounding"
+    "text": "DAGs and Confounding\n\nlibrary(ggdag)\n\n\nAttaching package: 'ggdag'\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\ndagify(\n  x ~ a,\n  y ~ x,\n  y ~ a\n\n) %&gt;%\n  ggdag()"
   },
   {
     "objectID": "slides/02-causal.html#next-meeting",
     "href": "slides/02-causal.html#next-meeting",
     "title": "Correlation and Causation",
     "section": "Next Meeting",
-    "text": "Next Meeting\n\nRandomized experiments\n\nReview of FPCI\nHow randomization addresses confounding\n\nThe role of social science researchers?\n\nWhat should people with social science training be doing with their skills?\n\nFinal Project\n\nWhat are your options?\nPossible data sources\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Next Meeting\n\nRandomized experiments\n\nReview of FPCI\nHow randomization addresses confounding\n\nThe role of social science researchers?\n\nWhat should people with social science training be doing with their skills?\n\nFinal Project\n\nWhat are your options?\nPossible data sources"
   },
   {
     "objectID": "slides/04-sampling.html#assignments",
     "href": "slides/04-sampling.html#assignments",
     "title": "Sampling and Population Characteristics",
-    "section": "Assignments",
-    "text": "Assignments\n\nToday\n\nRead Ch 3\nInstall Quarto and create an empty html\n\nThursday\n\nRead Ch 4\nCreate a git repo for this class (psci3200_yourname)"
+    "section": "",
+    "text": "Today\n\nRead Ch 3\nInstall Quarto and create an empty html\n\nThursday\n\nRead Ch 4\nCreate a git repo for this class (psci3200_yourname)"
   },
   {
     "objectID": "slides/04-sampling.html#agenda",
     "href": "slides/04-sampling.html#agenda",
     "title": "Sampling and Population Characteristics",
-    "section": "Agenda",
-    "text": "Agenda\n\nFinishing up Causality 1\nInferring Population Characteristics via Survey Research\nMessing around in Quarto\nFinal Project"
+    "section": "",
+    "text": "Finishing up Causality 1\nInferring Population Characteristics via Survey Research\nMessing around in Quarto\nFinal Project"
   },
   {
     "objectID": "slides/04-sampling.html#identifying-assumptions",
@@ -1334,7 +1334,7 @@
     "href": "slides/04-sampling.html#colliders-1",
     "title": "Sampling and Population Characteristics",
     "section": "Colliders",
-    "text": "Colliders\n\n\nIn this case, the illusion was the appearance of correlation (or statistical dependence) between the independent causes, giving rise to the theory that some locations receive more bullets than others (perhaps by being more exposed) when in fact the enemy sprayed them uniformly. The army observed more holes in the fuselage than the engine and recommended more armor on the former. This dependence however was created by selection bias."
+    "text": "Colliders\n\n\n\nAttaching package: 'ggdag'\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\n\n\n\n\nIn this case, the illusion was the appearance of correlation (or statistical dependence) between the independent causes, giving rise to the theory that some locations receive more bullets than others (perhaps by being more exposed) when in fact the enemy sprayed them uniformly. The army observed more holes in the fuselage than the engine and recommended more armor on the former. This dependence however was created by selection bias."
   },
   {
     "objectID": "slides/04-sampling.html#plumbing-vs-science",
@@ -1453,21 +1453,21 @@
     "href": "slides/04-sampling.html#instructions",
     "title": "Sampling and Population Characteristics",
     "section": "Instructions",
-    "text": "Instructions\n\nFollow-along as I create a quarto page\nSubmit the html for the page to me via Slack before the end of class\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Instructions\n\nFollow-along as I create a quarto page\nSubmit the html for the page to me via Slack before the end of class"
   },
   {
     "objectID": "slides/06-regression.html#assignments",
     "href": "slides/06-regression.html#assignments",
     "title": "Linear Regression",
-    "section": "Assignments",
-    "text": "Assignments\n\nToday\n\nDSS Ch 4\nCreate a git repo for this class (psci3200_yourname)\n\nThursday\n\nDSS Ch5 (will circulate tomorrow)"
+    "section": "",
+    "text": "Today\n\nDSS Ch 4\nCreate a git repo for this class (psci3200_yourname)\n\nThursday\n\nDSS Ch5 (will circulate tomorrow)"
   },
   {
     "objectID": "slides/06-regression.html#agenda",
     "href": "slides/06-regression.html#agenda",
     "title": "Linear Regression",
-    "section": "Agenda",
-    "text": "Agenda\n\nSurvey Experiments\n\nOverview\nAlbertus & Grossman\nHollerbauer et al.\n\nLinear Regression"
+    "section": "",
+    "text": "Survey Experiments\n\nOverview\nAlbertus & Grossman\nHollerbauer et al.\n\nLinear Regression"
   },
   {
     "objectID": "slides/06-regression.html#what-are-survey-experiments",
@@ -1649,7 +1649,7 @@
     "href": "slides/06-regression.html#linear-regression-model-2",
     "title": "Linear Regression",
     "section": "Linear Regression Model",
-    "text": "Linear Regression Model\nCoefficient \\[\n\\hat{\\beta} = \\Delta{\\hat{Y}} / \\Delta{X}\n\\]\nMinimizing Residuals\n\\[\nSSR = \\sum_{i}^{N} \\hat{\\epsilon}_i^2\n\\]\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Linear Regression Model\nCoefficient \\[\n\\hat{\\beta} = \\Delta{\\hat{Y}} / \\Delta{X}\n\\]\nMinimizing Residuals\n\\[\nSSR = \\sum_{i}^{N} \\hat{\\epsilon}_i^2\n\\]"
   },
   {
     "objectID": "syllabus.html",
@@ -1706,5 +1706,40 @@
     "title": "Quarto Workshop",
     "section": "Using References",
     "text": "Using References\nCite cool work by outstanding scholars (Springman 2022) and automatically generate a references list."
+  },
+  {
+    "objectID": "slides/06-regression.html",
+    "href": "slides/06-regression.html",
+    "title": "Linear Regression",
+    "section": "",
+    "text": "Today\n\nDSS Ch 4\nCreate a git repo for this class (psci3200_yourname)\n\nThursday\n\nDSS Ch5 (will circulate tomorrow)\n\n\n\n\n\n\nSurvey Experiments\n\nOverview\nAlbertus & Grossman\nHollerbauer et al.\n\nLinear Regression"
+  },
+  {
+    "objectID": "slides/04-sampling.html",
+    "href": "slides/04-sampling.html",
+    "title": "Sampling and Population Characteristics",
+    "section": "",
+    "text": "Today\n\nRead Ch 3\nInstall Quarto and create an empty html\n\nThursday\n\nRead Ch 4\nCreate a git repo for this class (psci3200_yourname)\n\n\n\n\n\n\nFinishing up Causality 1\nInferring Population Characteristics via Survey Research\nMessing around in Quarto\nFinal Project"
+  },
+  {
+    "objectID": "slides/02-causal.html",
+    "href": "slides/02-causal.html",
+    "title": "Correlation and Causation",
+    "section": "",
+    "text": "Did everyone find the readings and slides for today?\nFor next week:\n\nI’ll scan the chapter and upload tonight\nRemember you have a quasi-assignment\n\n\n\n\n\n\nCorrelation\n\nWhat is it?\nWhat is it composed of?\nWhat is it good for?\n\nCausation\n\nWhat is it good for?\nWhy is it hard?\nPotential outcomes and counterfactuals"
+  },
+  {
+    "objectID": "slides/05-surveyexp.html",
+    "href": "slides/05-surveyexp.html",
+    "title": "Autocratization and Survey Experiments",
+    "section": "",
+    "text": "Today\n\n3 readings\nEnsure Quarto is installed\n\nThursday\n\nCreate a git repo for this class (psci3200_yourname)\nDSS Ch4\n\n\n\n\n\n\nFinishing up Final Project\nRStudio and Quarto\nSurvey Experiments\n\nOverview\nAlbertus & Grossman\nHollerbauer et al."
+  },
+  {
+    "objectID": "slides/07-causal.html",
+    "href": "slides/07-causal.html",
+    "title": "Causal Inference 3",
+    "section": "",
+    "text": "Today\n\nDSS Ch 5\nCreate a git repo for this class (psci3200_yourname)\n\nMonday\n\nMigration readings (will post before Monday)\nGit repo workshop (semi-optional)\n\n\n\n\n\n\n\n\nReview Linear Regression\nCausal Inference with Observational Data (pt. 1)\nWorkshop\nCausal Inference with Observational Data (pt. 2)"
   }
 ]
