@@ -1,6 +1,6 @@
 ---
 title: "Causal Inference"
-date: 2024-02-11
+date: 2024-02-13
 ---
 
 
@@ -13,7 +13,7 @@ date: 2024-02-11
 
 ## Slides
 
-- Thursday (1/18) lecture: [Slides](/slides/08-migration.html)
+- [Slides](/slides/08-migration.html)
 
 ## Interesting Stuff (non-required)
 
