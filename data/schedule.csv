@@ -6,8 +6,8 @@ week,date,date_end,title,deadline, reading,content,tutorial,assignment
 3,2024-02-01,,Democracy and Autocratization 1 (Survey Experiments),,Grady; Albertus and Grossman (2021); Hollerbauer et al. (2024),/materials/05_autocracy1,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/w1_quarto.qmd,
 4,2024-02-06,,Linear Regression,,DSS Ch 4,/materials/06_regression,,
 4,2024-02-08,,Causal Inference 2,,DSS Ch 5,/materials/07_causal,/workshops/causal3.qmd,/assignments/github_repo
-5,2024-02-13,,Migration 1,,Evidence Action; Gazeaud (2020),/materials/08_migration1,/workshop/git_intro,
-5,2024-02-15,,Migration 2 (guest: Wibbels),,TBD,/materials/08_migration2,,
+5,2024-02-13,,Migration 1,,3ie; Sviatschi (2022); Gazeaud (2020),/materials/08_migration,/workshop/git_intro,
+5,2024-02-15,,Migration 2 (guest: Wibbels),,TBD,/materials/09_migration,,
 6,2024-02-20,,Crime 1 (guest: Schmidt-Padilla),,Dell (2015); Sviatschi (2022),/materials/10_crime,,/assignments/aau_survey
 6,2024-02-22,,Crime 2 (guest: Schmidt-Padilla),,Angelova et al. (2023),/materials/11_crime,,
 7,2024-02-27,,Conflict & Cohesion 1,,Paluck et al. (2021); Grady et al. (2023); Mousa (2020),,,
