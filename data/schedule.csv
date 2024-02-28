@@ -5,25 +5,25 @@ week,date,date_end,title,deadline, reading,content,tutorial,assignment
 3,2024-01-30,,Survey Research ,,DSS Ch 3,/materials/04_sampling,,/assignments/01_quarto
 3,2024-02-01,,Democracy and Autocratization 1 (Survey Experiments),,Grady; Albertus and Grossman (2021); Hollerbauer et al. (2024),/materials/05_autocracy1,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/w1_quarto.qmd,
 4,2024-02-06,,Linear Regression,,DSS Ch 4,/materials/06_regression,,
-4,2024-02-08,,Causal Inference 2,,DSS Ch 5,/materials/07_causal,/workshops/causal3.qmd,/assignments/github_repo
-5,2024-02-13,,Migration 1,,3ie; Sviatschi (2022); Gazeaud (2020),/materials/08_migration,/workshop/git_intro,
+4,2024-02-08,,Causal Inference 2,,DSS Ch 5,/materials/07_causal,,/assignments/02_gitrepo
+5,2024-02-13,,Migration 1,,3ie; Sviatschi (2022); Gazeaud (2020),/materials/08_migration,,
 5,2024-02-15,,Migration 2 (guest: Wibbels),,TBD,/materials/09_migration,,
-6,2024-02-20,,Crime 1 (guest: Schmidt-Padilla),,Dell (2015); Sviatschi (2022),/materials/10_crime,,/assignments/aau_survey
+6,2024-02-20,,Crime 1 (guest: Schmidt-Padilla),,Dell (2015); Sviatschi (2022),/materials/10_crime,,
 6,2024-02-22,,Crime 2 (guest: Schmidt-Padilla),,Angelova et al. (2023),/materials/11_crime,,
-7,2024-02-27,,Conflict & Cohesion 1,,Paluck et al. (2021); Grady et al. (2023); Mousa (2020),,,
-7,2024-02-29,,Conflict & Cohesion 2,,Conflict,,,/assignments/data_source
+7,2024-02-27,,Conflict & Cohesion 1,,Paluck et al. (2021); Grady et al. (2023); Mousa (2020),/materials/12_conflict,,
+7,2024-02-29,,Conflict & Cohesion 2,,Conflict,/materials/13_conflict,/workshop/git_intro,
 8,2024-03-05,,Spring Break,,,,,
 8,2024-03-07,,Spring Break,,,,,
-9,2024-03-12,,Probability,,DSS Ch 6,,,
+9,2024-03-12,,Probability,,DSS Ch 6,,,/assignments/03_fprqd
 9,2024-03-14,,Uncertainty,,DSS Ch 7,,,
 10,2024-03-19,,Democracy and Autocratization 2,,Waldner and Lust (2018); VDem (2023) ,,,
 10,2024-03-21,,Democracy and Autocratization 3 (Polarization and Engagement),,Adamu et al. (2024); Svolik (2019),,,/assignments/khm_budget
 11,2024-03-26,,Foreign Aid and NGOs 1,,Briggs,,,
-11,2024-03-28,,Foreign Aid and NGOs 2,,O’Brien (2023); Springman (2021); Cruz (2017),,,
+11,2024-03-28,,Foreign Aid and NGOs 2,,O'Brien (2023); Springman (2021); Cruz (2017),,,
 12,2024-04-02,,Foreign Aid and NGOs 3,,TBD,,,/assignments/fp_proposal
 12,2024-04-04,,Climate and Adaptation 1,,TBD,,,
 13,2024-04-09,,Climate and Adaptation 2,,TBD,,,
-13,2024-04-11,,Accountability and Information 1,,Jablonski and Seim (2023),,,
+13,2024-04-11,,Accountability and Information 1,,Jablonski and Seim (2023),,,/assignments/aau_survey
 14,2024-04-16,,Accountability 2,,Metaketa,,,
 14,2024-04-18,,Accountability 3,,Mares et al. (2023),,,
 15,2024-04-23,,Effective Interventions 1,,CCTs,,,
