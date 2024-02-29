@@ -1,5 +1,5 @@
 ---
-title: "Quarto Workshop"
+title: "Working with Survey Data"
 author: "Jeremy Springman"
 
 institute: "University of Pennsylvania"
@@ -15,44 +15,207 @@ format:
 editor: source
 ---
 
-Workshop 2: Survey Data
-Use AAU student data
-Merge baseline/endline
-Look at NAs
-Descriptive statistics and heterogeneity
-String matching to create network data
-Visualize networks
-
-
-```{r}
-#| echo: false
+```{r }
+#| include: false
 #| warning: false
+#| message: false
 
 library(ggplot2)
+library(readr)
+library(ggdag)
+library(tidyverse)
 library(gt)
-library(dplyr)
 
+# read-in data
+dat = read_csv(here::here("workshops/aau_survey/clean_endline_did.csv") ) %>%
+    # clean home region variable
+  mutate(q8_baseline = ifelse(q8_baseline == "Southern Nations, Nationalities, and Peoples Region", "SNNPR", q8_baseline), 
+         q8_baseline = str_remove(q8_baseline, " Region"))
+# create color palette for plotting
+palette = MetBrewer::met.brewer(name = "Cross")
 
 ```
 
 
-### Tables
+## Research Question
+
+**Does moving to a new city reduce the political engagement of youth?**  
+
+- Youth have low levels of political engagement, often driven by lack of information and experience [@holbein:hillygus:2020]
+- Youth that move have less information and experience with engagement in their new city
+- Youth that move probably have fewer social ties, and ties are important for facilitating engagement [@campbell:2013]
+
+
+## Data and Variables
+
+
+```{r }
+#| include: false
+#| warning: false
+#| message: false
+
+## demographics
+demos = dat %>%
+  drop_na(q3_baseline) %>% 
+  select(`Respondent Gender` = q3_baseline, `Work as a student?` = q4_baseline, 
+         `Rural or urban?` = q5_baseline, `Financial support from family?` = q6_baseline, 
+         `Home region` = q8_baseline,
+         `Student Year` = class_year) %>% 
+  pivot_longer(everything()) %>% 
+  group_by(name, value) %>% 
+  tally() %>% 
+  mutate(pct = n/sum(n)) %>% 
+  top_n(n = 5, wt = pct) %>% 
+  mutate(name = fct_relevel(name, 'Home region', 'Rural or urban?', 'Student Year', 'Respondent Gender', 'Work as a student?', 'Financial support from family?'))
+
+
+
+ggplot(demos %>% arrange(Category), aes(y = value, x = pct)) + 
+  geom_col(fill = palette[9]) + 
+  facet_wrap( ~name, scales = "free") + 
+  scale_y_discrete(labels = scales::label_wrap(30)) + 
+  hrbrthemes::scale_x_percent(limits = c(0, 1)) + 
+  labs(x = "Percent of respondents", y = NULL, 
+       title = "Demographic characteristics of baseline respondents", 
+       subtitle = glue::glue("Number of respondents = {scales::comma(nrow(df))}"), 
+       caption = "Note: home region only displays top five categories by size.")
+
+```
+
+## Figure
 
 ```{r}
 #| echo: false
 #| warning: false
 
+# efficacy
+efficacy = df %>% 
+  select(`Youth have opportunity to engage` = q17_1, 
+         `Youth bring positive change` = q17_2,
+         `I can bring positive change` = q17_3) %>% 
+  drop_na() %>% 
+  pivot_longer(everything()) %>% 
+  group_by(name, value) %>% 
+  tally() %>% 
+  mutate(value = fct_relevel(value, "10", after = Inf)) %>% 
+  mutate(pct = n/sum(n))
 
 
+ggplot(efficacy, aes(x = value, y = pct)) + 
+  geom_col(fill = palette[9]) + 
+  facet_wrap(vars(name), labeller = label_wrap_gen(width = 40)) + 
+  scale_y_continuous(labels = scales::percent) +
+  labs(y = "Percent of respondents", x = "(0 = Strongly disagree, 10 = strongly agree)", 
+       title = "Efficacy and youth participation", 
+       subtitle = glue::glue("Number of respondents = {scales::comma(sum(efficacy$n)/3)}"))
+
+
+# participation
+participate = df %>% 
+  select(`Attend meeting` = q13_1, 
+         `Protest` = q13_2, 
+         `NGO event` = q13_3, 
+         `Signed petition` = q13_4, 
+         `Contact official` = q13_5, 
+         `Contact student representative` = q13_6, 
+         `Contact an NGO` = q13_7) %>% 
+  drop_na() %>% 
+  pivot_longer(everything()) %>% 
+  group_by(name, value) %>% 
+  tally() %>% 
+  mutate(pct = n/sum(n)) %>% 
+  mutate(value = fct_relevel(value, "Never", after = Inf), 
+         value = fct_rev(value))
+
+
+
+ggplot(participate %>% filter(!name %in% unique(participate$name)[c(2,3,6)]), aes(x = value, y = pct)) + 
+  geom_col(fill = palette[9]) + 
+  facet_wrap(vars(name), scales = "free") + 
+  scale_y_continuous(labels = scales::percent) +
+  labs(y = "Percent of respondents", x = NULL, 
+       title = "How do youth participate?", 
+       subtitle = glue::glue("Number of respondents = {scales::comma(sum(participate$n)/7)}"), 
+       caption = "See paper for full question wording") + 
+  scale_x_discrete(labels = scales::label_wrap(10))
+
+ggplot(participate %>% filter(name %in% unique(participate$name)[c(2,3,6)]), aes(x = value, y = pct)) + 
+  geom_col(fill = palette[9]) + 
+  facet_wrap(vars(name), scales = "free", ncol=2) + 
+  scale_y_continuous(labels = scales::percent) +
+  labs(y = "Percent of respondents", x = NULL, 
+       title = "How do youth participate?", 
+       subtitle = glue::glue("Number of respondents = {scales::comma(sum(participate$n)/7)}"), 
+       caption = "See paper for full question wording") + 
+  scale_x_discrete(labels = scales::label_wrap(10))
+
+# obstacles
+obstacle = df %>% 
+  select(`Lack of resources` = q14_1, 
+         `Fear of judgment` = q14_2, 
+         `Fear of consequences` = q14_3, 
+         `Lack of interest` = q14_4, 
+         `Lack of information` = q14_5) %>% 
+  drop_na() %>% 
+  pivot_longer(everything()) %>% 
+  group_by(name, value) %>% 
+  tally() %>% 
+  mutate(pct = n/sum(n)) %>% 
+  mutate(value = fct_relevel(value, "Never", after = Inf), 
+         value = fct_rev(value))
+
+
+
+ggplot(obstacle, aes(x = value, y = pct)) + 
+  geom_col(fill = palette[9]) + 
+  facet_wrap(vars(name), scales = "free") + 
+  scale_y_continuous(labels = scales::percent) +
+  labs(y = "Percent of respondents", x = NULL, 
+       title = "How often do obstacles prevent participation?", 
+       subtitle = glue::glue("Number of respondents = {scales::comma(sum(obstacle$n)/5)}"), 
+       caption = "See paper for full question wording") + 
+  scale_x_discrete(labels = scales::label_wrap(10))
+
+ggsave(here("figures/present", "baseline-obstacles_p.png"), width = 8.5, height = 5)
+
+
+# current roles
+role = df %>% 
+  select(`Religious group` = q15_1, 
+         `Ethnic/culture group` = q15_2, 
+         `Political group` = q15_3, 
+         `Voluntary organization` = q15_4) %>% 
+  drop_na() %>% 
+  pivot_longer(everything()) %>% 
+  group_by(name, value) %>% 
+  tally() %>% 
+  mutate(pct = n/sum(n)) %>% 
+  mutate(value = fct_relevel(value, "Official leader", after = 0L))
+
+
+
+ggplot(role, aes(x = value, y = pct)) + 
+  geom_col(fill = palette[9]) + 
+  facet_wrap(vars(name), scales = "free") + 
+  scale_y_continuous(labels = scales::percent) +
+  labs(y = "Percent of respondents", x = NULL, 
+       title = "Is respondent involved in the following...", 
+       subtitle = glue::glue("Number of respondents = {scales::comma(sum(role$n)/4)}"), 
+       caption = "See paper for full question wording") + 
+  scale_x_discrete(labels = scales::label_wrap(10))
 
 
 ```
 
 
+## Robustness
+
+1. Moving reduces the likelihood of participating
+- Specific kinds of participation more likely to be affected?
+- Those who grew up in big city might be different; what about those that moved from urban area?
+- Longer tenure should reduce this relationship; is the gap between older students smaller?
 
 
-## Using References
 
-Cite cool work by outstanding scholars [@springman2022political] and automatically generate a references list.
 
 
