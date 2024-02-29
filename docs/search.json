@@ -73,15 +73,15 @@
     "objectID": "slides/12-conflict.html#assignments",
     "href": "slides/12-conflict.html#assignments",
     "title": "Conflict & Cohesion 1",
-    "section": "Assignments",
-    "text": "Assignments\n\nToday\n\nPaluck et al. (2021)\nMousa (2020)\nGrady et al. (2023)\n\nThursday\n\nThink very seriously about the data for your final project\nCome with questions"
+    "section": "",
+    "text": "Today\n\nPaluck et al. (2021)\nMousa (2020)\nGrady et al. (2023)\n\nThursday\n\nThink very seriously about the data for your final project\nCome with questions"
   },
   {
     "objectID": "slides/12-conflict.html#agenda",
     "href": "slides/12-conflict.html#agenda",
     "title": "Conflict & Cohesion 1",
-    "section": "Agenda",
-    "text": "Agenda\n\n\n\nReview of last 3 classes\nFinal Project Assignment\nConflict and Cohesion"
+    "section": "",
+    "text": "Review of last 3 classes\nFinal Project Assignment\nConflict and Cohesion"
   },
   {
     "objectID": "slides/12-conflict.html#final-project",
@@ -284,7 +284,7 @@
     "href": "slides/12-conflict.html#policy-implications-1",
     "title": "Conflict & Cohesion 1",
     "section": "Policy Implications",
-    "text": "Policy Implications\n\nContact interventions can have wider societal change and reduce the barriers to peace between conflicting groups\nFor social diffusion, contact must be highly public\n\n\n\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Policy Implications\n\nContact interventions can have wider societal change and reduce the barriers to peace between conflicting groups\nFor social diffusion, contact must be highly public"
   },
   {
     "objectID": "slides/07-causal.html#assignments",
@@ -1949,15 +1949,15 @@
     "objectID": "slides/08-migration.html#assignments",
     "href": "slides/08-migration.html#assignments",
     "title": "Migration 1",
-    "section": "Assignments",
-    "text": "Assignments\n\nToday\n\n3ie Addressing Root Causes and Drivers of Irregular Migration\nGazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck (2020)\nSviatschi (2022)\n\nThursday\n\nGuest lecture\nNo readings (!)"
+    "section": "",
+    "text": "Today\n\n3ie Addressing Root Causes and Drivers of Irregular Migration\nGazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck (2020)\nSviatschi (2022)\n\nThursday\n\nGuest lecture\nNo readings (!)"
   },
   {
     "objectID": "slides/08-migration.html#agenda",
     "href": "slides/08-migration.html#agenda",
     "title": "Migration 1",
-    "section": "Agenda",
-    "text": "Agenda\n\n\n\nMigration\nCausal Inference with Observational Data: Difference-in-Differences\nUsing git"
+    "section": "",
+    "text": "Migration\nCausal Inference with Observational Data: Difference-in-Differences\nUsing git"
   },
   {
     "objectID": "slides/08-migration.html#overview-of-international-migration",
@@ -2209,7 +2209,7 @@
     "href": "slides/08-migration.html#validity",
     "title": "Migration 1",
     "section": "Validity",
-    "text": "Validity\n\n\nInternal validity\nExternal validity\nWhat are the trade-offs between experiments and observational studies?\n\nExperiments have more internal validity\nBut… they often have synthetic treatments, convenience samples\n\nWhere are these studies used in the real-world?\n\n\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Validity\n\n\nInternal validity\nExternal validity\nWhat are the trade-offs between experiments and observational studies?\n\nExperiments have more internal validity\nBut… they often have synthetic treatments, convenience samples\n\nWhere are these studies used in the real-world?"
   },
   {
     "objectID": "syllabus.html",
@@ -2256,15 +2256,57 @@
   {
     "objectID": "workshops/survey_data.html",
     "href": "workshops/survey_data.html",
-    "title": "Quarto Workshop",
+    "title": "Working with Survey Data",
     "section": "",
-    "text": "Workshop 2: Survey Data Use AAU student data Merge baseline/endline Look at NAs Descriptive statistics and heterogeneity String matching to create network data Visualize networks"
+    "text": "Does moving to a new city reduce the political engagement of youth?\n\nYouth have low levels of political engagement (Springman 2022)\nLow youth engagement is driven by lack of information (Holbein and Hillygus 2020)\nYouth that move probably have fewer social ties, and ties are important for facilitating engagement (Campbell 2013)"
   },
   {
     "objectID": "workshops/survey_data.html#using-references",
     "href": "workshops/survey_data.html#using-references",
-    "title": "Quarto Workshop",
+    "title": "Working with Survey Data",
     "section": "Using References",
     "text": "Using References\nCite cool work by outstanding scholars (Springman 2022) and automatically generate a references list."
+  },
+  {
+    "objectID": "workshops/survey_data.html#research-question",
+    "href": "workshops/survey_data.html#research-question",
+    "title": "Working with Survey Data",
+    "section": "",
+    "text": "Does moving to a new city reduce the political engagement of youth?\n\nYouth have low levels of political engagement (Springman 2022)\nLow youth engagement is driven by lack of information (Holbein and Hillygus 2020)\nYouth that move probably have fewer social ties, and ties are important for facilitating engagement (Campbell 2013)"
+  },
+  {
+    "objectID": "workshops/survey_data.html#data-and-variables",
+    "href": "workshops/survey_data.html#data-and-variables",
+    "title": "Working with Survey Data",
+    "section": "Data and Variables",
+    "text": "Data and Variables"
+  },
+  {
+    "objectID": "workshops/survey_data.html#figure",
+    "href": "workshops/survey_data.html#figure",
+    "title": "Working with Survey Data",
+    "section": "Figure",
+    "text": "Figure"
+  },
+  {
+    "objectID": "workshops/survey_data.html#robustness",
+    "href": "workshops/survey_data.html#robustness",
+    "title": "Working with Survey Data",
+    "section": "Robustness",
+    "text": "Robustness\n\nMoving reduces the likelihood of participating\n\n\nSpecific kinds of participation more likely to be affected?\nThose who grew up in big city might be different; what about those that moved from urban area?\nLonger tenure should reduce this relationship; is the gap between older students smaller?"
+  },
+  {
+    "objectID": "slides/08-migration.html",
+    "href": "slides/08-migration.html",
+    "title": "Migration 1",
+    "section": "",
+    "text": "Today\n\n3ie Addressing Root Causes and Drivers of Irregular Migration\nGazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck (2020)\nSviatschi (2022)\n\nThursday\n\nGuest lecture\nNo readings (!)\n\n\n\n\n\n\n\n\nMigration\nCausal Inference with Observational Data: Difference-in-Differences\nUsing git"
+  },
+  {
+    "objectID": "slides/12-conflict.html",
+    "href": "slides/12-conflict.html",
+    "title": "Conflict & Cohesion 1",
+    "section": "",
+    "text": "Today\n\nPaluck et al. (2021)\nMousa (2020)\nGrady et al. (2023)\n\nThursday\n\nThink very seriously about the data for your final project\nCome with questions\n\n\n\n\n\n\n\n\nReview of last 3 classes\nFinal Project Assignment\nConflict and Cohesion"
   }
 ]
