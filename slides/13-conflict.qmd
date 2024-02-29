@@ -1,6 +1,6 @@
 ---
 title: "Conflict & Cohesion 1"
-subtitle: "Plus "
+subtitle: "Plus Final Project Stuff"
 author: "Jeremy Springman"
 institute: "University of Pennsylvania"
 
