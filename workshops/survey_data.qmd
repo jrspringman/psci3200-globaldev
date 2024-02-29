@@ -1,5 +1,5 @@
 ---
-title: "Working with Survey Data"
+title: "Final Report Example"
 author: "Jeremy Springman"
 
 institute: "University of Pennsylvania"
@@ -25,6 +25,7 @@ library(readr)
 library(ggdag)
 library(tidyverse)
 library(gt)
+library(modelsummary)
 
 # read-in data
 dat = read_csv(here::here("workshops/aau_survey/clean_endline_did.csv") ) %>%
@@ -41,18 +42,47 @@ palette = MetBrewer::met.brewer(name = "Cross")
 
 **Does moving to a new city reduce the political engagement of youth?**  
 
+I hypothesize that moving to a new city will reduce an individuals' likelihood of engaging in political or civic action. I argue that this is the case for several reasons:
+
 - Youth have low levels of political engagement, often driven by lack of information and experience [@holbein:hillygus:2020]
 - Youth that move have less information and experience with engagement in their new city
 - Youth that move probably have fewer social ties, and ties are important for facilitating engagement [@campbell:2013]
 
+## Research Design
+
+I will use a linear model to estimate the relationship between levels of political engagement and whether or not an individual has moved to a new city. This design relies on the assumption that individuals that moved to a new city had similar propensities to participate to those that did not, conditional on observable covariates. 
+
+While this assumption is unrealistic, I will take several measures to rule-out potential sources of baseline differences in the propensity of moving and non-moving students to participate. 
+
+First, I will identify specific types of participation that are more and less likely to be affected by whether at student moves. If my hypothesis is correct, we should expect to see the more likely forms of participation to be different between moving and non-moving students, while the less likely forms of participation should nto be different between moving and non-moving students.
+
+Second, I will condition my analysis to students that move from one urban place to another urban place. While students that move from a rural area to a city are likely to be different in many important ways that could affect their propensity to participate, those that move from one city to another city will be less different.
+
+Third, I will condition my analysis on students socio-economic status (SES). SES is one of the strongest predictors of political engagement, and students from different SES backgrounds will be different in ways that affect their propensity to participate. 
+
+Fourth, I will account for the length of time since respondents moved to their new city. My mechanisms linking moving to a new city with lower engagement (information and social ties) would predict that this effect reduces over time. Therefore, the gap between moving and non-moving students should be smaller for respondents that have been in their new city for longer. 
+
+
+## Research Context
+
+I will student this research question among students at Addis Ababa University (AAU). AAU is Ethiopia's top university, and students from around the country (and the continent) move to Addis Ababa in order to study there. Given the frequency with which youth move to a new city in order to obtain education, and the importance of universities and sites of political socialization, this is an important context in which to study the effects of moving on participation.
 
 ## Data and Variables
 
+I am using a representative survey of students from Addis Ababa University in Ethiopia collected by DevLab researchers. This data contains two waves collected in May-June and October-November of 2022. A total of 825 students completed both waves of the survey. 
+
+The variables being used fall into two categories. First, we use variables based on survey questions measuring respondent demographics, including whether or not the student is originally from Addis Ababa, whether they came from an urban or rural setting, the number of years they have been at university, and whether or not they work to support themselves and receive financial support from their parents. Second, we use variables based on survey questions measuring political participation. 
+
+## Describing the Sample
+
+
+
+### Demographics
+
 
 ```{r }
-#| include: false
+#| echo: false
 #| warning: false
-#| message: false
 
 ## demographics
 demos = dat %>%
@@ -65,12 +95,12 @@ demos = dat %>%
   group_by(name, value) %>% 
   tally() %>% 
   mutate(pct = n/sum(n)) %>% 
-  top_n(n = 5, wt = pct) %>% 
-  mutate(name = fct_relevel(name, 'Home region', 'Rural or urban?', 'Student Year', 'Respondent Gender', 'Work as a student?', 'Financial support from family?'))
+  top_n(n = 5, wt = pct)
+
+demos$name = factor(demos$name, levels = c('Home region', 'Rural or urban?', 'Student Year', 'Respondent Gender', 'Work as a student?', 'Financial support from family?'))
 
 
-
-ggplot(demos %>% arrange(Category), aes(y = value, x = pct)) + 
+ggplot(demos , aes(y = value, x = pct)) + 
   geom_col(fill = palette[9]) + 
   facet_wrap( ~name, scales = "free") + 
   scale_y_discrete(labels = scales::label_wrap(30)) + 
@@ -82,43 +112,22 @@ ggplot(demos %>% arrange(Category), aes(y = value, x = pct)) +
 
 ```
 
-## Figure
+### Levels of Engagement
 
 ```{r}
 #| echo: false
 #| warning: false
 
-# efficacy
-efficacy = df %>% 
-  select(`Youth have opportunity to engage` = q17_1, 
-         `Youth bring positive change` = q17_2,
-         `I can bring positive change` = q17_3) %>% 
-  drop_na() %>% 
-  pivot_longer(everything()) %>% 
-  group_by(name, value) %>% 
-  tally() %>% 
-  mutate(value = fct_relevel(value, "10", after = Inf)) %>% 
-  mutate(pct = n/sum(n))
-
-
-ggplot(efficacy, aes(x = value, y = pct)) + 
-  geom_col(fill = palette[9]) + 
-  facet_wrap(vars(name), labeller = label_wrap_gen(width = 40)) + 
-  scale_y_continuous(labels = scales::percent) +
-  labs(y = "Percent of respondents", x = "(0 = Strongly disagree, 10 = strongly agree)", 
-       title = "Efficacy and youth participation", 
-       subtitle = glue::glue("Number of respondents = {scales::comma(sum(efficacy$n)/3)}"))
-
 
 # participation
-participate = df %>% 
-  select(`Attend meeting` = q13_1, 
-         `Protest` = q13_2, 
-         `NGO event` = q13_3, 
-         `Signed petition` = q13_4, 
-         `Contact official` = q13_5, 
-         `Contact student representative` = q13_6, 
-         `Contact an NGO` = q13_7) %>% 
+participate = dat %>% 
+  select(`Attend meeting` = q13_1_baseline, 
+         `Protest` = q13_2_baseline, 
+         `NGO event` = q13_3_baseline, 
+         `Signed petition` = q13_4_baseline, 
+         `Contact official` = q13_5_baseline, 
+         `Contact student representative` = q13_6_baseline, 
+         `Contact an NGO` = q13_7_baseline) %>% 
   drop_na() %>% 
   pivot_longer(everything()) %>% 
   group_by(name, value) %>% 
@@ -150,7 +159,7 @@ ggplot(participate %>% filter(name %in% unique(participate$name)[c(2,3,6)]), aes
   scale_x_discrete(labels = scales::label_wrap(10))
 
 # obstacles
-obstacle = df %>% 
+obstacle = dat %>% 
   select(`Lack of resources` = q14_1, 
          `Fear of judgment` = q14_2, 
          `Fear of consequences` = q14_3, 
@@ -176,11 +185,10 @@ ggplot(obstacle, aes(x = value, y = pct)) +
        caption = "See paper for full question wording") + 
   scale_x_discrete(labels = scales::label_wrap(10))
 
-ggsave(here("figures/present", "baseline-obstacles_p.png"), width = 8.5, height = 5)
 
 
 # current roles
-role = df %>% 
+role = dat %>% 
   select(`Religious group` = q15_1, 
          `Ethnic/culture group` = q15_2, 
          `Political group` = q15_3, 
@@ -208,14 +216,30 @@ ggplot(role, aes(x = value, y = pct)) +
 ```
 
 
-## Robustness
-
-1. Moving reduces the likelihood of participating
-- Specific kinds of participation more likely to be affected?
-- Those who grew up in big city might be different; what about those that moved from urban area?
-- Longer tenure should reduce this relationship; is the gap between older students smaller?
+## Results
 
 
+```{r}
+#| echo: false
+#| warning: false
 
+dat = dat %>%
+  mutate(moved = case_when(q8_baseline == "Addis Ababa" ~ 0, TRUE ~ 1) )
+
+#table(dat$q8_baseline, dat$moved)
+
+models <- list()
+models[['Contact Official']] = lm(q13_4_1 ~ moved, dat)
+models[['Attend Meeting']] = lm(q13_1_1 ~ moved, dat)
+models[['NGO Volunteer']] = lm(q13_8_1 ~ moved, dat)
+models[['Sign Petition']] = lm(q13_5_1 ~ moved, dat)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+             statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
+
+```
 
 
