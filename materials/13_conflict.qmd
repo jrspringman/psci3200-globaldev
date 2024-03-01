@@ -15,6 +15,6 @@ date: 2024-02-29
 
 ## Workshop
 
-- [Workshop](/workshop/survey_data.html)
+- [Workshop](/workshops/survey_data.html)
 - [Data](https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/aau_survey/clean_endline_did.csv)
 - [Code](https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/survey_data.qmd)
