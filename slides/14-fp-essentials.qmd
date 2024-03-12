@@ -1,6 +1,6 @@
 ---
 title: "Final Project Essentials 1"
-subtitle: "Index Measures and "
+subtitle: "Index Measures and Interaction Terms"
 author: "Jeremy Springman"
 institute: "University of Pennsylvania"
 
@@ -44,23 +44,20 @@ editor: source
 **Does moving to a new city reduce the political engagement of young people?**  
 
 - I hypothesize that moving to a new city will reduce young people's likelihood of engaging in political or civic action
-
-**I argue that this is the case for several reasons:**
-
-- Youth have low levels of political engagement, often driven by lack of information and experience [@holbein:hillygus:2020]
-- Youth that move have less information and experience with engagement in their new city
-- Youth that move probably have fewer social ties, and ties are important for facilitating engagement [@campbell:2013]
+  + Youth have low levels of political engagement, often driven by lack of information and experience
+  + Youth that move have less information and experience with engagement in their new city
+  + Youth that move probably have fewer social ties, and ties are important for facilitating engagement
 
 ## Research Design
 
 - **Design**: Estimate the relationship between *whether or not an individual moved to a new city to attend university* and their *level of political engagement*
 - **Assumption**: Individuals that moved to a new city had similar propensities to participate to those that did not, conditional on observable covariates 
 - **Diagnosis**: Unrealistic!
-- **Plan**: Rule-out potential sources of baseline differences in the propensity of moving and non-moving students to participate
+- **Plan**: Build confidence by ruling-out potential differences in baseline propensity to participate among moving and non-moving students
 
 ## Researh Context
 
-**Population**
+\
 
 - Students at Addis Ababa University (AAU)
   + Youth frequently move to a new city in order to obtain education
@@ -77,6 +74,8 @@ editor: source
 - Account for the length of time since respondents moved to their new city
   + As students become more embedded, the gap between moving and non-moving students should become smaller
 
+## Building Confidence
+
 **Placebo tests**
 
 - Identify Moving may affect feelings about your efficacy, but not the efficacy of youth in general
@@ -92,36 +91,97 @@ editor: source
 
 **Data**
 
-- Representative survey of students from Addis Ababa University 
-- Two waves collected in May-June and October-November of 2022
-- 825 students completed both waves of the survey
+- Representative survey of 825 AAU students 
+- 2 waves (May-June, October-November of 2022)
 
 **Variables**
 
 - Outcome: survey questions measuring political participation
-- Treatment: whether or not the student is originally from Addis Ababa
-- Building confidence: feelings of political efficacy, the number of years they have been at university, whether they came from an urban or rural setting, and whether or not they work to support themselves and receive financial support from their parents
+- Treatment: whether student is originally from Addis Ababa
+- Building confidence: feelings of political efficacy, number of years since move, urban or rural origin, whether they work to support themselves and receive financial support
 
 
 # Final Project Essentials
-
-
 
 ## Creating Index Measures
 
 **When to create an index measure**
 
 - When you have many ways of measuring a single concept
-  + This can be IV or DV
-- 
+  + This is true for outcome measures, treatment measures, and covariates
 
+**Benefits of index measures**
 
-**Benefits of **
-
-- Simplifies analysis
+- Simplifies analysis (fewer graphs, tables, etc.)
 - Reduces number of hypotheses being tested
 
 
+## Additive Scale
 
-### Additive Scale
+**What is an additive scale?**
 
+- Simple sum across columns (index = column_1 + column_2)
+
+**When to use an additive scale**
+
+- When variables are measured on a common scale
+- When you are interested in a cumulative amount of something
+  + Number of times someone engaged in a specific behavior
+  + Amount of money from several different sources
+
+## Additive Scale
+
+\
+
+**Benefits of additive scales**
+
+- Interpretability: number on the original scale
+- Simplicity: Just plain addition
+
+## Averaged Z-Scores
+
+**What is a z-score?**
+
+- $Z = (X - \mu) / \sigma$
+- Standardized: Mean of 0 and standard deviation of 1
+
+**When to use averaged z-scores**
+
+- When variables are measured on different scales 
+- When variables cannot be summed
+
+**Benefits of averaged z-scores**
+
+- Interpretability: Standard deviations from the mean
+- Outlier detection: abs(3)
+
+## Fancier index techniques
+
+- Principal Component Analysis
+- Factor Analysis
+- Inverse Covariance Weighting
+
+
+## Interaction Terms
+
+**What is an interaction term?**
+
+- Simple linear models assume that the effect of predictors is independent of other factors 
+- Interaction terms allow us to estimate the difference in the slope of a predictor across unit characteristics
+
+$$
+Y_i = \alpha + \beta_1 X_{i1} + \beta_2 X_{i2} + \beta_3 X_{i1}*X_{i2} + \epsilon_i
+$$
+**What are interaction terms used for?**
+
+- Heterogeneous effects
+- Difference-in-differences
+
+## Interaction Terms
+
+**Example:** Continuous outcome with two binary predictors
+
+- $\alpha$: Intercept when $X_{i1}$ and $X_{i2}$ are 0
+- $\beta_1$ Slope when $X_{i2} = 0$
+- $\beta_2$ Difference in $\alpha$ between $X_{i2}=0$ and $X_{i2}=1$
+- $\beta_3$ Difference in $\beta_1$ between $X_{i2}=0$ and $X_{i2}=1$

@@ -30,6 +30,9 @@ library(gt)
 library(modelsummary)
 
 # read-in data
+# cdat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/cambodia_ngos/data.csv")
+# dat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" ) %>%
+
 dat = read_csv(here::here("workshops/aau_survey/clean_endline_did.csv") ) %>%
     # clean home region variable
   mutate(q8_baseline = ifelse(q8_baseline == "Southern Nations, Nationalities, and Peoples Region", "SNNPR", q8_baseline), 
@@ -37,12 +40,7 @@ dat = read_csv(here::here("workshops/aau_survey/clean_endline_did.csv") ) %>%
 # create color palette for plotting
 palette = MetBrewer::met.brewer(name = "Cross")
 
-
-
-
 ```
-
-
 
 
 ### Additive Scale
@@ -51,136 +49,109 @@ palette = MetBrewer::met.brewer(name = "Cross")
 #| echo: false
 #| warning: false
 
+# Contacted gov't official
+# Signed a petition
+
 ## Find participation measures that are based on a count
 add_ecols = grep("q13_4_1$|q13_5_1$", names(dat), value = T)
 
 dat = dat %>%
-  #mutate(add_participation_end =  rowSums(across(add_ecols), na.rm = T) )
   mutate(add_participation_end =  rowSums(across(add_ecols) ) )
+  #mutate(add_participation_end =  rowSums(across(add_ecols), na.rm = T) )
 
 #dat$add_participation_end = dat$q13_4_1 + dat$q13_5_1
 
+```
 
+
+```{r}
+#| echo: false
+#| warning: false
+
+# participation
+participate = dat %>% 
+  select(`Additive Index` = add_participation_end, 
+         `Signed petition` = q13_5_1, 
+         `Contact official` = q13_4_1) %>% 
+  drop_na() %>% 
+  pivot_longer(everything()) %>% 
+  group_by(name, value) %>% 
+  tally() %>% 
+  mutate(pct = n/sum(n))
+
+
+
+ggplot(participate, aes(x = value, y = pct)) + 
+  geom_col(fill = palette[9]) + 
+  facet_wrap(vars(name), scales = "free") + 
+  scale_y_continuous(labels = scales::percent) +
+  labs(y = "Percent of respondents", x = NULL, 
+       title = "How do youth participate?", 
+       subtitle = glue::glue("Number of respondents = {scales::comma(sum(participate$n)/7)}")) 
 
 ```
+
+
 
 ### Averaged Z-Scores
 
-**When to use z-scores**
-
-- When
 
 ```{r}
 #| echo: false
 #| warning: false
 
-## Subsetting baseline and endline columns for Z-score
 
+## Find participation measures that are based on likert
+# baseline
 bcols = grep("^q13_.*_baseline$", names(dat), value = T)
-ecols = grep("^q13_\\d_\\d$", names(dat), value = T)
+dat[, paste0(bcols, "_st")] = dat[, bcols]
+bcols = paste0(bcols,"_st")
+
+# endline
+ecols = grep("^q13_[1-7]_\\d$", names(dat), value = T)
+dat[, paste0(ecols, "_st")] = dat[, ecols]
+ecols = paste0(ecols,"_st")
 
 
+# Create treatment variable
+dat = dat %>% mutate(moved = case_when(q8_baseline == "Addis Ababa" ~ 0, TRUE ~ 1) )
 
+# clean q13_
+levels = c("Never", "Once or Twice", "More than twice", "More than 5 times", 
+           "More than 10 times")
+dat = dat %>% 
+  mutate(across(c(bcols), 
+                .fns = ~ factor(.x, levels = levels)))
 
+# Create z-score function from Kling, Liberman, and Katz (2007)
+z_score = function(x, y){
+  # calculate mean and sd of control group
+  c_mean = mean( as.numeric( unlist(x[x["moved"] == 0, y])) , na.rm = T)
+  c_sd = sd( as.numeric( unlist(x[x["moved"] == 0, y])) , na.rm = T)
+  # subtract control group mean; divide by control group SD
+  ( as.numeric(x[, y, drop = TRUE]) - c_mean) / c_sd
+}
 
+# calculate z-scores
+for (i in c(bcols, ecols)) {
+  dat[,i] = z_score(dat, i)
+}
 
-
-
-
-# participation
-participate = dat %>% 
-  select(`Attend meeting` = q13_1_baseline, 
-         `Protest` = q13_2_baseline, 
-         `NGO event` = q13_3_baseline, 
-         `Signed petition` = q13_4_baseline, 
-         `Contact official` = q13_5_baseline, 
-         `Contact student representative` = q13_6_baseline, 
-         `Contact an NGO` = q13_7_baseline) %>% 
-  drop_na() %>% 
-  pivot_longer(everything()) %>% 
-  group_by(name, value) %>% 
-  tally() %>% 
-  mutate(pct = n/sum(n)) %>% 
-  mutate(value = fct_relevel(value, "Never", after = Inf), 
-         value = fct_rev(value))
-
-
-
-ggplot(participate %>% filter(!name %in% unique(participate$name)[c(2,3,6)]), aes(x = value, y = pct)) + 
-  geom_col(fill = palette[9]) + 
-  facet_wrap(vars(name), scales = "free") + 
-  scale_y_continuous(labels = scales::percent) +
-  labs(y = "Percent of respondents", x = NULL, 
-       title = "How do youth participate?", 
-       subtitle = glue::glue("Number of respondents = {scales::comma(sum(participate$n)/7)}"), 
-       caption = "See paper for full question wording") + 
-  scale_x_discrete(labels = scales::label_wrap(10))
-
-ggplot(participate %>% filter(name %in% unique(participate$name)[c(2,3,6)]), aes(x = value, y = pct)) + 
-  geom_col(fill = palette[9]) + 
-  facet_wrap(vars(name), scales = "free", ncol=2) + 
-  scale_y_continuous(labels = scales::percent) +
-  labs(y = "Percent of respondents", x = NULL, 
-       title = "How do youth participate?", 
-       subtitle = glue::glue("Number of respondents = {scales::comma(sum(participate$n)/7)}"), 
-       caption = "See paper for full question wording") + 
-  scale_x_discrete(labels = scales::label_wrap(10))
+dat = dat %>% 
+  rowwise() %>% 
+  mutate( z_participation_end = mean(c_across(all_of(bcols)), na.rm = TRUE)) %>% 
+  mutate( z_participation_base = mean(c_across(all_of(ecols)), na.rm = TRUE)) %>%
+  ungroup()
 
 ```
 
-
-
-### Principal Component Analysis
-
-
-
-## Describing the Sample
-
-
-
-### Demographics
-
-
-```{r }
-#| echo: false
-#| warning: false
-
-## demographics
-demos = dat %>%
-  drop_na(q3_baseline) %>% 
-  select(`Respondent Gender` = q3_baseline, `Work as a student?` = q4_baseline, 
-         `Rural or urban?` = q5_baseline, `Financial support from family?` = q6_baseline, 
-         `Home region` = q8_baseline,
-         `Student Year` = class_year) %>% 
-  pivot_longer(everything()) %>% 
-  group_by(name, value) %>% 
-  tally() %>% 
-  mutate(pct = n/sum(n)) %>% 
-  top_n(n = 5, wt = pct)
-
-demos$name = factor(demos$name, levels = c('Home region', 'Rural or urban?', 'Student Year', 'Respondent Gender', 'Work as a student?', 'Financial support from family?'))
-
-
-ggplot(demos , aes(y = value, x = pct)) + 
-  geom_col(fill = palette[9]) + 
-  facet_wrap( ~name, scales = "free") + 
-  scale_y_discrete(labels = scales::label_wrap(30)) + 
-  hrbrthemes::scale_x_percent(limits = c(0, 1)) + 
-  labs(x = "Percent of respondents", y = NULL, 
-       title = "Demographic characteristics of baseline respondents", 
-       subtitle = glue::glue("Number of respondents = {scales::comma(nrow(df))}"), 
-       caption = "Note: home region only displays top five categories by size.")
-
-```
-
-### Levels of Engagement
 
 ```{r}
 #| echo: false
 #| warning: false
 
 
-# participation
+# raw
 participate = dat %>% 
   select(`Attend meeting` = q13_1_baseline, 
          `Protest` = q13_2_baseline, 
@@ -197,84 +168,49 @@ participate = dat %>%
   mutate(value = fct_relevel(value, "Never", after = Inf), 
          value = fct_rev(value))
 
-
-
-ggplot(participate %>% filter(!name %in% unique(participate$name)[c(2,3,6)]), aes(x = value, y = pct)) + 
+ggplot(participate , aes(x = value, y = pct)) + 
   geom_col(fill = palette[9]) + 
-  facet_wrap(vars(name), scales = "free") + 
+  facet_wrap(vars(name), scales = "free", ncol = 2) + 
   scale_y_continuous(labels = scales::percent) +
   labs(y = "Percent of respondents", x = NULL, 
        title = "How do youth participate?", 
-       subtitle = glue::glue("Number of respondents = {scales::comma(sum(participate$n)/7)}"), 
-       caption = "See paper for full question wording") + 
+       subtitle = glue::glue("Number of respondents = {scales::comma(sum(participate$n)/7)}")) + 
   scale_x_discrete(labels = scales::label_wrap(10))
 
-ggplot(participate %>% filter(name %in% unique(participate$name)[c(2,3,6)]), aes(x = value, y = pct)) + 
-  geom_col(fill = palette[9]) + 
-  facet_wrap(vars(name), scales = "free", ncol=2) + 
-  scale_y_continuous(labels = scales::percent) +
-  labs(y = "Percent of respondents", x = NULL, 
-       title = "How do youth participate?", 
-       subtitle = glue::glue("Number of respondents = {scales::comma(sum(participate$n)/7)}"), 
-       caption = "See paper for full question wording") + 
-  scale_x_discrete(labels = scales::label_wrap(10))
+```
 
-# obstacles
-obstacle = dat %>% 
-  select(`Lack of resources` = q14_1, 
-         `Fear of judgment` = q14_2, 
-         `Fear of consequences` = q14_3, 
-         `Lack of interest` = q14_4, 
-         `Lack of information` = q14_5) %>% 
+
+```{r}
+#| echo: false
+#| warning: false
+
+# standardized
+participate = dat %>% 
+  select(`Z-Score Index` = z_participation_base,
+         `Attend meeting` = q13_1_baseline_st, 
+         `Protest` = q13_2_baseline_st, 
+         `NGO event` = q13_3_baseline_st, 
+         `Signed petition` = q13_4_baseline_st, 
+         `Contact official` = q13_5_baseline_st, 
+         `Contact student representative` = q13_6_baseline_st, 
+         `Contact an NGO` = q13_7_baseline_st) %>% 
   drop_na() %>% 
-  pivot_longer(everything()) %>% 
-  group_by(name, value) %>% 
-  tally() %>% 
-  mutate(pct = n/sum(n)) %>% 
-  mutate(value = fct_relevel(value, "Never", after = Inf), 
-         value = fct_rev(value))
+  pivot_longer(everything()) 
 
 
-
-ggplot(obstacle, aes(x = value, y = pct)) + 
-  geom_col(fill = palette[9]) + 
-  facet_wrap(vars(name), scales = "free") + 
+ggplot(participate , aes(x = value )) + 
+  geom_histogram(aes(y = after_stat(count / sum(count))), 
+                 binwidth=.5, fill = palette[9]) +
+  #geom_col(fill = palette[9]) + 
+  facet_wrap(vars(name),  ncol = 2) + 
   scale_y_continuous(labels = scales::percent) +
   labs(y = "Percent of respondents", x = NULL, 
-       title = "How often do obstacles prevent participation?", 
-       subtitle = glue::glue("Number of respondents = {scales::comma(sum(obstacle$n)/5)}"), 
-       caption = "See paper for full question wording") + 
-  scale_x_discrete(labels = scales::label_wrap(10))
-
-
-
-# current roles
-role = dat %>% 
-  select(`Religious group` = q15_1, 
-         `Ethnic/culture group` = q15_2, 
-         `Political group` = q15_3, 
-         `Voluntary organization` = q15_4) %>% 
-  drop_na() %>% 
-  pivot_longer(everything()) %>% 
-  group_by(name, value) %>% 
-  tally() %>% 
-  mutate(pct = n/sum(n)) %>% 
-  mutate(value = fct_relevel(value, "Official leader", after = 0L))
-
-
-
-ggplot(role, aes(x = value, y = pct)) + 
-  geom_col(fill = palette[9]) + 
-  facet_wrap(vars(name), scales = "free") + 
-  scale_y_continuous(labels = scales::percent) +
-  labs(y = "Percent of respondents", x = NULL, 
-       title = "Is respondent involved in the following...", 
-       subtitle = glue::glue("Number of respondents = {scales::comma(sum(role$n)/4)}"), 
-       caption = "See paper for full question wording") + 
-  scale_x_discrete(labels = scales::label_wrap(10))
+       title = "How do youth participate?")
 
 
 ```
+
+
 
 
 ## Results
@@ -284,16 +220,16 @@ ggplot(role, aes(x = value, y = pct)) +
 #| echo: false
 #| warning: false
 
-dat = dat %>%
-  mutate(moved = case_when(q8_baseline == "Addis Ababa" ~ 0, TRUE ~ 1) )
-
-#table(dat$q8_baseline, dat$moved)
+regd = dat %>% select(z_participation_end, z_participation_base, moved, response_id ) %>%
+  pivot_longer(cols = c(z_participation_end, z_participation_base),
+               names_to = "time",
+               values_to = "z_participation") %>%
+  mutate(time = case_when(time == "z_participation_end" ~ 1, 
+                          TRUE ~ 0))
 
 models <- list()
-models[['Contact Official']] = lm(q13_4_1 ~ moved, dat)
-models[['Attend Meeting']] = lm(q13_1_1 ~ moved, dat)
-models[['NGO Volunteer']] = lm(q13_8_1 ~ moved, dat)
-models[['Sign Petition']] = lm(q13_5_1 ~ moved, dat)
+models[['Simple']] = lm(z_participation ~ moved, regd)
+models[['Interaction']] = lm(z_participation ~ moved*time, regd)
 
 modelsummary(
   models,
