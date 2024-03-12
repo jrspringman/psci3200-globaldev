@@ -1,0 +1,127 @@
+---
+title: "Final Project Essentials 1"
+subtitle: "Index Measures and "
+author: "Jeremy Springman"
+institute: "University of Pennsylvania"
+
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+    - title-slide.html
+    gfm:
+    mermaid-format: png
+editor: source
+---
+
+# Logistics
+
+## Assignments
+
+- Today
+  + Final Project Assignment 1: Research question and data source
+  + Check your submission (self-contained)
+- Thursday (3/14)
+  + Readings
+  
+## Agenda
+
+\
+
+1. Final Project Review
+2. Workshop on Final Project Essentials
+
+# Final Project Review
+
+## Research Question
+
+**Does moving to a new city reduce the political engagement of young people?**  
+
+- I hypothesize that moving to a new city will reduce young people's likelihood of engaging in political or civic action
+
+**I argue that this is the case for several reasons:**
+
+- Youth have low levels of political engagement, often driven by lack of information and experience [@holbein:hillygus:2020]
+- Youth that move have less information and experience with engagement in their new city
+- Youth that move probably have fewer social ties, and ties are important for facilitating engagement [@campbell:2013]
+
+## Research Design
+
+- **Design**: Estimate the relationship between *whether or not an individual moved to a new city to attend university* and their *level of political engagement*
+- **Assumption**: Individuals that moved to a new city had similar propensities to participate to those that did not, conditional on observable covariates 
+- **Diagnosis**: Unrealistic!
+- **Plan**: Rule-out potential sources of baseline differences in the propensity of moving and non-moving students to participate
+
+## Researh Context
+
+**Population**
+
+- Students at Addis Ababa University (AAU)
+  + Youth frequently move to a new city in order to obtain education
+  + AAU is Ethiopia's top university, and students from around the country move to study there
+  + Universities are important sites of political socialization
+
+
+## Building Confidence
+
+**Observable implications**
+
+- Identify specific types of participation that are more and less likely to be affected by whether at student moves
+  + Some forms of participation rely on social ties or information about the environment, while others do not
+- Account for the length of time since respondents moved to their new city
+  + As students become more embedded, the gap between moving and non-moving students should become smaller
+
+**Placebo tests**
+
+- Identify Moving may affect feelings about your efficacy, but not the efficacy of youth in general
+
+**Conditioning**
+
+- Students that move from one urban place to another urban place
+  + Students that move from one city to another city will be less different (in their propensity to participate) than those moving from rural to urban
+- Students with similar socio-economic status (SES)
+  + Students with similar SES will be less different (in their propensity to participate) than those with similar SES
+
+## Data and Variables
+
+**Data**
+
+- Representative survey of students from Addis Ababa University 
+- Two waves collected in May-June and October-November of 2022
+- 825 students completed both waves of the survey
+
+**Variables**
+
+- Outcome: survey questions measuring political participation
+- Treatment: whether or not the student is originally from Addis Ababa
+- Building confidence: feelings of political efficacy, the number of years they have been at university, whether they came from an urban or rural setting, and whether or not they work to support themselves and receive financial support from their parents
+
+
+# Final Project Essentials
+
+
+
+## Creating Index Measures
+
+**When to create an index measure**
+
+- When you have many ways of measuring a single concept
+  + This can be IV or DV
+- 
+
+
+**Benefits of **
+
+- Simplifies analysis
+- Reduces number of hypotheses being tested
+
+
+
+### Additive Scale
+
