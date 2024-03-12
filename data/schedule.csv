@@ -14,18 +14,18 @@ week,date,date_end,title,deadline, reading,content,tutorial,assignment
 7,2024-02-29,,Conflict & Cohesion 2,,Conflict,/materials/13_conflict,/workshops/survey_data.html,
 8,2024-03-05,,Spring Break,,,,,
 8,2024-03-07,,Spring Break,,,,,
-9,2024-03-12,,Probability,,DSS Ch 6,,,/assignments/03_fprqd
-9,2024-03-14,,Uncertainty,,DSS Ch 7,,,
-10,2024-03-19,,Democracy and Autocratization 2,,Waldner and Lust (2018); VDem (2023) ,,,
-10,2024-03-21,,Democracy and Autocratization 3 (Polarization and Engagement),,Adamu et al. (2024); Svolik (2019),,,/assignments/khm_budget
-11,2024-03-26,,Foreign Aid and NGOs 1,,Briggs,,,
-11,2024-03-28,,Foreign Aid and NGOs 2,,O'Brien (2023); Springman (2021); Cruz (2017),,,
-12,2024-04-02,,Foreign Aid and NGOs 3,,TBD,,,/assignments/fp_proposal
-12,2024-04-04,,Climate and Adaptation 1,,TBD,,,
-13,2024-04-09,,Climate and Adaptation 2,,TBD,,,
-13,2024-04-11,,Accountability and Information 1,,Jablonski and Seim (2023),,,/assignments/aau_survey
-14,2024-04-16,,Accountability 2,,Metaketa,,,
-14,2024-04-18,,Accountability 3,,Mares et al. (2023),,,
+9,2024-03-12,,Final Project Essentials,,,,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/fp_essentials.qmd,/assignments/03_fprqd
+9,2024-03-14,,Democracy and Autocratization 2,,Waldner and Lust (2018); VDem (2023) ,,,
+10,2024-03-19,,Democracy and Autocratization 3 (Polarization and Engagement),,Adamu et al. (2024); Svolik (2019),,,
+10,2024-03-21,,Foreign Aid and NGOs 1,,Briggs,,,/assignments/aau_survey
+11,2024-03-26,,Foreign Aid and NGOs 2,,O'Brien (2023); Cruz (2017),,,
+11,2024-03-28,,Foreign Aid and NGOs 3,,TBD,,,
+12,2024-04-02,,Climate and Adaptation 1,,TBD,,,/assignments/fp_proposal
+12,2024-04-04,,Climate and Adaptation 2,,TBD,,,
+13,2024-04-09,,Accountability and Information 1,,Jablonski and Seim (2023),,,
+13,2024-04-11,,Accountability 2,,Metaketa,,,/assignments/khm_budget
+14,2024-04-16,,Accountability 3,,Mares et al. (2023),,,
+14,2024-04-18,,No Class,,,,,
 15,2024-04-23,,Effective Interventions 1,,CCTs,,,
 15,2024-04-25,,Effective Interventions 2,,Health,,,/assignments/da_5
 16,2024-04-30,,Effective Interventions 3,,Other,,,/assignments/fp_webpage
