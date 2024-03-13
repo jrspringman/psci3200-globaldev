@@ -76,16 +76,22 @@ editor: source
 
 ## Building Confidence
 
-**Placebo tests**
-
-- Identify Moving may affect feelings about your efficacy, but not the efficacy of youth in general
-
 **Conditioning**
 
 - Students that move from one urban place to another urban place
   + Students that move from one city to another city will be less different (in their propensity to participate) than those moving from rural to urban
 - Students with similar socio-economic status (SES)
   + Students with similar SES will be less different (in their propensity to participate) than those with similar SES
+
+## Building Confidence
+
+\
+
+**Placebo tests**
+
+- Moving may affect feelings about your individual efficacy, but not the efficacy of youth in general
+- Moving may affect your participation recent engagement, but not an opportunity to engage that was provided within the survey
+
 
 ## Data and Variables
 
@@ -98,7 +104,7 @@ editor: source
 
 - Outcome: survey questions measuring political participation
 - Treatment: whether student is originally from Addis Ababa
-- Building confidence: feelings of political efficacy, number of years since move, urban or rural origin, whether they work to support themselves and receive financial support
+- Building confidence: feelings of political efficacy, number of years since move, urban or rural origin, SES, etc.
 
 
 # Final Project Essentials
@@ -150,12 +156,18 @@ editor: source
 - When variables are measured on different scales 
 - When variables cannot be summed
 
+## Averaged Z-Scores
+
+\
+
 **Benefits of averaged z-scores**
 
 - Interpretability: Standard deviations from the mean
 - Outlier detection: abs(3)
 
 ## Fancier index techniques
+
+\
 
 - Principal Component Analysis
 - Factor Analysis
@@ -172,12 +184,13 @@ editor: source
 $$
 Y_i = \alpha + \beta_1 X_{i1} + \beta_2 X_{i2} + \beta_3 X_{i1}*X_{i2} + \epsilon_i
 $$
+
+## Interaction Terms
+
 **What are interaction terms used for?**
 
 - Heterogeneous effects
 - Difference-in-differences
-
-## Interaction Terms
 
 **Example:** Continuous outcome with two binary predictors
 

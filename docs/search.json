@@ -2426,14 +2426,14 @@
     "href": "slides/14-fp-essentials.html#building-confidence-1",
     "title": "Final Project Essentials 1",
     "section": "Building Confidence",
-    "text": "Building Confidence\nPlacebo tests\n\nIdentify Moving may affect feelings about your efficacy, but not the efficacy of youth in general\n\nConditioning\n\nStudents that move from one urban place to another urban place\n\nStudents that move from one city to another city will be less different (in their propensity to participate) than those moving from rural to urban\n\nStudents with similar socio-economic status (SES)\n\nStudents with similar SES will be less different (in their propensity to participate) than those with similar SES"
+    "text": "Building Confidence\nConditioning\n\nStudents that move from one urban place to another urban place\n\nStudents that move from one city to another city will be less different (in their propensity to participate) than those moving from rural to urban\n\nStudents with similar socio-economic status (SES)\n\nStudents with similar SES will be less different (in their propensity to participate) than those with similar SES"
   },
   {
     "objectID": "slides/14-fp-essentials.html#data-and-variables",
     "href": "slides/14-fp-essentials.html#data-and-variables",
     "title": "Final Project Essentials 1",
     "section": "Data and Variables",
-    "text": "Data and Variables\nData\n\nRepresentative survey of 825 AAU students\n2 waves (May-June, October-November of 2022)\n\nVariables\n\nOutcome: survey questions measuring political participation\nTreatment: whether student is originally from Addis Ababa\nBuilding confidence: feelings of political efficacy, number of years since move, urban or rural origin, whether they work to support themselves and receive financial support"
+    "text": "Data and Variables\nData\n\nRepresentative survey of 825 AAU students\n2 waves (May-June, October-November of 2022)\n\nVariables\n\nOutcome: survey questions measuring political participation\nTreatment: whether student is originally from Addis Ababa\nBuilding confidence: feelings of political efficacy, number of years since move, urban or rural origin, SES, etc."
   },
   {
     "objectID": "slides/14-fp-essentials.html#creating-index-measures",
@@ -2461,28 +2461,28 @@
     "href": "slides/14-fp-essentials.html#averaged-z-scores",
     "title": "Final Project Essentials 1",
     "section": "Averaged Z-Scores",
-    "text": "Averaged Z-Scores\nWhat is a z-score?\n\n\\(Z = (X - \\mu) / \\sigma\\)\nStandardized: Mean of 0 and standard deviation of 1\n\nWhen to use averaged z-scores\n\nWhen variables are measured on different scales\nWhen variables cannot be summed\n\nBenefits of averaged z-scores\n\nInterpretability: Standard deviations from the mean\nOutlier detection: abs(3)"
+    "text": "Averaged Z-Scores\nWhat is a z-score?\n\n\\(Z = (X - \\mu) / \\sigma\\)\nStandardized: Mean of 0 and standard deviation of 1\n\nWhen to use averaged z-scores\n\nWhen variables are measured on different scales\nWhen variables cannot be summed"
   },
   {
     "objectID": "slides/14-fp-essentials.html#fancier-index-techniques",
     "href": "slides/14-fp-essentials.html#fancier-index-techniques",
     "title": "Final Project Essentials 1",
     "section": "Fancier index techniques",
-    "text": "Fancier index techniques\n\nPrincipal Component Analysis\nFactor Analysis\nInverse Covariance Weighting"
+    "text": "Fancier index techniques\n\n\n\nPrincipal Component Analysis\nFactor Analysis\nInverse Covariance Weighting"
   },
   {
     "objectID": "slides/14-fp-essentials.html#interaction-terms",
     "href": "slides/14-fp-essentials.html#interaction-terms",
     "title": "Final Project Essentials 1",
     "section": "Interaction Terms",
-    "text": "Interaction Terms\nWhat is an interaction term?\n\nSimple linear models assume that the effect of predictors is independent of other factors\nInteraction terms allow us to estimate the difference in the slope of a predictor across unit characteristics\n\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\beta_3 X_{i1}*X_{i2} + \\epsilon_i\n\\] What are interaction terms used for?\n\nHeterogeneous effects\nDifference-in-differences"
+    "text": "Interaction Terms\nWhat is an interaction term?\n\nSimple linear models assume that the effect of predictors is independent of other factors\nInteraction terms allow us to estimate the difference in the slope of a predictor across unit characteristics\n\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\beta_3 X_{i1}*X_{i2} + \\epsilon_i\n\\]"
   },
   {
     "objectID": "slides/14-fp-essentials.html#interaction-terms-1",
     "href": "slides/14-fp-essentials.html#interaction-terms-1",
     "title": "Final Project Essentials 1",
     "section": "Interaction Terms",
-    "text": "Interaction Terms\nExample: Continuous outcome with two binary predictors\n\n\\(\\alpha\\): Intercept when \\(X_{i1}\\) and \\(X_{i2}\\) are 0\n\\(\\beta_1\\) Slope when \\(X_{i2} = 0\\)\n\\(\\beta_2\\) Difference in \\(\\alpha\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\\(\\beta_3\\) Difference in \\(\\beta_1\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Interaction Terms\nWhat are interaction terms used for?\n\nHeterogeneous effects\nDifference-in-differences\n\nExample: Continuous outcome with two binary predictors\n\n\\(\\alpha\\): Intercept when \\(X_{i1}\\) and \\(X_{i2}\\) are 0\n\\(\\beta_1\\) Slope when \\(X_{i2} = 0\\)\n\\(\\beta_2\\) Difference in \\(\\alpha\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\\(\\beta_3\\) Difference in \\(\\beta_1\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
     "objectID": "workshops/causal3.html",
@@ -2567,5 +2567,19 @@
     "title": "Final Report Example",
     "section": "Results",
     "text": "Results\n\n\n\n\n\n\nContact Official\nAttend Meeting\n NGO Volunteer\nSign Petition\n\n\n\n\n(Intercept)\n1.044*** (0.114)\n0.752*** (0.116)\n1.304*** (0.181)\n0.354*** (0.090)\n\n\nmoved\n−0.178 (0.141)\n0.580*** (0.143)\n0.117 (0.222)\n0.529*** (0.110)\n\n\nNum.Obs.\n802\n801\n803\n801\n\n\nR2 Adj.\n0.001\n0.019\n−0.001\n0.027"
+  },
+  {
+    "objectID": "slides/14-fp-essentials.html#building-confidence-2",
+    "href": "slides/14-fp-essentials.html#building-confidence-2",
+    "title": "Final Project Essentials 1",
+    "section": "Building Confidence",
+    "text": "Building Confidence\n\n\nPlacebo tests\n\nMoving may affect feelings about your individual efficacy, but not the efficacy of youth in general\nMoving may affect your participation recent engagement, but not an opportunity to engage that was provided within the survey"
+  },
+  {
+    "objectID": "slides/14-fp-essentials.html#averaged-z-scores-1",
+    "href": "slides/14-fp-essentials.html#averaged-z-scores-1",
+    "title": "Final Project Essentials 1",
+    "section": "Averaged Z-Scores",
+    "text": "Averaged Z-Scores\n\n\nBenefits of averaged z-scores\n\nInterpretability: Standard deviations from the mean\nOutlier detection: abs(3)"
   }
 ]
