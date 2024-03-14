@@ -42,8 +42,9 @@ palette = MetBrewer::met.brewer(name = "Cross")
 
 ```
 
+# Index Variables
 
-### Additive Scale
+## Additive Scale
 
 ```{r}
 #| echo: false
@@ -93,7 +94,7 @@ ggplot(participate, aes(x = value, y = pct)) +
 
 
 
-### Averaged Z-Scores
+## Averaged Z-Scores
 
 
 ```{r}
@@ -213,8 +214,9 @@ ggplot(participate , aes(x = value )) +
 
 
 
-## Results
+# Interaction Terms
 
+## Differences over time
 
 ```{r}
 #| echo: false
@@ -239,4 +241,65 @@ modelsummary(
 
 ```
 
+```{r}
+#| echo: false
+#| warning: false
+# Predict values based on the model
+predictions <- predict(lm(z_participation ~ moved*time, regd), newdata = regd)
 
+# Create a dataframe with predictions
+prediction_df <- data.frame(time = regd$time, moved = regd$moved, prediction = predictions)
+
+# Plot the interaction
+ggplot(prediction_df, aes(x = time, y = prediction, color = factor(moved))) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 1)) +
+  labs(x = "Year", y = "Predicted z_participation", color = "Moved") +
+  ggtitle("Interaction Plot of z_participation_base by Year and Moved")
+
+```
+
+## Differences across groups
+
+```{r}
+#| echo: false
+#| warning: false
+
+table(dat$class_year)
+
+dat = dat %>% mutate(year = as.numeric(case_when(class_year == "Year I" ~ 1,
+                                                 class_year == "Year II" ~ 2,
+                                                 class_year == "Year III" ~ 3 )) )
+
+models <- list()
+models[['Simple']] = lm(z_participation_base ~ moved, dat)
+models[['Interaction']] = lm(z_participation_base ~ moved*year, dat)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+             statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
+
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+# Predict values based on the model
+predictions <- predict(lm(z_participation_base ~ moved * year, dat), newdata = dat)
+
+# Create a dataframe with predictions
+prediction_df <- data.frame(year = dat$year, moved = dat$moved, prediction = predictions)
+
+# Plot the interaction
+ggplot(prediction_df, aes(x = year, y = prediction, color = factor(moved))) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(1, 2, 3)) +
+  labs(x = "Year", y = "Predicted z_participation_base", color = "Moved") +
+  ggtitle("Interaction Plot of z_participation_base by Year and Moved")
+
+```

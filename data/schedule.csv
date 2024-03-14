@@ -11,20 +11,20 @@ week,date,date_end,title,deadline, reading,content,tutorial,assignment
 6,2024-02-20,,Crime 1 (guest: Schmidt-Padilla),,Dell (2015); Sviatschi (2022),/materials/10_crime,,
 6,2024-02-22,,Crime 2 (guest: Schmidt-Padilla),,Angelova et al. (2023),/materials/11_crime,,
 7,2024-02-27,,Conflict & Cohesion 1,,Paluck et al. (2021); Grady et al. (2023); Mousa (2020),/materials/12_conflict,,
-7,2024-02-29,,Conflict & Cohesion 2,,Conflict,/materials/13_conflict,/workshops/survey_data.html,
+7,2024-02-29,,Conflict & Cohesion 2,,,/materials/13_conflict,/workshops/survey_data.html,
 8,2024-03-05,,Spring Break,,,,,
 8,2024-03-07,,Spring Break,,,,,
 9,2024-03-12,,Final Project Essentials,,,,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/fp_essentials.qmd,/assignments/03_fprqd
-9,2024-03-14,,Democracy and Autocratization 2,,Waldner and Lust (2018); VDem (2023) ,,,
-10,2024-03-19,,Democracy and Autocratization 3 (Polarization and Engagement),,Adamu et al. (2024); Svolik (2019),,,
-10,2024-03-21,,Foreign Aid and NGOs 1,,Briggs,,,/assignments/aau_survey
-11,2024-03-26,,Foreign Aid and NGOs 2,,O'Brien (2023); Cruz (2017),,,
-11,2024-03-28,,Foreign Aid and NGOs 3,,TBD,,,
-12,2024-04-02,,Climate and Adaptation 1,,TBD,,,/assignments/fp_proposal
-12,2024-04-04,,Climate and Adaptation 2,,TBD,,,
-13,2024-04-09,,Accountability and Information 1,,Jablonski and Seim (2023),,,
-13,2024-04-11,,Accountability 2,,Metaketa,,,/assignments/khm_budget
-14,2024-04-16,,Accountability 3,,Mares et al. (2023),,,
+9,2024-03-14,,Democracy and Autocratization 2,,VDem (2024); Garcia-Ponce and Wantchekon (2023) ,/materials/14_fp_essentials,,
+10,2024-03-19,,Democracy and Autocratization 3,,Hassan et al. (2022); Lebas and Young (2023),/materials/15_democracy2,,
+10,2024-03-21,,Accountability and Information 1,,Jablonski and Seim (2023); Sierra (2020),,,/assignments/aau_survey
+11,2024-03-26,,Accountability 2,,Metaketa,,,
+11,2024-03-28,,Accountability 3,,Mares et al. (2023),,,
+12,2024-04-02,,Foreign Aid and NGOs 1,,Briggs; Bold et al. (2018,,,/assignments/fp_proposal
+12,2024-04-04,,Foreign Aid and NGOs 2,,O'Brien (2023); Cruz (2017),,,
+13,2024-04-09,,Foreign Aid and NGOs 3,,TBD,,,
+13,2024-04-11,,Climate and Adaptation 1,,Alberto et al. (2022),,,/assignments/khm_budget
+14,2024-04-16,,Climate and Adaptation 2,,TBD,,,
 14,2024-04-18,,No Class,,,,,
 15,2024-04-23,,Effective Interventions 1,,CCTs,,,
 15,2024-04-25,,Effective Interventions 2,,Health,,,/assignments/da_5

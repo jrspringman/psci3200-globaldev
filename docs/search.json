@@ -87,15 +87,15 @@
     "objectID": "slides/13-conflict.html#assignments",
     "href": "slides/13-conflict.html#assignments",
     "title": "Conflict & Cohesion 1",
-    "section": "Assignments",
-    "text": "Assignments\n\nToday\n\nThink about Final Project\n\nTuesday (3/12)\n\nFinal Project Assignment 1"
+    "section": "",
+    "text": "Today\n\nThink about Final Project\n\nTuesday (3/12)\n\nFinal Project Assignment 1"
   },
   {
     "objectID": "slides/13-conflict.html#agenda",
     "href": "slides/13-conflict.html#agenda",
     "title": "Conflict & Cohesion 1",
-    "section": "Agenda",
-    "text": "Agenda\n\n\n\nFinishing Conflict and Cohesion\nFinal Project Assignment"
+    "section": "",
+    "text": "Finishing Conflict and Cohesion\nFinal Project Assignment"
   },
   {
     "objectID": "slides/13-conflict.html#why-study-cohesion",
@@ -207,7 +207,7 @@
     "href": "slides/13-conflict.html#policy-implications-1",
     "title": "Conflict & Cohesion 1",
     "section": "Policy Implications",
-    "text": "Policy Implications\n\nContact interventions can have wider societal change and reduce the barriers to peace between conflicting groups\nFor social diffusion, contact must be highly public\n\n\n\n\n\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Policy Implications\n\nContact interventions can have wider societal change and reduce the barriers to peace between conflicting groups\nFor social diffusion, contact must be highly public"
   },
   {
     "objectID": "slides/08-migration.html#assignments",
@@ -2581,5 +2581,47 @@
     "title": "Final Project Essentials 1",
     "section": "Averaged Z-Scores",
     "text": "Averaged Z-Scores\n\n\nBenefits of averaged z-scores\n\nInterpretability: Standard deviations from the mean\nOutlier detection: abs(3)"
+  },
+  {
+    "objectID": "materials/14_fp_essentials.html",
+    "href": "materials/14_fp_essentials.html",
+    "title": "Final Prooject Essentials",
+    "section": "",
+    "text": "None"
+  },
+  {
+    "objectID": "materials/14_fp_essentials.html#required-readings",
+    "href": "materials/14_fp_essentials.html#required-readings",
+    "title": "Final Prooject Essentials",
+    "section": "",
+    "text": "None"
+  },
+  {
+    "objectID": "materials/14_fp_essentials.html#slides",
+    "href": "materials/14_fp_essentials.html#slides",
+    "title": "Final Prooject Essentials",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/14_fp_essentials.html#assignments",
+    "href": "materials/14_fp_essentials.html#assignments",
+    "title": "Final Prooject Essentials",
+    "section": "Assignments",
+    "text": "Assignments\n\nFinal Project Research Question and Idea"
+  },
+  {
+    "objectID": "materials/14_fp_essentials.html#workshop",
+    "href": "materials/14_fp_essentials.html#workshop",
+    "title": "Final Prooject Essentials",
+    "section": "Workshop",
+    "text": "Workshop\n\nWorkshop Code and Data"
+  },
+  {
+    "objectID": "slides/13-conflict.html",
+    "href": "slides/13-conflict.html",
+    "title": "Conflict & Cohesion 1",
+    "section": "",
+    "text": "Today\n\nThink about Final Project\n\nTuesday (3/12)\n\nFinal Project Assignment 1\n\n\n\n\n\n\n\n\nFinishing Conflict and Cohesion\nFinal Project Assignment"
   }
 ]

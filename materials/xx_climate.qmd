@@ -5,6 +5,7 @@ date: 2024-01-18
 
 
 ## Required Readings
+- https://voxdev.org/topic/labour-markets-migration/how-climate-change-reallocates-capital-and-labour-within-countries
 
 Michaelowa, Axel, and Katharina Michaelowa. “Coding error or statistical embellishment?
 The political economy of reporting climate aid.” World Development 39.11 (2011): 2010-

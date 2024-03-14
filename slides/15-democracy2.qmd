@@ -1,0 +1,165 @@
+---
+title: "Democracy and Autocratization 2"
+subtitle: "Final Project Essentials: Interaction Terms"
+author: "Jeremy Springman"
+institute: "University of Pennsylvania"
+
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+    - title-slide.html
+    gfm:
+    mermaid-format: png
+editor: source
+---
+
+# Logistics
+
+## Assignments
+
+- Today
+  + [VDem (2024); pages 9-45](https://v-dem.net/documents/43/v-dem_dr2024_lowres.pdf) ([Interactive visualization](https://episodes.shinyapps.io/validation/))
+  + [Garcia-Ponce and Wantchekon (2023)](/files/American J Political Sci - 2023 - García‐Ponce - Critical Junctures Independence Movements and Democracy in Africa.pdf)
+- Thursday (3/14)
+  + [Hassan et al. (2022)](/files/politicalcontrol_printedition.pdf)
+  + [Lebas and Young (2023)](/files/repression-and-dissent-in-moments-of-uncertainty-panel-data-evidence-from-zimbabwe.pdf)
+
+  
+## Agenda
+
+\
+
+1. V-Dem
+2. Garcia-Ponce and Wantchekon
+2. Final Project Essentials: Interaction terms
+
+# Varieties of Democracy
+
+## Polyarchy (Dahl, 1972)
+
+**Polyarchy is about the degree of political competition**
+
+- Democracy is an ideal too tough to define
+- Instead, he offers descriptions of what makes countries more/less democratic
+- Contestation and inclusiveness make governments accountable to citizens
+
+## Polyarchy (Dahl, 1972)
+
+![](img/polyarchy.png){fig-align="center"}
+## Polyarchy (Dahl, 1972)
+
+![](img/Dahls-polyarchy-dimensions.png){fig-align="center"}
+## Benefits of Democracy
+
+**Causal effects of democracy are difficult, but...***
+
+- Higher economic growth
+- Lower poverty (famines)
+- Fewer international conflicts 
+
+## Waves of Democracy
+
+![](img/pic_vdem_grafik_autokrat-kopie.jpg){fig-align="center"}
+
+## Varieties of Democracy
+
+**Premier measure of regime-types over time and space**
+
+- Governance characteristics scored based on expert opinion.
+- 25 country experts (2/3 local and 1/3 foreign)
+- 500+ indicators
+- Sophisticated methods of aggregating into indices and estimating uncertainty across coders
+- Liberal Democracy, Electoral Democracy, Electoral Autocracy, Autocracy
+
+## Varieties of Democracy
+
+![](img/vdem1.png){fig-align="center"}
+## How is democracy changing?
+
+![](img/vdem_region.png){fig-align="center"}\
+
+## How is governance changing?
+
+![](img/vdem_aspects.png){fig-align="center"}
+
+
+## How is governance changing?
+
+\
+
+1. Freedom of expression
+2. Clean elections
+3. Freedom of association
+
+## How is governance changing?
+
+- More people living under autocracy (1985 levels)
+- Concentration of global power is shifting (BRICS+)
+- 60 countries are holding national elections this year (31 worsening; 3 improving)
+
+**What did you find interesting?**
+
+
+## Critiques of VDem
+
+![](img/meng_1.png){fig-align="center"}
+## Critiques of VDem
+
+![](img/meng_2.png){fig-align="center"}
+
+## Critiques of VDem
+
+![](img/meng_3.png){fig-align="center"}
+
+## Critiques of VDem
+
+![](img/deed_turkey.png){fig-align="center"}
+## Critiques of VDem
+
+![](img/deed_brazil.png){fig-align="center"}
+
+## Critiques of VDem
+
+![](img/law_map.png){fig-align="center"}
+
+
+
+
+
+# Garcia-Ponce and Wantchekon
+
+
+
+# Final Project Essentials
+
+## Interaction Terms
+
+**What is an interaction term?**
+
+- Simple linear models assume that the effect of predictors is independent of other factors 
+- Interaction terms allow us to estimate the difference in the slope of a predictor across unit characteristics
+
+$$
+Y_i = \alpha + \beta_1 X_{i1} + \beta_2 X_{i2} + \beta_3 X_{i1}*X_{i2} + \epsilon_i
+$$
+
+## Interaction Terms
+
+**What are interaction terms used for?**
+
+- Heterogeneous effects
+- Difference-in-differences
+
+**Example:** Continuous outcome with two binary predictors
+
+- $\alpha$: Intercept when $X_{i1}$ and $X_{i2}$ are 0
+- $\beta_1$ Slope when $X_{i2} = 0$
+- $\beta_2$ Difference in $\alpha$ between $X_{i2}=0$ and $X_{i2}=1$
+- $\beta_3$ Difference in $\beta_1$ between $X_{i2}=0$ and $X_{i2}=1$

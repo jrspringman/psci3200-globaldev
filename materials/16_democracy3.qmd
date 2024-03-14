@@ -1,0 +1,20 @@
+---
+title: "Final Project Essentials"
+date: 2024-02-29
+---
+
+
+## Required Readings
+
+- [Hassan et al. (2022)](/files/politicalcontrol_printedition.pdf)
+- [Lebas and Young (2023)](/files/repression-and-dissent-in-moments-of-uncertainty-panel-data-evidence-from-zimbabwe.pdf)
+
+## Slides
+
+- [Slides](/slides/15-democracy2.html)
+
+## Interesting Stuff (non-required)
+
+- [Grillo et al. (2023)](/files/democratic_backsliding_arps__11_.pdf)
+
+
