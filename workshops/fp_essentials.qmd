@@ -303,3 +303,30 @@ ggplot(prediction_df, aes(x = year, y = prediction, color = factor(moved))) +
   ggtitle("Interaction Plot of z_participation_base by Year and Moved")
 
 ```
+
+
+## Fixed Effects
+
+
+```{r}
+#| echo: false
+#| warning: false
+
+table(dat$class_year)
+
+dat = dat %>% mutate(year = as.numeric(case_when(class_year == "Year I" ~ 1,
+                                                 class_year == "Year II" ~ 2,
+                                                 class_year == "Year III" ~ 3 )) )
+
+models <- list()
+models[['Simple']] = lm(z_participation_base ~ moved , dat)
+models[['Interaction']] = lm(z_participation_base ~ moved*year, dat)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+             statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
+
+```
+
