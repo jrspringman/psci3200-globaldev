@@ -1,6 +1,6 @@
 ---
 title: "Final Project Essentials"
-date: 2024-02-29
+date: 2024-03-19
 ---
 
 
@@ -11,7 +11,7 @@ date: 2024-02-29
 
 ## Slides
 
-- [Slides](/slides/15-democracy2.html)
+- [Slides](/slides/16-democracy3.html)
 
 ## Interesting Stuff (non-required)
 

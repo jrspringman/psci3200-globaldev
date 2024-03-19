@@ -14,9 +14,9 @@ week,date,date_end,title,deadline, reading,content,tutorial,assignment
 7,2024-02-29,,Conflict & Cohesion 2,,,/materials/13_conflict,/workshops/survey_data.html,
 8,2024-03-05,,Spring Break,,,,,
 8,2024-03-07,,Spring Break,,,,,
-9,2024-03-12,,Final Project Essentials,,,,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/fp_essentials.qmd,/assignments/03_fprqd
-9,2024-03-14,,Democracy and Autocratization 2,,VDem (2024); Garcia-Ponce and Wantchekon (2023) ,/materials/14_fp_essentials,,
-10,2024-03-19,,Democracy and Autocratization 3,,Hassan et al. (2022); Lebas and Young (2023),/materials/15_democracy2,,
+9,2024-03-12,,Final Project Essentials,,,/materials/14_fp_essentials,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/fp_essentials.qmd,/assignments/03_fprqd
+9,2024-03-14,,Democracy and Autocratization 2,,VDem (2024); Garcia-Ponce and Wantchekon (2023) ,/materials/15_democracy2,,
+10,2024-03-19,,Democracy and Autocratization 3,,Hassan et al. (2022); Lebas and Young (2023),/materials/16_democracy3,,
 10,2024-03-21,,Accountability and Information 1,,Jablonski and Seim (2023); Sierra (2020),,,/assignments/aau_survey
 11,2024-03-26,,Accountability 2,,Metaketa,,,
 11,2024-03-28,,Accountability 3,,Mares et al. (2023),,,
