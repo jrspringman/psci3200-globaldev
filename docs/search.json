@@ -35,25 +35,18 @@
     "text": "Using References\nCite cool work by outstanding scholars (Springman 2022) and automatically generate a references list."
   },
   {
-    "objectID": "workshops/fp_essentials.html#differences-over-time",
-    "href": "workshops/fp_essentials.html#differences-over-time",
-    "title": "Final Report Essentials",
-    "section": "Differences over time",
-    "text": "Differences over time\n\n\n\n\n\n\nSimple\n Interaction\n\n\n\n\n(Intercept)\n0.005 (0.035)\n0.009 (0.050)\n\n\nmoved\n0.377*** (0.043)\n0.440*** (0.062)\n\n\ntime\n\n−0.009 (0.070)\n\n\nmoved × time\n\n−0.125 (0.087)\n\n\nNum.Obs.\n1634\n1634\n\n\nR2 Adj.\n0.044\n0.047"
-  },
-  {
     "objectID": "workshops/fp_essentials.html#differences-across-groups",
     "href": "workshops/fp_essentials.html#differences-across-groups",
     "title": "Final Report Essentials",
     "section": "Differences across groups",
-    "text": "Differences across groups\n\n\n\n  Year I  Year II Year III \n     327      277      221 \n\n\n\n\n\n\nSimple\n Interaction\n\n\n\n\n(Intercept)\n0.009 (0.053)\n−0.024 (0.135)\n\n\nmoved\n0.440*** (0.066)\n0.670*** (0.167)\n\n\nyear\n\n0.017 (0.062)\n\n\nmoved × year\n\n−0.126 (0.080)\n\n\nNum.Obs.\n809\n809\n\n\nR2 Adj.\n0.052\n0.055"
+    "text": "Differences across groups\n\nBinary\n\n\n\n  Year I  Year II Year III \n     327      277      221 \n\n\n\n  0   1 \n327 221 \n\n\n\n\n\n\nBivariate\nMultivariate\n Interaction\n\n\n\n\n(Intercept)\n0.009 (0.053)\n0.035 (0.076)\n−0.030 (0.091)\n\n\nmoved\n0.440*** (0.066)\n0.505*** (0.082)\n0.600*** (0.109)\n\n\nyear\n\n−0.098 (0.082)\n0.033 (0.128)\n\n\nmoved × year\n\n\n−0.220 (0.166)\n\n\nNum.Obs.\n809\n534\n534\n\n\nR2 Adj.\n0.052\n0.070\n0.072\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nContinuous-ish\n\n\n\n  0   1   2 \n327 277 221 \n\n\n\n\n\n\nBivariate\nMultivariate\n Interaction\n\n\n\n\n(Intercept)\n0.009 (0.053)\n0.069 (0.066)\n−0.007 (0.082)\n\n\nmoved\n0.440*** (0.066)\n0.428*** (0.066)\n0.544*** (0.099)\n\n\nyear\n\n−0.060 (0.039)\n0.017 (0.062)\n\n\nmoved × year\n\n\n−0.126 (0.080)\n\n\nNum.Obs.\n809\n809\n809\n\n\nR2 Adj.\n0.052\n0.053\n0.055\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMore complex\n\n\n\n  0   1   2 \n327 277 221 \n\n\n\n\n\n\nBivariate\nMultivariate\n Interaction\n\n\n\n\n(Intercept)\n0.009 (0.053)\n0.082 (0.067)\n−0.030 (0.088)\n\n\nmoved\n0.440*** (0.066)\n0.437*** (0.066)\n0.600*** (0.106)\n\n\nyear2\n\n−0.122+ (0.073)\n0.101 (0.135)\n\n\nyear3\n\n−0.108 (0.079)\n0.033 (0.125)\n\n\nmoved × year2\n\n\n−0.315* (0.160)\n\n\nmoved × year3\n\n\n−0.220 (0.161)\n\n\nNum.Obs.\n809\n809\n809\n\n\nR2 Adj.\n0.052\n0.053\n0.056"
   },
   {
-    "objectID": "workshops/fp_essentials.html#fixed-effects",
-    "href": "workshops/fp_essentials.html#fixed-effects",
+    "objectID": "workshops/fp_essentials.html#differences-over-time",
+    "href": "workshops/fp_essentials.html#differences-over-time",
     "title": "Final Report Essentials",
-    "section": "Fixed Effects",
-    "text": "Fixed Effects"
+    "section": "Differences over time",
+    "text": "Differences over time\n\nCross-Sectional\n\n\n\n\n\n\nBivariate\nMultivariate\n Interaction\n\n\n\n\n(Intercept)\n0.005 (0.035)\n0.051 (0.041)\n0.009 (0.050)\n\n\nmoved\n0.377*** (0.043)\n0.377*** (0.043)\n0.440*** (0.062)\n\n\ntime\n\n−0.092* (0.041)\n−0.009 (0.070)\n\n\nmoved × time\n\n\n−0.125 (0.087)\n\n\nNum.Obs.\n1634\n1634\n1634\n\n\nR2 Adj.\n0.044\n0.046\n0.047\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFixed Effects\n\n\n   \n      0   1\n  0 283 542\n  1 283 542\n\n\n\n\n\n\n Interaction\n\n\n\n\n(Intercept)\n−0.271 (0.444)\n\n\nmoved\n0.226 (0.627)\n\n\ntime\n−0.007 (0.053)\n\n\nmoved × time\n−0.125+ (0.066)\n\n\nNum.Obs.\n1634\n\n\nR2 Adj.\n0.456"
   },
   {
     "objectID": "syllabus.html",
@@ -1096,7 +1089,7 @@
     "href": "slides/02-causal.html#central-tendency-mean",
     "title": "Correlation and Causation",
     "section": "Central Tendency: Mean",
-    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 8.769828\n\nmean(my_vector)\n\n[1] 8.769828"
+    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 8.187919\n\nmean(my_vector)\n\n[1] 8.187919"
   },
   {
     "objectID": "slides/02-causal.html#spread-variance",
@@ -2905,18 +2898,81 @@
     "text": "Policy Implications\n\n\n\nHistorical social movements help understand the link between structural conditions and democratic development\nNon-violent collective action appears critical for the establishment of lasting democracy"
   },
   {
+    "objectID": "slides/16-democracy3.html#political-control",
+    "href": "slides/16-democracy3.html#political-control",
+    "title": "Democracy and Autocratization 3",
+    "section": "Political Control",
+    "text": "Political Control\n\n\n\nStrategies of Control\n\nViolence\nIndoctrination\nCoercive distribution\nInfiltration"
+  },
+  {
+    "objectID": "slides/16-democracy3.html#repression-and-backlash",
+    "href": "slides/16-democracy3.html#repression-and-backlash",
+    "title": "Democracy and Autocratization 3",
+    "section": "Repression and Backlash",
+    "text": "Repression and Backlash\n\n\nMoments of uncertainty about political opportunity\n\nCitizens uncertain about relative strength of regime and opposition\n\nRisk of repression (cost)\nSize of protests (benefit)"
+  },
+  {
+    "objectID": "slides/16-democracy3.html#research-questions",
+    "href": "slides/16-democracy3.html#research-questions",
+    "title": "Democracy and Autocratization 3",
+    "section": "Research Questions",
+    "text": "Research Questions\n\n\n\nHow are are individual decisions about protest affected by dissent and repression of others\nWhat are the mechanisms?\n\nInformation on costs and benefits\nAffective polarization\nEmotions"
+  },
+  {
+    "objectID": "slides/16-democracy3.html#context-1",
+    "href": "slides/16-democracy3.html#context-1",
+    "title": "Democracy and Autocratization 3",
+    "section": "Context",
+    "text": "Context\nPolitical moment\n\nRuling party leadership transition\nContentious election\nEconomic crisis\n\nTreatment\n\nExposure to local dissent\nExposure to local repression"
+  },
+  {
+    "objectID": "slides/16-democracy3.html#measurement",
+    "href": "slides/16-democracy3.html#measurement",
+    "title": "Democracy and Autocratization 3",
+    "section": "Measurement",
+    "text": "Measurement"
+  },
+  {
+    "objectID": "slides/16-democracy3.html#design",
+    "href": "slides/16-democracy3.html#design",
+    "title": "Democracy and Autocratization 3",
+    "section": "Design",
+    "text": "Design\n\nDifference-in-difference estimator can partials out time-invariant differences across participants\nAssumes units are on similar trajectories prior to the treatment\nBias could be introduced if individual shocks co-occur with treatment"
+  },
+  {
+    "objectID": "slides/16-democracy3.html#difference-in-differences",
+    "href": "slides/16-democracy3.html#difference-in-differences",
+    "title": "Democracy and Autocratization 3",
+    "section": "Difference-in-Differences",
+    "text": "Difference-in-Differences\n\n\nShow code\nYear = c(0,1,2,3)\nOutcome = c(NA, 1.3, 1.5, 1.7,\n            1, 1.2, 1.4,1.6,\n            1.1, 1.3, 1.7, 1.9)\nTreatment = c(\"Comparison\",\"Comparison\",\"Comparison\",\"Comparison\",\n              \"Control\", \"Control\",\"Control\",\"Control\",\n              \"Treatment\", \"Treatment\", \"Treatment\", \"Treatment\")\n\ndat = data.frame(Year, Outcome, Treatment)\ndat$Treatment = factor(dat$Treatment, levels = c(\"Treatment\", \"Comparison\", \"Control\"))\n\nggplot(data = dat, aes(x = Year, y = Outcome,  color = Treatment)) +\n  geom_line(aes(linetype=Treatment),size=2) +\n  geom_point(size = 6) +\n  ylim(0.8, 2.2) +\n  scale_linetype_manual(values=c(\"solid\", \"dotted\", \"solid\")) +\n  scale_color_manual(values = c(\"blue\", \"black\", \"red\"  ) ) +\n  theme(legend.position = c(0.8, 0.2), text = element_text(size=20),\n        legend.title=element_blank())"
+  },
+  {
+    "objectID": "slides/16-democracy3.html#findings-1",
+    "href": "slides/16-democracy3.html#findings-1",
+    "title": "Democracy and Autocratization 3",
+    "section": "Findings",
+    "text": "Findings"
+  },
+  {
+    "objectID": "slides/16-democracy3.html#findings-2",
+    "href": "slides/16-democracy3.html#findings-2",
+    "title": "Democracy and Autocratization 3",
+    "section": "Findings",
+    "text": "Findings\n\nExposure to dissent and repression increases willingness of non-supporters to protest\nDifferent mechanisms drive diffusion and backlash\n\nObserving dissent affects beliefs about dissent (but not perceptions of risk)\nObserving repression affects emotions (but also risk)\n\nLocal events drive diffusion and backlash; media events do not"
+  },
+  {
     "objectID": "slides/16-democracy3.html#interaction-terms",
     "href": "slides/16-democracy3.html#interaction-terms",
     "title": "Democracy and Autocratization 3",
     "section": "Interaction Terms",
-    "text": "Interaction Terms\nWhat is an interaction term?\n\nSimple linear models assume that the effect of predictors is independent of other factors\nInteraction terms allow us to estimate the difference in the slope of a predictor across unit characteristics\n\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\beta_3 X_{i1}*X_{i2} + \\epsilon_i\n\\]"
+    "text": "Interaction Terms\nWhat is an interaction term?\n\nSimple linear models assume that the effect of predictors is independent of other factors\nInteraction terms allow us to estimate the difference in the slope of a predictor across unit characteristics\n\nWhat are they used for?\n\nHeterogeneous effects\nDifference-in-differences"
   },
   {
     "objectID": "slides/16-democracy3.html#interaction-terms-1",
     "href": "slides/16-democracy3.html#interaction-terms-1",
     "title": "Democracy and Autocratization 3",
     "section": "Interaction Terms",
-    "text": "Interaction Terms\nWhat are interaction terms used for?\n\nHeterogeneous effects\nDifference-in-differences\n\nExample: Continuous outcome with two binary predictors\n\n\\(\\alpha\\): Intercept when \\(X_{i1}\\) and \\(X_{i2}\\) are 0\n\\(\\beta_1\\) Slope when \\(X_{i2} = 0\\)\n\\(\\beta_2\\) Difference in \\(\\alpha\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\\(\\beta_3\\) Difference in \\(\\beta_1\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Interaction Terms\nHow do they do work?\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\beta_3 (X_{i1}*X_{i2}) + \\epsilon_i\n\\]\nExample: Continuous outcome with two binary predictors\n\n\\(\\alpha\\): Intercept when \\(X_{i1}\\) and \\(X_{i2}\\) are 0\n\\(\\beta_1\\) Slope when \\(X_{i2} = 0\\)\n\\(\\beta_2\\) Difference in \\(\\alpha\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\\(\\beta_3\\) Difference in \\(\\beta_1\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
     "objectID": "workshops/causal3.html",
