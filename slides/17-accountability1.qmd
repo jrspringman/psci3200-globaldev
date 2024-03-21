@@ -45,13 +45,91 @@ editor: source
 
 ## Background
 
+\
+
+**What is political accountability?**
+
+::: {.fragment}
+- Answerability
+- Enforceability
+:::
+
+## Background
+
+**What is a state?**
+
+::: {.fragment}
+- An entity with a monopoly on the legitimate use of physial violence
+- Capacity to act as the sole arbiter and enforcer of law and order
+:::
+
+::: {.fragment}
+**What are a state's essential functions?
+:::
+
+::: {.fragment}
+1. War making: eliminating external rivals
+2. State making: Eliminating internal rivals
+3. Protection: Protecting clients
+4. Extraction: Acquiring resources
+:::
+
+## Background
+
+**State formation**
+
+- States have their origins as armed actors
+- The most successful armed actors became states
+- Where armed actors establish states depends on their ability to tax
+- Taxation induces proto-accountability: more wealthy people means more tax revenue
+- States lead to the emergence of growth
+
+**What is the distinction between roving and stationary bandits?**
+
+## Background
+
+**The resource curse**
+
+- Abundant natural resources are associated with lower growth, more conflict, and worse human outcomes?
+- Why might abundant natural resources reduce political accountability?
+
 ## Theory
+
+**Observability and incentives**
+
+::: {.fragment}
+::: {.incremental}
+- Taxation requires providing protection and establishing a monopoly of violence
+- If production can be observed, a higher value of output increase returns to taxing production *where output is produced* (direct)
+- If production can't be easily observed, a higher value of output increases returns to taxing production through *people and consumption* (indirect)
+- Taxing people requires more sophisticated administration (capacity) and 
+:::
+:::
+
+## Data
+
+**Sample**
+
+- Panel data on village histories (1995-2013)
+- 650 locations
+
+**Outcomes**
+
+- Stationary bandit, output taxation, sophisticated taxation, security services, fiscal and judicial administration
+
+## Research Design
+
+- Demand shocks for two resources
+  + Coltan is observable
+  + Gold is not observable
+- Exogenous timing
+
 
 ## Mechanisms
 
 ## Findings
 
-## Research Design
+
 
 ## Policy Implications
 
