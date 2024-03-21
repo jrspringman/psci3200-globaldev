@@ -17,15 +17,15 @@ week,date,date_end,title,deadline, reading,content,tutorial,assignment
 9,2024-03-12,,Final Project Essentials,,,/materials/14_fp_essentials,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/fp_essentials.qmd,/assignments/03_fprqd
 9,2024-03-14,,Democracy and Autocratization 2,,VDem (2024); Garcia-Ponce and Wantchekon (2023) ,/materials/15_democracy2,,
 10,2024-03-19,,Democracy and Autocratization 3,,Hassan et al. (2022); Lebas and Young (2023),/materials/16_democracy3,,
-10,2024-03-21,,Accountability and Information 1,,Jablonski and Seim (2023); Sierra (2020),/materials/17_accountability1,,
-11,2024-03-26,,Accountability 2,,Metaketa,/materials/18_accountability2,,/assignments/aau_survey
-11,2024-03-28,,Accountability 3,,Mares et al. (2023),,,
-12,2024-04-02,,Foreign Aid and NGOs 1,,Briggs; Bold et al. (2018,,,/assignments/fp_proposal
+10,2024-03-21,,Accountability and Information 1,,Jablonski and Seim (2023); Sierra (2020),/materials/17_accountability1,,/assignments/aau_survey
+11,2024-03-26,,Accountability 2,,No readings,/materials/18_accountability2,,
+11,2024-03-28,,Accountability 3,,Metaketa,,,/assignments/aau_survey
+12,2024-04-02,,Foreign Aid and NGOs 1,,Briggs; Bold et al. (2018,,,
 12,2024-04-04,,Foreign Aid and NGOs 2,,O'Brien (2023); Cruz (2017),,,
-13,2024-04-09,,Foreign Aid and NGOs 3,,TBD,,,
-13,2024-04-11,,Climate and Adaptation 1,,Alberto et al. (2022),,,/assignments/khm_budget
+13,2024-04-09,,Foreign Aid and NGOs 3,,TBD,,,/assignments/fp_proposal
+13,2024-04-11,,Climate and Adaptation 1,,Alberto et al. (2022),,,
 14,2024-04-16,,Climate and Adaptation 2,,TBD,,,
-14,2024-04-18,,No Class,,,,,
+14,2024-04-18,,No Class,,,,,/assignments/khm_budget
 15,2024-04-23,,Effective Interventions 1,,CCTs,,,
 15,2024-04-25,,Effective Interventions 2,,Health,,,/assignments/da_5
 16,2024-04-30,,Effective Interventions 3,,Other,,,/assignments/fp_webpage

@@ -64,7 +64,7 @@ editor: source
 :::
 
 ::: {.fragment}
-**What are a state's essential functions?
+**What are a state's essential functions?**
 :::
 
 ::: {.fragment}
@@ -115,21 +115,33 @@ editor: source
 
 **Outcomes**
 
-- Stationary bandit, output taxation, sophisticated taxation, security services, fiscal and judicial administration
+- State formation: Stationary bandit, output taxation, sophisticated taxation, security services, fiscal and judicial administration
+- Population welfare: Savings, weddings, migrants
 
 ## Research Design
 
 - Demand shocks for two resources
   + Coltan is observable
   + Gold is not observable
-- Exogenous timing
-
-
-## Mechanisms
+- Exogenous timing of mineral price changes
 
 ## Findings
 
+![](img/sierra1.png){fig-align="center"}
 
+## Findings
+
+![](img/sierra2.png){fig-align="center"}
+
+
+## Findings
+
+- Coltan prices:
+  + Increase stationary bandits, security at mines (not villages), simple taxation, and welfare (militia only)
+  + Decrease fiscal and judicial administration
+- Gold prices:
+  + Increase stationary bandits, security at villages (not mines), sophisticated taxation, fiscal and judicial administration, and welfare (army or militia)
+- Stationary bandits increase HH welfare if the value of the protection they provide outweighs the distortionary effect of their taxation
 
 ## Policy Implications
 
