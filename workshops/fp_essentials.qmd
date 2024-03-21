@@ -127,8 +127,8 @@ dat = dat %>%
 # Create z-score function from Kling, Liberman, and Katz (2007)
 z_score = function(x, y){
   # calculate mean and sd of control group
-  c_mean = mean( as.numeric( unlist(x[x["moved"] == 0, y])) , na.rm = T)
-  c_sd = sd( as.numeric( unlist(x[x["moved"] == 0, y])) , na.rm = T)
+  c_mean = mean( as.numeric( unlist(x[, y])) , na.rm = T)
+  c_sd = sd( as.numeric( unlist(x[, y])) , na.rm = T)
   # subtract control group mean; divide by control group SD
   ( as.numeric(x[, y, drop = TRUE]) - c_mean) / c_sd
 }
@@ -440,6 +440,7 @@ ggplot(prediction_df, aes(x = time, y = prediction, color = factor(moved))) +
 table(regd$time, regd$moved)
 
 models <- list()
+models[['Fixed Effects']] = lm(z_participation ~ time + factor(response_id), regd)
 models[['Interaction']] = lm(z_participation ~ moved + time + moved*time + factor(response_id), regd)
 
 modelsummary(

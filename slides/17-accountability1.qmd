@@ -26,10 +26,12 @@ editor: source
 
 - Today
   + [de la Sierra (2020)](/files/sierra_2020.pdf)
-  + [Jablonski and Seim (2023)](/files/what-politicians-do-not-know-can-hurt-you-the-effects-of-information-on-politicians-spending-decisions.pdf)
 - Tuesday (3/26)
+  + [Jablonski and Seim (2023)](/files/what-politicians-do-not-know-can-hurt-you-the-effects-of-information-on-politicians-spending-decisions.pdf)
+  + Questions about Data Assignment 1
+- Thursday (3/28)
   + Data Assignment 1 Due
-  + Two readings on Accountability and Information
+  + Readings on Accountability and Information
 
   
 ## Agenda
@@ -37,9 +39,8 @@ editor: source
 \
 
 1. de la Sierra (2020)
-2. Jablonski and Seim (2023)
-3. Final Project Essentials: Interaction terms and Fixed Effects
-
+2. Final Project Essentials: Interaction terms and Fixed Effects
+3. Data Assignment 1
 
 # de la Sierra (2020)
 
@@ -56,12 +57,18 @@ editor: source
 
 ## Background
 
+\
+
 **What is a state?**
 
 ::: {.fragment}
 - An entity with a monopoly on the legitimate use of physial violence
 - Capacity to act as the sole arbiter and enforcer of law and order
 :::
+
+## Background
+
+\
 
 ::: {.fragment}
 **What are a state's essential functions?**
@@ -73,6 +80,7 @@ editor: source
 3. Protection: Protecting clients
 4. Extraction: Acquiring resources
 :::
+
 
 ## Background
 

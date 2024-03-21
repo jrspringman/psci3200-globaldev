@@ -30,7 +30,7 @@ In this assignment, you will be required to:
 - Estimate *and interpret* linear models and interaction effects
 - Describe your reasoning and demonstrate understanding of core concepts
 
-I am using a representative survey of students from Addis Ababa University in Ethiopia collected by DevLab researchers. This data contains two waves collected in May-June and October-November of 2022. A total of 825 students completed both waves of the survey. This data was part of a randomized experiment inviting students to participate in a one-day workshop that connected them with opportunities to interact with leaders of civil society, sign-up as volunteers in civil society organizations, and engage in structured dialogue about politics with a diverse group of peers.
+We are using a representative survey of students from Addis Ababa University in Ethiopia collected by DevLab researchers. This data contains two waves collected in May-June and October-November of 2022. A total of 825 students completed both waves of the survey. This data was part of a randomized experiment inviting students to participate in a one-day workshop that connected them with opportunities to interact with leaders of civil society, sign-up as volunteers in civil society organizations, and engage in structured dialogue about politics with a diverse group of peers.
 
 
 ## Part 1: Read-in data and prepare for analysis
@@ -50,6 +50,7 @@ library(gt)
 library(modelsummary)
 
 # read-in data
+# dat = read_csv(here::here("workshops/aau_survey/clean_endline_did.csv" )) %>%
 dat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" ) %>%
     # clean home region variable
   mutate(q8_baseline = ifelse(q8_baseline == "Southern Nations, Nationalities, and Peoples Region", "SNNPR", q8_baseline), 
@@ -59,7 +60,7 @@ palette = MetBrewer::met.brewer(name = "Cross")
 
 ```
 
-The dataset has a number of variables that you might use for the assignment. For each respondent, we have two observations made at different points in time (baseline and endline). The dataset is currently in 'wide' format, meaning that each respondent has one row and baseline and endline measurements for the same variable are stored in separate columns; measurements taken at baseline have the suffix `_baseline` included in the column name.
+The dataset has a number of variables that you might use for the assignment. For each respondent, we have two observations made at different points in time (baseline and endline). The dataset is currently in 'wide' format, meaning that each respondent has one row and baseline and endline measurements for the same variable are stored in separate columns. Measurements taken at baseline have the suffix `_baseline` included in the column name; for example, `q11_3` is the endline measurement and `q11_3_baseline` is the baseline measurement.
 
 Some of these variables are described below:
 
@@ -73,12 +74,12 @@ Some of these variables are described below:
 <!--   + `q14_5`:	Lack of information -->
 <!--   + `q14_4`:	Lack of interest -->
 <!--   + `q14_1`:	Lack of time or economic resources -->
-- Frequency of media consumption
-  + `q11_3`:	Frequency of news from newspapers
-  + `q11_1`:	Frequency of news from radio
-  + `q11_4`:	Frequency of news from social media
-  + `q11_2`:	Frequency of news from television
-  + `q12`:	Frequency of political posts on social media
+<!-- - Frequency of media consumption -->
+<!--   + `q11_3`:	Frequency of news from newspapers -->
+<!--   + `q11_1`:	Frequency of news from radio -->
+<!--   + `q11_4`:	Frequency of news from social media -->
+<!--   + `q11_2`:	Frequency of news from television -->
+<!--   + `q12`:	Frequency of political posts on social media -->
 - Future plans for a career in public sector or civil society
   + `q26_civ`:	Plan to work in civil society
   + `q26_politics`:	Plan to work in politics
@@ -93,19 +94,20 @@ Some of these variables are described below:
 
 **Requirement 1** (10%)
 
-For all variables in the lst after `user_language`, please rename the column with a descriptive name that better conveys their meaning. Column names should never contain spaces and should be as easy to type as possible. Do this for both their baseline and endline values, making sure to indicate which columns are baseline measures and which are endline measures.
+For all variables after `user_language`, please rename the column with a descriptive name that better conveys their meaning. Column names should never contain spaces and should be as easy to type as possible. Do this for both their baseline and endline values, making sure to indicate which columns are baseline measures and which are endline measures in the names you assign.
 
 ## Part 2: Create Index Measures
 
-Next, you'll need to create index measures for different types of variables.
+Next, you'll need to create index measures for different types of variables. We will use the two types of index methods described during the in-class workshop.
 
 **Requirement 2** (10%)
 
-First, in your own words, explain the concept of an additive index and an averaged z-score, including how they are calculated and when you should use them. What are the benefits of 
+First, in your own words, explain the concept of an additive index and an averaged z-score, including how they are calculated, when you should use them, and when you cannot use them. What are the benefits of each approach? 
 
 **Requirement 3** (20%)
 
 Next, you'll need to:
+
 1. Create an additive index for the baseline and endline measures of the "Future plans for a career in public sector or civil society" variables. This should correspond to seperate counts of the number of future plans that each individual has at baseline and endline.
 2. Create an averaged z-scores for the baseline and endline values of the "Future plans for a career in public sector or civil society" and "Feelings of political efficacy" variables.
 
@@ -115,11 +117,11 @@ Since many of these are ordered categorical values, you will need to convert the
 
 **Requirement 4** (20%)
 
-To make sure that these scores look as you'd expect, greate a `ggplot` visualizing the distribution of the z-scores at baseline and endline. You should have 4 figures: one corresponding to each z-score at baseline and endline. In words, describe whether the figures tell us anything about changes over time.
+To make sure that these scores look as you'd expect, create a `ggplot` visualizing the distribution of the z-scores at baseline and endline. You should have 4 figures: one corresponding to each z-score at baseline and endline. In words, describe whether the figures tell us anything about changes over time.
 
-## Estimating models
+## Part 3: Estimating models
 
-Subset your data to include only `response_id`, `q3_baseline` (which you should have renamed), and the baseline and endline measures for each z-score. You should end up with 6 variables in your dataframe. 
+Now, let's estimate some models to assess the relationship between the two index measures. Before we get started, subset your data to include only `response_id`, `q3_baseline` (which you should have renamed), and the baseline and endline measures for each z-score. You should end up with 6 variables in your dataframe. 
 
 
 **Requirement 5** (15%)
@@ -129,7 +131,7 @@ Using baseline values only, estimate a model regressing your "Future plans" inde
 $$
 Future\_plans_i = \alpha + \beta_1 Efficacy_{i1} + \epsilon_i
 $$
-In your own words, interpret the meaning of $\alpha$ and $\beta_1$.
+Use the `modelsummary()`package to visualize the results as a table. In your own words, interpret the meaning of $\alpha$ and $\beta_1$. Substantively, how should we interpret the relationship described in the data? What *does* this tell us about the world? What assumptions would we need in order to interpret the relationship as causal?
 
 **Requirement 6** (15%)
 
@@ -140,19 +142,19 @@ Using baseline values only, estimate the same model, but interact your binary "F
 $$
 Future\_plans_i = \alpha + \beta_1 Efficacy_{i} + \beta_2 Gender_{i} + \beta_3 (Efficacy_{i}*Gender_{i}) + \epsilon_i
 $$
-In your own words, interpret the meaning of $\alpha$, $\beta_1$, $\beta_2$, and $\beta_3$.
+Use the `modelsummary()`package to visualize the results as a table. In your own words, interpret the meaning of $\alpha$, $\beta_1$, $\beta_2$, and $\beta_3$. Substantively, how should we interpret the interactive relationship described in the data?
 
 
 **Requirement 7** (10%)
 
-Convert the data from 'wide' to 'long' format, so that each respondent (`response_id`) has two rows of data; one row is baseline and one row is endline. Create a `Post` indicator that takes a value of 1 in rows that contain endline measures and a value of 0 in rows that contain baseline measures.
+Convert the data from 'wide' to 'long' format, so that each respondent (`response_id`) has two rows of data; one row is baseline and one row is endline. 
 
-Using this new 'long' format, estimate the same model, but interact your binary "Feelings of political efficacy" indicator with the Post indicator. Your model should take the following form: 
+Using this new 'long' format, estimate the original model, but add unit (`response_id`) fixed effects. Your model should take the following form: 
 
 $$
-Future\_plans_{it} = \alpha + \beta_1 Efficacy_{it} + \beta_2 Post_{it} + \beta_3 (Efficacy_{it}*Post_{it}) + \epsilon_{it}
+Future\_plans_{it} = \alpha + \beta_1 Efficacy_{it} + \gamma_i + \epsilon_{it}
 $$
 
-In your own words, interpret the meaning of $\alpha$, $\beta_1$, $\beta_2$, and $\beta_3$.
+In your own words, tell us how the meaning of $\beta_1$ has changed now that we've added fixed effects.
 
 
