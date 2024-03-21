@@ -1,0 +1,89 @@
+---
+title: "Accountability and Information 1"
+subtitle: "Final Project Essentials: Fixed Effects"
+author: "Jeremy Springman"
+institute: "University of Pennsylvania"
+
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+    - title-slide.html
+    gfm:
+    mermaid-format: png
+editor: source
+---
+
+# Logistics
+
+## Assignments
+
+- Today
+  + [de la Sierra (2020)](/files/sierra_2020.pdf)
+  + [Jablonski and Seim (2023)](/files/what-politicians-do-not-know-can-hurt-you-the-effects-of-information-on-politicians-spending-decisions.pdf)
+- Tuesday (3/26)
+  + Data Assignment 1 Due
+  + Two readings on Accountability and Information
+
+  
+## Agenda
+
+\
+
+1. de la Sierra (2020)
+2. Jablonski and Seim (2023)
+3. Final Project Essentials: Interaction terms and Fixed Effects
+
+
+# de la Sierra (2020)
+
+## Background
+
+## Theory
+
+## Mechanisms
+
+## Findings
+
+## Research Design
+
+## Policy Implications
+
+# Jablonski and Seim (2023)
+
+# Final Project Essentials
+
+## Interaction Terms
+
+**What is an interaction term?**
+
+- Simple linear models assume that the effect of predictors is independent of other factors 
+- Interaction terms allow us to estimate the difference in the slope of a predictor across unit characteristics
+
+**What are they used for?**
+
+- Heterogeneous effects
+- Difference-in-differences
+
+## Interaction Terms
+
+
+**How do they do work?**
+
+$$
+Y_i = \alpha + \beta_1 X_{i1} + \beta_2 X_{i2} + \beta_3 (X_{i1}*X_{i2}) + \epsilon_i
+$$
+
+
+**Example:** Continuous outcome with two binary predictors
+
+- $\alpha$: Intercept when $X_{i1}$ and $X_{i2}$ are 0
+- $\beta_1$ Slope when $X_{i2} = 0$
+- $\beta_2$ Difference in $\alpha$ between $X_{i2}=0$ and $X_{i2}=1$
+- $\beta_3$ Difference in $\beta_1$ between $X_{i2}=0$ and $X_{i2}=1$
