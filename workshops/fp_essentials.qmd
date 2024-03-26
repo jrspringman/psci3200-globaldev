@@ -33,7 +33,8 @@ library(modelsummary)
 # cdat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/cambodia_ngos/data.csv")
 # dat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" ) %>%
 
-dat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" ) %>%
+#dat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" ) %>%
+dat = read_csv(here::here("workshops/aau_survey/clean_endline_did.csv" )) %>%
     # clean home region variable
   mutate(q8_baseline = ifelse(q8_baseline == "Southern Nations, Nationalities, and Peoples Region", "SNNPR", q8_baseline), 
          q8_baseline = str_remove(q8_baseline, " Region"))
@@ -445,10 +446,38 @@ models[['Interaction']] = lm(z_participation ~ moved + time + moved*time + facto
 
 modelsummary(
   models,
-  coef_omit = "factor\\(.*",
+  #coef_omit = "factor\\(.*",
   estimate  = "{estimate}{stars} ({std.error})",
              statistic = NULL,
   gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
+
+
+
+
+
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+
+table(regd$time, regd$moved)
+
+models <- list()
+models[['Fixed Effects']] = lm(z_participation ~ time + factor(response_id), regd)
+models[['Interaction']] = lm(z_participation ~ moved + time + moved*time + factor(response_id), regd)
+
+modelsummary(
+  models,
+  #coef_omit = "factor\\(.*",
+  estimate  = "{estimate}{stars} ({std.error})",
+             statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
+
+
+
+
 
 ```
 

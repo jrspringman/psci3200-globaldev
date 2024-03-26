@@ -50,8 +50,8 @@ library(gt)
 library(modelsummary)
 
 # read-in data
-# dat = read_csv(here::here("workshops/aau_survey/clean_endline_did.csv" )) %>%
-dat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" ) %>%
+dat = read_csv(here::here("workshops/aau_survey/clean_endline_did.csv" )) %>%
+#dat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" ) %>%
     # clean home region variable
   mutate(q8_baseline = ifelse(q8_baseline == "Southern Nations, Nationalities, and Peoples Region", "SNNPR", q8_baseline), 
          q8_baseline = str_remove(q8_baseline, " Region"))

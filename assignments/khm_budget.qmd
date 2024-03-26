@@ -29,7 +29,7 @@ library(gt)
 library(modelsummary)
 
 # read-in data
-cdat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/cambodia_ngos/data.csv")
+#cdat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/cambodia_ngos/data.csv")
 
 
 ```
