@@ -26,10 +26,9 @@ editor: source
 
 - Today
   + [Dunning et al. (2019)](/files/2019_Science_PE_voter_information_campaigns.pdf)
-  + **FINAL** questions about Data Assignment 1
-  + 
+  + Data Assignment 1 (due by midnight)
 - Tuesday (3/28)
-  + Foreign Aid
+  + Foreign aid readings
   + Github tutorial (maybe)
 - April 9
   + Final project proposal
@@ -39,32 +38,59 @@ editor: source
 \
 
 1. Dunning et al. (2019)
-2. Final Project Essentials: Fixed Effects
+2. **FINAL** questions about Data Assignment 1
+3. Final Project Essentials: Fixed Effects
 
 
-# Jablonski and Seim (2023)
+# Dunning et al. (2019)
+
+## Barriers hindering accumulation
+
+\
+
+**What is accumulation?**
+
+:::{.fragment}
+- Building knowledge across studies
+:::
+
+:::{.fragment}
+**What makes it difficult?**
+:::
+
+:::{.fragment}
+- Limited replication
+- Heterogeneity of design and measurement
+- Publication bias
+:::
+
+## Barriers hindering accumulation
+
+![](plane.png){fig-align="center"}
+
+
+## Facilitating accumulation 
+
+\
+
+**What solutions are discussed by the authors?**
+
+:::{.fragment}
+- Pre-registration
+- Harmonizing theory, measurement, and estimation
+- Publication of null results
+:::
+
+
+
+## Facilitating accumulation 
+
+![](img/dunning_metaketa.png){fig-align="center"}
+
 
 ## Models of political accountability
 
-**What is political accountability?**
-
-- Accountability is meant to produce *responsiveness*
-- Responsiveness means that a government "adopts policies that are signaled as preferred by citizens" (Manin, 1999)
-- If governments fail to adopt citizens' preferred policies, they will be sanctioned
-
-
-::: {.fragment}
-**Assumptions**
-:::
-
-::: {.fragment}
-- Politicians have information about what citizens want
-- Citizens have information about which policies a politician is responsible for
-:::
-
-## Models of political accountability
-
-**Accountability requires that Voters:**
+**Accountability requires that voters:**
 
 - Observe credible signal of performance
   + Attribution
@@ -74,54 +100,120 @@ editor: source
 
 ## Models of political accountability
 
+**What does the literature say?**
+
+- Theory is mixed
+  + Partisan and sectarian attachments are strong
+  + Voters may be reluctant to update their beliefs
+- Experimental results are mixed
+  + Demobilization
+  + Limited recall
+  + Ephemeral effects
+
+  
+## Research Design
+
+**Intervention**
+
+:::{.fragment}
+- Information on political *performance*
+  + Legislative behavior
+  + Spending irregularities
+  + Budget allocation
+  + Candidate experience
+  
+:::
+
+## Research Design
+
+**Accountability requires that voters:**
+
+- Observe credible signal of performance
+  + Attribution
+  + Benchmarking
+- Update their beliefs
+  + Good news: $Q > P \mid 1(P = Q, Q > med(Q) )$
+- Have credible alternatives
+
+
+## Ecological Validity
+
 \
 
-**Accountability requires that politicians:**
-
-- Seek to maintain office
-- Observe citizen preferences
-- Update their beliefs
-
-## Models of political accountability
-
-**Distributional politics**
-
-- Target public spending to maximize electoral advantage
-
-**Responsiveness**
-
-- Maximizing welfare across constituents
-
-**Decentalization**
-
-- Both sides have better information at a more local level 
-
-## Background
-
-![](img/arps1.png){fig-align="center"}
-
-## Background
-
-![](img/arps2.png){fig-align="center"}
+- How is information disseminated?
+- What is the real world activity being tested?
 
 
+## Describing Information
 
+![](img/dunning_pq.png){fig-align="center"}
 
-## Theory
+:::{.notes}
+- good news group is above the line 
+- correlation is positive but weak
+:::
 
+## Problems hindering accumulation
 
+![](plane.png){fig-align="center"}
 
 
 ## Research Design
+
+\
+
+**Core hypotheses:**
+
+:::{.fragment}
+1. Good news increases voter support for incumbents
+2. Bad news decreases voter support for incumbents
+3. Effect of information will increase with gap between Q and P
+4. Strongest for nonpartisan and non-coethnic voters
+:::
+
+## Findings
+
+![](img/dunning2.png){fig-align="center"}
+
+
+## Why the null results?
+
+:::{.fragment}
+- Source credibility?
+  + No...
+- Lack of retention
+- Lack of updating on politician performance 
+- Lack of updating about politician quality
+- Lack of coordination (private treatment)
+
+:::
+
+
+## Statistical Power
+
+\
+
+**Null results were not "foregone conclusion"?**
+
+:::{.fragment}
+- 80% power
+- Change the vote of 5/100 voters
+- Change turnout of 4/100 voters
+:::
 
 
 
 ## Findings
 
+![](img/dunning3.png){fig-align="center"}
 
+## Findings
 
-![](img/seim3.png){fig-align="center"}
+![](img/dunning4.png){fig-align="center"}
 
+## Findings
+
+![](img/dunning5.png){fig-align="center"}
 
 
 ## Policy Implications
@@ -129,8 +221,10 @@ editor: source
 \
 
 :::{.fragment}
-- Information gaps may explain disparities in public spending
-- Information can reduce disparities
+- Much of the work funded by donors is probably not having an impact on accountability
+- Targeting of information provision needs to be rethought
+  + Public dissemination and coordination
+
 :::
 
 # Data Assignment Questions
@@ -138,31 +232,92 @@ editor: source
 
 # Final Project Essentials
 
-## Fixed Effects
+## Unit Fixed Effects
 
-**What is an interaction term?**
+**What is a unit fixed effect?**
 
-- Simple linear models assume that the effect of predictors is independent of other factors 
-- Interaction terms allow us to estimate the difference in the slope of a predictor across unit characteristics
+- Simple linear models make comparisons both across and within units (when there are multiple measures)
+- Fixed effects 'absorb' variation across units; now coefficients estimate only the variation within units 
+- This 'controls' for time-invariant heterogeneity
 
 **What are they used for?**
 
-- Controlling for time-invariant group characteristics
+- Reducing concerns about confounding
 - Difference-in-differences
 
-## Fixed Effects
+## Unit Fixed Effects
 
-**How do they do work?**
+**Normal model**
 
 $$
-Y_i = \alpha + \beta_1 X_{i1} + \gamma_i + \epsilon_{it}
+Y_it = \alpha + \beta_1 X_{it} + \epsilon_{it}
+$$
+**Unit fixed Effects model**
+
+$$
+Y_it = \gamma_i + \beta_1 X_{it} + \epsilon_{it}
 $$
 
 
-**Example:** Continuous outcome with two binary predictors
+**Example:** Unit FEs with one binary predictor
 
-- $\alpha$: Intercept when $X_{i1}$ and $X_{i2}$ are 0
-- $\gamma_i$ Unique intercept for each group
-- $\beta_1$ Slope when 
+- $\alpha$: $E[Y_i]$ when $X_{i1} = 0$
+- $\gamma_i$: $E[Y_i]$ for every unit when $X_{i1} = 0$
+
+## Unit Fixed Effects
+
+**Unit fixed Effects model**
+
+$$
+Y_it = \gamma_i + \beta_1 X_{it} + \epsilon_{it}
+$$
 
 
+**How does the interpretation of $\beta_1$ change?
+
+- $\gamma_i$: $E[Y_i]$ when $X_{it} = 0$
+- $\beta_1$ Change in $E[Y_i]$ when $X_{it} = 1$
+- Each $\gamma_i$ will absorb everything that doesn’t vary over time in that unit
+
+## Unit Fixed Effects
+
+![](img/ufe.png){fig-align="center"}
+
+
+## Unit Fixed Effects
+
+
+```{r edu-ex-simpleb, echo=FALSE, fig.width=9, fig.height=4.5, out.width="100%"}
+library(ggplot2)
+library(ggdag)
+
+edu_ex_coords <- list(x = c(Small = 2, Score = 4, Year = 2, Wealth = 4, 
+                              Location = 3, Attention = 3, Effort = 1, U1 = 3),
+                        y = c(Small = 2, Score = 2, Year = 3, Wealth = 3, 
+                              Location = 3, Attention = 1, Effort = 2, U1 = 4))
+
+
+
+dagify(
+  Score ~ Small  + U1,
+  Small ~ U1,
+  exposure = "Small",
+  outcome = "Score",
+  latent = "U1",
+  labels = c("Small" = "Small Class", "Score" = "Test Scores",
+             "Year" = "Year", "Wealth" = "Parents' Wealth",
+             "Location" = "Location", "Attention" = "Teacher Attentioon",
+             "U1" = "Unobserved stuff"),
+  coords = edu_ex_coords) |> 
+  tidy_dagitty() |> 
+  node_status() |> 
+  ggplot(aes(x = x, y = y, xend = xend, yend = yend)) +
+  geom_dag_edges() +
+  geom_dag_point(aes(color = status), size = 14) +
+  geom_dag_text(color = "black", size = 5) +
+  scale_color_manual(values = c("#FF4136", "grey60", "#0074D9"),
+                     na.value = "#7FDBFF") +
+  guides(color = "none") +
+  theme_dag()
+
+```

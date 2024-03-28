@@ -433,53 +433,22 @@ ggplot(prediction_df, aes(x = time, y = prediction, color = factor(moved))) +
 
 ### Fixed Effects
 
-Controlling for time-invariant group characteristics
-- Show 
-
 
 ```{r}
 #| echo: false
 #| warning: false
 
-table(regd$time, regd$moved)
-
 models <- list()
+models[['Simple']] = lm(z_participation ~ time , regd)
 models[['Fixed Effects']] = lm(z_participation ~ time + factor(response_id), regd)
 models[['Interaction']] = lm(z_participation ~ moved + time + moved*time + factor(response_id), regd)
 
 modelsummary(
   models,
-  #coef_omit = "factor\\(.*",
+  coef_omit = "factor\\(.*",
   estimate  = "{estimate}{stars} ({std.error})",
              statistic = NULL,
   gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
-
-
-
-
-
-```
-
-
-```{r}
-#| echo: false
-#| warning: false
-
-table(regd$time, regd$moved)
-
-models <- list()
-models[['Fixed Effects']] = lm(z_participation ~ time + factor(response_id), regd)
-models[['Interaction']] = lm(z_participation ~ moved + time + moved*time + factor(response_id), regd)
-
-modelsummary(
-  models,
-  #coef_omit = "factor\\(.*",
-  estimate  = "{estimate}{stars} ({std.error})",
-             statistic = NULL,
-  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
-
-
-
 
 
 ```
