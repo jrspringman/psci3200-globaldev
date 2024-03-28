@@ -433,6 +433,9 @@ ggplot(prediction_df, aes(x = time, y = prediction, color = factor(moved))) +
 
 ### Fixed Effects
 
+Controlling for time-invariant group characteristics
+- Show 
+
 
 ```{r}
 #| echo: false

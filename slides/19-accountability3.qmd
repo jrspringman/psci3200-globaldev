@@ -1,0 +1,168 @@
+---
+title: "Accountability and Information 1"
+subtitle: "Final Project Essentials: Fixed Effects"
+author: "Jeremy Springman"
+institute: "University of Pennsylvania"
+
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+    - title-slide.html
+    gfm:
+    mermaid-format: png
+editor: source
+---
+
+# Logistics
+
+## Assignments
+
+- Today
+  + [Dunning et al. (2019)](/files/2019_Science_PE_voter_information_campaigns.pdf)
+  + **FINAL** questions about Data Assignment 1
+  + 
+- Tuesday (3/28)
+  + Foreign Aid
+  + Github tutorial (maybe)
+- April 9
+  + Final project proposal
+  
+## Agenda
+
+\
+
+1. Dunning et al. (2019)
+2. Final Project Essentials: Fixed Effects
+
+
+# Jablonski and Seim (2023)
+
+## Models of political accountability
+
+**What is political accountability?**
+
+- Accountability is meant to produce *responsiveness*
+- Responsiveness means that a government "adopts policies that are signaled as preferred by citizens" (Manin, 1999)
+- If governments fail to adopt citizens' preferred policies, they will be sanctioned
+
+
+::: {.fragment}
+**Assumptions**
+:::
+
+::: {.fragment}
+- Politicians have information about what citizens want
+- Citizens have information about which policies a politician is responsible for
+:::
+
+## Models of political accountability
+
+**Accountability requires that Voters:**
+
+- Observe credible signal of performance
+  + Attribution
+  + Benchmarking
+- Update their beliefs
+- Have credible alternatives
+
+## Models of political accountability
+
+\
+
+**Accountability requires that politicians:**
+
+- Seek to maintain office
+- Observe citizen preferences
+- Update their beliefs
+
+## Models of political accountability
+
+**Distributional politics**
+
+- Target public spending to maximize electoral advantage
+
+**Responsiveness**
+
+- Maximizing welfare across constituents
+
+**Decentalization**
+
+- Both sides have better information at a more local level 
+
+## Background
+
+![](img/arps1.png){fig-align="center"}
+
+## Background
+
+![](img/arps2.png){fig-align="center"}
+
+
+
+
+## Theory
+
+
+
+
+## Research Design
+
+
+
+## Findings
+
+
+
+![](img/seim3.png){fig-align="center"}
+
+
+
+## Policy Implications
+
+\
+
+:::{.fragment}
+- Information gaps may explain disparities in public spending
+- Information can reduce disparities
+:::
+
+# Data Assignment Questions
+
+
+# Final Project Essentials
+
+## Fixed Effects
+
+**What is an interaction term?**
+
+- Simple linear models assume that the effect of predictors is independent of other factors 
+- Interaction terms allow us to estimate the difference in the slope of a predictor across unit characteristics
+
+**What are they used for?**
+
+- Controlling for time-invariant group characteristics
+- Difference-in-differences
+
+## Fixed Effects
+
+**How do they do work?**
+
+$$
+Y_i = \alpha + \beta_1 X_{i1} + \gamma_i + \epsilon_{it}
+$$
+
+
+**Example:** Continuous outcome with two binary predictors
+
+- $\alpha$: Intercept when $X_{i1}$ and $X_{i2}$ are 0
+- $\gamma_i$ Unique intercept for each group
+- $\beta_1$ Slope when 
+
+
