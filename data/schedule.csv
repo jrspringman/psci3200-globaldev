@@ -17,15 +17,15 @@ week,date,date_end,title,deadline, reading,content,tutorial,assignment
 9,2024-03-12,,Final Project Essentials,,No readings,/materials/14_fp_essentials,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/fp_essentials.qmd,/assignments/03_fprqd
 9,2024-03-14,,Democracy and Autocratization 2,,VDem (2024); Garcia-Ponce and Wantchekon (2023) ,/materials/15_democracy2,,
 10,2024-03-19,,Democracy and Autocratization 3,,Hassan et al. (2022); Lebas and Young (2023),/materials/16_democracy3,,
-10,2024-03-21,,Accountability and Information 1,,Jablonski and Seim (2023),/materials/17_accountability1,,/assignments/aau_survey
+10,2024-03-21,,Accountability and Information 1,,Jablonski and Seim (2023),/materials/17_accountability1,,
 11,2024-03-26,,Accountability 2,,Sierra (2020),/materials/18_accountability2,,
 11,2024-03-28,,Accountability 3,,Dunning et al. (2019),/materials/19_accountability3,,/assignments/aau_survey
 12,2024-04-02,,Foreign Aid and NGOs 1,,Briggs (2016); Briggs (2021),/materials/20_aid1,,
 12,2024-04-04,,Foreign Aid and NGOs 2,,Cruz (2017); Bold et al. (2018),/materials/21_aid2,,
-13,2024-04-09,,Climate and Development,,O'Brien (2023),,,/assignments/fp_proposal
-13,2024-04-11,,Climate and Development 2,,Alberto et al. (2022),,,
-14,2024-04-16,,Climate and Development,,TBD,,,
-14,2024-04-18,,No Class,,,,,/assignments/khm_budget
-15,2024-04-23,,Effective Interventions 1,,CCTs,,,
-15,2024-04-25,,Effective Interventions 2,,Health,,,/assignments/da_5
-16,2024-04-30,,Effective Interventions 3,,Other,,,/assignments/fp_webpage
+13,2024-04-09,,Climate and Development (guest: O'Brien-Udry),,O'Brien-Udry (2023),,,
+13,2024-04-11,,Climate and Development 2,,Alberto et al. (2022),,,/assignments/04_fpdesign
+14,2024-04-16,,Probability and Hypothesis testing,,DSS Ch 6 and 7,,,
+14,2024-04-18,,No Class,,,,,
+15,2024-04-23,,Effective Interventions 1,,CCTs,,,/assignments/05_fptest
+15,2024-04-25,,Effective Interventions 2,,Health,,,
+16,2024-04-30,,Final Project Preparation,,,,,/assignments/fp_webpage

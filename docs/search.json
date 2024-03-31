@@ -1666,6 +1666,62 @@
     "text": "Slides\n\nThursday (1/18) lecture: Slides"
   },
   {
+    "objectID": "assignments/04_fpdesign.html",
+    "href": "assignments/04_fpdesign.html",
+    "title": "Final Project Research Design",
+    "section": "",
+    "text": "Your second assignment for the final project is specifying a research plan that will guide your investigation of the research question you have identified. This assignment is designed to get you thinking more clearly about a specific hypothesis related to your research question and how you can produce and present evidence for or against it.\nLike a Pre-Analysis Plan, you will need to state testable hypotheses, describe your measurement of the variables necessary to test the hypotheses, and specify a statistical model to conduct the test. Unlike a Pre-Analysis Plan, this is just a starting point.\nThis project should be submitted via Slack by 11:59pm EST on Thursday, April 11. Your submission must include:\n\nAn html file presenting your written design and figures. It is not necessary to show printed code.\nA .qmd file that you used to generate the html file\nAll code should be thoroughly commented to explain the choices you are making and the techniques you are using."
+  },
+  {
+    "objectID": "assignments/04_fpdesign.html#overview",
+    "href": "assignments/04_fpdesign.html#overview",
+    "title": "Final Project Research Design",
+    "section": "",
+    "text": "Your second assignment for the final project is specifying a research plan that will guide your investigation of the research question you have identified. This assignment is designed to get you thinking more clearly about a specific hypothesis related to your research question and how you can produce and present evidence for or against it.\nLike a Pre-Analysis Plan, you will need to state testable hypotheses, describe your measurement of the variables necessary to test the hypotheses, and specify a statistical model to conduct the test. Unlike a Pre-Analysis Plan, this is just a starting point.\nThis project should be submitted via Slack by 11:59pm EST on Thursday, April 11. Your submission must include:\n\nAn html file presenting your written design and figures. It is not necessary to show printed code.\nA .qmd file that you used to generate the html file\nAll code should be thoroughly commented to explain the choices you are making and the techniques you are using."
+  },
+  {
+    "objectID": "assignments/04_fpdesign.html#requirements",
+    "href": "assignments/04_fpdesign.html#requirements",
+    "title": "Final Project Research Design",
+    "section": "Requirements",
+    "text": "Requirements\nThis assignment has four components. The components are presented below, along with their importance for the grading of the overall assignment.\n\nDescribe your research question and provide some background on why you find it interesting or important. Be sure to incorporate the feedback provided on the first assignment. Include references to at least two pieces of existing research that illustrate what has already been discovered about the relationship you are investigating. This could be articles published in academic journals, policy reports and white papers, articles published by think tanks and other credible organizations (ex. Brookings, the United Nations High Commissioner for Refugees, etc.), or pieces of data journalism. A full-credit response will probably be around 150-200 words. (40%)\nState at least one testable hypothesis. Distill your research question into a statement about a specific relationship you expect to see in the world. In most cases, this hypothesis will describe a causal relationship between two variables (i.e. changes in x cause changes in y). Make an argument for why you expect to see this relationship. This should be based on related findings from existing research and/or your own theoretical/logical reasoning. A full-credit response will probably be around 150-200 words. (25%)\nBriefly discuss the specific variables you will use to test your hypothesis and the dataset they are drawn from. Be sure to mention the source of the data (the organization or individuals that produced it), the unit of analysis, and the sample. Create a ggplot to visualize the relationship between the variables being used to test your hypothesis. The best method of visualizing this relationship will depend on the scale of your variables. Good methods to consider are scatter plots (for continuous variables), grouped bar charts (for ordinal or binary variables), and line graphs (for continuous variables with time-series). (25%)\nSpecify the main regression model you will use to test your hypothesis. This regression model should provide a preliminary test for or against the validity of your hypothesis. Use markdown to render the equation neatly to the html file. (10%)\n\n\n\n\n\n\n\nNote\n\n\n\nA hypothesis should look like a prediction. Often, a hypothesis states that you expect a decrease or increase in one variable to cause a decrease or increase in another variable. A hypothesis must also be falsifiable. In other words, it must be possible to prove that the hypothesis is false by showing that the relationship you are predicting to see in your data is not actually present.\n\n\nIn the next assignment, you will be asked to discuss the assumptions that your research design is making. For example, you will need to describe the assumptions that are necessary to interpret your regression model as evidence for your hypothesis. You will also be asked to propose additional tests that can help justify these assumptions, using variables that are available in your dataset."
+  },
+  {
+    "objectID": "assignments/02_gitrepo.html",
+    "href": "assignments/02_gitrepo.html",
+    "title": "Creating a Final Project Git Repo",
+    "section": "",
+    "text": "Create a github profile and start a git repo for the final project:\n\nThe git repo should follow the naming convention: psci3200_yourname\nSend me the url to your repo by the end of class on Feb 8"
+  },
+  {
+    "objectID": "assignments/02_gitrepo.html#assignment",
+    "href": "assignments/02_gitrepo.html#assignment",
+    "title": "Creating a Final Project Git Repo",
+    "section": "",
+    "text": "Create a github profile and start a git repo for the final project:\n\nThe git repo should follow the naming convention: psci3200_yourname\nSend me the url to your repo by the end of class on Feb 8"
+  },
+  {
+    "objectID": "assignments/01_quarto.html",
+    "href": "assignments/01_quarto.html",
+    "title": "Getting Started with Quarto",
+    "section": "",
+    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
+  },
+  {
+    "objectID": "assignments/01_quarto.html#introduction",
+    "href": "assignments/01_quarto.html#introduction",
+    "title": "Getting Started with Quarto",
+    "section": "",
+    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
+  },
+  {
+    "objectID": "assignments/01_quarto.html#instructions",
+    "href": "assignments/01_quarto.html#instructions",
+    "title": "Getting Started with Quarto",
+    "section": "Instructions",
+    "text": "Instructions\nWith newer versions of RStudio, Quarto comes pre-packaged in the installation files. To check whether you have Quarto on your computer, open RStudio, click on the “Terminal” tab in the bottom left window, type quarto check into the terminal, and hit ENTER. If you have a new enough version of RStudio, the terminal should return something like what you see in the first screenshot below.\n\n\n\nCheck Installation Terminal\n\n\nIf you DON’T have a new enough version of RStudio, you’ll receive some error message. To fix this, all you should need to do is install the newest version of RStudio by going to the posit website and installing RStudio.\nFor next class, please be sure to have quarto functioning on your laptop because we’ll be doing some work creating quarto documents in class. To be absolutely sure, go to the “New File” icon in RStudio and click “Quarto Document.”\n\n\n\nCreate a Quarto\n\n\nYou should see something like the screenshot below. Give the document a Title and then click “Create.”\n\n\n\nName the Document\n\n\nA very basic .qmd file should open. Click “Render” (screenshot below) and RStudio will ask you to name the file. After you provide name, an html file should open for you in your internet browser or in the Viewer panel of RStudio (depending on your settings). Now you’re working in Quarto!\n\n\n\nRender the Document\n\n\nIf you have any trouble, post a message to the course Slack channel and I (or one of your classmates) can lend a hand."
+  },
+  {
     "objectID": "assignments/03_fprqd.html",
     "href": "assignments/03_fprqd.html",
     "title": "Research Question and Dataset",
@@ -1699,41 +1755,6 @@
     "title": "Research Question and Dataset",
     "section": "DevLab datasets",
     "text": "DevLab datasets\nThere are also many datasets collected by DevLab researchers. Below, I list several of the datasets that I was directly involved in. If you have a specific interest in a topic, I can also ask around DevLab to see if anyone has data available. In particular, I know there are several datasets on both migration and land-use that might be avaiable.\n\nMachine Learning for Peace\n\nThis data captures the volume of reporting from high-quality, local news sources on 42 distinct political events from 2012-2023 for 60 aid-receiving countries.\nFocuses on events that constitute changes in civic space, such as censorship, legal changes, and other forms of repression\n\nCambodian NGOs (n \\(\\approx\\) 100)\n\nConvenience sample\nPanel survey, financial data, networks, open-ended responses\nMeasures organization activities, spending, revenues, and management practices\n\nEthiopian University Students (n \\(\\approx\\) 900)\n\nRepresentative sample\nPanel survey, networks, open-ended responses\nMeasures political attitudes and behavior, with a focus on conflict and national/regional/ethnic identification\n\nGhanaian Radio Stations (n \\(\\approx\\) 400)\n\nConvenience sample\nQuestions on organization activities, spending, revenues, and management practices, with a focus on conflict and misinformation"
-  },
-  {
-    "objectID": "assignments/01_quarto.html",
-    "href": "assignments/01_quarto.html",
-    "title": "Getting Started with Quarto",
-    "section": "",
-    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
-  },
-  {
-    "objectID": "assignments/01_quarto.html#introduction",
-    "href": "assignments/01_quarto.html#introduction",
-    "title": "Getting Started with Quarto",
-    "section": "",
-    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
-  },
-  {
-    "objectID": "assignments/01_quarto.html#instructions",
-    "href": "assignments/01_quarto.html#instructions",
-    "title": "Getting Started with Quarto",
-    "section": "Instructions",
-    "text": "Instructions\nWith newer versions of RStudio, Quarto comes pre-packaged in the installation files. To check whether you have Quarto on your computer, open RStudio, click on the “Terminal” tab in the bottom left window, type quarto check into the terminal, and hit ENTER. If you have a new enough version of RStudio, the terminal should return something like what you see in the first screenshot below.\n\n\n\nCheck Installation Terminal\n\n\nIf you DON’T have a new enough version of RStudio, you’ll receive some error message. To fix this, all you should need to do is install the newest version of RStudio by going to the posit website and installing RStudio.\nFor next class, please be sure to have quarto functioning on your laptop because we’ll be doing some work creating quarto documents in class. To be absolutely sure, go to the “New File” icon in RStudio and click “Quarto Document.”\n\n\n\nCreate a Quarto\n\n\nYou should see something like the screenshot below. Give the document a Title and then click “Create.”\n\n\n\nName the Document\n\n\nA very basic .qmd file should open. Click “Render” (screenshot below) and RStudio will ask you to name the file. After you provide name, an html file should open for you in your internet browser or in the Viewer panel of RStudio (depending on your settings). Now you’re working in Quarto!\n\n\n\nRender the Document\n\n\nIf you have any trouble, post a message to the course Slack channel and I (or one of your classmates) can lend a hand."
-  },
-  {
-    "objectID": "assignments/02_gitrepo.html",
-    "href": "assignments/02_gitrepo.html",
-    "title": "Creating a Final Project Git Repo",
-    "section": "",
-    "text": "Create a github profile and start a git repo for the final project:\n\nThe git repo should follow the naming convention: psci3200_yourname\nSend me the url to your repo by the end of class on Feb 8"
-  },
-  {
-    "objectID": "assignments/02_gitrepo.html#assignment",
-    "href": "assignments/02_gitrepo.html#assignment",
-    "title": "Creating a Final Project Git Repo",
-    "section": "",
-    "text": "Create a github profile and start a git repo for the final project:\n\nThe git repo should follow the naming convention: psci3200_yourname\nSend me the url to your repo by the end of class on Feb 8"
   },
   {
     "objectID": "assignments/aau_survey.html",
@@ -2048,7 +2069,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should complete the required readings before each meeting.\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting\nWorkshop (): A link to the workshop for that week\nAssignment (): This page contains the instructions for each assignment\n\nThe readings refer to following texts:\n\nDSS: Data Analysis for Social Science: A Friendly and Practical Introduction (DSS) by Kosuke Imai and Elena Llaudet\nTCD: Thinking clearly with data: A guide to quantitative reasoning and analysis by Ethan Bueno de Mesquita and Anthony Fowler\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nWorkshop\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nIntroduction to the course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nCorrelation and Causation\n\n\nTCD Ch 2-3\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nCausal Inference 1\n\n\nDSS Ch 2; Duflo (2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nSurvey Research\n\n\nDSS Ch 3\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nDemocracy and Autocratization 1 (Survey Experiments)\n\n\nGrady; Albertus and Grossman (2021); Hollerbauer et al. (2024)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nLinear Regression\n\n\nDSS Ch 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nCausal Inference 2\n\n\nDSS Ch 5\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nMigration 1\n\n\n3ie; Sviatschi (2022); Gazeaud (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nMigration 2 (guest: Wibbels)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nCrime 1 (guest: Schmidt-Padilla)\n\n\nDell (2015); Sviatschi (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nCrime 2 (guest: Schmidt-Padilla)\n\n\nAngelova et al. (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nConflict & Cohesion 1\n\n\nPaluck et al. (2021); Grady et al. (2023); Mousa (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nConflict & Cohesion 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nFinal Project Essentials\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nDemocracy and Autocratization 2\n\n\nVDem (2024); Garcia-Ponce and Wantchekon (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nDemocracy and Autocratization 3\n\n\nHassan et al. (2022); Lebas and Young (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nAccountability and Information 1\n\n\nJablonski and Seim (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nAccountability 2\n\n\nSierra (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nAccountability 3\n\n\nDunning et al. (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nForeign Aid and NGOs 1\n\n\nBriggs (2016); Briggs (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nForeign Aid and NGOs 2\n\n\nCruz (2017); Bold et al. (2018)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nClimate and Development\n\n\nO’Brien (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nClimate and Development 2\n\n\nAlberto et al. (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nClimate and Development\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nNo Class\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nEffective Interventions 1\n\n\nCCTs\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nEffective Interventions 2\n\n\nHealth\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nEffective Interventions 3\n\n\nOther"
+    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should complete the required readings before each meeting.\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting\nWorkshop (): A link to the workshop for that week\nAssignment (): This page contains the instructions for each assignment\n\nThe readings refer to following texts:\n\nDSS: Data Analysis for Social Science: A Friendly and Practical Introduction (DSS) by Kosuke Imai and Elena Llaudet\nTCD: Thinking clearly with data: A guide to quantitative reasoning and analysis by Ethan Bueno de Mesquita and Anthony Fowler\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nWorkshop\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nIntroduction to the course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nCorrelation and Causation\n\n\nTCD Ch 2-3\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nCausal Inference 1\n\n\nDSS Ch 2; Duflo (2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nSurvey Research\n\n\nDSS Ch 3\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nDemocracy and Autocratization 1 (Survey Experiments)\n\n\nGrady; Albertus and Grossman (2021); Hollerbauer et al. (2024)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nLinear Regression\n\n\nDSS Ch 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nCausal Inference 2\n\n\nDSS Ch 5\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nMigration 1\n\n\n3ie; Sviatschi (2022); Gazeaud (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nMigration 2 (guest: Wibbels)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nCrime 1 (guest: Schmidt-Padilla)\n\n\nDell (2015); Sviatschi (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nCrime 2 (guest: Schmidt-Padilla)\n\n\nAngelova et al. (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nConflict & Cohesion 1\n\n\nPaluck et al. (2021); Grady et al. (2023); Mousa (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nConflict & Cohesion 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nFinal Project Essentials\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nDemocracy and Autocratization 2\n\n\nVDem (2024); Garcia-Ponce and Wantchekon (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nDemocracy and Autocratization 3\n\n\nHassan et al. (2022); Lebas and Young (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nAccountability and Information 1\n\n\nJablonski and Seim (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nAccountability 2\n\n\nSierra (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nAccountability 3\n\n\nDunning et al. (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nForeign Aid and NGOs 1\n\n\nBriggs (2016); Briggs (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nForeign Aid and NGOs 2\n\n\nCruz (2017); Bold et al. (2018)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nClimate and Development (guest: O’Brien-Udry)\n\n\nO’Brien-Udry (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nClimate and Development 2\n\n\nAlberto et al. (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nProbability and Hypothesis testing\n\n\nDSS Ch 6 and 7\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nNo Class\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nEffective Interventions 1\n\n\nCCTs\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nEffective Interventions 2\n\n\nHealth\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nFinal Project Preparation"
   },
   {
     "objectID": "slides/02-causal.html#assignments",
@@ -2090,7 +2111,7 @@
     "href": "slides/02-causal.html#central-tendency-mean",
     "title": "Correlation and Causation",
     "section": "Central Tendency: Mean",
-    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 7.313972\n\nmean(my_vector)\n\n[1] 7.313972"
+    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 10.37006\n\nmean(my_vector)\n\n[1] 10.37006"
   },
   {
     "objectID": "slides/02-causal.html#spread-variance",
