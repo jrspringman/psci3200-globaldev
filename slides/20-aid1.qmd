@@ -1,0 +1,51 @@
+---
+title: "Foreign Aid 1"
+author: "Jeremy Springman"
+institute: "University of Pennsylvania"
+
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+    - title-slide.html
+    gfm:
+    mermaid-format: png
+editor: source
+---
+
+# Logistics
+
+## Assignments and Upcoming
+
+- Today
+  + [Briggs (2016)](/files/does-foreign-aid-target-the-poorest.pdf)
+  + [Briggs (2021)](https://voxdev.org/topic/institutions-political-economy/why-does-aid-not-target-poorest)
+- Thursday (4/4)
+  + Foreign aid readings
+  + Review of Data Assignment 1
+- April 11
+  + Final project proposal
+  
+## Agenda
+
+\
+
+1. Briggs (2016)
+2. Briggs (2021)
+3. Final Project Essentials: Fixed Effects
+
+# Overview of Foreign Aid
+
+
+# Briggs (2016)
+
+# Briggs (2021)
+
+
+

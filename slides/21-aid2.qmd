@@ -1,0 +1,65 @@
+---
+title: "Foreign Aid 2"
+subtitle: "Final Project Essentials: Fixed Effects"
+author: "Jeremy Springman"
+institute: "University of Pennsylvania"
+
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+    - title-slide.html
+    gfm:
+    mermaid-format: png
+editor: source
+---
+
+# Logistics
+
+## Assignments
+
+- Today
+  + [Cruz (2016)](/files/Cruz_2016_AJPS.pdf)
+  + [Bold et al. (2018)](/files/bold_2018.pdf)
+- Tuesday (4/9)
+  + Climate and Development readings
+- April 11
+  + Final project proposal
+  
+## Agenda
+
+\
+
+1. Cruz (2016)
+2. Bold et al. (2018)
+3. Review of Data Assignment 1
+
+# Overview of Foreign Aid
+
+
+# Briggs (2016)
+
+# Briggs (2021)
+
+# Review of Data Assignment 1
+
+## Additive Scale
+
+**What is an additive scale?**
+
+- Simple sum across columns (index = column_1 + column_2)
+
+**Takeaways**
+
+- When variables are measured on a common scale
+- When you are interested in a cumulative amount of something
+- *Not good for likert scales*
+- How to deal with NAs
+
+
