@@ -12,3 +12,6 @@ title: "Foreign Aid 2"
 
 - [Slides](/slides/21-aid2.html)
 
+## Supplementary Readings (Non-Requred)
+
+- [Evans et al. (2021)](https://documents1.worldbank.org/curated/en/972301638988752613/pdf/Building-State-Capacity-What-Is-the-Impact-of-Development-Projects.pdf)

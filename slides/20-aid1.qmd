@@ -36,16 +36,222 @@ editor: source
 
 \
 
-1. Briggs (2016)
-2. Briggs (2021)
-3. Final Project Essentials: Fixed Effects
+1. Overview of Foreign Aid
+2. Briggs (2016)
+3. Briggs (2021)
+4. Final Project Assignment 2
 
 # Overview of Foreign Aid
+
+## Aid Disbursements
+
+![](img/aid_disbursed.png){fig-align="center"}
+
+## Aid Disbursements
+
+![](img/aid_gni.png){fig-align="center"}
+
+
+## Aid Received
+
+![](img/aid_received.png){fig-align="center"}
+
+## Aid Received
+
+![](img/aid_pc.png){fig-align="center"}
+
+
+## Aid Received 
+
+![](img/aid_dependence.png){fig-align="center"}
+
+## Aid Received
+
+![](img/aid_gdp.png){fig-align="center"}
+
+## Aid Distribution
+
+![](img/aid_sector.png){fig-align="center"}
+
+
+## Debates Around Aid
+
+- Economic growth
+- Welfare
+- State capacity
+- Poverty alleviation
+- Accountability
+
+## Debates Around Aid
+
+- Budget support vs Project Aid
+  + Governments have information advantages
+  + Government budgets are subject to massive leakage (Reinikka & Svensson, 2004)
+- Accountability
+  + Fungibility
+  + Donor vs recipient control
+
+
+## Aid Distribution
+
+![](img/aid_bypass.png){fig-align="center"}
 
 
 # Briggs (2016)
 
+## Research Question
+
+\
+
+**Is development aid targeted to the poorest citizens?**
+
+:::{.incremental}
+- Donors have a stated preference for using aid to alleviate extreme poverty
+- Pressure may undermine this targeting
+  + Donor foreign policy objectives
+  + Donor ignorance
+  + Recipient politics
+:::
+
+## Theory
+
+\
+
+**Why is it easier for multilateral donors to send aid to poorer countries?**
+
+- Multiple stakeholders mean aid must flow to places where preferences overlap
+- Donor preferences are likely to overlap in the places with the greatest need
+
+## Case Selection
+
+**Most likely scenario for effective targeting:**
+
+:::{.fragment}
+- Commitments rather than disbursements
+- Multilateral donors 
+- Project aid
+:::
+
+:::{.fragment}
+**Project aid must be proximate**
+
+- Aid is typically providing local public goods
+:::
+
+
+## Measurement
+
+- DV: Aid projects per region
+  + World Bank and ADB 2009-2010
+  + Each region's share (with and without cost weights)
+  + Total dollar value
+- IV: Wealth quintiles
+  + DHS 1999-2008
+  + Relative wealth composition of each region (% of each quintile living in each region)
+
+## Research Design
+
+\
+
+:::{.fragment}
+- Unit Fixed Effects
+- Lagged IV  $\rightarrow$ DV
+- Control for obvious pre-treatment confounders
+:::
+
+## Measurement
+
+\
+
+![](img/briggs1.png){fig-align="center"}
+
+## Measurement
+
+\
+
+![](img/briggs2.png){fig-align="center"}
+
+## Findings
+
+![](img/briggs3.png){fig-align="center"}
+
+## Findings
+
+![](img/briggs4.png){fig-align="center"}
+
+
 # Briggs (2021)
+
+## Research Design
+
+**Conjoint survey experiment**
+
+- Sample: World Bank Task Team Leaders
+- Task: select projects based on important characteristics
+- Outcomes: Client desirability, WB approval, implementation, impact
+
+
+## Research Question
+
+**What pressures shape the distribution of aid?**
+
+:::{.fragment}
+- Which projects the client government would prefer
+- Which projects would be easier to get WB approval
+- Which projects would be easier to implement
+- Which projects would get better internal ratings
+- Which project would be better for development
+:::
+
+## Findings
+
+![](img/briggs5.png){fig-align="center"}
+
+## Findings
+
+![](img/briggs6.png){fig-align="center"}
+
+## Findings
+
+**Client government desireability**
+
+- Positive: Hometown of the recipient country’s President
+- Positive: Government implemented
+- Neutral: Income of project location, urban
+
+**Ease of approval**
+
+- Positive: poorer places was easier to get approved
+- Negative: presidential hometowns
+- Negative: projects with smaller budgets
+
+## Findings
+
+**Development impact**
+
+- Positive: Poorer and rural areas 
+
+**Ease of implementation**
+
+- Negative: Poorer and remote projects
+- *Getting more projects approved was either extremely or very important to their career*
+
+## Findings
+
+![](img/briggs10.png){fig-align="center"}
+
+
+## Findings
+
+![](img/briggs7.png){fig-align="center"}
+
+## Findings
+
+![](img/briggs8.png){fig-align="center"}
+
+## Findings
+
+![](img/briggs9.png){fig-align="center"}
 
 
 
