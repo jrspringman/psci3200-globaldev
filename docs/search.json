@@ -1890,60 +1890,39 @@
     "text": "Slides\n\nThursday (1/18) lecture: Slides"
   },
   {
-    "objectID": "assignments/04_fpdesign.html",
-    "href": "assignments/04_fpdesign.html",
-    "title": "Final Project Research Design",
+    "objectID": "assignments/aau_survey.html",
+    "href": "assignments/aau_survey.html",
+    "title": "Data Assignment 1",
     "section": "",
-    "text": "Your second assignment for the final project is specifying a research plan that will guide your investigation of the research question you have identified. This assignment is designed to get you thinking more clearly about a specific hypothesis related to your research question and how you can produce and present evidence for or against it.\nLike a Pre-Analysis Plan, you will need to state testable hypotheses, describe your measurement of the variables necessary to test the hypotheses, and specify a statistical model to conduct the test. Unlike a Pre-Analysis Plan, this is just a starting point.\nThis project should be submitted via Slack by 11:59pm EST on Thursday, April 11. Your submission must include:\n\nAn html file presenting your written design and figures. It is not necessary to show printed code.\nA .qmd file that you used to generate the html file\nAll code should be thoroughly commented to explain the choices you are making and the techniques you are using."
+    "text": "This assignment is designed to test your understanding of some of the core concepts and your ability to implement some of the core tools that will be necessary for the final project. We have covered these concepts and tools in class, but you have not been required to use them on your own.\nThis project should be submitted via Slack by 11:59pm EST on Thursday, March 28. Your submission must include:\n\nAn html file with your written answers, tables and figures, and printed code showing your work\nA .qmd file that you used to generate the html file\nAll code should be thoroughly commented to explain the choices you are making and the techniques you are using. Note: much of the code I have used to demonstrate concepts during in-class workshops has not been thoroughly commented. Adding comments to code that you adapt will force you to figure out how I’m getting from point A to point B and bestow you with a deeper understanding. It will also help me give you partial credit if you get something wrong. If necessary, refer to commenting resources in the syllabus.\n\nIn this assignment, you will be required to:\n\nCreate index variables to summarize variation on key outcomes\nEstimate and interpret linear models and interaction effects\nDescribe your reasoning and demonstrate understanding of core concepts\n\nWe are using a representative survey of students from Addis Ababa University in Ethiopia collected by DevLab researchers. This data contains two waves collected in May-June and October-November of 2022. A total of 825 students completed both waves of the survey. This data was part of a randomized experiment inviting students to participate in a one-day workshop that connected them with opportunities to interact with leaders of civil society, sign-up as volunteers in civil society organizations, and engage in structured dialogue about politics with a diverse group of peers."
   },
   {
-    "objectID": "assignments/04_fpdesign.html#overview",
-    "href": "assignments/04_fpdesign.html#overview",
-    "title": "Final Project Research Design",
+    "objectID": "assignments/aau_survey.html#introduction",
+    "href": "assignments/aau_survey.html#introduction",
+    "title": "Data Assignment 1",
     "section": "",
-    "text": "Your second assignment for the final project is specifying a research plan that will guide your investigation of the research question you have identified. This assignment is designed to get you thinking more clearly about a specific hypothesis related to your research question and how you can produce and present evidence for or against it.\nLike a Pre-Analysis Plan, you will need to state testable hypotheses, describe your measurement of the variables necessary to test the hypotheses, and specify a statistical model to conduct the test. Unlike a Pre-Analysis Plan, this is just a starting point.\nThis project should be submitted via Slack by 11:59pm EST on Thursday, April 11. Your submission must include:\n\nAn html file presenting your written design and figures. It is not necessary to show printed code.\nA .qmd file that you used to generate the html file\nAll code should be thoroughly commented to explain the choices you are making and the techniques you are using."
+    "text": "This assignment is designed to test your understanding of some of the core concepts and your ability to implement some of the core tools that will be necessary for the final project. We have covered these concepts and tools in class, but you have not been required to use them on your own.\nThis project should be submitted via Slack by 11:59pm EST on Thursday, March 28. Your submission must include:\n\nAn html file with your written answers, tables and figures, and printed code showing your work\nA .qmd file that you used to generate the html file\nAll code should be thoroughly commented to explain the choices you are making and the techniques you are using. Note: much of the code I have used to demonstrate concepts during in-class workshops has not been thoroughly commented. Adding comments to code that you adapt will force you to figure out how I’m getting from point A to point B and bestow you with a deeper understanding. It will also help me give you partial credit if you get something wrong. If necessary, refer to commenting resources in the syllabus.\n\nIn this assignment, you will be required to:\n\nCreate index variables to summarize variation on key outcomes\nEstimate and interpret linear models and interaction effects\nDescribe your reasoning and demonstrate understanding of core concepts\n\nWe are using a representative survey of students from Addis Ababa University in Ethiopia collected by DevLab researchers. This data contains two waves collected in May-June and October-November of 2022. A total of 825 students completed both waves of the survey. This data was part of a randomized experiment inviting students to participate in a one-day workshop that connected them with opportunities to interact with leaders of civil society, sign-up as volunteers in civil society organizations, and engage in structured dialogue about politics with a diverse group of peers."
   },
   {
-    "objectID": "assignments/04_fpdesign.html#requirements",
-    "href": "assignments/04_fpdesign.html#requirements",
-    "title": "Final Project Research Design",
-    "section": "Requirements",
-    "text": "Requirements\nThis assignment has four components. The components are presented below, along with their importance for the grading of the overall assignment.\n\nDescribe your research question and provide some background on why you find it interesting or important. Be sure to incorporate the feedback provided on the first assignment. Include references to at least two pieces of existing research that illustrate what has already been discovered about the relationship you are investigating. This could be articles published in academic journals, policy reports and white papers, articles published by think tanks and other credible organizations (ex. Brookings, the United Nations High Commissioner for Refugees, etc.), or pieces of data journalism. A full-credit response will probably be around 150-200 words. (40%)\nState at least one testable hypothesis. Distill your research question into a statement about a specific relationship you expect to see in the world. In most cases, this hypothesis will describe a causal relationship between two variables (i.e. changes in x cause changes in y). Make an argument for why you expect to see this relationship. This should be based on related findings from existing research and/or your own theoretical/logical reasoning. A full-credit response will probably be around 150-200 words. (25%)\nBriefly discuss the specific variables you will use to test your hypothesis and the dataset they are drawn from. Be sure to mention the source of the data (the organization or individuals that produced it), the unit of analysis, and the sample. Create a ggplot to visualize the relationship between the variables being used to test your hypothesis. The best method of visualizing this relationship will depend on the scale of your variables. Good methods to consider are scatter plots (for continuous variables), grouped bar charts (for ordinal or binary variables), and line graphs (for continuous variables with time-series). (25%)\nSpecify the main regression model you will use to test your hypothesis. This regression model should provide a preliminary test for or against the validity of your hypothesis. Use markdown to render the equation neatly to the html file. (10%)\n\n\n\n\n\n\n\nNote\n\n\n\nA hypothesis should look like a prediction. Often, a hypothesis states that you expect a decrease or increase in one variable to cause a decrease or increase in another variable. A hypothesis must also be falsifiable. In other words, it must be possible to prove that the hypothesis is false by showing that the relationship you are predicting to see in your data is not actually present.\n\n\nIn the next assignment, you will be asked to discuss the assumptions that your research design is making. For example, you will need to describe the assumptions that are necessary to interpret your regression model as evidence for your hypothesis. You will also be asked to propose additional tests that can help justify these assumptions, using variables that are available in your dataset."
+    "objectID": "assignments/aau_survey.html#part-1-read-in-data-and-prepare-for-analysis",
+    "href": "assignments/aau_survey.html#part-1-read-in-data-and-prepare-for-analysis",
+    "title": "Data Assignment 1",
+    "section": "Part 1: Read-in data and prepare for analysis",
+    "text": "Part 1: Read-in data and prepare for analysis\nYou can read-in the data using this code:\n\nlibrary(ggplot2)\nlibrary(readr)\nlibrary(ggdag)\nlibrary(tidyverse)\nlibrary(gt)\nlibrary(modelsummary)\n\n# read-in data\ndat = read_csv(here::here(\"workshops/aau_survey/clean_endline_did.csv\" )) %&gt;%\n#dat = read_csv(\"https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv\" ) %&gt;%\n    # clean home region variable\n  mutate(q8_baseline = ifelse(q8_baseline == \"Southern Nations, Nationalities, and Peoples Region\", \"SNNPR\", q8_baseline), \n         q8_baseline = str_remove(q8_baseline, \" Region\"))\n# create color palette for plotting\npalette = MetBrewer::met.brewer(name = \"Cross\")\n\nThe dataset has a number of variables that you might use for the assignment. For each respondent, we have two observations made at different points in time (baseline and endline). The dataset is currently in ‘wide’ format, meaning that each respondent has one row and baseline and endline measurements for the same variable are stored in separate columns. Measurements taken at baseline have the suffix _baseline included in the column name; for example, q11_3 is the endline measurement and q11_3_baseline is the baseline measurement.\nSome of these variables are described below:\n\nresponse_id: A unique identifier for each respondent\ntreatment_status: A binary indicator taking a value of 1 for respondents assigned to receive an invitation to the treatment workshop\nuser_language: A categorical variable indicating whether the respondent took the survey in English, Ahmaric, or Afan\nq3_baseline: A categorical variable indicating whether the respondent identifies as Male or Female            \nFuture plans for a career in public sector or civil society\n\nq26_civ: Plan to work in civil society\nq26_politics: Plan to work in politics\nq26_public: Plan to work in public sector\nq27_1: Plan to run for political office\nq27_3: Plan to start a non-governmental organization\n\nFeelings of political efficacy\n\nq17_3: Your participation can bring positive change\nq17_1: Youth are given opportunities to engage\nq17_2: Youth participation can bring positive change\n\n\nRequirement 1 (10%)\nFor all variables after user_language, please rename the column with a descriptive name that better conveys their meaning. Column names should never contain spaces and should be as easy to type as possible. Do this for both their baseline and endline values, making sure to indicate which columns are baseline measures and which are endline measures in the names you assign."
   },
   {
-    "objectID": "assignments/02_gitrepo.html",
-    "href": "assignments/02_gitrepo.html",
-    "title": "Creating a Final Project Git Repo",
-    "section": "",
-    "text": "Create a github profile and start a git repo for the final project:\n\nThe git repo should follow the naming convention: psci3200_yourname\nSend me the url to your repo by the end of class on Feb 8"
+    "objectID": "assignments/aau_survey.html#part-2-create-index-measures",
+    "href": "assignments/aau_survey.html#part-2-create-index-measures",
+    "title": "Data Assignment 1",
+    "section": "Part 2: Create Index Measures",
+    "text": "Part 2: Create Index Measures\nNext, you’ll need to create index measures for different types of variables. We will use the two types of index methods described during the in-class workshop.\nRequirement 2 (10%)\nFirst, in your own words, explain the concept of an additive index and an averaged z-score, including how they are calculated, when you should use them, and when you cannot use them. What are the benefits of each approach?\nRequirement 3 (20%)\nNext, you’ll need to:\n\nCreate an additive index for the baseline and endline measures of the “Future plans for a career in public sector or civil society” variables. This should correspond to seperate counts of the number of future plans that each individual has at baseline and endline.\nCreate an averaged z-scores for the baseline and endline values of the “Future plans for a career in public sector or civil society” and “Feelings of political efficacy” variables.\n\n\n\n\n\n\n\nNote\n\n\n\nSince many of these are ordered categorical values, you will need to convert them to numeric values that assign higher numbers to certain values and lower numbers to certain values. Make sure that your numeric assignments correspond with the direction of the ordered categorical values.\n\n\nRequirement 4 (20%)\nTo make sure that these scores look as you’d expect, create a ggplot visualizing the distribution of the z-scores at baseline and endline. You should have 4 figures: one corresponding to each z-score at baseline and endline. In words, describe whether the figures tell us anything about changes over time."
   },
   {
-    "objectID": "assignments/02_gitrepo.html#assignment",
-    "href": "assignments/02_gitrepo.html#assignment",
-    "title": "Creating a Final Project Git Repo",
-    "section": "",
-    "text": "Create a github profile and start a git repo for the final project:\n\nThe git repo should follow the naming convention: psci3200_yourname\nSend me the url to your repo by the end of class on Feb 8"
-  },
-  {
-    "objectID": "assignments/01_quarto.html",
-    "href": "assignments/01_quarto.html",
-    "title": "Getting Started with Quarto",
-    "section": "",
-    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
-  },
-  {
-    "objectID": "assignments/01_quarto.html#introduction",
-    "href": "assignments/01_quarto.html#introduction",
-    "title": "Getting Started with Quarto",
-    "section": "",
-    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
-  },
-  {
-    "objectID": "assignments/01_quarto.html#instructions",
-    "href": "assignments/01_quarto.html#instructions",
-    "title": "Getting Started with Quarto",
-    "section": "Instructions",
-    "text": "Instructions\nWith newer versions of RStudio, Quarto comes pre-packaged in the installation files. To check whether you have Quarto on your computer, open RStudio, click on the “Terminal” tab in the bottom left window, type quarto check into the terminal, and hit ENTER. If you have a new enough version of RStudio, the terminal should return something like what you see in the first screenshot below.\n\n\n\nCheck Installation Terminal\n\n\nIf you DON’T have a new enough version of RStudio, you’ll receive some error message. To fix this, all you should need to do is install the newest version of RStudio by going to the posit website and installing RStudio.\nFor next class, please be sure to have quarto functioning on your laptop because we’ll be doing some work creating quarto documents in class. To be absolutely sure, go to the “New File” icon in RStudio and click “Quarto Document.”\n\n\n\nCreate a Quarto\n\n\nYou should see something like the screenshot below. Give the document a Title and then click “Create.”\n\n\n\nName the Document\n\n\nA very basic .qmd file should open. Click “Render” (screenshot below) and RStudio will ask you to name the file. After you provide name, an html file should open for you in your internet browser or in the Viewer panel of RStudio (depending on your settings). Now you’re working in Quarto!\n\n\n\nRender the Document\n\n\nIf you have any trouble, post a message to the course Slack channel and I (or one of your classmates) can lend a hand."
+    "objectID": "assignments/aau_survey.html#part-3-estimating-models",
+    "href": "assignments/aau_survey.html#part-3-estimating-models",
+    "title": "Data Assignment 1",
+    "section": "Part 3: Estimating models",
+    "text": "Part 3: Estimating models\nNow, let’s estimate some models to assess the relationship between the two index measures. Before we get started, subset your data to include only response_id, q3_baseline (which you should have renamed), and the baseline and endline measures for each z-score. You should end up with 6 variables in your dataframe.\nRequirement 5 (15%)\nUsing baseline values only, estimate a model regressing your “Future plans” index on your “Feelings of political efficacy” index. Your model should take the following form:\n\\[\nFuture\\_plans_i = \\alpha + \\beta_1 Efficacy_{i1} + \\epsilon_i\n\\] Use the modelsummary()package to visualize the results as a table. In your own words, interpret the meaning of \\(\\alpha\\) and \\(\\beta_1\\). Substantively, how should we interpret the relationship described in the data? What does this tell us about the world? What assumptions would we need in order to interpret the relationship as causal?\nRequirement 6 (15%)\nFor your baseline and endline values of the “Feelings of political efficacy” index, convert this index to a binary indicator taking a value of 1 of the individual has a value greater than or equal to the sample mean and a value of 0 if the individual has a value below the sample mean.\nUsing baseline values only, estimate the same model, but interact your binary “Feelings of political efficacy” indicator with the gender indicator. Your model should take the following form:\n\\[\nFuture\\_plans_i = \\alpha + \\beta_1 Efficacy_{i} + \\beta_2 Gender_{i} + \\beta_3 (Efficacy_{i}*Gender_{i}) + \\epsilon_i\n\\] Use the modelsummary()package to visualize the results as a table. In your own words, interpret the meaning of \\(\\alpha\\), \\(\\beta_1\\), \\(\\beta_2\\), and \\(\\beta_3\\). Substantively, how should we interpret the interactive relationship described in the data?\nRequirement 7 (10%)\nConvert the data from ‘wide’ to ‘long’ format, so that each respondent (response_id) has two rows of data; one row is baseline and one row is endline.\nUsing this new ‘long’ format, estimate the original model, but add unit (response_id) fixed effects. Your model should take the following form:\n\\[\nFuture\\_plans_{it} = \\alpha + \\beta_1 Efficacy_{it} + \\gamma_i + \\epsilon_{it}\n\\]\nIn your own words, tell us how the meaning of \\(\\beta_1\\) has changed now that we’ve added fixed effects."
   },
   {
     "objectID": "assignments/03_fprqd.html",
@@ -1981,39 +1960,88 @@
     "text": "DevLab datasets\nThere are also many datasets collected by DevLab researchers. Below, I list several of the datasets that I was directly involved in. If you have a specific interest in a topic, I can also ask around DevLab to see if anyone has data available. In particular, I know there are several datasets on both migration and land-use that might be avaiable.\n\nMachine Learning for Peace\n\nThis data captures the volume of reporting from high-quality, local news sources on 42 distinct political events from 2012-2023 for 60 aid-receiving countries.\nFocuses on events that constitute changes in civic space, such as censorship, legal changes, and other forms of repression\n\nCambodian NGOs (n \\(\\approx\\) 100)\n\nConvenience sample\nPanel survey, financial data, networks, open-ended responses\nMeasures organization activities, spending, revenues, and management practices\n\nEthiopian University Students (n \\(\\approx\\) 900)\n\nRepresentative sample\nPanel survey, networks, open-ended responses\nMeasures political attitudes and behavior, with a focus on conflict and national/regional/ethnic identification\n\nGhanaian Radio Stations (n \\(\\approx\\) 400)\n\nConvenience sample\nQuestions on organization activities, spending, revenues, and management practices, with a focus on conflict and misinformation"
   },
   {
-    "objectID": "assignments/aau_survey.html",
-    "href": "assignments/aau_survey.html",
-    "title": "Data Assignment 1",
+    "objectID": "assignments/01_quarto.html",
+    "href": "assignments/01_quarto.html",
+    "title": "Getting Started with Quarto",
     "section": "",
-    "text": "This assignment is designed to test your understanding of some of the core concepts and your ability to implement some of the core tools that will be necessary for the final project. We have covered these concepts and tools in class, but you have not been required to use them on your own.\nThis project should be submitted via Slack by 11:59pm EST on Thursday, March 28. Your submission must include:\n\nAn html file with your written answers, tables and figures, and printed code showing your work\nA .qmd file that you used to generate the html file\nAll code should be thoroughly commented to explain the choices you are making and the techniques you are using. Note: much of the code I have used to demonstrate concepts during in-class workshops has not been thoroughly commented. Adding comments to code that you adapt will force you to figure out how I’m getting from point A to point B and bestow you with a deeper understanding. It will also help me give you partial credit if you get something wrong. If necessary, refer to commenting resources in the syllabus.\n\nIn this assignment, you will be required to:\n\nCreate index variables to summarize variation on key outcomes\nEstimate and interpret linear models and interaction effects\nDescribe your reasoning and demonstrate understanding of core concepts\n\nWe are using a representative survey of students from Addis Ababa University in Ethiopia collected by DevLab researchers. This data contains two waves collected in May-June and October-November of 2022. A total of 825 students completed both waves of the survey. This data was part of a randomized experiment inviting students to participate in a one-day workshop that connected them with opportunities to interact with leaders of civil society, sign-up as volunteers in civil society organizations, and engage in structured dialogue about politics with a diverse group of peers."
+    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
   },
   {
-    "objectID": "assignments/aau_survey.html#introduction",
-    "href": "assignments/aau_survey.html#introduction",
-    "title": "Data Assignment 1",
+    "objectID": "assignments/01_quarto.html#introduction",
+    "href": "assignments/01_quarto.html#introduction",
+    "title": "Getting Started with Quarto",
     "section": "",
-    "text": "This assignment is designed to test your understanding of some of the core concepts and your ability to implement some of the core tools that will be necessary for the final project. We have covered these concepts and tools in class, but you have not been required to use them on your own.\nThis project should be submitted via Slack by 11:59pm EST on Thursday, March 28. Your submission must include:\n\nAn html file with your written answers, tables and figures, and printed code showing your work\nA .qmd file that you used to generate the html file\nAll code should be thoroughly commented to explain the choices you are making and the techniques you are using. Note: much of the code I have used to demonstrate concepts during in-class workshops has not been thoroughly commented. Adding comments to code that you adapt will force you to figure out how I’m getting from point A to point B and bestow you with a deeper understanding. It will also help me give you partial credit if you get something wrong. If necessary, refer to commenting resources in the syllabus.\n\nIn this assignment, you will be required to:\n\nCreate index variables to summarize variation on key outcomes\nEstimate and interpret linear models and interaction effects\nDescribe your reasoning and demonstrate understanding of core concepts\n\nWe are using a representative survey of students from Addis Ababa University in Ethiopia collected by DevLab researchers. This data contains two waves collected in May-June and October-November of 2022. A total of 825 students completed both waves of the survey. This data was part of a randomized experiment inviting students to participate in a one-day workshop that connected them with opportunities to interact with leaders of civil society, sign-up as volunteers in civil society organizations, and engage in structured dialogue about politics with a diverse group of peers."
+    "text": "Your mini assignment for next week is to get Quarto functioning on the laptop you will be using for class. This will allow me to circulate .qmd files so that we can work on them together during class."
   },
   {
-    "objectID": "assignments/aau_survey.html#part-1-read-in-data-and-prepare-for-analysis",
-    "href": "assignments/aau_survey.html#part-1-read-in-data-and-prepare-for-analysis",
-    "title": "Data Assignment 1",
-    "section": "Part 1: Read-in data and prepare for analysis",
-    "text": "Part 1: Read-in data and prepare for analysis\nYou can read-in the data using this code:\n\nlibrary(ggplot2)\nlibrary(readr)\nlibrary(ggdag)\nlibrary(tidyverse)\nlibrary(gt)\nlibrary(modelsummary)\n\n# read-in data\ndat = read_csv(here::here(\"workshops/aau_survey/clean_endline_did.csv\" )) %&gt;%\n#dat = read_csv(\"https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv\" ) %&gt;%\n    # clean home region variable\n  mutate(q8_baseline = ifelse(q8_baseline == \"Southern Nations, Nationalities, and Peoples Region\", \"SNNPR\", q8_baseline), \n         q8_baseline = str_remove(q8_baseline, \" Region\"))\n# create color palette for plotting\npalette = MetBrewer::met.brewer(name = \"Cross\")\n\nThe dataset has a number of variables that you might use for the assignment. For each respondent, we have two observations made at different points in time (baseline and endline). The dataset is currently in ‘wide’ format, meaning that each respondent has one row and baseline and endline measurements for the same variable are stored in separate columns. Measurements taken at baseline have the suffix _baseline included in the column name; for example, q11_3 is the endline measurement and q11_3_baseline is the baseline measurement.\nSome of these variables are described below:\n\nresponse_id: A unique identifier for each respondent\ntreatment_status: A binary indicator taking a value of 1 for respondents assigned to receive an invitation to the treatment workshop\nuser_language: A categorical variable indicating whether the respondent took the survey in English, Ahmaric, or Afan\nq3_baseline: A categorical variable indicating whether the respondent identifies as Male or Female            \nFuture plans for a career in public sector or civil society\n\nq26_civ: Plan to work in civil society\nq26_politics: Plan to work in politics\nq26_public: Plan to work in public sector\nq27_1: Plan to run for political office\nq27_3: Plan to start a non-governmental organization\n\nFeelings of political efficacy\n\nq17_3: Your participation can bring positive change\nq17_1: Youth are given opportunities to engage\nq17_2: Youth participation can bring positive change\n\n\nRequirement 1 (10%)\nFor all variables after user_language, please rename the column with a descriptive name that better conveys their meaning. Column names should never contain spaces and should be as easy to type as possible. Do this for both their baseline and endline values, making sure to indicate which columns are baseline measures and which are endline measures in the names you assign."
+    "objectID": "assignments/01_quarto.html#instructions",
+    "href": "assignments/01_quarto.html#instructions",
+    "title": "Getting Started with Quarto",
+    "section": "Instructions",
+    "text": "Instructions\nWith newer versions of RStudio, Quarto comes pre-packaged in the installation files. To check whether you have Quarto on your computer, open RStudio, click on the “Terminal” tab in the bottom left window, type quarto check into the terminal, and hit ENTER. If you have a new enough version of RStudio, the terminal should return something like what you see in the first screenshot below.\n\n\n\nCheck Installation Terminal\n\n\nIf you DON’T have a new enough version of RStudio, you’ll receive some error message. To fix this, all you should need to do is install the newest version of RStudio by going to the posit website and installing RStudio.\nFor next class, please be sure to have quarto functioning on your laptop because we’ll be doing some work creating quarto documents in class. To be absolutely sure, go to the “New File” icon in RStudio and click “Quarto Document.”\n\n\n\nCreate a Quarto\n\n\nYou should see something like the screenshot below. Give the document a Title and then click “Create.”\n\n\n\nName the Document\n\n\nA very basic .qmd file should open. Click “Render” (screenshot below) and RStudio will ask you to name the file. After you provide name, an html file should open for you in your internet browser or in the Viewer panel of RStudio (depending on your settings). Now you’re working in Quarto!\n\n\n\nRender the Document\n\n\nIf you have any trouble, post a message to the course Slack channel and I (or one of your classmates) can lend a hand."
   },
   {
-    "objectID": "assignments/aau_survey.html#part-2-create-index-measures",
-    "href": "assignments/aau_survey.html#part-2-create-index-measures",
-    "title": "Data Assignment 1",
+    "objectID": "assignments/02_gitrepo.html",
+    "href": "assignments/02_gitrepo.html",
+    "title": "Creating a Final Project Git Repo",
+    "section": "",
+    "text": "Create a github profile and start a git repo for the final project:\n\nThe git repo should follow the naming convention: psci3200_yourname\nSend me the url to your repo by the end of class on Feb 8"
+  },
+  {
+    "objectID": "assignments/02_gitrepo.html#assignment",
+    "href": "assignments/02_gitrepo.html#assignment",
+    "title": "Creating a Final Project Git Repo",
+    "section": "",
+    "text": "Create a github profile and start a git repo for the final project:\n\nThe git repo should follow the naming convention: psci3200_yourname\nSend me the url to your repo by the end of class on Feb 8"
+  },
+  {
+    "objectID": "assignments/04_fpdesign.html",
+    "href": "assignments/04_fpdesign.html",
+    "title": "Final Project Research Design",
+    "section": "",
+    "text": "Your second assignment for the final project is specifying a research plan that will guide your investigation of the research question you have identified. This assignment is designed to get you thinking more clearly about a specific hypothesis related to your research question and how you can produce and present evidence for or against it.\nLike a Pre-Analysis Plan, you will need to state testable hypotheses, describe your measurement of the variables necessary to test the hypotheses, and specify a statistical model to conduct the test. Unlike a Pre-Analysis Plan, this is just a starting point.\nThis project should be submitted via Slack by 11:59pm EST on Thursday, April 11. Your submission must include:\n\nAn html file presenting your written design and figures. It is not necessary to show printed code.\nA .qmd file that you used to generate the html file\nAll code should be thoroughly commented to explain the choices you are making and the techniques you are using."
+  },
+  {
+    "objectID": "assignments/04_fpdesign.html#overview",
+    "href": "assignments/04_fpdesign.html#overview",
+    "title": "Final Project Research Design",
+    "section": "",
+    "text": "Your second assignment for the final project is specifying a research plan that will guide your investigation of the research question you have identified. This assignment is designed to get you thinking more clearly about a specific hypothesis related to your research question and how you can produce and present evidence for or against it.\nLike a Pre-Analysis Plan, you will need to state testable hypotheses, describe your measurement of the variables necessary to test the hypotheses, and specify a statistical model to conduct the test. Unlike a Pre-Analysis Plan, this is just a starting point.\nThis project should be submitted via Slack by 11:59pm EST on Thursday, April 11. Your submission must include:\n\nAn html file presenting your written design and figures. It is not necessary to show printed code.\nA .qmd file that you used to generate the html file\nAll code should be thoroughly commented to explain the choices you are making and the techniques you are using."
+  },
+  {
+    "objectID": "assignments/04_fpdesign.html#requirements",
+    "href": "assignments/04_fpdesign.html#requirements",
+    "title": "Final Project Research Design",
+    "section": "Requirements",
+    "text": "Requirements\nThis assignment has four components. The components are presented below, along with their importance for the grading of the overall assignment.\n\nDescribe your research question and provide some background on why you find it interesting or important. Be sure to incorporate the feedback provided on the first assignment. Include references to at least two pieces of existing research that illustrate what has already been discovered about the relationship you are investigating. This could be articles published in academic journals, policy reports and white papers, articles published by think tanks and other credible organizations (ex. Brookings, the United Nations High Commissioner for Refugees, etc.), or pieces of data journalism. A full-credit response will probably be around 150-200 words. (40%)\nState at least one testable hypothesis. Distill your research question into a statement about a specific relationship you expect to see in the world. In most cases, this hypothesis will describe a causal relationship between two variables (i.e. changes in x cause changes in y). Make an argument for why you expect to see this relationship. This should be based on related findings from existing research and/or your own theoretical/logical reasoning. A full-credit response will probably be around 150-200 words. (25%)\nBriefly discuss the specific variables you will use to test your hypothesis and the dataset they are drawn from. Be sure to mention the source of the data (the organization or individuals that produced it), the unit of analysis, and the sample. Create a ggplot to visualize the relationship between the variables being used to test your hypothesis. The best method of visualizing this relationship will depend on the scale of your variables. Good methods to consider are scatter plots (for continuous variables), grouped bar charts (for ordinal or binary variables), and line graphs (for continuous variables with time-series). (25%)\nSpecify the main regression model you will use to test your hypothesis. This regression model should provide a preliminary test for or against the validity of your hypothesis. Use markdown to render the equation neatly to the html file. (10%)\n\n\n\n\n\n\n\nNote\n\n\n\nA hypothesis should look like a prediction. Often, a hypothesis states that you expect a decrease or increase in one variable to cause a decrease or increase in another variable. A hypothesis must also be falsifiable. In other words, it must be possible to prove that the hypothesis is false by showing that the relationship you are predicting to see in your data is not actually present.\n\n\nIn the next assignment, you will be asked to discuss the assumptions that your research design is making. For example, you will need to describe the assumptions that are necessary to interpret your regression model as evidence for your hypothesis. You will also be asked to propose additional tests that can help justify these assumptions, using variables that are available in your dataset."
+  },
+  {
+    "objectID": "assignments/aau_survey_key.html",
+    "href": "assignments/aau_survey_key.html",
+    "title": "Answer Key: Data Assignment 1",
+    "section": "",
+    "text": "library(ggplot2)\nlibrary(readr)\nlibrary(ggdag)\nlibrary(tidyverse)\nlibrary(gt)\nlibrary(modelsummary)\n\n# read-in data\ndat = read_csv(here::here(\"workshops/aau_survey/clean_endline_did.csv\" )) %&gt;%\n# dat = read_csv(\"https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv\" ) %&gt;%\n    # clean home region variable\n  mutate(q8_baseline = ifelse(q8_baseline == \"Southern Nations, Nationalities, and Peoples Region\", \"SNNPR\", q8_baseline), \n         q8_baseline = str_remove(q8_baseline, \" Region\"))\n# create color palette for plotting\npalette = MetBrewer::met.brewer(name = \"Cross\")\n\nThe dataset has a number of variables that you might use for the assignment. For each respondent, we have two observations made at different points in time (baseline and endline). The dataset is currently in ‘wide’ format, meaning that each respondent has one row and baseline and endline measurements for the same variable are stored in separate columns. Measurements taken at baseline have the suffix _baseline included in the column name; for example, q11_3 is the endline measurement and q11_3_baseline is the baseline measurement.\nSome of these variables are described below:\n\nresponse_id: A unique identifier for each respondent\ntreatment_status: A binary indicator taking a value of 1 for respondents assigned to receive an invitation to the treatment workshop\nuser_language: A categorical variable indicating whether the respondent took the survey in English, Ahmaric, or Afan\nq3_baseline: A categorical variable indicating whether the respondent identifies as Male or Female\nFuture plans for a career in public sector or civil society\n\nq26_civ: Plan to work in civil society\nq26_politics: Plan to work in politics\nq26_public: Plan to work in public sector\nq27_1: Plan to run for political office\nq27_3: Plan to start a non-governmental organization\n\nFeelings of political efficacy\n\nq17_3: Your participation can bring positive change\nq17_1: Youth are given opportunities to engage\nq17_2: Youth participation can bring positive change\n\n\n\n\nFor all variables after user_language, please rename the column with a descriptive name that better conveys their meaning. Column names should never contain spaces and should be as easy to type as possible. Do this for both their baseline and endline values, making sure to indicate which columns are baseline measures and which are endline measures in the names you assign."
+  },
+  {
+    "objectID": "assignments/aau_survey_key.html#part-1-read-in-data-and-prepare-for-analysis",
+    "href": "assignments/aau_survey_key.html#part-1-read-in-data-and-prepare-for-analysis",
+    "title": "Answer Key: Data Assignment 1",
+    "section": "",
+    "text": "library(ggplot2)\nlibrary(readr)\nlibrary(ggdag)\nlibrary(tidyverse)\nlibrary(gt)\nlibrary(modelsummary)\n\n# read-in data\ndat = read_csv(here::here(\"workshops/aau_survey/clean_endline_did.csv\" )) %&gt;%\n# dat = read_csv(\"https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv\" ) %&gt;%\n    # clean home region variable\n  mutate(q8_baseline = ifelse(q8_baseline == \"Southern Nations, Nationalities, and Peoples Region\", \"SNNPR\", q8_baseline), \n         q8_baseline = str_remove(q8_baseline, \" Region\"))\n# create color palette for plotting\npalette = MetBrewer::met.brewer(name = \"Cross\")\n\nThe dataset has a number of variables that you might use for the assignment. For each respondent, we have two observations made at different points in time (baseline and endline). The dataset is currently in ‘wide’ format, meaning that each respondent has one row and baseline and endline measurements for the same variable are stored in separate columns. Measurements taken at baseline have the suffix _baseline included in the column name; for example, q11_3 is the endline measurement and q11_3_baseline is the baseline measurement.\nSome of these variables are described below:\n\nresponse_id: A unique identifier for each respondent\ntreatment_status: A binary indicator taking a value of 1 for respondents assigned to receive an invitation to the treatment workshop\nuser_language: A categorical variable indicating whether the respondent took the survey in English, Ahmaric, or Afan\nq3_baseline: A categorical variable indicating whether the respondent identifies as Male or Female\nFuture plans for a career in public sector or civil society\n\nq26_civ: Plan to work in civil society\nq26_politics: Plan to work in politics\nq26_public: Plan to work in public sector\nq27_1: Plan to run for political office\nq27_3: Plan to start a non-governmental organization\n\nFeelings of political efficacy\n\nq17_3: Your participation can bring positive change\nq17_1: Youth are given opportunities to engage\nq17_2: Youth participation can bring positive change\n\n\n\n\nFor all variables after user_language, please rename the column with a descriptive name that better conveys their meaning. Column names should never contain spaces and should be as easy to type as possible. Do this for both their baseline and endline values, making sure to indicate which columns are baseline measures and which are endline measures in the names you assign."
+  },
+  {
+    "objectID": "assignments/aau_survey_key.html#part-2-create-index-measures",
+    "href": "assignments/aau_survey_key.html#part-2-create-index-measures",
+    "title": "Answer Key: Data Assignment 1",
     "section": "Part 2: Create Index Measures",
-    "text": "Part 2: Create Index Measures\nNext, you’ll need to create index measures for different types of variables. We will use the two types of index methods described during the in-class workshop.\nRequirement 2 (10%)\nFirst, in your own words, explain the concept of an additive index and an averaged z-score, including how they are calculated, when you should use them, and when you cannot use them. What are the benefits of each approach?\nRequirement 3 (20%)\nNext, you’ll need to:\n\nCreate an additive index for the baseline and endline measures of the “Future plans for a career in public sector or civil society” variables. This should correspond to seperate counts of the number of future plans that each individual has at baseline and endline.\nCreate an averaged z-scores for the baseline and endline values of the “Future plans for a career in public sector or civil society” and “Feelings of political efficacy” variables.\n\n\n\n\n\n\n\nNote\n\n\n\nSince many of these are ordered categorical values, you will need to convert them to numeric values that assign higher numbers to certain values and lower numbers to certain values. Make sure that your numeric assignments correspond with the direction of the ordered categorical values.\n\n\nRequirement 4 (20%)\nTo make sure that these scores look as you’d expect, create a ggplot visualizing the distribution of the z-scores at baseline and endline. You should have 4 figures: one corresponding to each z-score at baseline and endline. In words, describe whether the figures tell us anything about changes over time."
+    "text": "Part 2: Create Index Measures\nNext, you’ll need to create index measures for different types of variables. We will use the two types of index methods described during the in-class workshop.\n\nRequirement 2 (10%)\nFirst, in your own words, explain the concept of an additive index and an averaged z-score, including how they are calculated, when you should use them, and when you cannot use them. What are the benefits of each approach?\n\n\nRequirement 3 (20%)\nNext, you’ll need to:\n\nCreate an additive index for the baseline and endline measures of the “Future plans for a career in public sector or civil society” variables. This should correspond to seperate counts of the number of future plans that each individual has at baseline and endline.\nCreate an averaged z-scores for the baseline and endline values of the “Future plans for a career in public sector or civil society” and “Feelings of political efficacy” variables.\n\n\n\n\n\n\n\nNote\n\n\n\nSince many of these are ordered categorical values, you will need to convert them to numeric values that assign higher numbers to certain values and lower numbers to certain values. Make sure that your numeric assignments correspond with the direction of the ordered categorical values.\n\n\n\n\n$q17_1_baseline_st\n[1] \"numeric\"\n\n$q17_2_baseline_st\n[1] \"numeric\"\n\n$q17_3_baseline_st\n[1] \"numeric\"\n\n$q17_1_st\n[1] \"numeric\"\n\n$q17_2_st\n[1] \"numeric\"\n\n$q17_3_st\n[1] \"numeric\""
   },
   {
-    "objectID": "assignments/aau_survey.html#part-3-estimating-models",
-    "href": "assignments/aau_survey.html#part-3-estimating-models",
-    "title": "Data Assignment 1",
+    "objectID": "assignments/aau_survey_key.html#part-3-estimating-models",
+    "href": "assignments/aau_survey_key.html#part-3-estimating-models",
+    "title": "Answer Key: Data Assignment 1",
     "section": "Part 3: Estimating models",
-    "text": "Part 3: Estimating models\nNow, let’s estimate some models to assess the relationship between the two index measures. Before we get started, subset your data to include only response_id, q3_baseline (which you should have renamed), and the baseline and endline measures for each z-score. You should end up with 6 variables in your dataframe.\nRequirement 5 (15%)\nUsing baseline values only, estimate a model regressing your “Future plans” index on your “Feelings of political efficacy” index. Your model should take the following form:\n\\[\nFuture\\_plans_i = \\alpha + \\beta_1 Efficacy_{i1} + \\epsilon_i\n\\] Use the modelsummary()package to visualize the results as a table. In your own words, interpret the meaning of \\(\\alpha\\) and \\(\\beta_1\\). Substantively, how should we interpret the relationship described in the data? What does this tell us about the world? What assumptions would we need in order to interpret the relationship as causal?\nRequirement 6 (15%)\nFor your baseline and endline values of the “Feelings of political efficacy” index, convert this index to a binary indicator taking a value of 1 of the individual has a value greater than or equal to the sample mean and a value of 0 if the individual has a value below the sample mean.\nUsing baseline values only, estimate the same model, but interact your binary “Feelings of political efficacy” indicator with the gender indicator. Your model should take the following form:\n\\[\nFuture\\_plans_i = \\alpha + \\beta_1 Efficacy_{i} + \\beta_2 Gender_{i} + \\beta_3 (Efficacy_{i}*Gender_{i}) + \\epsilon_i\n\\] Use the modelsummary()package to visualize the results as a table. In your own words, interpret the meaning of \\(\\alpha\\), \\(\\beta_1\\), \\(\\beta_2\\), and \\(\\beta_3\\). Substantively, how should we interpret the interactive relationship described in the data?\nRequirement 7 (10%)\nConvert the data from ‘wide’ to ‘long’ format, so that each respondent (response_id) has two rows of data; one row is baseline and one row is endline.\nUsing this new ‘long’ format, estimate the original model, but add unit (response_id) fixed effects. Your model should take the following form:\n\\[\nFuture\\_plans_{it} = \\alpha + \\beta_1 Efficacy_{it} + \\gamma_i + \\epsilon_{it}\n\\]\nIn your own words, tell us how the meaning of \\(\\beta_1\\) has changed now that we’ve added fixed effects."
+    "text": "Part 3: Estimating models\nNow, let’s estimate some models to assess the relationship between the two index measures. Before we get started, subset your data to include only response_id, q3_baseline (which you should have renamed), and the baseline and endline measures for each z-score. You should end up with 6 variables in your dataframe.\nRequirement 5 (15%)\nUsing baseline values only, estimate a model regressing your “Future plans” index on your “Feelings of political efficacy” index. Your model should take the following form:\n\\[\nFuture\\_plans_i = \\alpha + \\beta_1 Efficacy_{i1} + \\epsilon_i\n\\] Use the modelsummary()package to visualize the results as a table. In your own words, interpret the meaning of \\(\\alpha\\) and \\(\\beta_1\\). Substantively, how should we interpret the relationship described in the data? What does this tell us about the world? What assumptions would we need in order to interpret the relationship as causal?\nRequirement 6 (15%)\nFor your baseline and endline values of the “Feelings of political efficacy” index, convert this index to a binary indicator taking a value of 1 of the individual has a value greater than or equal to the sample mean and a value of 0 if the individual has a value below the sample mean.\nUsing baseline values only, estimate the same model, but interact your binary “Feelings of political efficacy” indicator with the gender indicator. Your model should take the following form:\n\\[\nFuture\\_plans_i = \\alpha + \\beta_1 Efficacy_{i} + \\beta_2 Gender_{i} + \\beta_3 (Efficacy_{i}*Gender_{i}) + \\epsilon_i\n\\] Use the modelsummary()package to visualize the results as a table. In your own words, interpret the meaning of \\(\\alpha\\), \\(\\beta_1\\), \\(\\beta_2\\), and \\(\\beta_3\\). Substantively, how should we interpret the interactive relationship described in the data?\n\n\n\n\n\n\nBivariate 1\n Bivariate 2\n Interaction\n\n\n\n\n(Intercept)\n0.000 (0.017)\n−0.052* (0.025)\n−0.106* (0.045)\n\n\nz_efficacy_base\n0.083*** (0.024)\n\n\n\n\nz_efficacy_base_bin\n\n0.095** (0.034)\n0.108+ (0.066)\n\n\nq3_baselineMale\n\n\n0.078 (0.055)\n\n\nz_efficacy_base_bin × q3_baselineMale\n\n\n−0.026 (0.077)\n\n\nNum.Obs.\n817\n817\n817\n\n\nR2 Adj.\n0.013\n0.008\n0.009\n\n\n\n\n\n\n\n\n\n\n\n\nConvert the data from ‘wide’ to ‘long’ format, so that each respondent (response_id) has two rows of data; one row is baseline and one row is endline. Create a Post indicator that takes a value of 1 in rows that contain endline measures and a value of 0 in rows that contain baseline measures.\nUsing this new ‘long’ format, estimate the same model, but interact your binary “Feelings of political efficacy” indicator with the Post indicator. Your model should take the following form:\n\\[\nFuture\\_plans_{it} = \\alpha + \\beta_1 Efficacy_{it} + \\beta_2 Post_{it} + \\beta_3 (Efficacy_{it}*Post_{it}) + \\epsilon_{it}\n\\]\nIn your own words, interpret the meaning of \\(\\alpha\\), \\(\\beta_1\\), \\(\\beta_2\\), and \\(\\beta_3\\).\n\n\n\n\n\n\n\n\n\nFixed Effects 1\n Fixed Effects 2\n\n\n\n\n(Intercept)\n−0.455+ (0.259)\n−0.469+ (0.258)\n\n\nz_efficacy\n0.016 (0.023)\n\n\n\nz_efficacy_bin\n\n−0.017 (0.030)\n\n\nNum.Obs.\n1633\n1633\n\n\nR2 Adj.\n0.430\n0.430"
   },
   {
     "objectID": "index.html",
@@ -2342,7 +2370,7 @@
     "href": "slides/02-causal.html#central-tendency-mean",
     "title": "Correlation and Causation",
     "section": "Central Tendency: Mean",
-    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 8.111374\n\nmean(my_vector)\n\n[1] 8.111374"
+    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 9.435616\n\nmean(my_vector)\n\n[1] 9.435616"
   },
   {
     "objectID": "slides/02-causal.html#spread-variance",
@@ -3752,11 +3780,284 @@
     "text": "Agenda\n\n\n\nCruz (2016)\nBold et al. (2018)\nReview of Data Assignment 1"
   },
   {
+    "objectID": "slides/21-aid2.html#foreign-aid-and-accountability",
+    "href": "slides/21-aid2.html#foreign-aid-and-accountability",
+    "title": "Foreign Aid 2",
+    "section": "Foreign Aid and Accountability",
+    "text": "Foreign Aid and Accountability\n\n\nStandard channels for political manipulation\n\n\nDistribution of aid: Divert resources from needy to strategically valuable communities (clientelism)\nReallocation of budgets: Divert resources from development (fungibility)"
+  },
+  {
+    "objectID": "slides/21-aid2.html#foreign-aid-and-accountability-1",
+    "href": "slides/21-aid2.html#foreign-aid-and-accountability-1",
+    "title": "Foreign Aid 2",
+    "section": "Foreign Aid and Accountability",
+    "text": "Foreign Aid and Accountability\n\n\nDonor strategies to avoid manipulation:\n\n\nProject aid\nChannel through NGOs or direct transfers\nGenerally cut government actors out of the process"
+  },
+  {
+    "objectID": "slides/21-aid2.html#three-questions",
+    "href": "slides/21-aid2.html#three-questions",
+    "title": "Foreign Aid 2",
+    "section": "Three Questions",
+    "text": "Three Questions\nThree questions\n\nDo citizens perceive foreign aid projects?\nHow do politicians claim credit?\nUnder what conditions are they successful?\n\nSources of updating\n\nCredit for welfare improvement\nMore likely to secure future projects"
+  },
+  {
+    "objectID": "slides/21-aid2.html#research-design",
+    "href": "slides/21-aid2.html#research-design",
+    "title": "Foreign Aid 2",
+    "section": "Research Design",
+    "text": "Research Design\n\n\n\n\nResearch question: Can local politicians claim undue credit for the aid projects to boost their re-election prospects\nAllocation of projects: Eligibility determined by poverty threshold\nLeast likely design for credit misattribution:\n\nLow chance for political influence on distribution\nMinimal ability to reallocate budget in response"
+  },
+  {
+    "objectID": "slides/21-aid2.html#undeserved-credit-claiming",
+    "href": "slides/21-aid2.html#undeserved-credit-claiming",
+    "title": "Foreign Aid 2",
+    "section": "Undeserved Credit Claiming",
+    "text": "Undeserved Credit Claiming\n\n\nWhat is undeserved credit claiming?\n\nPoliticians claiming credit for projects they had no role in securing\n\nMechanism:\n\nExploiting the lack of transparency and information among voters\n\nImplications:\n\nUndermines incentives to improve welfare"
+  },
+  {
+    "objectID": "slides/21-aid2.html#findings",
+    "href": "slides/21-aid2.html#findings",
+    "title": "Foreign Aid 2",
+    "section": "Findings",
+    "text": "Findings\n\nElection impact: 12% increase in re-election chances\nIncreased visits: Politicians visited project sites more frequently to appear involved\nPolitical credit: Mayors are credited for funding or initiating projects even when respondents knew of other funding sources"
+  },
+  {
+    "objectID": "slides/21-aid2.html#policy-implications",
+    "href": "slides/21-aid2.html#policy-implications",
+    "title": "Foreign Aid 2",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\n\n\nDesigning Aid Projects: Importance of transparency and community involvement to minimize undeserved credit claiming\nVoter Education: Enhancing voters’ understanding of aid processes to better hold politicians accountable\nInvolvement: Giving opportunities to contribute makes credit deserved"
+  },
+  {
+    "objectID": "slides/21-aid2.html#service-delivery-the-state",
+    "href": "slides/21-aid2.html#service-delivery-the-state",
+    "title": "Foreign Aid 2",
+    "section": "Service Delivery & The State",
+    "text": "Service Delivery & The State\nWhat do states do? (Hoffman, 2015)\n\nMonopolize violence\nLevy taxes\nObtain the assent of the population\n\nWhy is public service delivery (PSD) important?\n\nPromotes economic growth\nImproves welfare of citizens"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-social-contract",
+    "href": "slides/21-aid2.html#the-social-contract",
+    "title": "Foreign Aid 2",
+    "section": "The Social Contract",
+    "text": "The Social Contract\nMutual reliance between states and citizens\n\nStates need tax revenue\nCitizens need public services\n\nProvision of clean water accounts for 60% of the increase in life expectancy in the United States between 1850 and 1950 (Troesken 2001)."
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-social-contract-1",
+    "href": "slides/21-aid2.html#the-social-contract-1",
+    "title": "Foreign Aid 2",
+    "section": "The Social Contract",
+    "text": "The Social Contract\nVirtuous cycle between taxation, PSD, and state capacity\n\nTaxation \\(\\Rightarrow\\) citizen demand for PSD\nGovernment PSD \\(\\Rightarrow\\) citizen compliance with taxation\nCitizen compliance with taxation \\(\\Rightarrow\\) increased state capacity\nCitizen reliance on PSD \\(\\Rightarrow\\) political accountability (Hoffman and Gibson 2005)"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-fiscal-exchange",
+    "href": "slides/21-aid2.html#the-fiscal-exchange",
+    "title": "Foreign Aid 2",
+    "section": "The Fiscal Exchange",
+    "text": "The Fiscal Exchange\nHow does this work in social contexts without direct taxation?\n\nCompliance obtains when people expect that services will be delivered\nCompliance is conditional\n\nNorm-driven social contract emergence\n\nTax morale and civic duty\nCompliance is internalized"
+  },
+  {
+    "objectID": "slides/21-aid2.html#historical-service-delivery-in-africa",
+    "href": "slides/21-aid2.html#historical-service-delivery-in-africa",
+    "title": "Foreign Aid 2",
+    "section": "Historical Service Delivery in Africa",
+    "text": "Historical Service Delivery in Africa\nService delivery in the pre-colonial period\n\nPre-colonial African states did not engage in extensive service delivery (Herbst 2000)\n\nStates weren’t geographically bounded\n\nChristian missions were (kinda) the first service providers\n\nEmphasis on literacy and formalizing indigenous languages\nCompeting with traditional healers (Chirwa 2016)"
+  },
+  {
+    "objectID": "slides/21-aid2.html#historical-service-delivery-in-africa-1",
+    "href": "slides/21-aid2.html#historical-service-delivery-in-africa-1",
+    "title": "Foreign Aid 2",
+    "section": "Historical Service Delivery in Africa",
+    "text": "Historical Service Delivery in Africa\nColonial approaches to service delivery\n\nTraditional medicine was outlawed (Chirwa 2016)\nThe church is “cemented” as the primary service provider (Jennings 2014)\n\nTanzania at the end of the colonial period\nChurch operated 81% of primary health facilities\nChurch-operated schools outnumbered government schools 4-to-1"
+  },
+  {
+    "objectID": "slides/21-aid2.html#historical-service-delivery-in-africa-2",
+    "href": "slides/21-aid2.html#historical-service-delivery-in-africa-2",
+    "title": "Foreign Aid 2",
+    "section": "Historical Service Delivery in Africa",
+    "text": "Historical Service Delivery in Africa"
+  },
+  {
+    "objectID": "slides/21-aid2.html#historical-service-delivery-in-africa-3",
+    "href": "slides/21-aid2.html#historical-service-delivery-in-africa-3",
+    "title": "Foreign Aid 2",
+    "section": "Historical Service Delivery in Africa",
+    "text": "Historical Service Delivery in Africa"
+  },
+  {
+    "objectID": "slides/21-aid2.html#historical-service-delivery-in-africa-4",
+    "href": "slides/21-aid2.html#historical-service-delivery-in-africa-4",
+    "title": "Foreign Aid 2",
+    "section": "Historical Service Delivery in Africa",
+    "text": "Historical Service Delivery in Africa\nPost-colonial period\n\nPost-colonial African states nationalized service delivery infrastructure and increased spending (Bates 1981)\n\nKenya’s Civil Services (Young 1988)\n1945: 14,000; 1955: 45,000; 1978: 170,000\n\nCommodity boom \\(\\Rightarrow\\) commodity bust\nStructural adjustment: Kenya’s Health Spending (J. Brass 2014)\n\n1980: $9.8 million; 1993: 6.2 million; 1996: 3.6 million"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers",
+    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers",
+    "title": "Foreign Aid 2",
+    "section": "The Re-Entry of Non-State Providers",
+    "text": "The Re-Entry of Non-State Providers\n\n\nIn 2007, 9% and 16% of US economic engagement with developing countries has been Official Development Assistance and private philanthropy respectively (Kapur and Whittle 2009)."
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers-1",
+    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers-1",
+    "title": "Foreign Aid 2",
+    "section": "The Re-Entry of Non-State Providers",
+    "text": "The Re-Entry of Non-State Providers"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers-2",
+    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers-2",
+    "title": "Foreign Aid 2",
+    "section": "The Re-Entry of Non-State Providers",
+    "text": "The Re-Entry of Non-State Providers\nFaith Based Organizations (FBOs) (Green et al. 2002)\n\nChurch “umbrella” organizations (ex. Uganda Protestant Medical Bureau)\n\nLess aid (Reinikka and Svensson 2010), more user-fees (Munthali et al. 2015)\nCost-sharing with government\nUganda: 45% of the hospital beds; ⅓ of the country’s health workers (Tumwesigye 2013)\n\nInternational religious FBOs (ex. World Vision)\n\nOperate more like secular NGOs"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers-3",
+    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers-3",
+    "title": "Foreign Aid 2",
+    "section": "The Re-Entry of Non-State Providers",
+    "text": "The Re-Entry of Non-State Providers\nMalawi: Number of health facilities\n\n\n\nYear\nGov\nFBO\nNGO\n\n\n\n\n2005\n426\n160\n32\n\n\n2008\n545\n167\n70\n\n\n2013\n478\n167\n57"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers-4",
+    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers-4",
+    "title": "Foreign Aid 2",
+    "section": "The Re-Entry of Non-State Providers",
+    "text": "The Re-Entry of Non-State Providers\nKenya: Number of health facilities\n\n\n\nYear\nGov\nFBO\nNGO\n\n\n\n\n2007\n2,445\n1,060\n83\n\n\n2012\n4,043\n998\n218\n\n\n2014\n4,637\n1,071\n346"
+  },
+  {
+    "objectID": "slides/21-aid2.html#regions",
+    "href": "slides/21-aid2.html#regions",
+    "title": "Foreign Aid 2",
+    "section": "Regions",
+    "text": "Regions"
+  },
+  {
+    "objectID": "slides/21-aid2.html#non-governmental-organizations",
+    "href": "slides/21-aid2.html#non-governmental-organizations",
+    "title": "Foreign Aid 2",
+    "section": "Non-governmental Organizations",
+    "text": "Non-governmental Organizations\nWhat are NGOs?\n\nPrivate, non-profit organizations that aim to improve societal well-being through service delivery\nProvide free services, strengthen existing social infrastructure\nReceive most of their funding from foreign aid contracts (Fafchamps and Owens 2009; J. N. Brass 2012)\nMarie Stopes Uganda: Provided 75% of the Intrauterine Devices distributed in Uganda between 2006 and 2011"
+  },
+  {
+    "objectID": "slides/21-aid2.html#non-governmental-organizations-1",
+    "href": "slides/21-aid2.html#non-governmental-organizations-1",
+    "title": "Foreign Aid 2",
+    "section": "Non-governmental Organizations",
+    "text": "Non-governmental Organizations\nWho do NGOs serve?\n\nTarget needy communities\nTarget convenient communities\n“Pragmatic saints” (J. N. Brass 2012)"
+  },
+  {
+    "objectID": "slides/21-aid2.html#citizen-attitudes-on-ngos",
+    "href": "slides/21-aid2.html#citizen-attitudes-on-ngos",
+    "title": "Foreign Aid 2",
+    "section": "Citizen Attitudes on NGOs",
+    "text": "Citizen Attitudes on NGOs\n\nKenya: 70% of respondents said NGOs “have the interests of the people in mind” (34% for government) (J. Brass 2016).\nTanzanian: 81% report that NGOs have “benefited” their community (Jivani 2010).\nMalawi: 60% agree that “Development NGOs provide services than cannot be provided by any other agency”; 68% consider NGOs to be effective (Jamali 2014).\nLiberia: 23% of respondents trust government but 72% trust NGOs; 72% describe government as corrupt, but 19% describe NGOs as corrupt (Tsai, 2017)."
+  },
+  {
+    "objectID": "slides/21-aid2.html#ngos-politics",
+    "href": "slides/21-aid2.html#ngos-politics",
+    "title": "Foreign Aid 2",
+    "section": "NGOs & Politics",
+    "text": "NGOs & Politics\nNGO service delivery may weaken the ‘Fiscal Link’\n\nReduce reliance of government on taxation\nReduce reliance on citizens on PSD\nWeaken the link between government performance and citizen welfare\n\nNGO service delivery may undermine accountability\n\nPoliticians get credit for NGO PSD\nNGOs make people more apolitical about government PSD"
+  },
+  {
+    "objectID": "slides/21-aid2.html#ngos-politics-1",
+    "href": "slides/21-aid2.html#ngos-politics-1",
+    "title": "Foreign Aid 2",
+    "section": "NGOs & Politics",
+    "text": "NGOs & Politics\nNGOs as complements to the state (J. Brass 2014)\n\nJoint implementation / co-production\n\nLearning\nResource sharing\n\nParticipation in government decision making\n\nLobbying for policy-changes\nTransmitting information on citizen preferences\n\nIntegration of NGOs into government plans"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-limitations-of-ngos",
+    "href": "slides/21-aid2.html#the-limitations-of-ngos",
+    "title": "Foreign Aid 2",
+    "section": "The Limitations of NGOs",
+    "text": "The Limitations of NGOs\n\n\n\nSector\nGovt\nNGO\nCount\n\n\n\n\nHealth\n13%\n87%\n479\n\n\nEducation\n42%\n58%\n242\n\n\nAgriculture/Extension\n32%\n68%\n182\n\n\nSocial Infrastructure\n32%\n68%\n291\n\n\nTransportation\n100%\n0%\n96\n\n\nEnergy\n100%\n0%\n49\n\n\nWater and Sanitation\n70%\n30%\n259\n\n\nBusiness/Trade Development\n87%\n13%\n15\n\n\nTotal\n45%\n55%\n1900"
+  },
+  {
+    "objectID": "slides/21-aid2.html#scaling-up-education-reforms",
+    "href": "slides/21-aid2.html#scaling-up-education-reforms",
+    "title": "Foreign Aid 2",
+    "section": "Scaling Up Education Reforms",
+    "text": "Scaling Up Education Reforms\nHiring contract teachers to improve text scores\n\nSmaller class sizes\nHigher motivation\n\nScaling up\n\nRCT pilot simultaneous with government scale-up"
+  },
+  {
+    "objectID": "slides/21-aid2.html#context",
+    "href": "slides/21-aid2.html#context",
+    "title": "Foreign Aid 2",
+    "section": "Context",
+    "text": "Context\nContract teachers\n\nLower cost\nSimilar qualifications\nDifferent profile\n\nSelection (firing)\nIncentives (pay and retention)"
+  },
+  {
+    "objectID": "slides/21-aid2.html#research-design-1",
+    "href": "slides/21-aid2.html#research-design-1",
+    "title": "Foreign Aid 2",
+    "section": "Research Design",
+    "text": "Research Design"
+  },
+  {
+    "objectID": "slides/21-aid2.html#scaling-up-education-reforms-1",
+    "href": "slides/21-aid2.html#scaling-up-education-reforms-1",
+    "title": "Foreign Aid 2",
+    "section": "Scaling Up Education Reforms",
+    "text": "Scaling Up Education Reforms\nRandom assignment of:\n\nGovernment vs NGO implementation\nStructure of contract\n\nLocal vs central control of hiring/firing\nRole of school management committees\nSalary"
+  },
+  {
+    "objectID": "slides/21-aid2.html#research-design-2",
+    "href": "slides/21-aid2.html#research-design-2",
+    "title": "Foreign Aid 2",
+    "section": "Research Design",
+    "text": "Research Design"
+  },
+  {
+    "objectID": "slides/21-aid2.html#research-design-3",
+    "href": "slides/21-aid2.html#research-design-3",
+    "title": "Foreign Aid 2",
+    "section": "Research Design",
+    "text": "Research Design"
+  },
+  {
+    "objectID": "slides/21-aid2.html#research-design-4",
+    "href": "slides/21-aid2.html#research-design-4",
+    "title": "Foreign Aid 2",
+    "section": "Research Design",
+    "text": "Research Design\n\nAttrition\nCompliance\n\nNGO implementation (+)\nLocal hiring (+)\nHigher salaries (+)\nSmall class size reduction"
+  },
+  {
+    "objectID": "slides/21-aid2.html#findings-1",
+    "href": "slides/21-aid2.html#findings-1",
+    "title": "Foreign Aid 2",
+    "section": "Findings",
+    "text": "Findings"
+  },
+  {
+    "objectID": "slides/21-aid2.html#findings-2",
+    "href": "slides/21-aid2.html#findings-2",
+    "title": "Foreign Aid 2",
+    "section": "Findings",
+    "text": "Findings"
+  },
+  {
+    "objectID": "slides/21-aid2.html#findings-3",
+    "href": "slides/21-aid2.html#findings-3",
+    "title": "Foreign Aid 2",
+    "section": "Findings",
+    "text": "Findings\n\nNGO implementation increased test scores\nGovernment implementation had no effect\n\nTeacher effort: No\nGovernment monitoring: No\nBureaucratic delays in payment: Yes (⅓ of effect)\nPolitical economy factors: Yes (union identification)\n\n\nWhat does this tell us about the limitations of NGOs?"
+  },
+  {
     "objectID": "slides/21-aid2.html#additive-scale",
     "href": "slides/21-aid2.html#additive-scale",
     "title": "Foreign Aid 2",
     "section": "Additive Scale",
-    "text": "Additive Scale\nWhat is an additive scale?\n\nSimple sum across columns (index = column_1 + column_2)\n\nTakeaways\n\nWhen variables are measured on a common scale\nWhen you are interested in a cumulative amount of something\nNot good for likert scales\nHow to deal with NAs"
+    "text": "Additive Scale\nWhat is an additive scale?\n\nSimple sum across columns (index = column_1 + column_2)\n\nTakeaways\n\nWhen variables are measured on a common scale\nWhen components contribute equally\nWhen you are interested in a cumulative amount of something\nNot good for likert scales\nHow to deal with NAs"
+  },
+  {
+    "objectID": "slides/21-aid2.html#references",
+    "href": "slides/21-aid2.html#references",
+    "title": "Foreign Aid 2",
+    "section": "References",
+    "text": "References\n\n\n\njrspringman.github.io/psci3200-globaldev/\n\n\n\nBates, Robert H. 1981. Markets and States in Tropical Africa: The Political Basis of Agricultural Policies. Univ of California Press.\n\n\nBrass, Jennifer. 2014. “Blurring the Boundaries: NGOs, the State, and Service Provision in Kenya.” The Politics of Non-State Welfare.\n\n\n———. 2016. Allies or Adversaries: NGOs and the State in Africa. Cambridge University Press. https://doi.org/https://doi.org/10.1017/CBO9781316678527.\n\n\nBrass, Jennifer N. 2012. “Why Do NGOs Go Where They Go? Evidence from Kenya.” World Development 40 (2): 387–401.\n\n\nChirwa, Danwood M. 2016. “Access to Medicines and Health Care in Sub-Saharan Africa: A Historical Perspective.” Md. J. Int’l L. 31: 21.\n\n\nFafchamps, Marcel, and Trudy Owens. 2009. “The Determinants of Funding to Ugandan Nongovernmental Organizations.” The World Bank Economic Review.\n\n\nGreen, A, J Shaw, F Dimmock, and Cath Conn. 2002. “A Shared Mission? Changing Relationships Between Government and Church Health Services in Africa.” The International Journal of Health Planning and Management 17 (4): 333–53.\n\n\nHerbst, Jeffrey. 2000. States and Power in Africa: Comparative Lessons in Authority and Control. Princeton University Press.\n\n\nHoffman, Barak D, and Clark C Gibson. 2005. “Fiscal Governance and Public Services: Evidence from Tanzania and Zambia.” San Diego: Department of Political Science, University of California, San Diego.\n\n\nJamali, Tiyesere Mercy. 2014. “Are Malawian Adults Turning Pink? Exploring Public Opinion on Women’s Political Leadership.” Afrobarometer Briefing Paper 126.\n\n\nJennings, Michael. 2014. “Bridging the Local and the Global: Faith-Based Organisations and the Emergence of the Non-State Provider Sector in Tanzania.” The Politics of Non-State Welfare.\n\n\nJivani, Razeen. 2010. “What are the Impacts of Non-Governmental Organizations on the Lives of the Citizens of Tanzania?”\n\n\nKapur, Devesh, and Dennis Whittle. 2009. “Can the Privatization of Foreign Aid Enhance Accountability.” NYU Journal of International Law & Politics 42: 1143.\n\n\nMunthali, AC, H Mannan, M MacLachlan, L Swartz, CM Makupe, and C Chilimampunga. 2015. “Non-use of Formal Health Services in Malawi: Perceptions from Non-users.” Malawi Medical Journal 26 (4): 126–32.\n\n\nReinikka, Ritva, and Jakob Svensson. 2010. “Working For God? Evidence From A Change In Financing Of Nonprofit Health Care Providers In Uganda.” Journal of the European Economic Association 8 (6): 1159–78.\n\n\nTroesken, Werner. 2001. “Race, Disease, and the Provision of Water in American Cities, 1889–1921.” The Journal of Economic History 61 (3): 750–76.\n\n\nTumwesigye, Tonny. 2013. “Health Service Delivery by the PNFP Subsector in Uganda.” Uganda Protestant Medical Bureau.\n\n\nYoung, Crawford. 1988. The African Colonial State in Comparative Perspective. Yale University Press."
   },
   {
     "objectID": "workshops/causal3.html",
@@ -3841,166 +4142,5 @@
     "title": "Final Report Example",
     "section": "Results",
     "text": "Results\n\n\n\n\n\n\nContact Official\nAttend Meeting\n NGO Volunteer\nSign Petition\n\n\n\n\n(Intercept)\n1.044*** (0.114)\n0.752*** (0.116)\n1.304*** (0.181)\n0.354*** (0.090)\n\n\nmoved\n−0.178 (0.141)\n0.580*** (0.143)\n0.117 (0.222)\n0.529*** (0.110)\n\n\nNum.Obs.\n802\n801\n803\n801\n\n\nR2 Adj.\n0.001\n0.019\n−0.001\n0.027"
-  },
-  {
-    "objectID": "slides/21-aid2.html#introduction",
-    "href": "slides/21-aid2.html#introduction",
-    "title": "Foreign Aid 2",
-    "section": "Introduction",
-    "text": "Introduction\nTopics\n\nService delivery and the state\nA brief history of non-state service delivery\nContemporary non-state service delivery\n\nLearning Objectives\n\nWhat types of non-state actors are involved in service delivery in Africa?\nWhat are the main causes of the emergence and growth of these organizations, and what are their likely consequences for citizen welfare and state capacity?\nWhat are the limiting factors that are likely to prevent these actors from supplanting state service provision?"
-  },
-  {
-    "objectID": "slides/21-aid2.html#service-delivery-the-state",
-    "href": "slides/21-aid2.html#service-delivery-the-state",
-    "title": "Foreign Aid 2",
-    "section": "Service Delivery & The State",
-    "text": "Service Delivery & The State\nWhat do states do? (Hoffman, 2015)\n\nMonopolize violence\nLevy taxes\nObtain the assent of the population\n\nWhy is public service delivery (PSD) important?\n\nPromotes economic growth\nImproves welfare of citizens"
-  },
-  {
-    "objectID": "slides/21-aid2.html#the-social-contract",
-    "href": "slides/21-aid2.html#the-social-contract",
-    "title": "Foreign Aid 2",
-    "section": "The Social Contract",
-    "text": "The Social Contract\nMutual reliance between states and citizens\n\nStates need tax revenue\nCitizens need public services\n\nProvision of clean water accounts for 60% of the increase in life expectancy in the United States between 1850 and 1950 (Troesken 2001).\n\n\nVirtuous cycle between taxation, PSD, and state capacity\n\nTaxation \\(\\Rightarrow\\) citizen demand for PSD\nGovernment PSD \\(\\Rightarrow\\) citizen compliance with taxation\nCitizen compliance with taxation \\(\\Rightarrow\\) increased state capacity\nCitizen reliance on PSD \\(\\Rightarrow\\) political accountability (Hoffman and Gibson 2005)"
-  },
-  {
-    "objectID": "slides/21-aid2.html#the-fiscal-exchange-bodea2014",
-    "href": "slides/21-aid2.html#the-fiscal-exchange-bodea2014",
-    "title": "Foreign Aid 2",
-    "section": "The Fiscal Exchange (Bodea and LeBas 2014)",
-    "text": "The Fiscal Exchange (Bodea and LeBas 2014)\nHow does this work in social contexts without direct taxation?\nExchange-driven social contract emergence\n\nCompliance obtains when people expect that services will be delivered\nCompliance is conditional\n\nNorm-driven social contract emergence\n\nTax morale and civic duty\nCompliance is internalized"
-  },
-  {
-    "objectID": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa",
-    "href": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa",
-    "title": "Foreign Aid 2",
-    "section": "A Brief History of Service Delivery in Africa",
-    "text": "A Brief History of Service Delivery in Africa\nService delivery in the pre-colonial period\n\nPre-colonial African states did not engage in extensive service delivery (Herbst 2000)\n\nStates weren’t geographically bounded\n\nChristian missions were (kinda) the first service providers\n\nEmphasis on literacy and formalizing indigenous languages\nCompeting with traditional healers (Chirwa 2016)\n\n\nColonial approaches to service delivery\n\nTraditional medicine was outlawed (Chirwa 2016)\nThe church is “cemented” as the primary service provider (Jennings 2014)\n\nTanzania at the end of the colonial period\nChurch operated 81% of primary health facilities\nChurch-operated schools outnumbered government schools 4-to-1"
-  },
-  {
-    "objectID": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa-1",
-    "href": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa-1",
-    "title": "Foreign Aid 2",
-    "section": "A Brief History of Service Delivery in Africa",
-    "text": "A Brief History of Service Delivery in Africa"
-  },
-  {
-    "objectID": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa-2",
-    "href": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa-2",
-    "title": "Foreign Aid 2",
-    "section": "A Brief History of Service Delivery in Africa",
-    "text": "A Brief History of Service Delivery in Africa"
-  },
-  {
-    "objectID": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa-3",
-    "href": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa-3",
-    "title": "Foreign Aid 2",
-    "section": "A Brief History of Service Delivery in Africa",
-    "text": "A Brief History of Service Delivery in Africa\nPost-colonial period\n\nPost-colonial African states nationalized service delivery infrastructure and increased spending dramatically\nSpending was unsustainable (Bates 1981; J. Brass 2014)\n\nKenya’s Civil Services (Young 1988)\n1945: 14,000\n1955: 45,000\n1978: 170,000\n\nCommodity boom \\(\\Rightarrow\\) commodity bust\nStructural adjustment\n\nKenya’s Health Spending (J. Brass 2014)\n1980: $9.8 million\n1993: $6.2 million\n1996: $3.6 million"
-  },
-  {
-    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers",
-    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers",
-    "title": "Foreign Aid 2",
-    "section": "The Re-Entry of Non-State Providers",
-    "text": "The Re-Entry of Non-State Providers\nIn 2007, 9% and 16% of US economic engagement with developing countries has been Official Development Assistance and private philanthropy respectively (Kapur and Whittle 2009)."
-  },
-  {
-    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers-1",
-    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers-1",
-    "title": "Foreign Aid 2",
-    "section": "The Re-Entry of Non-State Providers",
-    "text": "The Re-Entry of Non-State Providers"
-  },
-  {
-    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers-2",
-    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers-2",
-    "title": "Foreign Aid 2",
-    "section": "The Re-Entry of Non-State Providers",
-    "text": "The Re-Entry of Non-State Providers\nFaith Based Organizations (FBOs) (Green et al. 2002)\n\nChurch “umbrella” organizations (ex. Uganda Protestant Medical Bureau)\n\nLess reliant on aid (Reinikka and Svensson 2010)\nMore reliant on user-fees (Munthali et al. 2015)\nFocus on facility-based care in rural areas\nCost-sharing with government\nUganda: 45% of the hospital beds; ⅓ of the country’s health workers (Tumwesigye 2013)\n\nInternational religious FBOs (ex. World Vision)\n\nOperate more like secular NGOs\n\nWhat do FBOs have in common? (Jennings 2014)"
-  },
-  {
-    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers-3",
-    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers-3",
-    "title": "Foreign Aid 2",
-    "section": "The Re-Entry of Non-State Providers",
-    "text": "The Re-Entry of Non-State Providers\nMalawi: Number of health facilities\n\n\n\nYear\nGov\nFBO\nNGO\n\n\n\n\n2005\n426\n160\n32\n\n\n2008\n545\n167\n70\n\n\n2013\n478\n167\n57\n\n\n\nKenya: Number of health facilities\n\n\n\nYear\nGov\nFBO\nNGO\n\n\n\n\n2007\n2,445\n1,060\n83\n\n\n2012\n4,043\n998\n218\n\n\n2014\n4,637\n1,071\n346"
-  },
-  {
-    "objectID": "slides/21-aid2.html#regions",
-    "href": "slides/21-aid2.html#regions",
-    "title": "Foreign Aid 2",
-    "section": "Regions",
-    "text": "Regions"
-  },
-  {
-    "objectID": "slides/21-aid2.html#non-governmental-organizations",
-    "href": "slides/21-aid2.html#non-governmental-organizations",
-    "title": "Foreign Aid 2",
-    "section": "Non-governmental Organizations",
-    "text": "Non-governmental Organizations\nWhat are NGOs?\n\nPrivate, non-profit organizations that aim to improve societal well-being through service delivery\nProvide free services, strengthen existing social infrastructure\nInternational, local\nReceive most of their funding from foreign aid contracts (Fafchamps and Owens 2009; J. N. Brass 2012)\nGenerally seen as apolitical (Grebe 2016)\nMarie Stopes Uganda: Provided 75% of the Intrauterine Devices distributed in Uganda between 2006 and 2011\nMaximize on impact (Dang, Owens, et al. 2017)"
-  },
-  {
-    "objectID": "slides/21-aid2.html#non-governmental-organizations-1",
-    "href": "slides/21-aid2.html#non-governmental-organizations-1",
-    "title": "Foreign Aid 2",
-    "section": "Non-governmental Organizations",
-    "text": "Non-governmental Organizations\nWho do NGOs serve?\n\nTarget needy communities\nTarget convenient communities\n“Pragmatic saints” (J. N. Brass 2012)"
-  },
-  {
-    "objectID": "slides/21-aid2.html#regions-1",
-    "href": "slides/21-aid2.html#regions-1",
-    "title": "Foreign Aid 2",
-    "section": "Regions",
-    "text": "Regions\n ## Citizen Attitudes on NGOs\n\nKenya: 70% of respondents said that NGOs “have the interests of the people in mind” but 34% said the same for government (J. Brass 2016).\nTanzanian: 81% report that NGOs have “benefited” their community (Jivani 2010).\nMalawi: 60% agree that “Development NGOs provide services than cannot be provided by any other agency”; 68% consider NGOs to be effective (Jamali 2014).\nLiberia: 23% of respondents trust government but 72% trust NGOs; 72% describe government as corrupt, but 19% describe NGOs as corrupt (Tsai, 2017)."
-  },
-  {
-    "objectID": "slides/21-aid2.html#ngos-politics",
-    "href": "slides/21-aid2.html#ngos-politics",
-    "title": "Foreign Aid 2",
-    "section": "NGOs & Politics",
-    "text": "NGOs & Politics\nHow might NGO service delivery impact politics?\nNGO service delivery may weaken the ‘Fiscal Link’\n\nReduce reliance of government on taxation\nReduce reliance on citizens on PSD\nWeaken the link between government performance and citizen welfare\n\nNGO service delivery may undermine accountability\n\nPoliticians get credit for NGO PSD (increase satisfaction)\nNGOs make people more apolitical about government PSD (decrease incentives to monitor)"
-  },
-  {
-    "objectID": "slides/21-aid2.html#ngos-politics-1",
-    "href": "slides/21-aid2.html#ngos-politics-1",
-    "title": "Foreign Aid 2",
-    "section": "NGOs & Politics",
-    "text": "NGOs & Politics\nNGOs as complements to the state (J. Brass 2014)\n\nJoint implementation / co-production\n\nLearning\nResource sharing\n\nParticipation in government decision making\n\nLobbying for policy-changes\nTransmitting information on citizen preferences\n\nIntegration of NGOs into government plans\n\nBudgeting"
-  },
-  {
-    "objectID": "slides/21-aid2.html#ngos-politics-2",
-    "href": "slides/21-aid2.html#ngos-politics-2",
-    "title": "Foreign Aid 2",
-    "section": "NGOs & Politics",
-    "text": "NGOs & Politics\nNGOs as complements to the state (J. Brass 2014)\n\nNGOs don’t let governments “off the hook”\nCo-production builds state capacity\nNGOs encourage a spirit of democratic accountability\n\nNecessary conditions\n\nOpen political climate\nAutonomous agencies\nMotivated civil servants"
-  },
-  {
-    "objectID": "slides/21-aid2.html#the-limitations-of-ngos",
-    "href": "slides/21-aid2.html#the-limitations-of-ngos",
-    "title": "Foreign Aid 2",
-    "section": "The Limitations of NGOs",
-    "text": "The Limitations of NGOs\n\nShare of Aid Projects by Implementor and Sector (2000 - 2014)\n\n\nSector\nGovt\nNGO\nCount\n\n\n\n\nHealth\n13%\n87%\n479\n\n\nEducation\n42%\n58%\n242\n\n\nAgriculture/Extension\n32%\n68%\n182\n\n\nSocial Infrastructure\n32%\n68%\n291\n\n\nTransportation Infrastructure\n100%\n0%\n96\n\n\nEnergy\n100%\n0%\n49\n\n\nWater and Sanitation\n70%\n30%\n259\n\n\nBusiness/Trade Development\n87%\n13%\n15\n\n\nTotal\n45%\n55%\n1900"
-  },
-  {
-    "objectID": "slides/21-aid2.html#the-limitations-of-ngos-1",
-    "href": "slides/21-aid2.html#the-limitations-of-ngos-1",
-    "title": "Foreign Aid 2",
-    "section": "The Limitations of NGOs",
-    "text": "The Limitations of NGOs\nExperimental Evidence on Scaling Up Education Reforms in Kenya (bold2013?)\n\nWhat is the reform?\n\nHiring contract teachers\nGovernment vs NGO implementation\n\nOutcome?\n\nStudent test scores\n\nWhy should it work?\n\nSmaller class sizes\nSMC can fire low-quality teachers\nContract teachers don’t have tenure"
-  },
-  {
-    "objectID": "slides/21-aid2.html#the-limitations-of-ngos-2",
-    "href": "slides/21-aid2.html#the-limitations-of-ngos-2",
-    "title": "Foreign Aid 2",
-    "section": "The Limitations of NGOs",
-    "text": "The Limitations of NGOs\nExperimental Evidence on Scaling Up Education Reforms in Kenya\n\nWhat are the findings?\n\nNGO implementation increased test scores\nGovernment implementation had no effect\n\nWhy?\n\nTeacher effort: No\nGovernment monitoring: No\nBureaucratic delays in payment: Yes (⅓ of effect)\nPolitical economy factors: Yes (union identification)\n\n\nWhat does this tell us about the limitations of NGOs?"
-  },
-  {
-    "objectID": "slides/21-aid2.html#references",
-    "href": "slides/21-aid2.html#references",
-    "title": "Foreign Aid 2",
-    "section": "References",
-    "text": "References\n\n\n\njrspringman.github.io/psci3200-globaldev/\n\n\n\nBates, Robert H. 1981. Markets and States in Tropical Africa: The Political Basis of Agricultural Policies. Univ of California Press.\n\n\nBodea, Cristina, and Adrienne LeBas. 2014. “The Origins of Voluntary Compliance: Attitudes toward Taxation in Urban Nigeria.” British Journal of Political Science, 1–24. https://doi.org/10.1017/S000712341400026X.\n\n\nBrass, Jennifer. 2014. “Blurring the Boundaries: NGOs, the State, and Service Provision in Kenya.” The Politics of Non-State Welfare.\n\n\n———. 2016. Allies or Adversaries: NGOs and the State in Africa. Cambridge University Press. https://doi.org/https://doi.org/10.1017/CBO9781316678527.\n\n\nBrass, Jennifer N. 2012. “Why Do NGOs Go Where They Go? Evidence from Kenya.” World Development 40 (2): 387–401.\n\n\nChirwa, Danwood M. 2016. “Access to Medicines and Health Care in Sub-Saharan Africa: A Historical Perspective.” Md. J. Int’l L. 31: 21.\n\n\nDang, Canh Thien, Trudy Owens, et al. 2017. “What Motivates Ugandan NGOs to Diversify: Risk Reduction or Private Gain?”\n\n\nFafchamps, Marcel, and Trudy Owens. 2009. “The Determinants of Funding to Ugandan Nongovernmental Organizations.” The World Bank Economic Review.\n\n\nGrebe, Eduard. 2016. “The Ambiguities of the ‘Partnership’between Civil Society and the State in Uganda’s AIDS Response During the 1990s and 2000s as Demonstrated in the Development of TASO.” Global Public Health 11 (4): 496–512.\n\n\nGreen, A, J Shaw, F Dimmock, and Cath Conn. 2002. “A Shared Mission? Changing Relationships Between Government and Church Health Services in Africa.” The International Journal of Health Planning and Management 17 (4): 333–53.\n\n\nHerbst, Jeffrey. 2000. States and Power in Africa: Comparative Lessons in Authority and Control. Princeton University Press.\n\n\nHoffman, Barak D, and Clark C Gibson. 2005. “Fiscal Governance and Public Services: Evidence from Tanzania and Zambia.” San Diego: Department of Political Science, University of California, San Diego.\n\n\nJamali, Tiyesere Mercy. 2014. “Are Malawian Adults Turning Pink? Exploring Public Opinion on Women’s Political Leadership.” Afrobarometer Briefing Paper 126.\n\n\nJennings, Michael. 2014. “Bridging the Local and the Global: Faith-Based Organisations and the Emergence of the Non-State Provider Sector in Tanzania.” The Politics of Non-State Welfare.\n\n\nJivani, Razeen. 2010. “What are the Impacts of Non-Governmental Organizations on the Lives of the Citizens of Tanzania?”\n\n\nKapur, Devesh, and Dennis Whittle. 2009. “Can the Privatization of Foreign Aid Enhance Accountability.” NYU Journal of International Law & Politics 42: 1143.\n\n\nMunthali, AC, H Mannan, M MacLachlan, L Swartz, CM Makupe, and C Chilimampunga. 2015. “Non-use of Formal Health Services in Malawi: Perceptions from Non-users.” Malawi Medical Journal 26 (4): 126–32.\n\n\nReinikka, Ritva, and Jakob Svensson. 2010. “Working For God? Evidence From A Change In Financing Of Nonprofit Health Care Providers In Uganda.” Journal of the European Economic Association 8 (6): 1159–78.\n\n\nTroesken, Werner. 2001. “Race, Disease, and the Provision of Water in American Cities, 1889–1921.” The Journal of Economic History 61 (3): 750–76.\n\n\nTumwesigye, Tonny. 2013. “Health Service Delivery by the PNFP Subsector in Uganda.” Uganda Protestant Medical Bureau.\n\n\nYoung, Crawford. 1988. The African Colonial State in Comparative Perspective. Yale University Press."
   }
 ]
