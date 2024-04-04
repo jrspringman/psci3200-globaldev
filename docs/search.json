@@ -3756,7 +3756,7 @@
     "href": "slides/21-aid2.html#additive-scale",
     "title": "Foreign Aid 2",
     "section": "Additive Scale",
-    "text": "Additive Scale\nWhat is an additive scale?\n\nSimple sum across columns (index = column_1 + column_2)\n\nTakeaways\n\nWhen variables are measured on a common scale\nWhen you are interested in a cumulative amount of something\nNot good for likert scales\nHow to deal with NAs\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Additive Scale\nWhat is an additive scale?\n\nSimple sum across columns (index = column_1 + column_2)\n\nTakeaways\n\nWhen variables are measured on a common scale\nWhen you are interested in a cumulative amount of something\nNot good for likert scales\nHow to deal with NAs"
   },
   {
     "objectID": "workshops/causal3.html",
@@ -3841,5 +3841,166 @@
     "title": "Final Report Example",
     "section": "Results",
     "text": "Results\n\n\n\n\n\n\nContact Official\nAttend Meeting\n NGO Volunteer\nSign Petition\n\n\n\n\n(Intercept)\n1.044*** (0.114)\n0.752*** (0.116)\n1.304*** (0.181)\n0.354*** (0.090)\n\n\nmoved\n−0.178 (0.141)\n0.580*** (0.143)\n0.117 (0.222)\n0.529*** (0.110)\n\n\nNum.Obs.\n802\n801\n803\n801\n\n\nR2 Adj.\n0.001\n0.019\n−0.001\n0.027"
+  },
+  {
+    "objectID": "slides/21-aid2.html#introduction",
+    "href": "slides/21-aid2.html#introduction",
+    "title": "Foreign Aid 2",
+    "section": "Introduction",
+    "text": "Introduction\nTopics\n\nService delivery and the state\nA brief history of non-state service delivery\nContemporary non-state service delivery\n\nLearning Objectives\n\nWhat types of non-state actors are involved in service delivery in Africa?\nWhat are the main causes of the emergence and growth of these organizations, and what are their likely consequences for citizen welfare and state capacity?\nWhat are the limiting factors that are likely to prevent these actors from supplanting state service provision?"
+  },
+  {
+    "objectID": "slides/21-aid2.html#service-delivery-the-state",
+    "href": "slides/21-aid2.html#service-delivery-the-state",
+    "title": "Foreign Aid 2",
+    "section": "Service Delivery & The State",
+    "text": "Service Delivery & The State\nWhat do states do? (Hoffman, 2015)\n\nMonopolize violence\nLevy taxes\nObtain the assent of the population\n\nWhy is public service delivery (PSD) important?\n\nPromotes economic growth\nImproves welfare of citizens"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-social-contract",
+    "href": "slides/21-aid2.html#the-social-contract",
+    "title": "Foreign Aid 2",
+    "section": "The Social Contract",
+    "text": "The Social Contract\nMutual reliance between states and citizens\n\nStates need tax revenue\nCitizens need public services\n\nProvision of clean water accounts for 60% of the increase in life expectancy in the United States between 1850 and 1950 (Troesken 2001).\n\n\nVirtuous cycle between taxation, PSD, and state capacity\n\nTaxation \\(\\Rightarrow\\) citizen demand for PSD\nGovernment PSD \\(\\Rightarrow\\) citizen compliance with taxation\nCitizen compliance with taxation \\(\\Rightarrow\\) increased state capacity\nCitizen reliance on PSD \\(\\Rightarrow\\) political accountability (Hoffman and Gibson 2005)"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-fiscal-exchange-bodea2014",
+    "href": "slides/21-aid2.html#the-fiscal-exchange-bodea2014",
+    "title": "Foreign Aid 2",
+    "section": "The Fiscal Exchange (Bodea and LeBas 2014)",
+    "text": "The Fiscal Exchange (Bodea and LeBas 2014)\nHow does this work in social contexts without direct taxation?\nExchange-driven social contract emergence\n\nCompliance obtains when people expect that services will be delivered\nCompliance is conditional\n\nNorm-driven social contract emergence\n\nTax morale and civic duty\nCompliance is internalized"
+  },
+  {
+    "objectID": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa",
+    "href": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa",
+    "title": "Foreign Aid 2",
+    "section": "A Brief History of Service Delivery in Africa",
+    "text": "A Brief History of Service Delivery in Africa\nService delivery in the pre-colonial period\n\nPre-colonial African states did not engage in extensive service delivery (Herbst 2000)\n\nStates weren’t geographically bounded\n\nChristian missions were (kinda) the first service providers\n\nEmphasis on literacy and formalizing indigenous languages\nCompeting with traditional healers (Chirwa 2016)\n\n\nColonial approaches to service delivery\n\nTraditional medicine was outlawed (Chirwa 2016)\nThe church is “cemented” as the primary service provider (Jennings 2014)\n\nTanzania at the end of the colonial period\nChurch operated 81% of primary health facilities\nChurch-operated schools outnumbered government schools 4-to-1"
+  },
+  {
+    "objectID": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa-1",
+    "href": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa-1",
+    "title": "Foreign Aid 2",
+    "section": "A Brief History of Service Delivery in Africa",
+    "text": "A Brief History of Service Delivery in Africa"
+  },
+  {
+    "objectID": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa-2",
+    "href": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa-2",
+    "title": "Foreign Aid 2",
+    "section": "A Brief History of Service Delivery in Africa",
+    "text": "A Brief History of Service Delivery in Africa"
+  },
+  {
+    "objectID": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa-3",
+    "href": "slides/21-aid2.html#a-brief-history-of-service-delivery-in-africa-3",
+    "title": "Foreign Aid 2",
+    "section": "A Brief History of Service Delivery in Africa",
+    "text": "A Brief History of Service Delivery in Africa\nPost-colonial period\n\nPost-colonial African states nationalized service delivery infrastructure and increased spending dramatically\nSpending was unsustainable (Bates 1981; J. Brass 2014)\n\nKenya’s Civil Services (Young 1988)\n1945: 14,000\n1955: 45,000\n1978: 170,000\n\nCommodity boom \\(\\Rightarrow\\) commodity bust\nStructural adjustment\n\nKenya’s Health Spending (J. Brass 2014)\n1980: $9.8 million\n1993: $6.2 million\n1996: $3.6 million"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers",
+    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers",
+    "title": "Foreign Aid 2",
+    "section": "The Re-Entry of Non-State Providers",
+    "text": "The Re-Entry of Non-State Providers\nIn 2007, 9% and 16% of US economic engagement with developing countries has been Official Development Assistance and private philanthropy respectively (Kapur and Whittle 2009)."
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers-1",
+    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers-1",
+    "title": "Foreign Aid 2",
+    "section": "The Re-Entry of Non-State Providers",
+    "text": "The Re-Entry of Non-State Providers"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers-2",
+    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers-2",
+    "title": "Foreign Aid 2",
+    "section": "The Re-Entry of Non-State Providers",
+    "text": "The Re-Entry of Non-State Providers\nFaith Based Organizations (FBOs) (Green et al. 2002)\n\nChurch “umbrella” organizations (ex. Uganda Protestant Medical Bureau)\n\nLess reliant on aid (Reinikka and Svensson 2010)\nMore reliant on user-fees (Munthali et al. 2015)\nFocus on facility-based care in rural areas\nCost-sharing with government\nUganda: 45% of the hospital beds; ⅓ of the country’s health workers (Tumwesigye 2013)\n\nInternational religious FBOs (ex. World Vision)\n\nOperate more like secular NGOs\n\nWhat do FBOs have in common? (Jennings 2014)"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-re-entry-of-non-state-providers-3",
+    "href": "slides/21-aid2.html#the-re-entry-of-non-state-providers-3",
+    "title": "Foreign Aid 2",
+    "section": "The Re-Entry of Non-State Providers",
+    "text": "The Re-Entry of Non-State Providers\nMalawi: Number of health facilities\n\n\n\nYear\nGov\nFBO\nNGO\n\n\n\n\n2005\n426\n160\n32\n\n\n2008\n545\n167\n70\n\n\n2013\n478\n167\n57\n\n\n\nKenya: Number of health facilities\n\n\n\nYear\nGov\nFBO\nNGO\n\n\n\n\n2007\n2,445\n1,060\n83\n\n\n2012\n4,043\n998\n218\n\n\n2014\n4,637\n1,071\n346"
+  },
+  {
+    "objectID": "slides/21-aid2.html#regions",
+    "href": "slides/21-aid2.html#regions",
+    "title": "Foreign Aid 2",
+    "section": "Regions",
+    "text": "Regions"
+  },
+  {
+    "objectID": "slides/21-aid2.html#non-governmental-organizations",
+    "href": "slides/21-aid2.html#non-governmental-organizations",
+    "title": "Foreign Aid 2",
+    "section": "Non-governmental Organizations",
+    "text": "Non-governmental Organizations\nWhat are NGOs?\n\nPrivate, non-profit organizations that aim to improve societal well-being through service delivery\nProvide free services, strengthen existing social infrastructure\nInternational, local\nReceive most of their funding from foreign aid contracts (Fafchamps and Owens 2009; J. N. Brass 2012)\nGenerally seen as apolitical (Grebe 2016)\nMarie Stopes Uganda: Provided 75% of the Intrauterine Devices distributed in Uganda between 2006 and 2011\nMaximize on impact (Dang, Owens, et al. 2017)"
+  },
+  {
+    "objectID": "slides/21-aid2.html#non-governmental-organizations-1",
+    "href": "slides/21-aid2.html#non-governmental-organizations-1",
+    "title": "Foreign Aid 2",
+    "section": "Non-governmental Organizations",
+    "text": "Non-governmental Organizations\nWho do NGOs serve?\n\nTarget needy communities\nTarget convenient communities\n“Pragmatic saints” (J. N. Brass 2012)"
+  },
+  {
+    "objectID": "slides/21-aid2.html#regions-1",
+    "href": "slides/21-aid2.html#regions-1",
+    "title": "Foreign Aid 2",
+    "section": "Regions",
+    "text": "Regions\n ## Citizen Attitudes on NGOs\n\nKenya: 70% of respondents said that NGOs “have the interests of the people in mind” but 34% said the same for government (J. Brass 2016).\nTanzanian: 81% report that NGOs have “benefited” their community (Jivani 2010).\nMalawi: 60% agree that “Development NGOs provide services than cannot be provided by any other agency”; 68% consider NGOs to be effective (Jamali 2014).\nLiberia: 23% of respondents trust government but 72% trust NGOs; 72% describe government as corrupt, but 19% describe NGOs as corrupt (Tsai, 2017)."
+  },
+  {
+    "objectID": "slides/21-aid2.html#ngos-politics",
+    "href": "slides/21-aid2.html#ngos-politics",
+    "title": "Foreign Aid 2",
+    "section": "NGOs & Politics",
+    "text": "NGOs & Politics\nHow might NGO service delivery impact politics?\nNGO service delivery may weaken the ‘Fiscal Link’\n\nReduce reliance of government on taxation\nReduce reliance on citizens on PSD\nWeaken the link between government performance and citizen welfare\n\nNGO service delivery may undermine accountability\n\nPoliticians get credit for NGO PSD (increase satisfaction)\nNGOs make people more apolitical about government PSD (decrease incentives to monitor)"
+  },
+  {
+    "objectID": "slides/21-aid2.html#ngos-politics-1",
+    "href": "slides/21-aid2.html#ngos-politics-1",
+    "title": "Foreign Aid 2",
+    "section": "NGOs & Politics",
+    "text": "NGOs & Politics\nNGOs as complements to the state (J. Brass 2014)\n\nJoint implementation / co-production\n\nLearning\nResource sharing\n\nParticipation in government decision making\n\nLobbying for policy-changes\nTransmitting information on citizen preferences\n\nIntegration of NGOs into government plans\n\nBudgeting"
+  },
+  {
+    "objectID": "slides/21-aid2.html#ngos-politics-2",
+    "href": "slides/21-aid2.html#ngos-politics-2",
+    "title": "Foreign Aid 2",
+    "section": "NGOs & Politics",
+    "text": "NGOs & Politics\nNGOs as complements to the state (J. Brass 2014)\n\nNGOs don’t let governments “off the hook”\nCo-production builds state capacity\nNGOs encourage a spirit of democratic accountability\n\nNecessary conditions\n\nOpen political climate\nAutonomous agencies\nMotivated civil servants"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-limitations-of-ngos",
+    "href": "slides/21-aid2.html#the-limitations-of-ngos",
+    "title": "Foreign Aid 2",
+    "section": "The Limitations of NGOs",
+    "text": "The Limitations of NGOs\n\nShare of Aid Projects by Implementor and Sector (2000 - 2014)\n\n\nSector\nGovt\nNGO\nCount\n\n\n\n\nHealth\n13%\n87%\n479\n\n\nEducation\n42%\n58%\n242\n\n\nAgriculture/Extension\n32%\n68%\n182\n\n\nSocial Infrastructure\n32%\n68%\n291\n\n\nTransportation Infrastructure\n100%\n0%\n96\n\n\nEnergy\n100%\n0%\n49\n\n\nWater and Sanitation\n70%\n30%\n259\n\n\nBusiness/Trade Development\n87%\n13%\n15\n\n\nTotal\n45%\n55%\n1900"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-limitations-of-ngos-1",
+    "href": "slides/21-aid2.html#the-limitations-of-ngos-1",
+    "title": "Foreign Aid 2",
+    "section": "The Limitations of NGOs",
+    "text": "The Limitations of NGOs\nExperimental Evidence on Scaling Up Education Reforms in Kenya (bold2013?)\n\nWhat is the reform?\n\nHiring contract teachers\nGovernment vs NGO implementation\n\nOutcome?\n\nStudent test scores\n\nWhy should it work?\n\nSmaller class sizes\nSMC can fire low-quality teachers\nContract teachers don’t have tenure"
+  },
+  {
+    "objectID": "slides/21-aid2.html#the-limitations-of-ngos-2",
+    "href": "slides/21-aid2.html#the-limitations-of-ngos-2",
+    "title": "Foreign Aid 2",
+    "section": "The Limitations of NGOs",
+    "text": "The Limitations of NGOs\nExperimental Evidence on Scaling Up Education Reforms in Kenya\n\nWhat are the findings?\n\nNGO implementation increased test scores\nGovernment implementation had no effect\n\nWhy?\n\nTeacher effort: No\nGovernment monitoring: No\nBureaucratic delays in payment: Yes (⅓ of effect)\nPolitical economy factors: Yes (union identification)\n\n\nWhat does this tell us about the limitations of NGOs?"
+  },
+  {
+    "objectID": "slides/21-aid2.html#references",
+    "href": "slides/21-aid2.html#references",
+    "title": "Foreign Aid 2",
+    "section": "References",
+    "text": "References\n\n\n\njrspringman.github.io/psci3200-globaldev/\n\n\n\nBates, Robert H. 1981. Markets and States in Tropical Africa: The Political Basis of Agricultural Policies. Univ of California Press.\n\n\nBodea, Cristina, and Adrienne LeBas. 2014. “The Origins of Voluntary Compliance: Attitudes toward Taxation in Urban Nigeria.” British Journal of Political Science, 1–24. https://doi.org/10.1017/S000712341400026X.\n\n\nBrass, Jennifer. 2014. “Blurring the Boundaries: NGOs, the State, and Service Provision in Kenya.” The Politics of Non-State Welfare.\n\n\n———. 2016. Allies or Adversaries: NGOs and the State in Africa. Cambridge University Press. https://doi.org/https://doi.org/10.1017/CBO9781316678527.\n\n\nBrass, Jennifer N. 2012. “Why Do NGOs Go Where They Go? Evidence from Kenya.” World Development 40 (2): 387–401.\n\n\nChirwa, Danwood M. 2016. “Access to Medicines and Health Care in Sub-Saharan Africa: A Historical Perspective.” Md. J. Int’l L. 31: 21.\n\n\nDang, Canh Thien, Trudy Owens, et al. 2017. “What Motivates Ugandan NGOs to Diversify: Risk Reduction or Private Gain?”\n\n\nFafchamps, Marcel, and Trudy Owens. 2009. “The Determinants of Funding to Ugandan Nongovernmental Organizations.” The World Bank Economic Review.\n\n\nGrebe, Eduard. 2016. “The Ambiguities of the ‘Partnership’between Civil Society and the State in Uganda’s AIDS Response During the 1990s and 2000s as Demonstrated in the Development of TASO.” Global Public Health 11 (4): 496–512.\n\n\nGreen, A, J Shaw, F Dimmock, and Cath Conn. 2002. “A Shared Mission? Changing Relationships Between Government and Church Health Services in Africa.” The International Journal of Health Planning and Management 17 (4): 333–53.\n\n\nHerbst, Jeffrey. 2000. States and Power in Africa: Comparative Lessons in Authority and Control. Princeton University Press.\n\n\nHoffman, Barak D, and Clark C Gibson. 2005. “Fiscal Governance and Public Services: Evidence from Tanzania and Zambia.” San Diego: Department of Political Science, University of California, San Diego.\n\n\nJamali, Tiyesere Mercy. 2014. “Are Malawian Adults Turning Pink? Exploring Public Opinion on Women’s Political Leadership.” Afrobarometer Briefing Paper 126.\n\n\nJennings, Michael. 2014. “Bridging the Local and the Global: Faith-Based Organisations and the Emergence of the Non-State Provider Sector in Tanzania.” The Politics of Non-State Welfare.\n\n\nJivani, Razeen. 2010. “What are the Impacts of Non-Governmental Organizations on the Lives of the Citizens of Tanzania?”\n\n\nKapur, Devesh, and Dennis Whittle. 2009. “Can the Privatization of Foreign Aid Enhance Accountability.” NYU Journal of International Law & Politics 42: 1143.\n\n\nMunthali, AC, H Mannan, M MacLachlan, L Swartz, CM Makupe, and C Chilimampunga. 2015. “Non-use of Formal Health Services in Malawi: Perceptions from Non-users.” Malawi Medical Journal 26 (4): 126–32.\n\n\nReinikka, Ritva, and Jakob Svensson. 2010. “Working For God? Evidence From A Change In Financing Of Nonprofit Health Care Providers In Uganda.” Journal of the European Economic Association 8 (6): 1159–78.\n\n\nTroesken, Werner. 2001. “Race, Disease, and the Provision of Water in American Cities, 1889–1921.” The Journal of Economic History 61 (3): 750–76.\n\n\nTumwesigye, Tonny. 2013. “Health Service Delivery by the PNFP Subsector in Uganda.” Uganda Protestant Medical Bureau.\n\n\nYoung, Crawford. 1988. The African Colonial State in Comparative Perspective. Yale University Press."
   }
 ]

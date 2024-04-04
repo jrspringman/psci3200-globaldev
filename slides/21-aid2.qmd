@@ -18,6 +18,8 @@ format:
     gfm:
     mermaid-format: png
 editor: source
+
+bibliography: img/references.bib
 ---
 
 # Logistics
@@ -40,12 +42,364 @@ editor: source
 2. Bold et al. (2018)
 3. Review of Data Assignment 1
 
-# Overview of Foreign Aid
+
+# Cruz (2016)
+
+## Foreign Aid and Accountability
+
+**Standard Channels**
+
+:::{.fragment}
+- Distribution of aid: Divert resources from needy to strategically valuable communities (clientelism)
+- Reallocation of budgets: Divert resources from development (fungibility)
+:::
+
+**Donor strategies**
+
+:::{.fragment}
+- Project aid
+- Channel through NGOs or direct transfers
+- Generally cut government actors out of the process
+:::
+
+## Three Questions
+
+**Three questions**
+
+1. Do citizens perceive foreign aid projects?
+2. How do politicians claim credit?
+3. Under what conditions are they successful?
+
+**Sources of updating**
+
+- Credit for welfare improvement
+- More likely to secure future projects
+
+## Research Design
+
+\
+
+- Research question: Whether local politicians claimed undue credit for the projects to boost their re-election prospects
+- Least likely design
+  + Low chance for distribution or reallocation
+
+## Undeserved Credit Claiming
+
+- Concept Definition: Politicians claiming credit for foreign aid projects they had no role in securing
+- Mechanism: Exploiting the lack of transparency and information among voters
+- Implications: Misleads voters, potentially undermining accountability and governance quality
+
+## Findings
+
+- Increased Visits: Politicians visited project sites more frequently to appear involved
+- Election Impact: 12% increase in re-election chances
+- Political Credit: Mayors are credited for funding or initiating projects even when respondents knew of other funding ssources
+
+## Policy Implications    
+
+\
+
+- Designing Aid Projects: Importance of transparency and community involvement to minimize undeserved credit claiming
+- Voter Education: Enhancing voters' understanding of aid processes to better hold politicians accountable
+- Involvement: Giving opportunities to contribute makes credit deserved
+
+   
+# Brief History of Non-State Service Provision
 
 
-# Briggs (2016)
+## Introduction
 
-# Briggs (2021)
+**Topics**
+
+1. Service delivery and the state
+2. A brief history of non-state service delivery
+3. Contemporary non-state service delivery
+
+**Learning Objectives**
+
+- What types of non-state actors are involved in service delivery in Africa?
+- What are the main causes of the emergence and growth of these organizations, and what are their likely consequences for citizen welfare and state capacity?
+- What are the limiting factors that are likely to prevent these actors from supplanting state service provision?
+
+## Service Delivery & The State
+
+**What do states do?** (Hoffman, 2015)
+
+- Monopolize violence
+- Levy taxes
+- Obtain the assent of the population
+
+**Why is public service delivery (PSD) important?**
+
+- Promotes economic growth
+- Improves welfare of citizens
+
+## The Social Contract
+
+**Mutual reliance between states and citizens**
+
+- States need tax revenue
+- Citizens need public services
+  - Provision of clean water accounts for 60% of the increase in life expectancy in the United States between 1850 and 1950 [@troesken2001].
+
+**Virtuous cycle between taxation, PSD, and state capacity**
+
+- Taxation $\Rightarrow$ citizen demand for PSD
+- Government PSD $\Rightarrow$ citizen compliance with taxation
+- Citizen compliance with taxation $\Rightarrow$ increased state capacity
+- Citizen reliance on PSD $\Rightarrow$ political accountability [@hoffman2005]
+
+
+## The Fiscal Exchange [@bodea2014]
+
+**How does this work in social contexts without direct taxation?**
+
+**Exchange-driven social contract emergence**
+
+- Compliance obtains when people expect that services will be delivered
+- Compliance is *conditional*
+
+**Norm-driven social contract emergence**
+
+- Tax morale and civic duty
+- Compliance is *internalized*
+
+
+## A Brief History of Service Delivery in Africa
+
+**Service delivery in the pre-colonial period**
+
+- Pre-colonial African states did not engage in extensive service delivery [@herbst2000]
+  - States weren't geographically bounded
+- Christian missions were (kinda) the first service providers
+  - Emphasis on literacy and formalizing indigenous languages
+  - Competing with traditional healers [@chirwa2016]
+
+**Colonial approaches to service delivery**
+
+- Traditional medicine was outlawed [@chirwa2016]
+- The church is "cemented" as the primary service provider [@jennings2014]
+  - **Tanzania at the end of the colonial period**
+  - Church operated 81% of primary health facilities
+  - Church-operated schools outnumbered government schools 4-to-1
+
+
+## A Brief History of Service Delivery in Africa
+
+![](img/cage2.png){fig-align="center"}
+
+
+## A Brief History of Service Delivery in Africa
+
+![](img/cage4.png){fig-align="center"}
+
+## A Brief History of Service Delivery in Africa
+
+**Post-colonial period**
+
+- Post-colonial African states nationalized service delivery infrastructure and increased spending dramatically
+- Spending was unsustainable [@bates2014; @brass2014]
+  - **Kenya's Civil Services** [@young1994]
+  - 1945: 14,000
+  - 1955: 45,000
+  - 1978: 170,000
+- Commodity boom $\Rightarrow$ commodity bust
+- Structural adjustment
+  - **Kenya's Health Spending** [@brass2014]
+  - 1980: $9.8 million
+  - 1993: $6.2 million
+  - 1996: $3.6 million
+
+## The Re-Entry of Non-State Providers
+
+*In 2007, 9% and 16% of US economic engagement with developing countries has been Official Development Assistance and private philanthropy respectively* [@kapur2010].
+
+## The Re-Entry of Non-State Providers
+
+![](img/ingo.png){fig-align="center"}
+
+## The Re-Entry of Non-State Providers
+
+**Faith Based Organizations (FBOs)** [@green2002]
+
+- Church "umbrella" organizations (ex. Uganda Protestant Medical Bureau)
+  - Less reliant on aid [@reinikka2010]
+  - More reliant on user-fees [@munthali2015]
+  - Focus on facility-based care in rural areas
+  - Cost-sharing with government
+  - Uganda: 45% of the hospital beds; ⅓ of the country's health workers [@tumwesigye2013]
+- International religious FBOs (ex. World Vision)
+  - Operate more like secular NGOs
+- What do FBOs have in common? [@jennings2014]
+
+## The Re-Entry of Non-State Providers
+
+**Malawi: Number of health facilities**
+
+| Year | Gov  | FBO  | NGO |
+|------|------|------|-----|
+| 2005 | 426  | 160  | 32  |
+| 2008 | 545  | 167  | 70  |
+| 2013 | 478  | 167  | 57  |
+
+**Kenya: Number of health facilities**
+
+| Year | Gov   | FBO   | NGO |
+|------|-------|-------|-----|
+| 2007 | 2,445 | 1,060 | 83  |
+| 2012 | 4,043 | 998   | 218 |
+| 2014 | 4,637 | 1,071 | 346 |
+
+
+## Regions
+
+![](img/regions.png){fig-align="center"}
+
+
+## Non-governmental Organizations
+
+**What are NGOs?**
+
+- Private, non-profit organizations that aim to improve societal well-being through service delivery
+- Provide free services, strengthen existing social infrastructure
+- International, local
+- Receive most of their funding from foreign aid contracts [@fafchamps2009; @brass2012]
+- Generally seen as apolitical [@grebe2016]
+- Marie Stopes Uganda: Provided 75% of the Intrauterine Devices distributed in Uganda between 2006 and 2011
+- Maximize on impact [@dang2017]
+
+## Non-governmental Organizations
+
+**Who do NGOs serve?**
+
+- Target needy communities
+- Target convenient communities
+- "Pragmatic saints" [@brass2012]
+
+## Citizen Attitudes on NGOs
+
+- Kenya: 70% of respondents said that NGOs "have the interests of the people in mind" but 34% said the same for government [@brass2016].
+- Tanzanian: 81% report that NGOs have "benefited" their community [@jivani2010].
+- Malawi: 60% agree that "Development NGOs provide services than cannot be provided by any other agency"; 68% consider NGOs to be effective [@jamali2014].
+- Liberia: 23% of respondents trust government but 72% trust NGOs; 72% describe government as corrupt, but 19% describe NGOs as corrupt (Tsai, 2017).
+
+## NGOs & Politics
+
+**How might NGO service delivery impact politics?**
+
+**NGO service delivery may weaken the 'Fiscal Link'**
+
+- Reduce reliance of government on taxation
+- Reduce reliance on citizens on PSD
+- Weaken the link between government performance and citizen welfare
+
+**NGO service delivery may undermine accountability**
+
+- Politicians get credit for NGO PSD (increase satisfaction)
+- NGOs make people more apolitical about government PSD (decrease incentives to monitor)
+
+## NGOs & Politics
+
+**NGOs as complements to the state** [@brass2014]
+
+- Joint implementation / co-production
+  - Learning
+  - Resource sharing
+- Participation in government decision making
+  - Lobbying for policy-changes
+  - Transmitting information on citizen preferences
+- Integration of NGOs into government plans
+  - Budgeting
+
+
+## NGOs & Politics
+
+**NGOs as complements to the state** [@brass2014]
+
+- NGOs don't let governments "off the hook"
+- Co-production builds state capacity
+- NGOs encourage a spirit of democratic accountability
+
+**Necessary conditions**
+
+- Open political climate
+- Autonomous agencies
+- Motivated civil servants
+
+
+## The Limitations of NGOs
+
+Table: Share of Aid Projects by Implementor and Sector (2000 - 2014)
+
+| Sector                      | Govt | NGO | Count |
+|-----------------------------|------|-----|-------|
+| Health                      | 13%  | 87% | 479   |
+| Education                   | 42%  | 58% | 242   |
+| Agriculture/Extension       | 32%  | 68% | 182   |
+| Social Infrastructure       | 32%  | 68% | 291   |
+| Transportation Infrastructure | 100% | 0%  | 96    |
+| Energy                      | 100% | 0%  | 49    |
+| Water and Sanitation        | 70%  | 30% | 259   |
+| Business/Trade Development  | 87%  | 13% | 15    |
+| **Total**                   | 45%  | 55% | 1900  |
+
+
+# Bold et al. (2018)
+
+## The Limitations of NGOs
+
+**What is the reform?**
+- Hiring contract teachers
+- 
+
+**Random assignment of:**
+
+- Government vs NGO implementation
+- Structure of contract
+  + Local vs central control of hiring/firing
+  + Role of school management committees
+  + Salary
+
+**Outcome?**
+- Student test scores
+
+- **Why should it work?**
+  1. Smaller class sizes
+  2. SMC can fire low-quality teachers
+  3. Contract teachers don't have tenure
+
+## Context
+
+**Contract teachers**
+
+- Lower cost
+- Similar qualifications
+- Different profile
+  + Selection (firing)
+  + Incentives (pay and retention)
+
+## Research Design
+
+![](img/bold_design.png){fig-align="center"}
+
+## Research Design
+
+![](img/bold_timeline.png){fig-align="center"}
+
+
+## Findings
+
+- NGO implementation increased test scores
+- Government implementation had no effect
+
+**Why?**
+- Teacher effort: No
+- Government monitoring: No
+- Bureaucratic delays in payment: Yes (⅓ of effect)
+- Political economy factors: Yes (union identification)
+
+**What does this tell us about the limitations of NGOs?**
+
 
 # Review of Data Assignment 1
 
@@ -62,4 +416,4 @@ editor: source
 - *Not good for likert scales*
 - How to deal with NAs
 
-
+## References
