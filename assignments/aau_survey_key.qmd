@@ -39,30 +39,28 @@ palette = MetBrewer::met.brewer(name = "Cross")
 
 ```
 
-The dataset has a number of variables that you might use for the assignment. For each respondent, we have two observations made at different points in time (baseline and endline). The dataset is currently in 'wide' format, meaning that each respondent has one row and baseline and endline measurements for the same variable are stored in separate columns. Measurements taken at baseline have the suffix `_baseline` included in the column name; for example, `q11_3` is the endline measurement and `q11_3_baseline` is the baseline measurement.
-
-Some of these variables are described below:
-
-- `response_id`: A unique identifier for each respondent
-- `treatment_status`: A binary indicator taking a value of 1 for respondents assigned to receive an invitation to the treatment workshop
-- `user_language`: A categorical variable indicating whether the respondent took the survey in English, Ahmaric, or Afan
-- `q3_baseline`: A categorical variable indicating whether the respondent identifies as Male or Female
-- Future plans for a career in public sector or civil society
-  + `q26_civ`:	Plan to work in civil society
-  + `q26_politics`:	Plan to work in politics
-  + `q26_public`:	Plan to work in public sector
-  + `q27_1`:	Plan to run for political office
-  + `q27_3`:	Plan to start a non-governmental organization
-- Feelings of political efficacy
-  + `q17_3`:	Your participation can bring positive change
-  + `q17_1`:	Youth are given opportunities to engage
-  + `q17_2`:	Youth participation can bring positive change
 
 
 ### Requirement 1 (10%)
 
 For all variables after `user_language`, please rename the column with a descriptive name that better conveys their meaning. Column names should never contain spaces and should be as easy to type as possible. Do this for both their baseline and endline values, making sure to indicate which columns are baseline measures and which are endline measures in the names you assign.
 
+```{r}
+#| echo: false
+#| warning: false
+
+## Create list of columns to be used for political efficacy index
+# baseline
+bcols = grep("^q17_.*_baseline$", names(dat), value = T)
+dat[, paste0(bcols, "_st")] = dat[, bcols]
+bcols = paste0(bcols,"_st")
+
+# endline
+ecols = grep("^q17_\\d$", names(dat), value = T)
+dat[, paste0(ecols, "_st")] = dat[, ecols]
+ecols = paste0(ecols,"_st")
+
+```
 
 ## Part 2: Create Index Measures
 
@@ -89,22 +87,11 @@ Since many of these are ordered categorical values, you will need to convert the
 #| warning: false
 
 
-## Create list of columns to be used for political efficacy index
-# baseline
-bcols = grep("^q17_.*_baseline$", names(dat), value = T)
-dat[, paste0(bcols, "_st")] = dat[, bcols]
-bcols = paste0(bcols,"_st")
-
-# endline
-ecols = grep("^q17_\\d$", names(dat), value = T)
-dat[, paste0(ecols, "_st")] = dat[, ecols]
-ecols = paste0(ecols,"_st")
-
-# Identify class
+# Check class for every column in list
 
 lapply(dat[, c(bcols, ecols)], class)
 
-## Convert to numeric
+## Convert to numeric (they're already numeric, but for future reference)
 dat = dat %>% 
   mutate(across(c(bcols, ecols), 
                 .fns = ~ as.numeric(.x)))
@@ -445,7 +432,6 @@ regd = merge(regd, efficacy)
 models <- list()
 models[['Fixed Effects 1']] = lm(z_plans ~ z_efficacy + factor(response_id), regd)
 models[['Fixed Effects 2']] = lm(z_plans ~ z_efficacy_bin + factor(response_id), regd)
-#models[['Interaction']] = lm(z_plans ~ z_efficacy*q3_baseline + factor(response_id), regd)
 
 modelsummary(
   models,
