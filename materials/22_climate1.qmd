@@ -1,8 +1,8 @@
 ---
-title: "Climate and Development"
+title: "Climate and Development 1"
 ---
 
-# Esteemed Guest Lecturer: [Cleo O'Brien Udry](https://cobrienudry.github.io/research/)
+# Guest Lecture: [Cleo O'Brien Udry](https://cobrienudry.github.io/research/)
 
 ## Required Readings
 
