@@ -132,9 +132,9 @@ There are four graded requirements for this course.
 
 | Data Assignment              | Due Date                 |
 |:-----------------------------|:-------------------------|
-| Assignment 1 | Mar 21st 3:30pm ET |
-| Assignment 2 | Apr 11th 3:30pm ET |
-| Assignment 3 | Apr 25th 3:30pm ET |
+| Assignment 1 | Mar 28th 11:59pm ET |
+| Assignment 2 | Apr 11th 11:59pm ET |
+| Assignment 3 | Apr 25th 11:59pm ET |
 
 **Final Project**
 
@@ -145,8 +145,8 @@ There are four graded requirements for this course.
 | Milestone                    | Due Date                 |
 |:-----------------------------|:-------------------------|
 | Create a GitHub repository                     | Feb 8th 11:59pm ET |
-| Idea for research question and data source     | Mar 12th 3:30pm ET |
-| Submit proposal (research question and design) | Apr 2nd 3:30pm ET |
+| Idea for research question and data source     | Mar 12th 11:59pm ET |
+| Submit proposal (research question and design) | Apr 11th 11:59pm ET |
 | Submit final project (webpage url and repo)    | May 2nd 11:59pm ET |
 
 

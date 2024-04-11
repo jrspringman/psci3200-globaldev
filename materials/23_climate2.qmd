@@ -4,11 +4,14 @@ title: "Climate and Development 2"
 
 ## Required Readings
 
-- [Albert (2022)](https://voxdev.org/topic/labour-markets-migration/how-climate-change-reallocates-capital-and-labour-within-countries)
-- [Namrata](https://voxdev.org/sites/default/files/2023-09/Climate_Adaptation_Issue_1.pdf)
+- [Albert et al. (2022)](https://voxdev.org/topic/labour-markets-migration/how-climate-change-reallocates-capital-and-labour-within-countries)
+- [Namrata (2023)](https://voxdev.org/sites/default/files/2023-09/Climate_Adaptation_Issue_1.pdf)
   + [Video lecture version](https://voxdev.org/voxdevlit/climate-adaptation)
 
 ## Slides
+
+- [Slides](/slides/23-climate2.html)
+
 
 ## Supplementary Readings (non-required)
 
@@ -19,3 +22,4 @@ title: "Climate and Development 2"
 
 
 
+https://www.theclimatebrink.com/p/the-rapidly-shrinking-carbon-budget
