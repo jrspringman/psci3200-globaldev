@@ -4379,42 +4379,42 @@
     "href": "slides/24-git.html#installing-git",
     "title": "Git, Github, Github Pages",
     "section": "Installing git",
-    "text": "Installing git\nCheck if you have git installed\ngit --version\n\nIf not, install\n\nInstallation instructions"
+    "text": "Installing git\n\nOpen the terminal/command prompt\nCheck if you have git installed\n\ngit --version"
   },
   {
     "objectID": "slides/24-git.html#git-basics",
     "href": "slides/24-git.html#git-basics",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\nGit is a version control program, so you can avoid…\nmy_code.R\nmy_code_v1.R\nmy_code_v2_FINAL.R"
+    "text": "git Basics\nGit is a version control program, so you can avoid…\nanalysis.R\nanalysis_v1.R\nanalysis_v2.R\nanalysis_v2_FINAL.R\n\n\nGit hosts data and code\n\n“Remote” (main) on github.com\n“Local” on your harddrive(s) in a designated folder"
   },
   {
     "objectID": "slides/24-git.html#git-basics-1",
     "href": "slides/24-git.html#git-basics-1",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\nVersion control\n\nWe’re focusing on the very basics\nThese help avoid devastating loss/failure\nYou precisely track changes and revert to old versions\nNote: everything is public by default\n\n**Collaboration\n\nWhen you collaborate, it’s clear who to blame\nSimultaneous editing can cause challenges"
+    "text": "git Basics\nVersion control\n\nHelps avoid devastating loss/failure\nPrecisely tracks changes and can revert to old versions\nNote: everything is public by default\n\nCollaboration\n\nWhen you collaborate, it’s clear who to blame\nSimultaneous editing can cause challenges"
   },
   {
     "objectID": "slides/24-git.html#git-basics-2",
     "href": "slides/24-git.html#git-basics-2",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\nBasic commands\n\ngit pull origin main\ngit add .\ngit commit -m \"...\"\ngit push origin main\ngit pull origin main"
+    "text": "git Basics\nBasic commands\n\ngit pull origin main\ngit add .\ngit commit -m \"describe your changes or vent frustration\"\ngit push origin main\ngit pull origin main"
   },
   {
     "objectID": "slides/24-git.html#git-basics-3",
     "href": "slides/24-git.html#git-basics-3",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\nGit can be complicated\n\nOften used for serious software development\nBranches, conflicts, merges, rebase\nMassive online community"
+    "text": "git Basics\n\n\nGit can be complicated\n\nOften used for serious software development\nBranches, conflicts, merges, rebase\nMassive online community to help with more sophisticated use"
   },
   {
     "objectID": "slides/24-git.html#connect-your-github-account",
     "href": "slides/24-git.html#connect-your-github-account",
     "title": "Git, Github, Github Pages",
     "section": "Connect your GitHub account",
-    "text": "Connect your GitHub account\nRun the following two lines of code in the Terminal replacing \"Your Name\" with your name and \"yourname@email.edu\" with your email address used to sign up for GitHub.\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"yourname@email.edu\"\nYou will not see any output when you enter these commands. To check that they worked, enter the following command at the Terminal:\ngit config --list\nYou should see your name and email address listed in the output."
+    "text": "Connect your GitHub account\n\n\n\nOpen the terminal and enter the code below\nReplace \"Your Name\"and \"yourname@email.edu\" with your name/email used to sign up for GitHub\nRun the code\n\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"yourname@email.edu\""
   },
   {
     "objectID": "slides/24-git.html#clone-your-repo",
@@ -4435,7 +4435,7 @@
     "href": "slides/24-git.html#create-a-website",
     "title": "Git, Github, Github Pages",
     "section": "Create a website",
-    "text": "Create a website"
+    "text": "Create a website\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
     "objectID": "slides/24-git.html#findings",
@@ -4443,5 +4443,89 @@
     "title": "Git, Github, Github Pages",
     "section": "Findings",
     "text": "Findings\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/24-git.html#installing-git-1",
+    "href": "slides/24-git.html#installing-git-1",
+    "title": "Git, Github, Github Pages",
+    "section": "Installing git",
+    "text": "Installing git\n\n\nIf yes, consider running an update\ngit update-git-for-windows"
+  },
+  {
+    "objectID": "slides/24-git.html#installing-git-2",
+    "href": "slides/24-git.html#installing-git-2",
+    "title": "Git, Github, Github Pages",
+    "section": "Installing git",
+    "text": "Installing git\nIf no, install git\n\nInstallation instructions\n\nDownload .exe and double-click\n\nTwo things to watch for:\n\nAdjusting the name of the initial branch: Override the default branch name (select ‘main’)\nAdjusting your PATH: make sure to select command line and 3rd-party"
+  },
+  {
+    "objectID": "slides/24-git.html#connect-your-github-account-1",
+    "href": "slides/24-git.html#connect-your-github-account-1",
+    "title": "Git, Github, Github Pages",
+    "section": "Connect your GitHub account",
+    "text": "Connect your GitHub account\nCheck that the confirmation worked\ngit config --list"
+  },
+  {
+    "objectID": "slides/24-git.html#install-a-git-client",
+    "href": "slides/24-git.html#install-a-git-client",
+    "title": "Git, Github, Github Pages",
+    "section": "Install a git client",
+    "text": "Install a git client\n\nDownload GitHub Desktop .exe\nDouble click the .exe"
+  },
+  {
+    "objectID": "slides/24-git.html#commit-changes",
+    "href": "slides/24-git.html#commit-changes",
+    "title": "Git, Github, Github Pages",
+    "section": "Commit changes",
+    "text": "Commit changes"
+  },
+  {
+    "objectID": "slides/24-git.html#pull-from-your-repo",
+    "href": "slides/24-git.html#pull-from-your-repo",
+    "title": "Git, Github, Github Pages",
+    "section": "Pull from your repo",
+    "text": "Pull from your repo"
+  },
+  {
+    "objectID": "slides/24-git.html#installing-git-3",
+    "href": "slides/24-git.html#installing-git-3",
+    "title": "Git, Github, Github Pages",
+    "section": "Installing git",
+    "text": "Installing git"
+  },
+  {
+    "objectID": "slides/24-git.html#installing-git-4",
+    "href": "slides/24-git.html#installing-git-4",
+    "title": "Git, Github, Github Pages",
+    "section": "Installing git",
+    "text": "Installing git"
+  },
+  {
+    "objectID": "slides/24-git.html#installing-git-5",
+    "href": "slides/24-git.html#installing-git-5",
+    "title": "Git, Github, Github Pages",
+    "section": "Installing git",
+    "text": "Installing git"
+  },
+  {
+    "objectID": "slides/24-git.html#installing-git-6",
+    "href": "slides/24-git.html#installing-git-6",
+    "title": "Git, Github, Github Pages",
+    "section": "Installing git",
+    "text": "Installing git"
+  },
+  {
+    "objectID": "slides/24-git.html#installing-git-7",
+    "href": "slides/24-git.html#installing-git-7",
+    "title": "Git, Github, Github Pages",
+    "section": "Installing git",
+    "text": "Installing git"
+  },
+  {
+    "objectID": "slides/24-git.html#install-a-git-client-1",
+    "href": "slides/24-git.html#install-a-git-client-1",
+    "title": "Git, Github, Github Pages",
+    "section": "Install a git client",
+    "text": "Install a git client"
   }
 ]
