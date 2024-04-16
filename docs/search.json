@@ -4373,5 +4373,75 @@
     "title": "Final Report Example",
     "section": "Results",
     "text": "Results\n\n\n\n\n\n\nContact Official\nAttend Meeting\n NGO Volunteer\nSign Petition\n\n\n\n\n(Intercept)\n1.044*** (0.114)\n0.752*** (0.116)\n1.304*** (0.181)\n0.354*** (0.090)\n\n\nmoved\n−0.178 (0.141)\n0.580*** (0.143)\n0.117 (0.222)\n0.529*** (0.110)\n\n\nNum.Obs.\n802\n801\n803\n801\n\n\nR2 Adj.\n0.001\n0.019\n−0.001\n0.027"
+  },
+  {
+    "objectID": "slides/24-git.html#installing-git",
+    "href": "slides/24-git.html#installing-git",
+    "title": "Git, Github, Github Pages",
+    "section": "Installing git",
+    "text": "Installing git\nCheck if you have git installed\ngit --version\n\nIf not, install\n\nInstallation instructions"
+  },
+  {
+    "objectID": "slides/24-git.html#git-basics",
+    "href": "slides/24-git.html#git-basics",
+    "title": "Git, Github, Github Pages",
+    "section": "git Basics",
+    "text": "git Basics\nGit is a version control program, so you can avoid…\nmy_code.R\nmy_code_v1.R\nmy_code_v2_FINAL.R"
+  },
+  {
+    "objectID": "slides/24-git.html#git-basics-1",
+    "href": "slides/24-git.html#git-basics-1",
+    "title": "Git, Github, Github Pages",
+    "section": "git Basics",
+    "text": "git Basics\nVersion control\n\nWe’re focusing on the very basics\nThese help avoid devastating loss/failure\nYou precisely track changes and revert to old versions\nNote: everything is public by default\n\n**Collaboration\n\nWhen you collaborate, it’s clear who to blame\nSimultaneous editing can cause challenges"
+  },
+  {
+    "objectID": "slides/24-git.html#git-basics-2",
+    "href": "slides/24-git.html#git-basics-2",
+    "title": "Git, Github, Github Pages",
+    "section": "git Basics",
+    "text": "git Basics\nBasic commands\n\ngit pull origin main\ngit add .\ngit commit -m \"...\"\ngit push origin main\ngit pull origin main"
+  },
+  {
+    "objectID": "slides/24-git.html#git-basics-3",
+    "href": "slides/24-git.html#git-basics-3",
+    "title": "Git, Github, Github Pages",
+    "section": "git Basics",
+    "text": "git Basics\nGit can be complicated\n\nOften used for serious software development\nBranches, conflicts, merges, rebase\nMassive online community"
+  },
+  {
+    "objectID": "slides/24-git.html#connect-your-github-account",
+    "href": "slides/24-git.html#connect-your-github-account",
+    "title": "Git, Github, Github Pages",
+    "section": "Connect your GitHub account",
+    "text": "Connect your GitHub account\nRun the following two lines of code in the Terminal replacing \"Your Name\" with your name and \"yourname@email.edu\" with your email address used to sign up for GitHub.\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"yourname@email.edu\"\nYou will not see any output when you enter these commands. To check that they worked, enter the following command at the Terminal:\ngit config --list\nYou should see your name and email address listed in the output."
+  },
+  {
+    "objectID": "slides/24-git.html#clone-your-repo",
+    "href": "slides/24-git.html#clone-your-repo",
+    "title": "Git, Github, Github Pages",
+    "section": "Clone your repo",
+    "text": "Clone your repo"
+  },
+  {
+    "objectID": "slides/24-git.html#push-to-your-repo",
+    "href": "slides/24-git.html#push-to-your-repo",
+    "title": "Git, Github, Github Pages",
+    "section": "Push to your repo",
+    "text": "Push to your repo"
+  },
+  {
+    "objectID": "slides/24-git.html#create-a-website",
+    "href": "slides/24-git.html#create-a-website",
+    "title": "Git, Github, Github Pages",
+    "section": "Create a website",
+    "text": "Create a website"
+  },
+  {
+    "objectID": "slides/24-git.html#findings",
+    "href": "slides/24-git.html#findings",
+    "title": "Git, Github, Github Pages",
+    "section": "Findings",
+    "text": "Findings\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   }
 ]

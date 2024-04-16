@@ -1,0 +1,134 @@
+---
+title: "Git, Github, Github Pages"
+author: "Jeremy Springman"
+institute: "University of Pennsylvania"
+
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+    - title-slide.html
+    gfm:
+    mermaid-format: png
+editor: source
+
+bibliography: img/references.bib
+---
+
+## Installing git
+
+**Check if you have git installed**
+
+```
+git --version
+```
+
+**Consider running an update**
+```
+git update-git-for-windows
+```
+
+## Installing git
+
+**If not, install**
+
+- [Installation instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  + Download `.exe` and double-click
+  + Adjusting the name of the initial branch: Override the default branch name (select 'main')
+  + Adjusting your PATH: make sure to select command line and 3rd-party
+
+## Installing git
+
+![](img/git_nope.png){fig-align="center"}
+![](img/git_exe_window.png){fig-align="center"}
+![](img/git_exe.png){fig-align="center"}
+
+![](img/git_origin.png){fig-align="center"}
+![](img/git_3p.png){fig-align="center"}
+![](img/git_installed.png){fig-align="center"}
+
+
+
+
+
+## git Basics
+
+**Git is a version control program**, so you can avoid...
+
+```
+my_code.R
+my_code_v1.R
+my_code_v2.R
+my_code_v2_FINAL.R
+```
+
+## git Basics
+
+**Version control**
+
+- We're focusing on the very basics
+- These help avoid devastating loss/failure
+- You precisely track changes and revert to old versions
+- Note: everything is public by default
+
+**Collaboration
+
+- When you collaborate, it's clear who to blame
+- Simultaneous editing can cause challenges
+
+## git Basics
+
+**Basic commands**
+
+- `git pull origin main`
+- `git add .`
+- `git commit -m "describe your changes or vent frustration"`
+- `git push origin main`
+- `git pull origin main`
+
+## git Basics
+
+**Git can be complicated**
+
+- Often used for serious software development
+- Branches, conflicts, merges, rebase
+- Massive online community
+
+
+## Connect your GitHub account
+
+
+Run the following two lines of code in the Terminal replacing `"Your Name"` with your name and `"yourname@email.edu"` with your email address used to sign up for GitHub. 
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "yourname@email.edu"
+```
+
+You will not see any output when you enter these commands. To check that they worked, enter the following command at the Terminal:
+
+```
+git config --list
+```
+
+## Connect your GitHub account
+
+- [GitHub Desktop](https://desktop.github.com/)
+
+
+
+
+
+## Clone your repo
+
+## Push to your repo
+
+## Create a website
+
+
