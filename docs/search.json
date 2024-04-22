@@ -94,29 +94,29 @@
     "objectID": "slides/23-climate2.html#assignments",
     "href": "slides/23-climate2.html#assignments",
     "title": "Climate Adaptation 2",
-    "section": "Assignments",
-    "text": "Assignments\n\nToday\n\nNamrata (2023)\nAlbert et al. (2022)\nFinal Project Research Design (11:59pm)\n\nTuesday (4/16)\n\nNo Readings\nGit, Github, Github pages"
+    "section": "",
+    "text": "Today\n\nNamrata (2023)\nAlbert et al. (2022)\nFinal Project Research Design (11:59pm)\n\nTuesday (4/16)\n\nNo Readings\nGit, Github, Github pages"
   },
   {
     "objectID": "slides/23-climate2.html#administration",
     "href": "slides/23-climate2.html#administration",
     "title": "Climate Adaptation 2",
-    "section": "Administration",
-    "text": "Administration\nGrading\n\nQuizzes & Workshops (7/8)\nData Assignments (2/3)\n\nScheduling\n\nFinal Project\n\nDue: May 10 (11:59pm)"
+    "section": "",
+    "text": "Grading\n\nQuizzes & Workshops (7/8)\nData Assignments (2/3)\n\nScheduling\n\nFinal Project\n\nDue: May 10 (11:59pm)"
   },
   {
     "objectID": "slides/23-climate2.html#agenda",
     "href": "slides/23-climate2.html#agenda",
     "title": "Climate Adaptation 2",
-    "section": "Agenda",
-    "text": "Agenda\n\n\n\nClimate change overview\nNamrata (2023)\nAlbert (2022)\nQuestions about Research Design"
+    "section": "",
+    "text": "Climate change overview\nNamrata (2023)\nAlbert (2022)\nQuestions about Research Design"
   },
   {
     "objectID": "slides/23-climate2.html#climate-change",
     "href": "slides/23-climate2.html#climate-change",
     "title": "Climate Adaptation 2",
-    "section": "Climate Change",
-    "text": "Climate Change\n\n\nAre we doomed?\n\n\nI don’t think so"
+    "section": "",
+    "text": "Are we doomed?\n\n\nI don’t think so"
   },
   {
     "objectID": "slides/23-climate2.html#where-we-stand",
@@ -277,7 +277,7 @@
     "href": "slides/23-climate2.html#findings-3",
     "title": "Climate Adaptation 2",
     "section": "Findings",
-    "text": "Findings\n\nDryness causes reallocation of capital and labor\nDryness lowers productivity and reallocates remaining labor away from agriculture and to manufacturing\nCapital connected areas see reduced\nLabor connected areas see inflows\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Findings\n\nDryness causes reallocation of capital and labor\nDryness lowers productivity and reallocates remaining labor away from agriculture and to manufacturing\nCapital connected areas see reduced\nLabor connected areas see inflows"
   },
   {
     "objectID": "slides/20-aid1.html#assignments-and-upcoming",
@@ -2552,7 +2552,7 @@
     "href": "materials/23_climate2.html#supplementary-readings-non-required",
     "title": "Climate and Development 2",
     "section": "Supplementary Readings (non-required)",
-    "text": "Supplementary Readings (non-required)\n\nJayachandran (2017)\nJayachandran VoxDev Podcast\nBurgess VoxDev Podcast\nBurgess (2024)\n\nhttps://www.theclimatebrink.com/p/the-rapidly-shrinking-carbon-budget"
+    "text": "Supplementary Readings (non-required)\n\nJayachandran (2017)\nJayachandran VoxDev Podcast\nBurgess VoxDev Podcast\nBurgess (2024)"
   },
   {
     "objectID": "schedule.html",
@@ -4294,8 +4294,8 @@
     "objectID": "slides/24-git.html#installing-git",
     "href": "slides/24-git.html#installing-git",
     "title": "Git, Github, Github Pages",
-    "section": "Installing git",
-    "text": "Installing git\n\nOpen the terminal/command prompt\nCheck if you have git installed\n\ngit --version"
+    "section": "",
+    "text": "Open the terminal/command prompt\nCheck if you have git installed\n\ngit --version"
   },
   {
     "objectID": "slides/24-git.html#installing-git-1",
@@ -4512,7 +4512,7 @@
     "href": "slides/24-git.html#publish-to-github-pages-6",
     "title": "Git, Github, Github Pages",
     "section": "Publish to Github pages",
-    "text": "Publish to Github pages\n\n\n\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Publish to Github pages"
   },
   {
     "objectID": "workshops/causal3.html",
@@ -4597,5 +4597,40 @@
     "title": "Final Report Example",
     "section": "Results",
     "text": "Results\n\n\n\n\n\n\nContact Official\nAttend Meeting\n NGO Volunteer\nSign Petition\n\n\n\n\n(Intercept)\n1.044*** (0.114)\n0.752*** (0.116)\n1.304*** (0.181)\n0.354*** (0.090)\n\n\nmoved\n−0.178 (0.141)\n0.580*** (0.143)\n0.117 (0.222)\n0.529*** (0.110)\n\n\nNum.Obs.\n802\n801\n803\n801\n\n\nR2 Adj.\n0.001\n0.019\n−0.001\n0.027"
+  },
+  {
+    "objectID": "materials/26_capacity.html",
+    "href": "materials/26_capacity.html",
+    "title": "State Capacity and Development",
+    "section": "",
+    "text": "Fukuyama (2013)\nEkeh (1975)\nDi Maro et al. (2021)\n\nNote: Figures and tables are located after the Conclusion\n\n\n\n\n\n\nSlides"
+  },
+  {
+    "objectID": "materials/26_capacity.html#required-readings",
+    "href": "materials/26_capacity.html#required-readings",
+    "title": "State Capacity and Development",
+    "section": "",
+    "text": "Fukuyama (2013)\nEkeh (1975)\nDi Maro et al. (2021)\n\nNote: Figures and tables are located after the Conclusion"
+  },
+  {
+    "objectID": "materials/26_capacity.html#slides",
+    "href": "materials/26_capacity.html#slides",
+    "title": "State Capacity and Development",
+    "section": "",
+    "text": "Slides"
+  },
+  {
+    "objectID": "slides/23-climate2.html",
+    "href": "slides/23-climate2.html",
+    "title": "Climate Adaptation 2",
+    "section": "",
+    "text": "Today\n\nNamrata (2023)\nAlbert et al. (2022)\nFinal Project Research Design (11:59pm)\n\nTuesday (4/16)\n\nNo Readings\nGit, Github, Github pages\n\n\n\n\n\nGrading\n\nQuizzes & Workshops (7/8)\nData Assignments (2/3)\n\nScheduling\n\nFinal Project\n\nDue: May 10 (11:59pm)\n\n\n\n\n\n\n\n\nClimate change overview\nNamrata (2023)\nAlbert (2022)\nQuestions about Research Design\n\n\n\n\n\n\nAre we doomed?\n\n\nI don’t think so"
+  },
+  {
+    "objectID": "slides/24-git.html",
+    "href": "slides/24-git.html",
+    "title": "Git, Github, Github Pages",
+    "section": "",
+    "text": "Open the terminal/command prompt\nCheck if you have git installed\n\ngit --version"
   }
 ]
