@@ -1,5 +1,5 @@
 ---
-title: "Git, Github, Github Pages"
+title: "Github Pages"
 author: "Jeremy Springman"
 institute: "University of Pennsylvania"
 
@@ -32,7 +32,7 @@ bibliography: img/references.bib
   + Submit the link to your github page
 - Thursday
   + Guest lecture: Maria Nagawa on State Capacity
-  + Please read
+  + *Please do the readings*
 - April 30 
   + Final Project Assignment 2
 
@@ -245,6 +245,16 @@ git config --list
 
 ## Publish to Github pages
 
+**Where we left off**
+
+- Publish local git repo to github.com
+- Uncheck 'Keep this code private'
+- Open repo on github.com
+- Settings $\rightarrow$ Pages (left-sidebar)
+
+
+## Publish to Github pages
+
 ![](img/pages_add.png){height=5.5in fig-align="center"}
 
 ## Publish to Github pages
@@ -273,20 +283,14 @@ git config --list
 
 ![](img/pages_publish2.png){height=5.5in fig-align="center"}
 
-## Pull your Final Assignment 
+## Host Your Final Project 
 
-```
-title: "Global Development"
-subtitle: "Intermediate Topics in Politics, Policy, and Data"
-details: |
-  PSCI 3200 • Spring 2024<br>University of Pennsylvania
-sidebar: false
-toc: false
-page-layout: full
-format:
-  html:
-    template-partials:
-      - html/home/title-block.html
-course-logo: /files/img/stacked_logo_1.png
+- Delete `_site` folder (now its using `docs`)
+- Create `data` folder to store your dataset
+- Add final project `.qmd` file to your repo (or drop it into `index.qmd`)
+- Use `_quarto.yml` to add new pages to navigation bar 
+- Render `index.qmd`; confirm that other pages have been rendered
+- Push commit and check that the website updated
 
-```
+
+
