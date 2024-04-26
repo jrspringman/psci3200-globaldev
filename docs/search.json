@@ -1901,7 +1901,7 @@
     "href": "slides/02-causal.html#central-tendency-mean",
     "title": "Correlation and Causation",
     "section": "Central Tendency: Mean",
-    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 11.50024\n\nmean(my_vector)\n\n[1] 11.50024"
+    "text": "Central Tendency: Mean\n\\[\n\\mu_X = \\frac{1}{n} \\sum_{i}^{n} X_i\n\\]\n\nmy_vector = rnorm(10, mean = 10, sd = 5)\n# Step 1: Sum the values\nsum_values &lt;- sum(my_vector)\n# Step 2: Count the number of elements\ncount_elements &lt;- length(my_vector)\n# Step 3: Calculate the mean\nmean_value &lt;- sum_values / count_elements\n\nprint(mean_value)\n\n[1] 9.88176\n\nmean(my_vector)\n\n[1] 9.88176"
   },
   {
     "objectID": "slides/02-causal.html#spread-variance",
@@ -2048,28 +2048,28 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should complete the required readings before each meeting.\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting\nWorkshop (): A link to the workshop for that week\nAssignment (): This page contains the instructions for each assignment\n\nThe readings refer to following texts:\n\nDSS: Data Analysis for Social Science: A Friendly and Practical Introduction (DSS) by Kosuke Imai and Elena Llaudet\nTCD: Thinking clearly with data: A guide to quantitative reasoning and analysis by Ethan Bueno de Mesquita and Anthony Fowler\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nWorkshop\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nIntroduction to the course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nCorrelation and Causation\n\n\nTCD Ch 2-3\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nCausal Inference 1\n\n\nDSS Ch 2; Duflo (2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nSurvey Research\n\n\nDSS Ch 3\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nDemocracy and Autocratization 1 (Survey Experiments)\n\n\nGrady; Albertus and Grossman (2021); Hollerbauer et al. (2024)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nLinear Regression\n\n\nDSS Ch 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nCausal Inference 2\n\n\nDSS Ch 5\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nMigration 1\n\n\n3ie; Sviatschi (2022); Gazeaud (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nMigration 2 (guest: Wibbels)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nCrime 1 (guest: Schmidt-Padilla)\n\n\nDell (2015); Sviatschi (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nCrime 2 (guest: Schmidt-Padilla)\n\n\nAngelova et al. (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nConflict & Cohesion 1\n\n\nPaluck et al. (2021); Grady et al. (2023); Mousa (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nConflict & Cohesion 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nFinal Project Essentials\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nDemocracy and Autocratization 2\n\n\nVDem (2024); Garcia-Ponce and Wantchekon (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nDemocracy and Autocratization 3\n\n\nHassan et al. (2022); Lebas and Young (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nAccountability and Information 1\n\n\nJablonski and Seim (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nAccountability 2\n\n\nSierra (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nAccountability 3\n\n\nDunning et al. (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nForeign Aid and NGOs 1\n\n\nBriggs (2016); Briggs (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nForeign Aid and NGOs 2\n\n\nCruz (2017); Bold et al. (2018)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nClimate and Development (guest: O’Brien-Udry)\n\n\nO’Brien-Udry (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nClimate and Development 2\n\n\nNamrata (2023); Alberto et al. (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nGit and Github\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nNo Class\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nGithub Pages\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nState Capacity (guest: Nagawa)\n\n\nFukuyama (2013); Ekeh (1975); Di Maro et al. (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nFinal Project Preparation"
+    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should complete the required readings before each meeting.\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting\nWorkshop (): A link to the workshop for that week\nAssignment (): This page contains the instructions for each assignment\n\nThe readings refer to following texts:\n\nDSS: Data Analysis for Social Science: A Friendly and Practical Introduction (DSS) by Kosuke Imai and Elena Llaudet\nTCD: Thinking clearly with data: A guide to quantitative reasoning and analysis by Ethan Bueno de Mesquita and Anthony Fowler\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nWorkshop\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 18\n\n\nIntroduction to the course\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 23\n\n\nCorrelation and Causation\n\n\nTCD Ch 2-3\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 25\n\n\nCausal Inference 1\n\n\nDSS Ch 2; Duflo (2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 30\n\n\nSurvey Research\n\n\nDSS Ch 3\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 1\n\n\nDemocracy and Autocratization 1 (Survey Experiments)\n\n\nGrady; Albertus and Grossman (2021); Hollerbauer et al. (2024)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 6\n\n\nLinear Regression\n\n\nDSS Ch 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 8\n\n\nCausal Inference 2\n\n\nDSS Ch 5\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 13\n\n\nMigration 1\n\n\n3ie; Sviatschi (2022); Gazeaud (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 15\n\n\nMigration 2 (guest: Wibbels)\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 20\n\n\nCrime 1 (guest: Schmidt-Padilla)\n\n\nDell (2015); Sviatschi (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 22\n\n\nCrime 2 (guest: Schmidt-Padilla)\n\n\nAngelova et al. (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 27\n\n\nConflict & Cohesion 1\n\n\nPaluck et al. (2021); Grady et al. (2023); Mousa (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 29\n\n\nConflict & Cohesion 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 5\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 7\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 12\n\n\nFinal Project Essentials\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 14\n\n\nDemocracy and Autocratization 2\n\n\nVDem (2024); Garcia-Ponce and Wantchekon (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 19\n\n\nDemocracy and Autocratization 3\n\n\nHassan et al. (2022); Lebas and Young (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 21\n\n\nAccountability and Information 1\n\n\nJablonski and Seim (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 26\n\n\nAccountability 2\n\n\nSierra (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 28\n\n\nAccountability 3\n\n\nDunning et al. (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nApril 2\n\n\nForeign Aid and NGOs 1\n\n\nBriggs (2016); Briggs (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 4\n\n\nForeign Aid and NGOs 2\n\n\nCruz (2017); Bold et al. (2018)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 9\n\n\nClimate and Development (guest: O’Brien-Udry)\n\n\nO’Brien-Udry (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 11\n\n\nClimate and Development 2\n\n\nNamrata (2023); Alberto et al. (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 16\n\n\nGit and Github\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 18\n\n\nNo Class\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 23\n\n\nGithub Pages\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 25\n\n\nState Capacity (guest: Nagawa)\n\n\nFukuyama (2013); Ekeh (1975); Di Maro et al. (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nFinal Project Preparation\n\n\nAssorted short pieces\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek NA\n\n\n\n\nNA\n\n\nNA"
   },
   {
-    "objectID": "materials/25_github2.html",
-    "href": "materials/25_github2.html",
-    "title": "Climate and Development 2",
+    "objectID": "materials/26_capacity.html",
+    "href": "materials/26_capacity.html",
+    "title": "State Capacity and Development",
     "section": "",
-    "text": "None"
+    "text": "Fukuyama (2013)\nEkeh (1975)\nDi Maro et al. (2021)\n\nNote: Figures and tables are located after the Conclusion\n\n\n\n\n\n\nSlides"
   },
   {
-    "objectID": "materials/25_github2.html#required-readings",
-    "href": "materials/25_github2.html#required-readings",
-    "title": "Climate and Development 2",
+    "objectID": "materials/26_capacity.html#required-readings",
+    "href": "materials/26_capacity.html#required-readings",
+    "title": "State Capacity and Development",
     "section": "",
-    "text": "None"
+    "text": "Fukuyama (2013)\nEkeh (1975)\nDi Maro et al. (2021)\n\nNote: Figures and tables are located after the Conclusion"
   },
   {
-    "objectID": "materials/25_github2.html#slides",
-    "href": "materials/25_github2.html#slides",
-    "title": "Climate and Development 2",
-    "section": "Slides",
-    "text": "Slides\n\nSlides"
+    "objectID": "materials/26_capacity.html#slides",
+    "href": "materials/26_capacity.html#slides",
+    "title": "State Capacity and Development",
+    "section": "",
+    "text": "Slides"
   },
   {
     "objectID": "materials/23_climate2.html",
@@ -2849,46 +2849,53 @@
     "text": "O’Brien-Udry (working paper)\nSeiler et al. (2023)\nSeiler et al. (2023)"
   },
   {
-    "objectID": "materials/23_ei.html",
-    "href": "materials/23_ei.html",
-    "title": "What Works?",
+    "objectID": "materials/25_github2.html",
+    "href": "materials/25_github2.html",
+    "title": "Climate and Development 2",
     "section": "",
-    "text": "Cruz (2016)\nBold et al. (2018)\n\nhttps://www.nytimes.com/2017/04/27/opinion/do-sweatshops-lift-workers-out-of-poverty.html#new_tab https://www.vox.com/the-big-idea/2017/3/14/14914996/bill-gates-chickens-cash-africa-poor-development#new_tab https://www.washingtonpost.com/outlook/2022/06/03/cbt-violence-study-prevention/#new_tab https://osf.io/preprints/socarxiv/zrqe4\nhttps://www.cgdev.org/publication/long-distance-industrial-policy-africa"
+    "text": "None"
   },
   {
-    "objectID": "materials/23_ei.html#required-readings",
-    "href": "materials/23_ei.html#required-readings",
-    "title": "What Works?",
+    "objectID": "materials/25_github2.html#required-readings",
+    "href": "materials/25_github2.html#required-readings",
+    "title": "Climate and Development 2",
     "section": "",
-    "text": "Cruz (2016)\nBold et al. (2018)\n\nhttps://www.nytimes.com/2017/04/27/opinion/do-sweatshops-lift-workers-out-of-poverty.html#new_tab https://www.vox.com/the-big-idea/2017/3/14/14914996/bill-gates-chickens-cash-africa-poor-development#new_tab https://www.washingtonpost.com/outlook/2022/06/03/cbt-violence-study-prevention/#new_tab https://osf.io/preprints/socarxiv/zrqe4\nhttps://www.cgdev.org/publication/long-distance-industrial-policy-africa"
+    "text": "None"
   },
   {
-    "objectID": "materials/23_ei.html#slides",
-    "href": "materials/23_ei.html#slides",
-    "title": "What Works?",
+    "objectID": "materials/25_github2.html#slides",
+    "href": "materials/25_github2.html#slides",
+    "title": "Climate and Development 2",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
-    "objectID": "materials/26_capacity.html",
-    "href": "materials/26_capacity.html",
-    "title": "State Capacity and Development",
+    "objectID": "materials/27_conclusion.html",
+    "href": "materials/27_conclusion.html",
+    "title": "Conclusion",
     "section": "",
-    "text": "Fukuyama (2013)\nEkeh (1975)\nDi Maro et al. (2021)\n\nNote: Figures and tables are located after the Conclusion\n\n\n\n\n\n\nSlides"
+    "text": "Opalo’s blog post 1\nOpalo’s blog post 2\nBlattman on Cash Transfers\nSandefur et al. (2024)\n\nThere’s a longer version linked at the top if you’re interested"
   },
   {
-    "objectID": "materials/26_capacity.html#required-readings",
-    "href": "materials/26_capacity.html#required-readings",
-    "title": "State Capacity and Development",
+    "objectID": "materials/27_conclusion.html#required-readings",
+    "href": "materials/27_conclusion.html#required-readings",
+    "title": "Conclusion",
     "section": "",
-    "text": "Fukuyama (2013)\nEkeh (1975)\nDi Maro et al. (2021)\n\nNote: Figures and tables are located after the Conclusion"
+    "text": "Opalo’s blog post 1\nOpalo’s blog post 2\nBlattman on Cash Transfers\nSandefur et al. (2024)\n\nThere’s a longer version linked at the top if you’re interested"
   },
   {
-    "objectID": "materials/26_capacity.html#slides",
-    "href": "materials/26_capacity.html#slides",
-    "title": "State Capacity and Development",
-    "section": "",
-    "text": "Slides"
+    "objectID": "materials/27_conclusion.html#slides",
+    "href": "materials/27_conclusion.html#slides",
+    "title": "Conclusion",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/27_conclusion.html#supplementary-readings-non-required",
+    "href": "materials/27_conclusion.html#supplementary-readings-non-required",
+    "title": "Conclusion",
+    "section": "Supplementary Readings (non-required)",
+    "text": "Supplementary Readings (non-required)\n\nOpalo on energy\nGiveDirectly on Cash Transfers\nSmall vs Large Cash Transfers\n\nFull-length version\n\nBlattman et al. (2017)\n\nYou can access this with a free Penn NYT subscription\nCheckout the follow-up study of longer-run effects if you’re interested"
   },
   {
     "objectID": "slides/01-intro.html#agenda",
@@ -4841,7 +4848,7 @@
     "href": "workshops/causal3.html#colliders",
     "title": "Causal Inference 3 Tutorial",
     "section": "Colliders",
-    "text": "Colliders\n\n\n\n\n\n\n\n[1] 0.05157384\n\n\n\n\n\n\n (1)\n  (2)\n\n\n\n\n(Intercept)\n2.948*** (0.033)\n0.570*** (0.041)\n\n\nx1\n0.053 (0.032)\n−0.761*** (0.020)\n\n\nx2\n\n0.399*** (0.006)\n\n\nNum.Obs.\n1000\n1000\n\n\nR2 Adj.\n0.002\n0.797"
+    "text": "Colliders\n\n\n\n\n\n\n\n[1] -0.04075762\n\n\n\n\n\n\n (1)\n  (2)\n\n\n\n\n(Intercept)\n3.040*** (0.032)\n0.620*** (0.040)\n\n\nx1\n−0.041 (0.032)\n−0.795*** (0.018)\n\n\nx2\n\n0.397*** (0.006)\n\n\nNum.Obs.\n1000\n1000\n\n\nR2 Adj.\n0.001\n0.808"
   },
   {
     "objectID": "workshops/causal3.html#post-treatment-mechanism-bias",
