@@ -1,0 +1,113 @@
+---
+title: "Sampling and Population Characteristics"
+author: "Jeremy Springman"
+institute: "University of Pennsylvania"
+
+format:
+  pptx:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+    - title-slide.html
+    gfm:
+    mermaid-format: png
+    code-line-numbers: false
+
+
+highlight-style: github
+
+---
+
+
+
+# Inferring Population Characteristics via Survey Research
+
+## Survey Research
+
+::: {.incremental}
+- We often want to *describe* a population of interest
+  + Ex. What share of the population completed secondary school?
+  + 
+- We usually can't collect data on the entire population
+- Sampling allows us to estimate population characteristics from a *subset* of the population
+- Random sampling makes it most likely that our sample is *representative* of the population
+:::
+
+:::{.notes}
+One common goal of research is to 
+:::
+
+## Getting a Representative Samples
+
+::: {.incremental}
+- Sampling frame 
+  + Comprehensive list of units
+  + Ideally: Census, administrative records
+  + Developing contexts: create this yourself on-the-ground
+- Non-response
+  + Selection into sample can bias estimates, induce spurious relationships
+  + Think about collider example
+:::
+
+## Dealing with Missingness
+
+::: {.incremental}
+- Unit non-response
+  + Incentives
+  + Fancy weighting
+- Item non-response
+  + Self-administration
+- Misreporting
+  + List experiments
+:::
+
+## Dealing with Missingness
+
+- Always look at NAs immediately
+- Always think about how this might bias estimates
+
+## Sampling Strategies
+
+::: {.incremental}
+- Probability sampling strategies:
+  + Simple random sampling 
+  + Stratified sampling
+  + Cluster sampling
+- Non-Probability sampling strategies:
+  + Convenience sample
+:::
+
+## Simple Random Sampling
+
+- Each unit within the population has the same probability of being chosen
+- As size increases, the sample more closely resemble the population
+- Assumes that unit and item non-response are effectively random
+
+
+## Stratified sampling
+
+::: {.incremental}
+- Divide the entire population into *homogeneous* strata
+- Take random samples from each stratum
+  + Decreases risk of imbalance
+  + Ex. Race, gender, partisanship
+- Oversampling
+  + Allows for more precise estimates of small group characteristics
+  + Must adjust for population estimates
+:::
+
+## Cluster sampling
+
+::: {.incremental}
+- Divide population into *heterogeneous* clusters 
+- Take random sample of clusters
+  + Decreases costs of sampling
+  + Ex. Districts, schools, businesses
+:::
+
+

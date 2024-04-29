@@ -46,6 +46,8 @@ analysis_v2.R
 analysis_v2_FINAL.R
 ```
 
+\
+
 **Version control**
 
 - Helps avoid devastating loss/failure
@@ -65,7 +67,7 @@ Version control creates a detailed, permanent record of this process
 
 ## Git Basics
 
-**Each project is a repository (repo)**
+**Each project is a repository (repo)
 
 - Data and code for projects are stored in a repo folder
 - Repo is hosted *remotely* on github.com and *locally* as a folder on your harddrive
@@ -140,7 +142,7 @@ Luckily, there is a massive online community that can help guide new users throu
 
 ## Creating a Github account
 
-**Create an account for yourself or your organization**
+**Create an account for your organization
 
 - Go to [github.com](https://github.com/)
 - Click "Sign-up" (top right)
@@ -149,8 +151,7 @@ Luckily, there is a massive online community that can help guide new users throu
 
 :::{.notes}
 Signing up for github is free, you just need to visit github.com and follow the instructions
-Make sure to pick a username for the account. This is like a social media handle that will allow others to find your data analysis projects online
-If you plan to use git as a team, you may want to create one account for your organization, while all colleagues that will interact with repos hosted on the organization account should create personal accounts
+Make sure to pick a username for your organization. This is like a social media handle that will allow others to find your data analysis projects online
 :::
 
 
@@ -185,8 +186,8 @@ Once you've signed-up for a Github account, you need to install git on your mach
 
 :::{.notes}
 If you don't have Git installed, Mac will offer to install it for you. Just click Install
-- If you are on Windows, you will need to install yourself by visiting gitforwindows.org 
-- Click "Download", which will install an exe file on your harddrive. Double-click the exe file and follow the instructions
+If you are on Windows, you will need to install yourself by visiting gitforwindows.org 
+Click "Download", which will install an exe file on your harddrive. Double-click the exe file and follow the instructions
 :::
 
 
@@ -206,7 +207,7 @@ Optional: Override the default branch name (select 'main')
 ![](img/git_origin.png){fig-align="center"}
 
 :::{.notes}
-Although this is optional, most users prefer to call the primary branch main rather than master (default)
+Although this is optional, most users are now opting to call the primary branch main rather than master
 :::
 
 ## Installing git
@@ -221,24 +222,24 @@ Make sure that "Git from the command line and 3rd-party software" is selected
 ![](img/git_installed.png){fig-align="center"}
 
 :::{.notes}
-Now open a new command prompt and type git --version again
-- This time, you should get a response that indicates a version of git is installed on your computer
+
 :::
 
 ## Connect your GitHub account
+
+\
 
 1. Open the terminal and enter the code below
 2. Replace `"Your Name"`and `"yourname@email.edu"` with your name/email used to sign up for GitHub
 3. Run the code
 
 ```{.default}
-git config --global user.name "Your_user_name"
-git config --global user.email "youremail@email.edu"
+git config --global user.name "Your Name"
+git config --global user.email "yourname@email.edu"
 ```
 
 :::{.notes}
-Now you need to connect your computer's Git installation with your account on Github.com
-Type the following two commands into your terminal window, using the username and email address that you used to sign-up for a Github account
+
 :::
 
 ## Connect your GitHub account
@@ -252,24 +253,18 @@ git config --list
 ![](img/git_config.png){height=5in fig-align="center"}
 
 :::{.notes}
-Check to see that the configuration worked. Depending on your operating system, the message you see might look different.
-If the configuration was successful, your username and email address will show-up somewhere in the message  
-The Git on your computer can now communicate with your account on Github.com
+
 :::
 
 
 ## Install a git client
 
-1. Visit [desktop.github.com](https://desktop.github.com/) and click "Download"
+1. Download [GitHub Desktop](https://desktop.github.com/) `.exe`
 2. Double click the `.exe`
 
 ![](img/git_desktop_exe.png){height=3in fig-align="center"}
-
 :::{.notes}
-The next step is to install a Github client
-- The client allows you to more easily manage the process of pushing and pulling commits between your local copy of a repo and the remote version on Github.com
-- There are many clients you can use, but we recommend Github Desktop for most users because of its simplicity
-- Just visit desktop.github.com, click download, and then double-click the .exe file that gets downloaded to your computer
+
 :::
 
 
@@ -278,41 +273,12 @@ The next step is to install a Github client
 ![](img/git_desktop_signin.png){height=6in fig-align="center"}
 
 :::{.notes}
-You will receive a prompt asking you to sign-in to your account on Github.com.
-Follow these instructions
+
 :::
-
-## Create a new repo
-
-Sign-in to your account on [github.com](github.com) and click "New" in the top right
-
-![](img/git_create_repo.png){height=6in fig-align="center"}
-
-## Create a new repo
-
-Give your repository a name and decide whether to make it public or keep it private
-
-![](img/git_create_repo2.png){height=6in fig-align="center"}
-
-
-## Share with colleagues
-
-Navigate to: Settings -> Collaborators -> Add People
-- Add the email address associated with any personal Github accounts of colleagues that you want to make contributions to the repo
-
-![](img/git_create_repo3.png){height=6in fig-align="center"}
 
 ## Clone your repo
 
-Open the Github Desktop application and create a "clone" the remote repo to create a local copy  
-
 ![](img/git_desktop_clone.png){height=6in fig-align="center"}
-
-:::{.notes}
-Once you have created a git repo on your Github account, you need to "clone" the remote repo to create a local copy on your harddrive.
-This will allow you to add files and make changes to the repo before pushing them up to the remote version
-:::
-
 
 ## Clone your repo
 
@@ -327,48 +293,119 @@ This will allow you to add files and make changes to the repo before pushing the
 ![](img/git_desktop_repo.png){fig-align="center"}
 
 :::{.notes}
-Once your repo has finished cloning, you should have a Github Desktop page for the repo that looks like this
-You can click the icons to open the project in RStudio, see the repo's folder on your harddrive, or view the remote version on Github.com
+
 :::
 
 ## Commit changes
 
-Now you can make changes to the repo, and those changes will appear as "diffs" in the application
-- Add a description and make a "commit" to record those changes in git 
-
 ![](img/git_desktop_commit.png){fig-align="center"}
 
 :::{.notes}
-Now you can make changes to the repo, and those changes will appear as "diffs" in the application
-Green will indicate additions, Red will indicate deletions, and yellow will indicate changes
-Try adding a `.R` file or an empty `.txt` file to the repo's folder; you should see it show up immediately on the Github Desktop app
-In the bottom left, enter text to describe the changes that you made and then click "Commit to main"
+
 :::
 
 
 ## Push to your repo
 
-Push those changes to the remote version of the repo on Github.com
 
 ![](img/git_desktop_push.png){fig-align="center"}
 
 :::{.notes}
-Now you have made your first commit, push it to the "origin", which is the remote version of the repo on Github.com
-Those changes should now appear on the repo's page on Github.com
+
 :::
 
 ## Pull from your repo
 
-When colleagues push a commit to the repo, you can pull their commit by clicking "Pull origin"
-
 ![](img/git_desktop_pull.png){fig-align="center"}
 
 :::{.notes}
-When colleagues push a commit to the repo, you can pull their commit by clicking "Pull origin"
-Make sure to pull any commits before you start working; this will make sure you are working on the most recent version of your project
+
 :::
 
 
+# Bonus Content: Quarto and Github Pages
+
+## Installing Quarto
+
+With newer versions of RStudio, Quarto comes pre-packaged in the installation files. To check whether you have Quarto on your computer, open RStudio, click on the "Terminal" tab in the bottom left window, type quarto check into the terminal, and hit ENTER. If you have a new enough version of RStudio, the terminal should return something like what you see in the first screenshot below.
+
+**Check Installation Terminal**
+
+![](img/terminal.png){fig-align="center"}
+
+## Installing Quarto
+
+If you DON'T have a new enough version of RStudio, you'll receive some error message. To fix this, all you should need to do is install the newest version of RStudio by going to the posit website and [installing RStudio](https://posit.co/download/rstudio-desktop/).
+
+![Create a Quarto](create_file.png){fig-align="center"}
+
+
+## Publishing a free website with Github pages
+
+- Keep a repository of your website
+- Push changes to your website via Github
+- See changes almost instantly
+
+
+## Create a website
+
+**Moving to RStudio**
+
+- File $\rightarrow$ New Project $\rightarrow$ New Directory $\rightarrow$ Quarto Website
+
+
+![](img/website_initiate.png){height=4.5in fig-align="center"}
+
+## Create a website
+
+![](img/website_files.png){height=6in fig-align="center"}
+
+
+## Create a website
+
+**Change output director to `docs`**
+
+![](img/website_docs.png){height=5.5in fig-align="center"}
+
+
+## Publish to Github pages
+
+![](img/pages_add.png){height=5.5in fig-align="center"}
+
+## Publish to Github pages
+
+![](img/pages_add2.png){height=5.5in fig-align="center"}
+
+
+## Publish to Github pages
+
+![](img/pages_add3.png){height=5.5in fig-align="center"}
+
+
+
+## Publish to Github pages
+
+![](img/pages_add4.png){height=5.5in fig-align="center"}
+
+
+
+## Publish to Github pages
+
+![](img/pages_publish.png){height=5.5in fig-align="center"}
+
+
+## Publish to Github pages
+
+![](img/pages_publish2.png){height=5.5in fig-align="center"}
+
+## Host Your Final Project 
+
+- Delete `_site` folder (now its using `docs`)
+- Create `data` folder to store your dataset
+- Add final project `.qmd` file to your repo (or drop it into `index.qmd`)
+- Use `_quarto.yml` to add new pages to navigation bar 
+- Render `index.qmd`; confirm that other pages have been rendered
+- Push commit and check that the website updated
 
 
 
