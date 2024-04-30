@@ -13,7 +13,7 @@ title: "Conclusion"
 
 ## Slides
 
-- [Slides](/slides/26-conclusion.html)
+- [Slides](/slides/27-conclusion.html)
 
 
 ## Supplementary Readings (non-required)

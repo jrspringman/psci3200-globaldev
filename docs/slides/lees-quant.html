@@ -1,0 +1,1732 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>PSCI 3200 – lees-quant</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../html/custom.scss">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">PSCI 3200</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html" rel="" target="">
+ <span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html" rel="" target="">
+ <span class="menu-text">Schedule</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#statistical-review" id="toc-statistical-review" class="nav-link active" data-scroll-target="#statistical-review">Statistical Review</a>
+  <ul class="collapse">
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#quantitative-analysis-and-comparisons" id="toc-quantitative-analysis-and-comparisons" class="nav-link" data-scroll-target="#quantitative-analysis-and-comparisons">Quantitative Analysis and Comparisons</a></li>
+  <li><a href="#correlations-necessary-components" id="toc-correlations-necessary-components" class="nav-link" data-scroll-target="#correlations-necessary-components">Correlations: Necessary Components</a></li>
+  <li><a href="#central-tendency-mean" id="toc-central-tendency-mean" class="nav-link" data-scroll-target="#central-tendency-mean">Central Tendency: Mean</a></li>
+  <li><a href="#spread-variance" id="toc-spread-variance" class="nav-link" data-scroll-target="#spread-variance">Spread: Variance</a></li>
+  <li><a href="#spread-variance-1" id="toc-spread-variance-1" class="nav-link" data-scroll-target="#spread-variance-1">Spread: Variance</a></li>
+  <li><a href="#spread-variance-2" id="toc-spread-variance-2" class="nav-link" data-scroll-target="#spread-variance-2">Spread: Variance</a></li>
+  <li><a href="#spread-variance-3" id="toc-spread-variance-3" class="nav-link" data-scroll-target="#spread-variance-3">Spread: Variance</a></li>
+  <li><a href="#spread-standard-deviation" id="toc-spread-standard-deviation" class="nav-link" data-scroll-target="#spread-standard-deviation">Spread: Standard Deviation</a></li>
+  <li><a href="#spread-standard-deviation-1" id="toc-spread-standard-deviation-1" class="nav-link" data-scroll-target="#spread-standard-deviation-1">Spread: Standard Deviation</a></li>
+  <li><a href="#measures-of-correlation" id="toc-measures-of-correlation" class="nav-link" data-scroll-target="#measures-of-correlation">Measures of Correlation</a></li>
+  <li><a href="#measures-of-correlation-1" id="toc-measures-of-correlation-1" class="nav-link" data-scroll-target="#measures-of-correlation-1">Measures of Correlation</a></li>
+  <li><a href="#measures-of-correlation-2" id="toc-measures-of-correlation-2" class="nav-link" data-scroll-target="#measures-of-correlation-2">Measures of Correlation</a></li>
+  <li><a href="#correlation" id="toc-correlation" class="nav-link" data-scroll-target="#correlation">Correlation</a></li>
+  <li><a href="#linear-regression-model" id="toc-linear-regression-model" class="nav-link" data-scroll-target="#linear-regression-model">Linear Regression Model</a></li>
+  <li><a href="#linear-regression-model-1" id="toc-linear-regression-model-1" class="nav-link" data-scroll-target="#linear-regression-model-1">Linear Regression Model</a></li>
+  <li><a href="#minimizing-the-residuals" id="toc-minimizing-the-residuals" class="nav-link" data-scroll-target="#minimizing-the-residuals">Minimizing the Residuals</a></li>
+  <li><a href="#linear-regression-model-2" id="toc-linear-regression-model-2" class="nav-link" data-scroll-target="#linear-regression-model-2">Linear Regression Model</a></li>
+  <li><a href="#multiple-regression" id="toc-multiple-regression" class="nav-link" data-scroll-target="#multiple-regression">Multiple Regression</a></li>
+  <li><a href="#quiz-questions" id="toc-quiz-questions" class="nav-link" data-scroll-target="#quiz-questions">Quiz Questions</a></li>
+  </ul></li>
+  <li><a href="#causation" id="toc-causation" class="nav-link" data-scroll-target="#causation">Causation</a>
+  <ul class="collapse">
+  <li><a href="#schools-of-thought" id="toc-schools-of-thought" class="nav-link" data-scroll-target="#schools-of-thought">Schools of Thought</a></li>
+  <li><a href="#causality-why-bother" id="toc-causality-why-bother" class="nav-link" data-scroll-target="#causality-why-bother">Causality: Why bother?</a></li>
+  <li><a href="#causality-what-makes-it-hard" id="toc-causality-what-makes-it-hard" class="nav-link" data-scroll-target="#causality-what-makes-it-hard">Causality: What makes it hard?</a></li>
+  <li><a href="#potential-outcomes-and-counterfactuals" id="toc-potential-outcomes-and-counterfactuals" class="nav-link" data-scroll-target="#potential-outcomes-and-counterfactuals">Potential Outcomes and Counterfactuals</a></li>
+  <li><a href="#whats-the-solution" id="toc-whats-the-solution" class="nav-link" data-scroll-target="#whats-the-solution">What’s the solution?</a></li>
+  <li><a href="#whats-complicated-about-this" id="toc-whats-complicated-about-this" class="nav-link" data-scroll-target="#whats-complicated-about-this">What’s complicated about this?</a></li>
+  <li><a href="#cant-we-just-observe-and-compare" id="toc-cant-we-just-observe-and-compare" class="nav-link" data-scroll-target="#cant-we-just-observe-and-compare">Can’t we just observe and compare?</a></li>
+  <li><a href="#cant-we-just-observe-and-compare-1" id="toc-cant-we-just-observe-and-compare-1" class="nav-link" data-scroll-target="#cant-we-just-observe-and-compare-1">Can’t we just observe and compare?</a></li>
+  <li><a href="#cant-we-just-observe-and-compare-2" id="toc-cant-we-just-observe-and-compare-2" class="nav-link" data-scroll-target="#cant-we-just-observe-and-compare-2">Can’t we just observe and compare?</a></li>
+  <li><a href="#cant-we-just-observe-and-compare-3" id="toc-cant-we-just-observe-and-compare-3" class="nav-link" data-scroll-target="#cant-we-just-observe-and-compare-3">Can’t we just observe and compare?</a></li>
+  <li><a href="#cant-we-just-observe-and-compare-4" id="toc-cant-we-just-observe-and-compare-4" class="nav-link" data-scroll-target="#cant-we-just-observe-and-compare-4">Can’t we just observe and compare?</a></li>
+  <li><a href="#cant-we-just-observe-and-compare-5" id="toc-cant-we-just-observe-and-compare-5" class="nav-link" data-scroll-target="#cant-we-just-observe-and-compare-5">Can’t we just observe and compare?</a></li>
+  <li><a href="#cant-we-just-observe-and-compare-6" id="toc-cant-we-just-observe-and-compare-6" class="nav-link" data-scroll-target="#cant-we-just-observe-and-compare-6">Can’t we just observe and compare?</a></li>
+  <li><a href="#cant-we-just-observe-and-compare-7" id="toc-cant-we-just-observe-and-compare-7" class="nav-link" data-scroll-target="#cant-we-just-observe-and-compare-7">Can’t we just observe and compare?</a></li>
+  <li><a href="#cant-we-just-observe-and-compare-8" id="toc-cant-we-just-observe-and-compare-8" class="nav-link" data-scroll-target="#cant-we-just-observe-and-compare-8">Can’t we just observe and compare?</a></li>
+  <li><a href="#cant-we-just-observe-and-compare-9" id="toc-cant-we-just-observe-and-compare-9" class="nav-link" data-scroll-target="#cant-we-just-observe-and-compare-9">Can’t we just observe and compare?</a></li>
+  <li><a href="#why-cant-we-just-observe-how-units-change-over-time" id="toc-why-cant-we-just-observe-how-units-change-over-time" class="nav-link" data-scroll-target="#why-cant-we-just-observe-how-units-change-over-time">Why can’t we just observe how units change over time?</a></li>
+  <li><a href="#why-cant-we-just-observe-how-units-change-over-time-1" id="toc-why-cant-we-just-observe-how-units-change-over-time-1" class="nav-link" data-scroll-target="#why-cant-we-just-observe-how-units-change-over-time-1">Why can’t we just observe how units change over time?</a></li>
+  <li><a href="#why-cant-we-just-compare-units-without-randomization" id="toc-why-cant-we-just-compare-units-without-randomization" class="nav-link" data-scroll-target="#why-cant-we-just-compare-units-without-randomization">Why can’t we just compare units without randomization?</a></li>
+  <li><a href="#why-cant-we-just-compare-units-without-randomization-1" id="toc-why-cant-we-just-compare-units-without-randomization-1" class="nav-link" data-scroll-target="#why-cant-we-just-compare-units-without-randomization-1">Why can’t we just compare units without randomization?</a></li>
+  <li><a href="#causal-inference-tools" id="toc-causal-inference-tools" class="nav-link" data-scroll-target="#causal-inference-tools">Causal Inference Tools</a></li>
+  </ul></li>
+  <li><a href="#randomized-experimentss" id="toc-randomized-experimentss" class="nav-link" data-scroll-target="#randomized-experimentss">Randomized Experimentss</a>
+  <ul class="collapse">
+  <li><a href="#estimating-causal-effects-with-randomized-experiments" id="toc-estimating-causal-effects-with-randomized-experiments" class="nav-link" data-scroll-target="#estimating-causal-effects-with-randomized-experiments">Estimating Causal Effects with Randomized Experiments</a></li>
+  <li><a href="#dealing-with-small-sample-sizes" id="toc-dealing-with-small-sample-sizes" class="nav-link" data-scroll-target="#dealing-with-small-sample-sizes">Dealing with Small Sample Sizes</a></li>
+  <li><a href="#validity" id="toc-validity" class="nav-link" data-scroll-target="#validity">Validity</a></li>
+  </ul></li>
+  <li><a href="#causal-inference-with-observational-data" id="toc-causal-inference-with-observational-data" class="nav-link" data-scroll-target="#causal-inference-with-observational-data">Causal Inference with Observational Data</a>
+  <ul class="collapse">
+  <li><a href="#causality-without-randomization" id="toc-causality-without-randomization" class="nav-link" data-scroll-target="#causality-without-randomization">Causality without Randomization</a></li>
+  <li><a href="#identification-strategy" id="toc-identification-strategy" class="nav-link" data-scroll-target="#identification-strategy">Identification strategy</a></li>
+  <li><a href="#holy-trinity-of-causal-inference" id="toc-holy-trinity-of-causal-inference" class="nav-link" data-scroll-target="#holy-trinity-of-causal-inference">Holy Trinity of Causal Inference</a></li>
+  <li><a href="#identification-strategy-1" id="toc-identification-strategy-1" class="nav-link" data-scroll-target="#identification-strategy-1">Identification strategy</a></li>
+  <li><a href="#difference-in-differences" id="toc-difference-in-differences" class="nav-link" data-scroll-target="#difference-in-differences">Difference-in-Differences</a></li>
+  <li><a href="#simulation-example" id="toc-simulation-example" class="nav-link" data-scroll-target="#simulation-example">Simulation Example</a></li>
+  <li><a href="#simulation-example-1" id="toc-simulation-example-1" class="nav-link" data-scroll-target="#simulation-example-1">Simulation Example</a></li>
+  <li><a href="#did-assumptions" id="toc-did-assumptions" class="nav-link" data-scroll-target="#did-assumptions">DiD: Assumptions</a></li>
+  <li><a href="#why-cant-we-just-observe-how-units-change-over-time-2" id="toc-why-cant-we-just-observe-how-units-change-over-time-2" class="nav-link" data-scroll-target="#why-cant-we-just-observe-how-units-change-over-time-2">Why can’t we just observe how units change over time?</a></li>
+  <li><a href="#why-cant-we-just-observe-how-units-change-over-time-3" id="toc-why-cant-we-just-observe-how-units-change-over-time-3" class="nav-link" data-scroll-target="#why-cant-we-just-observe-how-units-change-over-time-3">Why can’t we just observe how units change over time?</a></li>
+  <li><a href="#why-cant-we-just-compare-units-without-randomization-2" id="toc-why-cant-we-just-compare-units-without-randomization-2" class="nav-link" data-scroll-target="#why-cant-we-just-compare-units-without-randomization-2">Why can’t we just compare units without randomization?</a></li>
+  <li><a href="#why-cant-we-just-compare-units-without-randomization-3" id="toc-why-cant-we-just-compare-units-without-randomization-3" class="nav-link" data-scroll-target="#why-cant-we-just-compare-units-without-randomization-3">Why can’t we just compare units without randomization?</a></li>
+  <li><a href="#why-cant-we-just-compare-units-without-randomization-4" id="toc-why-cant-we-just-compare-units-without-randomization-4" class="nav-link" data-scroll-target="#why-cant-we-just-compare-units-without-randomization-4">Why can’t we just compare units without randomization?</a></li>
+  <li><a href="#why-cant-we-just-compare-units-without-randomization-5" id="toc-why-cant-we-just-compare-units-without-randomization-5" class="nav-link" data-scroll-target="#why-cant-we-just-compare-units-without-randomization-5">Why can’t we just compare units without randomization?</a></li>
+  <li><a href="#adjusting-on-observables" id="toc-adjusting-on-observables" class="nav-link" data-scroll-target="#adjusting-on-observables">Adjusting on Observables</a></li>
+  </ul></li>
+  <li><a href="#multiple-hypothesis-testing" id="toc-multiple-hypothesis-testing" class="nav-link" data-scroll-target="#multiple-hypothesis-testing">Multiple Hypothesis Testing</a>
+  <ul class="collapse">
+  <li><a href="#creating-index-measures" id="toc-creating-index-measures" class="nav-link" data-scroll-target="#creating-index-measures">Creating Index Measures</a></li>
+  <li><a href="#additive-scale" id="toc-additive-scale" class="nav-link" data-scroll-target="#additive-scale">Additive Scale</a></li>
+  <li><a href="#additive-scale-1" id="toc-additive-scale-1" class="nav-link" data-scroll-target="#additive-scale-1">Additive Scale</a></li>
+  <li><a href="#averaged-z-scores" id="toc-averaged-z-scores" class="nav-link" data-scroll-target="#averaged-z-scores">Averaged Z-Scores</a></li>
+  <li><a href="#averaged-z-scores-1" id="toc-averaged-z-scores-1" class="nav-link" data-scroll-target="#averaged-z-scores-1">Averaged Z-Scores</a></li>
+  <li><a href="#fancier-index-techniques" id="toc-fancier-index-techniques" class="nav-link" data-scroll-target="#fancier-index-techniques">Fancier index techniques</a></li>
+  <li><a href="#interaction-terms" id="toc-interaction-terms" class="nav-link" data-scroll-target="#interaction-terms">Interaction Terms</a></li>
+  </ul></li>
+  <li><a href="#testing-heterogeneous-effects" id="toc-testing-heterogeneous-effects" class="nav-link" data-scroll-target="#testing-heterogeneous-effects">Testing Heterogeneous Effects</a>
+  <ul class="collapse">
+  <li><a href="#interaction-terms-1" id="toc-interaction-terms-1" class="nav-link" data-scroll-target="#interaction-terms-1">Interaction Terms</a></li>
+  <li><a href="#quiz-questions-1" id="toc-quiz-questions-1" class="nav-link" data-scroll-target="#quiz-questions-1">Quiz Questions</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="statistical-review" class="level1">
+<h1>Statistical Review</h1>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p>This activity draws on Chapter 2 in <a href="https://press.princeton.edu/books/paperback/9780691199436/data-analysis-for-social-science">Data Analysis for Social Science: A Friendly and Practical Introduction (DSS)</a></p>
+<ul>
+<li><a href="https://ellaudet.iq.harvard.edu/mean_sd">interactive visualization: mean and sd</a></li>
+<li><a href="https://ellaudet.iq.harvard.edu/correlation">interactive visualization: correlation</a></li>
+</ul>
+</section>
+<section id="quantitative-analysis-and-comparisons" class="level2">
+<h2 class="anchored" data-anchor-id="quantitative-analysis-and-comparisons">Quantitative Analysis and Comparisons</h2>
+<ul>
+<li>Comparisons are at the heart of quantitative analysis</li>
+<li>Lots of bad analysis <em>implies</em> comparisons, but doesn’t actually make them
+<ul>
+<li>Ex. 10 things that extremely successful people do to be productive</li>
+<li>Ex. 70% of participants reported an improvement</li>
+</ul></li>
+<li>Correlation is the most basic tool for making comparisons with data</li>
+</ul>
+<div class="notes">
+<p>Making comparisons is one of the most essential parts in research, underpinning everything from simple descriptive studies to machine learning and impact evaluations. It is difficult to learn without comparison. For example, an article that identifies 10 habits of successful people might seek to provide guidance on what behaviors you can adopt to become more successful. However, we should also ask how common these behaviors are among people who are not successful. Similarly, an evaluation might point out that 70% of organizations that participated in a capacity-building intervention reported an improvement in their capacity over the course of the intervention. But we should also ask whether these improvements were larger than improvements experienced by similar organizations that didn’t participate. Correlation is the fundamental tool that allows us to answer these important questions.</p>
+</div>
+</section>
+<section id="correlations-necessary-components" class="level2">
+<h2 class="anchored" data-anchor-id="correlations-necessary-components">Correlations: Necessary Components</h2>
+<p><strong>What do we need to calculate correlations?</strong></p>
+<ul>
+<li>Measures of central tendency
+<ul>
+<li>Mean</li>
+<li>Proportion</li>
+</ul></li>
+<li>Measures of spread
+<ul>
+<li>Variance</li>
+<li>Standard deviation</li>
+</ul></li>
+</ul>
+<div class="notes">
+<p>In order to calculate correlations, we need to begin with quantities that we want to compare across groups. For example, we might want to calculate the mean, or the average, of a certain variable. We also need to measure how much variation, or spread, there is in these measures. Are the units in our sample very similar, or are their values spread our across a wide range?</p>
+</div>
+</section>
+<section id="central-tendency-mean" class="level2">
+<h2 class="anchored" data-anchor-id="central-tendency-mean">Central Tendency: Mean</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>\mu_X = \frac{1}{n} \sum_{i}^{n} X_i</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>my_vector <span class="ot">=</span> <span class="fu">rnorm</span>(<span class="dv">10</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">5</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Sum the values</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>sum_values <span class="ot">&lt;-</span> <span class="fu">sum</span>(my_vector)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 2: Count the number of elements</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>count_elements <span class="ot">&lt;-</span> <span class="fu">length</span>(my_vector)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Calculate the mean</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>mean_value <span class="ot">&lt;-</span> sum_values <span class="sc">/</span> count_elements</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(mean_value)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 12.07996</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(my_vector)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 12.07996</code></pre>
+</div>
+</div>
+<div class="notes">
+<p>Everyone knows how to calculate the mean of a variable. In R, there are multiple ways to do it. Here, I created a random variable with 10 values and an average value of 10. You can calculate the mean by hand or using the function ‘mean()’. Both approaches should give you the same value.</p>
+</div>
+</section>
+<section id="spread-variance" class="level2">
+<h2 class="anchored" data-anchor-id="spread-variance">Spread: Variance</h2>
+<div class="sourceCode" id="cb6"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>\sigma^2_X = \frac{1}{N} \sum_{i}^{N} (X_i - \mu_X)^2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="incremental">
+<ul class="incremental">
+<li>What does the square in <code>\sigma^2</code> accomplish?</li>
+<li>What are the implications for interpretation?
+<ul class="incremental">
+<li>Units</li>
+<li>Distribution</li>
+</ul></li>
+<li>Even with these basic measures, we’re already thinking about the distribution!</li>
+</ul>
+</div>
+<div class="notes">
+<p>You’re also probably familiar with variance. Variance measures how spread-out the values of a variable are around the mean. For the variance of X, we take the sum of the squared differences between each value of X and the mean value of X, and then divide by the number of observations. While squaring the differences is necessary to avoid positive and negative values cancelling out one another, it poses challenges for interpretation. Most importantly, the variance is not on the scale of the variable, so there is no intuitive way to interpret its value. The squaring of the differences also means that more weight is put on observations that are very far from the mean value. The next few slides illustrates this with simulated data.</p>
+</div>
+</section>
+<section id="spread-variance-1" class="level2">
+<h2 class="anchored" data-anchor-id="spread-variance-1">Spread: Variance</h2>
+<div class="cell">
+<details>
+<summary>Create a vector</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Create vector, sort by size, and store var</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">=</span> <span class="fu">rnorm</span>(<span class="dv">10</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">5</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">=</span> <span class="fu">sort</span>(dat)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>o_var <span class="ot">=</span> <span class="fu">var</span>(dat)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(dat)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]  3.674694  6.565736  7.197622  7.771690  8.849113 10.352542 10.646439
+ [8] 12.304581 17.793542 18.575325</code></pre>
+</div>
+</div>
+<div class="notes">
+<p>First, we create simulated data with a known mean and standard deviation</p>
+</div>
+</section>
+<section id="spread-variance-2" class="level2">
+<h2 class="anchored" data-anchor-id="spread-variance-2">Spread: Variance</h2>
+<div class="cell">
+<details>
+<summary>Add a constant to a big number</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Create new dataframe for big addition and store vector length</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>b_dat <span class="ot">=</span> dat</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>ind <span class="ot">=</span> <span class="fu">length</span>(b_dat)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="do">## Add four to the largest number in the vector and calculate size of var increase</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>b_dat[ind] <span class="ot">=</span> b_dat[ind] <span class="sc">+</span> <span class="dv">4</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>b_var <span class="ot">=</span> <span class="fu">var</span>(b_dat)</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>val <span class="ot">=</span> b_var <span class="sc">-</span> o_var</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Variance increases by"</span>, val )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Variance increases by 8.890842</code></pre>
+</div>
+</div>
+<div class="notes">
+<p>Second, we add 4 to the largest value of X and observe the change in the standard deviation</p>
+</div>
+</section>
+<section id="spread-variance-3" class="level2">
+<h2 class="anchored" data-anchor-id="spread-variance-3">Spread: Variance</h2>
+<div class="cell">
+<details>
+<summary>Add a constant to a smaller number</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="do">## Create new dataframe for small addition</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>s_dat <span class="ot">=</span> dat</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="do">## Add four to the smallest number in the vector and calculate size of var increase</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>s_dat[ind<span class="dv">-2</span>] <span class="ot">=</span> s_dat[ind<span class="dv">-2</span>] <span class="sc">+</span> <span class="dv">4</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>s_var <span class="ot">=</span> <span class="fu">var</span>(s_dat)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>val <span class="ot">=</span> s_var <span class="sc">-</span> o_var</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Variance increases by"</span>, val )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Variance increases by 3.316847</code></pre>
+</div>
+</div>
+<div class="notes">
+<p>Finally, we add 4 to the smallest value of X and observe that the change in the standard deviation is much smaller. Again, this is because squaring the differences places more weight on extreme values very far from the mean</p>
+</div>
+</section>
+<section id="spread-standard-deviation" class="level2">
+<h2 class="anchored" data-anchor-id="spread-standard-deviation">Spread: Standard Deviation</h2>
+<div class="sourceCode" id="cb13"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>\sigma_X = \sqrt{\frac{1}{N} \sum_{i}^{N} (X_i - \mu_X)^2}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="incremental">
+<ul class="incremental">
+<li>What does the <code>\sqrt{}</code> accomplish?</li>
+<li>What are the implications for interpretation?
+<ul class="incremental">
+<li>Expressed in the same units as the observations</li>
+<li>How far we expect each observation to be from the mean, on average</li>
+</ul></li>
+<li>It is often desirable to report effect sizes as SDs</li>
+</ul>
+</div>
+<div class="notes">
+<p>Another measure of spread is the standard deviation. The standard deviation is just the square-root of the variance, and tells us the average absolute difference between values of X fall and the mean of X. By applying the square-root, this measure of spread is now measured in the same units as the variable. When calculating correlations between two variables, it is often desirable to translate the size of the relationship into standard deviations.</p>
+</div>
+</section>
+<section id="spread-standard-deviation-1" class="level2">
+<h2 class="anchored" data-anchor-id="spread-standard-deviation-1">Spread: Standard Deviation</h2>
+<ul>
+<li><a href="https://ellaudet.iq.harvard.edu/mean_sd">Check out this interactive visualization</a>
+<ul>
+<li>Observe how changes in the standard deviation affect the shape of the distribution</li>
+</ul></li>
+</ul>
+<div class="notes">
+<p>In a new tab, open this interactive visualization of how changes in the standard deviation affect the shape of the distribution. Follow the instructions to see what increases in the spead of a variable looks like.</p>
+</div>
+</section>
+<section id="measures-of-correlation" class="level2">
+<h2 class="anchored" data-anchor-id="measures-of-correlation">Measures of Correlation</h2>
+<div class="incremental">
+<ul class="incremental">
+<li><span style="color:red;">Covariance</span> <code>\text{Cov}(X, Y) = \frac{1}{n} \sum_{i}^{N} (X_i - \bar{X})(Y_i - \bar{Y})</code>
+<ul class="incremental">
+<li>Product of the deviations</li>
+<li>Range: unbounded</li>
+</ul></li>
+<li><span style="color:red;">Correlation coefficient</span> <code>\text{Cor}(X, Y) = \frac{\text{Cov}(X, Y)}{\sigma_X \sigma_Y}</code>
+<ul class="incremental">
+<li>Covariance normalized by product of SDs</li>
+<li>Range: -1 to 1</li>
+</ul></li>
+</ul>
+</div>
+<div class="notes">
+<p>Now that we have reviewed the fundamental components of correlation, we can turn to the three primary ways of measuring correlation. Correlations rely on two variables, typically denoted as X and Y. The covariance is the product of of the deviations between values of our two variables and the mean of the variables. However, this measure can tell us about the direction but not the strength of the correlation. Next, we turn to the correlation coefficient, which normalizes the covariance by the product of the variables’ standard deviations, forcing them to take a bounded range that can tell us the strength and direction of correlation.</p>
+</div>
+</section>
+<section id="measures-of-correlation-1" class="level2">
+<h2 class="anchored" data-anchor-id="measures-of-correlation-1">Measures of Correlation</h2>
+<div class="incremental">
+<ul class="incremental">
+<li><span style="color:red;">Slope</span> <code>\beta_X = \frac{\text{Cov}(X, Y)}{\sigma^2_X}</code>
+<ul class="incremental">
+<li>Covariance normalized by variance</li>
+<li>Expected change in <code>Y</code> with 1-unit change in <code>X</code></li>
+</ul></li>
+</ul>
+</div>
+<div class="notes">
+<p>Finally, we can calculate the slope of a regression line, which normalized the covariance by the variance and tells us the expected change in Y when we observe a 1-unit increase in X.</p>
+</div>
+</section>
+<section id="measures-of-correlation-2" class="level2">
+<h2 class="anchored" data-anchor-id="measures-of-correlation-2">Measures of Correlation</h2>
+<div class="incremental">
+<ul class="incremental">
+<li>What does the correlation coefficient tell you that slope doesn’t?
+<ul class="incremental">
+<li>Consistency of the relationship on bounded scale (-1 to 1)</li>
+</ul></li>
+<li>What does slope tell you that the correlation coefficient doesn’t?
+<ul class="incremental">
+<li>Substantive importance (magnitude)</li>
+</ul></li>
+<li>Give an example of when you’d prefer each
+<ul class="incremental">
+<li>Correlation: When comparing relationships on different scales</li>
+<li>Slope: When thinking about ROI</li>
+</ul></li>
+</ul>
+</div>
+<div class="notes">
+<p>Here’s a quick review of the concepts we just covered.</p>
+</div>
+</section>
+<section id="correlation" class="level2">
+<h2 class="anchored" data-anchor-id="correlation">Correlation</h2>
+<p><strong>What can with do with them?</strong></p>
+<ul>
+<li><span style="color:red;">Description</span>: quantitative comparisons</li>
+<li><span style="color:red;">Forecasting</span>: sample population <code>\rightarrow</code> out-of-sample</li>
+<li><span style="color:blue;">Causal inference</span>: correlation + research design</li>
+</ul>
+<p><strong>Simple, but powerful</strong></p>
+<ul>
+<li>Non-linearities, interactions, machine learning</li>
+</ul>
+<div class="notes">
+<p>These simple but powerful statistical tools perform much of the work in contemporary quantitative social science research, ranging from simple description, to forecasting, to causal inference. These simple linear correlation can be combined with squared terms to estimate non-linear relationships, iterations to estimate how a relationship between two variables is affected by values of other variables, or powerful research designs to make inferences about causal relationships.</p>
+</div>
+</section>
+<section id="linear-regression-model" class="level2">
+<h2 class="anchored" data-anchor-id="linear-regression-model">Linear Regression Model</h2>
+<div class="sourceCode" id="cb14"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>Y_i = \alpha + \beta X_i + \epsilon_i</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="fragment">
+<div class="incremental">
+<ul class="incremental">
+<li>What is <code>\alpha</code>?</li>
+<li>What is <code>\beta</code>?</li>
+<li>What is <code>X_i</code>?</li>
+<li>What is <code>\epsilon_i</code>?</li>
+</ul>
+</div>
+</div>
+<div class="notes">
+<p>Linear regression models are often referred to as the “workhorse of the social sciences”. Whether it’s estimating difference in political opinions across demographic groups or calculating the causal effect of a randomized intervention, most analyses rely on linear regression. The most frequently used model is called “Ordinary Least Squares”. The most simple models consisten of an intercept (alpha), which estimates the average value of Y when the independent variable is at 0, the slope or coefficient (beta) for X, which captures the relationship between X and Y (the independent and dependent variables), and the error term (epsion) which captures the variance in Y that is not explained by the intercept and beta.</p>
+</div>
+</section>
+<section id="linear-regression-model-1" class="level2">
+<h2 class="anchored" data-anchor-id="linear-regression-model-1">Linear Regression Model</h2>
+<p><strong>Estimating model parameters</strong></p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>\hat{Y_i} = \hat{\alpha} + \hat{\beta} X_i</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Coefficient</strong></p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>\hat{\beta} = \Delta{\hat{Y}} / \Delta{X}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="notes">
+<p>Linear regression provides you with parameter estimates with which you can calculate the expected value of Y by adding together the terms on the right-hand-side of the equals sign in the model.</p>
+</div>
+</section>
+<section id="minimizing-the-residuals" class="level2">
+<h2 class="anchored" data-anchor-id="minimizing-the-residuals">Minimizing the Residuals</h2>
+<p><strong>What are residuals</strong></p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>\hat{\epsilon_i} = Y_i - \hat{Y_i}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>How do we minimize them?</strong></p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>SSR = \sum_{i}^{N} \hat{\epsilon}_i^2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="notes">
+<p>Ordinary least squares works by estimating parameter values the minimize the residuals of the model, which are the difference between each value of Y and the value predicted by the model based on the model parameters. As with our measures of variance, this is done using the sum of squared residuals, to avoid positive and negative differences from cancelling out.</p>
+</div>
+</section>
+<section id="linear-regression-model-2" class="level2">
+<h2 class="anchored" data-anchor-id="linear-regression-model-2">Linear Regression Model</h2>
+<ul>
+<li><a href="https://ellaudet.iq.harvard.edu/least_squares">Check out this interactive visualization</a>
+<ul>
+<li>See how the least squares method is used to calculate the slope of the line by drawing a line that minimizes squared errors</li>
+</ul></li>
+<li><a href="https://ellaudet.iq.harvard.edu/linear_model">Check out this interactive visualization</a>
+<ul>
+<li>See how changes in the intercept and slope represents negative and positive relationships across different distributions of Y</li>
+</ul></li>
+</ul>
+</section>
+<section id="multiple-regression" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-regression">Multiple Regression</h2>
+<div class="sourceCode" id="cb19"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>Y_i = \alpha + \beta_1 X_{i1} + \beta_2 X_{i2} + \epsilon_i</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="incremental">
+<ul class="incremental">
+<li>How does our interpretation of <code>\alpha</code> change?</li>
+<li>How does our interpretation of <code>\beta_1</code> change?</li>
+</ul>
+</div>
+<div class="notes">
+<p>Multiple regression works very similarly to simple linear regression, although interpretation becomes slightly more complicated. The intercept (alpha) is not the mean of Y when both independent variables (X1 and X2) are held at 0, while the value of B1 now captures the relationship between X1 and Y while X2 is held constant.</p>
+</div>
+</section>
+<section id="quiz-questions" class="level2">
+<h2 class="anchored" data-anchor-id="quiz-questions">Quiz Questions</h2>
+<p><strong>Which of the following statements describe a correlation?</strong></p>
+<ol type="1">
+<li>Most professional data analysis took a statistics course in college.</li>
+<li>The longer a person runs the more calories they burn.</li>
+<li>People who live to be 100 years old typically take vitamins.</li>
+<li>Older people vote more than younger people.</li>
+</ol>
+</section>
+</section>
+<section id="causation" class="level1">
+<h1>Causation</h1>
+<section id="schools-of-thought" class="level2">
+<h2 class="anchored" data-anchor-id="schools-of-thought">Schools of Thought</h2>
+<p>“We think of a cause as something that makes a difference, and the difference it makes must be a difference from what would have happened without it.” (Lewis, 1973)</p>
+<ul>
+<li>Potential outcomes and counterfactuals (Econ)</li>
+<li>DAGs and do-calculus (CS)</li>
+<li>Manipulability (Philosophy)</li>
+</ul>
+<div class="notes">
+<p>While simple correlations can answer many important questions about the world, on their own, they cannot tell us anything about whether the relationship between X and Y is causal. We define causal relationships as a dependency whereby intervening on or manipulating the value of X while holding all other variables constant will result in a change in the value of Y. Causality is a central topic in philosophy of science, and there are many schools of thought around it. In social science research, most researchers focus on the Potential Outcomes framework.</p>
+</div>
+</section>
+<section id="causality-why-bother" class="level2">
+<h2 class="anchored" data-anchor-id="causality-why-bother">Causality: Why bother?</h2>
+<ul>
+<li>Understanding cause and effect is how we change things in the real world</li>
+<li>Causal inference separates good evaluations from bad
+<ul>
+<li>Policy change</li>
+<li>Development intervention</li>
+</ul></li>
+<li>Causal identification is not binary
+<ul>
+<li>It’s harder for some policies and interventions than others</li>
+<li>Variety of tools that can help us rule out different threats to inference</li>
+</ul></li>
+</ul>
+<div class="notes">
+<p>As we’ll learn, it can be extremely difficult to estimate causal relationships in the social world. However, the ability to make positive change in the world requires an understanding cause and effect. However, most program evaluations cannot provide evidence of a causal impact and sometimes reliable causal inference is difficult or impossible.</p>
+</div>
+</section>
+<section id="causality-what-makes-it-hard" class="level2">
+<h2 class="anchored" data-anchor-id="causality-what-makes-it-hard">Causality: What makes it hard?</h2>
+<p><strong>Fundamental Problem of Causal Inference</strong></p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>Y_i = </span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>\begin{cases} </span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>Y_i(1) &amp; \text{if } D_i = 1 \text{ (treatment group)} \\</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>Y_i(0) &amp; \text{if } D_i = 0 \text{ (control group)}</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>\end{cases}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>We only observe any given unit in one treatment status at any one time so we can never directly observe the causal effect of a treatment on a unit.</li>
+</ul>
+<div class="notes">
+<p>While estimating the correlation between two variables is straightforward, understanding whether this correlation captures a causal relationship is much more difficult. This is due to the “fundamental problem of causal inference”, which arises from our inability to observe counterfactuals. We often think of causal relationships in terms of a counterfactual. Thinking about a causal relationship between a binary treatment variable D and an outcome Y, for any unit in our sample, we want to observe the value of Y in simultaneous worlds in which the unit does and does not receive the treatment D.</p>
+</div>
+</section>
+<section id="potential-outcomes-and-counterfactuals" class="level2">
+<h2 class="anchored" data-anchor-id="potential-outcomes-and-counterfactuals">Potential Outcomes and Counterfactuals</h2>
+<p><strong>Treatment Effect for individual <code>i</code></strong></p>
+<ul>
+<li><code>TE_i = Y_i(1) - Y_i(0)</code></li>
+</ul>
+<p><strong>Average Treatment Effect (ATE)</strong></p>
+<ul>
+<li><code>ATE = \frac{1}{N} \sum_{i=1}^{N} TE_i</code></li>
+</ul>
+<div class="notes">
+<p>Observing these simultaneous counterfactual worlds for each unit in our sample would allow us to easily estimate the average treatment effect for units in our sample. However, this is impossible.</p>
+</div>
+</section>
+<section id="whats-the-solution" class="level2">
+<h2 class="anchored" data-anchor-id="whats-the-solution">What’s the solution?</h2>
+<p><strong>Estimating counterfactuals</strong></p>
+<ul>
+<li>Units in the control group serve as a stand-in for the counter-factual of the treatment group</li>
+</ul>
+<div class="sourceCode" id="cb21"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>\widehat{ATE} = \overline{Y}_{treatment\_group} - \overline{Y}_{control\_group}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="notes">
+<p>While we can never directly observe a counterfactual, we can try to estimate it by using a credible research design. Causal inference methods attempt to do this by minimizing the probability of systematic differences between units that do and do not receive a treatment.</p>
+</div>
+</section>
+<section id="whats-complicated-about-this" class="level2">
+<h2 class="anchored" data-anchor-id="whats-complicated-about-this">What’s complicated about this?</h2>
+<div class="incremental">
+<ul class="incremental">
+<li>“Only valid when when the treatment and control group are comparable with respect to <em>all the variables that might affect the outcome</em> other than the treatment variable itself.”</li>
+<li>“We must <em>find or create a situation in which the treated observations and the untreated observations are similar</em> with respect to all the variables that might affect the outcome”</li>
+<li>“By randomly assigning treatment, we ensure that treatment and control groups are, <em>on average</em>, identical to each other in all <em>observed and unobserved</em> pre-treatment characteristics”</li>
+</ul>
+</div>
+<div class="notes">
+<p>Units that have been exposed to the treatment can only serve as a valid counterfactual under very specific conditions. Under random assignment, the statistically most likely outcome is that treatment and control groups will not have any systematic differences that can confound our ability to estimate the treatment effect.</p>
+</div>
+</section>
+<section id="cant-we-just-observe-and-compare" class="level2">
+<h2 class="anchored" data-anchor-id="cant-we-just-observe-and-compare">Can’t we just observe and compare?</h2>
+<p><img src="img/nyt-dag2.png" class="fragment img-fluid"></p>
+<div class="notes">
+<p>In the real world, differences in units’ exposure to X is often driven by important differences that also affect those units’ values of Y. This is called “confounding”. When confounding is present, our estimates of the causal effect of X on Y will be biased, potentially creating the illusion of a causal relationship that doesn’t actually exist. Consider this example, where the NYT reported on a study that found a correlation between opera attendance and longevity. Here, the journalists inferred that this correlation was causal, meaning that by changing whether or not someone goes to the opera, you can change how long they live. However, there are many factors that confound this relationship, including income, which is correlated with both opera attendance and lifespan.</p>
+</div>
+</section>
+<section id="cant-we-just-observe-and-compare-1" class="level2">
+<h2 class="anchored" data-anchor-id="cant-we-just-observe-and-compare-1">Can’t we just observe and compare?</h2>
+<p><img src="img/largenstweet.png" class="img-fluid"></p>
+<div class="notes">
+<p>Many very smart people do not understand the fundamental problem of causal inference, so having an appreciation for the challenges of causal inference and being able to communicate the challenges to others can be a huge advantage for researchers that want to help others learn about the world.</p>
+</div>
+</section>
+<section id="cant-we-just-observe-and-compare-2" class="level2">
+<h2 class="anchored" data-anchor-id="cant-we-just-observe-and-compare-2">Can’t we just observe and compare?</h2>
+<p><strong>Example: What is the effect of class size on test scores</strong></p>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'ggdag'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:stats':
+
+    filter</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/edu-ex-simple-1.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<div class="notes">
+<p>Consider the challenge of estimating the effect of smaller class sizes on test scores. We want to know whether decreasing class sizes will cause an increase in the average test scores of students. We might start by looking at observational data on class size and test scores across a given district or country.</p>
+</div>
+</section>
+<section id="cant-we-just-observe-and-compare-3" class="level2">
+<h2 class="anchored" data-anchor-id="cant-we-just-observe-and-compare-3">Can’t we just observe and compare?</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/edu-ex-simplec-1.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<div class="notes">
+<p>However, even if we find a negative correlation between larger class sizes and higher test scores, we cannot assume that this relationship is causal. If there are any unobserved factors that are correlated with both class size and score, this will confound our estimates.</p>
+</div>
+</section>
+<section id="cant-we-just-observe-and-compare-4" class="level2">
+<h2 class="anchored" data-anchor-id="cant-we-just-observe-and-compare-4">Can’t we just observe and compare?</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/edu-ex-simpleb-1.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<div class="notes">
+<p>This would create the appearance of a causal relationship, even if one does not actually exist.</p>
+</div>
+</section>
+<section id="cant-we-just-observe-and-compare-5" class="level2">
+<h2 class="anchored" data-anchor-id="cant-we-just-observe-and-compare-5">Can’t we just observe and compare?</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/edu-ex-simpled-1.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<div class="notes">
+<p>We might decide to collect data on additional characteristics of students and try to “control” for these potential confounders by including them in a multiple regression model. For example, it might be that wealthier students tend to be in schools with smaller class sizes. If you can control for parental wealth, we can remove this potential bias in your estimates.</p>
+</div>
+</section>
+<section id="cant-we-just-observe-and-compare-6" class="level2">
+<h2 class="anchored" data-anchor-id="cant-we-just-observe-and-compare-6">Can’t we just observe and compare?</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/edu-ex-full-1.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<div class="notes">
+<p>However, adding the wrong control variables to your model can also create bias. When your dependent and independent variables have an effect on another variable in your model, this creates collider bias, which can cause the illusion of a causal relationship between X and Y by adding a control. For example, smaller sample sizes might cause teachers to pay more attention to students. Higher test scores also might cause teachers to pay more attention to students. Controlling for the amount of attention students get from teachers would create the illusion of a relationship between class size and test scores even if one does not exist.</p>
+</div>
+</section>
+<section id="cant-we-just-observe-and-compare-7" class="level2">
+<h2 class="anchored" data-anchor-id="cant-we-just-observe-and-compare-7">Can’t we just observe and compare?</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/edu-ex-fullb-1.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<div class="notes">
+<p>In reality, we can never control for all potential confounders, and we can never be certain that potential confounders we can control for are not colliders. If this figure captures every potential confounder, controlling for Year, Location, and Wealth would allow us to estimate the true causal effect of class sizes on test scores.</p>
+</div>
+</section>
+<section id="cant-we-just-observe-and-compare-8" class="level2">
+<h2 class="anchored" data-anchor-id="cant-we-just-observe-and-compare-8">Can’t we just observe and compare?</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/edu-ex-collider-1.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<div class="notes">
+<p>However, in this figure, if we added a control for Attention, that would introduce collider bias.</p>
+</div>
+</section>
+<section id="cant-we-just-observe-and-compare-9" class="level2">
+<h2 class="anchored" data-anchor-id="cant-we-just-observe-and-compare-9">Can’t we just observe and compare?</h2>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/edu-ex-fullc-1.png" class="img-fluid" style="width:100.0%"></p>
+</div>
+</div>
+<div class="notes">
+<p>And in this figure, no strategy will allow us to estimate a causal relationship because we don’t have data on U1 (hence it’s grey color).</p>
+</div>
+</section>
+<section id="why-cant-we-just-observe-how-units-change-over-time" class="level2">
+<h2 class="anchored" data-anchor-id="why-cant-we-just-observe-how-units-change-over-time">Why can’t we just observe how units change over time?</h2>
+<div class="cell">
+<details>
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>Year <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>Outcome <span class="ot">=</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="fl">1.3</span>, <span class="fl">1.7</span>,<span class="cn">NA</span>)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>Treatment <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Control"</span>, <span class="st">"Control"</span>,<span class="st">"Control"</span>,<span class="st">"Control"</span>)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">=</span> <span class="fu">data.frame</span>(Year, Outcome, Treatment)</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> dat, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Outcome, <span class="at">group =</span> Treatment, <span class="at">color =</span> Treatment)) <span class="sc">+</span></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">linetype=</span>Treatment),<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_linetype_manual</span>(<span class="at">values=</span><span class="fu">c</span>(<span class="st">"solid"</span>)) <span class="sc">+</span></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlim</span>(<span class="dv">0</span>,<span class="dv">3</span>) <span class="sc">+</span> </span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="fl">1.85</span>), <span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="fl">1.85</span>, <span class="at">by =</span> .<span class="dv">1</span>)) <span class="sc">+</span> </span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"blue"</span>) ) <span class="sc">+</span></span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>, <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">20</span>)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="notes">
+<p>A natural response is to wonder about whether we can allow units to serve as their own control group over time. Imagine that we collect data on units in Year 1 before a treatment is administered and again in Year 2 after a treatment is administered.</p>
+</div>
+</section>
+<section id="why-cant-we-just-observe-how-units-change-over-time-1" class="level2">
+<h2 class="anchored" data-anchor-id="why-cant-we-just-observe-how-units-change-over-time-1">Why can’t we just observe how units change over time?</h2>
+<div class="cell">
+<details>
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>Year <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>Outcome <span class="ot">=</span> <span class="fu">c</span>(<span class="fl">0.9</span>, <span class="fl">1.3</span>, <span class="fl">1.7</span>, <span class="fl">2.1</span>)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>Treatment <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Control"</span>, <span class="st">"Control"</span>,<span class="st">"Control"</span>,<span class="st">"Control"</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">=</span> <span class="fu">data.frame</span>(Year, Outcome, Treatment)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> dat, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Outcome, <span class="at">group =</span> Treatment, <span class="at">color =</span> Treatment)) <span class="sc">+</span></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">linetype=</span>Treatment),<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlim</span>(<span class="dv">0</span>,<span class="dv">3</span>) <span class="sc">+</span> </span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="fl">1.85</span>, <span class="at">by =</span> .<span class="dv">1</span>)) <span class="sc">+</span> </span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_linetype_manual</span>(<span class="at">values=</span><span class="fu">c</span>(<span class="st">"solid"</span>, <span class="st">"solid"</span>)) <span class="sc">+</span></span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"blue"</span>) ) <span class="sc">+</span></span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_cartesian</span>(<span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="fl">1.85</span>), <span class="at">clip =</span> <span class="st">"on"</span>) <span class="sc">+</span></span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>, <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">20</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="notes">
+<p>Here, we cannot know how the units in our sample would have changed in the absence of the intervention. In this figure, we see that the units were increasing at the same rate in the two years before they received the intervention, and likely would have increased the same amount without the intervention.</p>
+</div>
+</section>
+<section id="why-cant-we-just-compare-units-without-randomization" class="level2">
+<h2 class="anchored" data-anchor-id="why-cant-we-just-compare-units-without-randomization">Why can’t we just compare units without randomization?</h2>
+<div class="cell">
+<details>
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>Year <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>Outcome <span class="ot">=</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="fl">1.2</span>, <span class="fl">1.4</span>, <span class="cn">NA</span>, </span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>            <span class="cn">NA</span>, <span class="fl">1.3</span>, <span class="fl">1.7</span>, <span class="cn">NA</span>)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>Treatment <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Non-treated"</span>, <span class="st">"Non-treated"</span>,<span class="st">"Non-treated"</span>,<span class="st">"Non-treated"</span>, </span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>              <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>)</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">=</span> <span class="fu">data.frame</span>(Year, Outcome, Treatment)</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> dat, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Outcome, <span class="at">group =</span> Treatment, <span class="at">color =</span> Treatment)) <span class="sc">+</span></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">linetype=</span>Treatment),<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlim</span>(<span class="dv">0</span>,<span class="dv">3</span>) <span class="sc">+</span> </span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="fl">1.85</span>), <span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="fl">1.85</span>, <span class="at">by =</span> .<span class="dv">1</span>)) <span class="sc">+</span> </span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_linetype_manual</span>(<span class="at">values=</span><span class="fu">c</span>(<span class="st">"solid"</span>, <span class="st">"solid"</span>)) <span class="sc">+</span></span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"red"</span>, <span class="st">"blue"</span>) ) <span class="sc">+</span></span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="fu">c</span>(<span class="fl">0.8</span>, <span class="fl">0.2</span>), <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">20</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="notes">
+<p>Imagine we also collect data on a group of units that were not exposed to the treatment. While treatment assignment was not random, we might think that we can compare how treated units and non-treated units change in order to estimate the effect of the treatment.</p>
+</div>
+</section>
+<section id="why-cant-we-just-compare-units-without-randomization-1" class="level2">
+<h2 class="anchored" data-anchor-id="why-cant-we-just-compare-units-without-randomization-1">Why can’t we just compare units without randomization?</h2>
+<div class="cell">
+<details>
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>Year <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>Outcome <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="fl">1.2</span>, <span class="fl">1.4</span>, <span class="fl">1.6</span>, </span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>            <span class="fl">0.9</span>, <span class="fl">1.3</span>, <span class="fl">1.7</span>, <span class="fl">2.1</span>)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>Treatment <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Non-treated"</span>, <span class="st">"Non-treated"</span>,<span class="st">"Non-treated"</span>,<span class="st">"Non-treated"</span>, </span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>              <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">=</span> <span class="fu">data.frame</span>(Year, Outcome, Treatment)</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> dat, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Outcome, <span class="at">group =</span> Treatment, <span class="at">color =</span> Treatment)) <span class="sc">+</span></span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">linetype=</span>Treatment),<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlim</span>(<span class="dv">0</span>,<span class="dv">3</span>) <span class="sc">+</span> </span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="fl">1.85</span>, <span class="at">by =</span> .<span class="dv">1</span>)) <span class="sc">+</span> </span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_linetype_manual</span>(<span class="at">values=</span><span class="fu">c</span>(<span class="st">"solid"</span>, <span class="st">"solid"</span>)) <span class="sc">+</span></span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"red"</span>, <span class="st">"blue"</span>) ) <span class="sc">+</span></span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_cartesian</span>(<span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="fl">1.85</span>), <span class="at">clip =</span> <span class="st">"on"</span>) <span class="sc">+</span></span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="fu">c</span>(<span class="fl">0.8</span>, <span class="fl">0.2</span>), <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">20</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="notes">
+<p>However, because the treatment was not randomly assigned, treated and non-treated units may be systematically different, leading them to have different trajectors before the treatment was administered. When we see a longer period of time, it’s clear that both groups are changing at the same rate that they were prior to the treatment group being exposed to the treatment.</p>
+</div>
+</section>
+<section id="causal-inference-tools" class="level2">
+<h2 class="anchored" data-anchor-id="causal-inference-tools">Causal Inference Tools</h2>
+<ul>
+<li>Randomized experiments
+<ul>
+<li>Gold-standard</li>
+<li>Field and survey</li>
+</ul></li>
+<li>Observational data
+<ul>
+<li>Natural experiments</li>
+<li>Difference-in-Differences</li>
+<li>Matching, Synthetic Control</li>
+</ul></li>
+</ul>
+<div class="notes">
+<p>There are several ways that we can estimate causal relationships in the real world. Randomized experiments provide the most reliable way to accomplish this. Under random assignment, the statistically most likely outcome is that treatment and control groups will not have any systematic differences that can confound our ability to estimate the treatment effect.</p>
+</div>
+</section>
+</section>
+<section id="randomized-experimentss" class="level1">
+<h1>Randomized Experimentss</h1>
+<section id="estimating-causal-effects-with-randomized-experiments" class="level2">
+<h2 class="anchored" data-anchor-id="estimating-causal-effects-with-randomized-experiments">Estimating Causal Effects with Randomized Experiments</h2>
+<ul>
+<li><a href="https://ellaudet.iq.harvard.edu/random_treatment">Check out this interactive visualization</a>
+<ul>
+<li>Observe how changes in the standard deviation affect the shape of the distribution</li>
+</ul></li>
+</ul>
+</section>
+<section id="dealing-with-small-sample-sizes" class="level2">
+<h2 class="anchored" data-anchor-id="dealing-with-small-sample-sizes">Dealing with Small Sample Sizes</h2>
+<ul>
+<li>Re-randomization</li>
+<li>Blocking</li>
+<li>Non-bipartite matching</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>These fancy methods only ensure balance on <em>observed</em> characteristics</li>
+</ul>
+</div>
+</section>
+<section id="validity" class="level2">
+<h2 class="anchored" data-anchor-id="validity">Validity</h2>
+<div class="incremental">
+<ul class="incremental">
+<li>Internal validity</li>
+<li>External validity</li>
+<li>What are the trade-offs between experiments and observational studies?
+<ul class="incremental">
+<li>Experiments have more internal validity</li>
+<li>But… they often have synthetic treatments, convenience samples</li>
+</ul></li>
+<li>Where are these studies used in the real-world?</li>
+</ul>
+</div>
+</section>
+</section>
+<section id="causal-inference-with-observational-data" class="level1">
+<h1>Causal Inference with Observational Data</h1>
+<section id="causality-without-randomization" class="level2">
+<h2 class="anchored" data-anchor-id="causality-without-randomization">Causality without Randomization</h2>
+<div class="incremental">
+<ul class="incremental">
+<li>You must control for…
+<ul class="incremental">
+<li>everything (observed and unobserved) that affects both the treatment variable and the outcome variable</li>
+</ul></li>
+<li>You <em>must not</em> control for…
+<ul class="incremental">
+<li>anything that is affected by both the treatment variable and the outcome variable</li>
+</ul></li>
+<li>You <em>need to think carefully before</em> controlling for…
+<ul class="incremental">
+<li>anything that is affected by the treatment variable that also affects the outcome variable</li>
+</ul></li>
+</ul>
+</div>
+<div class="notes">
+<p>In more complex applications, we can try to leverage similar situations in observational data by finding naturally occuring random assignment, such as lotteries or discontinuities in exposure, variation in exposure to treatment over time, or creating balance on observable characteristics through matching and weighting procedures. While these methods all have weaknesses, they are essential causal inference tools for social science research.</p>
+</div>
+</section>
+<section id="identification-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="identification-strategy">Identification strategy</h2>
+<p><strong>In the real world, there are always threats to inference that we can’t measure/observe or understand well enough to adjust for</strong></p>
+<ul>
+<li>A <em>research design</em> that allows us to isolate a causal effect from observational data</li>
+<li>Approximates an experiment by ensuring that the treatment and control group are similar at baseline</li>
+<li>These strategies rely on assumptions that we can <em>attempt</em> to validate</li>
+</ul>
+</section>
+<section id="holy-trinity-of-causal-inference" class="level2">
+<h2 class="anchored" data-anchor-id="holy-trinity-of-causal-inference">Holy Trinity of Causal Inference</h2>
+<p><br>
+</p>
+<ol type="1">
+<li><strong>Difference-in-Differences</strong></li>
+<li>Regression Discontinuity</li>
+<li>Instrumental Variables</li>
+</ol>
+</section>
+<section id="identification-strategy-1" class="level2">
+<h2 class="anchored" data-anchor-id="identification-strategy-1">Identification strategy</h2>
+<p><strong>In the real world, there are always threats to inference that we can’t measure/observe or understand well enough to adjust for</strong></p>
+<ul>
+<li>A <em>research design</em> that allows us to isolate a causal effect from observational data</li>
+<li>Approximates an experiment by ensuring that the treatment and control group are similar at baseline</li>
+<li>These strategies rely on assumptions that we can <em>attempt</em> to validate</li>
+</ul>
+</section>
+<section id="difference-in-differences" class="level2">
+<h2 class="anchored" data-anchor-id="difference-in-differences">Difference-in-Differences</h2>
+<p><br>
+</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>Y_{it} = \alpha + \beta_1 \text{Treatment}_i + \beta_2 \text{Post}_t + \gamma (\text{Treatment}_i \times \text{Post}_t) + \epsilon_{it}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><code>\gamma (\text{Treatment}_i \times \text{Post}_t)</code></li>
+<li>Assumes measurement at two points in time</li>
+</ul>
+</section>
+<section id="simulation-example" class="level2">
+<h2 class="anchored" data-anchor-id="simulation-example">Simulation Example</h2>
+<div class="cell">
+<details>
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load required libraries</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(modelsummary)</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate example data</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">treatment =</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">0</span>), <span class="at">each =</span> <span class="dv">100</span>),</span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">post =</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">0</span>), <span class="at">each =</span> <span class="dv">50</span>, <span class="at">times =</span> <span class="dv">2</span>),</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">outcome =</span> <span class="fu">c</span>(<span class="fu">rnorm</span>(<span class="dv">50</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">2</span>), <span class="co"># control: pre-treatment</span></span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>              <span class="fu">rnorm</span>(<span class="dv">50</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">2</span>), <span class="co"># control: post-treatment</span></span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>              <span class="fu">rnorm</span>(<span class="dv">50</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">2</span>), <span class="co"># treatment: pre-treatment</span></span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>              <span class="fu">rnorm</span>(<span class="dv">50</span>, <span class="at">mean =</span> <span class="dv">12</span>, <span class="at">sd =</span> <span class="dv">2</span>)) <span class="co"># treatment: post-treatment</span></span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>  treatment post   outcome
+1         1    1  8.879049
+2         1    1  9.539645
+3         1    1 13.117417
+4         1    1 10.141017
+5         1    1 10.258575
+6         1    1 13.430130</code></pre>
+</div>
+</div>
+</section>
+<section id="simulation-example-1" class="level2">
+<h2 class="anchored" data-anchor-id="simulation-example-1">Simulation Example</h2>
+<div class="cell">
+<details>
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Run difference-in-differences model</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>did_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(outcome <span class="sc">~</span> treatment <span class="sc">*</span> post, <span class="at">data =</span> data)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Summarize the output</span></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a><span class="fu">modelsummary</span>(</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">list</span>(<span class="fu">lm</span>(outcome <span class="sc">~</span> treatment <span class="sc">+</span> post, <span class="at">data =</span> data), <span class="fu">lm</span>(outcome <span class="sc">~</span> treatment <span class="sc">*</span> post, <span class="at">data =</span> data)),</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">estimate  =</span> <span class="st">"{estimate}{stars} ({std.error})"</span>,</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>             <span class="at">statistic =</span> <span class="cn">NULL</span>,</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">gof_omit =</span> <span class="st">'IC|RMSE|Log|F|R2$|Std.'</span>, <span class="at">output =</span> <span class="st">'table.pptx'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="did-assumptions" class="level2">
+<h2 class="anchored" data-anchor-id="did-assumptions">DiD: Assumptions</h2>
+<ul>
+<li>Treatment and control units would have changed in similar ways
+<ul>
+<li>Parallel trends</li>
+</ul></li>
+<li>Requires <em>at least</em> 3 observation periods</li>
+</ul>
+</section>
+<section id="why-cant-we-just-observe-how-units-change-over-time-2" class="level2">
+<h2 class="anchored" data-anchor-id="why-cant-we-just-observe-how-units-change-over-time-2">Why can’t we just observe how units change over time?</h2>
+<div class="cell">
+<details>
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>Year <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>Outcome <span class="ot">=</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="fl">1.3</span>, <span class="fl">1.7</span>, <span class="cn">NA</span>)</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>Treatment <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>,<span class="st">"Treatment"</span>,<span class="st">"Treatment"</span>)</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">=</span> <span class="fu">data.frame</span>(Year, Outcome, Treatment)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> dat, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Outcome, <span class="at">group =</span> Treatment, <span class="at">color =</span> Treatment)) <span class="sc">+</span></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">linetype=</span>Treatment),<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlim</span>(<span class="dv">0</span>,<span class="dv">3</span>) <span class="sc">+</span> </span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="fl">0.8</span>, <span class="fl">2.2</span>) <span class="sc">+</span></span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_linetype_manual</span>(<span class="at">values=</span><span class="fu">c</span>(<span class="st">"solid"</span>, <span class="st">"solid"</span>)) <span class="sc">+</span></span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"blue"</span>) ) <span class="sc">+</span></span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="fu">c</span>(<span class="fl">0.8</span>, <span class="fl">0.2</span>), <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">20</span>),</span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.title=</span><span class="fu">element_blank</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="why-cant-we-just-observe-how-units-change-over-time-3" class="level2">
+<h2 class="anchored" data-anchor-id="why-cant-we-just-observe-how-units-change-over-time-3">Why can’t we just observe how units change over time?</h2>
+<div class="cell">
+<details>
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>Year <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>Outcome <span class="ot">=</span> <span class="fu">c</span>(<span class="fl">0.9</span>, <span class="fl">1.3</span>, <span class="fl">1.7</span>, <span class="fl">2.1</span>)</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>Treatment <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>,<span class="st">"Treatment"</span>,<span class="st">"Treatment"</span>)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">=</span> <span class="fu">data.frame</span>(Year, Outcome, Treatment)</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> dat, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Outcome, <span class="at">group =</span> Treatment, <span class="at">color =</span> Treatment)) <span class="sc">+</span></span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">linetype=</span>Treatment),<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlim</span>(<span class="dv">0</span>,<span class="dv">3</span>) <span class="sc">+</span> </span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="fl">0.8</span>, <span class="fl">2.2</span>) <span class="sc">+</span></span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_linetype_manual</span>(<span class="at">values=</span><span class="fu">c</span>(<span class="st">"solid"</span>, <span class="st">"solid"</span>)) <span class="sc">+</span></span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"blue"</span>) ) <span class="sc">+</span></span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="fu">c</span>(<span class="fl">0.8</span>, <span class="fl">0.2</span>), <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">20</span>),</span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.title=</span><span class="fu">element_blank</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="why-cant-we-just-compare-units-without-randomization-2" class="level2">
+<h2 class="anchored" data-anchor-id="why-cant-we-just-compare-units-without-randomization-2">Why can’t we just compare units without randomization?</h2>
+<div class="cell">
+<details>
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>Year <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>Outcome <span class="ot">=</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="fl">1.2</span>, <span class="fl">1.4</span>, <span class="cn">NA</span>, </span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>            <span class="cn">NA</span>, <span class="fl">1.3</span>, <span class="fl">1.7</span>, <span class="cn">NA</span>)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>Treatment <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Control"</span>, <span class="st">"Control"</span>,<span class="st">"Control"</span>,<span class="st">"Control"</span>, </span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>              <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>)</span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">=</span> <span class="fu">data.frame</span>(Year, Outcome, Treatment)</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>dat<span class="sc">$</span>Treatment <span class="ot">=</span> <span class="fu">factor</span>(dat<span class="sc">$</span>Treatment, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Treatment"</span>, <span class="st">"Control"</span>))</span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> dat, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Outcome, <span class="at">group =</span> Treatment, <span class="at">color =</span> Treatment)) <span class="sc">+</span></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">linetype=</span>Treatment),<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlim</span>(<span class="dv">0</span>,<span class="dv">3</span>) <span class="sc">+</span> </span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="fl">0.8</span>, <span class="fl">2.2</span>) <span class="sc">+</span></span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_linetype_manual</span>(<span class="at">values=</span><span class="fu">c</span>(<span class="st">"solid"</span>, <span class="st">"solid"</span>)) <span class="sc">+</span></span>
+<span id="cb34-16"><a href="#cb34-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"blue"</span>, <span class="st">"red"</span>) ) <span class="sc">+</span></span>
+<span id="cb34-17"><a href="#cb34-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="fu">c</span>(<span class="fl">0.8</span>, <span class="fl">0.2</span>), <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">20</span>),</span>
+<span id="cb34-18"><a href="#cb34-18" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.title=</span><span class="fu">element_blank</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="why-cant-we-just-compare-units-without-randomization-3" class="level2">
+<h2 class="anchored" data-anchor-id="why-cant-we-just-compare-units-without-randomization-3">Why can’t we just compare units without randomization?</h2>
+<div class="cell">
+<details>
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>Year <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>Outcome <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="fl">1.2</span>, <span class="fl">1.4</span>, <span class="fl">1.6</span>, </span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>            <span class="fl">0.9</span>, <span class="fl">1.3</span>, <span class="fl">1.7</span>, <span class="fl">2.1</span>)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>Treatment <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Control"</span>, <span class="st">"Control"</span>,<span class="st">"Control"</span>,<span class="st">"Control"</span>, </span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>              <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>)</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">=</span> <span class="fu">data.frame</span>(Year, Outcome, Treatment)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>dat<span class="sc">$</span>Treatment <span class="ot">=</span> <span class="fu">factor</span>(dat<span class="sc">$</span>Treatment, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Treatment"</span>, <span class="st">"Control"</span>))</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> dat, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Outcome, <span class="at">group =</span> Treatment, <span class="at">color =</span> Treatment)) <span class="sc">+</span></span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">linetype=</span>Treatment),<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlim</span>(<span class="dv">0</span>,<span class="dv">3</span>) <span class="sc">+</span> </span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="fl">0.8</span>, <span class="fl">2.2</span>) <span class="sc">+</span></span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_linetype_manual</span>(<span class="at">values=</span><span class="fu">c</span>(<span class="st">"solid"</span>, <span class="st">"solid"</span>)) <span class="sc">+</span></span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"blue"</span>, <span class="st">"red"</span>) ) <span class="sc">+</span></span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="fu">c</span>(<span class="fl">0.8</span>, <span class="fl">0.2</span>), <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">20</span>),</span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.title=</span><span class="fu">element_blank</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="why-cant-we-just-compare-units-without-randomization-4" class="level2">
+<h2 class="anchored" data-anchor-id="why-cant-we-just-compare-units-without-randomization-4">Why can’t we just compare units without randomization?</h2>
+<div class="cell">
+<details>
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>Year <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>Outcome <span class="ot">=</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="fl">1.3</span>, <span class="fl">1.5</span>, <span class="cn">NA</span>,</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>            <span class="dv">1</span>, <span class="fl">1.2</span>, <span class="fl">1.4</span>, <span class="cn">NA</span>,</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>            <span class="fl">1.1</span>, <span class="fl">1.3</span>, <span class="fl">1.7</span>, <span class="cn">NA</span>)</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>Treatment <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Comparison"</span>,<span class="st">"Comparison"</span>,<span class="st">"Comparison"</span>,<span class="st">"Comparison"</span>,</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>              <span class="st">"Control"</span>, <span class="st">"Control"</span>,<span class="st">"Control"</span>,<span class="st">"Control"</span>,</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>              <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>)</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">=</span> <span class="fu">data.frame</span>(Year, Outcome, Treatment)</span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a>dat<span class="sc">$</span>Treatment <span class="ot">=</span> <span class="fu">factor</span>(dat<span class="sc">$</span>Treatment, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Treatment"</span>, <span class="st">"Comparison"</span>, <span class="st">"Control"</span>))</span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> dat, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Outcome,  <span class="at">color =</span> Treatment)) <span class="sc">+</span></span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">linetype=</span>Treatment),<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="fl">0.8</span>, <span class="fl">2.2</span>) <span class="sc">+</span></span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_linetype_manual</span>(<span class="at">values=</span><span class="fu">c</span>(<span class="st">"solid"</span>, <span class="st">"dotted"</span>, <span class="st">"solid"</span>)) <span class="sc">+</span></span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"blue"</span>, <span class="st">"black"</span>, <span class="st">"red"</span>  ) ) <span class="sc">+</span></span>
+<span id="cb36-18"><a href="#cb36-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="fu">c</span>(<span class="fl">0.8</span>, <span class="fl">0.2</span>), <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">20</span>),</span>
+<span id="cb36-19"><a href="#cb36-19" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.title=</span><span class="fu">element_blank</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="why-cant-we-just-compare-units-without-randomization-5" class="level2">
+<h2 class="anchored" data-anchor-id="why-cant-we-just-compare-units-without-randomization-5">Why can’t we just compare units without randomization?</h2>
+<div class="cell">
+<details>
+<summary>Show code</summary>
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>Year <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>Outcome <span class="ot">=</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="fl">1.3</span>, <span class="fl">1.5</span>, <span class="fl">1.7</span>,</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>            <span class="dv">1</span>, <span class="fl">1.2</span>, <span class="fl">1.4</span>,<span class="fl">1.6</span>,</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>            <span class="fl">1.1</span>, <span class="fl">1.3</span>, <span class="fl">1.7</span>, <span class="fl">1.9</span>)</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>Treatment <span class="ot">=</span> <span class="fu">c</span>(<span class="st">"Comparison"</span>,<span class="st">"Comparison"</span>,<span class="st">"Comparison"</span>,<span class="st">"Comparison"</span>,</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>              <span class="st">"Control"</span>, <span class="st">"Control"</span>,<span class="st">"Control"</span>,<span class="st">"Control"</span>,</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>              <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>, <span class="st">"Treatment"</span>)</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">=</span> <span class="fu">data.frame</span>(Year, Outcome, Treatment)</span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>dat<span class="sc">$</span>Treatment <span class="ot">=</span> <span class="fu">factor</span>(dat<span class="sc">$</span>Treatment, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Treatment"</span>, <span class="st">"Comparison"</span>, <span class="st">"Control"</span>))</span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> dat, <span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> Outcome,  <span class="at">color =</span> Treatment)) <span class="sc">+</span></span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">linetype=</span>Treatment),<span class="at">size=</span><span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylim</span>(<span class="fl">0.8</span>, <span class="fl">2.2</span>) <span class="sc">+</span></span>
+<span id="cb37-16"><a href="#cb37-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_linetype_manual</span>(<span class="at">values=</span><span class="fu">c</span>(<span class="st">"solid"</span>, <span class="st">"dotted"</span>, <span class="st">"solid"</span>)) <span class="sc">+</span></span>
+<span id="cb37-17"><a href="#cb37-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"blue"</span>, <span class="st">"black"</span>, <span class="st">"red"</span>  ) ) <span class="sc">+</span></span>
+<span id="cb37-18"><a href="#cb37-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="fu">c</span>(<span class="fl">0.8</span>, <span class="fl">0.2</span>), <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">20</span>),</span>
+<span id="cb37-19"><a href="#cb37-19" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.title=</span><span class="fu">element_blank</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="lees-quant_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="adjusting-on-observables" class="level2">
+<h2 class="anchored" data-anchor-id="adjusting-on-observables">Adjusting on Observables</h2>
+<ul>
+<li>Matching</li>
+<li>Weighting</li>
+<li>Synthetic Control (very fancy weighting)</li>
+</ul>
+</section>
+</section>
+<section id="multiple-hypothesis-testing" class="level1">
+<h1>Multiple Hypothesis Testing</h1>
+<section id="creating-index-measures" class="level2">
+<h2 class="anchored" data-anchor-id="creating-index-measures">Creating Index Measures</h2>
+<p><strong>When to create an index measure</strong></p>
+<ul>
+<li>When you have many ways of measuring a single concept
+<ul>
+<li>This is true for outcome measures, treatment measures, and covariates</li>
+</ul></li>
+</ul>
+<p><strong>Benefits of index measures</strong></p>
+<ul>
+<li>Simplifies analysis (fewer graphs, tables, etc.)</li>
+<li>Reduces number of hypotheses being tested</li>
+</ul>
+</section>
+<section id="additive-scale" class="level2">
+<h2 class="anchored" data-anchor-id="additive-scale">Additive Scale</h2>
+<p><strong>What is an additive scale?</strong></p>
+<ul>
+<li>Simple sum across columns (index = column_1 + column_2)</li>
+</ul>
+<p><strong>When to use an additive scale</strong></p>
+<ul>
+<li>When variables are measured on a common scale</li>
+<li>When you are interested in a cumulative amount of something
+<ul>
+<li>Number of times someone engaged in a specific behavior</li>
+<li>Amount of money from several different sources</li>
+</ul></li>
+</ul>
+</section>
+<section id="additive-scale-1" class="level2">
+<h2 class="anchored" data-anchor-id="additive-scale-1">Additive Scale</h2>
+<p><strong>Benefits of additive scales</strong></p>
+<ul>
+<li>Interpretability: number on the original scale</li>
+<li>Simplicity: Just plain addition</li>
+</ul>
+</section>
+<section id="averaged-z-scores" class="level2">
+<h2 class="anchored" data-anchor-id="averaged-z-scores">Averaged Z-Scores</h2>
+<p><strong>What is a z-score?</strong></p>
+<ul>
+<li><code>Z = (X - \mu) / \sigma</code></li>
+<li>Standardized: Mean of 0 and standard deviation of 1</li>
+</ul>
+<p><strong>When to use averaged z-scores</strong></p>
+<ul>
+<li>When variables are measured on different scales</li>
+<li>When variables cannot be summed</li>
+</ul>
+</section>
+<section id="averaged-z-scores-1" class="level2">
+<h2 class="anchored" data-anchor-id="averaged-z-scores-1">Averaged Z-Scores</h2>
+<p><br>
+</p>
+<p><strong>Benefits of averaged z-scores</strong></p>
+<ul>
+<li>Interpretability: Standard deviations from the mean</li>
+<li>Outlier detection: abs(3)</li>
+</ul>
+</section>
+<section id="fancier-index-techniques" class="level2">
+<h2 class="anchored" data-anchor-id="fancier-index-techniques">Fancier index techniques</h2>
+<p><br>
+</p>
+<ul>
+<li>Principal Component Analysis</li>
+<li>Factor Analysis</li>
+<li>Inverse Covariance Weighting</li>
+</ul>
+</section>
+<section id="interaction-terms" class="level2">
+<h2 class="anchored" data-anchor-id="interaction-terms">Interaction Terms</h2>
+<p><strong>What is an interaction term?</strong></p>
+<ul>
+<li>Simple linear models assume that the effect of predictors is independent of other factors</li>
+<li>Interaction terms allow us to estimate the difference in the slope of a predictor across unit characteristics</li>
+</ul>
+<div class="sourceCode" id="cb38"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>Y_i = \alpha + \beta_1 X_{i1} + \beta_2 X_{i2} + \beta_3 X_{i1}*X_{i2} + \epsilon_i</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="testing-heterogeneous-effects" class="level1">
+<h1>Testing Heterogeneous Effects</h1>
+<section id="interaction-terms-1" class="level2">
+<h2 class="anchored" data-anchor-id="interaction-terms-1">Interaction Terms</h2>
+<p><strong>What are interaction terms used for?</strong></p>
+<ul>
+<li>Heterogeneous effects</li>
+<li>Difference-in-differences</li>
+</ul>
+<p><strong>Example:</strong> Continuous outcome with two binary predictors</p>
+<ul>
+<li><code>\alpha</code>: Intercept when <code>X_{i1}</code> and <code>X_{i2}</code> are 0</li>
+<li><code>\beta_1</code> Slope when <code>X_{i2} = 0</code></li>
+<li><code>\beta_2</code> Difference in <code>\alpha</code> between <code>X_{i2}=0</code> and <code>X_{i2}=1</code></li>
+<li><code>\beta_3</code> Difference in <code>\beta_1</code> between <code>X_{i2}=0</code> and <code>X_{i2}=1</code></li>
+</ul>
+</section>
+<section id="quiz-questions-1" class="level2">
+<h2 class="anchored" data-anchor-id="quiz-questions-1">Quiz Questions</h2>
+<ul>
+<li>Explain the concept of an additive index and an averaged z-score, including how they are calculated, when you should use them, and when you cannot use them. What are the benefits of each approach?</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2024 by <a href="https://web.sas.upenn.edu/jeremyspringman/">Jeremy Springman</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/jrspringman/psci3200-globaldev">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></div>
+  </div>
+</footer>
+
+
+
+</body></html>

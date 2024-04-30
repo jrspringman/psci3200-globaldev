@@ -134,7 +134,7 @@ There are four graded requirements for this course.
 |:-----------------------------|:-------------------------|
 | Assignment 1 | Mar 28th 11:59pm ET |
 | Assignment 2 | Apr 11th 11:59pm ET |
-| Assignment 3 | Apr 25th 11:59pm ET |
+| Assignment 3 | Apr 30th 11:59pm ET |
 
 **Final Project**
 
@@ -147,7 +147,7 @@ There are four graded requirements for this course.
 | Create a GitHub repository                     | Feb 8th 11:59pm ET |
 | Idea for research question and data source     | Mar 12th 11:59pm ET |
 | Submit proposal (research question and design) | Apr 11th 11:59pm ET |
-| Submit final project (webpage url and repo)    | May 2nd 11:59pm ET |
+| Submit final project (webpage url and repo)    | May 10th 11:59pm ET |
 
 
 ## Course Policies

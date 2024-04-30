@@ -1,0 +1,94 @@
+---
+title: "Barely Organized Concluding Thoughts"
+author: "Jeremy Springman"
+institute: "University of Pennsylvania"
+
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+    - title-slide.html
+    gfm:
+    mermaid-format: png
+    code-line-numbers: false
+editor: source
+
+highlight-style: github
+
+bibliography: img/references.bib
+---
+
+# Logistics
+
+## Assignments and Upcoming
+
+- Today
+  + Quick discussion
+- Wednesday
+  + Final Project Assignment 3
+- May 10 
+  + Final Project
+
+# Opalo
+
+## Academic research and policy research are two different things
+
+> I used to think there was such a thing as development economics. There are still richer and poorer countries, of course, but is there a “development economics,” a special type of economics for poor countries? I don’t think so.
+
+\- Alex Tabarrok
+
+
+## Academic research and policy research are two different things
+
+- What is the credibility revolution?
+
+**Two misunderstandings:**
+
+1. Policymakers have erroneously come to view policy research as indistinguishable from academic research
+2. Policymaking and implementation have largely been reduced to technical programmatic endeavors, and disembedded from contextual economics and politics
+
+## Academic research and policy research are two different things
+
+> Policy directions in major sectors like agriculture, education, and healthcare have since become dominated by global expertise and rendered technical problems that are, for all practical purposes, been divorced from domestic political policymaking processes.
+
+**Political policymaking processes**
+
+:::{.fragment}
+- Distributive politics, budget constraints, macro-policy and growth
+:::
+
+## Academic research and policy research are two different things
+
+> That means internalizing the fact that the craft of policymaking is both an art and a science. Socio-historical context matters. Economic incentives matter. Messy distributive politics matter. Institutions matter. The strength of policy transmission mechanisms matters. 
+
+## Academic research and policy research are two different things
+
+> The ultimate goal should be to cultivate country-based cadres of policymakers who understand the economics and politics of policymaking (i.e., appreciate the contextual variables highlighted above) while also being conversant with the good research being produced by academics.
+
+
+## Takeaways
+
+:::{.incremental}
+- We spent a lot of time learning about the tools that academics use to understand the problems faced by developing countries
+- This isn't because I think that academic research does a good job or providing answers about how to advance development
+- Rather, I think these tools can be useful to those who are well positioned/incentivized to do that
+  + Think about the Kenya Education paper
+  + Think about UCTs
+- All of this applies to the private sector
+:::
+
+
+## Global Development: How to?
+
+**How much weight should we pay to:**
+
+- Poverty reduction
+- Enhancing average welfare
+- Spurring economic growth
+
