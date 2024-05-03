@@ -50,7 +50,7 @@ In the theory and hypothesis section, you should refine your broad research ques
 A hypothesis should look like a prediction. Often, a hypothesis states that you expect a decrease or increase in one variable to cause a decrease or increase in another variable. A hypothesis must also be falsifiable. In other words, it must be possible to prove that the hypothesis is false by showing that the relationship you are predicting to see in your data is not actually present. 
 :::
 
-3. **Research Design**  (~600 words; 1 figure; 1 table)
+3. **Research Design**  (~600 words; 1 table)
 
 Describe the dataset(s) you are using to conduct your analysis. Be sure to mention the source of the data (the organization or individuals that produced it), the unit of analysis, and the sample. Are there any limitations that readers should be aware of? 
 
@@ -63,7 +63,7 @@ Every empirical test has shortcomings that prevent us from being fully confident
 Your empirical extension should allow you to rule out at least one potential confounder.Make sure to clarify What purpose will it serve. Be specific about how it makes us more confident in the ability of your test to answer the research question.
 
 
-4. **Findings** (~300 words; at least 1 regression table)
+4. **Findings** (~300 words; 1 figure; at least 1 regression table)
 
 Create at least one `ggplot` to visualize the relationship between the variables being used to test your hypothesis. The best method of visualizing this relationship will depend on the scale of your variables. Good methods to consider are scatter plots (for continuous variables), grouped bar charts (for ordinal or binary variables), and line graphs (for continuous variables with time-series). Your figure should have an informative caption that allows readers to understand what is being shown. For guidance, see the captions in the academic papers we have been reading this semester. Interpret the plot; does it tell us anything about the veracity your hypothesis? 
 
