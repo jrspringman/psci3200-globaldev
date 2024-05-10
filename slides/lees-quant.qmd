@@ -1000,7 +1000,7 @@ modelsummary(
   list(lm(outcome ~ treatment + post, data = data), lm(outcome ~ treatment * post, data = data)),
   estimate  = "{estimate}{stars} ({std.error})",
              statistic = NULL,
-  gof_omit = 'IC|RMSE|Log|F|R2$|Std.', output = 'table.pptx')
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
 
 ```
 

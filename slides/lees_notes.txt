@@ -1,18 +1,15 @@
-Were your edits in slides or notes?
-- check notes and slide edits
+General:
+- Apply these concepts to the Malawi RFP 
+- More Quiz questions
+- When to use RCTs, DiD, etc
+- Add R code for correlation slides, index slides, interaction terms
 
 
-Integrating R
-- Description of R + RStudio (vid of where things are)
-- Packages, basic concepts (vectors), loading data, error/warning/message (vid of installing packages and stuff)
-- plots/tables; regression: introduce and then recommend additional sources (JPAL and ModernDive)
 
-Formatting:
-- template, equations
-- they will ship to template
 
-Good IE partner: oof
 
 What are the "real deadlines"
 - Monday for slides
 - May 17 for other stuff
+
+
