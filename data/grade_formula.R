@@ -21,3 +21,5 @@ dat <- dat %>%
          across(da, ~ .x * 0.12),     # Multiply columns in 'da' by 0.12
          final_project = final_project * 0.44,  # Multiply 'final_project' by 0.44
          grade = rowSums(across(c(qw, da, fp))))  # Calculate row sums across selected columns
+
+write.csv("C:/Users/jerem/Dropbox/Course/grades/final_grades.csv")
