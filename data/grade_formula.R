@@ -23,8 +23,17 @@ dat <- dat %>%
          grade = round(rowSums(across(c(qw, da, fp))), digits = 0))  # Calculate row sums across selected columns
 
 mean(dat$grade, na.rm = T)
+median(dat$grade, na.rm = T)
 
-write.csv("/home/jeremy//Dropbox/Course/grades/final_grades.csv")
+ggplot(dat, aes(x=grade, color=Classification)) +
+  geom_histogram(aes(y=..density..), colour="black", fill="white", binwidth=1)+
+  geom_density(alpha=.2, fill="grey") +
+  geom_vline(aes(xintercept=mean(grade, na.rm = T)),
+             color="blue", linetype="dashed", size=1)+
+  theme_bw()
+
+write.csv(dat %>%
+            select(Name, Classification, grade), "/home/jeremy//Dropbox/Course/grades/final_grades.csv")
 
 # Categorize the grades into specified ranges
 dat <- dat %>%
