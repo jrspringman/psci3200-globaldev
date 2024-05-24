@@ -2,14 +2,10 @@ General:
 - Apply these concepts to the Malawi RFP 
 - More Quiz questions
 - When to use RCTs, DiD, etc
-- Add R code for correlation slides, index slides, interaction terms
+
+I haven't had time to do Github Pages and survey experiments. These slides are 80% done, but i just didn't have time to finalize
+Throughout, I flagged places I will create screen recordings with [INSERT SCREEN RECORDING]
 
 
-
-
-
-What are the "real deadlines"
-- Monday for slides
-- May 17 for other stuff
 
 
