@@ -4,7 +4,7 @@ General:
 - When to use RCTs, DiD, etc
 
 I haven't had time to do Github Pages and survey experiments. These slides are 80% done, but i just didn't have time to finalize
-Throughout, I flagged places I will create screen recordings with [INSERT SCREEN RECORDING]
+
 
 
 
