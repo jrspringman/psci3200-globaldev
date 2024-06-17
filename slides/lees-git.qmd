@@ -1,10 +1,10 @@
 ---
-title: "Github Pages"
+title: "Git and Github"
 author: "Jeremy Springman"
 institute: "University of Pennsylvania"
 
 format:
-  pptx:
+  revealjs:
     toc: false
     theme: [custom_iea.scss]
     width: 1050
@@ -17,7 +17,7 @@ format:
     gfm:
     mermaid-format: png
     code-line-numbers: false
-
+editor: source
 
 highlight-style: github
 
@@ -28,7 +28,7 @@ bibliography: img/references.bib
 
 ## Resources
 
-To learn more about using git with R, visit [happygitwithr.com](happygitwithr.com)
+- To learn more about using git with R, check out [happygitwithr.com](happygitwithr.com)
 
 :::{.notes}
 This tutorial draws heavily on the website happygitwithr.com
@@ -46,21 +46,17 @@ analysis_v2.R
 analysis_v2_FINAL.R
 ```
 
+:::{.fragment}
 **Version control**
 
 - Helps avoid devastating loss/failure
 - Tracks changes and allows users to view or restore older versions
 - Can be private or public
+:::
 
 :::{.notes}
-Fundamentally, git is about "version control"
-- Data analysis tasks are often long-term efforts
-- They usually require input from multiple people
-- You must be able to go back and replicate results or tweak methods
-Version control creates a detailed, permanent record of this process
-- This helps to avoid devastating loss/failure
-- Tracks changes and allows users to easily view (or restore) older versions
-- Repos can be kept private or made public, allowing users to easily share their data and code publicly
+Git is a version control system that helps manage changes to data, code, and other documents necessary for data analysis. Fundamentally, git is about “version control”. Data analysis tasks are often long-term efforts. They usually require input from multiple people and many rounds of revisions and additions. Version control creates a detailed, permanent record of this process. This helps to avoid devastating loss/failure and allows by tracking changes and allows users to easily view (or restore) older versions. 
+GitHub, on the other hand, is a web-based platform that hosts Git repositories. It also adds its own features, including graphical interfaces and features for managing projects. GitHub provides a central location where data analysts can publish their repositories and collaborate with others. GitHub also allows analysts to keep repositories private, if data is sensitive or proprietary.
 :::
 
 ## Git Basics
@@ -73,19 +69,16 @@ Version control creates a detailed, permanent record of this process
 - *pull* changes made by others from the remote version down to your local copy
 
 :::{.notes}
-Git revolves around folders called repositories (or repos)
-- Data and code for individual projects are stored in a dedicated repo
-- The repo is hosted remotely on github.com
-- Repos exist on your harddrive as a normal folder (usually within a larger folder that includes all active git repositories you are working on)
-- Users make changes locally, record them as a "commit", which is a record of any changes you have made, and "push" them to the remote version 
-- Users can "pull" changes made by others from the remote version down to their local copy
+Git revolves around folders called repositories (or repos). A Git repo is a virtual storage of your project, allowing you to save versions of your code and track changes made over time. It consists of all the project's files and the entire revision history. 
+
+Data and code for individual projects are stored in a dedicated repo. The repo is hosted remotely on github.com and stored locally on your computer’s harddrive. Repos exist on your hard drive as a normal folder (usually within a larger folder that includes all active git repositories you are working on). Users make changes locally, record them as a “commit”, which is a record of any changes you have made, and “push” them to the remote version - Users can “pull” changes made by others from the remote version down to their local copy
 :::
 
 ## Git Basics
 
 **Usage**
 
-- Edit files using your preferred software (RStudio, Excel, text editors, etc.)
+- Edit files using your preferred software (RStudio, VSCode, MS Word, etc.)
 - When you're done, record the changes as a *commit*, push them to the remote version
 
 **Collaboration**
@@ -144,7 +137,7 @@ Luckily, there is a massive online community that can help guide new users throu
 
 - Go to [github.com](https://github.com/)
 - Click "Sign-up" (top right)
-- Pick a username (ex. CloudburstGroup)
+- Pick a username (ex. jrspringman)
 - Follow the instructions
 
 :::{.notes}
@@ -179,7 +172,8 @@ Once you've signed-up for a Github account, you need to install git on your mach
 
 **If no, install git**
 
-- Visit [gitforwindows.org](gitforwindows.org), click "Download", then double-click the `.exe` 
+- Mac should offer to install it for you
+- Windows visit [gitforwindows.org](gitforwindows.org), click "Download", then double-click the `.exe` 
 
 ![](img/git_exe.png){width=2in fig-align="center"}
 
@@ -225,6 +219,11 @@ Now open a new command prompt and type git --version again
 - This time, you should get a response that indicates a version of git is installed on your computer
 :::
 
+
+## Installing git
+
+![](img/git_dl.gif){height=6in fig-align="center"}
+
 ## Connect your GitHub account
 
 1. Open the terminal and enter the code below
@@ -243,7 +242,12 @@ Type the following two commands into your terminal window, using the username an
 
 ## Connect your GitHub account
 
-**Check that the confirmation worked**
+![](img/git_link.gif){height=6in fig-align="center"}
+
+
+## Connect your GitHub account
+
+**Check that the configuration worked**
 
 ```{.default}
 git config --list
@@ -256,6 +260,14 @@ Check to see that the configuration worked. Depending on your operating system, 
 If the configuration was successful, your username and email address will show-up somewhere in the message  
 The Git on your computer can now communicate with your account on Github.com
 :::
+
+
+
+## Connect your GitHub account
+
+![](img/git_config.gif){height=6in fig-align="center"}
+
+
 
 
 ## Install a git client
@@ -294,13 +306,9 @@ Give your repository a name and decide whether to make it public or keep it priv
 
 ![](img/git_create_repo2.png){height=6in fig-align="center"}
 
+## Create a new repo
 
-## Share with colleagues
-
-Navigate to: Settings -> Collaborators -> Add People
-- Add the email address associated with any personal Github accounts of colleagues that you want to make contributions to the repo
-
-![](img/git_create_repo3.png){height=6in fig-align="center"}
+![](img/github_repo.gif){height=6in fig-align="center"}
 
 ## Clone your repo
 
@@ -331,6 +339,11 @@ Once your repo has finished cloning, you should have a Github Desktop page for t
 You can click the icons to open the project in RStudio, see the repo's folder on your harddrive, or view the remote version on Github.com
 :::
 
+
+## Create a new repo
+
+![](img/github_clone.gif){height=6in fig-align="center"}
+
 ## Commit changes
 
 Now you can make changes to the repo, and those changes will appear as "diffs" in the application
@@ -357,6 +370,11 @@ Now you have made your first commit, push it to the "origin", which is the remot
 Those changes should now appear on the repo's page on Github.com
 :::
 
+## Push to your repo
+
+![](img/git_push.gif){height=6in fig-align="center"}
+
+
 ## Pull from your repo
 
 When colleagues push a commit to the repo, you can pull their commit by clicking "Pull origin"
@@ -370,5 +388,90 @@ Make sure to pull any commits before you start working; this will make sure you 
 
 
 
+## Pull from your repo
+
+![](img/git_pull.gif){height=6in fig-align="center"}
+
+<!-- ## Share with colleagues -->
+
+<!-- Navigate to: Settings -> Collaborators -> Add People -->
+<!-- - Add the email address associated with any personal Github accounts of colleagues that you want to make contributions to the repo -->
+
+<!-- ![](img/git_create_repo3.png){height=6in fig-align="center"} -->
 
 
+# Github Pages
+
+
+## Create a website
+
+**Moving to RStudio**
+
+- File $\rightarrow$ New Project $\rightarrow$ New Directory $\rightarrow$ Quarto Website
+
+
+![](img/website_initiate.png){height=4.5in fig-align="center"}
+
+## Create a website
+
+![](img/website_files.png){height=6in fig-align="center"}
+
+
+## Create a website
+
+**Change output director to `docs`**
+
+![](img/website_docs.png){height=5.5in fig-align="center"}
+
+
+## Publish to Github pages
+
+- Keep a repository of your website
+- Push changes to your website via Github
+- See changes almost instantly
+
+
+## Publish to Github pages
+
+- Open repo on github.com
+- Settings $\rightarrow$ Pages (left-sidebar)
+
+
+## Publish to Github pages
+
+![](img/pages_add.png){height=5.5in fig-align="center"}
+
+## Publish to Github pages
+
+![](img/pages_add2.png){height=5.5in fig-align="center"}
+
+
+## Publish to Github pages
+
+![](img/pages_add3.png){height=5.5in fig-align="center"}
+
+
+
+## Publish to Github pages
+
+![](img/pages_add4.png){height=5.5in fig-align="center"}
+
+
+
+## Publish to Github pages
+
+![](img/pages_publish.png){height=5.5in fig-align="center"}
+
+
+## Publish to Github pages
+
+![](img/pages_publish2.png){height=5.5in fig-align="center"}
+
+## Host Your Final Project 
+
+- Delete `_site` folder (now its using `docs`)
+- Create `data` folder to store your dataset
+- Add final project `.qmd` file to your repo (or drop it into `index.qmd`)
+- Use `_quarto.yml` to add new pages to navigation bar 
+- Render `index.qmd`; confirm that other pages have been rendered
+- Push commit and check that the website updated
