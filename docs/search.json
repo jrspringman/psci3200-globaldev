@@ -592,35 +592,35 @@
     "href": "slides/lees-git.html#git-basics",
     "title": "Git and Github",
     "section": "Git Basics",
-    "text": "Git Basics\nGit is a version control program, so you can avoid…\nanalysis.R\nanalysis_v1.R\nanalysis_v2.R\nanalysis_v2_FINAL.R\n\nVersion control\n\nHelps avoid devastating loss/failure\nTracks changes and allows users to view or restore older versions\nCan be private or public\n\n\n\nGit is a version control system that helps manage changes to data, code, and other documents necessary for data analysis. Fundamentally, git is about “version control”. Data analysis tasks are often long-term efforts. They usually require input from multiple people and many rounds of revisions and additions. Version control creates a detailed, permanent record of this process. This helps to avoid devastating loss/failure and allows by tracking changes and allows users to easily view (or restore) older versions. GitHub, on the other hand, is a web-based platform that hosts Git repositories. It also adds its own features, including graphical interfaces and features for managing projects. GitHub provides a central location where data analysts can publish their repositories and collaborate with others. GitHub also allows analysts to keep repositories private, if data is sensitive or proprietary."
+    "text": "Git Basics\nGit is a version control program, so you can avoid…\nanalysis.R\nanalysis_v1.R\nanalysis_v2.R\n...\nanalysis_FINAL_v2c.R\n\nData analysis projects\n\nContributions from multiple people\nMany rounds or revisions\nRequire weeks/months\nVulnerable to devastating loss/failure\n\n\n\nFundamentally, git is about “version control”. Data analysis tasks are often long-term efforts. They usually require input from multiple people and many rounds of revisions and additions. This makes it difficult to remember what changes were made at one time by which person and for what reason. We need something that can help us keep track of everything."
   },
   {
     "objectID": "slides/lees-git.html#git-basics-1",
     "href": "slides/lees-git.html#git-basics-1",
     "title": "Git and Github",
     "section": "Git Basics",
-    "text": "Git Basics\nEach project is a repository (repo)\n\nData and code for projects are stored in a repo folder\nRepo is hosted remotely on github.com and locally as a folder on your harddrive\nMake changes locally, record them as a commit, push them to the remote version\npull changes made by others from the remote version down to your local copy\n\n\nGit revolves around folders called repositories (or repos). A Git repo is a virtual storage of your project, allowing you to save versions of your code and track changes made over time. It consists of all the project’s files and the entire revision history.\nData and code for individual projects are stored in a dedicated repo. The repo is hosted remotely on github.com and stored locally on your computer’s harddrive. Repos exist on your hard drive as a normal folder (usually within a larger folder that includes all active git repositories you are working on). Users make changes locally, record them as a “commit”, which is a record of any changes you have made, and “push” them to the remote version - Users can “pull” changes made by others from the remote version down to their local copy"
+    "text": "Git Basics\nVersion control can help\n\nDetailed, permanent record of changes\nTracks changes and allows users to view or restore older versions\nHelps avoid devastating loss/failure\nCan be private or public\n\n\nVersion control creates a detailed, permanent record of this process. This helps to avoid devastating loss/failure and allows by tracking changes and allows users to easily view (or restore) older versions.\nGit is a version control system that helps manage changes to data, code, and other documents necessary for data analysis.\nGitHub, on the other hand, is a web-based platform that hosts Git repositories. It also adds its own features, including graphical interfaces and features for managing projects. GitHub provides a central location where data analysts can publish their repositories and collaborate with others. GitHub also allows analysts to keep repositories private, if data is sensitive or proprietary."
   },
   {
     "objectID": "slides/lees-git.html#git-basics-2",
     "href": "slides/lees-git.html#git-basics-2",
     "title": "Git and Github",
     "section": "Git Basics",
-    "text": "Git Basics\nUsage\n\nEdit files using your preferred software (RStudio, VSCode, MS Word, etc.)\nWhen you’re done, record the changes as a commit, push them to the remote version\n\nCollaboration\n\nPrecise record of who makes changes\nSimultaneous editing can cause challenges\n\n\nGit works mostly in the background - Before you start working, pull any changes that exist on the remote version but not on your local copy - Create/add/edit/delete files as you normally would if you were not using git - For example, you can edit files containing code by using RStudio or VSCode, or create or edit a spreadsheet using Excel - Once you’ve accomplished a task or want to walk away for the day, record the changes you’ve made (which we’ll cover below) and then push your changes to the remote version Collaboration - Git is great for collaboration because it keeps precise track of who has made changes - However, simultaneous editing of the same file can cause challenges, and beginners should avoid doing so"
+    "text": "Git Basics\nEach project is a repository (repo)\n\n\nData and code for projects are stored in a repo folder\nRepo is hosted locally as a folder on your harddrive, and remotely on github.com\nMake changes locally, record them as a commit, push them to the remote version\nShare repo with collaborators; pull changes made by others from the remote version down to your local copy\nSynching is not live (like Dropbox)\n\n\n\nGit revolves around folders called repositories (or repos). A Git repo is a virtual storage of your project, allowing you to save versions of your code and track changes made over time. It consists of all the project’s files and the entire revision history.\nData and code for individual projects are stored in a dedicated repo. The repo is hosted remotely on github.com and stored locally on your computer’s harddrive. Repos exist on your hard drive as a normal folder (usually within a larger folder that includes all active git repositories you are working on). Users make changes locally, record them as a “commit”, which is a record of any changes you have made, and “push” them to the remote version - Users can “pull” changes made by others from the remote version down to their local copy"
   },
   {
     "objectID": "slides/lees-git.html#git-basics-3",
     "href": "slides/lees-git.html#git-basics-3",
     "title": "Git and Github",
     "section": "Git Basics",
-    "text": "Git Basics\nEssential commands\n\ngit pull origin main\ngit add .\ngit commit -m \"describe your changes or vent frustration\"\ngit push origin main\n\n\nBeginners only need to know a few commands; in this tutorial, we’ll use a software client that implements these commands for us using easy point-and-click software - Main refers to the man version of the repository (advanced users might create multiple versions, or branches, of a repo, but we don’t need to worry about that here) - Start a work session by using pull to get any updates (aka “commits”) that were pushed by a colleague (or by you on a different computer) - Use add to tell Git that you have made changes that you want to record - Use commit to record those changes and write a brief message explaining what you did - Push your commit(s) to the remove version on Github.com"
+    "text": "Git Basics\nUsage\n\nEdit files using your preferred software (RStudio, VSCode, MS Word, etc.)\nWhen you’re done, record the changes as a commit, push them to the remote version\n\nCollaboration\n\nPrecise record of who makes changes\nSimultaneous editing can cause challenges\n\n\nGit works mostly in the background - Before you start working, pull any changes that exist on the remote version but not on your local copy - Create/add/edit/delete files as you normally would if you were not using git - For example, you can edit files containing code by using RStudio or VSCode, or create or edit a spreadsheet using Excel - Once you’ve accomplished a task or want to walk away for the day, record the changes you’ve made (which we’ll cover below) and then push your changes to the remote version Collaboration - Git is great for collaboration because it keeps precise track of who has made changes - However, simultaneous editing of the same file can cause challenges, and beginners should avoid doing so"
   },
   {
     "objectID": "slides/lees-git.html#git-basics-4",
     "href": "slides/lees-git.html#git-basics-4",
     "title": "Git and Github",
     "section": "Git Basics",
-    "text": "Git Basics\n\n\nGit can be complicated\n\nOften used for sophisticated software development\nBranches, conflicts, merges, rebase\nMassive online community to guide new users\n\n\nWhile the basic functionality of git is important for data analysis projects, it is important to note that it is often used by large teams developing very sophisticated software, and has many features aimed toward more complicated use. Luckily, there is a massive online community that can help guide new users through the process of using and learning"
+    "text": "Git Basics\nEssential commands\n\ngit pull origin main\ngit add .\ngit commit -m \"describe your changes or vent frustration\"\ngit push origin main\n\n\nBeginners only need to know a few commands; in this tutorial, we’ll use a software client that implements these commands for us using easy point-and-click software - Main refers to the man version of the repository (advanced users might create multiple versions, or branches, of a repo, but we don’t need to worry about that here) - Start a work session by using pull to get any updates (aka “commits”) that were pushed by a colleague (or by you on a different computer) - Use add to tell Git that you have made changes that you want to record - Use commit to record those changes and write a brief message explaining what you did - Push your commit(s) to the remove version on Github.com"
   },
   {
     "objectID": "slides/lees-git.html#creating-a-github-account",
@@ -704,14 +704,14 @@
     "href": "slides/lees-git.html#create-a-new-repo",
     "title": "Git and Github",
     "section": "Create a new repo",
-    "text": "Create a new repo\nSign-in to your account on github.com and click “New” in the top right"
+    "text": "Create a new repo\nSign-in to your account on github.com and click “New”"
   },
   {
     "objectID": "slides/lees-git.html#create-a-new-repo-1",
     "href": "slides/lees-git.html#create-a-new-repo-1",
     "title": "Git and Github",
     "section": "Create a new repo",
-    "text": "Create a new repo\nGive your repository a name and decide whether to make it public or keep it private"
+    "text": "Create a new repo\nGive your repository a name and make it public or private"
   },
   {
     "objectID": "slides/lees-git.html#share-with-colleagues",
@@ -725,7 +725,7 @@
     "href": "slides/lees-git.html#clone-your-repo",
     "title": "Git and Github",
     "section": "Clone your repo",
-    "text": "Clone your repo\nOpen the Github Desktop application and create a “clone” the remote repo to create a local copy\n\n\n\n\n\n\nOnce you have created a git repo on your Github account, you need to “clone” the remote repo to create a local copy on your harddrive. This will allow you to add files and make changes to the repo before pushing them up to the remote version"
+    "text": "Clone your repo\nOpen Github Desktop and “clone” the remote repo\n\n\n\n\n\n\nOnce you have created a git repo on your Github account, you need to “clone” the remote repo to create a local copy on your harddrive. This will allow you to add files and make changes to the repo before pushing them up to the remote version"
   },
   {
     "objectID": "slides/lees-git.html#clone-your-repo-2",
@@ -739,14 +739,14 @@
     "href": "slides/lees-git.html#commit-changes",
     "title": "Git and Github",
     "section": "Commit changes",
-    "text": "Commit changes\nNow you can make changes to the repo, and those changes will appear as “diffs” in the application - Add a description and make a “commit” to record those changes in git\n\n\nNow you can make changes to the repo, and those changes will appear as “diffs” in the application Green will indicate additions, Red will indicate deletions, and yellow will indicate changes Try adding a .R file or an empty .txt file to the repo’s folder; you should see it show up immediately on the Github Desktop app In the bottom left, enter text to describe the changes that you made and then click “Commit to main”"
+    "text": "Commit changes\n\nAs you make changes to the repo, they will appear as “diffs” in the app\nAdd a description and make a “commit” to record those changes in git\n\n\n\nNow you can make changes to the repo, and those changes will appear as “diffs” in the application Green will indicate additions, Red will indicate deletions, and yellow will indicate changes Try adding a .R file or an empty .txt file to the repo’s folder; you should see it show up immediately on the Github Desktop app In the bottom left, enter text to describe the changes that you made and then click “Commit to main”"
   },
   {
     "objectID": "slides/lees-git.html#push-to-your-repo",
     "href": "slides/lees-git.html#push-to-your-repo",
     "title": "Git and Github",
     "section": "Push to your repo",
-    "text": "Push to your repo\nPush those changes to the remote version of the repo on Github.com\n\n\nNow you have made your first commit, push it to the “origin”, which is the remote version of the repo on Github.com Those changes should now appear on the repo’s page on Github.com"
+    "text": "Push to your repo\nPush those changes to the remote version on Github.com\n\n\nNow you have made your first commit, push it to the “origin”, which is the remote version of the repo on Github.com Those changes should now appear on the repo’s page on Github.com"
   },
   {
     "objectID": "slides/lees-git.html#pull-from-your-repo",
@@ -6081,5 +6081,12 @@
     "title": "Git and Github",
     "section": "Host Your Final Project",
     "text": "Host Your Final Project\n\nDelete _site folder (now its using docs)\nCreate data folder to store your dataset\nAdd final project .qmd file to your repo (or drop it into index.qmd)\nUse _quarto.yml to add new pages to navigation bar\nRender index.qmd; confirm that other pages have been rendered\nPush commit and check that the website updated\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/lees-git.html#git-basics-5",
+    "href": "slides/lees-git.html#git-basics-5",
+    "title": "Git and Github",
+    "section": "Git Basics",
+    "text": "Git Basics\n\n\nGit can be complicated\n\nOften used for sophisticated software development\nBranches, conflicts, merges, rebase\nMassive online community to guide new users\n\n\nWhile the basic functionality of git is important for data analysis projects, it is important to note that it is often used by large teams developing very sophisticated software, and has many features aimed toward more complicated use. Luckily, there is a massive online community that can help guide new users through the process of using and learning"
   }
 ]

@@ -43,19 +43,38 @@ To learn more about using git with R, please visit the website, which covers int
 analysis.R
 analysis_v1.R
 analysis_v2.R
-analysis_v2_FINAL.R
+...
+analysis_FINAL_v2c.R
 ```
 
 :::{.fragment}
-**Version control**
+**Data analysis projects**
 
-- Helps avoid devastating loss/failure
-- Tracks changes and allows users to view or restore older versions
-- Can be private or public
+- Contributions from multiple people
+- Many rounds or revisions
+- Require weeks/months
+- Vulnerable to devastating loss/failure
 :::
 
 :::{.notes}
-Git is a version control system that helps manage changes to data, code, and other documents necessary for data analysis. Fundamentally, git is about “version control”. Data analysis tasks are often long-term efforts. They usually require input from multiple people and many rounds of revisions and additions. Version control creates a detailed, permanent record of this process. This helps to avoid devastating loss/failure and allows by tracking changes and allows users to easily view (or restore) older versions. 
+Fundamentally, git is about “version control”. Data analysis tasks are often long-term efforts. They usually require input from multiple people and many rounds of revisions and additions. This makes it difficult to remember what changes were made at one time by which person and for what reason. We need something that can help us keep track of everything.
+:::
+
+
+## Git Basics
+
+**Version control can help**
+
+- Detailed, permanent record of changes
+- Tracks changes and allows users to view or restore older versions
+- Helps avoid devastating loss/failure
+- Can be private or public
+
+:::{.notes}
+Version control creates a detailed, permanent record of this process. This helps to avoid devastating loss/failure and allows by tracking changes and allows users to easily view (or restore) older versions. 
+
+Git is a version control system that helps manage changes to data, code, and other documents necessary for data analysis.
+
 GitHub, on the other hand, is a web-based platform that hosts Git repositories. It also adds its own features, including graphical interfaces and features for managing projects. GitHub provides a central location where data analysts can publish their repositories and collaborate with others. GitHub also allows analysts to keep repositories private, if data is sensitive or proprietary.
 :::
 
@@ -63,10 +82,13 @@ GitHub, on the other hand, is a web-based platform that hosts Git repositories. 
 
 **Each project is a repository (repo)**
 
+::: {.incremental}
 - Data and code for projects are stored in a repo folder
-- Repo is hosted *remotely* on github.com and *locally* as a folder on your harddrive
-- Make changes locally, record them as a *commit*, *push* them to the remote version 
-- *pull* changes made by others from the remote version down to your local copy
+- Repo is hosted *locally* as a folder on your harddrive, and *remotely* on github.com 
+- Make changes locally, record them as a *commit*, *push* them to the remote version
+- Share repo with collaborators; *pull* changes made by others from the remote version down to your local copy
+- Synching is **not** live (like Dropbox)
+:::
 
 :::{.notes}
 Git revolves around folders called repositories (or repos). A Git repo is a virtual storage of your project, allowing you to save versions of your code and track changes made over time. It consists of all the project's files and the entire revision history. 
@@ -296,15 +318,15 @@ Follow these instructions
 
 ## Create a new repo
 
-Sign-in to your account on [github.com](github.com) and click "New" in the top right
+Sign-in to your account on [github.com](github.com) and click "New"
 
-![](img/git_create_repo.png){height=6in fig-align="center"}
+![](img/git_create_repo.png){height=5in fig-align="center"}
 
 ## Create a new repo
 
-Give your repository a name and decide whether to make it public or keep it private
+Give your repository a name and make it public or private
 
-![](img/git_create_repo2.png){height=6in fig-align="center"}
+![](img/git_create_repo2.png){height=5in fig-align="center"}
 
 ## Create a new repo
 
@@ -312,9 +334,9 @@ Give your repository a name and decide whether to make it public or keep it priv
 
 ## Clone your repo
 
-Open the Github Desktop application and create a "clone" the remote repo to create a local copy  
+Open Github Desktop and "clone" the remote repo 
 
-![](img/git_desktop_clone.png){height=6in fig-align="center"}
+![](img/git_desktop_clone.png){height=5in fig-align="center"}
 
 :::{.notes}
 Once you have created a git repo on your Github account, you need to "clone" the remote repo to create a local copy on your harddrive.
@@ -346,7 +368,7 @@ You can click the icons to open the project in RStudio, see the repo's folder on
 
 ## Commit changes
 
-Now you can make changes to the repo, and those changes will appear as "diffs" in the application
+- As you make changes to the repo, they will appear as "diffs" in the app
 - Add a description and make a "commit" to record those changes in git 
 
 ![](img/git_desktop_commit.png){fig-align="center"}
@@ -361,7 +383,7 @@ In the bottom left, enter text to describe the changes that you made and then cl
 
 ## Push to your repo
 
-Push those changes to the remote version of the repo on Github.com
+Push those changes to the remote version on Github.com
 
 ![](img/git_desktop_push.png){fig-align="center"}
 
