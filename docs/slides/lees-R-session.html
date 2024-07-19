@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PSCI 3200 – lees-pages</title>
+<title>PSCI 3200 – lees-r-session</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,8 +64,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../html/custom.scss">
 </head>
@@ -116,21 +114,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#bonus-content-quarto-and-github-pages" id="toc-bonus-content-quarto-and-github-pages" class="nav-link active" data-scroll-target="#bonus-content-quarto-and-github-pages">Bonus Content: Quarto and Github Pages</a>
+  <li><a href="#r-and-rstudio" id="toc-r-and-rstudio" class="nav-link active" data-scroll-target="#r-and-rstudio">R and RStudio</a>
   <ul class="collapse">
-  <li><a href="#installing-quarto" id="toc-installing-quarto" class="nav-link" data-scroll-target="#installing-quarto">Installing Quarto</a></li>
-  <li><a href="#installing-quarto-1" id="toc-installing-quarto-1" class="nav-link" data-scroll-target="#installing-quarto-1">Installing Quarto</a></li>
-  <li><a href="#publishing-a-free-website-with-github-pages" id="toc-publishing-a-free-website-with-github-pages" class="nav-link" data-scroll-target="#publishing-a-free-website-with-github-pages">Publishing a free website with Github pages</a></li>
-  <li><a href="#create-a-website" id="toc-create-a-website" class="nav-link" data-scroll-target="#create-a-website">Create a website</a></li>
-  <li><a href="#create-a-website-1" id="toc-create-a-website-1" class="nav-link" data-scroll-target="#create-a-website-1">Create a website</a></li>
-  <li><a href="#create-a-website-2" id="toc-create-a-website-2" class="nav-link" data-scroll-target="#create-a-website-2">Create a website</a></li>
-  <li><a href="#publish-to-github-pages" id="toc-publish-to-github-pages" class="nav-link" data-scroll-target="#publish-to-github-pages">Publish to Github pages</a></li>
-  <li><a href="#publish-to-github-pages-1" id="toc-publish-to-github-pages-1" class="nav-link" data-scroll-target="#publish-to-github-pages-1">Publish to Github pages</a></li>
-  <li><a href="#publish-to-github-pages-2" id="toc-publish-to-github-pages-2" class="nav-link" data-scroll-target="#publish-to-github-pages-2">Publish to Github pages</a></li>
-  <li><a href="#publish-to-github-pages-3" id="toc-publish-to-github-pages-3" class="nav-link" data-scroll-target="#publish-to-github-pages-3">Publish to Github pages</a></li>
-  <li><a href="#publish-to-github-pages-4" id="toc-publish-to-github-pages-4" class="nav-link" data-scroll-target="#publish-to-github-pages-4">Publish to Github pages</a></li>
-  <li><a href="#publish-to-github-pages-5" id="toc-publish-to-github-pages-5" class="nav-link" data-scroll-target="#publish-to-github-pages-5">Publish to Github pages</a></li>
-  <li><a href="#host-your-final-project" id="toc-host-your-final-project" class="nav-link" data-scroll-target="#host-your-final-project">Host Your Final Project</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#what-are-r-and-rstudio" id="toc-what-are-r-and-rstudio" class="nav-link" data-scroll-target="#what-are-r-and-rstudio">What are R and RStudio?</a></li>
+  <li><a href="#installing-r" id="toc-installing-r" class="nav-link" data-scroll-target="#installing-r">Installing R</a></li>
+  <li><a href="#installing-rstudio" id="toc-installing-rstudio" class="nav-link" data-scroll-target="#installing-rstudio">Installing RStudio</a></li>
+  <li><a href="#using-r-via-rstudio" id="toc-using-r-via-rstudio" class="nav-link" data-scroll-target="#using-r-via-rstudio">Using R via RStudio</a></li>
+  <li><a href="#using-r-via-rstudio-1" id="toc-using-r-via-rstudio-1" class="nav-link" data-scroll-target="#using-r-via-rstudio-1">Using R via RStudio</a></li>
+  <li><a href="#peronalization" id="toc-peronalization" class="nav-link" data-scroll-target="#peronalization">Peronalization</a></li>
+  <li><a href="#layout" id="toc-layout" class="nav-link" data-scroll-target="#layout">Layout</a></li>
+  <li><a href="#layout-1" id="toc-layout-1" class="nav-link" data-scroll-target="#layout-1">Layout</a></li>
+  <li><a href="#basic-programming-concepts" id="toc-basic-programming-concepts" class="nav-link" data-scroll-target="#basic-programming-concepts">Basic programming concepts</a></li>
+  <li><a href="#basic-programming-concepts-1" id="toc-basic-programming-concepts-1" class="nav-link" data-scroll-target="#basic-programming-concepts-1">Basic programming concepts</a></li>
+  <li><a href="#basic-programming-concepts-2" id="toc-basic-programming-concepts-2" class="nav-link" data-scroll-target="#basic-programming-concepts-2">Basic programming concepts</a></li>
+  <li><a href="#loading-packages" id="toc-loading-packages" class="nav-link" data-scroll-target="#loading-packages">Loading Packages</a></li>
+  <li><a href="#loading-data" id="toc-loading-data" class="nav-link" data-scroll-target="#loading-data">Loading Data</a></li>
+  <li><a href="#errors-warnings-and-messages" id="toc-errors-warnings-and-messages" class="nav-link" data-scroll-target="#errors-warnings-and-messages">Errors, warnings, and messages</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -140,123 +140,176 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="bonus-content-quarto-and-github-pages" class="level1">
-<h1>Bonus Content: Quarto and Github Pages</h1>
-<section id="installing-quarto" class="level2">
-<h2 class="anchored" data-anchor-id="installing-quarto">Installing Quarto</h2>
-<p>With newer versions of RStudio, Quarto comes pre-packaged in the installation files. To check whether you have Quarto on your computer, open RStudio, click on the “Terminal” tab in the bottom left window, type quarto check into the terminal, and hit ENTER. If you have a new enough version of RStudio, the terminal should return something like what you see in the first screenshot below.</p>
-<p><strong>Check Installation Terminal</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/terminal.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="installing-quarto-1" class="level2">
-<h2 class="anchored" data-anchor-id="installing-quarto-1">Installing Quarto</h2>
-<p>If you DON’T have a new enough version of RStudio, you’ll receive some error message. To fix this, all you should need to do is install the newest version of RStudio by going to the posit website and <a href="https://posit.co/download/rstudio-desktop/">installing RStudio</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="create_file.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Create a Quarto</figcaption>
-</figure>
-</div>
-</section>
-<section id="publishing-a-free-website-with-github-pages" class="level2">
-<h2 class="anchored" data-anchor-id="publishing-a-free-website-with-github-pages">Publishing a free website with Github pages</h2>
+<section id="r-and-rstudio" class="level1">
+<h1>R and RStudio</h1>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
 <ul>
-<li>Keep a repository of your website</li>
-<li>Push changes to your website via Github</li>
-<li>See changes almost instantly</li>
+<li>This activity draws on Chapter 1 in <a href="https://moderndive.com/1-getting-started.html">Statistical Inference via Data Science: A ModernDive into R and the Tidyverse</a></li>
 </ul>
 </section>
-<section id="create-a-website" class="level2">
-<h2 class="anchored" data-anchor-id="create-a-website">Create a website</h2>
-<p><strong>Moving to RStudio</strong></p>
+<section id="what-are-r-and-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-r-and-rstudio">What are R and RStudio?</h2>
 <ul>
-<li>File <span class="math inline">\(\rightarrow\)</span> New Project <span class="math inline">\(\rightarrow\)</span> New Directory <span class="math inline">\(\rightarrow\)</span> Quarto Website</li>
+<li>In the quantitative methods tutorial, we will use R and RStudio to illustrate basic statistical concepts</li>
+<li>R is a programming language and free computing environment for statistical computing and graphics</li>
+<li>RStudio is an integrated development environment (IDE) that provides an interface by adding many convenient features and tools</li>
+<li>Think of R as a car’s engine and RStudio as the dashboard</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/website_initiate.png" style="height:4.5in" class="figure-img"></p>
-</figure>
+<div class="notes">
+<p>R is a programming language and free computing environment for statistical computing and graphics. It can be runs on a wide variety of operating systems, including Linux, Windows, and MacOS. RStudio is an integrated development environment (IDE) that provides an interface by adding many convenient features and tools.</p>
+<p>You can think of R as a car’s engine and RStudio as the dashboard. In the same way that having access to a speedometer and a navigation system makes driving much easier, using RStudio’s interface makes using R much easier as well.</p>
+<p>R and RStudio are entirely free and updated on a regular basis, making them much more accessible and widely used than paid alternatives. You can conduct nearly any analysis using R, ranging from calculating the average of a variable to creating maps and conducting spatial analysis to conducting the analysis for an impact evaluation.</p>
 </div>
 </section>
-<section id="create-a-website-1" class="level2">
-<h2 class="anchored" data-anchor-id="create-a-website-1">Create a website</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/website_files.png" style="height:6in" class="figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="create-a-website-2" class="level2">
-<h2 class="anchored" data-anchor-id="create-a-website-2">Create a website</h2>
-<p><strong>Change output director to <code>docs</code></strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/website_docs.png" style="height:5.5in" class="figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="publish-to-github-pages" class="level2">
-<h2 class="anchored" data-anchor-id="publish-to-github-pages">Publish to Github pages</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/pages_add.png" style="height:5.5in" class="figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="publish-to-github-pages-1" class="level2">
-<h2 class="anchored" data-anchor-id="publish-to-github-pages-1">Publish to Github pages</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/pages_add2.png" style="height:5.5in" class="figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="publish-to-github-pages-2" class="level2">
-<h2 class="anchored" data-anchor-id="publish-to-github-pages-2">Publish to Github pages</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/pages_add3.png" style="height:5.5in" class="figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="publish-to-github-pages-3" class="level2">
-<h2 class="anchored" data-anchor-id="publish-to-github-pages-3">Publish to Github pages</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/pages_add4.png" style="height:5.5in" class="figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="publish-to-github-pages-4" class="level2">
-<h2 class="anchored" data-anchor-id="publish-to-github-pages-4">Publish to Github pages</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/pages_publish.png" style="height:5.5in" class="figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="publish-to-github-pages-5" class="level2">
-<h2 class="anchored" data-anchor-id="publish-to-github-pages-5">Publish to Github pages</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/pages_publish2.png" style="height:5.5in" class="figure-img"></p>
-</figure>
-</div>
-</section>
-<section id="host-your-final-project" class="level2">
-<h2 class="anchored" data-anchor-id="host-your-final-project">Host Your Final Project</h2>
+<section id="installing-r" class="level2">
+<h2 class="anchored" data-anchor-id="installing-r">Installing R</h2>
 <ul>
-<li>Delete <code>_site</code> folder (now its using <code>docs</code>)</li>
-<li>Create <code>data</code> folder to store your dataset</li>
-<li>Add final project <code>.qmd</code> file to your repo (or drop it into <code>index.qmd</code>)</li>
-<li>Use <code>_quarto.yml</code> to add new pages to navigation bar</li>
-<li>Render <code>index.qmd</code>; confirm that other pages have been rendered</li>
-<li>Push commit and check that the website updated</li>
+<li>Download and install R by going to https://cloud.r-project.org/
+<ul>
+<li>Windows: Click on “Download R for Windows”, then click on “base”, then click on the Download link</li>
+<li>macOS user: Click on “Download R for macOS”, then under “Latest release:” click on R-X.X.X.pkg, where R-X.X.X is the version number</li>
+<li>Linux user: Click on “Download R for Linux” and choose your distribution for more information on installing R for your setup</li>
+</ul></li>
 </ul>
+<div class="notes">
+<p>If you don’t have R and RStudio already installed, that will be the first step. You will first need to download and install both R and RStudio (Desktop version) on your computer. It is important that you install R first and then install RStudio.</p>
+</div>
+</section>
+<section id="installing-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="installing-rstudio">Installing RStudio</h2>
+<ul>
+<li>Download and install RStudio at https://www.rstudio.com/products/rstudio/download/
+<ul>
+<li>Scroll down to “Installers for Supported Platforms” near the bottom of the page</li>
+<li>Click on the download link corresponding to your computer’s operating system</li>
+</ul></li>
+</ul>
+<div class="notes">
+<p>Once you have installed R, you can now install RStudio.</p>
+</div>
+</section>
+<section id="using-r-via-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="using-r-via-rstudio">Using R via RStudio</h2>
+<ul>
+<li>Using R by opening RStudio</li>
+</ul>
+<p><img src="img/R_vs_RStudio.png" class="img-fluid"></p>
+</section>
+<section id="using-r-via-rstudio-1" class="level2">
+<h2 class="anchored" data-anchor-id="using-r-via-rstudio-1">Using R via RStudio</h2>
+<ul>
+<li>After you open RStudio, you should see something like this</li>
+</ul>
+<p><img src="img/rstudio.png" class="img-fluid"></p>
+<div class="notes">
+<p>Note the three panes which are three panels dividing the screen: the console pane, the files pane, and the environment pane. Over the course of this tutorial, you’ll come to learn what purpose each of these panes serves.</p>
+</div>
+</section>
+<section id="peronalization" class="level2">
+<h2 class="anchored" data-anchor-id="peronalization">Peronalization</h2>
+<ul>
+<li>Customize the appearance of your R IDE by going to Tools -&gt; Global Options -&gt; Appearance</li>
+</ul>
+<p><img src="img/apperance.png" class="img-fluid"></p>
+</section>
+<section id="layout" class="level2">
+<h2 class="anchored" data-anchor-id="layout">Layout</h2>
+<ul>
+<li>Rstudio contains 4 panes: source, console, environment, and viewer</li>
+<li>The left pane is the source where you write code</li>
+<li>Try typing <code>2 + 2</code> into the source panel and hitting ENTER
+<ul>
+<li>The console panel pop-up in the bottom-left and return a value of <code>4</code></li>
+</ul></li>
+</ul>
+<p>[INSERT SCREEN RECORDING]</p>
+</section>
+<section id="layout-1" class="level2">
+<h2 class="anchored" data-anchor-id="layout-1">Layout</h2>
+<ul>
+<li>The top-right includes the Environment panel
+<ul>
+<li>This contains information about any objects that you load into your environment</li>
+<li>Type <code>sum = 2 + 2</code> into the source and hit ENTER</li>
+<li>The object <code>sum</code> should appear in your environment</li>
+</ul></li>
+<li>The bottom-right includes the Viewer panel, where you will be able to see graphics that you generate</li>
+</ul>
+</section>
+<section id="basic-programming-concepts" class="level2">
+<h2 class="anchored" data-anchor-id="basic-programming-concepts">Basic programming concepts</h2>
+<ul>
+<li>Running code: telling R to perform an act by giving it commands in the source or console</li>
+<li>Objects: where values are saved in R. On the last slide, you created the object <code>sum</code>.</li>
+<li>Data types:
+<ul>
+<li>Integers are whole numbers like <code>-1, 0, 2, 4092</code></li>
+<li>Doubles are integers with decimal values like <code>-24.932</code> and <code>0.8</code></li>
+<li>Logicals are either <code>TRUE</code> or <code>FALSE</code></li>
+<li>Characters are text or strings like <code>"hello world"</code> and <code>"welcome to R"</code></li>
+</ul></li>
+</ul>
+<div class="notes">
+
+</div>
+</section>
+<section id="basic-programming-concepts-1" class="level2">
+<h2 class="anchored" data-anchor-id="basic-programming-concepts-1">Basic programming concepts</h2>
+<ul>
+<li>Vectors are a series of values. These are created using the <code>c()</code> function. For example, <code>c(6, 11, 13, 31)</code> creates a four element vector of integers.</li>
+<li>Factors are a group of characters/strings with a fixed number of unique values</li>
+<li>Data frames are objects where the rows correspond to observations and the columns correspond to variables that describe the observations</li>
+</ul>
+</section>
+<section id="basic-programming-concepts-2" class="level2">
+<h2 class="anchored" data-anchor-id="basic-programming-concepts-2">Basic programming concepts</h2>
+<ul>
+<li>Conditionals:
+<ul>
+<li>Testing for equality in R is done using <code>==</code>. For example, <code>2 + 1 == 3</code> will return <code>TRUE</code></li>
+<li>Boolean algebra: Operators such as <code>&lt;</code> (less than), <code>&lt;=</code> (less than or equal), and <code>!=</code>(not equal to). For example, <code>3 + 5 &lt;= 1</code> will return <code>FALSE</code></li>
+<li>Logical operators: <code>&amp;</code> represent “and” while <code>|</code> represents “or.” For example, <code>(2 + 1 == 3) &amp; (2 + 1 == 4)</code> returns <code>FALSE</code> since both clauses are not <code>TRUE</code></li>
+</ul></li>
+</ul>
+</section>
+<section id="loading-packages" class="level2">
+<h2 class="anchored" data-anchor-id="loading-packages">Loading Packages</h2>
+<ul>
+<li>R gives you accesss to thousands of “packages” that are created by users</li>
+<li>Packages contain datasets and bundles of code called “functions” that can execute specific tasks</li>
+<li>Use <code>install.packages()</code> to install a package
+<ul>
+<li>Insert the name of the package contained in quotation marks</li>
+<li>Start by installing the <code>dplyr</code> package</li>
+</ul></li>
+</ul>
+</section>
+<section id="loading-data" class="level2">
+<h2 class="anchored" data-anchor-id="loading-data">Loading Data</h2>
+<ul>
+<li>Load data into your environment by “reading-in” a spreadsheet</li>
+<li>Spreadsheets should be saved as a <code>.csv</code> file</li>
+<li>Use <code>read.csv()</code> to pull data from a spreadsheet on your harddrive into your R/RStudio environment
+<ul>
+<li>Within the parentheses, add the full file pathway where the <code>.csv</code> file is stored</li>
+</ul></li>
+</ul>
+<p>[INSERT SCREEN RECORDING]</p>
+</section>
+<section id="errors-warnings-and-messages" class="level2">
+<h2 class="anchored" data-anchor-id="errors-warnings-and-messages">Errors, warnings, and messages</h2>
+<ul>
+<li>When you run code, R often provides feedback in the console</li>
+<li>There are 3 main types of feedback that appear in RED
+<ul>
+<li>Errors: When the RED text is prefaced with “Error in…”, your code will not work. The error message will try to explain the problem.</li>
+<li>Warnings: When the red text is prefaced with “Warning:”, your code will still work, but there still might be a problem. The warning message will try to explain the problem.</li>
+<li>Messages: When the red text doesn’t start with “Error” or “Warning”, it’s just a friendly message</li>
+</ul></li>
+</ul>
+<!-- ## Correlation -->
+<!-- ## Creating Index Variables -->
 
 
 </section>

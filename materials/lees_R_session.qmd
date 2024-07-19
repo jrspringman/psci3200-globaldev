@@ -1,0 +1,37 @@
+---
+title: "Live R Coding Session"
+date: 2024-07-25
+---
+
+
+## Required Preparation
+
+Before attending the live session, participants should have R and RStudio installed. [Module 2 Week 2.2](https://classroom.google.com/c/NjY0NDg1OTIzNTM4/m/Njk3OTQ0NTcyMDIw/details) included instructions on how to install R and RStudio and provided a basic introduction to these tools. 
+
+
+## Optional Preparation
+
+I will be using a Quarto file (.qmd) to lead the session. Quarto is a specific type of file in RStudio that integrates code into document production. If you would like to install Quarto, please consult the materials below:
+- [Instructions](/assignments/01_quarto.html)
+- [Intro to Quarto](https://quarto.org/docs/get-started/hello/rstudio.html)
+
+
+## Materials
+
+Before attending the live session, please download the Data and R Code. 
+
+I will be using a Quarto (.qmd) to lead the session. If you are not familiar with quarto, you should download and use the .R file.
+
+- [Slides](/slides/lees-R-session.html)
+- [Data](https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/aau_survey/clean_endline_did.csv)
+- [R Code (.R)](https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/survey_data.qmd)
+- [R Code (.qmd)](https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/survey_data.R)
+
+
+
+
+
+
+
+
+
