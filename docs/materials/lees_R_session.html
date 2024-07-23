@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jeremy Springman">
 <meta name="dcterms.date" content="2024-07-25">
 
 <title>PSCI 3200 - Live R Coding Session</title>
@@ -115,9 +116,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#required-preparation" id="toc-required-preparation" class="nav-link active" data-scroll-target="#required-preparation">Required Preparation</a></li>
-  <li><a href="#optional-preparation" id="toc-optional-preparation" class="nav-link" data-scroll-target="#optional-preparation">Optional Preparation</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#required-preparation" id="toc-required-preparation" class="nav-link" data-scroll-target="#required-preparation">Required Preparation</a></li>
   <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a></li>
+  <li><a href="#optional-preparation" id="toc-optional-preparation" class="nav-link" data-scroll-target="#optional-preparation">Optional Preparation</a></li>
   </ul>
 </nav>
     </div>
@@ -133,6 +135,12 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jeremy Springman </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -147,23 +155,69 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This LEES Live Session will focus on using R and RStudio for data analysis. During this session, we will cover the following topics:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Activity</th>
+<th>Description</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Introductions and Sign-in</td>
+<td>Fill out this <a href="https://forms.gle/Wve8pX79TFDY4RC17">form</a> to sign into the session.</td>
+<td>5 min</td>
+</tr>
+<tr class="even">
+<td>R Coding Review</td>
+<td>Review of basic R concepts covered in <a href="https://classroom.google.com/c/NjY0NDg1OTIzNTM4/m/Njk3OTQ0NTcyMDIw/details">Module 2 Week 2.2</a></td>
+<td>10 min</td>
+</tr>
+<tr class="odd">
+<td>Cleaning Data</td>
+<td>Read-in real data, create new variables, calculate quantities</td>
+<td>30 min</td>
+</tr>
+<tr class="even">
+<td>Regressions</td>
+<td>Run regressions and store output in a presentable format</td>
+<td>20 min</td>
+</tr>
+<tr class="odd">
+<td>Q&amp;A</td>
+<td>Ask questions and writing code or conducting analysis</td>
+<td>25 min</td>
+</tr>
+</tbody>
+</table>
+<!-- - open R, read-in data - draw sample from AAU survey -->
+<p>Please consult <a href="https://docs.google.com/document/d/1plFcHzrVKt0WhOpMGI25ZoSRhmM5aQjDa4AzlD-vkYg/edit?usp=sharing">this document</a> for a more detailed overview of what will be covered.</p>
+</section>
 <section id="required-preparation" class="level2">
 <h2 class="anchored" data-anchor-id="required-preparation">Required Preparation</h2>
 <p>Before attending the live session, participants should have R and RStudio installed. <a href="https://classroom.google.com/c/NjY0NDg1OTIzNTM4/m/Njk3OTQ0NTcyMDIw/details">Module 2 Week 2.2</a> included instructions on how to install R and RStudio and provided a basic introduction to these tools.</p>
 </section>
-<section id="optional-preparation" class="level2">
-<h2 class="anchored" data-anchor-id="optional-preparation">Optional Preparation</h2>
-<p>I will be using a Quarto file (.qmd) to lead the session. Quarto is a specific type of file in RStudio that integrates code into document production. If you would like to install Quarto, please consult the materials below: - <a href="../assignments/01_quarto.html">Instructions</a> - <a href="https://quarto.org/docs/get-started/hello/rstudio.html">Intro to Quarto</a></p>
-</section>
 <section id="materials" class="level2">
 <h2 class="anchored" data-anchor-id="materials">Materials</h2>
 <p>Before attending the live session, please download the Data and R Code.</p>
-<p>I will be using a Quarto (.qmd) to lead the session. If you are not familiar with quarto, you should download and use the .R file.</p>
+<p>I will be using a Quarto file (.qmd) to lead the session. If you are not familiar with quarto, you should download the .R file.</p>
 <ul>
 <li><a href="../slides/lees-R-session.html">Slides</a></li>
 <li><a href="https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/aau_survey/clean_endline_did.csv">Data</a></li>
 <li><a href="https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/survey_data.qmd">R Code (.R)</a></li>
 <li><a href="https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/survey_data.R">R Code (.qmd)</a></li>
+</ul>
+</section>
+<section id="optional-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="optional-preparation">Optional Preparation</h2>
+<p>I will be using a Quarto file (.qmd) to lead the session. Quarto is a specific type of file in RStudio that integrates code into document production. If you would like to install Quarto, please consult the materials below:</p>
+<ul>
+<li><a href="../assignments/01_quarto.html">Instructions</a></li>
+<li><a href="https://quarto.org/docs/get-started/hello/rstudio.html">Intro to Quarto</a></li>
 </ul>
 
 
