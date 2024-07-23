@@ -29,6 +29,20 @@ editor: source
   + The object `sum` should appear in your environment
 - The bottom-right includes the Viewer panel, where you will be able to see graphics that you generate
 
+```{r }
+#| include: true
+#| warning: false
+#| message: false
+
+data = data.frame(
+  x1 = rnorm(10, mean = 1, sd = 1)
+  x2 = rnorm(10, mean = 1, sd = 1)
+)
+
+plot(data$x1, data$x2)
+
+```
+
 
 ```{r }
 #| include: true
