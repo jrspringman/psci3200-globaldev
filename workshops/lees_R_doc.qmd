@@ -235,12 +235,14 @@ class(my_data)
 Anything that comes in a spreadsheet (for example, an excel file) can be loaded into an R environment as a dataframe. R works most easily when spreadsheets are saved as a `.csv` file.
 
 ```{r }
-#| include: false
+#| echo: true
+#| include: true
 #| warning: false
 #| message: false
 
 # Use `read.csv()` to load data from a website
 dat = read.csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" ) 
+
 # Use `read.csv()` to load data from your computer's Downloads folder
 # dat = read.csv("/home/jeremy/Downloads/clean_endline_did.csv")
 
@@ -259,18 +261,18 @@ Packages are an extremely important part of data analysis with R.
 In the next section, we'll use the package `dplyr` to perform some data cleaning. `dplyr` is part of a universe of packages called `tidyverse`. Since this is one of the most important packages in the R ecosystem, let's install and load it.
 
 ```{r }
-#| include: false
+#| echo: true
+#| include: true
 #| warning: false
 #| message: false
 
 #install.packages("tidyverse")
 library(tidyverse)
 
-#install.packages("tidyverse")
-library(modelsummary)
-
-
 ```
+
+When you are searching online or asking ChatGPT how to perform a specific task in R, it often helps to specify that you are looking for a solution in `dplyr`.
+
 
 # Cleaning Data
 
@@ -285,23 +287,33 @@ Imagine we want to analyze the relationship between whether a respondent moved t
 
 How can we create a variable measuring whether the respondent moved to Addis Ababa? We  have a multiple-choice question asking students about what region they come from.  
 
+Let's start by investigating this variable.
+
 ```{r }
-#| include: false
+#| echo: true
+#| include: true
 #| warning: false
 #| message: false
 
-# Let's start with the variable measure respondents' home region
+# The name of the variable in our dataframe is `q8_baseline`
 table(dat$q8_baseline)
 
-dat = dat %>%
+dat = dat %>% # this is called a "pipe"
   # give our variable a better name
-  rename(home_region = q8_baseline) %>%
-  # clean home region variable
+  rename(home_region = q8_baseline) 
+
+dat = dat %>%
+  # drop respondents who report "Prefer not to say"
+  filter(!home_region == "Prefer not to say") 
+
+dat = dat %>%
+  # clean home region variable using `mutate()`
   mutate(
     # Shorten a long name to an abbreviation
     home_region = ifelse(home_region == "Southern Nations, Nationalities, and Peoples Region", "SNNPR", home_region),
     # remove the word "Region" from every observation of this column
-    home_region = str_remove(home_region, " Region")
+    home_region = str_remove(home_region, " Region"),
+    home_region = str_remove(home_region, " \\(city\\)")
     )
 
 # Check if it worked
@@ -309,217 +321,184 @@ table(dat$home_region)
 
 ```
 
-```{r}
-#| echo: false
+
+```{r }
+#| echo: true
+#| include: true
 #| warning: false
+#| message: false
 
-# Create independent variable
-dat = dat %>% mutate(moved = case_when(home_region == "Addis Ababa" ~ 0, TRUE ~ 1) )
+# Chain these all together for more concise code
+dat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" ) %>%
+  # give our variable a better name
+  rename(home_region = q8_baseline) %>%
+  # drop respondents who report "Prefer not to say"
+  filter(!home_region == "Prefer not to say") %>%
+  # clean home region variable
+  mutate(
+    # Shorten a long name to an abbreviation
+    home_region = case_when(
+      home_region == "Southern Nations, Nationalities, and Peoples Region" ~ "SNNPR",
+      home_region == "South West Ethiopia Peoples Region" ~ "SWEPR",
+      TRUE ~ home_region
+    ),
+    # remove the word "Region" from every observation of this column
+    home_region = str_remove(home_region, " Region| \\(city\\)")
+    )
 
+# Check if it worked
+table(dat$home_region)
 
 ```
 
-
+Now that we've cleaned-up the names, we want to create a variable that tells us whether or not each respondent is originally from Addis Ababa. This will let us measure whether or not they moved to Addis in order to attend college.
 
 ```{r}
-#| echo: false
+#| echo: true
+#| include: true
 #| warning: false
+#| message: false
 
-# Create independent variable
+# Creating a measure of whether a respondent moved to Addis Ababa in order to at independent variable
 dat = dat %>% mutate(moved = case_when(home_region == "Addis Ababa" ~ 0, TRUE ~ 1) )
 
+table(dat$moved, dat$home_region)
 
-# Contacted gov't official
-# Signed a petition
+```
 
-# q13_4_1
-# q13_5_1
+Now, we need to create our second variable measuring levels of political participation. Remember, the challenge is that we have multiple measures of participation. Let's start with two measures:
 
-#dat$add_participation_end = dat$q13_4_1 + dat$q13_5_1
+- Number of times you've contacted gov't official `q13_4_1`
+- Number of times you've signed a petition `q13_5_1`
 
+```{r}
+#| echo: true
+#| include: true
+#| warning: false
+#| message: false
 
-## Find participation measures that are based on a count
+# Check out the distribution of our variables
+dat %>% select(q13_4_1, q13_5_1) %>% head(5)
+
+hist(dat$q13_4_1)
+hist(dat$q13_5_1)
+
+# Create a single measuree
+dat = dat %>%
+  mutate(
+      add_participation = q13_4_1 + q13_5_1
+
+  )
+
+hist(dat$add_participation)
+
+```
+
+One thing we need to be careful with are NA values. We need to think carefully about why NA values are in our data and how to handle them appropriately.
+
+```{r}
+#| echo: true
+#| include: true
+#| warning: false
+#| message: false
+
+## Find our two participation measures
 add_ecols = grep("q13_4_1$|q13_5_1$", names(dat), value = T)
 
-dat %>% select(add_ecols) %>% head(5)
-
-
 dat = dat %>%
-  mutate(add_participation_end =  rowSums(across(add_ecols) ) )
+  mutate(add_participation =  rowSums(across(add_ecols) ) )
   #mutate(add_participation_end =  rowSums(across(add_ecols), na.rm = T) )
 
+# dat = dat %>%
+#   mutate(home_region = na_if(home_region, "Prefer not to say")) %>%
 
 ```
-
-
-## Cleaning strings
-
-
 
 # Regression
 
+Now let's use simple linear regression to estimate the relationship between these two variables that we created. 
+
+```{r}
+#| echo: true
+#| include: true
+#| warning: false
+#| message: false
+
+est = lm(add_participation ~ moved, dat)
+
+summary(est)
+
+```
+
+What if we want to control for the influence of the number of years someone has been at university? Here, we can create a new measure of year and use multiple regression.
 
 
 ```{r}
-#| echo: false
+#| echo: true
+#| include: true
 #| warning: false
+#| message: false
+
+
+#install.packages("modelsummary")
+library(modelsummary)
 
 table(dat$class_year)
 
-dat = dat %>% mutate(year = as.numeric(case_when(class_year == "Year I" ~ 0,
+dat = dat %>% mutate(year_bin = as.numeric(case_when(class_year == "Year I" ~ 0,
                                                  class_year == "Year II" ~ NA,
                                                  class_year == "Year III" ~ 1 )) )
 table(dat$year)
 
-# models <- list()
-# models[['Bivariate']] = lm(z_participation_base ~ moved, dat)
-# models[['Multivariate']] = lm(z_participation_base ~ moved + year, dat)
-# models[['Interaction']] = lm(z_participation_base ~ moved + year + moved*year, dat)
-# 
-# modelsummary(
-#   models,
-#   estimate  = "{estimate}{stars} ({std.error})",
-#              statistic = NULL,
-#   gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
+models <- list()
+models[['Bivariate']] = lm(add_participation ~ moved, dat)
+models[['Multivariate']] = lm(add_participation ~ moved + year_bin, dat)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+             statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
 
 ```
 
+Let's compare two different ways of defining the year measure.
 
 ```{r}
-#| echo: false
+#| echo: true
+#| include: true
 #| warning: false
-#| 
-# Predict values based on the model
-# predictions <- predict(lm(z_participation_base ~ moved * year, dat), newdata = dat)
-# 
-# # Create a dataframe with predictions
-# prediction_df <- data.frame(year = dat$year, moved = dat$moved, prediction = predictions)
-# 
-# # Plot the interaction
-# ggplot(prediction_df, aes(x = year, y = prediction, color = factor(moved))) +
-#   geom_line() +
-#   geom_point() +
-#   scale_x_continuous(breaks = c(0, 1), labels=c("Y1", "Y3")) +
-#   labs(x = "Year", y = "Predicted z_participation_base", color = "Moved") +
-#   ggtitle("Interaction Plot of z_participation_base by Year and Moved")
+#| message: false
+
+dat = dat %>% mutate(year_cont = as.numeric(case_when(class_year == "Year I" ~ 0,
+                                                 class_year == "Year II" ~ 1,
+                                                 class_year == "Year III" ~ 2 )) )
+table(dat$year_cont)
+
+models <- list()
+models[['Bivariate']] = lm(add_participation ~ moved + year_bin, dat)
+models[['Multivariate']] = lm(add_participation ~ moved + year_cont, dat)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+             statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
 
 ```
-
-### Continuous-ish
-
-```{r}
-#| echo: false
-#| warning: false
-
-# dat = dat %>% mutate(year = as.numeric(case_when(class_year == "Year I" ~ 0,
-#                                                  class_year == "Year II" ~ 1,
-#                                                  class_year == "Year III" ~ 2 )) )
-# table(dat$year)
-# 
-# models <- list()
-# models[['Bivariate']] = lm(z_participation_base ~ moved, dat)
-# models[['Multivariate']] = lm(z_participation_base ~ moved + year, dat)
-# models[['Interaction']] = lm(z_participation_base ~ moved + year + moved*year, dat)
-# 
-# modelsummary(
-#   models,
-#   estimate  = "{estimate}{stars} ({std.error})",
-#              statistic = NULL,
-#   gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
-
-```
-
-
-
-```{r}
-#| echo: false
-#| warning: false
-# Predict values based on the model
-# predictions <- predict(lm(z_participation_base ~ moved * year, dat), newdata = dat)
-# 
-# # Create a dataframe with predictions
-# prediction_df <- data.frame(year = dat$year, moved = dat$moved, prediction = predictions)
-# 
-# # Plot the interaction
-# ggplot(prediction_df, aes(x = year, y = prediction, color = factor(moved))) +
-#   geom_line() +
-#   geom_point() +
-#   scale_x_continuous(breaks = c(0, 1, 2), labels=c("Y1", "Y2", "Y3")) +
-#   labs(x = "Year", y = "Predicted z_participation_base", color = "Moved") +
-#   ggtitle("Interaction Plot of z_participation_base by Year and Moved")
-
-```
-
-
-
-
-
-### Cross-Sectional
-
-```{r}
-#| echo: false
-#| warning: false
-
-# regd = dat %>% select(z_participation_end, z_participation_base, moved, response_id ) %>%
-#   pivot_longer(cols = c(z_participation_end, z_participation_base),
-#                names_to = "time",
-#                values_to = "z_participation") %>%
-#   mutate(time = case_when(time == "z_participation_end" ~ 1, 
-#                           TRUE ~ 0))
-# 
-# models <- list()
-# models[['Bivariate']] = lm(z_participation ~ moved, regd)
-# models[['Multivariate']] = lm(z_participation ~ moved + time, regd)
-# models[['Interaction']] = lm(z_participation ~ moved + time + moved*time, regd)
-# 
-# modelsummary(
-#   models,
-#   estimate  = "{estimate}{stars} ({std.error})",
-#              statistic = NULL,
-#   gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
-
-```
-
-
 
 
 # Appendix
 
 
 
-
-```{r}
-#| echo: false
-#| warning: false
-
-# participation
-participate = dat %>% 
-  select(`Additive Index` = add_participation_end, 
-         `Signed petition` = q13_5_1, 
-         `Contact official` = q13_4_1) %>% 
-  drop_na() %>% 
-  pivot_longer(everything()) %>% 
-  group_by(name, value) %>% 
-  tally() %>% 
-  mutate(pct = n/sum(n))
-
-
-
-ggplot(participate, aes(x = value, y = pct)) + 
-  # geom_col(fill = palette[9]) + 
-  facet_wrap(vars(name), scales = "free") + 
-  scale_y_continuous(labels = scales::percent) +
-  labs(y = "Percent of respondents", x = NULL, 
-       title = "How do youth participate?", 
-       subtitle = glue::glue("Number of respondents = {scales::comma(sum(participate$n)/7)}")) 
-
-```
-
 ## Averaged Z-Scores
 
 ```{r}
-#| echo: false
+#| echo: true
+#| include: true
 #| warning: false
+#| message: false
 
 
 ## Find participation measures that are based on likert
@@ -569,91 +548,22 @@ dat = dat %>%
 
 
 ```{r}
-#| echo: false
+#| echo: true
+#| include: true
 #| warning: false
+#| message: false
 
-# 
-# # raw
-# participate = dat %>% 
-#   select(`Attend meeting` = q13_1_baseline, 
-#          `Protest` = q13_2_baseline, 
-#          `NGO event` = q13_3_baseline, 
-#          `Signed petition` = q13_4_baseline, 
-#          `Contact official` = q13_5_baseline, 
-#          `Contact student representative` = q13_6_baseline, 
-#          `Contact an NGO` = q13_7_baseline) %>% 
-#   drop_na() %>% 
-#   pivot_longer(everything()) %>% 
-#   group_by(name, value) %>% 
-#   tally() %>% 
-#   mutate(pct = n/sum(n)) %>% 
-#   mutate(value = fct_relevel(value, "Never", after = Inf), 
-#          value = fct_rev(value))
-# 
-# ggplot(participate , aes(x = value, y = pct)) + 
-#   # geom_col(fill = palette[9]) + 
-#   facet_wrap(vars(name), scales = "free", ncol = 2) + 
-#   scale_y_continuous(labels = scales::percent) +
-#   labs(y = "Percent of respondents", x = NULL, 
-#        title = "How do youth participate?", 
-#        subtitle = glue::glue("Number of respondents = {scales::comma(sum(participate$n)/7)}")) + 
-#   scale_x_discrete(labels = scales::label_wrap(10))
-
-```
-
-```{r}
-#| echo: false
-#| warning: false
-
-# # standardized
-# participate = dat %>% 
-#   select(`Z-Score Index` = z_participation_base,
-#          `Attend meeting` = q13_1_baseline_st, 
-#          `Protest` = q13_2_baseline_st, 
-#          `NGO event` = q13_3_baseline_st, 
-#          `Signed petition` = q13_4_baseline_st, 
-#          `Contact official` = q13_5_baseline_st, 
-#          `Contact student representative` = q13_6_baseline_st, 
-#          `Contact an NGO` = q13_7_baseline_st) %>% 
-#   drop_na() %>% 
-#   pivot_longer(everything()) 
-# 
-# 
-# ggplot(participate , aes(x = value )) + 
-#   geom_histogram(aes(y = after_stat(count / sum(count))), 
-#                  binwidth=.5, fill = palette[9]) +
-#   #geom_col(fill = palette[9]) + 
-#   facet_wrap(vars(name),  ncol = 2) + 
-#   scale_y_continuous(labels = scales::percent) +
-#   labs(y = "Percent of respondents", x = NULL, 
-#        title = "How do youth participate?")
-
-
-```
-
-
-
-## More complex
-
-```{r}
-#| echo: false
-#| warning: false
-
-dat = dat %>% mutate(year1 = as.numeric(case_when(class_year == "Year I" ~ 1,
-                                                 class_year == "Year II" ~ 0,
-                                                 class_year == "Year III" ~ 0 )),
-                     year2 = as.numeric(case_when(class_year == "Year I" ~ 0,
-                                                 class_year == "Year II" ~ 1,
-                                                 class_year == "Year III" ~ 0 )),
-                     year3 = as.numeric(case_when(class_year == "Year I" ~ 0,
-                                                 class_year == "Year II" ~ 0,
-                                                 class_year == "Year III" ~ 1 )),)
-table(dat$year)
+regd = dat %>% select(z_participation_end, z_participation_base, moved, response_id ) %>%
+  pivot_longer(cols = c(z_participation_end, z_participation_base),
+               names_to = "time",
+               values_to = "z_participation") %>%
+  mutate(time = case_when(time == "z_participation_end" ~ 1,
+                          TRUE ~ 0))
 
 models <- list()
-models[['Bivariate']] = lm(z_participation_base ~ moved, dat)
-models[['Multivariate']] = lm(z_participation_base ~ moved + year2 + year3, dat)
-models[['Interaction']] = lm(z_participation_base ~ moved + year2 + year2*moved + year3 + year3*moved , dat)
+models[['Bivariate']] = lm(z_participation ~ moved, regd)
+models[['Multivariate']] = lm(z_participation ~ moved + time, regd)
+models[['Interaction']] = lm(z_participation ~ moved + time + moved*time, regd)
 
 modelsummary(
   models,
@@ -661,69 +571,6 @@ modelsummary(
              statistic = NULL,
   gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
 
-```
-
-```{r}
-#| echo: false
-#| warning: false
-
-# Assuming dat already has year2 and year3 as binary indicators
-# If not, create them based on your criteria for what constitutes year2 and year3
-
-# Model including interactions
-model <- lm(z_participation_base ~ moved + year2 + year2*moved + year3 + year3*moved, dat)
-
-# Generate new data for predictions
-# This data should cover all combinations of moved, year2, and year3
-newdata <- expand.grid(moved = c(0, 1), year2 = c(0, 1), year3 = c(0, 1))
-
-# Exclude impossible combinations (e.g., year2 and year3 both being 1)
-newdata <- newdata[!with(newdata, year2 == 1 & year3 == 1),]
-
-# Predict values
-predictions <- predict(model, newdata = newdata)
-
-# Add predictions to the newdata dataframe
-newdata$prediction <- predictions
-
-# Convert year2 and year3 back to a single year variable for plotting
-newdata$year <- with(newdata, ifelse(year2 == 1, "1", ifelse(year3 == 1, "2", "0")))
-
-# Plot
-library(ggplot2)
-ggplot(newdata, aes(x = as.numeric(year), y = prediction, color = factor(moved))) +
-  geom_point() +
-  geom_line() +
-  scale_x_continuous(breaks = c(0, 1, 2), labels=c("Y1", "Y2", "Y3")) +
-  labs(x = "Year", y = "Predicted z_participation_base", color = "Moved") +
-  ggtitle("Interaction Plot of z_participation_base by Year and Moved")
-
 
 ```
-
-## Differences over time
-
-
-
-```{r}
-#| echo: false
-#| warning: false
-# Predict values based on the model
-# predictions <- predict(lm(z_participation ~ moved*time, regd), newdata = regd)
-# 
-# # Create a dataframe with predictions
-# prediction_df <- data.frame(time = regd$time, moved = regd$moved, prediction = predictions)
-# 
-# # Plot the interaction
-# ggplot(prediction_df, aes(x = time, y = prediction, color = factor(moved))) +
-#   geom_line() +
-#   geom_point() +
-#   scale_x_continuous(breaks = c(0, 1)) +
-#   labs(x = "Year", y = "Predicted z_participation", color = "Moved") +
-#   ggtitle("Interaction Plot of z_participation_base by Year and Moved")
-
-```
-
-
-
 
