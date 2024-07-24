@@ -533,8 +533,7 @@ dagify(
   y ~ x,
   y ~ a
 
-) %>%
-  ggdag()
+) %>% ggdag()
 
 ```
 

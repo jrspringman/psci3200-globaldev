@@ -17,26 +17,60 @@ editor: source
 
 # Introducing the RStudio Layout
 
-**Basic layout**
+Before using R to illustrate basic programming concepts and data analysis tools, we will get familiar with the RStudio layout.
 
-- Rstudio contains 4 panes: source, console, environment, and viewer
-- The left pane is the source where you write code
-- Try typing `2 + 2` into the source panel and hitting ENTER
-  + The console panel in the bottom-left will return a value of `4`
-- The top-right includes the Environment panel
-  + This contains information about any objects that you load into your environment
-  + Type `sum = 2 + 2` into the source and hit ENTER
-  + The object `sum` should appear in your environment
-- The bottom-right includes the Viewer panel, where you will be able to see graphics that you generate
+## Rstudio contains 4 panes
+
+RStudio has four primary panels that will help you interact with your data. We will use the default layout of these panels.
+
+-   Source panel: Top left
+    -   Edit files to create 'scripts' of code
+-   Console panel: Bottom left
+    -   Accepts code as input
+    -   Displays output when we run code
+-   Environment panel: Top right
+    -   Everything that R is holding in memory
+    -   Objects that you create in the console or source panels will appear here
+    -   You can clear the environment with the broom icon
+-   Viewer panel: Bottom-right
+    -   View graphics that you generate
+    -   Navigate files
+
+## Illustration
+
+Let's use these panels to create and interact with data.
+
+**Console:**
+
+-   Perform a calculation: type `2 + 2` into the console panel and hit ENTER
+-   Create and store an object: type `sum = 2 + 2` into the console panel and hit ENTER
+
+**Source:**
+
+-   Start an R script: Open new .R file (button in top-left below "File")
+-   Create and store an object: type `sum = 2 + 3` into the source panel and hit cntrl+ENTER
+
+**Environment:**
+
+-   Confirm that the object `sum` is stored in our environment
+-   Use `rm(sum)` to clear the object from the environment
+-   Clear the environment with the broom icon
+
+**Viewer:**
+
+-   Navigate through your computer's files
+-   Create a plot in the source panel
 
 ```{r }
-#| include: true
+#| echo: true
+#| include: false
 #| warning: false
 #| message: false
 
+## Copy this into an .R file
 data = data.frame(
-  x1 = rnorm(10, mean = 1, sd = 1)
-  x2 = rnorm(10, mean = 1, sd = 1)
+  x1 = rnorm(100, mean = 1, sd = 1),
+  x2 = rnorm(100, mean = 1, sd = 1)
 )
 
 plot(data$x1, data$x2)
@@ -44,24 +78,117 @@ plot(data$x1, data$x2)
 ```
 
 
+# Review of Basic Programming Concepts
+
+Now that we understand the layout, we are ready to review the concepts covered in `Module 2 Week 2.2`. These concepts will help us understand what is happening when we create and manipulate data.
+
+## Objects: where values are saved in R
+
+"Object" is a generic term for anything that R stores in the environment. This can include anything from an individual number or word, to lists of values, to entire datasets.
+
+Importantly, objects belong to different "classes" depending on the type of values that they store. 
+
 ```{r }
+#| echo: true
+#| include: true
+#| warning: true
+#| message: true
+
+# Create a numeric object
+my_number = 5.6
+# Check the class
+class(my_number)
+# Perform a calculation
+my_number + 5
+
+```
+
+The class of an object determines the type of operations you can perform on it. Some operations can only be run on numeric objects (numbers). 
+
+```{r , eval=FALSE}
+#| echo: true
+#| include: true
+#| warning: true
+#| message: true
+
+# Create a character object
+my_number = "5.6"
+# Check the class
+class(my_number)
+# Perform a calculation
+my_number + 5
+round(my_number)
+
+```
+
+R contains functions that can convert some objects to different factors.
+
+```{r }
+#| echo: true
 #| include: true
 #| warning: false
 #| message: false
 
-sum = 2 + 2
+# Convert character to numeric
+my_number = as.numeric("5")
+class(my_number)
 
-print(sum)
+# But R is only so smart
+my_number = as.numeric("five")
+class(my_number)
+
+```
+
+**Lists**
+
+- Store a series of values
+- Create a list using `c()`
+- Perform calculations
+
+```{r }
+#| echo: true
+#| include: true
+#| warning: false
+#| message: false
+
+# Create a numeric vector
+numeric_vector = c(6, 11, 13, 31)
+# Print the vector
+print(numeric_vector)
+# Check the class
+class(numeric_vector)
+# Calculate the mean
+mean(numeric_vector)
 
 ```
 
 
-# Data Types
 
-  + Numeric `-1, 0, 2, 4092`
-  + Doubles are integers with decimal values like `-24.932` and `0.8`
-  + Logicals are either `TRUE` or `FALSE`
-  + Characters are text or strings like `"hello world"` and `"welcome to R"`
+**Indexing Lists**
+
+```{r }
+#| echo: true
+#| include: true
+#| warning: false
+#| message: false
+
+numeric_vector[2]
+
+numeric_vector[2:3]
+
+
+
+```
+
+
+
+
+-   Characters are text or strings like `"hello world"` and `"welcome to R"`
+-   Factors are a group of characters/strings with a fixed number of unique values
+-   Logicals are either `TRUE` or `FALSE`
+-   Data frames are objects where the rows correspond to observations and the columns correspond to variables that describe the observations
+
+
 
 ```{r }
 #| include: true
@@ -70,63 +197,43 @@ print(sum)
 
 ## Numeric
 sum = 2+2
-print(sum)
-class(sum)
 
 print(3/2)
-
-## Logical
-print(2 > 3)
 
 # Characters
 print("hello world")
 
-```
+## Logical
+print(2 > 3)
 
-
-
-## Basic programming concepts
-
-- Vectors are a series of values. These are created using the `c()` function. For example, `c(6, 11, 13, 31)` creates a four element vector of integers.
-- Factors are a group of characters/strings with a fixed number of unique values
-- Data frames are objects where the rows correspond to observations and the columns correspond to variables that describe the observations
-
-```{r }
-#| include: true
-#| warning: false
-#| message: false
-
-c(6, 11, 13, 31)
-
+# Factor
 
 ```
 
 
 
+
 ## Basic programming concepts
 
-- Conditionals:
-  + Testing for equality in R is done using `==`. For example, `2 + 1 == 3` will return `TRUE`
-  + Boolean algebra: Operators such as `<` (less than), `<=` (less than or equal), and `!=`(not equal to). For example, `3 + 5 <= 1` will return `FALSE`
-  + Logical operators: `&` represent “and” while `|` represents “or.” For example, `(2 + 1 == 3) & (2 + 1 == 4)` returns `FALSE` since both clauses are not `TRUE` 
+-   Conditionals:
+    -   Testing for equality in R is done using `==`. For example, `2 + 1 == 3` will return `TRUE`
+    -   Boolean algebra: Operators such as `<` (less than), `<=` (less than or equal), and `!=`(not equal to). For example, `3 + 5 <= 1` will return `FALSE`
+    -   Logical operators: `&` represent “and” while `|` represents “or.” For example, `(2 + 1 == 3) & (2 + 1 == 4)` returns `FALSE` since both clauses are not `TRUE`
 
 ## Loading Packages
 
-- R gives you accesss to thousands of "packages" that are created by users
-- Packages contain datasets and bundles of code called "functions" that can execute specific tasks
-- Use `install.packages()` to install a package
-  + Insert the name of the package contained in quotation marks
-  + Start by installing the `dplyr` package
-
+-   R gives you accesss to thousands of "packages" that are created by users
+-   Packages contain datasets and bundles of code called "functions" that can execute specific tasks
+-   Use `install.packages()` to install a package
+    -   Insert the name of the package contained in quotation marks
+    -   Start by installing the `dplyr` package
 
 # Loading Data into R
 
-- Load data into your environment by "reading-in" a spreadsheet
-- Spreadsheets should be saved as a `.csv` file
-- Use `read.csv()` to pull data from a spreadsheet on your harddrive into your R/RStudio environment
-  + Within the parentheses, add the full file pathway where the `.csv` file is stored
-
-
+-   Load data into your environment by "reading-in" a spreadsheet
+-   Spreadsheets should be saved as a `.csv` file
+-   Use `read.csv()` to pull data from a spreadsheet on your harddrive into your R/RStudio environment
+    -   Within the parentheses, add the full file pathway where the `.csv` file is stored
 
 ```{r }
 #| include: false
@@ -155,16 +262,7 @@ palette = MetBrewer::met.brewer(name = "Cross")
 ```
 
 
-## Errors, warnings, and messages
-
-- When you run code, R often provides feedback in the console
-- There are 3 main types of feedback that appear in RED
-  + Errors: When the RED text is prefaced with “Error in…”, your code will not work. The error message will try to explain the problem.
-  + Warnings: When the red text is prefaced with “Warning:”, your code will still work, but there still might be a problem. The warning message will try to explain the problem.
-  + Messages: When the red text doesn’t start with “Error” or “Warning”, it’s just a friendly message
-
-
-
+# Cleaning Data
 
 # Index Variables
 
@@ -187,7 +285,6 @@ dat = dat %>%
 #dat$add_participation_end = dat$q13_4_1 + dat$q13_5_1
 
 ```
-
 
 ```{r}
 #| echo: false
@@ -216,10 +313,7 @@ ggplot(participate, aes(x = value, y = pct)) +
 
 ```
 
-
-
 ## Averaged Z-Scores
-
 
 ```{r}
 #| echo: false
@@ -270,7 +364,6 @@ dat = dat %>%
 
 ```
 
-
 ```{r}
 #| echo: false
 #| warning: false
@@ -304,7 +397,6 @@ ggplot(participate , aes(x = value, y = pct)) +
 
 ```
 
-
 ```{r}
 #| echo: false
 #| warning: false
@@ -335,10 +427,7 @@ ggplot(participate , aes(x = value )) +
 
 ```
 
-
-
-
-# Interaction Terms
+# Regression
 
 ## Differences across groups
 
@@ -367,7 +456,6 @@ modelsummary(
   gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
 
 ```
-
 
 ```{r}
 #| echo: false
@@ -413,7 +501,6 @@ modelsummary(
 
 ```
 
-
 ```{r}
 #| echo: false
 #| warning: false
@@ -434,7 +521,6 @@ ggplot(prediction_df, aes(x = year, y = prediction, color = factor(moved))) +
 ```
 
 ### More complex
-
 
 ```{r}
 #| echo: false
@@ -463,7 +549,6 @@ modelsummary(
   gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
 
 ```
-
 
 ```{r}
 #| echo: false
@@ -503,7 +588,6 @@ ggplot(newdata, aes(x = as.numeric(year), y = prediction, color = factor(moved))
 
 ```
 
-
 ## Differences over time
 
 ### Cross-Sectional
@@ -532,8 +616,6 @@ modelsummary(
 
 ```
 
-
-
 ```{r}
 #| echo: false
 #| warning: false
@@ -553,9 +635,7 @@ ggplot(prediction_df, aes(x = time, y = prediction, color = factor(moved))) +
 
 ```
 
-
 ### Fixed Effects
-
 
 ```{r}
 #| echo: false
@@ -575,8 +655,6 @@ modelsummary(
 
 
 ```
-
-
 
 ```{r}
 #| echo: false
@@ -604,5 +682,41 @@ ggplot(prediction_df, aes(x = time, y = prediction, color = factor(moved))) +
 
 
 
+# Appendix
+
+Some operations can only be run on character (string) objects.
+
+## Strings
+
+```{r , eval=FALSE}
+#| echo: true
+#| include: true
+#| warning: true
+#| message: true
+
+# Create a character object
+my_number = "5.6"
+# Check the class
+class(my_number)
+# Perform a calculation
+stringr::str_split(my_number, "\\.")
+
+```
 
 
+```{r , eval=FALSE}
+#| echo: true
+#| include: true
+#| warning: true
+#| message: true
+
+# Create a character object
+my_number = 5.6
+# Check the class
+class(my_number)
+# Perform a calculation
+stringr::str_split(my_number, "\\.")
+stringr::str_length(my_number)
+
+
+```
