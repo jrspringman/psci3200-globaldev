@@ -19,7 +19,7 @@ editor: source
 
 Before using R to illustrate basic programming concepts and data analysis tools, we will get familiar with the RStudio layout.
 
-## Rstudio contains 4 panes
+## Rstudio contains 4 panels
 
 RStudio has four primary panels that will help you interact with your data. We will use the default layout of these panels.
 
@@ -87,6 +87,7 @@ Now that we understand the layout, we are ready to review the concepts covered i
 
 Importantly, objects belong to different "classes" depending on the type of values that they store.
 
+-   Numerics are numbers
 -   Characters are text or strings like `"hello world"` and `"welcome to R"`.
 -   Factors are a group of characters/strings with a fixed number of unique values
 -   Logicals are either `TRUE` or `FALSE`
@@ -252,7 +253,7 @@ In most data frames, rows correspond to observations and the columns correspond 
 
 ## Loading Packages
 
-Packages are an extremely important part of data analysis with R. 
+Packages are an extremely important part of data analysis with R.
 
 -   R gives you access to thousands of "packages" that are created by users
 -   Packages contain bundles of code called "functions" that can execute specific tasks
@@ -273,19 +274,18 @@ library(tidyverse)
 
 When you are searching online or asking ChatGPT how to perform a specific task in R, it often helps to specify that you are looking for a solution in `dplyr`.
 
-
 # Cleaning Data
 
 In the real-world, data never comes ready to be analyzed. Data cleaning is the process of manipulating data so that it can be analyzed. This is usually the most difficult and time-consuming part of any data analysis project. Let's walk through some examples.
 
 ## Creating Variables
 
-Imagine we want to analyze the relationship between whether a respondent moved to to Addis Ababa to attend university and their level of political participation.  However, there are two problems:
+Imagine we want to analyze the relationship between whether a respondent moved to to Addis Ababa to attend university and their level of political participation. However, there are two problems:
 
-- We don't have a specific variable that measures whether or not respondents moved
-- We have many measures of participation 
+-   We don't have a specific variable that measures whether or not respondents moved
+-   We have many measures of participation
 
-How can we create a variable measuring whether the respondent moved to Addis Ababa? We  have a multiple-choice question asking students about what region they come from.  
+How can we create a variable measuring whether the respondent moved to Addis Ababa? We have a multiple-choice question asking students about what region they come from.
 
 Let's start by investigating this variable.
 
@@ -320,7 +320,6 @@ dat = dat %>%
 table(dat$home_region)
 
 ```
-
 
 ```{r }
 #| echo: true
@@ -360,7 +359,12 @@ Now that we've cleaned-up the names, we want to create a variable that tells us 
 #| message: false
 
 # Creating a measure of whether a respondent moved to Addis Ababa in order to at independent variable
-dat = dat %>% mutate(moved = case_when(home_region == "Addis Ababa" ~ 0, TRUE ~ 1) )
+dat = dat %>% mutate(
+  moved = case_when(
+    home_region == "Addis Ababa" ~ 0, 
+    TRUE ~ 1
+    ) 
+  )
 
 table(dat$moved, dat$home_region)
 
@@ -368,8 +372,8 @@ table(dat$moved, dat$home_region)
 
 Now, we need to create our second variable measuring levels of political participation. Remember, the challenge is that we have multiple measures of participation. Let's start with two measures:
 
-- Number of times you've contacted gov't official `q13_4_1`
-- Number of times you've signed a petition `q13_5_1`
+-   Number of times you've contacted gov't official `q13_4_1`
+-   Number of times you've signed a petition `q13_5_1`
 
 ```{r}
 #| echo: true
@@ -380,7 +384,7 @@ Now, we need to create our second variable measuring levels of political partici
 # Check out the distribution of our variables
 dat %>% select(q13_4_1, q13_5_1) %>% head(5)
 
-hist(dat$q13_4_1)
+range(dat$q13_4_1, na.rm = T)
 hist(dat$q13_5_1)
 
 # Create a single measuree
@@ -416,7 +420,7 @@ dat = dat %>%
 
 # Regression
 
-Now let's use simple linear regression to estimate the relationship between these two variables that we created. 
+Now let's use simple linear regression to estimate the relationship between these two variables that we created.
 
 ```{r}
 #| echo: true
@@ -432,7 +436,6 @@ summary(est)
 
 What if we want to control for the influence of the number of years someone has been at university? Here, we can create a new measure of year and use multiple regression.
 
-
 ```{r}
 #| echo: true
 #| include: true
@@ -445,10 +448,14 @@ library(modelsummary)
 
 table(dat$class_year)
 
-dat = dat %>% mutate(year_bin = as.numeric(case_when(class_year == "Year I" ~ 0,
-                                                 class_year == "Year II" ~ NA,
-                                                 class_year == "Year III" ~ 1 )) )
-table(dat$year)
+dat = dat %>% mutate(
+  year_bin = as.numeric(case_when(class_year == "Year I" ~ 0,
+                                  class_year == "Year II" ~ NA,
+                                  class_year == "Year III" ~ 1 
+                                  )
+                        ) 
+  )
+table(dat$year_bin)
 
 models <- list()
 models[['Bivariate']] = lm(add_participation ~ moved, dat)
@@ -487,10 +494,7 @@ modelsummary(
 
 ```
 
-
 # Appendix
-
-
 
 ## Averaged Z-Scores
 
@@ -545,8 +549,6 @@ dat = dat %>%
 
 ```
 
-
-
 ```{r}
 #| echo: true
 #| include: true
@@ -573,4 +575,3 @@ modelsummary(
 
 
 ```
-
