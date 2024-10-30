@@ -6291,5 +6291,96 @@
     "title": "Final Report Example",
     "section": "Results",
     "text": "Results\n\n\n\n \n\n  \n    \n    \n    tinytable_6nez2vjggiormqumv2sh\n    \n    \n    \n    \n  \n\n  \n    \n      \n        \n        \n              \n                 \n                Contact Official\n                Attend Meeting\n                NGO Volunteer\n                Sign Petition\n              \n        \n        \n        \n                \n                  (Intercept)\n                  1.044*** (0.114)\n                  0.752*** (0.116)\n                  1.304*** (0.181)\n                  0.354*** (0.090)\n                \n                \n                  moved      \n                  -0.178 (0.141)  \n                  0.580*** (0.143)\n                  0.117 (0.222)   \n                  0.529*** (0.110)\n                \n                \n                  Num.Obs.   \n                  802             \n                  801             \n                  803             \n                  801             \n                \n                \n                  R2 Adj.    \n                  0.001           \n                  0.019           \n                  -0.001          \n                  0.027"
+  },
+  {
+    "objectID": "slides/course_description.html#course-description",
+    "href": "slides/course_description.html#course-description",
+    "title": "PSCI 3200",
+    "section": "Course Description",
+    "text": "Course Description\n\n\n\nIntroduction to contemporary development research\nMixture of policy and academic research\nData analysis methods, inferential techniques, and computational tools\nUseful for development sector, policy, industry, etc.\n\n\n\nWe spent a lot of time learning about the tools that academics use to understand the problems faced by developing countries\nThis isn’t because I think that academic research does a good job or providing answers about how to advance development\nRather, I think these tools can be useful to those who are well positioned/incentivized to do that\n\nThink about the Kenya Education paper\nThink about UCTs"
+  },
+  {
+    "objectID": "slides/course_description.html#course-description-1",
+    "href": "slides/course_description.html#course-description-1",
+    "title": "PSCI 3200",
+    "section": "Course Description",
+    "text": "Course Description\n\nThis course provides an introduction to data analysis methods, inferential techniques, and computational tools in the context of contemporary development research. You will learn how research techniques pioneered in academia can be applied to address big problems faced by developing countries. The course is organized around a final project, where you will apply these skills to real data and host the research product on your own free, open source website.\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/course_description.html#course-description-2",
+    "href": "slides/course_description.html#course-description-2",
+    "title": "PSCI 3200",
+    "section": "Course Description",
+    "text": "Course Description\n\nMethods:\n\nDeepen understanding of ‘workhorse’ statistical methods and research designs\nHow these methods can be used to make inferences about population characteristics and causal relationships\n\nTools\n\nIntroduce the computational tools that are needed to implement these methods\nSoftware necessary to prepare professional documents and reproducible data analysis workflows"
+  },
+  {
+    "objectID": "slides/course_description.html#course-description-3",
+    "href": "slides/course_description.html#course-description-3",
+    "title": "PSCI 3200",
+    "section": "Course Description",
+    "text": "Course Description\n\nThis course provides an introduction to data analysis methods, inferential techniques, and computational tools in the context of contemporary development research. You will learn how research techniques pioneered in academia can be applied to address big problems faced by developing countries. The course is organized around a final project, where you will apply these skills to real data and host the research product on your own free, open source website.\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/course_description.html#course-description-4",
+    "href": "slides/course_description.html#course-description-4",
+    "title": "PSCI 3200",
+    "section": "Course Description",
+    "text": "Course Description\n\nMethods:\n\nDeepen understanding of ‘workhorse’ statistical methods and research designs\nHow these methods can be used to make inferences about population characteristics and causal relationships\n\nTools\n\nIntroduce the computational tools that are needed to implement these methods\nSoftware necessary to prepare professional documents and reproducible data analysis workflows"
+  },
+  {
+    "objectID": "slides/course_description.html#course-objectives",
+    "href": "slides/course_description.html#course-objectives",
+    "title": "PSCI 3200",
+    "section": "Course Objectives",
+    "text": "Course Objectives\nAt the end of the course you should be able to:\n\nEvaluate the quality of evidence in the development field\nThink clearly about how data can be used to learn about development and governance challenges\nUse tools for data analysis such as R, RStudio, Quarto, and GitHub\nProduce professional-quality documents that summarize original research"
+  },
+  {
+    "objectID": "slides/course_description.html#prerequisites",
+    "href": "slides/course_description.html#prerequisites",
+    "title": "PSCI 3200",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nFollow-up to PSCI 1102\n\n1102 introduces big theoretical debates around governance and development\n3200 focuses on applied research\n\nBuilding on PSCI 1800\n\nBasic familiarity with R and RStudio\nBasic knowledge of statistics/econometrics/data science"
+  },
+  {
+    "objectID": "slides/course_description.html#grading",
+    "href": "slides/course_description.html#grading",
+    "title": "PSCI 3200",
+    "section": "Grading",
+    "text": "Grading\n\n\n\nWorkshops\nData Assignments\nFinal Project"
+  },
+  {
+    "objectID": "slides/course_description.html#final-project",
+    "href": "slides/course_description.html#final-project",
+    "title": "PSCI 3200",
+    "section": "Final Project",
+    "text": "Final Project\n\nData analysis project with data of your choosing\n\nFormulate a research question\nFind data that can help you answer that question\nApply the tools and methods from this course\nWrite-up analysis\n\nProduce a webpage to present your results for public consumption\n\n\nYour final submission will be a publicly available webpage that contains: (1) a brief introduction to your research question and data; (2) a discussion of your research design, its assumptions, and threats to inference; (3) a visualization that describes your data; (4) a presentation of the results from a regression model (as a table or graph) and discussion of its implications for your research question; and (5) a discussion of the implications of your findings for development policy or practice, including the limitations of your analysis and suggestions for future research."
+  },
+  {
+    "objectID": "slides/course_description.html#slide4-id",
+    "href": "slides/course_description.html#slide4-id",
+    "title": "PSCI 3200",
+    "section": "",
+    "text": "jrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/course_description.html#substantive-topics",
+    "href": "slides/course_description.html#substantive-topics",
+    "title": "PSCI 3200",
+    "section": "Substantive Topics",
+    "text": "Substantive Topics\n\n\n\nSubstantive focus areas\n\nDemocracy and Autocratization\nMigration\nCrime and Conflict\nForeign Aid\nClimate change and adaptation"
+  },
+  {
+    "objectID": "slides/course_description.html#methods-tools",
+    "href": "slides/course_description.html#methods-tools",
+    "title": "PSCI 3200",
+    "section": "Methods & Tools",
+    "text": "Methods & Tools\n\nMethods:\n\nCover ‘workhorse’ statistical methods and research designs\nInferences about population characteristics and causal relationships\n\nTools\n\nComputational tools that are needed to implement these methods\nSoftware necessary to prepare documents and reproducible analysis"
+  },
+  {
+    "objectID": "slides/course_description.html#activities-grading",
+    "href": "slides/course_description.html#activities-grading",
+    "title": "PSCI 3200",
+    "section": "Activities & Grading",
+    "text": "Activities & Grading\n\n\n\nWorkshops\nData Assignments\nFinal Project"
   }
 ]
