@@ -278,6 +278,8 @@ When you are searching online or asking ChatGPT how to perform a specific task i
 
 In the real-world, data never comes ready to be analyzed. Data cleaning is the process of manipulating data so that it can be analyzed. This is usually the most difficult and time-consuming part of any data analysis project. Let's walk through some examples.
 
+**Question: In your work, what data cleaning have you had to do? How have you cleaned your data?**
+
 ## Creating Variables
 
 Imagine we want to analyze the relationship between whether a respondent moved to to Addis Ababa to attend university and their level of political participation. However, there are two problems:
@@ -400,6 +402,8 @@ hist(dat$add_participation)
 
 One thing we need to be careful with are NA values. We need to think carefully about why NA values are in our data and how to handle them appropriately.
 
+**Question: Thinking about the data that you have worked with, what are the most common sources of `NA` values?**
+
 ```{r}
 #| echo: true
 #| include: true
@@ -417,6 +421,167 @@ dat = dat %>%
 #   mutate(home_region = na_if(home_region, "Prefer not to say")) %>%
 
 ```
+
+## Merging Datasets
+
+Often, data analysis projects will require you to use variables from more than one dataset. This will require you to combine separate datasets into a single dataset in R, which is called *merging*. A *merge* uses an identifier (administrative unit names, respondent IDs, etc.) that is present in both datasets to combine them into one. 
+
+**Question: Thinking about the data that you have worked with, have you ever had to merge multiple datasets? What was the data? How did you do it?**
+
+
+```{r}
+#| echo: true
+#| include: true
+#| warning: false
+#| message: false
+
+## Here we are selecting the unit-identifier (response_id) and the two variables we have created and saving them to a separate dataframe
+new_vars = dat %>%
+  select(response_id, moved, add_participation)
+
+## After you do some cleaning or create new variables, you may want to save that dataframe for future use
+# write.csv(new_dat, here::here("workshops/aau_survey/new_vars.csv"))
+
+## Drop the new variables from our dataframe so that we can merge them back in
+dat = dat %>%
+  select( -moved, -add_participation)
+
+## Check to make sure the merge will work as expected
+# nrow(dat)
+# nrow(new_vars)
+# dat$response_id[! dat$response_id %in% new_vars$response_id]
+
+## Use dplyr's `full_join` function  to merge datasets
+dat = dat %>%
+  full_join(., new_vars)
+
+  
+```
+
+# Data Visualization
+
+One of the major benefits of using R is the ability to create beautiful tables and figures that can be incorporated into deliverables and other professional documents. Importantly, you can create a script that allows you to automatically recreate the same visualizations when you want to make slight changes or incorporate new data.
+
+**Question: What methods do you currently use to create data visualizations for deliverables and other research products?**
+
+## Tables
+
+```{r}
+#| echo: true
+#| include: true
+#| warning: false
+#| message: false
+
+
+#install.packages("gt")
+library(gt)
+
+desciptives = dat %>%
+  group_by(moved) %>%
+  summarise(observations = n(), 
+            share = observations / nrow(dat),
+            mean = mean(add_participation, na.rm = T)) %>%
+  mutate(moved = case_when(moved == 0 ~ "No",
+                           moved == 1 ~ "Yes"),
+         share = share *100)
+
+gt(desciptives) %>%
+  tab_header(
+    title = "Moving to University and Political Participation",
+  ) %>%
+  fmt_number(
+    columns = 3:4,
+    decimals = 2,
+    use_seps = FALSE
+  ) %>%
+  cols_label(
+    moved = md("Moved to<br>Addis"),
+    observations = md("Respondents<br>(count)"),
+    share = md("Respondents<br>(%)"),
+    mean = md("Participation<br>(mean score)")
+  )
+
+```
+
+
+## Figures
+
+There are many ways to create figures in R, but `ggplot` is the most popular. 
+
+```{r}
+#| echo: true
+#| include: true
+#| warning: false
+#| message: false
+
+
+ggplot(dat, aes(add_participation)) +
+  geom_histogram(binwidth = 1)
+
+dat %>%
+  filter(add_participation < 15) %>%
+  ggplot(aes(add_participation)) +
+  geom_histogram(binwidth = 1)
+
+dat %>%
+  filter(add_participation < 15) %>%
+  ggplot(aes(x = add_participation, fill = q3_baseline)) +
+  geom_histogram(binwidth = 1, alpha = 0.5, position = "identity")
+
+dat %>%
+  filter(add_participation < 15) %>%
+  mutate(q3_baseline = fct_rev(as.factor(q3_baseline))) %>%
+  ggplot(aes(x = add_participation, fill = q3_baseline)) +
+  geom_histogram(aes(y = (..count..) / sum(..count..) * 100),
+                 binwidth = 1, alpha = 0.5, position = "identity") +
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+  labs(y = "Percentage") +
+  theme_bw() +
+  theme(legend.title = element_blank(), legend.position = c(.8, .8))
+
+
+
+
+```
+
+You can do tremendous amounts of customization with `ggplot` to create extremely informative and professional plots.
+
+```{r}
+#| echo: true
+#| include: true
+#| warning: false
+#| message: false
+
+
+## demographics
+demos = dat %>%
+  drop_na(q3_baseline) %>% 
+  select(`Respondent Gender` = q3_baseline, `Work as a student?` = q4_baseline, 
+         `Rural or urban?` = q5_baseline, `Financial support from family?` = q6_baseline, 
+         `Home region` = home_region,
+         `Student Year` = class_year) %>% 
+  pivot_longer(everything()) %>% 
+  group_by(name, value) %>% 
+  tally() %>% 
+  mutate(pct = n/sum(n)) %>% 
+  top_n(n = 5, wt = pct)
+
+demos$name = factor(demos$name, levels = c('Home region', 'Rural or urban?', 'Student Year', 'Respondent Gender', 'Work as a student?', 'Financial support from family?'))
+
+
+ggplot(demos , aes(y = value, x = pct)) + 
+  geom_col(fill = "blue") + 
+  facet_wrap( ~name, scales = "free") + 
+  scale_y_discrete(labels = scales::label_wrap(30)) + 
+  hrbrthemes::scale_x_percent(limits = c(0, 1)) + 
+  labs(x = "Percent of respondents", y = NULL, 
+       title = "Demographic characteristics of baseline respondents", 
+       subtitle = glue::glue("Number of respondents = {scales::comma(nrow(df))}"), 
+       caption = "Note: home region only displays top five categories by size.")
+
+```
+
+
 
 # Regression
 
@@ -441,7 +606,6 @@ What if we want to control for the influence of the number of years someone has 
 #| include: true
 #| warning: false
 #| message: false
-
 
 #install.packages("modelsummary")
 library(modelsummary)
