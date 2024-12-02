@@ -10,8 +10,8 @@ This LEES Live Session will focus on using R and RStudio for data analysis. Duri
 
 | Activity | Description | Duration |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| Introductions and Sign-in | Fill out this [form](https://forms.gle/Wve8pX79TFDY4RC17) to sign into the session. | 5 min | 
-| R Coding Review | Review of basic R concepts covered in [Module 2 Week 2.2](https://classroom.google.com/c/NjY0NDg1OTIzNTM4/m/Njk3OTQ0NTcyMDIw/details) | 10 min | 
+| Introductions and Sign-in | Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfLr3Rs3Y7LIEl9e_iyRFxh_EK7Lm8L9uA0mVOinZsuyMG18w/viewform) to sign into the session. | 5 min | 
+| R Coding Review | Review of basic R concepts covered in [Module 2 Week 2.2](https://classroom.google.com/c/NzE0MDA4MjAxMDkw/m/NzI4ODMyNzA4NTAy/details) | 10 min | 
 | Cleaning Data | Read-in real data, create new variables, calculate quantities| 30 min   |
 | Data Visualization | Create tables and figures| 10 min   |
 | Regressions | Run regressions and store output in a presentable format | 10 min |
