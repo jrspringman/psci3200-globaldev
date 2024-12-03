@@ -109,7 +109,7 @@ my_character = "welcome to R"
 class(my_character)
 
 # Create a logical object
-my_logical = FALSE
+my_logical = TRUE
 # Check the class
 class(my_logical)
 
@@ -128,7 +128,7 @@ my_number = 5.6
 # Check the class
 class(my_number)
 # Perform a calculation
-my_number + 5
+my_number = my_number + 5
 
 ```
 
@@ -162,10 +162,11 @@ R contains functions that can convert some objects to different factors.
 my_number = as.numeric("5")
 class(my_number)
 
+my_number <- 5
+
 # But R is only so smart
 my_number = as.numeric("five")
-class(my_number)
-
+print(my_number)
 ```
 
 ## Data Structures
@@ -242,7 +243,7 @@ Anything that comes in a spreadsheet (for example, an excel file) can be loaded 
 #| message: false
 
 # Use `read.csv()` to load data from a website
-dat = read.csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" ) 
+dat = read.csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv") 
 
 # Use `read.csv()` to load data from your computer's Downloads folder
 # dat = read.csv("/home/jeremy/Downloads/clean_endline_did.csv")
@@ -267,7 +268,7 @@ In the next section, we'll use the package `dplyr` to perform some data cleaning
 #| warning: false
 #| message: false
 
-#install.packages("tidyverse")
+# install.packages("tidyverse")
 library(tidyverse)
 
 ```
@@ -361,10 +362,11 @@ Now that we've cleaned-up the names, we want to create a variable that tells us 
 #| message: false
 
 # Creating a measure of whether a respondent moved to Addis Ababa in order to at independent variable
-dat = dat %>% mutate(
-  moved = case_when(
-    home_region == "Addis Ababa" ~ 0, 
-    TRUE ~ 1
+dat = dat %>% 
+  mutate(
+    moved = case_when(
+      home_region == "Addis Ababa" ~ 0,
+      TRUE ~ 1
     ) 
   )
 
@@ -386,7 +388,7 @@ Now, we need to create our second variable measuring levels of political partici
 # Check out the distribution of our variables
 dat %>% select(q13_4_1, q13_5_1) %>% head(5)
 
-range(dat$q13_4_1, na.rm = T)
+mean(dat$q13_4_1)
 hist(dat$q13_5_1)
 
 # Create a single measuree
@@ -397,6 +399,7 @@ dat = dat %>%
   )
 
 hist(dat$add_participation)
+# how do investigate NA values?
 
 ```
 
@@ -424,10 +427,9 @@ dat = dat %>%
 
 ## Merging Datasets
 
-Often, data analysis projects will require you to use variables from more than one dataset. This will require you to combine separate datasets into a single dataset in R, which is called *merging*. A *merge* uses an identifier (administrative unit names, respondent IDs, etc.) that is present in both datasets to combine them into one. 
+Often, data analysis projects will require you to use variables from more than one dataset. This will require you to combine separate datasets into a single dataset in R, which is called *merging*. A *merge* uses an identifier (administrative unit names, respondent IDs, etc.) that is present in both datasets to combine them into one.
 
 **Question: Thinking about the data that you have worked with, have you ever had to merge multiple datasets? What was the data? How did you do it?**
-
 
 ```{r}
 #| echo: true
@@ -499,14 +501,15 @@ gt(desciptives) %>%
     observations = md("Respondents<br>(count)"),
     share = md("Respondents<br>(%)"),
     mean = md("Participation<br>(mean score)")
-  )
+  ) %>%
+  gtsave(filename = "tab_1.png")
+
 
 ```
 
-
 ## Figures
 
-There are many ways to create figures in R, but `ggplot` is the most popular. 
+There are many ways to create figures in R, but `ggplot` is the most popular.
 
 ```{r}
 #| echo: true
@@ -530,8 +533,8 @@ dat %>%
 
 dat %>%
   filter(add_participation < 15) %>%
-  mutate(q3_baseline = fct_rev(as.factor(q3_baseline))) %>%
-  ggplot(aes(x = add_participation, fill = q3_baseline)) +
+  mutate(moved = fct_rev(as.factor(moved))) %>%
+  ggplot(aes(x = add_participation, fill = moved)) +
   geom_histogram(aes(y = (..count..) / sum(..count..) * 100),
                  binwidth = 1, alpha = 0.5, position = "identity") +
   scale_y_continuous(labels = scales::percent_format(scale = 1)) +
@@ -568,24 +571,40 @@ demos = dat %>%
 
 demos$name = factor(demos$name, levels = c('Home region', 'Rural or urban?', 'Student Year', 'Respondent Gender', 'Work as a student?', 'Financial support from family?'))
 
+demos <- demos %>%
+  group_by(name) %>%
+  mutate(total_n = sum(n)) %>%
+  ungroup()
 
 ggplot(demos , aes(y = value, x = pct)) + 
-  geom_col(fill = "blue") + 
+  geom_col(fill = "grey") + 
   facet_wrap( ~name, scales = "free") + 
   scale_y_discrete(labels = scales::label_wrap(30)) + 
   hrbrthemes::scale_x_percent(limits = c(0, 1)) + 
-  labs(x = "Percent of respondents", y = NULL, 
+  labs(x = "Percent of respondents to the survey", y = NULL, 
        title = "Demographic characteristics of baseline respondents", 
        subtitle = glue::glue("Number of respondents = {scales::comma(nrow(df))}"), 
-       caption = "Note: home region only displays top five categories by size.")
+       caption = "Note: home region only displays top five categories by size.") +
+  geom_text(
+    aes(
+      label = glue::glue("n = {total_n}")
+    ), 
+    x = 0.92, y = -Inf, 
+    vjust = -1, hjust = 1, 
+    inherit.aes = FALSE
+  )
+
+ggsave("/home/jeremy/Downloads/demographics.png")
+
+
 
 ```
-
-
 
 # Regression
 
 Now let's use simple linear regression to estimate the relationship between these two variables that we created.
+
+**Question: Have you used regression in your research? If so, what software did you use to**
 
 ```{r}
 #| echo: true
