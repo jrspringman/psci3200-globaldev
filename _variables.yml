@@ -1,27 +1,28 @@
 author: Jeremy Springman
 
 instructor:
-  name: Jeremy Springman
+  name_1: Jeremy Springman
+  name_2: Carolina Torreblanca
   name_no_title: Jeremy Springman
   email: jspr@sas.upenn.edu
-  url: "https://web.sas.upenn.edu/jeremyspringman/"
-  twitter: JRGSpringman
+  url_1: "https://web.sas.upenn.edu/jeremyspringman/"
+  url_2: "https://carolina-torreblanca.github.io/"
   github: jrspringman
-  office: "333 - Perelman Center for<br>Political Science"
+  office: "Perelman Center for<br>Political Science"
   contact_policy: >-
     General questions about the course, materials, or assignments should be posted to the course Slack. This will allow other students to benefit from the answer(s) provided. For other issues (absences, accomodations, etc.), email me or send me a direct message on Slack. I will attempt to respond to these messages within 48 hours, but please be patient!
   appointment_url: https://calendly.com/jspr-m8a/office-hours
 
 course:
   number: "PSCI 3200"
-  semester: "Spring 2024"
-  days: "Tue/Thu"
+  semester: "Spring 2025"
+  days: "Mon/Wed"
   time: "3:30–4:59 PM"
-  location: "EDUC 201"
-  dates: "January 18th - May 1st"
+  location: "TBD"
+  dates: "January 15th - April 30th"
   github: "https://github.com/jrspringman/psci3200-globaldev"
   url: "https://jrspringman.github.io/psci3200-globaldev/"
-  copyright_year: "2024"
+  copyright_year: "2025"
   slack: "https://psci3200-globaldev.slack.com/ssb/signin_redirect"
   canvas: "https://canvas.upenn.edu/courses/1771152"
 

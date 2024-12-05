@@ -17,9 +17,10 @@ course-logo: /files/img/stacked_logo_1.png
 ::: {.g-col-12 .g-col-md-4}
 ### Instructor
 
--   {{< fa user >}} &nbsp; [{{< var instructor.name >}}](%7B%7B%3C%20var%20instructor.url%20%3E%7D%7D)
+-   {{< fa user >}} &nbsp; [{{< var instructor.name_1 >}}](%7B%7B%3C%20var%20instructor.url_1%20%3E%7D%7D)
+-   {{< fa user >}} &nbsp; [{{< var instructor.name_2 >}}](%7B%7B%3C%20var%20instructor.url_2%20%3E%7D%7D)
 -   {{< fa university >}} &nbsp; {{< var instructor.office >}}
--   {{< fa envelope >}} &nbsp; <a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a> <!-- - {{< fa brands twitter >}} &nbsp; [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}}) -->
+-   {{< fa envelope >}} &nbsp; <a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a> 
 -   {{< fa calendar-check >}} &nbsp; [Schedule an appointment](%7B%7B%3C%20var%20instructor.appointment_url%20%3E%7D%7D)
 :::
 

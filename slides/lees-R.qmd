@@ -22,6 +22,8 @@ format:
 highlight-style: github
 ---
 
+<!-- https://docs.google.com/presentation/d/1kLVVitZ7T_h-csVscnFPYiCbOOvU8D9cPSvBmcBKITk/edit#slide=id.g2e9f3969cd6_0_220 -->
+
 # R and RStudio
 
 ## Resources
