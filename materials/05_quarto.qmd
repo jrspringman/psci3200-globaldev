@@ -1,0 +1,28 @@
+---
+title: "R, RStudio, and Quarto"
+date: 2025-01-29
+---
+
+
+## Required Readings
+
+- None
+
+## Assignment
+
+- Install RStudio
+  + [Instructions](/assignments/install-R.html)
+- Install Quarto
+  + [Instructions](/assignments/01_quarto.html)
+
+## Materials
+
+- [R and RStudio (visual)](workshops/lees_R_doc.html)
+- [R and RStudio (source)](workshops/lees_R_doc.qmd)
+
+
+## Slides
+
+
+
+

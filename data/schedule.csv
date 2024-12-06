@@ -3,11 +3,11 @@ week,date,date_end,title,deadline, reading,content,tutorial,assignment
 2,2025-01-20,,Correlation and Causation,,TCD Ch 2-3,/materials/02_causal,,
 2,2025-01-22,,Causal Inference 1,,DSS Ch 2; Duflo (2017),/materials/03_causal,,
 3,2025-01-27,,Survey Research ,,DSS Ch 3,/materials/04_sampling,,/assignments/01_quarto
-3,2025-01-29,,Democracy and Autocratization 1 (Survey Experiments),,Grady; Albertus and Grossman (2021); Hollerbauer et al. (2024),/materials/05_autocracy1,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/w1_quarto.qmd,
-4,2025-02-03,,Linear Regression,,DSS Ch 4,/materials/06_regression,,
-4,2025-02-05,,Causal Inference 2,,DSS Ch 5,/materials/07_causal,,/assignments/02_gitrepo
-5,2025-02-10,,Migration 1,,3ie; Sviatschi (2022); Gazeaud (2020),/materials/08_migration,,
-5,2025-02-12,,Migration 2 (guest: Wibbels),,TBD,/materials/09_migration,,
+3,2025-01-29,,Rstudio and Quarto,,,/materials/05_quarto,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/w1_quarto.qmd,
+4,2025-02-03,,Democracy and Autocratization 1 (Survey Experiments),,Grady; Albertus and Grossman (2021); Hollerbauer et al. (2024),/materials/05_autocracy1,,
+4,2025-02-05,,Linear Regression,,DSS Ch 4,/materials/06_regression,,/assignments/02_gitrepo
+5,2025-02-10,,Causal Inference 2,,DSS Ch 5,/materials/07_causal,,
+5,2025-02-12,,Migration 1,,3ie; Sviatschi (2022); Gazeaud (2020),/materials/08_migration,,
 6,2025-02-17,,Crime 1 (guest: Schmidt-Padilla),,Dell (2015); Sviatschi (2022),/materials/10_crime,,
 6,2025-02-19,,Crime 2 (guest: Schmidt-Padilla),,Angelova et al. (2023),/materials/11_crime,,
 7,2025-02-19,,Conflict & Cohesion 1,,Paluck et al. (2021); Grady et al. (2023); Mousa (2020),/materials/12_conflict,,
