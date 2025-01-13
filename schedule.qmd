@@ -14,7 +14,8 @@ library(kableExtra)
 library(lubridate)
 library(glue)
 
-schedule <- read_csv("data/schedule.csv", show_col_types = FALSE) 
+schedule <- read_csv("data/schedulev2.csv", show_col_types = FALSE) %>% 
+  mutate(date = mdy(date))
 ```
         
 
