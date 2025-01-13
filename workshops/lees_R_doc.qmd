@@ -594,7 +594,7 @@ ggplot(demos , aes(y = value, x = pct)) +
     inherit.aes = FALSE
   )
 
-ggsave("/home/jeremy/Downloads/demographics.png")
+#ggsave("/home/jeremy/Downloads/demographics.png")
 
 
 

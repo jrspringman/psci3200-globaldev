@@ -1,6 +1,6 @@
 ---
 title: "Introduction to PSCI 3200"
-date: 2024-01-18
+date: 2025-01-15
 ---
 
 
@@ -10,5 +10,5 @@ date: 2024-01-18
 
 ## Slides
 
-- Thursday (1/18) lecture: [Slides](/slides/01-intro.html)
+- Monday (1/15) lecture: [Slides](/slides/01-intro.html)
 

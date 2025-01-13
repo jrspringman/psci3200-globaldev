@@ -17,23 +17,23 @@ course-logo: /files/img/stacked_logo_1.png
 ::: {.g-col-12 .g-col-md-4}
 ### Instructor
 
--   {{< fa user >}} &nbsp; [{{< var instructor.name_1 >}}](%7B%7B%3C%20var%20instructor.url%20%3E%7D%7D)
--   {{< fa envelope >}} &nbsp; <a href="mailto:{{< var instructor.email_1 >}}">{{< var instructor.email_1 >}}</a> 
--   {{< fa university >}} &nbsp; {{< var instructor.office_1 >}}
--   {{< fa calendar-check >}} &nbsp; [Schedule an appointment](%7B%7B%3C%20var%20instructor.appointment_url_1%20%3E%7D%7D)
--   {{< fa user >}} &nbsp; [{{< var instructor.name_2 >}}](%7B%7B%3C%20var%20instructor.url_2%20%3E%7D%7D)
--   {{< fa envelope >}} &nbsp; <a href="mailto:{{< var instructor.email_2 >}}">{{< var instructor.email_2 >}}</a> 
--   {{< fa university >}} &nbsp; {{< var instructor.office_2 >}}
+-   {{< fa user >}}   [{{< var instructor.name_1 >}}]({{< var instructor.url >}})
+-   {{< fa envelope >}}   [{{< var instructor.email_1 >}}](mailto:{{< var instructor.email_1 >}})
+-   {{< fa university >}}   {{< var instructor.office_1 >}}
+-   {{< fa calendar-check >}}   [Schedule an appointment]({{< var instructor.appointment_url_1 >}})
+-   {{< fa user >}}   [{{< var instructor.name_2 >}}]({{< var instructor.url_2 >}})
+-   {{< fa envelope >}}   [{{< var instructor.email_2 >}}](mailto:{{< var instructor.email_2 >}})
+-   {{< fa university >}}   {{< var instructor.office_2 >}}
 :::
 
 ::: {.g-col-12 .g-col-md-3}
 ### Course details
 
--   {{< fa calendar >}} &nbsp; {{< var course.days >}}
--   {{< fa calendar-alt >}} &nbsp; {{< var course.dates >}}
--   {{< fa clock >}} &nbsp; {{< var course.time >}}
--   {{< fa location-dot >}} &nbsp; {{< var course.location >}}
--   {{< fa brands slack >}} &nbsp; [Slack](%7B%7B%3C%20var%20course.slack%20%3E%7D%7D)
+-   {{< fa calendar >}}   {{< var course.days >}}
+-   {{< fa calendar-alt >}}   {{< var course.dates >}}
+-   {{< fa clock >}}   {{< var course.time >}}
+-   {{< fa location-dot >}}   {{< var course.location >}}
+-   {{< fa brands slack >}}   [Slack]({{< var course.slack >}})
 :::
 
 ::: {.g-col-12 .g-col-md-5 .contact-policy}
