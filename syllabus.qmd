@@ -13,9 +13,15 @@ output:
 ::: g-col-6
 ### Instructor
 
--   {{< fa user >}}   [{{< var instructor.name_1 >}}]({{< var instructor.url_1 >}})
+-   {{< fa user >}}   [{{< var instructor.name_1 >}}]({{< var instructor.url >}})
+-   {{< fa envelope >}}   [{{< var instructor.email_1 >}}](mailto:{{< var instructor.email_1 >}})
+-   {{< fa university >}}   {{< var instructor.office_1 >}}
+-   {{< fa calendar-check >}}   [Schedule an appointment]({{< var instructor.appointment_url_1 >}})
 -   {{< fa user >}}   [{{< var instructor.name_2 >}}]({{< var instructor.url_2 >}})
+-   {{< fa envelope >}}   [{{< var instructor.email_2 >}}](mailto:{{< var instructor.email_2 >}})
+-   {{< fa university >}}   {{< var instructor.office_2 >}}
 :::
+
 
 ::: g-col-6
 ### Course Details
