@@ -1,7 +1,7 @@
 ---
 title: "Introduction to PSCI 3200"
 subtitle: "Overview of the course"
-author: "Jeremy Springman"
+author: "Carolina Torreblanca and Jeremy Springman"
 institute: "University of Pennsylvania"
 
 format:
@@ -39,7 +39,21 @@ editor: source
 
 # Introductions
 
-## Me
+## Carolina 
+
+Background:
+
+- PhD from NYU, Postdoc here!
+- Comparativist & Quantitative Methods
+
+Interests:
+
+- Crime, policing, violence, human rights, Latin America
+- Quantitative (experimental and non experimental) methods
+- Field Projects: Mexico, Liberia
+
+
+## Jeremy
 
 Background:
 
@@ -72,10 +86,7 @@ Please tell us:
 
 - Blending subject-matter, research methods, and computational tools
 - Focusing on the type of work that goes on with and within development agencies 
-- Almost no math; very little theory
-
-![](basics_tweet.png){.fragment .fade-up }
-
+- Almost no math; also light on theory
 :::
 
 ::: {.notes}
@@ -89,22 +100,17 @@ Please tell us:
   + 1102 covered big academic debates that we won’t (ex. institutions vs geography)
   + This research is the domain of academics conducting *basic research*
 - Focus on *applied research* with development agencies/industry 
-  + We *can’t* change geography or airlift new institutions
-  + We *can* use insights from academic work to improve governance and wellbeing (malaria pills, institutional reforms) 
-
-::: {.notes}
-
-- super applied work is based partly on big picture/theory/basic research, so we’ll see some of that too
-- I’ll often focus on my own research because it’s highly applied and you can get a sense of what research looks like mid-stream
-:::
+  + What is the state of the art? 
+  + "Big ideas" of political science as context
+  + MUST have a good understanding of the basics of RM
 
 ## Course Description
 
-\
-
 - Substantive focus areas
-  + Democracy and Autocratization
+  + Democracy and Autocracy
   + Migration
+  + Gender
+  + Poverty and Inequality
   + Crime and Conflict
   + Foreign Aid
   + Climate change and adaptation
@@ -138,12 +144,6 @@ At the end of the course you should be able to:
 - Methods and Tools (PSCI 1800)
   + Basic familiarity with R and RStudio
   + Basic knowledge of statistics/econometrics/data science
-
-::: {.notes}
-
-if you didn’t take 1102, talk with me; I can give you a copy of the syllabus
-:::
-
 
 ## Textbook
 
@@ -235,11 +235,12 @@ By April, I'll give you a break-down of how the grading will be done
 
 ## Use of AI Tools
 
-- You are welcome to use generative AI tools
-- It is important to gain experience integrating them into professional tasks
+- You are welcome to use generative AI tools but beware!
+- Do not let it come at the peril of your understanding of the subject material
 - AI tools frequently make errors and 'hallucinate' (journal articles, R functions, etc.)
 - It is your responsibility to verify the information provided 
 - You *must* disclose your use of AI tools for assignments in the form of footnotes or citations
+
 
 
 ## Electronic Devices
