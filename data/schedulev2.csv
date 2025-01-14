@@ -1,24 +1,24 @@
 ﻿week,date,date_end,title,deadline, reading,content,tutorial,assignment
 1,1/15/25,,Introduction to the course (JS),,,/materials/01_intro,,
 2,1/20/25,,MLK Jr. Day (no classes),,,,,
-2,1/23/25,,Correlation vs. Causation (CT),,DSS Ch 2,/materials/02_causal,,
+2,1/22/25,,Correlation vs. Causation (CT),,DSS Ch 2,/materials/02_causal,,/assignments/00_setupr
 3,1/27/25,,Causality (CT),,DSS Ch 3,/materials/03_causal,,/assignments/01_quarto
-3,1/29/25,,Rstudio and Quarto (JS),,,/materials/05_quarto,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/w1_quarto.qmd,
+3,1/29/25,,Rstudio and Quarto Workshop (JS),,,/materials/05_quarto,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/w1_quarto.qmd,
 4,2/3/25,,Democracy and Autocracy (CT),,"Przeworski 2024, Grossman et. al., 2021",/materials/05_autocracy1,,
 4,2/5/25,,Democracy and Development (CT),,"Acemoglu et. al., 2008",,,
 5,2/10/25,,Linear Regression (CT),,DSS Ch 4,/materials/06_regression,,/assignments/02_gitrepo
 5,2/12/25,,Uncertainty (CT),,DSS Ch 5,/materials/07_causal,,
 6,2/17/25,,Representation and Accountability (CT),,"Manin, Przeworski, and Stokes, 1999; Hall, 2015",,,
 6,2/19/25,,Representation and Accountability Reconsidered (CT), ,"Peisakhin et. al., 2020; Dunning et. al. 2019",,,
-7,2/24/25,,Crime and Punishment (CT),,"Bateson, 2012; Slough and Fariss, 2021",,,
-8,2/26/25,,Crime and Punishment 2 (CT),,"Baron et al., 2024; Gustavo A. Flores-Macías and Jessica Zarkin, 2024",,,
-8,3/3/25,,Gender (CT),,Anderson 2018,,,
-9,3/5/25,,Gender 2 and Text as Data workshop (CT),,"Parthasarathy, et. Al., 2019",,,
+7,2/24/25,,Survey Data Workshop (JS),,,/workshops/survey_data,,
+8,2/26/25,,Crime and Punishment (CT),,"Bateson, 2012; Slough and Fariss, 2021",,,
+8,3/3/25,,Crime and Punishment 2 (CT),,"Baron et al., 2024; Gustavo A. Flores-Macías and Jessica Zarkin, 2024",,,
+9,3/5/25,,Gender (CT),,Siwan Anderson. 2018,,,
 9,3/10/25,,Poverty and Inequality (CT),,"Elizabeth Suhay, Marko Klasnja, and Gonzalo Rivera. 2021. ",,,
 10,3/12/25,,Spring Break,,,,,
 10,3/17/25,,Spring Break,,,,,
-11,3/19/25,,Interaction Terms (CT),,,,,
-11,3/24/25,,Migration 1 (JS),,3ie; Sviatschi (2022); Gazeaud (2020),/materials/08_migration,,
+11,3/19/25,,Migration 1 (JS),,3ie; Sviatschi (2022); Gazeaud (2020),/materials/08_migration,,
+11,3/24/25,,Text as Data workshop (CT),,No readings,,,
 12,3/26/25,,Final Project Essentials (JS),,No readings,/materials/14_fp_essentials,https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/fp_essentials.qmd,/assignments/03_fprqd
 12,3/31/25,,Foreign Aid and NGOs 1 (JS),,Briggs (2016); Briggs (2021),/materials/20_aid1,,
 13,4/2/25,,Foreign Aid and NGOs 2 (JS),,Cruz (2017); Bold et al. (2018),/materials/21_aid2,,
