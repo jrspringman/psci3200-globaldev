@@ -130,14 +130,14 @@
     "href": "slides/01-intro.html#course-description",
     "title": "Introduction to PSCI 3200",
     "section": "Course Description",
-    "text": "Course Description\n\n\nBlending subject-matter, research methods, and computational tools\nFocusing on the type of work that goes on with and within development agencies\nAlmost no math; also light on theory\n\n\n\n\nBest suited for folks that have small background in all 3 areas"
+    "text": "Course Description\n\n\nBlending subject-matter, research methods, and computational tools\nFocusing on the type of work that goes on with and within development agencies\nAlmost no math, light on the theory"
   },
   {
     "objectID": "slides/01-intro.html#course-description-1",
     "href": "slides/01-intro.html#course-description-1",
     "title": "Introduction to PSCI 3200",
     "section": "Course Description",
-    "text": "Course Description\n\nFollow-up to PSCI 1102\n\n1102 covered big academic debates that we won’t (ex. institutions vs geography)\nThis research is the domain of academics conducting basic research\n\nFocus on applied research with development agencies/industry\n\nWhat is the state of the art?\n“Big ideas” of political science as context\nMUST have a good understanding of the basics of RM"
+    "text": "Course Description\n\nFollow-up to PSCI 1102\n\n1102 covered big academic debates that we won’t (ex. institutions vs geography)\n\nFocus on applied research with development agencies/industry\n\nWhat is the state of the art?\n“Big ideas” of political science only as context\nMUST have a good understanding of the basics of RM"
   },
   {
     "objectID": "slides/01-intro.html#course-description-2",
@@ -158,7 +158,7 @@
     "href": "slides/01-intro.html#course-objectives",
     "title": "Introduction to PSCI 3200",
     "section": "Course Objectives",
-    "text": "Course Objectives\nAt the end of the course you should be able to:\n\nEvaluate the quality of evidence in the development field\nThink clearly about how data can be used to learn about development and governance challenges\nUse tools for data analysis such as R, RStudio, Quarto, and GitHub\nProduce professional-quality documents that summarize original research"
+    "text": "Course Objectives\nAt the end of the course you should be able to:\n\nHave a good overview of the field and be capable of evaluating the quality of evidence\nThink clearly about how data can be used to learn about development and governance challenges\nUse tools for data analysis such as R, RStudio, Quarto, and GitHub\nProduce professional-quality documents that summarize original research"
   },
   {
     "objectID": "slides/01-intro.html#prerequisites",
@@ -193,7 +193,7 @@
     "href": "slides/01-intro.html#workshops",
     "title": "Introduction to PSCI 3200",
     "section": "Workshops",
-    "text": "Workshops\n\n4 interactive, hands-on workshops working with diverse types of data, covering different statistical methods, or using new computational tools.\n\nTools: Quarto, github\nData: Survey data, text data, financial data\nMethods: Randomized and quasi-experiments, text analysis.\n\nYou will be required to submit a product demonstrating completion of the workshop"
+    "text": "Workshops\n\n4 interactive, hands-on workshops working with diverse types of data, covering different statistical methods, or using new computational tools.\n\nTools: R and Rstudio, Quarto, github\nData: Survey data, text data, financial data\nMethods: Randomized and quasi-experiments, text analysis.\n\nYou will be required to submit a product demonstrating completion of the workshop"
   },
   {
     "objectID": "slides/01-intro.html#data-assignments",
@@ -228,14 +228,14 @@
     "href": "slides/01-intro.html#use-of-ai-tools",
     "title": "Introduction to PSCI 3200",
     "section": "Use of AI Tools",
-    "text": "Use of AI Tools\n\nYou are welcome to use generative AI tools but beware!\nDo not let it come at the peril of your understanding of the subject material\nAI tools frequently make errors and ‘hallucinate’ (journal articles, R functions, etc.)\nIt is your responsibility to verify the information provided\nYou must disclose your use of AI tools for assignments in the form of footnotes or citations"
+    "text": "Use of AI Tools\n\nYou are welcome to use generative AI tools (if you must) but beware!\nDo not let it come at the peril of your understanding of the material\nAI tools frequently make errors and ‘hallucinate’ (journal articles, R functions, etc.)\nIt is your responsibility to verify the information provided\nYou must disclose your use of AI tools for assignments in the form of footnotes or citations"
   },
   {
     "objectID": "slides/01-intro.html#electronic-devices",
     "href": "slides/01-intro.html#electronic-devices",
     "title": "Introduction to PSCI 3200",
     "section": "Electronic Devices",
-    "text": "Electronic Devices\n\n\n\nLaptops will be required in class\nAll other electronic devices should be silenced and hidden\nPlease don’t make me devise consequences for violating this policy"
+    "text": "Electronic Devices\n\n\n\nLaptops will be required in class\nAll other electronic devices should be silenced and hidden"
   },
   {
     "objectID": "slides/01-intro.html#controversial-topics-and-statements",
@@ -263,7 +263,7 @@
     "href": "slides/01-intro.html#carolina",
     "title": "Introduction to PSCI 3200",
     "section": "Carolina",
-    "text": "Carolina\nBackground:\n\nPhD from NYU, Postdoc here!\nComparativist & Quantitative Methods\n\nInterests:\n\nCrime, policing, violence, human rights, Latin America\nQuantitative (experimental and non experimental) methods\nField Projects: Mexico, Liberia"
+    "text": "Carolina\nBackground:\n\nPhD from NYU, Postdoc here!\nComparativist & Quantitative Methods\n\nInterests:\n\nCrime, policing, violence, human rights, Latin America\nQuantitative (experimental and non experimental) methods"
   },
   {
     "objectID": "slides/01-intro.html#jeremy",
