@@ -179,15 +179,7 @@ Performance in this class will be evaluated by according to performance on the f
 
 - 6 data assignments designed to make sure you are keeping up with the tools covered in class and making progress in your final project. 
 - For assignments where you are required to submit something, you will be required to submit your own code and write-up.
-
-| Data Assignment | Due Date|
-|:----------------|:--------|
-| Assignment 1 | Jan 22th  |
-| Assignment 2 | Jan 27th  |
-| Assignment 3 | Feb 10th  |
-| Assignment 4 | March 26th  |
-| Assignment 5 | April 14th  |
-| Assignment 6 | April 23rd  |
+- You can see the date of each assingment on the schedule
 
 ## Final Project
 
