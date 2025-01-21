@@ -18,7 +18,7 @@ date: 2025-01-23
 
 ## Slides
 
-- [Slides](/slides/02-causal.html)
+- [Slides](/slides/02-causal-ctb.html)
 
 
 

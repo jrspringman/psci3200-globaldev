@@ -1,0 +1,294 @@
+---
+title: "Causality 2"
+subtitle: "Twice the causality"
+author: "Carolina Torreblanca"
+institute: "University of Pennsylvania"
+
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.1
+    logo: DevLab_Logo_29Mar2023.png
+    footer: "jrspringman.github.io/psci3200-globaldev/"
+    embed-resources: true
+    template-partials:
+      - title-slide.html
+    gfm:
+    mermaid-format: png
+editor: source
+---
+
+# Logistics
+
+## Assignments
+
+-   Did you send me a quarto file? If not, please do
+
+## Announcements
+
+-   Next week: RStudio and Quarto workshop with Jeremy
+
+## Agenda for today
+
+-   The power of randomization
+    -   What is confounding?
+    -   How randomization addresses confounding
+    -   RCTs
+-   Causality with observational data
+-   Final Project
+    -   What are your options?
+    -   Possible data sources
+
+## Causality as Explanation
+
+::: incremental
+-   Last week, we discussed the fundamental problem of causal inference:
+
+    -   We can never observe what *could have happened* - or the counterfactual outcome
+
+-   This prevents us from ever observing *individual* treatment effects ... but when treatment assignment is independent of our outcomes....
+
+-   We can *estimate* average causal effects
+:::
+
+## DAGS
+
+One useful way to think about causality is using Directed Acyclical Graphs (DAGs)
+
+-   We know causal inference requires assumptions, and DAGS are ways for us to visualize those assumptions
+
+<!-- -->
+
+-   In a DAG, each node is a variable and the edge represents a causal relationship. For example "X causes Y":
+
+![](img/DAG1.png){fig-align="center" width="241"}
+
+## DAGS
+
+Of course, we know often more than one variable can cause an outcome
+
+![](img/DAG2.png){fig-align="center" width="241"}
+
+X and Y are independent if X is "separated" from other variables that go to Y.
+
+## DAGS
+
+What if X *and* Y are both caused by some other variable, U? Are X and Y independent?
+
+Can we compare the treatment group of X with the control group of X?
+
+![](img/DAG3.png){fig-align="center" width="230"}
+
+## In the wild
+
+![](img/confound1.png){fig-align="center" width="463"}
+
+## Which is it?
+
+![](img/DAGoff.png){fig-align="center" width="241"}
+
+## Selecting on the dependent variable
+
+![](img/confound2.png){fig-align="center"}
+
+## Dealing with confounders
+
+-   Sometimes it's easy to think of what variables could affect both our treatment and our outcome
+
+-   If we feel theoretically confident that we can observe all variables that confound the relationship between X and Y, we can control for them and estimate causal effects
+
+-   BIG BIG BIG assumption (called Conditional Independence Assumption)
+
+-   We cannot do anything with confounders **we cannot observe!**
+
+## Does drinking wine make you live longer?
+
+From [Time magazine](https://time.com/5552041/does-red-wine-help-you-live-longer/)
+
+![](img/CIA.png){fig-align="center"}
+
+## Does drinking wine make you live longer?
+
+::: incremental
+-   The researchers compared only Italian men who were the same age, and ate about the same.
+-   I.e., they "controlled" for age, diet, origin.
+-   If nothing else confounds the relationship between drinking wine and life expectancy, then they identified a causal effect!
+-   .... Do we believe them?
+:::
+
+## Why can't we just compare units across time?
+
+```{r}
+#| echo: true
+#| warning: false
+#| code-fold: true
+#| code-summary: "Show code"
+require(tidyverse)
+Year = c(0,1,2,3)
+Outcome = c(NA, 1.2, 2, NA, 
+            NA, 1.3, 1.7, NA)
+Treatment = c("Control", "Control","Control","Control", 
+              "Treatment", "Treatment", "Treatment", "Treatment")
+
+dat = data.frame(Year, Outcome, Treatment)
+dat %>% filter(Treatment == "Treatment") %>% 
+ggplot(aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +
+  geom_line(aes(linetype=Treatment),size=2) +
+  geom_point(size = 6) +
+  xlim(0,3) + 
+  scale_y_continuous(limits = c(1,2), breaks = seq(1, 2, by = .1)) + 
+  scale_linetype_manual(values=c("solid", "solid")) +
+  scale_color_manual(values = c("red", "blue") ) +
+  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))
+
+```
+
+## Why can't we just compare units across time?
+
+```{r}
+#| echo: true
+#| warning: false
+#| code-fold: true
+#| code-summary: "Show code"
+
+Year = c(0,1,2,3)
+Outcome = c(NA, 1.2, 2, NA, 
+            NA, 1.3, 1.7, NA)
+Treatment = c("Control", "Control","Control","Control", 
+              "Treatment", "Treatment", "Treatment", "Treatment")
+
+dat = data.frame(Year, Outcome, Treatment)
+dat %>% 
+ggplot(aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +
+  geom_line(aes(linetype=Treatment),size=2) +
+  geom_point(size = 6) +
+  xlim(0,3) + 
+  scale_y_continuous(limits = c(1,2), breaks = seq(1, 2, by = .1)) + 
+  scale_linetype_manual(values=c("solid", "solid")) +
+  scale_color_manual(values = c("red", "blue") ) +
+  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))
+
+```
+
+## Randomization as a way to get independence
+
+-   Independence is a crucial assumption!
+
+-   One way to make it more convincing is to randomize treatment assignment.
+
+-   If treatment assignment depends on luck, not X, then we have a good theoretical reason to assume X and Y are independent.
+
+## Example from a RCT: Project STAR
+
+-   Q: What is the causal effect of class size on educational outcomes?
+
+-   What are some potential pitfalls?
+
+::: incremental
+-   Class size and educational outcomes are probably confounded:
+    -   Parent's wealth
+    -   Where people live
+    -   What else?
+:::
+
+## Example from a RCT: Project STAR
+
+-   Q: What is the causal effect of class size on educational outcomes?
+
+-   Hypothesis: Kids learn better in smaller classrooms
+
+-   Research Design: Randomize the size of classrooms!
+
+## Data & Code
+
+```{r star, echo = T, results=T}
+
+star <- read.csv("./code/STAR.csv")
+dim(star)
+head(star)
+table(star$classtype)
+summary(star$math)
+```
+
+## Data & Code
+
+```{r, echo = T, results=T}
+
+## Two-way frequency tables
+table(star$classtype, star$graduated)
+## Two-way tables of proportions
+prop.table(table(star$classtype, star$graduated), 1) 
+# summary
+summary(star$math)
+```
+
+## Difference-in-Means
+
+What is the average causal effect of class size on education outcomes?
+
+How would you answer this question?
+
+-   Remember, we have kids randomly assigned to small classrooms and SAT scores.
+
+## Difference-in-Means
+
+```{r echo = T, results=T}
+# 1. Mean Math score for people assinged to small classroom
+math_treat <- mean(star$math[star$classtype=="small"]) 
+# 2. Meam math score for people in regular classroms
+math_control <-  mean(star$math[star$classtype=="regular"])
+# 3. Mean reading for treatment
+reading_treat <- mean(star$reading[star$classtype=="small"]) 
+# 4. Reading control
+reading_control <- mean(star$reading[star$classtype=="regular"])
+
+### difference-in-means estimators ####
+math_treat - math_control
+reading_treat - reading_control
+```
+
+## Parentheses: What happened to the spread?
+
+-   The mean is a measure of the central tendency
+
+-   But does it tell us anything about the spread of the causal effect?
+
+-   What statistic could help us here?
+
+## Can we do observational causal research?
+
+-   Causality hinges on independence between treatment and outcome
+-   By randomizing treatment assignment, RCTs *fabricate* independence
+-   But not everything can or ought to be randomized!
+    -   Cost constraints
+    -   Ethical concerns
+    -   Historical research
+
+Is observational causal research possible?
+
+## Can we do observational causal research?
+
+-   Observational causal work relies on finding and leveraging *accidentally occurring random variation in treatment assignment*
+
+-   Example: [Electoral Effects of Biased Media: Russian Television in Ukraine (Peisakhin and Rozenas, 2018)](https://www.jstor.org/stable/26598765)
+
+-   RQ: Does exposure to state-funded pro-Russia news make Ukrainians more pro-Russia?
+
+    -   Problem: People tend to not watch TV randomly!
+    -   Solution: Due to geography and topography, TV reception is as-if-random
+
+-   Idea: Compare people who received Russian TV with their neighbors that could not watch it and see differences in electoral behavior and support for Russia.
+
+-   Assumptions: ????
+
+## Wrapping up
+
+-   Causality requires assumptions!
+    -   DAGs are good ways to clarify our assumptions
+-   Some are easier to sell than others
+    -   Randomization results in comparable groups vs going to museum is independent of life expectancy
+-   Whether our conclusions are causal or not depend on whether our assumptions hold
+-   To a large degree, these assumptions refer to what we cannot see, and are un-testable!
+-   Careful researchers do a good job of arguing why a setting is well-suited to answer causal questions.
