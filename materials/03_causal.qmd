@@ -6,7 +6,7 @@ date: 2025-01-24
 
 ## Required Readings
 
-- DSS [Ch 5](/files/dss_ch5pdf)
+- DSS [Ch 5](/files/dss_ch5.pdf)
 
 ## Tasks
 
