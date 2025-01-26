@@ -6717,7 +6717,7 @@
     "href": "slides/03-causal-ctb.html#agenda-for-today",
     "title": "Causality 2",
     "section": "Agenda for today",
-    "text": "Agenda for today\n\nThe power of randomization\n\nWhat is confounding?\nHow randomization addresses confounding\nRCTs\n\nCausality with observational data\nFinal Project\n\nWhat are your options?\nPossible data sources"
+    "text": "Agenda for today\n\nWhat is confounding?\nCausality with observational data"
   },
   {
     "objectID": "slides/03-causal-ctb.html#causality-as-explanation",
@@ -6738,14 +6738,14 @@
     "href": "slides/03-causal-ctb.html#randomization-as-a-way-to-get-independence",
     "title": "Causality 2",
     "section": "Randomization as a way to get independence",
-    "text": "Randomization as a way to get independence\n\nIndependence is a crucial assumption!\nOne way to make it more convincing is to randomize treatment assignment.\nIf treatment assignment depends on luck, not X, then we have a good theoretical reason to assume X and Y are independent."
+    "text": "Randomization as a way to get independence\n\nIndependence between treatment and outcome is a hard assumption!\nOne way to make it more convincing is to randomize treatment assignment: if treatment assignment depends on luck, not X, then we have a good theoretical reason to assume X and Y are independent."
   },
   {
     "objectID": "slides/03-causal-ctb.html#dags-1",
     "href": "slides/03-causal-ctb.html#dags-1",
     "title": "Causality 2",
     "section": "DAGS",
-    "text": "DAGS\nOf course, we know often more than one variable can cause an outcome\n\nX and Y are independent if X is “separated” from other variables that go to Y."
+    "text": "DAGS\nMulticausality in DAGs\n\nX and Y are independent if X is “separated” from other variables that go to Y."
   },
   {
     "objectID": "slides/03-causal-ctb.html#section",
@@ -6759,7 +6759,7 @@
     "href": "slides/03-causal-ctb.html#dags-2",
     "title": "Causality 2",
     "section": "DAGS",
-    "text": "DAGS\nWhat if X and Y are both caused by some other variable, U? Are X and Y independent?\nCan we compare the treatment group of X with the control group of X?"
+    "text": "DAGS\nWhat if X and Y are both caused by some other variable, U? Are X and Y independent? Can we plug-in \\(\\bar{Y_c}\\) and \\(\\bar{Y_t}\\) and subtract?\n\n\nU s a confounder"
   },
   {
     "objectID": "slides/03-causal-ctb.html#in-the-wild",
@@ -6787,7 +6787,7 @@
     "href": "slides/03-causal-ctb.html#wrapping-up",
     "title": "Causality 2",
     "section": "Wrapping up",
-    "text": "Wrapping up\n\nCausality requires assumptions!\n\nDAGs are good ways to clarify our assumptions\n\nSome are easier to sell than others\n\nRandomization results in comparable groups vs going to museum is independent of life expectancy\n\nWhether our conclusions are causal or not depend on whether our assumptions hold\nTo a large degree, these assumptions refer to what we cannot see, and are un-testable!\nCareful researchers do a good job of arguing why a setting is well-suited to answer causal questions.\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Wrapping up\n\nCausality ALWAYS requires assumptions!\n\nDAGs are good ways to clarify our assumptions\n\nWhether our conclusions are causal or not depend on whether our assumptions hold\nTo a large degree, these assumptions refer to what we cannot see, and are un-testable!\nGood research argues why a setting is well-suited to answer causal questions.\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
     "objectID": "slides/03-causal-ctb.html#in-the-wild-2",
@@ -6864,7 +6864,7 @@
     "href": "slides/03-causal-ctb.html#can-we-do-observational-causal-research",
     "title": "Causality 2",
     "section": "Can we do observational causal research?",
-    "text": "Can we do observational causal research?\n\nCausality hinges on independence between treatment and outcome\nBy randomizing treatment assignment, RCTs fabricate independence\nBut not everything can or ought to be randomized!\n\nCost constraints\nEthical concerns\nHistorical research\n\n\nIs observational causal research possible?"
+    "text": "Can we do observational causal research?\n\nCausality hinges on independence between treatment and outcome\nBy randomizing treatment assignment, RCTs fabricate independence\nBut not everything can or ought to be randomized!\n\nCost constraints\nEthical concerns\nHistorical research\n\nObservational causal work relies on finding and leveraging accidentally occurring random variation in treatment assignment"
   },
   {
     "objectID": "slides/03-causal-ctb.html#example",
@@ -6962,6 +6962,20 @@
     "href": "slides/03-causal-ctb.html#can-we-do-observational-causal-research-1",
     "title": "Causality 2",
     "section": "Can we do observational causal research?",
-    "text": "Can we do observational causal research?\n\nObservational causal work relies on finding and leveraging accidentally occurring random variation in treatment assignment\nExample: Electoral Effects of Biased Media: Russian Television in Ukraine (Peisakhin and Rozenas, 2018)\nRQ: Does exposure to state-funded pro-Russia news make Ukrainians more pro-Russia?\n\nProblem: People tend to not watch TV randomly!\nSolution: Due to geography and topography, TV reception is as-if-random\n\nIdea: Compare people who received Russian TV with their neighbors that could not watch it and see differences in electoral behavior and support for Russia.\nAssumptions: ????"
+    "text": "Can we do observational causal research?\n\nExample: Electoral Effects of Biased Media: Russian Television in Ukraine (Peisakhin and Rozenas, 2018)\nRQ: Does exposure to state-funded pro-Russia news make Ukrainians more pro-Russia?\n\nProblem: People tend to not watch TV randomly!\nSolution: Due to geography and topography, TV reception is as-if-random\n\nIdea: Compare people who could watch Russian TV with their neighbors that could not watch it.\nAssumptions: ????"
+  },
+  {
+    "objectID": "slides/03-causal-ctb.html#confounders-in-the-wild",
+    "href": "slides/03-causal-ctb.html#confounders-in-the-wild",
+    "title": "Causality 2",
+    "section": "Confounders in the wild",
+    "text": "Confounders in the wild"
+  },
+  {
+    "objectID": "slides/03-causal-ctb.html#selection-as-a-confounder",
+    "href": "slides/03-causal-ctb.html#selection-as-a-confounder",
+    "title": "Causality 2",
+    "section": "Selection as a confounder",
+    "text": "Selection as a confounder"
   }
 ]

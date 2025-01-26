@@ -32,14 +32,8 @@ editor: source
 
 ## Agenda for today
 
--   The power of randomization
-    -   What is confounding?
-    -   How randomization addresses confounding
-    -   RCTs
+-   What is confounding?
 -   Causality with observational data
--   Final Project
-    -   What are your options?
-    -   Possible data sources
 
 ## Causality as Explanation
 
@@ -67,7 +61,7 @@ One useful way to think about causality is using Directed Acyclical Graphs (DAGs
 
 ## DAGS
 
-Of course, we know often more than one variable can cause an outcome
+Multicausality in DAGs
 
 ![](img/DAG2.png){fig-align="center" width="241"}
 
@@ -75,13 +69,13 @@ X and Y are independent if X is "separated" from other variables that go to Y.
 
 ## DAGS
 
-What if X *and* Y are both caused by some other variable, U? Are X and Y independent?
-
-Can we compare the treatment group of X with the control group of X?
+What if X *and* Y are both caused by some other variable, U? Are X and Y independent? Can we plug-in $\bar{Y_c}$ and $\bar{Y_t}$ and subtract?
 
 ![](img/DAG3.png){fig-align="center" width="230"}
 
-## In the wild
+* U s a confounder
+
+## Confounders in the wild
 
 ![](img/confound1.png){fig-align="center" width="463"}
 
@@ -89,7 +83,7 @@ Can we compare the treatment group of X with the control group of X?
 
 ![](img/DAGoff.png){fig-align="center" width="241"}
 
-## Selecting on the dependent variable
+## Selection as a confounder 
 
 ![](img/confound2.png){fig-align="center"}
 
@@ -118,67 +112,11 @@ From [Time magazine](https://time.com/5552041/does-red-wine-help-you-live-longer
 -   .... Do we believe them?
 :::
 
-## Why can't we just compare units across time?
-
-```{r}
-#| echo: true
-#| warning: false
-#| code-fold: true
-#| code-summary: "Show code"
-require(tidyverse)
-Year = c(0,1,2,3)
-Outcome = c(NA, 1.2, 2, NA, 
-            NA, 1.3, 1.7, NA)
-Treatment = c("Control", "Control","Control","Control", 
-              "Treatment", "Treatment", "Treatment", "Treatment")
-
-dat = data.frame(Year, Outcome, Treatment)
-dat %>% filter(Treatment == "Treatment") %>% 
-ggplot(aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +
-  geom_line(aes(linetype=Treatment),size=2) +
-  geom_point(size = 6) +
-  xlim(0,3) + 
-  scale_y_continuous(limits = c(1,2), breaks = seq(1, 2, by = .1)) + 
-  scale_linetype_manual(values=c("solid", "solid")) +
-  scale_color_manual(values = c("red", "blue") ) +
-  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))
-
-```
-
-## Why can't we just compare units across time?
-
-```{r}
-#| echo: true
-#| warning: false
-#| code-fold: true
-#| code-summary: "Show code"
-
-Year = c(0,1,2,3)
-Outcome = c(NA, 1.2, 2, NA, 
-            NA, 1.3, 1.7, NA)
-Treatment = c("Control", "Control","Control","Control", 
-              "Treatment", "Treatment", "Treatment", "Treatment")
-
-dat = data.frame(Year, Outcome, Treatment)
-dat %>% 
-ggplot(aes(x = Year, y = Outcome, group = Treatment, color = Treatment)) +
-  geom_line(aes(linetype=Treatment),size=2) +
-  geom_point(size = 6) +
-  xlim(0,3) + 
-  scale_y_continuous(limits = c(1,2), breaks = seq(1, 2, by = .1)) + 
-  scale_linetype_manual(values=c("solid", "solid")) +
-  scale_color_manual(values = c("red", "blue") ) +
-  theme(legend.position = c(0.8, 0.2), text = element_text(size=20))
-
-```
-
 ## Randomization as a way to get independence
 
--   Independence is a crucial assumption!
+-   Independence between treatment and outcome is a hard assumption! 
 
--   One way to make it more convincing is to randomize treatment assignment.
-
--   If treatment assignment depends on luck, not X, then we have a good theoretical reason to assume X and Y are independent.
+-   One way to make it more convincing is to randomize treatment assignment: if treatment assignment depends on luck, not X, then we have a good theoretical reason to assume X and Y are independent.
 
 ## Example from a RCT: Project STAR
 
@@ -249,14 +187,6 @@ math_treat - math_control
 reading_treat - reading_control
 ```
 
-## Parentheses: What happened to the spread?
-
--   The mean is a measure of the central tendency
-
--   But does it tell us anything about the spread of the causal effect?
-
--   What statistic could help us here?
-
 ## Can we do observational causal research?
 
 -   Causality hinges on independence between treatment and outcome
@@ -266,11 +196,9 @@ reading_treat - reading_control
     -   Ethical concerns
     -   Historical research
 
-Is observational causal research possible?
+-   Observational causal work relies on finding and leveraging *accidentally occurring random variation in treatment assignment*
 
 ## Can we do observational causal research?
-
--   Observational causal work relies on finding and leveraging *accidentally occurring random variation in treatment assignment*
 
 -   Example: [Electoral Effects of Biased Media: Russian Television in Ukraine (Peisakhin and Rozenas, 2018)](https://www.jstor.org/stable/26598765)
 
@@ -279,16 +207,13 @@ Is observational causal research possible?
     -   Problem: People tend to not watch TV randomly!
     -   Solution: Due to geography and topography, TV reception is as-if-random
 
--   Idea: Compare people who received Russian TV with their neighbors that could not watch it and see differences in electoral behavior and support for Russia.
+-   Idea: Compare people who could watch Russian TV with their neighbors that could not watch it.
 
 -   Assumptions: ????
 
 ## Wrapping up
-
--   Causality requires assumptions!
+-   Causality ALWAYS requires assumptions!
     -   DAGs are good ways to clarify our assumptions
--   Some are easier to sell than others
-    -   Randomization results in comparable groups vs going to museum is independent of life expectancy
 -   Whether our conclusions are causal or not depend on whether our assumptions hold
 -   To a large degree, these assumptions refer to what we cannot see, and are un-testable!
--   Careful researchers do a good job of arguing why a setting is well-suited to answer causal questions.
+-   Good research argues why a setting is well-suited to answer causal questions.
