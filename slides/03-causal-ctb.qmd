@@ -28,7 +28,7 @@ editor: source
 
 ## Announcements
 
--   Next week: RStudio and Quarto workshop with Jeremy
+-   This Wed: RStudio and Quarto workshop with Jeremy
 
 ## Agenda for today
 
@@ -47,17 +47,20 @@ editor: source
 -   We can *estimate* average causal effects
 :::
 
-## DAGS
+## DAGs
 
 One useful way to think about causality is using Directed Acyclical Graphs (DAGs)
 
--   We know causal inference requires assumptions, and DAGS are ways for us to visualize those assumptions
+::: incremental
+-   Causal inference requires assumptions and DAGS are ways for us to visualize those assumptions
 
 <!-- -->
 
 -   In a DAG, each node is a variable and the edge represents a causal relationship. For example "X causes Y":
 
 ![](img/DAG1.png){fig-align="center" width="241"}
+
+:::
 
 ## DAGS
 
@@ -86,31 +89,6 @@ What if X *and* Y are both caused by some other variable, U? Are X and Y indepen
 ## Selection as a confounder 
 
 ![](img/confound2.png){fig-align="center"}
-
-## Dealing with confounders
-
--   Sometimes it's easy to think of what variables could affect both our treatment and our outcome
-
--   If we feel theoretically confident that we can observe all variables that confound the relationship between X and Y, we can control for them and estimate causal effects
-
--   BIG BIG BIG assumption (called Conditional Independence Assumption)
-
--   We cannot do anything with confounders **we cannot observe!**
-
-## Does drinking wine make you live longer?
-
-From [Time magazine](https://time.com/5552041/does-red-wine-help-you-live-longer/)
-
-![](img/CIA.png){fig-align="center"}
-
-## Does drinking wine make you live longer?
-
-::: incremental
--   The researchers compared only Italian men who were the same age, and ate about the same.
--   I.e., they "controlled" for age, diet, origin.
--   If nothing else confounds the relationship between drinking wine and life expectancy, then they identified a causal effect!
--   .... Do we believe them?
-:::
 
 ## Randomization as a way to get independence
 
@@ -192,13 +170,10 @@ reading_treat - reading_control
 -   Causality hinges on independence between treatment and outcome
 -   By randomizing treatment assignment, RCTs *fabricate* independence
 -   But not everything can or ought to be randomized!
-    -   Cost constraints
-    -   Ethical concerns
-    -   Historical research
 
--   Observational causal work relies on finding and leveraging *accidentally occurring random variation in treatment assignment*
+-   Observational causal work relies on finding and leveraging *accidentally or conditionally occurring random variation in treatment assignment*
 
-## Can we do observational causal research?
+## Natural- and Quasi-Experiments
 
 -   Example: [Electoral Effects of Biased Media: Russian Television in Ukraine (Peisakhin and Rozenas, 2018)](https://www.jstor.org/stable/26598765)
 
@@ -210,6 +185,33 @@ reading_treat - reading_control
 -   Idea: Compare people who could watch Russian TV with their neighbors that could not watch it.
 
 -   Assumptions: ????
+
+## Dealing with confounders using controls
+
+::: incremental
+
+-   If we feel theoretically confident that we can observe all variables that confound the relationship between X and Y, we can **control** for them and estimate causal effects
+
+-   BIG BIG BIG assumption (called Conditional Independence Assumption)
+
+-   We cannot do anything with confounders **we cannot observe!**
+
+:::
+
+## Does drinking wine make you live longer?
+
+From [Time magazine](https://time.com/5552041/does-red-wine-help-you-live-longer/)
+
+![](img/CIA.png){fig-align="center"}
+
+## Does drinking wine make you live longer?
+
+::: incremental
+-   The researchers compared only Italian men who were the same age, and ate about the same.
+-   I.e., they "controlled" for age, diet, origin.
+-   If nothing else confounds the relationship between drinking wine and life expectancy, then they identified a causal effect!
+-   .... Do we believe them?
+:::
 
 ## Wrapping up
 -   Causality ALWAYS requires assumptions!

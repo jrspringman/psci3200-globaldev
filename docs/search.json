@@ -6710,7 +6710,7 @@
     "href": "slides/03-causal-ctb.html#announcements",
     "title": "Causality 2",
     "section": "Announcements",
-    "text": "Announcements\n\nNext week: RStudio and Quarto workshop with Jeremy"
+    "text": "Announcements\n\nThis Wed: RStudio and Quarto workshop with Jeremy"
   },
   {
     "objectID": "slides/03-causal-ctb.html#agenda-for-today",
@@ -6730,8 +6730,8 @@
     "objectID": "slides/03-causal-ctb.html#dags",
     "href": "slides/03-causal-ctb.html#dags",
     "title": "Causality 2",
-    "section": "DAGS",
-    "text": "DAGS\nOne useful way to think about causality is using Directed Acyclical Graphs (DAGs)\n\nWe know causal inference requires assumptions, and DAGS are ways for us to visualize those assumptions\n\n\n\nIn a DAG, each node is a variable and the edge represents a causal relationship. For example “X causes Y”:"
+    "section": "DAGs",
+    "text": "DAGs\nOne useful way to think about causality is using Directed Acyclical Graphs (DAGs)\n\n\nCausal inference requires assumptions and DAGS are ways for us to visualize those assumptions\n\n\n\nIn a DAG, each node is a variable and the edge represents a causal relationship. For example “X causes Y”:"
   },
   {
     "objectID": "slides/03-causal-ctb.html#randomization-as-a-way-to-get-independence",
@@ -6864,7 +6864,7 @@
     "href": "slides/03-causal-ctb.html#can-we-do-observational-causal-research",
     "title": "Causality 2",
     "section": "Can we do observational causal research?",
-    "text": "Can we do observational causal research?\n\nCausality hinges on independence between treatment and outcome\nBy randomizing treatment assignment, RCTs fabricate independence\nBut not everything can or ought to be randomized!\n\nCost constraints\nEthical concerns\nHistorical research\n\nObservational causal work relies on finding and leveraging accidentally occurring random variation in treatment assignment"
+    "text": "Can we do observational causal research?\n\nCausality hinges on independence between treatment and outcome\nBy randomizing treatment assignment, RCTs fabricate independence\nBut not everything can or ought to be randomized!\nObservational causal work relies on finding and leveraging accidentally or conditionally occurring random variation in treatment assignment"
   },
   {
     "objectID": "slides/03-causal-ctb.html#example",
@@ -6977,5 +6977,26 @@
     "title": "Causality 2",
     "section": "Selection as a confounder",
     "text": "Selection as a confounder"
+  },
+  {
+    "objectID": "slides/03-causal-ctb.html#dealing-with-confounders-using-controls",
+    "href": "slides/03-causal-ctb.html#dealing-with-confounders-using-controls",
+    "title": "Causality 2",
+    "section": "Dealing with confounders using controls",
+    "text": "Dealing with confounders using controls\n\n\nIf we feel theoretically confident that we can observe all variables that confound the relationship between X and Y, we can control for them and estimate causal effects\nBIG BIG BIG assumption (called Conditional Independence Assumption)\nWe cannot do anything with confounders we cannot observe!"
+  },
+  {
+    "objectID": "slides/03-causal-ctb.html#natural-experiments-and-quasi-experiments",
+    "href": "slides/03-causal-ctb.html#natural-experiments-and-quasi-experiments",
+    "title": "Causality 2",
+    "section": "Natural Experiments and Quasi Experiments",
+    "text": "Natural Experiments and Quasi Experiments\n\nExample: Electoral Effects of Biased Media: Russian Television in Ukraine (Peisakhin and Rozenas, 2018)\nRQ: Does exposure to state-funded pro-Russia news make Ukrainians more pro-Russia?\n\nProblem: People tend to not watch TV randomly!\nSolution: Due to geography and topography, TV reception is as-if-random\n\nIdea: Compare people who could watch Russian TV with their neighbors that could not watch it.\nAssumptions: ????"
+  },
+  {
+    "objectID": "slides/03-causal-ctb.html#natural--and-quasi-experiments",
+    "href": "slides/03-causal-ctb.html#natural--and-quasi-experiments",
+    "title": "Causality 2",
+    "section": "Natural- and Quasi-Experiments",
+    "text": "Natural- and Quasi-Experiments\n\nExample: Electoral Effects of Biased Media: Russian Television in Ukraine (Peisakhin and Rozenas, 2018)\nRQ: Does exposure to state-funded pro-Russia news make Ukrainians more pro-Russia?\n\nProblem: People tend to not watch TV randomly!\nSolution: Due to geography and topography, TV reception is as-if-random\n\nIdea: Compare people who could watch Russian TV with their neighbors that could not watch it.\nAssumptions: ????"
   }
 ]
