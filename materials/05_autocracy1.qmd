@@ -1,34 +1,40 @@
 ---
-title: "Democracy and Autocratization 1 (Survey Experiments)"
-date: 2024-02-01
+title: "Democracy and Autocracy"
+date: 2025-02-01
 ---
-
 
 ## Required Readings
 
-- [10 Things to Know About Survey Experiments](https://egap.org/resource/10-things-to-know-about-survey-experiments/) by Christopher Grady
-- [Albertus and Grossman (2021)](/files/albertus.pdf)
-- [Hollerbauer et al. (2024)](/files/CSU_Conjoint_Paper.pdf)
+-   [Adam Przeworski (2024)](https://www.journalofdemocracy.org/articles/who-decides-what-is-democratic/)
+-   [Albertus and Grossman (2021)](/files/albertus.pdf)
+
+<!-- - [10 Things to Know About Survey Experiments](https://egap.org/resource/10-things-to-know-about-survey-experiments/) by Christopher Grady -->
+
+<!-- - [Albertus and Grossman (2021)](/files/albertus.pdf) -->
+
+<!-- - [Hollerbauer et al. (2024)](/files/CSU_Conjoint_Paper.pdf) -->
 
 ## Assignment
 
-- Create Github repo for the course
-  + [Instructions](/assignments/01_github.html)
-  + [Git with R](https://happygitwithr.com/install-git#install-git)
-  + [Blackwell tutorial](https://github.com/gov50-f23/gov50-f23.github.io/blob/main/assignments/00-problem-set.qmd)
-  
+-   Create Github repo for the course
+    -   [Instructions](/assignments/01_github.html)
+    -   [Git with R](https://happygitwithr.com/install-git#install-git)
+    -   [Blackwell tutorial](https://github.com/gov50-f23/gov50-f23.github.io/blob/main/assignments/00-problem-set.qmd)
+
 ## Slides
 
-- [Slides](/slides/05-surveyexp.html)
+-   [Slides](/slides/05-surveyexp.html)
 
 ## Interesting Stuff (non-required)
 
-- [Pew's Question Wording Experiments](https://www.pewresearch.org/short-reads/2019/01/29/good-jobs-vs-jobs-survey-experiments-can-measure-the-effects-of-question-wording-and-more/)
-- [Sniderman (2018)](https://www.annualreviews.org/doi/10.1146/annurev-polisci-042716-115726): Review of advances in survey experiment design
-- Leeper's [survey experiments mini-course](https://thomasleeper.com/surveyexpcourse/): Leeper was an academic political scientists and is now a Research Scientist at Meta
+- A nice paper comparing the four main cross-country data sources on democracy-autocracy [here](https://link.springer.com/article/10.1057/s41304-021-00328-8)
+
+- A classic overview of theories what 1990's empirical results tell us about theories of democratization. [Check it out here](https://www.annualreviews.org/content/journals/10.1146/annurev.polisci.2.1.115)
 
 
-
+<!-- -   [Pew's Question Wording Experiments](https://www.pewresearch.org/short-reads/2019/01/29/good-jobs-vs-jobs-survey-experiments-can-measure-the-effects-of-question-wording-and-more/) -->
+<!-- -   [Sniderman (2018)](https://www.annualreviews.org/doi/10.1146/annurev-polisci-042716-115726): Review of advances in survey experiment design -->
+<!-- -   Leeper's [survey experiments mini-course](https://thomasleeper.com/surveyexpcourse/): Leeper was an academic political scientists and is now a Research Scientist at Meta -->
 
 <!-- https://www.3ieimpact.org/evidence-hub/publications/evidence-gap-maps/strengthening-civil-society-evidence-gap-map -->
 

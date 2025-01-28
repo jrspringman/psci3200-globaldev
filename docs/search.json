@@ -3600,37 +3600,37 @@
   {
     "objectID": "materials/05_autocracy1.html",
     "href": "materials/05_autocracy1.html",
-    "title": "Democracy and Autocratization 1 (Survey Experiments)",
+    "title": "Democracy and Autocracy",
     "section": "",
-    "text": "10 Things to Know About Survey Experiments by Christopher Grady\nAlbertus and Grossman (2021)\nHollerbauer et al. (2024)"
+    "text": "Adam Przeworski (2024)\nAlbertus and Grossman (2021)"
   },
   {
     "objectID": "materials/05_autocracy1.html#required-readings",
     "href": "materials/05_autocracy1.html#required-readings",
-    "title": "Democracy and Autocratization 1 (Survey Experiments)",
+    "title": "Democracy and Autocracy",
     "section": "",
-    "text": "10 Things to Know About Survey Experiments by Christopher Grady\nAlbertus and Grossman (2021)\nHollerbauer et al. (2024)"
+    "text": "Adam Przeworski (2024)\nAlbertus and Grossman (2021)"
   },
   {
     "objectID": "materials/05_autocracy1.html#assignment",
     "href": "materials/05_autocracy1.html#assignment",
-    "title": "Democracy and Autocratization 1 (Survey Experiments)",
+    "title": "Democracy and Autocracy",
     "section": "Assignment",
     "text": "Assignment\n\nCreate Github repo for the course\n\nInstructions\nGit with R\nBlackwell tutorial"
   },
   {
     "objectID": "materials/05_autocracy1.html#slides",
     "href": "materials/05_autocracy1.html#slides",
-    "title": "Democracy and Autocratization 1 (Survey Experiments)",
+    "title": "Democracy and Autocracy",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/05_autocracy1.html#interesting-stuff-non-required",
     "href": "materials/05_autocracy1.html#interesting-stuff-non-required",
-    "title": "Democracy and Autocratization 1 (Survey Experiments)",
+    "title": "Democracy and Autocracy",
     "section": "Interesting Stuff (non-required)",
-    "text": "Interesting Stuff (non-required)\n\nPew’s Question Wording Experiments\nSniderman (2018): Review of advances in survey experiment design\nLeeper’s survey experiments mini-course: Leeper was an academic political scientists and is now a Research Scientist at Meta"
+    "text": "Interesting Stuff (non-required)\n\nA nice paper comparing the four main cross-country data sources on democracy-autocracy here\nA classic overview of theories what 1990’s empirical results tell us about theories of democratization. Check it out here"
   },
   {
     "objectID": "materials/03_causal.html",
