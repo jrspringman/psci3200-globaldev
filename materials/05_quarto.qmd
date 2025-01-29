@@ -4,10 +4,6 @@ date: 2025-01-29
 ---
 
 
-## Required Readings
-
-- None
-
 ## Assignment
 
 - Install RStudio
@@ -26,8 +22,9 @@ Please download the *R Tutorial Source* script using the link below. I will be u
 - [Data](https://github.com/jrspringman/psci3200-globaldev/blob/main/workshops/aau_survey/clean_endline_did.csv)
 - [Github Slides](/slides/lees-git.html)
 
-I will be using a  file (.qmd) to lead the session. Quarto is a specific type of file in RStudio that integrates code into document production. Quarto can be useful for producing .pdf or .html files that to share the results of data analysis with donors and policymakers. If you would like to install Quarto, please consult the materials below:
-
+::: {.callout-note}
+All materials for this course are available on the [git repo](https://github.com/jrspringman/psci3200-globaldev). Rendered materials (usually `.html`) are available in the `psci3200-globaldev/docs` folder. Source code (usually `.qmd`) for slides, workshops, assignments, and all other materials are available in their respective subfolders.
+:::
 
 
 

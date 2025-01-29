@@ -2,63 +2,63 @@
   {
     "objectID": "workshops/w1_quarto.html",
     "href": "workshops/w1_quarto.html",
-    "title": "Live R Coding Session",
+    "title": "R, RStudio, and Quarto",
     "section": "",
     "text": "Before using R to illustrate basic programming concepts and data analysis tools, we will get familiar with the RStudio layout.\n\n\nRStudio has four primary panels that will help you interact with your data. We will use the default layout of these panels.\n\nSource panel: Top left\n\nEdit files to create ‘scripts’ of code\n\nConsole panel: Bottom left\n\nAccepts code as input\nDisplays output when we run code\n\nEnvironment panel: Top right\n\nEverything that R is holding in memory\nObjects that you create in the console or source panels will appear here\nYou can clear the environment with the broom icon\n\nViewer panel: Bottom-right\n\nView graphics that you generate\nNavigate files\n\n\n\n\n\nLet’s use these panels to create and interact with data.\nConsole:\n\nPerform a calculation: type 2 + 2 into the console panel and hit ENTER\nCreate and store an object: type sum = 2 + 2 into the console panel and hit ENTER\n\nSource:\n\nStart an R script: Open new .R file (button in top-left below “File”)\nCreate and store an object: type sum = 2 + 3 into the source panel and hit cntrl+ENTER\n\nEnvironment:\n\nConfirm that the object sum is stored in our environment\nUse rm(sum) to clear the object from the environment\nClear the environment with the broom icon\n\nViewer:\n\nNavigate through your computer’s files\nCreate a plot in the source panel"
   },
   {
     "objectID": "workshops/w1_quarto.html#rstudio-contains-4-panels",
     "href": "workshops/w1_quarto.html#rstudio-contains-4-panels",
-    "title": "Live R Coding Session",
+    "title": "R, RStudio, and Quarto",
     "section": "",
     "text": "RStudio has four primary panels that will help you interact with your data. We will use the default layout of these panels.\n\nSource panel: Top left\n\nEdit files to create ‘scripts’ of code\n\nConsole panel: Bottom left\n\nAccepts code as input\nDisplays output when we run code\n\nEnvironment panel: Top right\n\nEverything that R is holding in memory\nObjects that you create in the console or source panels will appear here\nYou can clear the environment with the broom icon\n\nViewer panel: Bottom-right\n\nView graphics that you generate\nNavigate files"
   },
   {
     "objectID": "workshops/w1_quarto.html#illustration",
     "href": "workshops/w1_quarto.html#illustration",
-    "title": "Live R Coding Session",
+    "title": "R, RStudio, and Quarto",
     "section": "",
     "text": "Let’s use these panels to create and interact with data.\nConsole:\n\nPerform a calculation: type 2 + 2 into the console panel and hit ENTER\nCreate and store an object: type sum = 2 + 2 into the console panel and hit ENTER\n\nSource:\n\nStart an R script: Open new .R file (button in top-left below “File”)\nCreate and store an object: type sum = 2 + 3 into the source panel and hit cntrl+ENTER\n\nEnvironment:\n\nConfirm that the object sum is stored in our environment\nUse rm(sum) to clear the object from the environment\nClear the environment with the broom icon\n\nViewer:\n\nNavigate through your computer’s files\nCreate a plot in the source panel"
   },
   {
     "objectID": "workshops/w1_quarto.html#objects-where-values-are-saved-in-r",
     "href": "workshops/w1_quarto.html#objects-where-values-are-saved-in-r",
-    "title": "Live R Coding Session",
+    "title": "R, RStudio, and Quarto",
     "section": "Objects: where values are saved in R",
     "text": "Objects: where values are saved in R\n“Object” is a generic term for anything that R stores in the environment. This can include anything from an individual number or word, to lists of values, to entire datasets.\nImportantly, objects belong to different “classes” depending on the type of values that they store.\n\nNumerics are numbers\nCharacters are text or strings like \"hello world\" and \"welcome to R\".\nFactors are a group of characters/strings with a fixed number of unique values\nLogicals are either TRUE or FALSE\n\n\n# Create a numeric object\nmy_number = 5.6\n# Check the class\nclass(my_number)\n\n[1] \"numeric\"\n\n# Create a character object\nmy_character = \"welcome to R\"\n# Check the class\nclass(my_character)\n\n[1] \"character\"\n\n# Create a logical object\nmy_logical = TRUE\n# Check the class\nclass(my_logical)\n\n[1] \"logical\"\n\n\nR can perform operations on objects.\n\n# Create a numeric object\nmy_number = 5.6\n# Check the class\nclass(my_number)\n\n[1] \"numeric\"\n\n# Perform a calculation\nmy_number = my_number + 5\n\nThe class of an object determines the type of operations you can perform on it. Some operations can only be run on numeric objects (numbers).\n\n# Create a character object\nmy_number = \"5.6\"\n# Check the class\nclass(my_number)\n# Perform a calculation\nmy_number + 5\nround(my_number)\n\nR contains functions that can convert some objects to different factors.\n\n# Convert character to numeric\nmy_number = as.numeric(\"5\")\nclass(my_number)\n\n[1] \"numeric\"\n\nmy_number &lt;- 5\n\n# But R is only so smart\nmy_number = as.numeric(\"five\")\nprint(my_number)\n\n[1] NA"
   },
   {
     "objectID": "workshops/w1_quarto.html#data-structures",
     "href": "workshops/w1_quarto.html#data-structures",
-    "title": "Live R Coding Session",
+    "title": "R, RStudio, and Quarto",
     "section": "Data Structures",
     "text": "Data Structures\nThe most simple objects are single values, but most data analysis involves more complicated data structures.\n\nLists\nLists are a type of data structure that store multiple values together. Lists are created using c() and allow you to perform operations on a series of values.\n\n# Create a numeric list (also called a \"vector\")\nnumeric_vector = c(6, 11, 13, 31)\n# Print the vector\nprint(numeric_vector)\n\n[1]  6 11 13 31\n\n# Check the class\nclass(numeric_vector)\n\n[1] \"numeric\"\n\n# Calculate the mean\nmean(numeric_vector)\n\n[1] 15.25\n\n\nAn important part of working with more complex data structures is called “indexing.” Indexing allows you to extract specific values from a data structure.\n\n# Extract the 2nd element from the list\nnumeric_vector[2]\n\n[1] 11\n\n# Extract elements 2-4\nnumeric_vector[2:4]\n\n[1] 11 13 31\n\n# Extract elements 1-2\nnumeric_vector[c(TRUE, TRUE, FALSE, FALSE)]\n\n[1]  6 11\n\n\n\n\nDataframes\nData frames are the most common type of data structure used in research. Data frames combine multiple lists of values into a single object.\n\n# Create a dataframe\nmy_data = data.frame(\n  x1 = rnorm(100, mean = 1, sd = 1),\n  x2 = rnorm(100, mean = 1, sd = 1)\n)\n\nclass(my_data)\n\n[1] \"data.frame\"\n\n\nAnything that comes in a spreadsheet (for example, an excel file) can be loaded into an R environment as a dataframe. R works most easily when spreadsheets are saved as a .csv file.\n\n# Use `read.csv()` to load data from a website\ndat = read.csv(\"https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv\") \n\n# Use `read.csv()` to load data from your computer's Downloads folder\n# dat = read.csv(\"/home/jeremy/Downloads/clean_endline_did.csv\")\n\nIn most data frames, rows correspond to observations and the columns correspond to variables that describe the observations. Here, we are looking at survey data from an RCT involving university students in Addis Ababa. Each row correspondents to a different survey respondent, and each column represents their answers to a different question from the survey."
   },
   {
     "objectID": "workshops/w1_quarto.html#loading-packages",
     "href": "workshops/w1_quarto.html#loading-packages",
-    "title": "Live R Coding Session",
+    "title": "R, RStudio, and Quarto",
     "section": "Loading Packages",
     "text": "Loading Packages\nPackages are an extremely important part of data analysis with R.\n\nR gives you access to thousands of “packages” that are created by users\nPackages contain bundles of code called “functions” that can execute specific tasks\nUse install.packages() to install a package and library() to load a package\n\nIn the next section, we’ll use the package dplyr to perform some data cleaning. dplyr is part of a universe of packages called tidyverse. Since this is one of the most important packages in the R ecosystem, let’s install and load it.\n\n# install.packages(\"tidyverse\")\nlibrary(tidyverse)\n\nWhen you are searching online or asking ChatGPT how to perform a specific task in R, it often helps to specify that you are looking for a solution in dplyr."
   },
   {
     "objectID": "workshops/w1_quarto.html#creating-variables",
     "href": "workshops/w1_quarto.html#creating-variables",
-    "title": "Live R Coding Session",
+    "title": "R, RStudio, and Quarto",
     "section": "Creating Variables",
     "text": "Creating Variables\nImagine we want to analyze the relationship between whether a respondent moved to to Addis Ababa to attend university and their level of political participation. However, there are two problems:\n\nWe don’t have a specific variable that measures whether or not respondents moved\nWe have many measures of participation\n\nHow can we create a variable measuring whether the respondent moved to Addis Ababa? We have a multiple-choice question asking students about what region they come from.\nLet’s start by investigating this variable.\n\n# The name of the variable in our dataframe is `q8_baseline`\ntable(dat$q8_baseline)\n\n\n                                        Addis Ababa \n                                                283 \n                                        Afar Region \n                                                  1 \n                                      Amhara Region \n                                                174 \n                           Benishangul-Gumuz Region \n                                                  5 \n                                   Dire Dawa (city) \n                                                  5 \n                                     Gambela Region \n                                                  1 \n                                      Harari Region \n                                                  4 \n                                      Oromia Region \n                                                205 \n                                              Other \n                                                 12 \n                                  Prefer not to say \n                                                 19 \n                                      Sidama Region \n                                                 35 \n                                      Somali Region \n                                                  5 \n                 South West Ethiopia Peoples Region \n                                                  6 \nSouthern Nations, Nationalities, and Peoples Region \n                                                 65 \n                                      Tigray Region \n                                                  5 \n\ndat = dat %&gt;% # this is called a \"pipe\"\n  # give our variable a better name\n  rename(home_region = q8_baseline) \n\ndat = dat %&gt;%\n  # drop respondents who report \"Prefer not to say\"\n  filter(!home_region == \"Prefer not to say\") \n\ndat = dat %&gt;%\n  # clean home region variable using `mutate()`\n  mutate(\n    # Shorten a long name to an abbreviation\n    home_region = ifelse(home_region == \"Southern Nations, Nationalities, and Peoples Region\", \"SNNPR\", home_region),\n    # remove the word \"Region\" from every observation of this column\n    home_region = str_remove(home_region, \" Region\"),\n    home_region = str_remove(home_region, \" \\\\(city\\\\)\")\n    )\n\n# Check if it worked\ntable(dat$home_region)\n\n\n                Addis Ababa                        Afar \n                        283                           1 \n                     Amhara           Benishangul-Gumuz \n                        174                           5 \n                  Dire Dawa                     Gambela \n                          5                           1 \n                     Harari                      Oromia \n                          4                         205 \n                      Other                      Sidama \n                         12                          35 \n                      SNNPR                      Somali \n                         65                           5 \nSouth West Ethiopia Peoples                      Tigray \n                          6                           5 \n\n\n\n# Chain these all together for more concise code\ndat = read_csv(\"https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv\" ) %&gt;%\n  # give our variable a better name\n  rename(home_region = q8_baseline) %&gt;%\n  # drop respondents who report \"Prefer not to say\"\n  filter(!home_region == \"Prefer not to say\") %&gt;%\n  # clean home region variable\n  mutate(\n    # Shorten a long name to an abbreviation\n    home_region = case_when(\n      home_region == \"Southern Nations, Nationalities, and Peoples Region\" ~ \"SNNPR\",\n      home_region == \"South West Ethiopia Peoples Region\" ~ \"SWEPR\",\n      TRUE ~ home_region\n    ),\n    # remove the word \"Region\" from every observation of this column\n    home_region = str_remove(home_region, \" Region| \\\\(city\\\\)\")\n    )\n\n# Check if it worked\ntable(dat$home_region)\n\n\n      Addis Ababa              Afar            Amhara Benishangul-Gumuz \n              283                 1               174                 5 \n        Dire Dawa           Gambela            Harari            Oromia \n                5                 1                 4               205 \n            Other            Sidama             SNNPR            Somali \n               12                35                65                 5 \n            SWEPR            Tigray \n                6                 5 \n\n\nNow that we’ve cleaned-up the names, we want to create a variable that tells us whether or not each respondent is originally from Addis Ababa. This will let us measure whether or not they moved to Addis in order to attend college.\n\n# Creating a measure of whether a respondent moved to Addis Ababa in order to at independent variable\ndat = dat %&gt;% \n  mutate(\n    moved = case_when(\n      home_region == \"Addis Ababa\" ~ 0,\n      TRUE ~ 1\n    ) \n  )\n\ntable(dat$moved, dat$home_region)\n\n   \n    Addis Ababa Afar Amhara Benishangul-Gumuz Dire Dawa Gambela Harari Oromia\n  0         283    0      0                 0         0       0      0      0\n  1           0    1    174                 5         5       1      4    205\n   \n    Other Sidama SNNPR Somali SWEPR Tigray\n  0     0      0     0      0     0      0\n  1    12     35    65      5     6      5\n\n\nNow, we need to create our second variable measuring levels of political participation. Remember, the challenge is that we have multiple measures of participation. Let’s start with two measures:\n\nNumber of times you’ve contacted gov’t official q13_4_1\nNumber of times you’ve signed a petition q13_5_1\n\n\n# Check out the distribution of our variables\ndat %&gt;% select(q13_4_1, q13_5_1) %&gt;% head(5)\n\n# A tibble: 5 × 2\n  q13_4_1 q13_5_1\n    &lt;dbl&gt;   &lt;dbl&gt;\n1       0       0\n2       3       0\n3       0       0\n4       0       0\n5       0       2\n\nmean(dat$q13_4_1)\n\n[1] NA\n\nhist(dat$q13_5_1)\n\n\n\n# Create a single measuree\ndat = dat %&gt;%\n  mutate(\n      add_participation = q13_4_1 + q13_5_1\n\n  )\n\nhist(dat$add_participation)\n\n\n\n# how do investigate NA values?\n\nOne thing we need to be careful with are NA values. We need to think carefully about why NA values are in our data and how to handle them appropriately.\nQuestion: Thinking about the data that you have worked with, what are the most common sources of NA values?\n\n## Find our two participation measures\nadd_ecols = grep(\"q13_4_1$|q13_5_1$\", names(dat), value = T)\n\ndat = dat %&gt;%\n  mutate(add_participation =  rowSums(across(add_ecols) ) )\n  #mutate(add_participation_end =  rowSums(across(add_ecols), na.rm = T) )\n\n# dat = dat %&gt;%\n#   mutate(home_region = na_if(home_region, \"Prefer not to say\")) %&gt;%"
   },
   {
     "objectID": "workshops/w1_quarto.html#merging-datasets",
     "href": "workshops/w1_quarto.html#merging-datasets",
-    "title": "Live R Coding Session",
+    "title": "R, RStudio, and Quarto",
     "section": "Merging Datasets",
     "text": "Merging Datasets\nOften, data analysis projects will require you to use variables from more than one dataset. This will require you to combine separate datasets into a single dataset in R, which is called merging. A merge uses an identifier (administrative unit names, respondent IDs, etc.) that is present in both datasets to combine them into one.\nQuestion: Thinking about the data that you have worked with, have you ever had to merge multiple datasets? What was the data? How did you do it?\n\n## Here we are selecting the unit-identifier (response_id) and the two variables we have created and saving them to a separate dataframe\nnew_vars = dat %&gt;%\n  select(response_id, moved, add_participation)\n\n## After you do some cleaning or create new variables, you may want to save that dataframe for future use\n# write.csv(new_dat, here::here(\"workshops/aau_survey/new_vars.csv\"))\n\n## Drop the new variables from our dataframe so that we can merge them back in\ndat = dat %&gt;%\n  select( -moved, -add_participation)\n\n## Check to make sure the merge will work as expected\n# nrow(dat)\n# nrow(new_vars)\n# dat$response_id[! dat$response_id %in% new_vars$response_id]\n\n## Use dplyr's `full_join` function  to merge datasets\ndat = dat %&gt;%\n  full_join(., new_vars)"
   },
   {
     "objectID": "workshops/w1_quarto.html#tables",
     "href": "workshops/w1_quarto.html#tables",
-    "title": "Live R Coding Session",
+    "title": "R, RStudio, and Quarto",
     "section": "Tables",
     "text": "Tables\n\n#install.packages(\"gt\")\nlibrary(gt)\n\ndesciptives = dat %&gt;%\n  group_by(moved) %&gt;%\n  summarise(observations = n(), \n            share = observations / nrow(dat),\n            mean = mean(add_participation, na.rm = T)) %&gt;%\n  mutate(moved = case_when(moved == 0 ~ \"No\",\n                           moved == 1 ~ \"Yes\"),\n         share = share *100)\n\ngt(desciptives) %&gt;%\n  tab_header(\n    title = \"Moving to University and Political Participation\",\n  ) %&gt;%\n  fmt_number(\n    columns = 3:4,\n    decimals = 2,\n    use_seps = FALSE\n  ) %&gt;%\n  cols_label(\n    moved = md(\"Moved to&lt;br&gt;Addis\"),\n    observations = md(\"Respondents&lt;br&gt;(count)\"),\n    share = md(\"Respondents&lt;br&gt;(%)\"),\n    mean = md(\"Participation&lt;br&gt;(mean score)\")\n  ) %&gt;%\n  gtsave(filename = \"tab_1.png\")"
   },
@@ -72,35 +72,35 @@
   {
     "objectID": "workshops/w1_quarto.html#formatting",
     "href": "workshops/w1_quarto.html#formatting",
-    "title": "Live R Coding Session",
+    "title": "R, RStudio, and Quarto",
     "section": "Formatting",
-    "text": "Formatting\n\nFormatting yaml\nCreating sections\nCommenting-out text\nEnd with rpubs"
+    "text": "Formatting\n\nQuarto is an extension of markdown\n\nYou can italics, bold, and link\nCreate sections and subsections with #, ##, ###\n\nDeclare title, file type, references, in yaml (top section)\nCommenting-out text\n\n\nWrite Formulas\n\nUse math mode to render formulas\n\n\\[\n\\widehat{ATE} = \\overline{Y}_{treatment\\_group} - \\overline{Y}_{control\\_group}\n\\]\n\n\nIntegrate External Image\nYou can also integrate external images that are stored in your project folder.\n\n\n\nHere is an image from my repo with a caption\n\n\n\n\nAutomate References\nCite cool work by outstanding scholars (Springman 2022) and automatically generate a references list at the end of your document.\n\nFind paper on scholar.google.com\n\nSelect “Cite → BibTex\n\nCreate references.bib file\n\nStore BibTex reference in file\nAdd references.bib to your yaml\n\n\n\n\nAdd Flow Charts\nThere is also built-in functionality to do cool stuff like create flow charts using mermaid.\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]"
   },
   {
     "objectID": "workshops/w1_quarto.html#formulas",
     "href": "workshops/w1_quarto.html#formulas",
     "title": "Live R Coding Session",
-    "section": "Formulas",
-    "text": "Formulas\n\nMath mode\n\n\\[\n\\widehat{ATE} = \\overline{Y}_{treatment\\_group} - \\overline{Y}_{control\\_group}\n\\]"
+    "section": "",
+    "text": "Math mode\n\n\\[\n\\widehat{ATE} = \\overline{Y}_{treatment\\_group} - \\overline{Y}_{control\\_group}\n\\]"
   },
   {
     "objectID": "workshops/w1_quarto.html#code-chunks",
     "href": "workshops/w1_quarto.html#code-chunks",
     "title": "Live R Coding Session",
-    "section": "Code Chunks",
-    "text": "Code Chunks\n\nFigures\nCheck out Figure 1\n\n\n\n\n\nFigure 1: Fake data figure\n\n\n\n\n\n\nTables\n\n\n\n\n\n\n  \n    \n      Descriptive Table of Random Data\n    \n    \n      Summary statistics: Mean and Standard Deviation\n    \n    \n      Variable\n      Mean\n      SD\n    \n  \n  \n    x\n0.5200910\n0.2942882\n    y\n0.4770270\n0.2766775\n    size\n5.6385087\n2.6461582\n    color\n0.5130599\n0.2326477\n  \n  \n  \n\n\n\n\n\n\n\n\n (1)\n  (2)\n\n\n\n\n(Intercept)\n0.003 (0.006)\n−0.001 (0.003)\n\n\nx1\n−0.003 (0.011)\n−0.787*** (0.013)\n\n\nx2\n\n0.394*** (0.006)\n\n\nNum.Obs.\n1000\n1000\n\n\nR2\n0.000\n0.808\n\n\nR2 Adj.\n−0.001\n0.807\n\n\nAIC\n−1768.6\n−3415.7\n\n\nBIC\n−1753.9\n−3396.1\n\n\nLog.Lik.\n887.295\n1711.866\n\n\nF\n0.076\n2095.146\n\n\nRMSE\n0.10\n0.04\n\n\n\n\n\n\n\n\n\nInline Code\nUse code within the text to describe your data (n = 50) for a more reproducible workflow.\n\n\nPython\nYou’ll need Python installed in order for this code to run. To run the code, highlight the section below and hit cntrl+c."
+    "section": "",
+    "text": "Check out Figure 1\n\n\n\n\n\nFigure 1: Fake data figure\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n    \n      Descriptive Table of Random Data\n    \n    \n      Summary statistics: Mean and Standard Deviation\n    \n    \n      Variable\n      Mean\n      SD\n    \n  \n  \n    x\n0.5200910\n0.2942882\n    y\n0.4770270\n0.2766775\n    size\n5.6385087\n2.6461582\n    color\n0.5130599\n0.2326477\n  \n  \n  \n\n\n\n\n\n\n\n\n (1)\n  (2)\n\n\n\n\n(Intercept)\n0.003 (0.006)\n−0.001 (0.003)\n\n\nx1\n−0.003 (0.011)\n−0.787*** (0.013)\n\n\nx2\n\n0.394*** (0.006)\n\n\nNum.Obs.\n1000\n1000\n\n\nR2\n0.000\n0.808\n\n\nR2 Adj.\n−0.001\n0.807\n\n\nAIC\n−1768.6\n−3415.7\n\n\nBIC\n−1753.9\n−3396.1\n\n\nLog.Lik.\n887.295\n1711.866\n\n\nF\n0.076\n2095.146\n\n\nRMSE\n0.10\n0.04\n\n\n\n\n\n\n\n\n\n\nUse code within the text to describe your data (n = 50) for a more reproducible workflow."
   },
   {
     "objectID": "workshops/w1_quarto.html#using-references",
     "href": "workshops/w1_quarto.html#using-references",
-    "title": "Live R Coding Session",
+    "title": "R, RStudio, and Quarto",
     "section": "Using References",
-    "text": "Using References\nCite cool work by outstanding scholars (Springman 2022) and automatically generate a references list."
+    "text": "Using References\nCite cool work by outstanding scholars (Springman 2022) and automatically generate a references list at the end of your document.\n\nFind paper on scholar.google.com\n\nSelect “Cite → BibTex\n\nCreate references.bib file"
   },
   {
     "objectID": "workshops/w1_quarto.html#averaged-z-scores",
     "href": "workshops/w1_quarto.html#averaged-z-scores",
-    "title": "Live R Coding Session",
+    "title": "R, RStudio, and Quarto",
     "section": "Averaged Z-Scores",
     "text": "Averaged Z-Scores\n\n## Find participation measures that are based on likert\n# baseline\nbcols = grep(\"^q13_.*_baseline$\", names(dat), value = T)\ndat[, paste0(bcols, \"_st\")] = dat[, bcols]\nbcols = paste0(bcols,\"_st\")\n\n# endline\necols = grep(\"^q13_[1-7]_\\\\d$\", names(dat), value = T)\ndat[, paste0(ecols, \"_st\")] = dat[, ecols]\necols = paste0(ecols,\"_st\")\n\n\n# Create treatment variable\ndat = dat %&gt;% mutate(moved = case_when(home_region == \"Addis Ababa\" ~ 0, TRUE ~ 1) )\n\n# clean q13_\nlevels = c(\"Never\", \"Once or Twice\", \"More than twice\", \"More than 5 times\", \n           \"More than 10 times\")\ndat = dat %&gt;% \n  mutate(across(c(bcols), \n                .fns = ~ factor(.x, levels = levels)))\n\n# Create z-score function from Kling, Liberman, and Katz (2007)\nz_score = function(x, y){\n  # calculate mean and sd of control group\n  c_mean = mean( as.numeric( unlist(x[, y])) , na.rm = T)\n  c_sd = sd( as.numeric( unlist(x[, y])) , na.rm = T)\n  # subtract control group mean; divide by control group SD\n  ( as.numeric(x[, y, drop = TRUE]) - c_mean) / c_sd\n}\n\n# calculate z-scores\nfor (i in c(bcols, ecols)) {\n  dat[,i] = z_score(dat, i)\n}\n\ndat = dat %&gt;% \n  rowwise() %&gt;% \n  mutate( z_participation_end = mean(c_across(all_of(bcols)), na.rm = TRUE)) %&gt;% \n  mutate( z_participation_base = mean(c_across(all_of(ecols)), na.rm = TRUE)) %&gt;%\n  ungroup()\n\n\nregd = dat %&gt;% select(z_participation_end, z_participation_base, moved, response_id ) %&gt;%\n  pivot_longer(cols = c(z_participation_end, z_participation_base),\n               names_to = \"time\",\n               values_to = \"z_participation\") %&gt;%\n  mutate(time = case_when(time == \"z_participation_end\" ~ 1,\n                          TRUE ~ 0))\n\nmodels &lt;- list()\nmodels[['Bivariate']] = lm(z_participation ~ moved, regd)\nmodels[['Multivariate']] = lm(z_participation ~ moved + time, regd)\nmodels[['Interaction']] = lm(z_participation ~ moved + time + moved*time, regd)\n\nmodelsummary(\n  models,\n  estimate  = \"{estimate}{stars} ({std.error})\",\n             statistic = NULL,\n  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')\n\n\n\n\n\nBivariate\nMultivariate\n Interaction\n\n\n\n\n(Intercept)\n−0.159*** (0.026)\n−0.156*** (0.030)\n−0.156*** (0.037)\n\n\nmoved\n0.247*** (0.032)\n0.247*** (0.032)\n0.247*** (0.046)\n\n\ntime\n\n−0.004 (0.031)\n−0.005 (0.052)\n\n\nmoved × time\n\n\n0.001 (0.065)\n\n\nNum.Obs.\n1597\n1597\n1597\n\n\nR2 Adj.\n0.035\n0.034\n0.034"
   },
@@ -3644,7 +3644,7 @@
     "href": "materials/05_quarto.html",
     "title": "R, RStudio, and Quarto",
     "section": "",
-    "text": "None"
+    "text": "Install RStudio\n\nInstructions\n\nInstall Quarto\n\nInstructions"
   },
   {
     "objectID": "materials/05_quarto.html#required-readings",
@@ -3657,15 +3657,15 @@
     "objectID": "materials/05_quarto.html#assignment",
     "href": "materials/05_quarto.html#assignment",
     "title": "R, RStudio, and Quarto",
-    "section": "Assignment",
-    "text": "Assignment\n\nInstall RStudio\n\nInstructions\n\nInstall Quarto\n\nInstructions"
+    "section": "",
+    "text": "Install RStudio\n\nInstructions\n\nInstall Quarto\n\nInstructions"
   },
   {
     "objectID": "materials/05_quarto.html#materials",
     "href": "materials/05_quarto.html#materials",
     "title": "R, RStudio, and Quarto",
     "section": "Materials",
-    "text": "Materials\nPlease download the R Tutorial Source script using the link below. I will be using the R Tutorial Source file (.qmd) to lead the session. The R Tutorial Visual contains a link to a rendered version of the R Tutorial Source that you can open as an .html document in your web browser. If you prefer, you can copy and paste code from the html file into RStudio.\n\nR + Quarto Slides\nR Tutorial Source (.qmd)\nR Tutorial Visual (.html)\nData\nGithub Slides\n\nI will be using a file (.qmd) to lead the session. Quarto is a specific type of file in RStudio that integrates code into document production. Quarto can be useful for producing .pdf or .html files that to share the results of data analysis with donors and policymakers. If you would like to install Quarto, please consult the materials below:"
+    "text": "Materials\nPlease download the R Tutorial Source script using the link below. I will be using the R Tutorial Source file (.qmd) to lead the session. The R Tutorial Visual contains a link to a rendered version of the R Tutorial Source that you can open as an .html document in your web browser. If you prefer, you can copy and paste code from the html file into RStudio.\n\nR + Quarto Slides\nR Tutorial Source (.qmd)\nR Tutorial Visual (.html)\nData\nGithub Slides\n\n\n\n\n\n\n\nNote\n\n\n\nAll materials for this course are available on the git repo. Rendered materials (usually .html) are available in the psci3200-globaldev/docs folder. Source code (usually .qmd) for slides, workshops, assignments, and all other materials are available in their respective subfolders."
   },
   {
     "objectID": "materials/07_causal.html",
@@ -4393,42 +4393,42 @@
     "href": "slides/05_quarto.html",
     "title": "R and RStudio",
     "section": "",
-    "text": "Name\nOne thing you’re interested in\nAny past experience with R\n\n\n\n\nYou should have…\n\nR + RStudio installed\nQuarto doc rendered and sent to CT\nGitHub account created and posted to Slack\n\n\n\n\nFree, open-source textbook that teaches statistics using R\n\nStatistical Inference via Data Science: A ModernDive into R and the Tidyverse (moderndive.com)\nR for Data Science (r4ds.had.co.nz)\nJPAL Online Course\n\nSupport for R:\n\nChatGPT (OpenAI), Claude (Anthropic), Gemini (Google)\nStack Overflow\n\n\n\n\n\nR is a programming language and free computing environment for statistical computing and graphics\nRStudio is an integrated development environment (IDE) that provides an interface by adding many convenient features and tools\nThink of R as a car’s engine and RStudio as the dashboard\nRStudio can also be used to manage projects, produce documents, build websites\n\n\nR is a programming language and free computing environment for statistical computing and graphics. It can be runs on a wide variety of operating systems, including Linux, Windows, and MacOS. RStudio is an integrated development environment (IDE) that provides an interface by adding many convenient features and tools.\nYou can think of R as a car’s engine and RStudio as the dashboard. In the same way that having access to a speedometer and a navigation system makes driving much easier, using RStudio’s interface makes using R much easier as well.\nR and RStudio are entirely free and updated on a regular basis, making them much more accessible and widely used than paid alternatives. You can conduct nearly any analysis using R, ranging from calculating the average of a variable to creating maps and conducting spatial analysis to conducting the analysis for an impact evaluation.\n\n\n\n\n\nCustomize the appearance of your R IDE by going to Tools -&gt; Global Options -&gt; Appearance"
+    "text": "Name\nOne thing you’re interested in\nAny past experience with R\n\n\n\n\nYou should have…\n\nR + RStudio installed\nQuarto doc rendered and sent to CT\nGitHub account created and posted to Slack\n\n\n\n\n\nQualtrics survey results\n\nTrajectory to policy and industry\nLittle experience cleaning\n\nAcademic vs practice\n\n\n\n\nFree, open-source textbook that teaches statistics using R\n\nStatistical Inference via Data Science: A ModernDive into R and the Tidyverse (moderndive.com)\nR for Data Science (r4ds.had.co.nz)\nJPAL Online Course\n\nSupport for R:\n\nChatGPT (OpenAI), Claude (Anthropic), Gemini (Google)\nStack Overflow\n\n\n\n\n\nR is a programming language and free computing environment for statistical computing and graphics\nRStudio is an integrated development environment (IDE) that provides an interface by adding many convenient features and tools\nThink of R as a car’s engine and RStudio as the dashboard\nRStudio can also be used to manage projects, produce documents, build websites\n\n\nR is a programming language and free computing environment for statistical computing and graphics. It can be runs on a wide variety of operating systems, including Linux, Windows, and MacOS. RStudio is an integrated development environment (IDE) that provides an interface by adding many convenient features and tools.\nYou can think of R as a car’s engine and RStudio as the dashboard. In the same way that having access to a speedometer and a navigation system makes driving much easier, using RStudio’s interface makes using R much easier as well.\nR and RStudio are entirely free and updated on a regular basis, making them much more accessible and widely used than paid alternatives. You can conduct nearly any analysis using R, ranging from calculating the average of a variable to creating maps and conducting spatial analysis to conducting the analysis for an impact evaluation.\n\n\n\n\n\nCustomize the appearance of your R IDE by going to Tools -&gt; Global Options -&gt; Appearance\n\n\n\n\n\nQuarto is a specific type of file in RStudio that integrates code into document production. Quarto can be useful for producing .pdf or .html files that to share the results of data analysis with donors and policymakers. If you would like to install Quarto, please consult the materials below:"
   },
   {
     "objectID": "slides/05_quarto.html#introductions",
     "href": "slides/05_quarto.html#introductions",
-    "title": "R and RStudio",
-    "section": "",
-    "text": "Name\nOne thing you’re interested in\nAny past experience with R"
+    "title": "R, RStudio, and Quarto",
+    "section": "Introductions",
+    "text": "Introductions\n\nName\nOne thing you’re interested in\nAny past experience with R"
   },
   {
     "objectID": "slides/05_quarto.html#preparedness",
     "href": "slides/05_quarto.html#preparedness",
-    "title": "R and RStudio",
-    "section": "",
-    "text": "You should have…\n\nR + RStudio installed\nQuarto doc rendered and sent to CT\nGitHub account created and posted to Slack"
+    "title": "R, RStudio, and Quarto",
+    "section": "Preparedness",
+    "text": "Preparedness\nYou should have…\n\nR + RStudio installed\nQuarto doc rendered and sent to CT\nGitHub account created and posted to Slack"
   },
   {
     "objectID": "slides/05_quarto.html#resources",
     "href": "slides/05_quarto.html#resources",
-    "title": "R and RStudio",
-    "section": "",
-    "text": "Free, open-source textbook that teaches statistics using R\n\nStatistical Inference via Data Science: A ModernDive into R and the Tidyverse (moderndive.com)\nR for Data Science (r4ds.had.co.nz)\nJPAL Online Course\n\nSupport for R:\n\nChatGPT (OpenAI), Claude (Anthropic), Gemini (Google)\nStack Overflow"
+    "title": "R, RStudio, and Quarto",
+    "section": "Resources",
+    "text": "Resources\nFree, open-source textbook that teaches statistics using R\n\nStatistical Inference via Data Science: A ModernDive into R and the Tidyverse (moderndive.com)\nR for Data Science (r4ds.had.co.nz)\nJPAL Online Course\n\nSupport for R:\n\nChatGPT (OpenAI), Claude (Anthropic), Gemini (Google)\nStack Overflow"
   },
   {
     "objectID": "slides/05_quarto.html#what-are-r-and-rstudio",
     "href": "slides/05_quarto.html#what-are-r-and-rstudio",
-    "title": "R and RStudio",
-    "section": "",
-    "text": "R is a programming language and free computing environment for statistical computing and graphics\nRStudio is an integrated development environment (IDE) that provides an interface by adding many convenient features and tools\nThink of R as a car’s engine and RStudio as the dashboard\nRStudio can also be used to manage projects, produce documents, build websites\n\n\nR is a programming language and free computing environment for statistical computing and graphics. It can be runs on a wide variety of operating systems, including Linux, Windows, and MacOS. RStudio is an integrated development environment (IDE) that provides an interface by adding many convenient features and tools.\nYou can think of R as a car’s engine and RStudio as the dashboard. In the same way that having access to a speedometer and a navigation system makes driving much easier, using RStudio’s interface makes using R much easier as well.\nR and RStudio are entirely free and updated on a regular basis, making them much more accessible and widely used than paid alternatives. You can conduct nearly any analysis using R, ranging from calculating the average of a variable to creating maps and conducting spatial analysis to conducting the analysis for an impact evaluation."
+    "title": "R, RStudio, and Quarto",
+    "section": "What are R and RStudio?",
+    "text": "What are R and RStudio?\n\nR is a programming language and free computing environment for statistical computing and graphics\nRStudio is an integrated development environment (IDE) that provides an interface by adding many convenient features and tools\nThink of R as a car’s engine and RStudio as the dashboard\nRStudio can also be used to manage projects, produce documents, build websites\n\n\nR is a programming language and free computing environment for statistical computing and graphics. It can be runs on a wide variety of operating systems, including Linux, Windows, and MacOS. RStudio is an integrated development environment (IDE) that provides an interface by adding many convenient features and tools.\nYou can think of R as a car’s engine and RStudio as the dashboard. In the same way that having access to a speedometer and a navigation system makes driving much easier, using RStudio’s interface makes using R much easier as well.\nR and RStudio are entirely free and updated on a regular basis, making them much more accessible and widely used than paid alternatives. You can conduct nearly any analysis using R, ranging from calculating the average of a variable to creating maps and conducting spatial analysis to conducting the analysis for an impact evaluation."
   },
   {
     "objectID": "slides/05_quarto.html#peronalization",
     "href": "slides/05_quarto.html#peronalization",
-    "title": "R and RStudio",
-    "section": "",
-    "text": "Customize the appearance of your R IDE by going to Tools -&gt; Global Options -&gt; Appearance"
+    "title": "R, RStudio, and Quarto",
+    "section": "Peronalization",
+    "text": "Peronalization\n\nCustomize the appearance of your R IDE by going to Tools -&gt; Global Options -&gt; Appearance"
   },
   {
     "objectID": "slides/07-causal.html#assignments",
@@ -6949,5 +6949,54 @@
     "title": "Final Report Example",
     "section": "Results",
     "text": "Results\n\n\n\n\n\n\nContact Official\nAttend Meeting\n NGO Volunteer\nSign Petition\n\n\n\n\n(Intercept)\n1.044*** (0.114)\n0.752*** (0.116)\n1.304*** (0.181)\n0.354*** (0.090)\n\n\nmoved\n−0.178 (0.141)\n0.580*** (0.143)\n0.117 (0.222)\n0.529*** (0.110)\n\n\nNum.Obs.\n802\n801\n803\n801\n\n\nR2 Adj.\n0.001\n0.019\n−0.001\n0.027"
+  },
+  {
+    "objectID": "slides/05_quarto.html#motivation",
+    "href": "slides/05_quarto.html#motivation",
+    "title": "R, RStudio, and Quarto",
+    "section": "Motivation",
+    "text": "Motivation\n\nQualtrics survey results\n\nTrajectory is policy and industry\nLittle experience cleaning data\n\nAcademic research tools are more useful than knowing the literature\n\nDealing with messy data\nProfessional presentation\nReproducible work"
+  },
+  {
+    "objectID": "slides/05_quarto.html#quarto",
+    "href": "slides/05_quarto.html#quarto",
+    "title": "R, RStudio, and Quarto",
+    "section": "Quarto",
+    "text": "Quarto\n\nQuarto integrates code into document production (R, Python, etc.)\nUseful for producing professional .pdf or .html files, building websites\nAll assignments will require building .html files in Quarto\nFinal project will build a public website presenting an original analysis\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "workshops/w1_quarto.html#tables-1",
+    "href": "workshops/w1_quarto.html#tables-1",
+    "title": "Live R Coding Session",
+    "section": "Tables",
+    "text": "Tables\n\n#install.packages(\"gt\")\nlibrary(gt)\n\ndesciptives = dat %&gt;%\n  group_by(moved) %&gt;%\n  summarise(observations = n(), \n            share = observations / nrow(dat),\n            mean = mean(add_participation, na.rm = T)) %&gt;%\n  mutate(moved = case_when(moved == 0 ~ \"No\",\n                           moved == 1 ~ \"Yes\"),\n         share = share *100)\n\ngt(desciptives) %&gt;%\n  tab_header(\n    title = \"Moving to University and Political Participation\",\n  ) %&gt;%\n  fmt_number(\n    columns = 3:4,\n    decimals = 2,\n    use_seps = FALSE\n  ) %&gt;%\n  cols_label(\n    moved = md(\"Moved to&lt;br&gt;Addis\"),\n    observations = md(\"Respondents&lt;br&gt;(count)\"),\n    share = md(\"Respondents&lt;br&gt;(%)\"),\n    mean = md(\"Participation&lt;br&gt;(mean score)\")\n  ) %&gt;%\n  gtsave(filename = \"tab_1.png\")"
+  },
+  {
+    "objectID": "workshops/w1_quarto.html#figures-1",
+    "href": "workshops/w1_quarto.html#figures-1",
+    "title": "R, RStudio, and Quarto",
+    "section": "Figures",
+    "text": "Figures\nThere are many ways to create figures in R, but ggplot is the most popular.\n\nggplot(dat, aes(add_participation)) +\n  geom_histogram(binwidth = 1)\n\n\n\ndat %&gt;%\n  filter(add_participation &lt; 15) %&gt;%\n  ggplot(aes(add_participation)) +\n  geom_histogram(binwidth = 1)\n\n\n\ndat %&gt;%\n  filter(add_participation &lt; 15) %&gt;%\n  ggplot(aes(x = add_participation, fill = q3_baseline)) +\n  geom_histogram(binwidth = 1, alpha = 0.5, position = \"identity\")\n\n\n\ndat %&gt;%\n  filter(add_participation &lt; 15) %&gt;%\n  mutate(moved = fct_rev(as.factor(moved))) %&gt;%\n  ggplot(aes(x = add_participation, fill = moved)) +\n  geom_histogram(aes(y = (..count..) / sum(..count..) * 100),\n                 binwidth = 1, alpha = 0.5, position = \"identity\") +\n  scale_y_continuous(labels = scales::percent_format(scale = 1)) +\n  labs(y = \"Percentage\") +\n  theme_bw() +\n  theme(legend.title = element_blank(), legend.position = c(.8, .8))\n\n\n\n\nYou can do tremendous amounts of customization with ggplot to create extremely informative and professional plots.\n\n## demographics\ndemos = dat %&gt;%\n  drop_na(q3_baseline) %&gt;% \n  select(`Respondent Gender` = q3_baseline, `Work as a student?` = q4_baseline, \n         `Rural or urban?` = q5_baseline, `Financial support from family?` = q6_baseline, \n         `Home region` = home_region,\n         `Student Year` = class_year) %&gt;% \n  pivot_longer(everything()) %&gt;% \n  group_by(name, value) %&gt;% \n  tally() %&gt;% \n  mutate(pct = n/sum(n)) %&gt;% \n  top_n(n = 5, wt = pct)\n\ndemos$name = factor(demos$name, levels = c('Home region', 'Rural or urban?', 'Student Year', 'Respondent Gender', 'Work as a student?', 'Financial support from family?'))\n\ndemos &lt;- demos %&gt;%\n  group_by(name) %&gt;%\n  mutate(total_n = sum(n)) %&gt;%\n  ungroup()\n\nggplot(demos , aes(y = value, x = pct)) + \n  geom_col(fill = \"grey\") + \n  facet_wrap( ~name, scales = \"free\") + \n  scale_y_discrete(labels = scales::label_wrap(30)) + \n  hrbrthemes::scale_x_percent(limits = c(0, 1)) + \n  labs(x = \"Percent of respondents to the survey\", y = NULL, \n       title = \"Demographic characteristics of baseline respondents\", \n       subtitle = glue::glue(\"Number of respondents = {scales::comma(nrow(df))}\"), \n       caption = \"Note: home region only displays top five categories by size.\") +\n  geom_text(\n    aes(\n      label = glue::glue(\"n = {total_n}\")\n    ), \n    x = 0.92, y = -Inf, \n    vjust = -1, hjust = 1, \n    inherit.aes = FALSE\n  )\n\n\n\n#ggsave(\"/home/jeremy/Downloads/demographics.png\")"
+  },
+  {
+    "objectID": "workshops/w1_quarto.html#write-formulas",
+    "href": "workshops/w1_quarto.html#write-formulas",
+    "title": "R, RStudio, and Quarto",
+    "section": "Write Formulas",
+    "text": "Write Formulas\n\nUse math mode to render formulas\n\n\\[\n\\widehat{ATE} = \\overline{Y}_{treatment\\_group} - \\overline{Y}_{control\\_group}\n\\]"
+  },
+  {
+    "objectID": "workshops/w1_quarto.html#working-with-code",
+    "href": "workshops/w1_quarto.html#working-with-code",
+    "title": "R, RStudio, and Quarto",
+    "section": "Working with Code",
+    "text": "Working with Code\nTo integrate code into our document, we can use code chunks. This allows us to create self-contained, reproducible documents.\n\nCode Chunks Options\nCode chunks come with specific options to control behavior. Let’s break down each option:\n#| echo: true          # The code will be shown in the rendered output.\n#| warning: false       # Any warnings produced by the code will be suppressed.\n#| label: fig-fake-data # This assigns an internal label to the chunk, useful for referencing.\n#| fig-cap: \"Fake data figure\" # This sets the caption for any figures generated by the chunk.\n#| fig-width: 5\n\n\n\nFigures\nCheck out Figure 1\n\n\n\n\n\nFigure 1: Fake data figure\n\n\n\n\n\n\nDescriptive Tables\n\n\n\n\n\n\nTable 1:  Fake data table \n  \n    \n      Descriptive Table of Random Data\n    \n    \n      Summary statistics: Mean and Standard Deviation\n    \n    \n      Variable\n      Mean\n      SD\n    \n  \n  \n    x\n0.5200910\n0.2942882\n    y\n0.4770270\n0.2766775\n    size\n5.6385087\n2.6461582\n    color\n0.5130599\n0.2326477\n  \n  \n  \n\n\n\n\n\n\n\nRegression Results\n\n\n\n\n\n\n (1)\n  (2)\n\n\n\n\n(Intercept)\n0.003 (0.006)\n−0.001 (0.003)\n\n\nx1\n−0.003 (0.011)\n−0.787*** (0.013)\n\n\nx2\n\n0.394*** (0.006)\n\n\nNum.Obs.\n1000\n1000\n\n\nR2\n0.000\n0.808\n\n\nR2 Adj.\n−0.001\n0.807\n\n\nAIC\n−1768.6\n−3415.7\n\n\nBIC\n−1753.9\n−3396.1\n\n\nLog.Lik.\n887.295\n1711.866\n\n\nF\n0.076\n2095.146\n\n\nRMSE\n0.10\n0.04\n\n\n\n\n\n\n\n\n\nInline Code\nUse code within the text to describe your data (n = 50) for a more reproducible workflow. If your data changes, the writing automatically updates."
+  },
+  {
+    "objectID": "workshops/w1_quarto.html#flow-charts",
+    "href": "workshops/w1_quarto.html#flow-charts",
+    "title": "R, RStudio, and Quarto",
+    "section": "Flow Charts",
+    "text": "Flow Charts\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]"
   }
 ]

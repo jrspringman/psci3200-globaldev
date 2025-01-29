@@ -1,5 +1,5 @@
 ---
-title: "Live R Coding Session"
+title: "R, RStudio, and Quarto"
 author: "Jeremy Springman"
 institute: "University of Pennsylvania"
 
@@ -19,9 +19,11 @@ format:
     code-line-numbers: false
 editor: source
 
-
 highlight-style: github
+
+bibliography: img/references.bib
 ---
+
 
 # R and RStudio
 
@@ -39,6 +41,16 @@ You should have...
 - Quarto doc rendered and sent to CT
 - GitHub account created and posted to Slack
 
+
+## Motivation
+
+- Qualtrics survey results
+  + Trajectory is policy and industry
+  + Little experience cleaning data
+- Academic research tools are more useful than knowing the literature 
+  + Dealing with messy data
+  + Professional presentation
+  + Reproducible work
 
 ## Resources
 
@@ -76,4 +88,10 @@ R and RStudio are entirely free and updated on a regular basis, making them much
 ![](img/apperance.png)
 
 
+## Quarto
+
+- Quarto integrates code into document production (R, Python, etc.)
+- Useful for producing professional `.pdf` or `.html` files, building websites
+- All assignments will require building `.html` files in Quarto
+- Final project will build a public website presenting an original analysis
 
