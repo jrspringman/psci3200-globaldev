@@ -74,7 +74,7 @@
     "href": "workshops/w1_quarto.html#formatting",
     "title": "R, RStudio, and Quarto",
     "section": "Formatting",
-    "text": "Formatting\n\nQuarto is an extension of markdown\n\nYou can italics, bold, and link\nCreate sections and subsections with #, ##, ###\n\nDeclare title, file type, references, in yaml (top section)\nCommenting-out text\n\n\nWrite Formulas\n\nUse math mode to render formulas\n\n\\[\n\\widehat{ATE} = \\overline{Y}_{treatment\\_group} - \\overline{Y}_{control\\_group}\n\\]\n\n\nIntegrate External Image\nYou can also integrate external images that are stored in your project folder.\n\n\n\nHere is an image from my repo with a caption\n\n\n\n\nAutomate References\nCite cool work by outstanding scholars (Springman 2022) and automatically generate a references list at the end of your document.\n\nFind paper on scholar.google.com\n\nSelect “Cite → BibTex\n\nCreate references.bib file\n\nStore BibTex reference in file\nAdd references.bib to your yaml\n\n\n\n\nAdd Flow Charts\nThere is also built-in functionality to do cool stuff like create flow charts using mermaid.\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]"
+    "text": "Formatting\n\nQuarto is an extension of markdown\n\nYou can italics, bold, and link\nCreate sections and subsections with #, ##, ###\n\nDeclare title, file type, references, in yaml (top section)\nCommenting-out text\n\n\nWrite Formulas\n\nUse math mode to render formulas\n\n\\[\n\\widehat{ATE} = \\overline{Y}_{treatment\\_group} - \\overline{Y}_{control\\_group}\n\\]\n\n\nIntegrate External Image\nYou can also integrate external images that are stored in your project folder.\n\n\n\nHere is an image from my repo with a caption\n\n\n\n\nAutomate References\nCite cool work by outstanding scholars (Springman 2022) and automatically generate a references list at the end of your document.\n\nFind paper on scholar.google.com\n\nSelect “Cite → BibTex\n\nCreate references.bib file\n\nStore BibTex reference in file\nAdd references.bib to your yaml\n\n\n\n\nAdd Flow Charts\nThere is also built-in functionality to do cool stuff like create flow charts using mermaid.\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\n\n\n\n\n\nAdd Footnotes\nWrite a sentence and then add a footnote.1\n\n\nTables By Hand\nYou can create tables by hand using markdown syntax.\n\n\n\nRight\nLeft\nDefault\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
   },
   {
     "objectID": "workshops/w1_quarto.html#formulas",
@@ -6998,5 +6998,12 @@
     "title": "R, RStudio, and Quarto",
     "section": "Flow Charts",
     "text": "Flow Charts\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]"
+  },
+  {
+    "objectID": "workshops/w1_quarto.html#footnotes",
+    "href": "workshops/w1_quarto.html#footnotes",
+    "title": "R, RStudio, and Quarto",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nInlines notes are easier to write, since you don’t have to pick an identifier and move down to type the note.↩︎"
   }
 ]
