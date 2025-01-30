@@ -6,7 +6,7 @@ date: 2025-02-01
 ## Required Readings
 
 -   [Adam Przeworski (2024)](https://www.journalofdemocracy.org/articles/who-decides-what-is-democratic/)
--   [Albertus and Grossman (2021)](/files/albertus.pdf)
+-   [Grossman et. al. (2022)](/files/the-majoritarian-threat-to-liberal-democracy.pdf)
 
 <!-- - [10 Things to Know About Survey Experiments](https://egap.org/resource/10-things-to-know-about-survey-experiments/) by Christopher Grady -->
 
