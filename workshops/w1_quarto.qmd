@@ -642,7 +642,7 @@ One of the major benefits of using R is the ability to create beautiful tables a
 
 ## Tables
 
-```{r}
+```{r, eval = F}
 #| echo: true
 #| include: true
 #| warning: false
@@ -675,8 +675,9 @@ gt(desciptives) %>%
     observations = md("Respondents<br>(count)"),
     share = md("Respondents<br>(%)"),
     mean = md("Participation<br>(mean score)")
-  ) %>%
-  gtsave(filename = "tab_1.png")
+  ) 
+#%>%
+ # gtsave(filename = "tab_1.png")
 
 
 ```

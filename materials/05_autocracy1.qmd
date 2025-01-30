@@ -23,7 +23,7 @@ date: 2025-02-01
 
 ## Slides
 
--   [Slides](/slides/05-surveyexp.html)
+<!-- -   [Slides](/slides/05-demaut1.html) -->
 
 ## Interesting Stuff (non-required)
 
