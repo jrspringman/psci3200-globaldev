@@ -3217,7 +3217,7 @@
     "href": "materials/05_autocracy1.html#slides",
     "title": "Democracy and Autocracy",
     "section": "Slides",
-    "text": "Slides"
+    "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/05_autocracy1.html#interesting-stuff-non-required",
@@ -7033,5 +7033,292 @@
     "title": "Democracy and Autocracy II",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\n\nA simple explanation of why we use Fixed Effects here"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#agenda",
+    "href": "slides/05-demaut1.html#agenda",
+    "title": "Democracy",
+    "section": "Agenda",
+    "text": "Agenda\n\nConceptualizing Democracy\nMeasuring Democracy\nMajoritarian Threat to Democracy (Grossman et. al.)\nOn Wed: Democracy and development (And Fixed Effects)"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#what-is-democracy",
+    "href": "slides/05-demaut1.html#what-is-democracy",
+    "title": "Democracy",
+    "section": "What is Democracy?",
+    "text": "What is Democracy?\n\n\nNot an easy question to answer!\nOne might even say polemic…\n\nEtymology? Demokratia = demos + kratia\nIs it about elections? About outcomes? About norms?\n\nAcademics often talk about minimalist (procedural)\nand maximalist (substantive) conceptions of democracy."
+  },
+  {
+    "objectID": "slides/05-demaut1.html#what-is-democracy-the-minimalists",
+    "href": "slides/05-demaut1.html#what-is-democracy-the-minimalists",
+    "title": "Democracy",
+    "section": "What is Democracy? The Minimalists",
+    "text": "What is Democracy? The Minimalists\nDemocracy as a PROCEDURE for choosing and replacing who rules us\n\n\nSchumpeter: a system in which rulers are selected by competitive elections\nPopper: a system in which citizens can replace governments without bloodshed\nPrzeworksi: a system in which citizens collectively decide by whom and, to some extent, how they will be governed"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#what-is-democracy-the-minimalists-1",
+    "href": "slides/05-demaut1.html#what-is-democracy-the-minimalists-1",
+    "title": "Democracy and Autocracy",
+    "section": "What is Democracy? The Minimalists",
+    "text": "What is Democracy? The Minimalists\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#what-is-democracy-the-maximalists",
+    "href": "slides/05-demaut1.html#what-is-democracy-the-maximalists",
+    "title": "Democracy",
+    "section": "What is Democracy? The Maximalists",
+    "text": "What is Democracy? The Maximalists\n“Thick’’ definition of democracy\n\n\nDemocracy as system that embodies or a method for realizing extrinsic values\nDemocracies classified based on formal institutions and rules, how those institutions are used in practice, and what outcomes they produce\n\nDo the rules, the way they are used, and their consequences promote equality, accountability, participation, justice, dignity, security …"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#are-you-a-maximalist-or-a-minimalist",
+    "href": "slides/05-demaut1.html#are-you-a-maximalist-or-a-minimalist",
+    "title": "Democracy",
+    "section": "Are you a maximalist or a minimalist?",
+    "text": "Are you a maximalist or a minimalist?\nWhat is a necessary condition for a system to be democratic?\n\n\nDoes it need to hold elections?\nDoes everyone need to be able to vote?\nDoes everyone need to be able to run for office?\nHave an independent legislative body?\nIndependent media?\nEconomic equality?"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#the-value-of-democracy",
+    "href": "slides/05-demaut1.html#the-value-of-democracy",
+    "title": "Democracy",
+    "section": "The Value of Democracy",
+    "text": "The Value of Democracy\n\nPer se\n\nThe fairest system as normatively desirable.\nPolitical freedom is human freedom.\n\nInstrumental (i.e gets you something else)\n\nThe best way to prevent abuse is by making our rulers dependent on us.\nWe can select the most competent rulers.\nPacification of the political life.\nEconomic Development"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#what-is-an-autocracy",
+    "href": "slides/05-demaut1.html#what-is-an-autocracy",
+    "title": "Democracy",
+    "section": "What is an autocracy",
+    "text": "What is an autocracy\n\nA fundamentally residual category!"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#measuring-democracy",
+    "href": "slides/05-demaut1.html#measuring-democracy",
+    "title": "Democracy",
+    "section": "Measuring democracy",
+    "text": "Measuring democracy\n\nMinimalist (Yes/No)\n\nDemocracy-Dictatorship score (ends in 2008 sadly)\n\nDemocracy if: Executive is elected, legislature is elected, more than one party, has been an alternation of power under current rules\n\n\nMaximalist\n\nPolity IV/V (from -10 to 10)\n\nSpectrum of: competitiveness, openness, participation, checks and balances\n\nFreedom house (0-100)\n\nExperts rate: access to political rights and civil liberties"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#if-democracy-is-valuable",
+    "href": "slides/05-demaut1.html#if-democracy-is-valuable",
+    "title": "Democracy",
+    "section": "If Democracy is Valuable…",
+    "text": "If Democracy is Valuable…\nThen we want to keep it safe!\n\n\nDemocracies are stronger when citizens hold politicians accountable\nBut… what if people knowingly support antidemocratic governments or antidemocratic behavior from politicians?"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#the-majoritarian-threat-to-liberal-democracy",
+    "href": "slides/05-demaut1.html#the-majoritarian-threat-to-liberal-democracy",
+    "title": "Democracy",
+    "section": "The Majoritarian Threat to Liberal Democracy",
+    "text": "The Majoritarian Threat to Liberal Democracy\nGrossman, Kronick, Levendusky, and Meredith, 2022\n\nPuzzle: voters often ignore or even support politicians’ power grabs. Why?\n\nExtant research shows some people prefer nondemocratic governments (autocrats)\nWhile others prioritize their partisan objectives over democratic principals (militants)\n\n\n\n\nBut the authors suggest there is a third type …"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#minimalists-vs.-maximalists",
+    "href": "slides/05-demaut1.html#minimalists-vs.-maximalists",
+    "title": "Democracy",
+    "section": "Minimalists vs. Maximalists",
+    "text": "Minimalists vs. Maximalists\nCommon critique of procedural conceptions of democracy:\n\n\nis that it is too thin and mostly electoral.\nBut is it really that minimal?\n\nWhat do we require to hold “free and fair” elections?\n\nAt least civil and political rights, neutral electoral machinery, stability, competing parties, etc…\nRespect for the rules of the game …"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#minimalists-vs.-maximalists-1",
+    "href": "slides/05-demaut1.html#minimalists-vs.-maximalists-1",
+    "title": "Democracy",
+    "section": "Minimalists vs. Maximalists",
+    "text": "Minimalists vs. Maximalists\nCommon critique of maximalist perspective:\n\n\nDemocracy becomes subjective\n\nWhatever values we view as democratic need not be the other persons’ views\nHard to measure, hard to compare across time and space\n\nIf democracy is only justifiable for its outcomes, we may risk autocracy during bad times"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#section",
+    "href": "slides/05-demaut1.html#section",
+    "title": "Democracy and Autocracy",
+    "section": "",
+    "text": "Research Question\nHypotheses\nResearch Design\nAssumptions\nResults\nConclusions\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#the-majoritarian-threat-to-liberal-democracy-1",
+    "href": "slides/05-demaut1.html#the-majoritarian-threat-to-liberal-democracy-1",
+    "title": "Democracy",
+    "section": "The Majoritarian Threat to Liberal Democracy",
+    "text": "The Majoritarian Threat to Liberal Democracy\n\nMajoritarians:\n\n\n\nPeople who believe popular elected leaders are justified in taking legal but “antidemocratic” steps\nWhat do we mean by that?\nHow to identify these people in the population?"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#research-design",
+    "href": "slides/05-demaut1.html#research-design",
+    "title": "Democracy",
+    "section": "Research Design",
+    "text": "Research Design\n\nTwo survey experiments. We will focus on the first one\nVignette –&gt; outgoing governor announces that he will appoint a replacement for a state SCJ instead of waiting for incoming governor from opposite party\n\nNot illegal but not “democratic”\n\n\n\n\nRespondents are assigned to a treatment or control condition.\nWhat is the treatment?"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#results",
+    "href": "slides/05-demaut1.html#results",
+    "title": "Democracy",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#conclusions",
+    "href": "slides/05-demaut1.html#conclusions",
+    "title": "Democracy and Autocracy",
+    "section": "Conclusions",
+    "text": "Conclusions\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#research-design-1",
+    "href": "slides/05-demaut1.html#research-design-1",
+    "title": "Democracy",
+    "section": "Research Design",
+    "text": "Research Design\nRandomly assigned whether the outgoing governor is a co-partisan of respondents\n\n\nOutcomes?\n\nDo you approve of what the outgoing governor did?\nDo you think it’s consistent with democracy?\n\nAssumptions?\n\nTreatment and control groups are the same across all relevant dimensions, in expectation"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#theoretical-expectations",
+    "href": "slides/05-demaut1.html#theoretical-expectations",
+    "title": "Democracy",
+    "section": "Theoretical Expectations",
+    "text": "Theoretical Expectations"
+  },
+  {
+    "objectID": "slides/05-demaut1.html#discussion",
+    "href": "slides/05-demaut1.html#discussion",
+    "title": "Democracy",
+    "section": "Discussion",
+    "text": "Discussion\n\nAre majoritarians antidemocratic? Are partisans?\n\nWhat would the minimalists say?\nWhat would the maximalists say?\n\nWhat implications does the existence of majoritarians have for democratic quality?"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#agenda",
+    "href": "slides/06-demaut2.html#agenda",
+    "title": "Democracy and Development",
+    "section": "Agenda",
+    "text": "Agenda"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#democracy-and-development",
+    "href": "slides/06-demaut2.html#democracy-and-development",
+    "title": "Democracy and Development",
+    "section": "Democracy and Development",
+    "text": "Democracy and Development\nWhat is this plot showing?"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#two-explanations",
+    "href": "slides/06-demaut2.html#two-explanations",
+    "title": "Democracy and Development",
+    "section": "Two explanations",
+    "text": "Two explanations\n\nCausal\nCorrelational"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#development-causes-democracy",
+    "href": "slides/06-demaut2.html#development-causes-democracy",
+    "title": "Democracy and Development",
+    "section": "Development causes democracy",
+    "text": "Development causes democracy"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#modernization-theory",
+    "href": "slides/06-demaut2.html#modernization-theory",
+    "title": "Democracy and Development",
+    "section": "Modernization Theory",
+    "text": "Modernization Theory"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#democracy-spurs-development",
+    "href": "slides/06-demaut2.html#democracy-spurs-development",
+    "title": "Democracy and Development",
+    "section": "Democracy Spurs Development",
+    "text": "Democracy Spurs Development"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#democracy-and-development-in-research",
+    "href": "slides/06-demaut2.html#democracy-and-development-in-research",
+    "title": "Democracy and Development",
+    "section": "Democracy and Development in Research",
+    "text": "Democracy and Development in Research\nThe theoretical links btw democracy and development have permeated micro-development research\nResource booms and democracy - Windfalls do not improve democratic quality but might make autocracies sturdier\nCorruption and Development - - Horizontal accountability random audits of Brazilian majors reduce reelection of corrupt politicians\nFemale participation and development - Looks at random gender quotas in India. Having a female local politician improves development outcomes for female\nDemocratic quality and deforestation - Democratic competition increases deforestation!\nAll these literatures borrow from modernization theory"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#acemoglu-et.-al.-2008",
+    "href": "slides/06-demaut2.html#acemoglu-et.-al.-2008",
+    "title": "Democracy and Development",
+    "section": "Acemoglu et. al. 2008",
+    "text": "Acemoglu et. al. 2008\nThe criticism: correlation of democracy and development does not mean causation\nAlternative: Countries embark on divergent development paths\nEmpirical implication: Observed association is correlational"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#which-is-the-correct-dag",
+    "href": "slides/06-demaut2.html#which-is-the-correct-dag",
+    "title": "Democracy and Development",
+    "section": "Which is the correct DAG?",
+    "text": "Which is the correct DAG?"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#how-to-decide",
+    "href": "slides/06-demaut2.html#how-to-decide",
+    "title": "Democracy and Development",
+    "section": "How to decide?",
+    "text": "How to decide?\nWe need to control for U\nImpossible\nWe can control for everything"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#simpson-paradox",
+    "href": "slides/06-demaut2.html#simpson-paradox",
+    "title": "Democracy and Development",
+    "section": "Simpson Paradox",
+    "text": "Simpson Paradox"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#fixed-effects",
+    "href": "slides/06-demaut2.html#fixed-effects",
+    "title": "Democracy and Development",
+    "section": "Fixed effects",
+    "text": "Fixed effects\nSimple idea: control for “belonging to a group” using group-level Fixed Effects\n\nA way to control for every unobserved group characteristic that does not change\nIn practice: give an intercept to each group"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#fixed-effects-1",
+    "href": "slides/06-demaut2.html#fixed-effects-1",
+    "title": "Democracy and Development",
+    "section": "Fixed effects",
+    "text": "Fixed effects\nGo from\n\\[\\begin{equation*}\nDemocracy_{it} = \\alpha + \\beta_1 Democracy_{it} + \\epsilon_{it}\n\\end{equation*}\\]\nTo\n\\[\\begin{equation*}\nDemocracy_{it} = \\alpha + \\beta_1 Democracy_{it} + \\mu_1 USA +  \\mu_2 France + ... \\mu_n Zimbabwe + \\epsilon_{it}\n\\end{equation*}\\]"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#fixed-effects-2",
+    "href": "slides/06-demaut2.html#fixed-effects-2",
+    "title": "Democracy and Development",
+    "section": "Fixed effects",
+    "text": "Fixed effects\nTo\n\\[\\begin{equation*}\nDemocracy_{it} = \\alpha + \\beta_1 Democracy_{it} + \\mu_1 USA +  \\mu_2 France + ... \\mu_n Zimbabwe + \\epsilon_{it}\n\\end{equation*}\\]\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#fixed-effects-empirical-example",
+    "href": "slides/06-demaut2.html#fixed-effects-empirical-example",
+    "title": "Democracy and Development",
+    "section": "Fixed effects: Empirical example",
+    "text": "Fixed effects: Empirical example\n\npacman::p_load(readxl, tidyverse,  here, estimatr)\n\nd &lt;- read_xls(here(\"./slides/code/Income-and-Democracy-Data-AER-adjustment.xls\"), sheet = 2) %&gt;% \n  filter(is.na(lrgdpch)==F, \n         is.na(polity4)==F) %&gt;% \n  arrange(country, year) %&gt;% \n  group_by(country) %&gt;% \n  mutate(lag_dem = lag(polity4), \n         lag_income = lag(lrgdpch)) %&gt;% \n  ungroup()\n# Polity2 Index\nsummary(d$polity4)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  0.000   0.150   0.700   0.573   0.950   1.000 \n\n# Log real GDP per capita (PWT)\nsummary(d$lrgdpch)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  6.094   7.297   8.149   8.167   8.960  10.413"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#fixed-effects-empirical-example-1",
+    "href": "slides/06-demaut2.html#fixed-effects-empirical-example-1",
+    "title": "Democracy and Development",
+    "section": "Fixed effects: Empirical example",
+    "text": "Fixed effects: Empirical example\n\nggplot(d, aes(y = polity4, x = lag_income)) +\n  geom_point() +\n  geom_smooth(method = lm, se=F)"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#fixed-effects-empirical-example-2",
+    "href": "slides/06-demaut2.html#fixed-effects-empirical-example-2",
+    "title": "Democracy and Development",
+    "section": "Fixed effects: Empirical example",
+    "text": "Fixed effects: Empirical example\n\nmod &lt;- lm_robust(polity4~lag_dem + lag_income, clusters = country, data = d)\nmodelsummary::modelsummary(mod, stars = T, coef_omit = \"(Intercept)\",  gof_omit = \"AIC|BIC|Log.Lik|F|R2\")\n\n\n\n\n\nModel 1\n\n\n\n\nlag_dem\n0.742***\n\n\n\n(0.032)\n\n\nlag_income\n0.063***\n\n\n\n(0.010)\n\n\nNum.Obs.\n900\n\n\nse_type\nCR2\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#add-fixed-effects",
+    "href": "slides/06-demaut2.html#add-fixed-effects",
+    "title": "Democracy and Development",
+    "section": "Add Fixed Effects",
+    "text": "Add Fixed Effects"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#add-fixed-effects-1",
+    "href": "slides/06-demaut2.html#add-fixed-effects-1",
+    "title": "Democracy and Development",
+    "section": "Add Fixed Effects",
+    "text": "Add Fixed Effects\n\nrequire(estimatr)\nmod2 &lt;- lm_robust(polity4~lag_dem + lag_income, fixed_effects = country + year, clusters = country, data = d)\n\nmodelsummary::modelsummary(mod2, stars = T, coef_omit = \"(Intercept)\",  gof_omit = \"AIC|BIC|Log.Lik|F|R2\")\n\n\n\n\n\nModel 1\n\n\n\n\nlag_dem\n0.431***\n\n\n\n(0.054)\n\n\nlag_income\n−0.005\n\n\n\n(0.033)\n\n\nNum.Obs.\n900\n\n\nse_type\nCR2\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#summing-up",
+    "href": "slides/06-demaut2.html#summing-up",
+    "title": "Democracy and Development",
+    "section": "Summing up",
+    "text": "Summing up\n\nGood theoretical reasons to think\n\nDemocracy is causally related to devel\n\nMost extant work focuses on the micro, subnational dynamics\nBut the broad theoretical argument is old!\nFixed effects can help control for time invariant unobserved confounders\nIf we think confounders might change in time, for exampe"
   }
 ]

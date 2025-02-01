@@ -1,0 +1,178 @@
+---
+title: "Democracy and Development"
+subtitle: ""
+author: "Carolina Torreblanca"
+institute: "University of Pennsylvania"
+
+editor: source
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.05
+    logo: DevLab_Logo_29Mar2023.png
+    embed-resources: true
+    template-partials:
+      - title-slide.html
+    gfm:
+    mermaid-format: png
+    highlight-style: atom-one-dark
+    code-overflow: wrap
+---
+
+## Agenda
+
+## Democracy and Development
+
+What is this plot showing?
+
+## Two explanations
+
+1.  Causal
+
+2.  Correlational
+
+## Development causes democracy
+
+## Modernization Theory
+
+## Democracy Spurs Development
+
+## Democracy and Development in Research
+
+The theoretical links btw democracy and development have permeated micro-development research
+
+Resource booms and democracy - Windfalls do not improve democratic quality but might make autocracies sturdier
+
+Corruption and Development - - Horizontal accountability random audits of Brazilian majors reduce reelection of corrupt politicians
+
+Female participation and development - Looks at random gender quotas in India. Having a female local politician improves development outcomes for female
+
+Democratic quality and deforestation - Democratic competition increases deforestation!
+
+All these literatures borrow from modernization theory
+
+## Acemoglu et. al. 2008
+
+The criticism: correlation of democracy and development does not mean causation
+
+Alternative: Countries embark on divergent development paths
+
+Empirical implication: Observed association is correlational
+
+## Which is the correct DAG?
+
+![](img/modernizationDAG.png)
+
+## How to decide?
+
+We need to control for U
+
+Impossible
+
+We can control for everything
+
+## Simpson Paradox
+
+## ![](img/simpson.webp)
+
+## Fixed effects
+
+Simple idea: control for "belonging to a group" using group-level Fixed Effects
+
+-   A way to control for *every* unobserved group characteristic that ***does not change***
+
+-   In practice: give an intercept to each group
+
+## Fixed effects
+
+Go from
+
+```{=tex}
+\begin{equation*}
+Democracy_{it} = \alpha + \beta_1 Democracy_{it} + \epsilon_{it}
+\end{equation*}
+```
+To
+
+```{=tex}
+\begin{equation*}
+Democracy_{it} = \alpha + \beta_1 Democracy_{it} + \mu_1 USA +  \mu_2 France + ... \mu_n Zimbabwe + \epsilon_{it}
+\end{equation*}
+```
+## Fixed effects: Empirical example
+
+```{r rep, include=T, message=F, error=F, echo = T}
+pacman::p_load(readxl, tidyverse,  here, estimatr)
+
+d <- read_xls(here("./slides/code/Income-and-Democracy-Data-AER-adjustment.xls"), sheet = 2) %>% 
+  filter(is.na(lrgdpch)==F, 
+         is.na(polity4)==F) %>% 
+  arrange(country, year) %>% 
+  group_by(country) %>% 
+  mutate(lag_dem = lag(polity4), 
+         lag_income = lag(lrgdpch)) %>% 
+  ungroup()
+# Polity2 Index
+summary(d$polity4)
+# Log real GDP per capita (PWT)
+summary(d$lrgdpch)
+
+```
+
+## Fixed effects: Empirical example
+
+```{r rep2, include=T, message=F, error=F, echo = T}
+
+ggplot(d, aes(y = polity4, x = lag_income)) +
+  geom_point() +
+  geom_smooth(method = lm, se=F)
+
+```
+
+## Fixed effects: Empirical example
+
+```{r rep3, include=T, message=F, error=F, echo = T}
+
+mod <- lm_robust(polity4~lag_dem + lag_income, clusters = country, data = d)
+modelsummary::modelsummary(mod, stars = T, coef_omit = "(Intercept)",  gof_omit = "AIC|BIC|Log.Lik|F|R2")
+```
+
+## Add Fixed Effects
+
+```{r rep4, include=T, message=F, error=F, echo = F, centering = T}
+
+cty <- c("Australia", "Nigeria", "Nicaragua", "China", "France", "Indonesia", "Russia")
+
+tempo <- d %>% ungroup() %>% dplyr::filter(country %in% cty)
+
+ggplot(tempo,
+       aes(y = polity4, x = lrgdpch, color = country)) +
+  geom_point() +
+  geom_smooth(method = lm, se=F) 
+```
+
+## Add Fixed Effects
+
+```{r rep5, include=T, message=F, error=F, echo = T}
+require(estimatr)
+mod2 <- lm_robust(polity4~lag_dem + lag_income, fixed_effects = country + year, clusters = country, data = d)
+
+modelsummary::modelsummary(mod2, stars = T, coef_omit = "(Intercept)",  gof_omit = "AIC|BIC|Log.Lik|F|R2")
+
+```
+
+## Summing up 
+
+- Good theoretical reasons to think 
+
+    - Democracy is causally related to devel
+
+- Most extant work focuses on the micro, subnational dynamics
+
+- But the broad theoretical argument is old!
+
+- Fixed effects can help control for **time invariant** unobserved confounders
+
+- If we think confounders might change in time, for exampe 

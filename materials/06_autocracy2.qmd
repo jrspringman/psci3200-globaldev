@@ -22,7 +22,7 @@ date: 2025-02-01
 
 ## Slides
 
-<!-- -   [Slides](/slides/06-demaut2.html) -->
+-   [Slides](/slides/06-demaut2.html)
 
 ## Interesting Stuff (non-required)
 

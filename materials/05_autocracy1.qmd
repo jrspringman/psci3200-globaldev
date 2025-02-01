@@ -14,16 +14,16 @@ date: 2025-02-01
 
 <!-- - [Hollerbauer et al. (2024)](/files/CSU_Conjoint_Paper.pdf) -->
 
-## Assignment
+<!-- ## Assignment -->
 
--   Create Github repo for the course
-    -   [Instructions](/assignments/01_github.html)
-    -   [Git with R](https://happygitwithr.com/install-git#install-git)
-    -   [Blackwell tutorial](https://github.com/gov50-f23/gov50-f23.github.io/blob/main/assignments/00-problem-set.qmd)
+<!-- -   Create Github repo for the course -->
+<!--     -   [Instructions](/assignments/01_github.html) -->
+<!--     -   [Git with R](https://happygitwithr.com/install-git#install-git) -->
+<!--     -   [Blackwell tutorial](https://github.com/gov50-f23/gov50-f23.github.io/blob/main/assignments/00-problem-set.qmd) -->
 
 ## Slides
 
-<!-- -   [Slides](/slides/05-demaut1.html) -->
+-   [Slides](/slides/05-demaut1.html)
 
 ## Interesting Stuff (non-required)
 
