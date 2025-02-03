@@ -25,41 +25,110 @@ format:
 
 ## Democracy and Development
 
-What is this plot showing?
+![From Acemoglu et. al. 2008](img/income_dem.png){fig-align="center"}
 
 ## Two explanations
 
-1.  Causal
+::: incremental
+1.  Direct causal link
 
-2.  Correlational
+    -   Development $\rightarrow$ democracy
+    -   Democracy $\rightarrow$ development
 
-## Development causes democracy
+2.  Indirect causal link or correlation
 
-## Modernization Theory
+    -   Income $\rightarrow$ regime survival
+    -   Omitted variable
+:::
+
+# Development as cause
+
+## Modernization Theory, Lipset (1960)
+
+**Development causes democracy**
+
+::: incremental
+-   Economic development requires investing in education, infrastructure, urbanization...
+
+    -   Modernizing.
+
+-   Modernization triggers changes making democracy more likely
+
+    -   Society becomes more complex and organized
+    -   Education facilitates democratic citizenship
+    -   Infrastructure and urbanization facilitate political competition
+:::
+
+## The Threat of Revolution
+
+::: incremental
+-   [Acemoglu and Robinson (2001)](https://www.aeaweb.org/articles?id=10.1257/aer.91.4.938)
+-   Rich elites control autocratic societies
+    -   But they fear revolution!
+-   How to prevent it?
+    -   Democratize and redistribute some of the resources
+-   Elites and non-elites are better off
+:::
+
+# Development as consequence
 
 ## Democracy Spurs Development
 
+The direction of the causality is *reversed*
+
+::: incremental
+-   Autocrats want a wealthy country.
+
+-   Why would citizens produce wealth if it can be expropriated by an autocrat?
+
+    -   Solution: Credibly tie your own hands with democratic institutions
+
+-   By sharing political power and enshrining property rights, create incentives to produce wealth
+
+-   Democracy $\rightarrow$ development
+:::
+
+# Other Explanations
+
+## Democratic Survival
+
+::: incremental
+-   Democracy is established independently of development ...
+
+-   But development helps democracies survive
+
+-   "The more well-to-do a nation, the greater the chances it will sustain democracy" (Lipset, 1959)
+
+-   Empirical implications: There will be a correlation btw democracy and development even if development does not cause democracy!
+:::
+
 ## Democracy and Development in Research
 
-The theoretical links btw democracy and development have permeated micro-development research
+-   Democracy, accountability, and development is one of the most researched topics in political science
 
-Resource booms and democracy - Windfalls do not improve democratic quality but might make autocracies sturdier
+-   Extant research is seldom at the country level, yet the theories have permeated micro-development research
 
-Corruption and Development - - Horizontal accountability random audits of Brazilian majors reduce reelection of corrupt politicians
+## Democracy and Development in Research
 
-Female participation and development - Looks at random gender quotas in India. Having a female local politician improves development outcomes for female
+-   [Ferraz and Finan, 2008](https://academic.oup.com/qje/article/123/2/703/1930865)
 
-Democratic quality and deforestation - Democratic competition increases deforestation!
+    -   Random audits of Brazilian majors reduces the chances that corrupt politicians are re-elected
 
-All these literatures borrow from modernization theory
+-   [Mori, et. al., 2024](https://www.journals.uchicago.edu/doi/10.1086/727799)
+
+    -   Use gender quotas to examine if female politicians use local budget more or less effectively
+
+-   [Pailler, 2018](https://www.sciencedirect.com/science/article/pii/S0095069616301577?casa_token=lxyQWsb-OwEAAAAA:_UixyIjFcdpfLphKULMOGM-1IhqRDTooRDDUTqx5n6SrEAwKe3NS0hnMVNxaNQ_qL-Ho4L2hEi4)
+
+    -   Democratic competition increases deforestation!
 
 ## Acemoglu et. al. 2008
 
-The criticism: correlation of democracy and development does not mean causation
+-   The criticism: correlation of democracy and development does not mean causation
 
-Alternative: Countries embark on divergent development paths
+-   Alternative: Countries embark on divergent development paths
 
-Empirical implication: Observed association is correlational
+-   Empirical implication: Observed association is correlational
 
 ## Which is the correct DAG?
 
@@ -67,15 +136,15 @@ Empirical implication: Observed association is correlational
 
 ## How to decide?
 
-We need to control for U
+-   We cannot randomize development!
 
-Impossible
+-   We need to control for U, but that is impossible
 
-We can control for everything
+-   ... unless....
 
 ## Simpson Paradox
 
-## ![](img/simpson.webp)
+![](img/simpson.webp)
 
 ## Fixed effects
 
@@ -91,15 +160,16 @@ Go from
 
 ```{=tex}
 \begin{equation*}
-Democracy_{it} = \alpha + \beta_1 Democracy_{it} + \epsilon_{it}
+Dem_{it} = \alpha + \beta_1 Dem_{it} + \epsilon_{it}
 \end{equation*}
 ```
 To
 
 ```{=tex}
-\begin{equation*}
-Democracy_{it} = \alpha + \beta_1 Democracy_{it} + \mu_1 USA +  \mu_2 France + ... \mu_n Zimbabwe + \epsilon_{it}
-\end{equation*}
+\begin{align*}
+Dem_{it} = &\alpha + \beta_1 Dem_{it} + \mu_1 USA + \\
+\mu_2 France & + ... \mu_n Zimbabwe + \epsilon_{it}
+\end{align*}
 ```
 ## Fixed effects: Empirical example
 
@@ -118,7 +188,6 @@ d <- read_xls(here("./slides/code/Income-and-Democracy-Data-AER-adjustment.xls")
 summary(d$polity4)
 # Log real GDP per capita (PWT)
 summary(d$lrgdpch)
-
 ```
 
 ## Fixed effects: Empirical example
@@ -143,7 +212,7 @@ modelsummary::modelsummary(mod, stars = T, coef_omit = "(Intercept)",  gof_omit 
 
 ```{r rep4, include=T, message=F, error=F, echo = F, centering = T}
 
-cty <- c("Australia", "Nigeria", "Nicaragua", "China", "France", "Indonesia", "Russia")
+cty <- c("Australia", "Nigeria", "Nicaragua", "China", "France", "Jordan")
 
 tempo <- d %>% ungroup() %>% dplyr::filter(country %in% cty)
 
@@ -163,16 +232,16 @@ modelsummary::modelsummary(mod2, stars = T, coef_omit = "(Intercept)",  gof_omit
 
 ```
 
-## Summing up 
+## Summing up
 
-- Good theoretical reasons to think 
+-   Good theoretical reasons to think
 
-    - Democracy is causally related to devel
+    -   Democracy is causally related to development
 
-- Most extant work focuses on the micro, subnational dynamics
+-   Most extant work focuses on the micro, subnational dynamics
 
-- But the broad theoretical argument is old!
+-   But the broad theoretical argument is old!
 
-- Fixed effects can help control for **time invariant** unobserved confounders
+-   Fixed effects can help control for **time invariant** unobserved confounders
 
-- If we think confounders might change in time, for exampe 
+-   If we think confounders might change in time (which they often do!) then FE cannot help 

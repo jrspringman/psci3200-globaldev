@@ -7193,14 +7193,14 @@
     "href": "slides/06-demaut2.html#democracy-and-development",
     "title": "Democracy and Development",
     "section": "Democracy and Development",
-    "text": "Democracy and Development\nWhat is this plot showing?"
+    "text": "Democracy and Development\n\nFrom Acemoglu et. al. 2008"
   },
   {
     "objectID": "slides/06-demaut2.html#two-explanations",
     "href": "slides/06-demaut2.html#two-explanations",
     "title": "Democracy and Development",
     "section": "Two explanations",
-    "text": "Two explanations\n\nCausal\nCorrelational"
+    "text": "Two explanations\n\n\nDirect causal link\n\nDevelopment \\(\\rightarrow\\) democracy\nDemocracy \\(\\rightarrow\\) development\n\nIndirect causal link or correlation\n\nIncome \\(\\rightarrow\\) regime survival\nOmitted variable"
   },
   {
     "objectID": "slides/06-demaut2.html#development-causes-democracy",
@@ -7214,28 +7214,28 @@
     "href": "slides/06-demaut2.html#modernization-theory",
     "title": "Democracy and Development",
     "section": "Modernization Theory",
-    "text": "Modernization Theory"
+    "text": "Modernization Theory\nLipset (1960)\n\n\nEconomic development requires investing in education, infrastructure, urbanization…\n\nModernizing.\n\nModernization triggers a host of changes that makes democracy more likely\n\nEducated people value democracy and are more competent citizens\nInfrastructure makes political competition easier\nUrbanization allows for the disemination of political ideas"
   },
   {
     "objectID": "slides/06-demaut2.html#democracy-spurs-development",
     "href": "slides/06-demaut2.html#democracy-spurs-development",
     "title": "Democracy and Development",
     "section": "Democracy Spurs Development",
-    "text": "Democracy Spurs Development"
+    "text": "Democracy Spurs Development\nThe direction of the causality is reversed\n\n\nAutocrats want a wealthy country.\nWhy would citizens produce wealth if it can be expropriated by an autocrat?\n\nSolution: Credibly tie your own hands with democratic institutions\n\nBy sharing political power and enshrining property rights, create incentives to produce wealth\nDemocracy \\(\\rightarrow\\) development"
   },
   {
     "objectID": "slides/06-demaut2.html#democracy-and-development-in-research",
     "href": "slides/06-demaut2.html#democracy-and-development-in-research",
     "title": "Democracy and Development",
     "section": "Democracy and Development in Research",
-    "text": "Democracy and Development in Research\nThe theoretical links btw democracy and development have permeated micro-development research\nResource booms and democracy - Windfalls do not improve democratic quality but might make autocracies sturdier\nCorruption and Development - - Horizontal accountability random audits of Brazilian majors reduce reelection of corrupt politicians\nFemale participation and development - Looks at random gender quotas in India. Having a female local politician improves development outcomes for female\nDemocratic quality and deforestation - Democratic competition increases deforestation!\nAll these literatures borrow from modernization theory"
+    "text": "Democracy and Development in Research\n\nDemocracy, accountability, and development is one of the most researched topics in political science\nExtant research is seldom at the country level, yet the theories have permeated micro-development research"
   },
   {
     "objectID": "slides/06-demaut2.html#acemoglu-et.-al.-2008",
     "href": "slides/06-demaut2.html#acemoglu-et.-al.-2008",
     "title": "Democracy and Development",
     "section": "Acemoglu et. al. 2008",
-    "text": "Acemoglu et. al. 2008\nThe criticism: correlation of democracy and development does not mean causation\nAlternative: Countries embark on divergent development paths\nEmpirical implication: Observed association is correlational"
+    "text": "Acemoglu et. al. 2008\n\nThe criticism: correlation of democracy and development does not mean causation\nAlternative: Countries embark on divergent development paths\nEmpirical implication: Observed association is correlational"
   },
   {
     "objectID": "slides/06-demaut2.html#which-is-the-correct-dag",
@@ -7249,7 +7249,7 @@
     "href": "slides/06-demaut2.html#how-to-decide",
     "title": "Democracy and Development",
     "section": "How to decide?",
-    "text": "How to decide?\nWe need to control for U\nImpossible\nWe can control for everything"
+    "text": "How to decide?\n\nWe cannot randomize development!\nWe need to control for U, but that is impossible\n… unless…."
   },
   {
     "objectID": "slides/06-demaut2.html#simpson-paradox",
@@ -7270,7 +7270,7 @@
     "href": "slides/06-demaut2.html#fixed-effects-1",
     "title": "Democracy and Development",
     "section": "Fixed effects",
-    "text": "Fixed effects\nGo from\n\\[\\begin{equation*}\nDemocracy_{it} = \\alpha + \\beta_1 Democracy_{it} + \\epsilon_{it}\n\\end{equation*}\\]\nTo\n\\[\\begin{equation*}\nDemocracy_{it} = \\alpha + \\beta_1 Democracy_{it} + \\mu_1 USA +  \\mu_2 France + ... \\mu_n Zimbabwe + \\epsilon_{it}\n\\end{equation*}\\]"
+    "text": "Fixed effects\nGo from\n\\[\\begin{equation*}\nDem_{it} = \\alpha + \\beta_1 Dem_{it} + \\epsilon_{it}\n\\end{equation*}\\]\nTo\n\\[\\begin{align*}\nDem_{it} = &\\alpha + \\beta_1 Dem_{it} + \\mu_1 USA + \\\\\n\\mu_2 France & + ... \\mu_n Zimbabwe + \\epsilon_{it}\n\\end{align*}\\]"
   },
   {
     "objectID": "slides/06-demaut2.html#fixed-effects-2",
@@ -7320,5 +7320,33 @@
     "title": "Democracy and Development",
     "section": "Summing up",
     "text": "Summing up\n\nGood theoretical reasons to think\n\nDemocracy is causally related to devel\n\nMost extant work focuses on the micro, subnational dynamics\nBut the broad theoretical argument is old!\nFixed effects can help control for time invariant unobserved confounders\nIf we think confounders might change in time, for exampe"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#modernization-theory-lipset-1960",
+    "href": "slides/06-demaut2.html#modernization-theory-lipset-1960",
+    "title": "Democracy and Development",
+    "section": "Modernization Theory, Lipset (1960)",
+    "text": "Modernization Theory, Lipset (1960)\nDevelopment causes democracy\n\n\nEconomic development requires investing in education, infrastructure, urbanization…\n\nModernizing.\n\nModernization triggers changes making democracy more likely\n\nSociety becomes more complex and organized\nEducation facilitates democratic citizenship\nInfrastructure and urbanization facilitate political competition"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#the-threat-of-revolution",
+    "href": "slides/06-demaut2.html#the-threat-of-revolution",
+    "title": "Democracy and Development",
+    "section": "The Threat of Revolution",
+    "text": "The Threat of Revolution\n\n\nAcemoglu and Robinson (2001)\nRich elites control autocratic societies\n\nBut they fear revolution!\n\nHow to prevent it?\n\nDemocratize and redistribute some of the resources\n\nElites and non-elites are better off"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#democratic-survival",
+    "href": "slides/06-demaut2.html#democratic-survival",
+    "title": "Democracy and Development",
+    "section": "Democratic Survival",
+    "text": "Democratic Survival\n\n\nDemocracy is established independently of development …\nBut development helps democracies survive\n“The more well-to-do a nation, the greater the chances it will sustain democracy” (Lipset, 1959)\nEmpirical implications: There will be a correlation btw democracy and development even if development does not cause democracy!"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#democracy-and-development-in-research-1",
+    "href": "slides/06-demaut2.html#democracy-and-development-in-research-1",
+    "title": "Democracy and Development",
+    "section": "Democracy and Development in Research",
+    "text": "Democracy and Development in Research\n\nFerraz and Finan, 2008\n\nRandom audits of Brazilian majors reduces the chances that corrupt politicians are re-elected\n\nMori, et. al., 2024\n\nUse gender quotas to examine if female politicians use local budget more or less effectively\n\nPailler, 2018\n\nDemocratic competition increases deforestation!"
   }
 ]
