@@ -7200,7 +7200,7 @@
     "href": "slides/06-demaut2.html#two-explanations",
     "title": "Democracy and Development",
     "section": "Two explanations",
-    "text": "Two explanations\n\n\nDirect causal link\n\nDevelopment \\(\\rightarrow\\) democracy\nDemocracy \\(\\rightarrow\\) development\n\nIndirect causal link or correlation\n\nIncome \\(\\rightarrow\\) regime survival\nOmitted variable"
+    "text": "Two explanations\n\n\nDirect causal link\n\nDevelopment \\(\\rightarrow\\) democracy\nDemocracy \\(\\rightarrow\\) development\n\nIndirect link or correlation\n\nIncome \\(\\rightarrow\\) regime survival\nOmitted variable"
   },
   {
     "objectID": "slides/06-demaut2.html#development-causes-democracy",
@@ -7228,7 +7228,7 @@
     "href": "slides/06-demaut2.html#democracy-and-development-in-research",
     "title": "Democracy and Development",
     "section": "Democracy and Development in Research",
-    "text": "Democracy and Development in Research\n\nDemocracy, accountability, and development is one of the most researched topics in political science\nExtant research is seldom at the country level, yet the theories have permeated micro-development research"
+    "text": "Democracy and Development in Research\n\nAre the theoretical arguments for \\(Democracy \\rightarrow Development\\) convincing?\nAre the theoretical arguments for \\(Development \\rightarrow Democracy\\) convincing?"
   },
   {
     "objectID": "slides/06-demaut2.html#acemoglu-et.-al.-2008",
@@ -7305,7 +7305,7 @@
     "href": "slides/06-demaut2.html#add-fixed-effects",
     "title": "Democracy and Development",
     "section": "Add Fixed Effects",
-    "text": "Add Fixed Effects\n\nrequire(estimatr)\nmod2 &lt;- lm_robust(polity4~lag_dem + lag_income, fixed_effects = country + year, clusters = country, data = d)\n\nmodelsummary::modelsummary(mod2, stars = T, coef_omit = \"(Intercept)\",  gof_omit = \"AIC|BIC|Log.Lik|F|R2\")\n\n\n\n\n\nModel 1\n\n\n\n\nlag_dem\n0.431***\n\n\n\n(0.054)\n\n\nlag_income\n−0.005\n\n\n\n(0.033)\n\n\nNum.Obs.\n900\n\n\nse_type\nCR2\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
+    "text": "Add Fixed Effects\n\nrequire(estimatr)\nmod2 &lt;- lm_robust(polity4 ~ lag_dem + lag_income, fixed_effects = country + year,\n    clusters = country, data = d)\n\nmodelsummary::modelsummary(mod2, stars = T, coef_omit = \"(Intercept)\", gof_omit = \"AIC|BIC|Log.Lik|F|R2\")\n\n\n\n\n\nModel 1\n\n\n\n\nlag_dem\n0.431***\n\n\n\n(0.054)\n\n\nlag_income\n−0.005\n\n\n\n(0.033)\n\n\nNum.Obs.\n900\n\n\nse_type\nCR2\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
   },
   {
     "objectID": "slides/06-demaut2.html#add-fixed-effects-1",
@@ -7347,14 +7347,14 @@
     "href": "slides/06-demaut2.html#democracy-and-development-in-research-1",
     "title": "Democracy and Development",
     "section": "Democracy and Development in Research",
-    "text": "Democracy and Development in Research\n\nFerraz and Finan, 2008\n\nRandom audits of Brazilian majors reduces the chances that corrupt politicians are re-elected\n\nMori, et. al., 2024\n\nUse gender quotas to examine if female politicians use local budget more or less effectively\n\nPailler, 2018\n\nDemocratic competition increases deforestation!"
+    "text": "Democracy and Development in Research\n\nPaglayan, 2020\n\nReconsiders whether democratization increases the provision of education. Finds that democratization can increase education provision, but that education is also a powerful for autocrats\n\nFujiwara, 2015\n\nElectronic voting in Brazil reduced mistakes when voting from poorest, resulting in better accountability and more spending in health care"
   },
   {
     "objectID": "slides/06-demaut2.html#democracy-and-development-in-research-2",
     "href": "slides/06-demaut2.html#democracy-and-development-in-research-2",
     "title": "Democracy and Development",
     "section": "Democracy and Development in Research",
-    "text": "Democracy and Development in Research\n\nAre the theoretical arguments for \\(Democracy \\rightarrow Development\\) convincing?\nAre the theoretical arguments for \\(Development \\rightarrow Democracy\\) convincing?"
+    "text": "Democracy and Development in Research\n\nFerraz and Finan, 2008\n\nRandom audits of Brazilian majors reduces the chances that corrupt politicians are re-elected\n\nMori, et. al., 2024\n\nUse gender quotas to examine if female politicians use local budget more or less effectively\n\nPailler, 2018\n\nDemocratic competition increases deforestation!"
   },
   {
     "objectID": "slides/06-demaut2.html#empirical-tests",
@@ -7368,7 +7368,7 @@
     "href": "slides/06-demaut2.html#democracy-and-development-empirical-example",
     "title": "Democracy and Development",
     "section": "Democracy and Development: Empirical example",
-    "text": "Democracy and Development: Empirical example\n\npacman::p_load(readxl, tidyverse,  here, estimatr)\n\nd &lt;- read_xls(here(\"./slides/code/Income-and-Democracy-Data-AER-adjustment.xls\"), sheet = 2) %&gt;% \n  filter(is.na(lrgdpch)==F, \n         is.na(polity4)==F) %&gt;% \n  arrange(country, year) %&gt;% \n  group_by(country) %&gt;% \n  mutate(lag_dem = lag(polity4), \n         lag_income = lag(lrgdpch)) %&gt;% \n  ungroup()\n# Polity2 Index\nsummary(d$polity4)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  0.000   0.150   0.700   0.573   0.950   1.000 \n\n# Log real GDP per capita (PWT)\nsummary(d$lrgdpch)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  6.094   7.297   8.149   8.167   8.960  10.413"
+    "text": "Democracy and Development: Empirical example\n\npacman::p_load(readxl, tidyverse, here, estimatr)\n\nd &lt;- read_xls(here(\"./slides/code/Income-and-Democracy-Data-AER-adjustment.xls\"),\n    sheet = 2) %&gt;%\n    filter(is.na(lrgdpch) == F, is.na(polity4) == F) %&gt;%\n    arrange(country, year) %&gt;%\n    group_by(country) %&gt;%\n    mutate(lag_dem = lag(polity4), lag_income = lag(lrgdpch)) %&gt;%\n    ungroup()\n# Polity2 Index\nsummary(d$polity4)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  0.000   0.150   0.700   0.573   0.950   1.000 \n\n# Log real GDP per capita (PWT)\nsummary(d$lrgdpch)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  6.094   7.297   8.149   8.167   8.960  10.413"
   },
   {
     "objectID": "slides/06-demaut2.html#by-country",
@@ -7382,13 +7382,20 @@
     "href": "slides/06-demaut2.html#empirical-example",
     "title": "Democracy and Development",
     "section": "Empirical example",
-    "text": "Empirical example\n\nmod &lt;- lm_robust(polity4~lag_dem + lag_income, clusters = country, data = d)\nmodelsummary::modelsummary(mod, stars = T, coef_omit = \"(Intercept)\",  gof_omit = \"AIC|BIC|Log.Lik|F|R2\")\n\n\n\n\n\nModel 1\n\n\n\n\nlag_dem\n0.742***\n\n\n\n(0.032)\n\n\nlag_income\n0.063***\n\n\n\n(0.010)\n\n\nNum.Obs.\n900\n\n\nse_type\nCR2\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
+    "text": "Empirical example\n\nmod &lt;- lm_robust(polity4 ~ lag_dem + lag_income, clusters = country, data = d)\nmodelsummary::modelsummary(mod, stars = T, coef_omit = \"(Intercept)\", gof_omit = \"AIC|BIC|Log.Lik|F|R2\")\n\n\n\n\n\nModel 1\n\n\n\n\nlag_dem\n0.742***\n\n\n\n(0.032)\n\n\nlag_income\n0.063***\n\n\n\n(0.010)\n\n\nNum.Obs.\n900\n\n\nse_type\nCR2\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
   },
   {
     "objectID": "slides/06-demaut2.html#democracy-and-development-correlation",
     "href": "slides/06-demaut2.html#democracy-and-development-correlation",
     "title": "Democracy and Development",
     "section": "Democracy and Development: Correlation",
-    "text": "Democracy and Development: Correlation\n\nggplot(d, aes(y = polity4, x = lag_income)) +\n  geom_point() +\n  geom_smooth(method = lm, se=F)"
+    "text": "Democracy and Development: Correlation\n\nggplot(d, aes(y = polity4, x = lag_income)) + geom_point() + geom_smooth(method = lm,\n    se = F)"
+  },
+  {
+    "objectID": "slides/06-demaut2.html#correlation",
+    "href": "slides/06-demaut2.html#correlation",
+    "title": "Democracy and Development",
+    "section": "Correlation",
+    "text": "Correlation\n\nggplot(d, aes(y = polity4, x = lag_income)) + geom_point() + geom_smooth(method = lm,\n    se = F)"
   }
 ]

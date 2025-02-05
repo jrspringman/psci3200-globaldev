@@ -39,7 +39,7 @@ format:
     -   Development $\rightarrow$ democracy
     -   Democracy $\rightarrow$ development
 
-2.  Indirect causal link or correlation
+2.  Indirect link or correlation
 
     -   Income $\rightarrow$ regime survival
     -   Omitted variable
@@ -106,11 +106,23 @@ Dictatorship, Democracy, and Development [(Olson, 1993)](https://www.jstor.org/s
 -   Empirical implications: There will be a correlation btw democracy and development even if development does not cause democracy!
 :::
 
+
+
 ## Democracy and Development in Research
 
--   Democracy, accountability, and development is one of the most researched topics in political science
+- Are the theoretical arguments for $Democracy \rightarrow Development$ convincing?
 
--   Extant research is seldom at the country level, yet the theories have permeated micro-development research
+- Are the theoretical arguments for $Development \rightarrow Democracy$ convincing?
+
+## Democracy and Development in Research 
+
+- [Paglayan, 2020](https://www.cambridge.org/core/journals/american-political-science-review/article/nondemocratic-roots-of-mass-education-evidence-from-200-years/8C8C594AA07996A00ED4BEFC66B133B7) 
+
+    - Reconsiders whether democratization increases the provision of education. Finds that democratization *can* increase education provision, but that education is also a powerful for autocrats
+    
+- [Fujiwara, 2015](https://www.cambridge.org/core/journals/american-political-science-review/article/nondemocratic-roots-of-mass-education-evidence-from-200-years/8C8C594AA07996A00ED4BEFC66B133B7) 
+
+    - Electronic voting in Brazil reduced mistakes when voting from poorest, resulting in better accountability and more spending in health care
 
 ## Democracy and Development in Research
 
@@ -125,14 +137,6 @@ Dictatorship, Democracy, and Development [(Olson, 1993)](https://www.jstor.org/s
 -   [Pailler, 2018](https://www.sciencedirect.com/science/article/pii/S0095069616301577?casa_token=lxyQWsb-OwEAAAAA:_UixyIjFcdpfLphKULMOGM-1IhqRDTooRDDUTqx5n6SrEAwKe3NS0hnMVNxaNQ_qL-Ho4L2hEi4)
 
     -   Democratic competition increases deforestation!
-
-
-## Democracy and Development in Research
-
-- Are the theoretical arguments for $Democracy \rightarrow Development$ convincing?
-
-- Are the theoretical arguments for $Development \rightarrow Democracy$ convincing?
-
 
 ## Acemoglu et. al. 2008
 
@@ -166,7 +170,7 @@ Dictatorship, Democracy, and Development [(Olson, 1993)](https://www.jstor.org/s
 
 ## Democracy and Development: Empirical example
 
-```{r rep, include=T, message=F, error=F, echo = T}
+```{r rep, include=T, message=F, error=F, echo = T, tidy=TRUE}
 pacman::p_load(readxl, tidyverse,  here, estimatr)
 
 d <- read_xls(here("./slides/code/Income-and-Democracy-Data-AER-adjustment.xls"), sheet = 2) %>% 
@@ -183,9 +187,9 @@ summary(d$polity4)
 summary(d$lrgdpch)
 ```
 
-## Democracy and Development: Correlation
+## Correlation
 
-```{r rep2, include=T, message=F, error=F, echo = T}
+```{r rep2, include=T, message=F, error=F, echo = T, tidy=T, centering = T}
 
 ggplot(d, aes(y = polity4, x = lag_income)) +
   geom_point() +
@@ -196,7 +200,7 @@ ggplot(d, aes(y = polity4, x = lag_income)) +
 
 ## By country
 
-```{r rep4, include=T, message=F, error=F, echo = F, centering = T}
+```{r rep4, include=T, message=F, error=F, echo = F, centering = T, tidy=TRUE}
 cty <- c("Australia", "Nigeria", "Nicaragua", "China", "France", "Jordan")
 tempo <- d %>% ungroup() %>% dplyr::filter(country %in% cty)
 ggplot(tempo,
@@ -237,7 +241,7 @@ Dem_{it} = &\alpha + \beta_1 Dem_{it} + \mu_1 USA + \\
 
 ## Empirical example
 
-```{r rep3, include=T, message=F, error=F, echo = T}
+```{r rep3, include=T, message=F, error=F, echo = T, tidy=TRUE}
 
 mod <- lm_robust(polity4~lag_dem + lag_income, clusters = country, data = d)
 modelsummary::modelsummary(mod, stars = T, coef_omit = "(Intercept)",  gof_omit = "AIC|BIC|Log.Lik|F|R2")
@@ -246,7 +250,7 @@ modelsummary::modelsummary(mod, stars = T, coef_omit = "(Intercept)",  gof_omit 
 
 ## Add Fixed Effects
 
-```{r rep5, include=T, message=F, error=F, echo = T}
+```{r rep5, include=T, message=F, error=F, echo = T, tidy=TRUE}
 require(estimatr)
 mod2 <- lm_robust(polity4~lag_dem + lag_income, fixed_effects = country + year, clusters = country, data = d)
 
