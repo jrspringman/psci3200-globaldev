@@ -1,0 +1,339 @@
+---
+title: "Linear Regression and Uncertainty"
+subtitle: ""
+author: "Carolina Torreblanca"
+institute: "University of Pennsylvania"
+
+editor: source
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.05
+    logo: DevLab_Logo_29Mar2023.png
+    embed-resources: true
+    template-partials:
+      - title-slide.html
+    gfm:
+    mermaid-format: png
+    highlight-style: atom-one-dark
+    code-overflow: wrap
+---
+
+## Agenda
+
+-   Parameters vs. Estimates
+-   Confidence Intervals
+-   The Parameters in Linear Regression
+-   Quantifying Uncertainty in Linear Regression
+
+## From sample to population
+
+-   Often we want to know some characteristic about a population of interest
+    -   We call this characteristic a “parameter”
+-   But we only have a sample of that population
+    -   We call this the “estimate”
+-   How do we make inferences about the population parameter with what we learn from our estimate?
+
+## Empirical Example: Brexit
+
+-   Data from the British Electoral Survey
+
+-   We want to learn the probability that a Brithis citizien supports Brexiting in the **country.**
+
+-   Notice that such probability is the same in expectation as the proportion of pro-brexiting citizens
+
+-   We have a random sample of British citizens who were surveyed
+
+## Empirical Example: Brexit
+
+```{r one}
+#| echo: true
+#| warning: false
+#| code-fold: true
+#| code-summary: "Show code"
+
+brex <- read.csv(here::here("./slides/code/BES.csv"))
+str(brex)
+table(brex$vote, useNA = "always")
+brex$exit <- ifelse(brex$vote=="leave", 1, 0)
+prop.table(table(brex$exit))*100
+```
+
+## Empirical Example: Brexit
+
+-   *"Support of Brexit"* is a Random Variable:
+
+    -   $Support \sim \text{Bernoulli}(p)$
+
+-   With a probability mass function:
+
+```{=tex}
+\begin{align*}
+f(k; p) =
+\begin{cases} 
+p & \text{if } k=1, \\
+q = 1 - p & \text{if } k=0.
+\end{cases}
+\end{align*}
+```
+-   Where $E(Support) = p$ and $Var(Support) = p(1-p)$
+
+## Empirical Example: Brexit
+
+-   We want to know what $p$ is!
+
+-   But it is a *population parameter* and we only have a sample
+
+-   We can estimate $\hat{p}$ by doing
+
+```{r two, eval=T, echo=TRUE, results=T, include=TRUE}
+phat <- mean(brex$exit)
+phat
+
+```
+
+-   But if our sample were slightly different, we would have gotten a different $\hat{p}$
+
+## Sampling Distribution of $\hat{p}$
+
+```{r three}
+#| echo: true
+#| warning: false
+#| code-fold: true
+#| code-summary: "Show code"
+
+require(tidyverse)
+set.seed(7)
+
+out.means <- c()
+
+for (i in 1:1000) {
+  temp_dat <- sample_n(brex, nrow(brex), replace = T)
+  out.means[i] <- mean(temp_dat$exit)
+  rm(temp_dat)
+}
+
+hist(out.means)
+abline(v = mean(out.means), col = "red", lwd = 2, add = T)
+```
+
+## Sampling Distribution of $\hat{p}$
+
+-   That's just a normal distribution!
+
+- All normal distributions can be described by their mean and their standard deviaton
+
+-   This one is called "sampling distribution of the sample mean"
+
+    - Centered around our estimate
+    - $SE =  \sqrt{\frac{Var (Support)}{n}}$
+
+-   Knowing it is a normal distribution helps us quantify the *uncertainty* in our estimates
+
+## ![](img/normal.jpg)
+
+## Standard Errors
+
+-   The standard deviation of the sampling distribution of an estimator is called "standard error"
+
+-   One interpretation: "How off are our estimates, on average, from the true population parameter?"
+
+-   By calculating the standard error we can know the shape of the sampling distribution. This helps us do two important things:
+
+    1.  Construct confidence intervals (what is the range within which the true value is likely to be?)
+    2.  Do hypothesis testing (p-values and statistical significance)
+    
+## Confidence Intervals 
+
+-   Range of values that **likely** includes the true value of our parameter of interest
+
+-   Specifically, the range that includes a pre-specified proportion of the density of the sampling distribution of our sampling distribution
+
+- Interpretation: "With X% confidence, I know my true parameter is within the confidence interval"
+    
+    - Confidence is NOT probability! 
+
+## Confidence Intervals 
+
+- E.g: Because of the properties of the normal distribution, we know that 95% of the density will be within the following range: 
+
+\begin{align*}\small
+CI_{95\%} = \hat{p} - 1.96 \times \sqrt{\frac{Var (Support)}{n}},\\
+\hat{p} + 1.96 \times \sqrt{\frac{Var (Support)}{n}}
+\end{align*}
+
+- Interpretation: With 95% confidence, the true value of $p$ is within that interval 
+
+# Example 
+
+```{r four}
+#| echo: true
+#| warning: false
+#| code-fold: true
+#| code-summary: "Show code"
+
+# standard deviation of the sampling distribution computed with the formula
+se <- round(sqrt(var(brex$exit)/nrow(brex)),3)
+# A data-driven confidence interval
+quantile(out.means, c(.025, .975))
+# An analytic solution to the confidence interval
+(ci_95 <- c(phat - (1.96*se), phat + (1.96*se)))
+```    
+  
+## Linear Regression
+
+- We can think of the parameters of a linear regression in the same way. Imagine there exists a population-level linear relationship between X and Y:
+
+\begin{equation*}
+Y_i = \alpha + \beta X_i + \varepsilon_i
+\end{equation*}
+
+- $\alpha$  an intercept, common to all units.
+
+- $\beta$ the slope, common to all units.
+
+- We need to estimate these parameters with our sample
+
+- We fit the line that minimizes the error in prediction
+
+## Linear Regression
+
+```{r}
+#| echo: true
+#| warning: false
+#| code-fold: true
+#| code-summary: "Show code"
+
+# Simulated data
+set.seed(8)
+alpha <- 5
+beta <- -.03
+x <- rnorm(1000, 4, .8) # 
+error <- rnorm(1000, 0, 1)
+
+# relationship is linear by construction!!
+y <- alpha + (beta*x) + error
+
+plot(x, y, main = "Scatterplot with Best Fit Line", 
+     col = "gray80", pch = 16)
+# Fit linear model
+model <- lm(y ~ x)
+# Add best fit line
+abline(model, col = "red", lwd = 2)
+
+```
+
+## Linear Regression
+
+- How do we interpret this?
+
+- Why are $\hat{\beta}$ and $\hat{\alpha}$ different from $\alpha$ and $\beta$?
+
+```{r}
+summary(model)
+(beta_hat <- coefficients(model)[2])
+(se_beta <- summary(model)$coefficients[2, "Std. Error"])
+```
+
+## Linear Regression
+
+- Estimates of $\hat{\beta}$ and $\hat{\alpha}$ are uncertain
+
+- They have their own sampling distributions! 
+
+    - CLT: They are also normal
+
+- We can use what I know about normal distributions to quantify their uncertainty
+
+- We can construct confidence intervals in the exact same way!
+
+- Or do hypothesis tests 
+
+## Hypothesis Testing and P-values
+
+- We are often interested in determining whether the true parameter is different from zero with a pre-specified level of confidence 
+
+\begin{align*}
+H_0: \beta = 0 \\
+H_1: \beta \neq 0
+\end{align*}
+
+- We are going to reject $H_0$ in favor of $H_1$ if we are sufficiently confident we aren't making a mistake 
+
+- That is, the estimate is far enough from zero, both directions, that we have at least 95% confidence that it's different from zero
+
+## P-value
+
+1. Assume the true parameter is centered around a mean of 0
+2. "Draw" the sampling distribution of the parameter
+    
+    - Remember we know that its sd = se
+
+3. Calculate the probability of observing an *estimate* at least as extreme as the one you observed if the true parameter is zero 
+
+4. If you are doing a two-tailed test, use absolute value
+
+## P-value
+
+- Simulated data to visualize the p-value 
+
+```{r}
+
+#| echo: true
+#| warning: false
+#| code-fold: true
+#| centering: true
+#| code-summary: "Show code"
+
+x1 <- rnorm(100000, mean = beta_hat, sd = se_beta)
+x2 <- rnorm(100000, mean = 0, sd = se_beta)
+
+density_data <- density(x2)
+   density_df <- data.frame(x = density_data$x, y = density_data$y)
+shade_region <- density_df %>% filter(x < beta_hat)
+shade_region2 <- density_df %>% filter(x > -1*beta_hat)
+
+ ggplot() + 
+  geom_density(aes(x = x1, color = "Our sampling distribution")) +
+  geom_vline(aes(xintercept = beta_hat), linetype = "dashed", color = "navy") + 
+  geom_vline(aes(xintercept = -beta_hat), linetype = "dashed", color = "navy") + 
+  geom_area(data = shade_region, aes(x = x, y = y), fill = "pink") +
+  geom_area(data = shade_region2, aes(x = x, y = y), fill = "pink") +
+  geom_density(aes(x = x2, color = "Sampling distribution if beta = 0")) + 
+  theme_classic() +
+  scale_color_manual(values = c("blue", "maroon")) +
+  labs(color = "", y = "", x ="" ) +
+  coord_cartesian(xlim = c(min(x2), max(x2)))
+
+pnorm(beta_hat, mean = 0, sd = se_beta)*2
+  
+```
+
+## Statistical Significance
+
+- If you are using a level of statistical significance of 95%, you reject $H0: \beta = 0$ if $p-value \leq .05$
+
+- If you are using a level of statistical significance of 99%, you reject $H0: \beta = 0$ if $p-value \leq .01$
+
+- When we have estimates with a p-value less or equal to that, we say our coefficient is "statistically significant"
+
+- It just means we are sure enough the parameter is different from zero 
+
+- In papers, they report this with different number of stars!
+
+
+## Summing Up: Statistical vs. Scientific Significante
+
+- Statistical significance is NOT a measure of importance
+
+- Statistical significance just means an effect or difference is likely NOT to be zero 
+
+- But it might still be small enough to be insignificant
+
+- The more observations we have, the better "powered" we are to detect small effects
+
+
+
+
