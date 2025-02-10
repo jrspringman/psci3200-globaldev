@@ -143,63 +143,105 @@
     "objectID": "slides/08_final_project.html#objectives",
     "href": "slides/08_final_project.html#objectives",
     "title": "Final Project Overview",
-    "section": "",
-    "text": "The final project is the culmination of this course\n\nReflect the substantive knowledge and technical skills that you developed\nProvide experience\n\nGenerating a research question\nRefining into a testable hypothesis\nIdentifying data to provide evidence for or against\nCommunicating the results of your analysis to others"
+    "section": "Objectives",
+    "text": "Objectives\nThe final project is the culmination of this course\n\nReflect the substantive knowledge and technical skills that you developed\nProvide experience\n\nGenerating a research question\nRefining into a testable hypothesis\nIdentifying data to provide evidence for or against\nCommunicating the results of your analysis to others"
   },
   {
     "objectID": "slides/08_final_project.html#objectives-1",
     "href": "slides/08_final_project.html#objectives-1",
     "title": "Final Project Overview",
-    "section": "",
-    "text": "Help you answer research questions in the future\nAssess the strength of evidence presented by others\nIncorporate research into your professional decision-making"
+    "section": "Objectives",
+    "text": "Objectives\n\nHelp you answer research questions in the future\nAssess the strength of evidence presented by others\nIncorporate research into your professional decision-making"
   },
   {
     "objectID": "slides/08_final_project.html#requirements",
     "href": "slides/08_final_project.html#requirements",
     "title": "Final Project Overview",
-    "section": "",
-    "text": "Research project with data of your choosing\n\nFormulate a research question\nFind data that can help you answer that question\nApply the tools and methods from this course\nWrite-up analysis\n\nProduce a webpage to present your results for public consumption"
+    "section": "Requirements",
+    "text": "Requirements\n\nResearch project with data of your choosing\n\nFormulate a research question\nFind data that can help you answer that question\nApply the tools and methods from this course\nWrite-up analysis\n\nProduce a webpage to present your results for public consumption"
   },
   {
     "objectID": "slides/08_final_project.html#write-up",
     "href": "slides/08_final_project.html#write-up",
     "title": "Final Project Overview",
-    "section": "",
-    "text": "Introduction to research question and data\nDiscussion of research design, assumptions, and threats to inference\nVisualization describing your data\nPresentation of results from a regression model and discussion of implications for research question\nRobustness test to probe assumptions or empirical extension\nDiscussion of policy implications\nAppendix including supplementary materials"
+    "section": "Write-up",
+    "text": "Write-up\n\nIntroduction to research question and data\nDiscussion of research design, assumptions, and threats to inference\nVisualization describing your data\nPresentation of results from a regression model and discussion of implications for research question\nRobustness test to probe assumptions or empirical extension\nDiscussion of policy implications\nAppendix including supplementary materials"
   },
   {
     "objectID": "slides/08_final_project.html#final-project-touchpoints",
     "href": "slides/08_final_project.html#final-project-touchpoints",
     "title": "Final Project Overview",
-    "section": "",
-    "text": "Milestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 17\n\n\nResearch Question and Data\nFeb 19\n\n\nResearch Design\nMar 5\n\n\nSubmit proposal\nApr 2\n\n\nSubmit final project\nMay 10"
+    "section": "Final Project Touchpoints",
+    "text": "Final Project Touchpoints\n\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 17\n\n\nResearch Question and Data\nFeb 19\n\n\nResearch Design\nMar 5\n\n\nSubmit proposal\nApr 2\n\n\nSubmit final project\nMay 10"
   },
   {
     "objectID": "slides/08_final_project.html#types-of-data",
     "href": "slides/08_final_project.html#types-of-data",
     "title": "Final Project Overview",
-    "section": "",
-    "text": "There are many types of data in the world. Below is a brief discussion of the most common sources of data in the social sciences.\n\nElection returns\n\nCompilations of election data, such as Constituency-Level Elections Archive (CLEA)\nReturns for specific elections are often available from a country’s electoral commission website\n\nReplication data\n\nAny published research from the last 5-10 years should make the data and analysis files publicly available. You can almost always find where these replication materials are hosted on the article’s webpage at whichever journal puslished the article. Oftentimes, these data are hosted on Harvard’s Dataverse."
+    "section": "Types of data",
+    "text": "Types of data\nThere are many types of data in the world. Below is a brief discussion of the most common sources of data in the social sciences.\n\nElection returns\n\nCompilations of election data, such as Constituency-Level Elections Archive (CLEA)\nReturns for specific elections are often available from a country’s electoral commission website"
   },
   {
     "objectID": "slides/08_final_project.html#types-of-data-1",
     "href": "slides/08_final_project.html#types-of-data-1",
     "title": "Final Project Overview",
-    "section": "",
-    "text": "Survey data\n\nSurvey data is used extremely heavily on the social sciences. Most prominently in political science are the various ‘barometer’ surveys (Afrobarometer, Latinobarometer, etc.).\n\nAdministrative data\n\nData on government (or organization) programs or\n\nExpert-coded data\n\nData where experts code the characteristics of countries or political entities (such as parties)"
+    "section": "Types of data",
+    "text": "Types of data\n\nReplication data\n\nAny published research from the last 5-10 years should make the data and analysis files publicly available. You can almost always find where these replication materials are hosted on the article’s webpage at whichever journal puslished the article. Oftentimes, these data are hosted on Harvard’s Dataverse."
   },
   {
     "objectID": "slides/08_final_project.html#popular-public-datasets",
     "href": "slides/08_final_project.html#popular-public-datasets",
     "title": "Final Project Overview",
-    "section": "",
-    "text": "Dataset of datasets\n\nVarieties of Democracy\nWorld Bank Development/Governance Indicators\nArmed Conflict Location & Event Data Project (ACLED)\nAidData\nDemographic and Health Survey"
+    "section": "Popular Public Datasets",
+    "text": "Popular Public Datasets\nDataset of datasets\n\nVarieties of Democracy\nWorld Bank Development/Governance Indicators\nArmed Conflict Location & Event Data Project (ACLED)\nAidData\nDemographic and Health Survey"
   },
   {
     "objectID": "slides/08_final_project.html#my-datasets",
     "href": "slides/08_final_project.html#my-datasets",
     "title": "Final Project Overview",
-    "section": "",
-    "text": "Machine Learning for Peace\n\nThis data captures the volume of reporting from high-quality, local news sources on 42 distinct political events from 2012-2023 for 60 aid-receiving countries.\nFocuses on events that constitute changes in civic space, such as censorship, legal changes, and other forms of repression\n\nCambodian NGOs (n \\(\\approx\\) 100)\n\nConvenience sample\nPanel survey, financial data, networks, open-ended responses\n\nEthiopian University Students (n \\(\\approx\\) 900)\n\nRepresentative sample\nPanel survey, networks, open-ended responses\n\nGhanaian Radio Stations (n \\(\\approx\\) 400)\n\nConvenience sample"
+    "section": "My Datasets",
+    "text": "My Datasets\n\nMachine Learning for Peace\n\nThis data captures the volume of reporting from high-quality, local news sources on 42 distinct political events from 2012-2023 for 60 aid-receiving countries.\nFocuses on events that constitute changes in civic space, such as censorship, legal changes, and other forms of repression\n\nCambodian NGOs (n \\(\\approx\\) 100)\n\nConvenience sample\nPanel survey, financial data, networks, open-ended responses"
+  },
+  {
+    "objectID": "slides/08_final_project.html#assignment-1-research-question-and-data",
+    "href": "slides/08_final_project.html#assignment-1-research-question-and-data",
+    "title": "Final Project Overview",
+    "section": "Assignment 1: Research Question and Data",
+    "text": "Assignment 1: Research Question and Data\nMust be submitted via Slack by 11:59pm EST on Monday, February 19\n\nSketch a research question that you’d like to investigate\nIdentify data that can answer that question\nI will provide feedback on the viability of the questions, the suitability of the data, and the extent to which your general idea will meet my expectations for the final project"
+  },
+  {
+    "objectID": "slides/08_final_project.html#assignment-1-research-question-and-data-1",
+    "href": "slides/08_final_project.html#assignment-1-research-question-and-data-1",
+    "title": "Final Project Overview",
+    "section": "Assignment 1: Research Question and Data",
+    "text": "Assignment 1: Research Question and Data\nSend me a quarto html file that:\n\nBriefly describes your idea for a research question\n\n3-4 sentences describing some relationship in the world that you want to investigate\nThis should involve at least two things in the world that can be measured with existing data\nYou may submit more than 1 idea.\n\nProposes a dataset and measures that will help you answer it\n\nSpecific, existing dataset that you can access\nSpecific variables that will be used to answer the research question"
+  },
+  {
+    "objectID": "slides/08_final_project.html#research-question-and-data",
+    "href": "slides/08_final_project.html#research-question-and-data",
+    "title": "Final Project Overview",
+    "section": "Research Question and Data",
+    "text": "Research Question and Data\nMust be submitted via Slack by 11:59pm EST on Monday, February 19\n\nSketch a research question that you’d like to investigate\nIdentify data that can answer that question\nI will provide feedback on the viability of the questions, the suitability of the data, and the extent to which your general idea will meet my expectations for the final project"
+  },
+  {
+    "objectID": "slides/08_final_project.html#research-question-and-data-1",
+    "href": "slides/08_final_project.html#research-question-and-data-1",
+    "title": "Final Project Overview",
+    "section": "Research Question and Data",
+    "text": "Research Question and Data\nSend me a quarto html file that:\n\nBriefly describes your idea for a research question\n\n3-4 sentences describing some relationship in the world that you want to investigate\nThis should involve at least two things in the world that can be measured with existing data\nYou may submit more than 1 idea.\n\nProposes data and measures that will help you answer it\n\nSpecific, existing dataset that you can access\nSpecific variables that will be used to answer the research question"
+  },
+  {
+    "objectID": "slides/08_final_project.html#types-of-data-2",
+    "href": "slides/08_final_project.html#types-of-data-2",
+    "title": "Final Project Overview",
+    "section": "Types of data",
+    "text": "Types of data\n\nSurvey data\n\nSurvey data is used extremely heavily on the social sciences. Most prominently in political science are the various ‘barometer’ surveys (Afrobarometer, Latinobarometer, etc.).\n\nAdministrative data\n\nData on government (or organization) programs or\n\nExpert-coded data\n\nData where experts code the characteristics of countries or political entities (such as parties)"
+  },
+  {
+    "objectID": "slides/08_final_project.html#my-datasets-1",
+    "href": "slides/08_final_project.html#my-datasets-1",
+    "title": "Final Project Overview",
+    "section": "My Datasets",
+    "text": "My Datasets\n\nEthiopian University Students (n \\(\\approx\\) 900)\n\nRepresentative sample\nPanel survey, networks, open-ended responses\n\nGhanaian Radio Stations (n \\(\\approx\\) 400)\n\nConvenience sample"
   }
 ]
