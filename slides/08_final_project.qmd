@@ -62,6 +62,36 @@ highlight-style: github
 6. Discussion of policy implications
 7. Appendix including supplementary materials
 
+## Final Project Touchpoints
+
+\
+
+| Milestone                    | Due Date|
+|:-----------------------------|:--------|
+| [Create a GitHub repository](https://jrspringman.github.io/psci3200-globaldev/assignments/02_gitrepo.html)| Feb 17 |
+| [Research Question and Data](https://jrspringman.github.io/psci3200-globaldev/assignments/03_fprqd.html)  | Feb 19 |
+| [Research Design](https://jrspringman.github.io/psci3200-globaldev/assignments/04_fpdesign.html)          | Mar 5  |
+| [Submit proposal](https://jrspringman.github.io/psci3200-globaldev/assignments/05_fptest.html)            | Apr 2  |
+| [Submit final project](https://jrspringman.github.io/psci3200-globaldev/assignments/final_project.html)   | May 10 |
+
+
+## Assignment 1: Research Question and Data
+
+**Must be submitted via Slack by 11:59pm EST on Monday, February 19**
+
+- Sketch a research question that you'd like to investigate
+- Identify data that can answer that question
+- I will provide feedback on the viability of the questions, the suitability of the data, and the extent to which your general idea will meet my expectations for the final project
+*Send me a quarto html file that:*
+
+- Briefly describes your idea for a research question
+  + This should be at least 3-4 sentences describing some relationship in the world that you want to investigate. This should involve at least two things in the world that can be measured with existing quantitative data.
+  + You are welcome to submit more than 1 idea. 
+- Proposes a dataset and measures that will help you answer it
+  + This should include a specific, existing dataset that you can access
+  + This should also include mention of the specific variables within that dataset that will be used to answer the research question
+
+
 ## Types of data
 
 There are many types of data in the world. Below is a brief discussion of the most common sources of data in the social sciences. 
@@ -107,15 +137,3 @@ There are many types of data in the world. Below is a brief discussion of the mo
 - Ghanaian Radio Stations (n $\approx$ 400)
   + Convenience sample
 
-
-## Final Project Touchpoints
-
-\
-
-| Milestone                    | Due Date|
-|:-----------------------------|:--------|
-| [Create a GitHub repository](https://jrspringman.github.io/psci3200-globaldev/assignments/02_gitrepo.html)| Feb 17 |
-| [Research Question and Data](https://jrspringman.github.io/psci3200-globaldev/assignments/03_fprqd.html)  | Feb 19 |
-| [Research Design](https://jrspringman.github.io/psci3200-globaldev/assignments/04_fpdesign.html)          | Mar 5  |
-| [Submit proposal](https://jrspringman.github.io/psci3200-globaldev/assignments/05_fptest.html)            | Apr 2  |
-| [Submit final project](https://jrspringman.github.io/psci3200-globaldev/assignments/final_project.html)   | May 10 |

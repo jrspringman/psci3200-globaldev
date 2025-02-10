@@ -24,10 +24,6 @@ date: 2025-02-10
 | [Submit final project](https://jrspringman.github.io/psci3200-globaldev/assignments/final_project.html)   | May 10 |
 
 
-::: {.callout-note}
-All materials for this course are available on the [git repo](https://github.com/jrspringman/psci3200-globaldev). Rendered materials (usually `.html`) are available in the `psci3200-globaldev/docs` folder. Source code (usually `.qmd`) for slides, workshops, assignments, and all other materials are available in their respective subfolders.
-:::
-
 
 
 

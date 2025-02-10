@@ -54,7 +54,7 @@ There are many publicly available datasets. This [Dataset of datasets](https://g
 
 There are also many datasets collected by DevLab researchers. Below, I list several of the datasets that I was directly involved in. If you have a specific interest in a topic, I can also ask around DevLab to see if anyone has data available. In particular, I know there are several datasets on both migration and land-use that might be avaiable.
 
-- [Machine Learning for Peace](mlpeace.org)
+- [Machine Learning for Peace](https://www.mlpeace.org)
   + This data captures the volume of reporting from high-quality, local news sources on 42 distinct political events from 2012-2023 for 60 aid-receiving countries. 
   + Focuses on events that constitute changes in civic space, such as censorship, legal changes, and other forms of repression
 - Cambodian NGOs (n $\approx$ 100)
