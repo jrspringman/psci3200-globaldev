@@ -4,7 +4,7 @@ title: "Final Project Expanded Research Design"
 author: "Jeremy Springman"
 
 institute: "University of Pennsylvania"
-date: 2024-04-30
+date: 2024-05-02
 toc: true
 
 format: 
@@ -19,9 +19,9 @@ editor: source
 
 Your third assignment for the final project is refining the research plan that will guide your investigation of your research question. This assignment is designed to get you thinking more clearly about the limitations of your research design and how you can strengthen your inferences. 
 
-This assignment will help you plan the remaining components of your final project analysis. This should look like an expanded, cleaned-up version of your previous assignment. The Final Project Assignment will be posted to the course website on Thursday, April 30.
+This assignment will help you plan the remaining components of your final project analysis. This should look like an expanded, cleaned-up version of your previous assignment. 
 
-This project should be submitted via Slack by **11:59pm EST on Thursday, April 30**. Your submission must include:
+This project should be submitted via Slack by **11:59pm EST on Wednesday, April 2**. Your submission must include:
 
 - An html file presenting your written design and figures. It is not necessary to show printed code.
 - A `.qmd` file that you used to generate the html file

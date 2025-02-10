@@ -24,11 +24,28 @@ highlight-style: github
 ---
 
 
-# Final Project Discussion
+# Final Project Overview
 
-## Final Project
+## Objectives
 
-- Data analysis project with data of your choosing
+*The final project is the culmination of this course*
+
+- Reflect the substantive knowledge and technical skills that you developed
+- Provide experience
+  + Generating a research question
+  + Refining into a testable hypothesis
+  + Identifying data to provide evidence for or against
+  + Communicating the results of your analysis to others
+
+## Objectives
+
+- Help you answer research questions in the future
+- Assess the strength of evidence presented by others
+- Incorporate research into your professional decision-making
+
+## Requirements
+
+- Research project with data of your choosing
   + Formulate a research question
   + Find data that can help you answer that question
   + Apply the tools and methods from this course
@@ -41,18 +58,46 @@ highlight-style: github
 2. Discussion of research design, assumptions, and threats to inference
 3. Visualization describing your data
 4. Presentation of results from a regression model and discussion of implications for research question 
-5. Discussion of policy implications
+5. Robustness test to probe assumptions or empirical extension
+6. Discussion of policy implications
+7. Appendix including supplementary materials
 
-## Public Datasets
+## Types of data
 
-- Varieties of Democracy
-- Machine Learning for Peace
-- Afrobarometer, Arab Barometer
+There are many types of data in the world. Below is a brief discussion of the most common sources of data in the social sciences. 
+
+- Election returns
+  + Compilations of election data, such as [Constituency-Level Elections Archive (CLEA)](https://electiondataarchive.org/)
+  + Returns for specific elections are often available from a country's electoral commission website
+- Replication data
+  + Any published research from the last 5-10 years should make the data and analysis files publicly available. You can almost always find where these replication materials are hosted on the article's webpage at whichever journal puslished the article. Oftentimes, these data are hosted on Harvard's Dataverse.
+
+## Types of data
+
+- Survey data
+  + Survey data is used extremely heavily on the social sciences. Most prominently in political science are the various 'barometer' surveys (Afrobarometer, Latinobarometer, etc.).
+- Administrative data
+  + Data on government (or organization) programs or 
+- Expert-coded data
+  + Data where experts code the characteristics of countries or political entities (such as parties) 
+
+
+## Popular Public Datasets
+
+**[Dataset of datasets](https://github.com/erikgahner/PolData/blob/master/PolData.csv)**
+
+- [Varieties of Democracy](https://github.com/vdeminstitute/vdemdata)
+- [World Bank Development/Governance Indicators](https://cran.r-project.org/web/packages/WDI/WDI.pdf)
 - Armed Conflict Location & Event Data Project (ACLED)
 - AidData
+- Demographic and Health Survey
+
 
 ## My Datasets
 
+- [Machine Learning for Peace](mlpeace.org)
+  + This data captures the volume of reporting from high-quality, local news sources on 42 distinct political events from 2012-2023 for 60 aid-receiving countries. 
+  + Focuses on events that constitute changes in civic space, such as censorship, legal changes, and other forms of repression
 - Cambodian NGOs (n $\approx$ 100)
   + Convenience sample
   + Panel survey, financial data, networks, open-ended responses
@@ -62,6 +107,15 @@ highlight-style: github
 - Ghanaian Radio Stations (n $\approx$ 400)
   + Convenience sample
 
-## DevLab Datasets
 
-- Too many to recall, but inquire with me and I will ask around
+## Final Project Touchpoints
+
+\
+
+| Milestone                    | Due Date|
+|:-----------------------------|:--------|
+| [Create a GitHub repository](https://jrspringman.github.io/psci3200-globaldev/assignments/02_gitrepo.html)| Feb 17 |
+| [Research Question and Data](https://jrspringman.github.io/psci3200-globaldev/assignments/03_fprqd.html)  | Feb 19 |
+| [Research Design](https://jrspringman.github.io/psci3200-globaldev/assignments/04_fpdesign.html)          | Mar 5  |
+| [Submit proposal](https://jrspringman.github.io/psci3200-globaldev/assignments/05_fptest.html)            | Apr 2  |
+| [Submit final project](https://jrspringman.github.io/psci3200-globaldev/assignments/final_project.html)   | May 10 |

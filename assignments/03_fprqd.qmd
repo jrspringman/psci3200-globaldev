@@ -1,6 +1,6 @@
 ---
-title: "Research Question and Dataset"
-date: 2024-02-12
+title: "Final Project Research Question and Dataset"
+date: 2024-02-19
 ---
 
 ## Assignment 
@@ -15,6 +15,8 @@ Your first assignment for the final project is sketching a research question tha
 - Proposes a dataset and measures that will help you answer it
   + This should include a specific, existing dataset that you can access
   + This should also include mention of the specific variables within that dataset that will be used to answer the research question
+
+This project should be submitted via Slack by **11:59pm EST on Monday, February 19**. Your submission must include:
 
 After you submit this assignment, I will provide feedback on the viability of the questions, the suitability of the data, and the extent to which your general idea will meet my expectations for the final project.
 
