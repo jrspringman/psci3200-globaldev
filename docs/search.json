@@ -1416,93 +1416,93 @@
   {
     "objectID": "slides/07-inference.html#from-sample-to-population",
     "href": "slides/07-inference.html#from-sample-to-population",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "From sample to population",
-    "text": "From sample to population\n\nOften we want to know some characteristic about a population of interest\n\nWe call this characteristic a “parameter”\n\nBut we only have a sample of that population\n\nWe call this the “estimate”\n\nHow do we make inferences about the population parameter with what we learn from our estimate?"
+    "text": "From sample to population\n\n\nOften we want to know some characteristic about a population of interest\nBut we only have a sample of that population\nHow do we make inferences about the population with what we learn from our sample?"
   },
   {
     "objectID": "slides/07-inference.html#empirical-example-brexit",
     "href": "slides/07-inference.html#empirical-example-brexit",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Empirical Example: Brexit",
-    "text": "Empirical Example: Brexit\n\nData from the British Electoral Survey\nWe want to learn the probability that a Brithis citizien supports Brexiting in the country.\nNotice that such probability is the same in expectation as the proportion of pro-brexiting citizens\nWe have a random sample of British citizens who were surveyed"
+    "text": "Empirical Example: Brexit\n\n\nData from a random sample of British citizens: the British Electoral Survey\nWe want to learn the probability that a British citizen supports Brexiting in the country.\n\nThis is a population parameter\n\nSuch probability is the same in expectation as the proportion of pro-brexiting citizens\n\nWhy?"
   },
   {
     "objectID": "slides/07-inference.html#empirical-example-brexit-1",
     "href": "slides/07-inference.html#empirical-example-brexit-1",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Empirical Example: Brexit",
-    "text": "Empirical Example: Brexit\n\n\nShow code\nbrex &lt;- read.csv(here::here(\"./slides/code/BES.csv\"))\nstr(brex)\n\n\n'data.frame':   30895 obs. of  4 variables:\n $ vote     : chr  \"leave\" \"leave\" \"stay\" \"leave\" ...\n $ leave    : int  1 1 0 1 NA 0 1 1 1 1 ...\n $ education: int  3 NA 5 4 2 4 3 2 3 4 ...\n $ age      : int  60 56 73 64 68 85 78 51 59 68 ...\n\n\nShow code\ntable(brex$vote, useNA = \"always\")\n\n\n\n   don't know         leave          stay wouldn't vote          &lt;NA&gt; \n         2314         13692         14352           537             0 \n\n\nShow code\nbrex$exit &lt;- ifelse(brex$vote==\"leave\", 1, 0)\nprop.table(table(brex$exit))*100\n\n\n\n       0        1 \n55.68215 44.31785"
+    "text": "Empirical Example: Brexit\n\n\nShow code\nbrex &lt;- read.csv(here::here(\"./slides/code/BES.csv\"))\nstr(brex)\n\n\n'data.frame':   30895 obs. of  4 variables:\n $ vote     : chr  \"leave\" \"leave\" \"stay\" \"leave\" ...\n $ leave    : int  1 1 0 1 NA 0 1 1 1 1 ...\n $ education: int  3 NA 5 4 2 4 3 2 3 4 ...\n $ age      : int  60 56 73 64 68 85 78 51 59 68 ...\n\n\nShow code\ntable(brex$vote, useNA = \"always\")\n\n\n\n   don't know         leave          stay wouldn't vote          &lt;NA&gt; \n         2314         13692         14352           537             0 \n\n\nShow code\nbrex$exit &lt;- ifelse(brex$vote==\"leave\", 1, \n                ifelse(brex$vote == \"stay\", 0, NA))\nprop.table(table(brex$exit))*100\n\n\n\n       0        1 \n51.17672 48.82328"
   },
   {
     "objectID": "slides/07-inference.html#empirical-example-brexit-2",
     "href": "slides/07-inference.html#empirical-example-brexit-2",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Empirical Example: Brexit",
-    "text": "Empirical Example: Brexit\n\n“Support of Brexit” is a Random Variable:\n\n\\(Support \\sim \\text{Bernoulli}(p)\\)\n\nWith a probability mass function:\n\n\\[\\begin{align*}\nf(k; p) =\n\\begin{cases}\np & \\text{if } k=1, \\\\\nq = 1 - p & \\text{if } k=0.\n\\end{cases}\n\\end{align*}\\]\n\nWhere \\(E(Support) = p\\) and \\(Var(Support) = p(1-p)\\)"
+    "text": "Empirical Example: Brexit\n\nRandom Variable: the outcome of some process where there’s uncertainty\n\nThink of flipping a coin: we do not know if the result of a single flip will be heads or tails, but we know that with p = .5 it will be the former\n\n“Support of Brexit” is a Random Variable:\n\n\\(Support \\sim \\text{Bernoulli}(p)\\)\n\nWhere \\(E(Support) = p\\)"
   },
   {
     "objectID": "slides/07-inference.html#empirical-example-brexit-3",
     "href": "slides/07-inference.html#empirical-example-brexit-3",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Empirical Example: Brexit",
-    "text": "Empirical Example: Brexit\n\nWe want to know what \\(p\\) is!\nBut it is a population parameter and we only have a sample\nWe can estimate \\(\\hat{p}\\) by doing\n\n\nphat &lt;- mean(brex$exit)\nphat\n\n[1] 0.4431785\n\n\n\nBut if our sample were slightly different, we would have gotten a different \\(\\hat{p}\\)"
+    "text": "Empirical Example: Brexit\n\nWe want to know what \\(p\\) is!\nBut it is a population parameter and we only have a sample\nWe can estimate \\(\\hat{p}\\) by doing\n\n\n(phat &lt;- mean(brex$exit, na.rm =T))\n\n[1] 0.4882328\n\n\n\nTo see why, imagine a fair coin toss. How many Heads do you expect after flipping the coin 100 times?"
   },
   {
     "objectID": "slides/07-inference.html#sampling-distribution-of-hatp",
     "href": "slides/07-inference.html#sampling-distribution-of-hatp",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Sampling Distribution of \\(\\hat{p}\\)",
-    "text": "Sampling Distribution of \\(\\hat{p}\\)\n\n\nShow code\nrequire(tidyverse)\nset.seed(7)\n\nout.means &lt;- c()\n\nfor (i in 1:1000) {\n  temp_dat &lt;- sample_n(brex, nrow(brex), replace = T)\n  out.means[i] &lt;- mean(temp_dat$exit)\n  rm(temp_dat)\n}\n\nhist(out.means)\nabline(v = mean(out.means), col = \"red\", lwd = 2, add = T)"
+    "text": "Sampling Distribution of \\(\\hat{p}\\)\n\nOn expectation, our sample \\(E[\\hat{p}] = p\\)\n\nThis property is called unbiasedness\nAs our sample size increases, our \\(\\hat{p}\\) converges in probability to p\n\nBut if our sample were slightly different, we would have gotten a different \\(\\hat{p}\\)!\n\nWe need to account for this uncertainty!\n\nLet’s simulate the different sample means we would have gotten if our sample changed slightly:"
   },
   {
     "objectID": "slides/07-inference.html#sampling-distribution-of-hatp-1",
     "href": "slides/07-inference.html#sampling-distribution-of-hatp-1",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Sampling Distribution of \\(\\hat{p}\\)",
-    "text": "Sampling Distribution of \\(\\hat{p}\\)\n\nThat’s just a normal distribution!\nAll normal distributions can be described by their mean and their standard deviaton\nThis one is called “sampling distribution of the sample mean”\n\nCentered around our estimate\n\\(SE =  \\sqrt{\\frac{Var (Support)}{n}}\\)\n\nKnowing it is a normal distribution helps us quantify the uncertainty in our estimates"
+    "text": "Sampling Distribution of \\(\\hat{p}\\)\n\n\nShow code\nrequire(tidyverse)\nset.seed(7)\n\nout.means &lt;- c()\nfor (i in 1:1000) {\n  temp_dat &lt;- sample_n(brex, nrow(brex), replace = T)\n  out.means[i] &lt;- mean(temp_dat$exit, na.rm = T)\n  rm(temp_dat)\n}\n\nhist(out.means)\nabline(v = mean(out.means), col = \"red\", lwd = 2, add = T)"
   },
   {
     "objectID": "slides/07-inference.html#standard-errors",
     "href": "slides/07-inference.html#standard-errors",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Standard Errors",
-    "text": "Standard Errors\n\nThe standard deviation of the sampling distribution of an estimator is called “standard error”\nOne interpretation: “How off are our estimates, on average, from the true population parameter?”\nBy calculating the standard error we can know the shape of the sampling distribution. This helps us do two important things:\n\nConstruct confidence intervals (what is the range within which the true value is likely to be?)\nDo hypothesis testing (p-values and statistical significance)"
+    "text": "Standard Errors\n\n\nThe standard deviation of the sampling distribution of an estimator is called “standard error”\nBy calculating the standard error we can know the shape of the sampling distribution. This helps us do two important things:\n\nConstruct confidence intervals (what is the range within which the true value is likely to be?)\nDo hypothesis testing (p-values and statistical significance)"
   },
   {
     "objectID": "slides/07-inference.html#confidence-intervals",
     "href": "slides/07-inference.html#confidence-intervals",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Confidence Intervals",
-    "text": "Confidence Intervals\n\nRange of values that likely includes the true value of our parameter of interest\nSpecifically, the range that includes a pre-specified proportion of the density of the sampling distribution of our sampling distribution\nInterpretation: “With X% confidence, I know my true parameter is within the confidence interval”\n\nConfidence is NOT probability!"
+    "text": "Confidence Intervals\n\n\nRange of values that likely includes the true value of our parameter of interest\n\nThe range that includes a pre-specified proportion of the density of the sampling distribution\n\nInterpretation: “With X% confidence, the true parameter is within the confidence interval”\n\nMore specifically “If I drew millions of samples and constructed a confidence interval for each one, my true parameter would be inside the CI X% of the times”"
   },
   {
     "objectID": "slides/07-inference.html#confidence-intervals-1",
     "href": "slides/07-inference.html#confidence-intervals-1",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Confidence Intervals",
-    "text": "Confidence Intervals\n\nE.g: Because of the properties of the normal distribution, we know that 95% of the density will be within the following range:\n\n\\[\\begin{align*}\\small\nCI_{95\\%} = \\hat{p} - 1.96 \\times \\sqrt{\\frac{Var (Support)}{n}},\\\\\n\\hat{p} + 1.96 \\times \\sqrt{\\frac{Var (Support)}{n}}\n\\end{align*}\\]\n\nInterpretation: With 95% confidence, the true value of \\(p\\) is within that interval"
+    "text": "Confidence Intervals\n\nBecause of the properties of the normal distribution, we know that 95% of the density will be within the following range:\n\n\\[\\begin{align*}\nCI_{95\\%} = \\hat{p} - 1.96 \\times \\sqrt{\\frac{Var (Support)}{n}},\\\\\n\\hat{p} + 1.96 \\times \\sqrt{\\frac{Var (Support)}{n}}\n\\end{align*}\\]"
   },
   {
     "objectID": "slides/07-inference.html#linear-regression",
     "href": "slides/07-inference.html#linear-regression",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Linear Regression",
-    "text": "Linear Regression\n\nWe can think of the parameters of a linear regression in the same way. Imagine there exists a population-level linear relationship between X and Y:\n\n\\[\\begin{equation*}\nY_i = \\alpha + \\beta X_i + \\varepsilon_i\n\\end{equation*}\\]\n\n\\(\\alpha\\) an intercept, common to all units.\n\\(\\beta\\) the slope, common to all units.\nWe need to estimate these parameters with our sample\nWe fit the line that minimizes the error in prediction"
+    "text": "Linear Regression\n\nWe can think of the parameters of a linear regression in the same way.\n\n\\[\\begin{equation*}\nY_i = \\alpha + \\beta X_i + \\varepsilon_i\n\\end{equation*}\\]\n\n\\(\\alpha\\) an intercept, common to all units.\n\\(\\beta\\) the slope, common to all units.\nWe need to describe the relationship between X and Y with a line using information from our sample"
   },
   {
     "objectID": "slides/07-inference.html#linear-regression-1",
     "href": "slides/07-inference.html#linear-regression-1",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Linear Regression",
-    "text": "Linear Regression\n\n\nShow code\n# Simulated data\nset.seed(8)\nalpha &lt;- 5\nbeta &lt;- -.03\nx &lt;- rnorm(1000, 4, .8) # \nerror &lt;- rnorm(1000, 0, 1)\n\n# relationship is linear by construction!!\ny &lt;- alpha + (beta*x) + error\n\nplot(x, y, main = \"Scatterplot with Best Fit Line\", \n     col = \"gray80\", pch = 16)\n# Fit linear model\nmodel &lt;- lm(y ~ x)\n# Add best fit line\nabline(model, col = \"red\", lwd = 2)"
+    "text": "Linear Regression\n\nEstimates of \\(\\hat{\\beta}\\) and \\(\\hat{\\alpha}\\) have uncertainty\n\n\n\nThey have their own sampling distributions!\n\nCLT: They are also normal\n\nWe can use what I know about normal distributions to quantify their uncertainty\nWe can construct confidence intervals in the exact same way!\nOr do hypothesis tests"
   },
   {
     "objectID": "slides/07-inference.html#linear-regression-2",
     "href": "slides/07-inference.html#linear-regression-2",
     "title": "Linear Regression and Uncertainty",
     "section": "Linear Regression",
-    "text": "Linear Regression\n\nHow do we interpret this?\nWhy are \\(\\hat{\\beta}\\) and \\(\\hat{\\alpha}\\) different from \\(\\alpha\\) and \\(\\beta\\)?\n\n\n\n\nCall:\nlm(formula = y ~ x)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-3.8226 -0.6939  0.0102  0.6896  3.3679 \n\nCoefficients:\n            Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)  5.17773    0.15841  32.686   &lt;2e-16 ***\nx           -0.06877    0.03911  -1.758    0.079 .  \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 1.011 on 998 degrees of freedom\nMultiple R-squared:  0.003089,  Adjusted R-squared:  0.00209 \nF-statistic: 3.092 on 1 and 998 DF,  p-value: 0.07899\n\n\n          x \n-0.06877102 \n\n\n[1] 0.03911026"
+    "text": "Linear Regression\n\nEstimates of \\(\\hat{\\beta}\\) and \\(\\hat{\\alpha}\\) are uncertain\nThey have their own sampling distributions!\n\nCLT: They are also normal\n\nWe can use what I know about normal distributions to quantify their uncertainty\nWe can construct confidence intervals in the exact same way!\nOr do hypothesis tests"
   },
   {
     "objectID": "slides/07-inference.html#linear-regression-3",
@@ -1514,36 +1514,190 @@
   {
     "objectID": "slides/07-inference.html#hypothesis-testing-and-p-values",
     "href": "slides/07-inference.html#hypothesis-testing-and-p-values",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Hypothesis Testing and P-values",
-    "text": "Hypothesis Testing and P-values\n\nWe are often interested in determining whether the true parameter is different from zero with a pre-specified level of confidence\n\n\\[\\begin{align*}\nH_0: \\beta = 0 \\\\\nH_1: \\beta \\neq 0\n\\end{align*}\\]\n\nWe are going to reject \\(H_0\\) in favor of \\(H_1\\) if we are sufficiently confident we aren’t making a mistake\nThat is, the estimate is far enough from zero, both directions, that we have at least 95% confidence that it’s different from zero"
+    "text": "Hypothesis Testing and P-values\n\nWe are often interested in determining whether the true parameter is different from zero with a pre-specified level of confidence\n\n\\[\\begin{align*}\nH_0: \\beta = 0 \\\\\nH_1: \\beta \\neq 0\n\\end{align*}\\]\n\nWe are going to reject \\(H_0\\) in favor of \\(H_1\\) if we are sufficiently confident we aren’t making a (type I) mistake"
   },
   {
     "objectID": "slides/07-inference.html#p-value",
     "href": "slides/07-inference.html#p-value",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "P-value",
-    "text": "P-value\n\nAssume the true parameter is centered around a mean of 0\n“Draw” the sampling distribution of the parameter\n\nRemember we know that its sd = se\n\nCalculate the probability of observing an estimate at least as extreme as the one you observed if the true parameter is zero\nIf you are doing a two-tailed test, use absolute value"
+    "text": "P-value\n\nAssume the true effect/parameter is 0\n“Draw” the sampling distribution of the parameter\n\nRemember we know that its sd = se\n\nCalculate the probability of observing an estimate at least as extreme as the one you observed with your sample if the true parameter is zero\nIf you are doing a two-tailed test, use absolute value"
   },
   {
     "objectID": "slides/07-inference.html#p-value-1",
     "href": "slides/07-inference.html#p-value-1",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "P-value",
-    "text": "P-value\n\nSimulated data to visualize the p-value\n\n\n\n\n        x \n0.0786815"
+    "text": "P-value\n\nSimulated data to visualize the p-value"
   },
   {
     "objectID": "slides/07-inference.html#statistical-significance",
     "href": "slides/07-inference.html#statistical-significance",
-    "title": "Linear Regression and Uncertainty",
+    "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Statistical Significance",
-    "text": "Statistical Significance\n\nIf you are using a level of statistical significance of 95%, you reject \\(H0: \\beta = 0\\) if \\(p-value \\leq .05\\)\nIf you are using a level of statistical significance of 99%, you reject \\(H0: \\beta = 0\\) if \\(p-value \\leq .01\\)\nWhen we have estimates with a p-value less or equal to that, we say our coefficient is “statistically significant”\nIt just means we are sure enough the parameter is different from zero\nIn papers, they report this with different number of stars!"
+    "text": "Statistical Significance\n\nIf you are using a level of statistical significance of 95%, you reject \\(H0: \\beta = 0\\) if \\(\\text{p-value} \\leq .05\\)\nIf you are using a level of statistical significance of 99%, you reject \\(H0: \\beta = 0\\) if \\(\\text{p-value} \\leq .01\\)\nWhen we have estimates with a p-value less or equal to that, we say our coefficient is “statistically significant”\nIt just means we are sure enough the parameter is different from zero\nIn papers, they report this with different number of stars!"
   },
   {
     "objectID": "slides/07-inference.html#summing-up-statistical-vs.-scientific-significante",
     "href": "slides/07-inference.html#summing-up-statistical-vs.-scientific-significante",
     "title": "Linear Regression and Uncertainty",
     "section": "Summing Up: Statistical vs. Scientific Significante",
-    "text": "Summing Up: Statistical vs. Scientific Significante\n\nStatistical significance is NOT a measure of importance\nStatistical significance just means an effect or difference is likely NOT to be zero\nBut it might still be small enough to be insignificant\nThe more observations we have, the better “powered” we are to detect small effects"
+    "text": "Summing Up: Statistical vs. Scientific Significante\n\nStatistical significance is NOT a measure of importance\nStatistical significance just means an effect or difference is likely NOT to be zero\nBut it might still be super small as to be socially irrelevant\nThe more observations we have, the better “powered” we are to detect small effects"
+  },
+  {
+    "objectID": "slides/07-inference.html#todays-roadmap",
+    "href": "slides/07-inference.html#todays-roadmap",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "Today’s Roadmap",
+    "text": "Today’s Roadmap\n\nTargeting Population Parameters with Sample Estimates\nThe Uncertainty in Sample Estimates\nLinear Regression and its Parameters\nQuantifying Uncertainty in Linear Regression’s Estimated Parameters"
+  },
+  {
+    "objectID": "slides/07-inference.html#from-sample-to-population-1",
+    "href": "slides/07-inference.html#from-sample-to-population-1",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "From sample to population",
+    "text": "From sample to population\n\n\nThe first step is to make sure our sample is representative of the population\n\nWhat do we mean by this?\nWhy is it important?\n\nHow can we achieve representativeness?\nBeware! We not only need to sample a representative group of individuals, we also need a representative group of them to answer our questions"
+  },
+  {
+    "objectID": "slides/07-inference.html#sampling-distribution-of-hatp-2",
+    "href": "slides/07-inference.html#sampling-distribution-of-hatp-2",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "Sampling Distribution of \\(\\hat{p}\\)",
+    "text": "Sampling Distribution of \\(\\hat{p}\\)\n\nThat’s just a normal distribution!\nAll normal distributions can be described by their mean and their standard deviation\nThis one is called “sampling distribution of the sample mean”\n\nCentered around our estimate \\(\\hat{p}\\)\n\\(SE =  \\sqrt{\\frac{Var (Support)}{n}}\\)\n\nKnowing it is a normal distribution helps us quantify the uncertainty in our estimates"
+  },
+  {
+    "objectID": "slides/07-inference.html#its-not-all-about-sample-size",
+    "href": "slides/07-inference.html#its-not-all-about-sample-size",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "It’s not all about sample size!",
+    "text": "It’s not all about sample size!\n\n1936 Presidential Election in the US: FDR vs Alf Landon\nA newspaper called the Literary Digest ran a survey and asked 10 million (!!!) Americans who they would vote for\n\n2.4 million of them answered"
+  },
+  {
+    "objectID": "slides/07-inference.html#its-not-all-about-sample-size-1",
+    "href": "slides/07-inference.html#its-not-all-about-sample-size-1",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "It’s not (all) about sample size!",
+    "text": "It’s not (all) about sample size!"
+  },
+  {
+    "objectID": "slides/07-inference.html#linear-regression-4",
+    "href": "slides/07-inference.html#linear-regression-4",
+    "title": "Linear Regression and Uncertainty",
+    "section": "Linear Regression",
+    "text": "Linear Regression\n\nEstimates of \\(\\hat{\\beta}\\) and \\(\\hat{\\alpha}\\) are uncertain\nThey have their own sampling distributions!\n\nCLT: They are also normal\n\nWe can use what I know about normal distributions to quantify their uncertainty\nWe can construct confidence intervals in the exact same way!\nOr do hypothesis tests"
+  },
+  {
+    "objectID": "slides/07-inference.html#linear-regression-intuition",
+    "href": "slides/07-inference.html#linear-regression-intuition",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "Linear Regression: Intuition",
+    "text": "Linear Regression: Intuition\n\nOur data includes the outcome \\(y_i\\) and our explanatory variable \\(x_i\\)\nBut we can draw infinite lines through those points\nHow to choose the correct \\(\\widehat{\\beta}\\) and \\(\\widehat{\\alpha}\\), like we chose the correct \\(\\widehat{p}\\)?"
+  },
+  {
+    "objectID": "slides/07-inference.html#linear-regression-intuition-1",
+    "href": "slides/07-inference.html#linear-regression-intuition-1",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "Linear Regression: Intuition",
+    "text": "Linear Regression: Intuition\n\nFor each plausible estimates of \\(\\widehat{\\beta}\\) and \\(\\widehat{\\alpha}\\) we can calculate the prediction error\n\n\\[\\begin{equation*}\n\\hat{\\smash{\\varepsilon}}_i = Y_i - \\hat{\\alpha} - \\hat{\\beta} x_i\n\\end{equation*}\\]"
+  },
+  {
+    "objectID": "slides/07-inference.html#linear-regression-simulation",
+    "href": "slides/07-inference.html#linear-regression-simulation",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "Linear Regression: Simulation",
+    "text": "Linear Regression: Simulation\n\n# Simulated data\nset.seed(8)\n# TRUE alpha and beta\nalpha &lt;- 5\nbeta &lt;- -.216\nx &lt;- rnorm(100, 4, .8) # \nerror &lt;- rnorm(100, 0, 1)\n# relationship is linear by construction because I'm simulation god!!\ny &lt;- alpha + (beta*x) + error"
+  },
+  {
+    "objectID": "slides/07-inference.html#linear-regression-simulation-1",
+    "href": "slides/07-inference.html#linear-regression-simulation-1",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "Linear Regression: Simulation",
+    "text": "Linear Regression: Simulation\n\n\nShow code\n# Fit linear model\nmodel &lt;- lm(y ~ x)\n# Predict $y_hat$ or the expected y given the model and x\ny_pred &lt;- predict(model)\n# Plot the data\nplot(x, y, main=\"Visualizing OLS\", xlab=\"X\", ylab=\"Y\", pch=16, col=\"gray45\")\n# Add best fit line\nabline(model, col=\"maroon\", lwd=2)\n# Draw vertical lines showing each prediction error\nsegments(x, y, x, y_pred, col=\"purple\", lty=2)"
+  },
+  {
+    "objectID": "slides/07-inference.html#linear-regression-intuition-2",
+    "href": "slides/07-inference.html#linear-regression-intuition-2",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "Linear Regression: Intuition",
+    "text": "Linear Regression: Intuition\n\nIf we add up the prediction error for each observation, we get the Sum of Squared Residuals\n\n\\[\\begin{equation*}\nSSR = \\widehat{\\varepsilon}^2 = (Y_i - \\widehat{\\alpha} - \\widehat{\\beta}X_i)^2\n\\end{equation*}\\]\n\nMinimizing this objective yields the “ordinary least squares” (OLS) estimates of \\(\\alpha\\) and \\(\\beta\\)"
+  },
+  {
+    "objectID": "slides/07-inference.html#linear-regression-interpretation",
+    "href": "slides/07-inference.html#linear-regression-interpretation",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "Linear Regression: Interpretation",
+    "text": "Linear Regression: Interpretation\n\nWhy are \\(\\hat{\\beta}\\) and \\(\\hat{\\alpha}\\) different from \\(\\alpha\\) and \\(\\beta\\)?\n\n\n\n\nCall:\nlm(formula = y ~ x)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-2.4061 -0.8055  0.1533  0.6918  2.4457 \n\nCoefficients:\n            Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)   4.9658     0.5027   9.879   &lt;2e-16 ***\nx            -0.2082     0.1251  -1.664   0.0993 .  \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 1.074 on 98 degrees of freedom\nMultiple R-squared:  0.02748,   Adjusted R-squared:  0.01755 \nF-statistic: 2.769 on 1 and 98 DF,  p-value: 0.09932\n\n\n         x \n-0.2081563 \n\n\n[1] 0.1250993"
+  },
+  {
+    "objectID": "slides/07-inference.html#statistical-significance-1",
+    "href": "slides/07-inference.html#statistical-significance-1",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "Statistical Significance",
+    "text": "Statistical Significance\n\nIn our example, would we reject \\(H0: \\beta = 0\\) with 90% confidence? With 95% confidence? With 99%?\n\n\n\nShow code\nsummary(model)\n\n\n\nCall:\nlm(formula = y ~ x)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-2.4061 -0.8055  0.1533  0.6918  2.4457 \n\nCoefficients:\n            Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)   4.9658     0.5027   9.879   &lt;2e-16 ***\nx            -0.2082     0.1251  -1.664   0.0993 .  \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 1.074 on 98 degrees of freedom\nMultiple R-squared:  0.02748,   Adjusted R-squared:  0.01755 \nF-statistic: 2.769 on 1 and 98 DF,  p-value: 0.09932"
+  },
+  {
+    "objectID": "slides/07-inference.html#p-value-2",
+    "href": "slides/07-inference.html#p-value-2",
+    "title": "Linear Regression and Uncertainty",
+    "section": "P-value",
+    "text": "P-value"
+  },
+  {
+    "objectID": "slides/07-inference.html#summing-up-2-takeaways",
+    "href": "slides/07-inference.html#summing-up-2-takeaways",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "Summing Up: 2 Takeaways",
+    "text": "Summing Up: 2 Takeaways\n\nThe representative-ness of our samples is crucial to make inferences abt. population\n\nThe more observations we have, the better “powered” we are to detect small effects\nBut sample size does not substitute for representative-ness\n\nStatistical significance is important but it is NOT a measure of importance\n\nStatistical significance just means an effect or difference is likely NOT to be zero"
+  },
+  {
+    "objectID": "materials/c1_accountability.html",
+    "href": "materials/c1_accountability.html",
+    "title": "Representation and Accountability",
+    "section": "",
+    "text": "Manin, Przeworski, and Stokes. Chapter 1 (1999)\nFerraz and Finan, 2011"
+  },
+  {
+    "objectID": "materials/c1_accountability.html#required-readings",
+    "href": "materials/c1_accountability.html#required-readings",
+    "title": "Representation and Accountability",
+    "section": "",
+    "text": "Manin, Przeworski, and Stokes. Chapter 1 (1999)\nFerraz and Finan, 2011"
+  },
+  {
+    "objectID": "materials/c1_accountability.html#slides",
+    "href": "materials/c1_accountability.html#slides",
+    "title": "Representation and Accountability",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "materials/c2_accountability.html",
+    "href": "materials/c2_accountability.html",
+    "title": "Representation and Accountability",
+    "section": "",
+    "text": "Dunning et. al. (2019)"
+  },
+  {
+    "objectID": "materials/c2_accountability.html#required-readings",
+    "href": "materials/c2_accountability.html#required-readings",
+    "title": "Representation and Accountability",
+    "section": "",
+    "text": "Dunning et. al. (2019)"
+  },
+  {
+    "objectID": "materials/c2_accountability.html#slides",
+    "href": "materials/c2_accountability.html#slides",
+    "title": "Representation and Accountability",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "slides/07-inference.html#housekeeping",
+    "href": "slides/07-inference.html#housekeeping",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "Housekeeping",
+    "text": "Housekeeping\n\nYou have two assignments next week!"
   }
 ]
