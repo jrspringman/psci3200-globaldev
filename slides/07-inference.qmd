@@ -119,6 +119,7 @@ prop.table(table(brex$exit))*100
 -   We can estimate $\hat{p}$ by doing
 
 ```{r two, eval=T, echo=TRUE, results=T, include=TRUE}
+brex <- dplyr::filter(brex, is.na(exit)==F)
 (phat <- mean(brex$exit, na.rm =T))
 
 ```
@@ -209,7 +210,7 @@ CI_{95\%} = \hat{p} - 1.96 \times \sqrt{\frac{Var (Support)}{n}},\\
 \hat{p} + 1.96 \times \sqrt{\frac{Var (Support)}{n}} 
 \end{align*}
 ```
-# Computing CI's: Example
+## Computing CI's: Example
 
 ```{r four}
 #| echo: true
@@ -253,11 +254,14 @@ Y_i = \alpha + \beta X_i + \varepsilon_i
 
 ## Linear Regression: Intuition
 
-- For each plausible estimates of $\widehat{\beta}$ and $\widehat{\alpha}$ we can calculate the *prediction error*
+- If we have a slope and an intercept, for every $X_i$, the equation of a line gives us a predicted $Y_i$, or $\widehat{Y_i}$
 
-\begin{equation*}
-\hat{\smash{\varepsilon}}_i = Y_i - \hat{\alpha} - \hat{\beta} x_i
-\end{equation*}
+- So, for each plausible estimates of $\widehat{\beta}$ and $\widehat{\alpha}$ we can calculate the *prediction error*
+
+\begin{align*}
+\hat{\varepsilon}_i =& Y_i - \hat{Y_i} \\ 
+\hat{\varepsilon}_i =& Y_i - \hat{\alpha} - \hat{\beta} x_i 
+\end{align*}
 
 ## Linear Regression: Intuition
 
@@ -435,7 +439,7 @@ summary(model)
 
     - But sample size does not substitute for representative-ness
 
--   Statistical significance is important but it is NOT a measure of importance
+-   Statistical significance is important but it is NOT a measure of **SCIENTIFIC** importance
 
     -   Statistical significance just means an effect or difference is likely NOT to be zero
 

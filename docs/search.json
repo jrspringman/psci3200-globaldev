@@ -1446,7 +1446,7 @@
     "href": "slides/07-inference.html#empirical-example-brexit-3",
     "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Empirical Example: Brexit",
-    "text": "Empirical Example: Brexit\n\nWe want to know what \\(p\\) is!\nBut it is a population parameter and we only have a sample\nWe can estimate \\(\\hat{p}\\) by doing\n\n\n(phat &lt;- mean(brex$exit, na.rm =T))\n\n[1] 0.4882328\n\n\n\nTo see why, imagine a fair coin toss. How many Heads do you expect after flipping the coin 100 times?"
+    "text": "Empirical Example: Brexit\n\nWe want to know what \\(p\\) is!\nBut it is a population parameter and we only have a sample\nWe can estimate \\(\\hat{p}\\) by doing\n\n\nbrex &lt;- dplyr::filter(brex, is.na(exit)==F)\n(phat &lt;- mean(brex$exit, na.rm =T))\n\n[1] 0.4882328\n\n\n\nTo see why, imagine a fair coin toss. How many Heads do you expect after flipping the coin 100 times?"
   },
   {
     "objectID": "slides/07-inference.html#sampling-distribution-of-hatp",
@@ -1600,7 +1600,7 @@
     "href": "slides/07-inference.html#linear-regression-intuition-1",
     "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Linear Regression: Intuition",
-    "text": "Linear Regression: Intuition\n\nFor each plausible estimates of \\(\\widehat{\\beta}\\) and \\(\\widehat{\\alpha}\\) we can calculate the prediction error\n\n\\[\\begin{equation*}\n\\hat{\\smash{\\varepsilon}}_i = Y_i - \\hat{\\alpha} - \\hat{\\beta} x_i\n\\end{equation*}\\]"
+    "text": "Linear Regression: Intuition\n\nIf we have a slope and an intercept, for every \\(X_i\\), the equation of a line gives us a predicted \\(Y_i\\), or \\(\\widehat{Y_i}\\)\nSo, for each plausible estimates of \\(\\widehat{\\beta}\\) and \\(\\widehat{\\alpha}\\) we can calculate the prediction error\n\n\\[\\begin{align*}\n\\hat{\\varepsilon}_i =& Y_i - \\hat{Y_i} \\\\\n\\hat{\\varepsilon}_i =& Y_i - \\hat{\\alpha} - \\hat{\\beta} x_i\n\\end{align*}\\]"
   },
   {
     "objectID": "slides/07-inference.html#linear-regression-simulation",
@@ -1649,7 +1649,7 @@
     "href": "slides/07-inference.html#summing-up-2-takeaways",
     "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Summing Up: 2 Takeaways",
-    "text": "Summing Up: 2 Takeaways\n\nThe representative-ness of our samples is crucial to make inferences abt. population\n\nThe more observations we have, the better “powered” we are to detect small effects\nBut sample size does not substitute for representative-ness\n\nStatistical significance is important but it is NOT a measure of importance\n\nStatistical significance just means an effect or difference is likely NOT to be zero"
+    "text": "Summing Up: 2 Takeaways\n\nThe representative-ness of our samples is crucial to make inferences abt. population\n\nThe more observations we have, the better “powered” we are to detect small effects\nBut sample size does not substitute for representative-ness\n\nStatistical significance is important but it is NOT a measure of SCIENTIFIC importance\n\nStatistical significance just means an effect or difference is likely NOT to be zero"
   },
   {
     "objectID": "materials/c1_accountability.html",
@@ -1706,5 +1706,12 @@
     "title": "Schedule",
     "section": "",
     "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should complete the required readings before each meeting.\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting\nWorkshop (): A link to the workshop for that week\nAssignment (): This page contains the instructions for each assignment\n\nThe readings refer to following texts:\n\nDSS: Data Analysis for Social Science: A Friendly and Practical Introduction (DSS) by Kosuke Imai and Elena Llaudet \n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nWorkshop\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 15\n\n\nIntroduction to the course (JS)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 20\n\n\nMLK Jr. Day (no classes)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 22\n\n\nCorrelation vs. Causation (CT)\n\n\nDSS Ch 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 27\n\n\nCausality (CT)\n\n\nDSS Ch 5\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 29\n\n\nRstudio and Quarto Workshop (JS)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 3\n\n\nDemocracy and Autocracy (CT)\n\n\nPrzeworski 2024, Grossman et. al., 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 5\n\n\nDemocracy and Development (CT)\n\n\nAcemoglu et. al., 2008\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 10\n\n\nFinal Project Overview (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 12\n\n\nLinear Regression and Uncertainty (CT)\n\n\nDSS Ch 3 and 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 17\n\n\nRepresentation and Accountability (CT)\n\n\nManin, Przeworski, and Stokes, 1999; Ferraz and Finan, 2011\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 19\n\n\nRepresentation and Accountability Reconsidered (CT)\n\n\nDunning et. al. 2019\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 24\n\n\nGithub Workshop (JS)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 26\n\n\nCrime and Punishment (CT)\n\n\nBateson, 2012; Slough and Fariss, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 3\n\n\nCrime and Punishment 2 (CT)\n\n\nBaron et al., 2024; Gustavo A. Flores-Macías and Jessica Zarkin, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 5\n\n\nGender (CT)\n\n\nSiwan Anderson. 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 10\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 12\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 17\n\n\nPoverty and Inequality (CT)\n\n\nElizabeth Suhay, Marko Klasnja, and Gonzalo Rivera. 2021.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 19\n\n\nMigration 1 (JS)\n\n\n3ie; Sviatschi (2022); Gazeaud (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 24\n\n\nText as Data workshop (CT)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 26\n\n\nFinal Project Essentials (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nMarch 31\n\n\nForeign Aid and NGOs 1 (JS)\n\n\nBriggs (2016); Briggs (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 2\n\n\nForeign Aid and NGOs 2 (JS)\n\n\nCruz (2017); Bold et al. (2018)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 7\n\n\nClimate and Development (guest: O’Brien-Udry)\n\n\nO’Brien-Udry (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 9\n\n\nClimate and Development 2 (JS)\n\n\nNamrata (2023); Alberto et al. (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 14\n\n\nGit and Github (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 16\n\n\nGithub Pages (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 21\n\n\nState Capacity (guest: Nagawa)\n\n\nFukuyama (2013); Ekeh (1975); Di Maro et al. (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 23\n\n\nFinal Project Preparation (JS)\n\n\nAssorted short pieces\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nConclusion (JS)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 17\n\n\n\n\nMay 10\n\n\nFinal Project Due"
+  },
+  {
+    "objectID": "slides/07-inference.html#computing-cis-example",
+    "href": "slides/07-inference.html#computing-cis-example",
+    "title": "Sampling, Linear Regression, and Uncertainty",
+    "section": "Computing CI’s: Example",
+    "text": "Computing CI’s: Example\n\n\nShow code\n# standard deviation of the sampling distribution computed with the formula\nse &lt;- round(sqrt(var(brex$exit, na.rm = T)/nrow(brex)),3)\n# An analytic solution to the confidence interval\n(ci_95 &lt;- c(phat - (1.96*se), phat + (1.96*se)))\n\n\n[1] 0.4823528 0.4941128\n\n\nShow code\n# We can check that it's the same as the interval that leave 95% of the mass inside\n# of the sampling distribution \nquantile(out.means, c(.025, .975))\n\n\n     2.5%     97.5% \n0.4824196 0.4939738"
   }
 ]
