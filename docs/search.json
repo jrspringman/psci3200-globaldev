@@ -1670,7 +1670,7 @@
     "href": "materials/c1_accountability.html#slides",
     "title": "Representation and Accountability",
     "section": "Slides",
-    "text": "Slides"
+    "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/c2_accountability.html",
@@ -1713,5 +1713,341 @@
     "title": "Sampling, Linear Regression, and Uncertainty",
     "section": "Computing CI’s: Example",
     "text": "Computing CI’s: Example\n\n\nShow code\n# standard deviation of the sampling distribution computed with the formula\nse &lt;- round(sqrt(var(brex$exit, na.rm = T)/nrow(brex)),3)\n# An analytic solution to the confidence interval\n(ci_95 &lt;- c(phat - (1.96*se), phat + (1.96*se)))\n\n\n[1] 0.4823528 0.4941128\n\n\nShow code\n# We can check that it's the same as the interval that leave 95% of the mass inside\n# of the sampling distribution \nquantile(out.means, c(.025, .975))\n\n\n     2.5%     97.5% \n0.4824196 0.4939738"
+  },
+  {
+    "objectID": "slides/c2-account1.html#assignments",
+    "href": "slides/c2-account1.html#assignments",
+    "title": "Representation and Accountability I",
+    "section": "",
+    "text": "Two assignments due TODAY at midnight:\n\n\nCreating a Final Project Git Repo\nIdea for Final Research Project\n\n\nPlease send a Slack DM to both me and Jeremy"
+  },
+  {
+    "objectID": "slides/c2-account1.html#agenda",
+    "href": "slides/c2-account1.html#agenda",
+    "title": "Representation and Accountability I",
+    "section": "Agenda",
+    "text": "Agenda\n\nBackground (Accountability 101)\nFerraz and Finan, 2011"
+  },
+  {
+    "objectID": "slides/c2-account1.html#przeworski-stokes-and-manin-1999",
+    "href": "slides/c2-account1.html#przeworski-stokes-and-manin-1999",
+    "title": "Representation and Accountability I",
+    "section": "Przeworski, Stokes, and Manin, 1999",
+    "text": "Przeworski, Stokes, and Manin, 1999\n\nWhat do we mean by representation?\n\nActing in the voter’s best interests\nWhat is the claim connecting democracy and representation?\nUnder democracy, governments are representative because they are elected.\nBut why?"
+  },
+  {
+    "objectID": "slides/c2-account1.html#accountability-view",
+    "href": "slides/c2-account1.html#accountability-view",
+    "title": "Representation and Accountability I",
+    "section": "Accountability view",
+    "text": "Accountability view\nElections serve to hold governments accountable for their past actions\n\n\nFundamentally retrospective\nVoters retain politicians only when they acted in their best interest\nPoliticians anticipate this and serve!"
+  },
+  {
+    "objectID": "slides/c2-account1.html#what-are-the-issues-with-these-mechanisms",
+    "href": "slides/c2-account1.html#what-are-the-issues-with-these-mechanisms",
+    "title": "Representation and Accountability I",
+    "section": "What are the issues with these mechanisms?",
+    "text": "What are the issues with these mechanisms?\n\nCitizens are not omniscient, for better and for worse.\n\nThey do not know everything - Imperfect evaluation of what politicians should be doing and of whether they did what they ought to have done\nPoliticians have goals, interests, and values of their own and monitoring is costly."
+  },
+  {
+    "objectID": "slides/c2-account1.html#pitfals-in-the-mandate-view",
+    "href": "slides/c2-account1.html#pitfals-in-the-mandate-view",
+    "title": "Representation and Accountability I",
+    "section": "Pitfals in the Mandate View",
+    "text": "Pitfals in the Mandate View\nIs it plausible to think governments will do what they propose?\n\nWhat if politicians come to believe the policy would be bad for the country?\nWhat if they voters changed their mind?\nWhat if they are motivated by private interest? I.e. become rich?\nWhat if politicians need money of special interests to campaign?\nWhat if reputations matter?\n\nWe may end up in a world where politicians deviate from their mandate becaue it’s in the voters interests, or where they do not, even if doing so would be better for voters!"
+  },
+  {
+    "objectID": "slides/c2-account1.html#is-it-desirable",
+    "href": "slides/c2-account1.html#is-it-desirable",
+    "title": "Representation and Accountability I",
+    "section": "Is it desirable?",
+    "text": "Is it desirable?\n\nPoliticians are not legally compelled to abide by their platform in any democratic system!\nWhy?\n\nWe want our representativs to learn! To deliberate! To think! To respond to flexible conditions"
+  },
+  {
+    "objectID": "slides/c2-account1.html#pitfals-in-the-accountability",
+    "href": "slides/c2-account1.html#pitfals-in-the-accountability",
+    "title": "Representation and Accountability I",
+    "section": "Pitfals in the Accountability",
+    "text": "Pitfals in the Accountability\n\nIdea is reward or punish depending on their performance\nIs it plausible to think citizens have enough information to evaluate politicians?\nWhat if politicians do not value getting reelected"
+  },
+  {
+    "objectID": "slides/c2-account1.html#the-vote-our-one-blunt-tool",
+    "href": "slides/c2-account1.html#the-vote-our-one-blunt-tool",
+    "title": "Representation and Accountability I",
+    "section": "The Vote: Our One Blunt Tool",
+    "text": "The Vote: Our One Blunt Tool\n\nIn the accountability view, voters are retrospective.\n\nThey use the vote to punish\n\nIn the mandate view, voters are prospective\n\nThey use the vote to select the best policy / best politicians\n\nIn reality, voters want to do both: select good policy and punish bad behavior\nBut we only have one vote. Can we achieve both goals?"
+  },
+  {
+    "objectID": "slides/c2-account1.html#research-question",
+    "href": "slides/c2-account1.html#research-question",
+    "title": "Representation and Accountability I",
+    "section": "Research question",
+    "text": "Research question\n\n\nBroadly: Do institutions affect accountability?\nSpecifically: Do elections work as a disciplining device?\nReelection Incentives \\(\\rightarrow\\) corruption"
+  },
+  {
+    "objectID": "slides/c2-account1.html#theory",
+    "href": "slides/c2-account1.html#theory",
+    "title": "Representation and Accountability I",
+    "section": "Theory",
+    "text": "Theory\n\nPoliticians who can get reelected have fewer incentives to steal funds\nWhy?\nThey want to get reelected! To get reelected, they need to serve the citizens.\nVoting as a disciplining tool"
+  },
+  {
+    "objectID": "slides/c2-account1.html#data",
+    "href": "slides/c2-account1.html#data",
+    "title": "Representation and Accountability I",
+    "section": "Data",
+    "text": "Data"
+  },
+  {
+    "objectID": "slides/c2-account1.html#research-design",
+    "href": "slides/c2-account1.html#research-design",
+    "title": "Representation and Accountability I",
+    "section": "Research Design",
+    "text": "Research Design\n\nWhat is the treatment group?\nWhat is the control group?\nWhat are plausible threats to inference?"
+  },
+  {
+    "objectID": "slides/c2-account1.html#findings",
+    "href": "slides/c2-account1.html#findings",
+    "title": "Representation and Accountability I",
+    "section": "Findings",
+    "text": "Findings"
+  },
+  {
+    "objectID": "slides/c2-account1.html#implications-for-accountabillity",
+    "href": "slides/c2-account1.html#implications-for-accountabillity",
+    "title": "Representation and Accountability I",
+    "section": "Implications for accountabillity",
+    "text": "Implications for accountabillity"
+  },
+  {
+    "objectID": "slides/c2-account1.html#mandate-view",
+    "href": "slides/c2-account1.html#mandate-view",
+    "title": "Representation and Accountability I",
+    "section": "Mandate view:",
+    "text": "Mandate view:\nElections serve to select good policy\n\n\nFundamentally prospective\nDuring campaign parties inform citizens what policies they want to follow and why\nVoters select the best one\nPoliticians do what they propose (the platform is the mandate)"
+  },
+  {
+    "objectID": "slides/c2-account1.html#taking-stock",
+    "href": "slides/c2-account1.html#taking-stock",
+    "title": "Representation and Accountability I",
+    "section": "Taking stock",
+    "text": "Taking stock\n\nDo we feel these mechanisms are plausible?\nWhat might be some issues with these characterizations of representation?"
+  },
+  {
+    "objectID": "slides/c2-account1.html#reconsidering",
+    "href": "slides/c2-account1.html#reconsidering",
+    "title": "Representation and Accountability I",
+    "section": "Reconsidering",
+    "text": "Reconsidering\n\nCitizens are not omniscient, for better and for worse\n\nImperfect evaluation of what politicians should be doing and of whether they did what they ought to have done\nPoliticians have goals, interests, and values of their own and monitoring is costly."
+  },
+  {
+    "objectID": "slides/c2-account1.html#reconsidering-some-potential-pitfalls",
+    "href": "slides/c2-account1.html#reconsidering-some-potential-pitfalls",
+    "title": "Representation and Accountability I",
+    "section": "Reconsidering: Some potential pitfalls",
+    "text": "Reconsidering: Some potential pitfalls\n\n\nCitizens are not omniscient, for better and for worse\nImperfect evaluation of what politicians should do\nImperfect evaluation of whether they did what they ought to have done\nPoliticians have goals, interests, and values of their own, and monitoring is costly"
+  },
+  {
+    "objectID": "slides/c2-account1.html#pitfalls-in-the-mandate-view",
+    "href": "slides/c2-account1.html#pitfalls-in-the-mandate-view",
+    "title": "Representation and Accountability I",
+    "section": "Pitfalls in the Mandate View",
+    "text": "Pitfalls in the Mandate View\n\nIs it plausible to think governments will do what they propose?\nIs it desirable?\nPoliticians are not legally compelled to abide by their platform in any democratic system! Why?"
+  },
+  {
+    "objectID": "slides/c2-account1.html#case-data-hypotheses",
+    "href": "slides/c2-account1.html#case-data-hypotheses",
+    "title": "Representation and Accountability I",
+    "section": "Case, Data, Hypotheses",
+    "text": "Case, Data, Hypotheses\n\nContext: Municipalities in Brazil\n\nBrazilian mayors allowed to run for reelection starting in 2000\n\nData: Misappropriated Funds\n\nRandom audits of municipalities since 2003\n\nHypothesis 1: Mayors that can still get reelected will steal less\nHypothesis 2: Especially when the “theft” is very visible"
+  },
+  {
+    "objectID": "slides/c2-account1.html#research-design-1",
+    "href": "slides/c2-account1.html#research-design-1",
+    "title": "Representation and Accountability I",
+    "section": "Research Design",
+    "text": "Research Design"
+  },
+  {
+    "objectID": "slides/c2-account1.html#research-design-2",
+    "href": "slides/c2-account1.html#research-design-2",
+    "title": "Representation and Accountability I",
+    "section": "Research Design",
+    "text": "Research Design\n\nConstrain the Comparison\n\nCompare mayors who barely won and barely lost\nCompare 1st term mayors that later won to 2nd term mayors\nCompare mayors of equal experience\nCompare similar places only\n\nTest empirical patterns consistent with their story\n\nVisible vs opaque corruption\nPlaces with high vs low opposition"
+  },
+  {
+    "objectID": "slides/c2-account1.html#findings-1",
+    "href": "slides/c2-account1.html#findings-1",
+    "title": "Representation and Accountability I",
+    "section": "Findings",
+    "text": "Findings\n\nMayors who can still run for reelection are less corrupt.\n\nAround 1.9-4 pp less corrupt than 2nd term mayors\n\nBecause around 7.4% of all resources were stolen under 2nd term mayors, a 1.9-4 pp decrease is HUGE and A LOT of money\nResults also show that 1st term mayors procure more $ from the fed. gov."
+  },
+  {
+    "objectID": "slides/c2-account1.html#implications-for-representation",
+    "href": "slides/c2-account1.html#implications-for-representation",
+    "title": "Representation and Accountability I",
+    "section": "Implications for Representation",
+    "text": "Implications for Representation\n\nThat 1st term mayors are less corrupt suggests votes are a good disciplining device\n\nThe accountability theory seems to have empirical support\n\nBut… is this evidence that voting does not help select good politicians?\nCould both mechanisms be operational?"
+  },
+  {
+    "objectID": "slides/c2-account1.html#policy-implications",
+    "href": "slides/c2-account1.html#policy-implications",
+    "title": "Representation and Accountability I",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\nCorruption is more pervasive in weakly institutionalized settings\n\nHow to make local governments in those settings more accountable?\n\nImplications for term limits?\nImplications for politicians’ salaries?"
+  },
+  {
+    "objectID": "slides/c2-account1.html#pitfals-in-the-accountability-view",
+    "href": "slides/c2-account1.html#pitfals-in-the-accountability-view",
+    "title": "Representation and Accountability I",
+    "section": "Pitfals in the Accountability View",
+    "text": "Pitfals in the Accountability View\n\nIdea is reward or punish depending on their performance\nIs it plausible to think citizens have enough information to evaluate politicians?\nWhat if politicians do not value getting reelected"
+  },
+  {
+    "objectID": "slides/c2-account2.html#agenda",
+    "href": "slides/c2-account2.html#agenda",
+    "title": "Representation and Accountability II",
+    "section": "Agenda",
+    "text": "Agenda\n\nDunning et al. (2019)\nFinal Project Essentials: Interaction Terms"
+  },
+  {
+    "objectID": "slides/c2-account2.html#barriers-hindering-accumulation",
+    "href": "slides/c2-account2.html#barriers-hindering-accumulation",
+    "title": "Representation and Accountability II",
+    "section": "Barriers hindering accumulation",
+    "text": "Barriers hindering accumulation\n\n\nWhat is accumulation?\n\n\nBuilding knowledge across studies\n\n\n\nWhat makes it difficult?\n\n\n\nLimited replication\nHeterogeneity of design and measurement\nPublication bias"
+  },
+  {
+    "objectID": "slides/c2-account2.html#barriers-hindering-accumulation-1",
+    "href": "slides/c2-account2.html#barriers-hindering-accumulation-1",
+    "title": "Representation and Accountability II",
+    "section": "Barriers hindering accumulation",
+    "text": "Barriers hindering accumulation"
+  },
+  {
+    "objectID": "slides/c2-account2.html#facilitating-accumulation",
+    "href": "slides/c2-account2.html#facilitating-accumulation",
+    "title": "Representation and Accountability II",
+    "section": "Facilitating accumulation",
+    "text": "Facilitating accumulation\n\n\nWhat solutions are discussed by the authors?\n\n\nPre-registration\nHarmonizing theory, measurement, and estimation\nPublication of null results"
+  },
+  {
+    "objectID": "slides/c2-account2.html#facilitating-accumulation-1",
+    "href": "slides/c2-account2.html#facilitating-accumulation-1",
+    "title": "Representation and Accountability II",
+    "section": "Facilitating accumulation",
+    "text": "Facilitating accumulation"
+  },
+  {
+    "objectID": "slides/c2-account2.html#models-of-political-accountability",
+    "href": "slides/c2-account2.html#models-of-political-accountability",
+    "title": "Representation and Accountability II",
+    "section": "Models of political accountability",
+    "text": "Models of political accountability\nAccountability requires that voters:\n\nObserve credible signal of performance\n\nAttribution\nBenchmarking\n\nUpdate their beliefs\nHave credible alternatives"
+  },
+  {
+    "objectID": "slides/c2-account2.html#models-of-political-accountability-1",
+    "href": "slides/c2-account2.html#models-of-political-accountability-1",
+    "title": "Representation and Accountability II",
+    "section": "Models of political accountability",
+    "text": "Models of political accountability\nWhat does the literature say?\n\nTheory is mixed\n\nPartisan and sectarian attachments are strong\nVoters may be reluctant to update their beliefs\n\nExperimental results are mixed\n\nDemobilization\nLimited recall\nEphemeral effects"
+  },
+  {
+    "objectID": "slides/c2-account2.html#research-design",
+    "href": "slides/c2-account2.html#research-design",
+    "title": "Representation and Accountability II",
+    "section": "Research Design",
+    "text": "Research Design\nIntervention\n\n\nInformation on political performance\n\nLegislative behavior\nSpending irregularities\nBudget allocation\nCandidate experience"
+  },
+  {
+    "objectID": "slides/c2-account2.html#research-design-1",
+    "href": "slides/c2-account2.html#research-design-1",
+    "title": "Representation and Accountability II",
+    "section": "Research Design",
+    "text": "Research Design\nAccountability requires that voters:\n\nObserve credible signal of performance\n\nAttribution\nBenchmarking\n\nUpdate their beliefs\n\nGood news: \\(Q &gt; P \\mid 1(P = Q, Q &gt; med(Q) )\\)\n\nHave credible alternatives"
+  },
+  {
+    "objectID": "slides/c2-account2.html#ecological-validity",
+    "href": "slides/c2-account2.html#ecological-validity",
+    "title": "Representation and Accountability II",
+    "section": "Ecological Validity",
+    "text": "Ecological Validity\n\n\n\nHow is information disseminated?\nWhat is the real world activity being tested?"
+  },
+  {
+    "objectID": "slides/c2-account2.html#describing-information",
+    "href": "slides/c2-account2.html#describing-information",
+    "title": "Representation and Accountability II",
+    "section": "Describing Information",
+    "text": "Describing Information\n\n\n\ngood news group is above the line\ncorrelation is positive but weak"
+  },
+  {
+    "objectID": "slides/c2-account2.html#problems-hindering-accumulation",
+    "href": "slides/c2-account2.html#problems-hindering-accumulation",
+    "title": "Representation and Accountability II",
+    "section": "Problems hindering accumulation",
+    "text": "Problems hindering accumulation"
+  },
+  {
+    "objectID": "slides/c2-account2.html#research-design-2",
+    "href": "slides/c2-account2.html#research-design-2",
+    "title": "Representation and Accountability II",
+    "section": "Research Design",
+    "text": "Research Design\n\n\nCore hypotheses:\n\n\nGood news increases voter support for incumbents\nBad news decreases voter support for incumbents\nEffect of information will increase with gap between Q and P\nStrongest for nonpartisan and non-coethnic voters"
+  },
+  {
+    "objectID": "slides/c2-account2.html#findings",
+    "href": "slides/c2-account2.html#findings",
+    "title": "Representation and Accountability II",
+    "section": "Findings",
+    "text": "Findings"
+  },
+  {
+    "objectID": "slides/c2-account2.html#why-the-null-results",
+    "href": "slides/c2-account2.html#why-the-null-results",
+    "title": "Representation and Accountability II",
+    "section": "Why the null results?",
+    "text": "Why the null results?\n\n\nSource credibility?\n\nNo…\n\nLack of retention\nLack of updating on politician performance\nLack of updating about politician quality\nLack of coordination (private treatment)"
+  },
+  {
+    "objectID": "slides/c2-account2.html#statistical-power",
+    "href": "slides/c2-account2.html#statistical-power",
+    "title": "Representation and Accountability II",
+    "section": "Statistical Power",
+    "text": "Statistical Power\n\n\nNull results were not “foregone conclusion”?\n\n\n80% power\nChange the vote of 5/100 voters\nChange turnout of 4/100 voters"
+  },
+  {
+    "objectID": "slides/c2-account2.html#findings-1",
+    "href": "slides/c2-account2.html#findings-1",
+    "title": "Representation and Accountability II",
+    "section": "Findings",
+    "text": "Findings"
+  },
+  {
+    "objectID": "slides/c2-account2.html#findings-2",
+    "href": "slides/c2-account2.html#findings-2",
+    "title": "Representation and Accountability II",
+    "section": "Findings",
+    "text": "Findings"
+  },
+  {
+    "objectID": "slides/c2-account2.html#findings-3",
+    "href": "slides/c2-account2.html#findings-3",
+    "title": "Representation and Accountability II",
+    "section": "Findings",
+    "text": "Findings"
+  },
+  {
+    "objectID": "slides/c2-account2.html#policy-implications",
+    "href": "slides/c2-account2.html#policy-implications",
+    "title": "Representation and Accountability II",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\n\n\n\nMuch of the work funded by donors is probably not having an impact on accountability\nTargeting of information provision needs to be rethought\n\nPublic dissemination and coordination"
+  },
+  {
+    "objectID": "slides/c2-account1.html",
+    "href": "slides/c2-account1.html",
+    "title": "Representation and Accountability I",
+    "section": "",
+    "text": "Two assignments due TODAY at midnight:\n\n\nCreating a Final Project Git Repo\nIdea for Final Research Project\n\n\nPlease send a Slack DM to both me and Jeremy"
   }
 ]

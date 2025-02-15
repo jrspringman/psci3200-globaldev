@@ -11,5 +11,5 @@ date: 2025-02-13
   
 ## Slides
 
-<!-- - [Slides](/slides/c2_account1.html) -->
+- [Slides](/slides/c2-account1.html)
 

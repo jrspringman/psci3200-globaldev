@@ -1,0 +1,215 @@
+---
+title: "Representation and Accountability II"
+subtitle: ""
+author: "Carolina Torreblanca"
+institute: "University of Pennsylvania"
+
+editor: source
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.05
+    logo: DevLab_Logo_29Mar2023.png
+    embed-resources: true
+    template-partials:
+      - title-slide.html
+    gfm:
+    mermaid-format: png
+    highlight-style: atom-one-dark
+    code-overflow: wrap
+---
+
+## Agenda
+
+- [Dunning et al. (2019)](/files/2019_Science_PE_voter_information_campaigns.pdf)
+- Final Project Essentials: Interaction Terms
+
+
+# Dunning et al. (2019)
+
+## Barriers hindering accumulation
+
+\
+
+**What is accumulation?**
+
+:::{.fragment}
+- Building knowledge across studies
+:::
+
+:::{.fragment}
+**What makes it difficult?**
+:::
+
+:::{.fragment}
+- Limited replication
+- Heterogeneity of design and measurement
+- Publication bias
+:::
+
+## Barriers hindering accumulation
+
+![](plane.png){fig-align="center"}
+
+
+## Facilitating accumulation 
+
+\
+
+**What solutions are discussed by the authors?**
+
+:::{.fragment}
+- Pre-registration
+- Harmonizing theory, measurement, and estimation
+- Publication of null results
+:::
+
+
+
+## Facilitating accumulation 
+
+![](img/dunning_metaketa.png){fig-align="center"}
+
+
+## Models of political accountability
+
+**Accountability requires that voters:**
+
+- Observe credible signal of performance
+  + Attribution
+  + Benchmarking
+- Update their beliefs
+- Have credible alternatives
+
+## Models of political accountability
+
+**What does the literature say?**
+
+- Theory is mixed
+  + Partisan and sectarian attachments are strong
+  + Voters may be reluctant to update their beliefs
+- Experimental results are mixed
+  + Demobilization
+  + Limited recall
+  + Ephemeral effects
+
+  
+## Research Design
+
+**Intervention**
+
+:::{.fragment}
+- Information on political *performance*
+  + Legislative behavior
+  + Spending irregularities
+  + Budget allocation
+  + Candidate experience
+  
+:::
+
+## Research Design
+
+**Accountability requires that voters:**
+
+- Observe credible signal of performance
+  + Attribution
+  + Benchmarking
+- Update their beliefs
+  + Good news: $Q > P \mid 1(P = Q, Q > med(Q) )$
+- Have credible alternatives
+
+
+## Ecological Validity
+
+\
+
+- How is information disseminated?
+- What is the real world activity being tested?
+
+
+## Describing Information
+
+![](img/dunning_pq.png){fig-align="center"}
+
+:::{.notes}
+- good news group is above the line 
+- correlation is positive but weak
+:::
+
+## Problems hindering accumulation
+
+![](plane.png){fig-align="center"}
+
+
+## Research Design
+
+\
+
+**Core hypotheses:**
+
+:::{.fragment}
+1. Good news increases voter support for incumbents
+2. Bad news decreases voter support for incumbents
+3. Effect of information will increase with gap between Q and P
+4. Strongest for nonpartisan and non-coethnic voters
+:::
+
+## Findings
+
+![](img/dunning2.png){fig-align="center"}
+
+
+## Why the null results?
+
+:::{.fragment}
+- Source credibility?
+  + No...
+- Lack of retention
+- Lack of updating on politician performance 
+- Lack of updating about politician quality
+- Lack of coordination (private treatment)
+
+:::
+
+
+## Statistical Power
+
+\
+
+**Null results were not "foregone conclusion"?**
+
+:::{.fragment}
+- 80% power
+- Change the vote of 5/100 voters
+- Change turnout of 4/100 voters
+:::
+
+
+
+## Findings
+
+![](img/dunning3.png){fig-align="center"}
+
+## Findings
+
+![](img/dunning4.png){fig-align="center"}
+
+## Findings
+
+![](img/dunning5.png){fig-align="center"}
+
+
+## Policy Implications
+
+\
+
+:::{.fragment}
+- Much of the work funded by donors is probably not having an impact on accountability
+- Targeting of information provision needs to be rethought
+  + Public dissemination and coordination
+
+:::
+
+
