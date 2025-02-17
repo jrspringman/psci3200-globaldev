@@ -23,7 +23,7 @@ format:
 
 ## Assignments
 
--   Two assignments due TODAY at midnight:
+-   Two assignments due TODAY/Wed at midnight:
 
 1.  Creating a Final Project Git Repo
 

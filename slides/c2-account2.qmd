@@ -29,6 +29,21 @@ format:
 
 # Dunning et al. (2019)
 
+## Democracy and Accountability
+
+\
+
+**Basic idea thus far:**
+
+:::{.fragment}
+- *If* voters can observe how politicians behave, votes can *discipline* politicians 
+
+    - Politicians want to be reelected
+    - Voters reelect good performing politicians
+    - Politicians exert effort to be better
+:::
+
+
 ## Barriers hindering accumulation
 
 \
@@ -65,8 +80,6 @@ format:
 - Harmonizing theory, measurement, and estimation
 - Publication of null results
 :::
-
-
 
 ## Facilitating accumulation 
 
