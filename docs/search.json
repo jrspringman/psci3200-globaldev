@@ -1691,7 +1691,7 @@
     "href": "materials/c2_accountability.html#slides",
     "title": "Representation and Accountability",
     "section": "Slides",
-    "text": "Slides"
+    "text": "Slides\n\nSlides"
   },
   {
     "objectID": "slides/07-inference.html#housekeeping",
@@ -1789,7 +1789,7 @@
     "href": "slides/c2-account1.html#theory",
     "title": "Representation and Accountability I",
     "section": "Theory",
-    "text": "Theory\n\nPoliticians who can get reelected have fewer incentives to steal funds\nWhy?\nThey want to get reelected! To get reelected, they need to serve the citizens.\nVoting as a disciplining tool"
+    "text": "Theory\n\n\nPoliticians who can get reelected have fewer incentives to steal funds\n\nWhy?\n\n\n\nThey want to get reelected! To get reelected, they need to serve the citizens.\nVoting as a disciplining tool"
   },
   {
     "objectID": "slides/c2-account1.html#data",
@@ -1859,7 +1859,7 @@
     "href": "slides/c2-account1.html#case-data-hypotheses",
     "title": "Representation and Accountability I",
     "section": "Case, Data, Hypotheses",
-    "text": "Case, Data, Hypotheses\n\nContext: Municipalities in Brazil\n\nBrazilian mayors allowed to run for reelection starting in 2000\n\nData: Misappropriated Funds\n\nRandom audits of municipalities since 2003\n\nHypothesis 1: Mayors that can still get reelected will steal less\nHypothesis 2: Especially when the “theft” is very visible"
+    "text": "Case, Data, Hypotheses\n\nContext: Municipalities in Brazil\n\nBrazilian mayors allowed to run for reelection starting in 2000\n\nData: Misappropriated Funds\n\nRandom audits of municipalities since 2003\n\n\n\n\nHypothesis 1: Mayors that can still get reelected will steal less\nHypothesis 2: Especially when the “theft” is very visible"
   },
   {
     "objectID": "slides/c2-account1.html#research-design-1",
@@ -1873,14 +1873,14 @@
     "href": "slides/c2-account1.html#research-design-2",
     "title": "Representation and Accountability I",
     "section": "Research Design",
-    "text": "Research Design\n\nConstrain the Comparison\n\nCompare mayors who barely won and barely lost\nCompare 1st term mayors that later won to 2nd term mayors\nCompare mayors of equal experience\nCompare similar places only\n\nTest empirical patterns consistent with their story\n\nVisible vs opaque corruption\nPlaces with high vs low opposition"
+    "text": "Research Design\n  Constrain the Comparison\n\n\nCompare mayors who barely won and barely lost\nCompare 1st term mayors that later won to 2nd term mayors\nCompare mayors of equal experience\nCompare similar places only"
   },
   {
     "objectID": "slides/c2-account1.html#findings-1",
     "href": "slides/c2-account1.html#findings-1",
     "title": "Representation and Accountability I",
     "section": "Findings",
-    "text": "Findings\n\nMayors who can still run for reelection are less corrupt.\n\nAround 1.9-4 pp less corrupt than 2nd term mayors\n\nBecause around 7.4% of all resources were stolen under 2nd term mayors, a 1.9-4 pp decrease is HUGE and A LOT of money\nResults also show that 1st term mayors procure more $ from the fed. gov."
+    "text": "Findings\n\nMayors who can still run for reelection are less corrupt.\n\nAround 1.9-4 pp less corrupt than 2nd term mayors\n\nBecause around 7.4% of all resources were stolen under 2nd term mayors, a 1.9-4 pp decrease is HUGE and A LOT of money"
   },
   {
     "objectID": "slides/c2-account1.html#implications-for-representation",
@@ -1943,7 +1943,7 @@
     "href": "slides/c2-account2.html#models-of-political-accountability",
     "title": "Representation and Accountability II",
     "section": "Models of political accountability",
-    "text": "Models of political accountability\nAccountability requires that voters:\n\nObserve credible signal of performance\n\nAttribution\nBenchmarking\n\nUpdate their beliefs\nHave credible alternatives"
+    "text": "Models of political accountability\nAccountability requires that voters:\n\nObserve performance\n\nAttribution (who’s fault?)\nBenchmarking (is this good or bad relative to what I thought?)\n\nUpdate their beliefs (learn from what they see)\nHave credible alternatives"
   },
   {
     "objectID": "slides/c2-account2.html#models-of-political-accountability-1",
@@ -2006,14 +2006,14 @@
     "href": "slides/c2-account2.html#why-the-null-results",
     "title": "Representation and Accountability II",
     "section": "Why the null results?",
-    "text": "Why the null results?\n\n\nSource credibility?\n\nNo…\n\nLack of retention\nLack of updating on politician performance\nLack of updating about politician quality\nLack of coordination (private treatment)"
+    "text": "Why the null results?\n\n\nSource credibility?\n\nNo…\n\nLack of retention?\nLack of updating on politician performance?\nLack of updating about politician quality?\nIntervention is too weak?"
   },
   {
     "objectID": "slides/c2-account2.html#statistical-power",
     "href": "slides/c2-account2.html#statistical-power",
     "title": "Representation and Accountability II",
     "section": "Statistical Power",
-    "text": "Statistical Power\n\n\nNull results were not “foregone conclusion”?\n\n\n80% power\nChange the vote of 5/100 voters\nChange turnout of 4/100 voters"
+    "text": "Statistical Power\n\n\nCan we update on “null results”?\n\nStatistical power is the probability of correctly detecting a true effect in a study\nHigher power reduces the risk of a false negative\n\nThe larger your sample size and the bigger the effect size, the more powered you are, for a given level of statistical significance"
   },
   {
     "objectID": "slides/c2-account2.html#findings-1",
@@ -2041,7 +2041,7 @@
     "href": "slides/c2-account2.html#policy-implications",
     "title": "Representation and Accountability II",
     "section": "Policy Implications",
-    "text": "Policy Implications\n\n\n\n\nMuch of the work funded by donors is probably not having an impact on accountability\nTargeting of information provision needs to be rethought\n\nPublic dissemination and coordination"
+    "text": "Policy Implications\n\n\nMuch of the work funded by donors is probably not having an impact on accountability\nTargeting of information provision needs to be rethought\n\nPublic dissemination and coordination"
   },
   {
     "objectID": "slides/c2-account1.html",
@@ -2056,5 +2056,75 @@
     "title": "Representation and Accountability II",
     "section": "Democracy and Accountability",
     "text": "Democracy and Accountability\n\n\nBasic idea thus far:\n\n\nIf voters can observe how politicians behave, votes can discipline politicians\n\nPoliticians want to be reelected\nVoters reelect good performing politicians\nPoliticians exert effort to be better"
+  },
+  {
+    "objectID": "slides/c2-account1.html#case-data",
+    "href": "slides/c2-account1.html#case-data",
+    "title": "Representation and Accountability I",
+    "section": "Case, Data",
+    "text": "Case, Data\n\nContext: Municipalities in Brazil\n\nBrazilian mayors allowed to run for reelection starting in 2000\n\nData: Misappropriated Funds\n\nRandom audits of municipalities since 2003"
+  },
+  {
+    "objectID": "slides/c2-account1.html#hypotheses",
+    "href": "slides/c2-account1.html#hypotheses",
+    "title": "Representation and Accountability I",
+    "section": "Hypotheses",
+    "text": "Hypotheses\n\n\nHypothesis 1: Mayors that can still get reelected will steal less\nHypothesis 2: Especially when the “theft” is very visible"
+  },
+  {
+    "objectID": "slides/c2-account1.html#robustness",
+    "href": "slides/c2-account1.html#robustness",
+    "title": "Representation and Accountability I",
+    "section": "Robustness",
+    "text": "Robustness\n\n\n“If my story is true, what else should I observe in the data?”\n\n\n1s term mayors procure more $ from the fed. gov (effort)\nEffects smaller where opposition is weak (who else are you going to vote for??)"
+  },
+  {
+    "objectID": "slides/c2-account2.html#democracy-and-accountability-1",
+    "href": "slides/c2-account2.html#democracy-and-accountability-1",
+    "title": "Representation and Accountability II",
+    "section": "Democracy and Accountability",
+    "text": "Democracy and Accountability\n \nFunders have had the same idea!\n\nA lot of money has been spent on “information interventions”\n\nTell voters of politicians’ good/bad behavior\n\nAnd yet, we do not really know if they work\n\nIt has been difficult to accumulate information"
+  },
+  {
+    "objectID": "slides/c2-account2.html#publication-bias",
+    "href": "slides/c2-account2.html#publication-bias",
+    "title": "Representation and Accountability II",
+    "section": "Publication bias",
+    "text": "Publication bias\n\nDo you think it is easier to publish a study that finds an effect or one that does not find any effect?\nWhat are the consequences for what we, as a discipline, think we know?"
+  },
+  {
+    "objectID": "slides/c2-account2.html#statistical-power-1",
+    "href": "slides/c2-account2.html#statistical-power-1",
+    "title": "Representation and Accountability II",
+    "section": "Statistical Power",
+    "text": "Statistical Power\nRecall the interpretation of p-values:\n\n\nThe probability of observing a test statistic at least as extreme as the one you observed if the true parameter value is zero\nOr, the probability of rejecting the null hypothesis when the null was true\nThis is called a “Type I” error: a false positive\nWe also have “Type II” errors: a false negative"
+  },
+  {
+    "objectID": "slides/c2-account2.html#statistical-power-2",
+    "href": "slides/c2-account2.html#statistical-power-2",
+    "title": "Representation and Accountability II",
+    "section": "Statistical Power",
+    "text": "Statistical Power\nPower is the probability of correctly accepting the alternative hypothesis\n\n\nThe probability of a true positive\n\nEquals (1 - probability of type II error)\nThe common threashold in the discipline is 80% power\n\n\n\nYou can check out the EGEN power calculator to understand better"
+  },
+  {
+    "objectID": "slides/c2-account2.html#statistical-power-3",
+    "href": "slides/c2-account2.html#statistical-power-3",
+    "title": "Representation and Accountability II",
+    "section": "Statistical Power",
+    "text": "Statistical Power\nNull results were not “foregone conclusion”?\n\n\n80% power\nChange the vote of 5/100 voters\nChange turnout of 4/100 voters"
+  },
+  {
+    "objectID": "slides/c2-account2.html#statistical-power-4",
+    "href": "slides/c2-account2.html#statistical-power-4",
+    "title": "Representation and Accountability II",
+    "section": "Statistical Power",
+    "text": "Statistical Power\nNull results were not “foregone conclusion”?\n\n\n80% power\nChange the vote of 5/100 voters\nChange turnout of 4/100 voters"
+  },
+  {
+    "objectID": "slides/c2-account2.html#findings-4",
+    "href": "slides/c2-account2.html#findings-4",
+    "title": "Representation and Accountability II",
+    "section": "Findings",
+    "text": "Findings"
   }
 ]

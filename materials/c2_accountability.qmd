@@ -10,6 +10,6 @@ date: 2025-02-11
 
 ## Slides
 
-<!-- - [Slides](/slides/c2-account2.html) -->
+- [Slides](/slides/c2-account2.html)
 
 

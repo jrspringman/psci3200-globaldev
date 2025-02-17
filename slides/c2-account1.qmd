@@ -137,15 +137,19 @@ format:
 
 ## Theory
 
--   Politicians who can get reelected have fewer incentives to steal funds
+\
 
--   Why?
+**Politicians who can get reelected have fewer incentives to steal funds**
 
+- Why?
+
+::: fragment
 -   They want to get reelected! To get reelected, they need to serve the citizens.
 
 -   Voting as a disciplining tool
+:::
 
-## Case, Data, Hypotheses
+## Case, Data
 
 -   Context: Municipalities in Brazil
 
@@ -155,9 +159,13 @@ format:
 
     -   Random audits of municipalities since 2003
 
+## Hypotheses
+
+::: fragment
 -   Hypothesis 1: Mayors that can still get reelected will steal less
 
 -   Hypothesis 2: Especially when the "theft" is very visible
+:::
 
 ## Research Design
 
@@ -171,15 +179,18 @@ format:
 
 ## Research Design
 
--   **Constrain the Comparison**
-    -   Compare mayors who barely won and barely lost
-    -   Compare 1st term mayors that later won to 2nd term mayors
-    -   Compare mayors of equal experience
-    -   Compare similar places only
--   **Test empirical patterns consistent with their story**
-    -   Visible vs opaque corruption
-    -   Places with high vs low opposition
+\ 
+**Constrain the Comparison**
 
+::: fragment
+
+  - Compare mayors who barely won and barely lost
+  - Compare 1st term mayors that later won to 2nd term mayors
+  - Compare mayors of equal experience
+  - Compare similar places only
+    
+:::
+    
 ## Findings
 
 ![](img/ferrazfinan2011_table.png){fig-align="center"}
@@ -192,7 +203,18 @@ format:
 
 -   Because around 7.4% of all resources were stolen under 2nd term mayors, a 1.9-4 pp decrease is HUGE and A LOT of money
 
--   Results also show that 1st term mayors procure more \$ from the fed. gov.
+## Robustness
+
+\
+
+**"If my story is true, what else should I observe in the data?"**
+
+::: fragment
+
+- 1s term mayors procure more \$ from the fed. gov (effort)
+- Effects smaller where opposition is weak (who else are you going to vote for??)
+
+:::
 
 ## Implications for Representation
 

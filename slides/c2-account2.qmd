@@ -23,9 +23,8 @@ format:
 
 ## Agenda
 
-- [Dunning et al. (2019)](/files/2019_Science_PE_voter_information_campaigns.pdf)
-- Final Project Essentials: Interaction Terms
-
+-   [Dunning et al. (2019)](/files/2019_Science_PE_voter_information_campaigns.pdf)
+-   Final Project Essentials: Interaction Terms
 
 # Dunning et al. (2019)
 
@@ -35,14 +34,24 @@ format:
 
 **Basic idea thus far:**
 
-:::{.fragment}
-- *If* voters can observe how politicians behave, votes can *discipline* politicians 
+::: fragment
+-   *If* voters can observe how politicians behave, votes can *discipline* politicians
 
-    - Politicians want to be reelected
-    - Voters reelect good performing politicians
-    - Politicians exert effort to be better
+    -   Politicians want to be reelected
+    -   Voters reelect good performing politicians
+    -   Politicians exert effort to be better
 :::
 
+## Democracy and Accountability
+
+ 
+
+**Funders have had the same idea!**
+
+-   A lot of money has been spent on "information interventions"
+    -   Tell voters of politicians' good/bad behavior
+-   And yet, we do not really know if they work
+    -   It has been difficult to accumulate information
 
 ## Barriers hindering accumulation
 
@@ -50,111 +59,102 @@ format:
 
 **What is accumulation?**
 
-:::{.fragment}
-- Building knowledge across studies
+::: fragment
+-   Building knowledge across studies
 :::
 
-:::{.fragment}
+::: fragment
 **What makes it difficult?**
 :::
 
-:::{.fragment}
-- Limited replication
-- Heterogeneity of design and measurement
-- Publication bias
+::: fragment
+-   Limited replication
+-   Heterogeneity of design and measurement
+-   Publication bias
 :::
 
-## Barriers hindering accumulation
+## Publication bias
 
-![](plane.png){fig-align="center"}
+-   Do you think it is easier to publish a study that finds an effect or one that does not find any effect?
 
+-   What are the consequences for what we, as a discipline, think we know?
 
-## Facilitating accumulation 
+## Facilitating accumulation
 
 \
 
 **What solutions are discussed by the authors?**
 
-:::{.fragment}
-- Pre-registration
-- Harmonizing theory, measurement, and estimation
-- Publication of null results
+::: fragment
+-   Pre-registration
+-   Harmonizing theory, measurement, and estimation
+-   Publication of null results
 :::
 
-## Facilitating accumulation 
+## Facilitating accumulation
 
 ![](img/dunning_metaketa.png){fig-align="center"}
-
 
 ## Models of political accountability
 
 **Accountability requires that voters:**
 
-- Observe credible signal of performance
-  + Attribution
-  + Benchmarking
-- Update their beliefs
-- Have credible alternatives
+-   Observe performance
+    -   Attribution (who's fault?)
+    -   Benchmarking (is this good or bad relative to what I thought?)
+-   Update their beliefs (learn from what they see)
+-   Have credible alternatives
 
 ## Models of political accountability
 
 **What does the literature say?**
 
-- Theory is mixed
-  + Partisan and sectarian attachments are strong
-  + Voters may be reluctant to update their beliefs
-- Experimental results are mixed
-  + Demobilization
-  + Limited recall
-  + Ephemeral effects
+-   Theory is mixed
+    -   Partisan and sectarian attachments are strong
+    -   Voters may be reluctant to update their beliefs
+-   Experimental results are mixed
+    -   Demobilization
+    -   Limited recall
+    -   Ephemeral effects
 
-  
 ## Research Design
 
 **Intervention**
 
-:::{.fragment}
-- Information on political *performance*
-  + Legislative behavior
-  + Spending irregularities
-  + Budget allocation
-  + Candidate experience
-  
+::: fragment
+-   Information on political *performance*
+    -   Legislative behavior
+    -   Spending irregularities
+    -   Budget allocation
+    -   Candidate experience
 :::
 
 ## Research Design
 
 **Accountability requires that voters:**
 
-- Observe credible signal of performance
-  + Attribution
-  + Benchmarking
-- Update their beliefs
-  + Good news: $Q > P \mid 1(P = Q, Q > med(Q) )$
-- Have credible alternatives
-
+-   Observe credible signal of performance
+    -   Attribution
+    -   Benchmarking
+-   Update their beliefs
+    -   Good news: $Q > P \mid 1(P = Q, Q > med(Q) )$
+-   Have credible alternatives
 
 ## Ecological Validity
 
 \
 
-- How is information disseminated?
-- What is the real world activity being tested?
-
+-   How is information disseminated?
+-   What is the real world activity being tested?
 
 ## Describing Information
 
 ![](img/dunning_pq.png){fig-align="center"}
 
-:::{.notes}
-- good news group is above the line 
-- correlation is positive but weak
+::: notes
+-   good news group is above the line
+-   correlation is positive but weak
 :::
-
-## Problems hindering accumulation
-
-![](plane.png){fig-align="center"}
-
 
 ## Research Design
 
@@ -162,44 +162,78 @@ format:
 
 **Core hypotheses:**
 
-:::{.fragment}
-1. Good news increases voter support for incumbents
-2. Bad news decreases voter support for incumbents
-3. Effect of information will increase with gap between Q and P
-4. Strongest for nonpartisan and non-coethnic voters
+::: fragment
+1.  Good news increases voter support for incumbents
+2.  Bad news decreases voter support for incumbents
+3.  Effect of information will increase with gap between Q and P
+4.  Strongest for nonpartisan and non-coethnic voters
 :::
+
+## Findings
+
+![](img/metaketaresults1.png){fig-align="center"}
 
 ## Findings
 
 ![](img/dunning2.png){fig-align="center"}
 
-
 ## Why the null results?
 
-:::{.fragment}
-- Source credibility?
-  + No...
-- Lack of retention
-- Lack of updating on politician performance 
-- Lack of updating about politician quality
-- Lack of coordination (private treatment)
-
+::: fragment
+-   Source credibility?
+    -   No...
+-   Lack of retention?
+-   Lack of updating on politician performance?
+-   Lack of updating about politician quality?
+-   Intervention is too weak?
 :::
-
 
 ## Statistical Power
 
 \
 
-**Null results were not "foregone conclusion"?**
+**Can we update on "null results"?**
 
-:::{.fragment}
-- 80% power
-- Change the vote of 5/100 voters
-- Change turnout of 4/100 voters
+-   Statistical power is the probability of correctly detecting a true effect in a study
+
+-   Higher power reduces the risk of a false negative
+
+    -   The larger your sample size and the bigger the effect size, the more powered you are, for a given level of statistical significance
+
+## Statistical Power
+
+**Recall the interpretation of p-values:**
+
+::: fragment
+-   The probability of observing a test statistic at least as extreme as the one you observed if the true parameter value is zero
+-   Or, the **probability of rejecting the null** hypothesis when **the null was true**
+-   This is called a "Type I" error: a false positive
+-    We also have "Type II" errors: a false negative
 :::
 
+## Statistical Power
 
+*Power is the probability of correctly accepting the alternative hypothesis*
+
+::: fragment
+-   The probability of a true positive
+
+    -   Equals (1 - probability of type II error)
+
+    -   The common threashold in the discipline is 80% power
+:::
+
+You can check out the [EGEN power calculator to understand better](https://egap.shinyapps.io/power-app/)
+
+## Statistical Power
+
+**Null results were not "foregone conclusion"?**
+
+::: fragment
+-   80% power
+-   Change the vote of 5/100 voters
+-   Change turnout of 4/100 voters
+:::
 
 ## Findings
 
@@ -213,16 +247,10 @@ format:
 
 ![](img/dunning5.png){fig-align="center"}
 
-
 ## Policy Implications
 
-\
-
-:::{.fragment}
-- Much of the work funded by donors is probably not having an impact on accountability
-- Targeting of information provision needs to be rethought
-  + Public dissemination and coordination
-
+::: fragment
+-   Much of the work funded by donors is probably not having an impact on accountability
+-   Targeting of information provision needs to be rethought
+    -   Public dissemination and coordination
 :::
-
-
