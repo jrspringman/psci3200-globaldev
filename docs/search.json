@@ -1691,7 +1691,7 @@
     "href": "materials/c2_accountability.html#slides",
     "title": "Representation and Accountability",
     "section": "Slides",
-    "text": "Slides\n\nSlides"
+    "text": "Slides\n\nSlides\n\n\nWorkshop\n\nDownload the R Script for multiple regression basics"
   },
   {
     "objectID": "slides/07-inference.html#housekeeping",
@@ -1908,7 +1908,7 @@
     "href": "slides/c2-account2.html#agenda",
     "title": "Representation and Accountability II",
     "section": "Agenda",
-    "text": "Agenda\n\nDunning et al. (2019)\nFinal Project Essentials: Interaction Terms"
+    "text": "Agenda\n\nDunning et al. (2019)\nPower\nMultivariate Regression"
   },
   {
     "objectID": "slides/c2-account2.html#barriers-hindering-accumulation",
@@ -1943,7 +1943,7 @@
     "href": "slides/c2-account2.html#models-of-political-accountability",
     "title": "Representation and Accountability II",
     "section": "Models of political accountability",
-    "text": "Models of political accountability\nAccountability requires that voters:\n\nObserve performance\n\nAttribution (who’s fault?)\nBenchmarking (is this good or bad relative to what I thought?)\n\nUpdate their beliefs (learn from what they see)\nHave credible alternatives"
+    "text": "Models of political accountability\nAccountability requires that voters:\n\nObserve performance\n\nAttribution (who’s fault?)\nBenchmarking (is this good or bad relative to what I thought?)\n\nLearn from what they see\nHave credible alternatives"
   },
   {
     "objectID": "slides/c2-account2.html#models-of-political-accountability-1",
@@ -1957,21 +1957,21 @@
     "href": "slides/c2-account2.html#research-design",
     "title": "Representation and Accountability II",
     "section": "Research Design",
-    "text": "Research Design\nIntervention\n\n\nInformation on political performance\n\nLegislative behavior\nSpending irregularities\nBudget allocation\nCandidate experience"
+    "text": "Research Design\nIntervention\n\n\nInformation (Q) on political performance\n\nLegislative behavior\nSpending irregularities\nBudget allocation\nCandidate experience"
   },
   {
     "objectID": "slides/c2-account2.html#research-design-1",
     "href": "slides/c2-account2.html#research-design-1",
     "title": "Representation and Accountability II",
     "section": "Research Design",
-    "text": "Research Design\nAccountability requires that voters:\n\nObserve credible signal of performance\n\nAttribution\nBenchmarking\n\nUpdate their beliefs\n\nGood news: \\(Q &gt; P \\mid 1(P = Q, Q &gt; med(Q) )\\)\n\nHave credible alternatives"
+    "text": "Research Design\n\nIs the treatment good news, or bad news?\n\n\nSome voters will be pleasantly surprised (Good News)\nOthers will be disappointed (Bat News)\nDepending on their prior beliefs (P) of how well politicians were performing"
   },
   {
     "objectID": "slides/c2-account2.html#ecological-validity",
     "href": "slides/c2-account2.html#ecological-validity",
     "title": "Representation and Accountability II",
     "section": "Ecological Validity",
-    "text": "Ecological Validity\n\n\n\nHow is information disseminated?\nWhat is the real world activity being tested?"
+    "text": "Ecological Validity\n\nHow is information disseminated?\nWhat is the real world activity being tested?"
   },
   {
     "objectID": "slides/c2-account2.html#describing-information",
@@ -1992,7 +1992,7 @@
     "href": "slides/c2-account2.html#research-design-2",
     "title": "Representation and Accountability II",
     "section": "Research Design",
-    "text": "Research Design\n\n\nCore hypotheses:\n\n\nGood news increases voter support for incumbents\nBad news decreases voter support for incumbents\nEffect of information will increase with gap between Q and P\nStrongest for nonpartisan and non-coethnic voters"
+    "text": "Research Design\n\n\nCore hypotheses:\n\n\nGood news increases voter support for incumbents\nBad news decreases voter support for incumbents\nEffect of information will increase with gap between Q and P (the “suprise” degree)\nStrongest for nonpartisan and non-coethnic voters"
   },
   {
     "objectID": "slides/c2-account2.html#findings",
@@ -2041,7 +2041,7 @@
     "href": "slides/c2-account2.html#policy-implications",
     "title": "Representation and Accountability II",
     "section": "Policy Implications",
-    "text": "Policy Implications\n\n\nMuch of the work funded by donors is probably not having an impact on accountability\nTargeting of information provision needs to be rethought\n\nPublic dissemination and coordination"
+    "text": "Policy Implications\n\nShould interventions to provide information be re-thought?\nWhy did Ferraz and Finan (2011) find an effect but here they do not?"
   },
   {
     "objectID": "slides/c2-account1.html",
@@ -2055,7 +2055,7 @@
     "href": "slides/c2-account2.html#democracy-and-accountability",
     "title": "Representation and Accountability II",
     "section": "Democracy and Accountability",
-    "text": "Democracy and Accountability\n\n\nBasic idea thus far:\n\n\nIf voters can observe how politicians behave, votes can discipline politicians\n\nPoliticians want to be reelected\nVoters reelect good performing politicians\nPoliticians exert effort to be better"
+    "text": "Democracy and Accountability\n\n\nBasic idea thus far:\nIf voters can observe how politicians behave, votes can discipline politicians, then we’ll have better (behaved) politicians"
   },
   {
     "objectID": "slides/c2-account1.html#case-data",
@@ -2090,7 +2090,7 @@
     "href": "slides/c2-account2.html#publication-bias",
     "title": "Representation and Accountability II",
     "section": "Publication bias",
-    "text": "Publication bias\n\nDo you think it is easier to publish a study that finds an effect or one that does not find any effect?\nWhat are the consequences for what we, as a discipline, think we know?"
+    "text": "Publication bias\n\nDo you think it is easier to publish a study that finds an effect or one that does not find any effect?\nWhat are the consequences for what we, as a discipline, “know”?"
   },
   {
     "objectID": "slides/c2-account2.html#statistical-power-1",

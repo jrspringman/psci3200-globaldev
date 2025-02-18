@@ -13,3 +13,8 @@ date: 2025-02-11
 - [Slides](/slides/c2-account2.html)
 
 
+### Workshop
+
+- [Download the R Script for multiple regression basics](/workshops/multivariate_ols_workshop.R)
+
+
