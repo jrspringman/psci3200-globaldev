@@ -1,5 +1,5 @@
 ---
-title: "Climate and Development 2"
+title: "Github Pages"
 ---
 
 ## Required Readings
@@ -8,6 +8,6 @@ title: "Climate and Development 2"
 
 ## Slides
 
-- [Slides](/slides/25-github2.html)
+- [Slides](/slides/25-git2.html)
 
 

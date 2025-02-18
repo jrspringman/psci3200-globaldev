@@ -1,0 +1,13 @@
+---
+title: "Git, Github, Github Pages"
+---
+
+## Required Readings
+
+- None
+
+## Slides
+
+- [Slides](/slides/24-git.html)
+
+

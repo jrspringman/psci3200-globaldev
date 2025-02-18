@@ -24,6 +24,8 @@ highlight-style: github
 bibliography: img/references.bib
 ---
 
+# Git and Github
+
 ## Installing git
 
 1. Open the terminal/command prompt
@@ -218,12 +220,45 @@ git config --list
 
 ![](img/website_docs.png){height=5.5in fig-align="center"}
 
+# Github Pages
+
+
+## Create a website
+
+**Moving to RStudio**
+
+- File $\rightarrow$ New Project $\rightarrow$ New Directory $\rightarrow$ Quarto Website
+
+
+![](img/website_initiate.png){height=4.5in fig-align="center"}
+
+## Create a website
+
+![](img/website_files.png){height=6in fig-align="center"}
+
+
+## Create a website
+
+**Change output director to `docs`**
+
+![](img/website_docs.png){height=5.5in fig-align="center"}
+
 
 ## Publish to Github pages
 
 - Keep a repository of your website
 - Push changes to your website via Github
 - See changes almost instantly
+
+
+## Publish to Github pages
+
+**Where we left off**
+
+- Publish local git repo to github.com
+- Uncheck 'Keep this code private'
+- Open repo on github.com
+- Settings $\rightarrow$ Pages (left-sidebar)
 
 
 ## Publish to Github pages
@@ -255,3 +290,12 @@ git config --list
 ## Publish to Github pages
 
 ![](img/pages_publish2.png){height=5.5in fig-align="center"}
+
+## Host Your Final Project 
+
+- Delete `_site` folder (now its using `docs`)
+- Create `data` folder to store your dataset
+- Add final project `.qmd` file to your repo (or drop it into `index.qmd`)
+- Use `_quarto.yml` to add new pages to navigation bar 
+- Render `index.qmd`; confirm that other pages have been rendered
+- Push commit and check that the website updated
