@@ -128,14 +128,24 @@ analysis_v2.R
 analysis_v2_FINAL.R
 ```
 
-\
-
 :::{.fragment}
-**Show off your productivity**
 
-![](img/git_activity.png){fig-align="center"}
+**Version control allows you to precisely track changes**
+
+![](img/git_diff.png){fig-align="center"}
 :::
 
+## git Basics
+
+\
+
+**Show off your productivity**
+
+![](img/git_activity.png){fig-align="center" width=60%}
+
+**Share projects publicly**
+
+![](img/git_account.png){fig-align="center" width=60%}
 
 ## git Basics
 
@@ -155,9 +165,9 @@ analysis_v2_FINAL.R
 
 ::: {.incremental}
 
-- Precisely tracks changes and can revert to old versions
-![](img/git_diff.png){fig-align="center"}
-- Helps avoid devastating loss/failure
+- Precisely tracks changes
+- Revert to old versions
+- Avoid devastating loss
 - Note: everything is public by default
 :::
 
@@ -169,7 +179,7 @@ analysis_v2_FINAL.R
 
 - When you collaborate, it's clear who to blame
 - Simultaneous editing can cause challenges
-![](img/git_merge.png){fig-align="center" width=40%}
+![](img/git_merge.png){fig-align="center" width=60%}
 
 - Please don't create conflicts *with yourself*
 :::
@@ -256,25 +266,6 @@ git config --list
 
 ![](img/git_desktop_pull.png){fig-align="center"}
 
-## Create a website
-
-**Moving to RStudio**
-
-- File $\rightarrow$ New Project $\rightarrow$ New Directory $\rightarrow$ Quarto Website
-
-
-![](img/website_initiate.png){height=4.5in fig-align="center"}
-
-## Create a website
-
-![](img/website_files.png){height=6in fig-align="center"}
-
-
-## Create a website
-
-**Change output director to `docs`**
-
-![](img/website_docs.png){height=5.5in fig-align="center"}
 
 # Github Pages
 
@@ -308,8 +299,6 @@ git config --list
 
 
 ## Publish to Github pages
-
-**Where we left off**
 
 - Publish local git repo to github.com
 - Uncheck 'Keep this code private'

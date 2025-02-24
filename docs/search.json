@@ -2188,28 +2188,28 @@
     "href": "slides/24-git.html#git-basics",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\nGit is a version control program, so you can avoid…\nanalysis.R\nanalysis_v1.R\nanalysis_v2.R\nanalysis_v2_FINAL.R\n\n\n\nShow off your productivity"
+    "text": "git Basics\nGit is a version control program, so you can avoid…\nanalysis.R\nanalysis_v1.R\nanalysis_v2.R\nanalysis_v2_FINAL.R\n\nVersion control allows you to precisely track changes"
   },
   {
     "objectID": "slides/24-git.html#git-basics-1",
     "href": "slides/24-git.html#git-basics-1",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\n\n\nGit hosts data and code\n\n“Remote” (main) on github.com\n“Local” on your harddrive(s) in a designated folder\nResembles Dropbox/Drive synch + Version history\nMany advantages; a few disadvantages"
+    "text": "git Basics\n\n\nShow off your productivity\n\n\n\n\n\nShare projects publicly"
   },
   {
     "objectID": "slides/24-git.html#git-basics-2",
     "href": "slides/24-git.html#git-basics-2",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\nVersion control\n\n\nPrecisely tracks changes and can revert to old versions \nHelps avoid devastating loss/failure\nNote: everything is public by default"
+    "text": "git Basics\n\n\nGit hosts data and code\n\n“Remote” (main) on github.com\n“Local” on your harddrive(s) in a designated folder\nResembles Dropbox/Drive synch + Version history\nMany advantages; a few disadvantages"
   },
   {
     "objectID": "slides/24-git.html#git-basics-3",
     "href": "slides/24-git.html#git-basics-3",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\nCollaboration\n\n\nWhen you collaborate, it’s clear who to blame\nSimultaneous editing can cause challenges \nPlease don’t create conflicts with yourself"
+    "text": "git Basics\nVersion control\n\n\nPrecisely tracks changes\nRevert to old versions\nAvoid devastating loss\nNote: everything is public by default"
   },
   {
     "objectID": "slides/24-git.html#connect-your-github-account",
@@ -2335,7 +2335,7 @@
     "href": "slides/24-git.html#publish-to-github-pages-1",
     "title": "Git, Github, Github Pages",
     "section": "Publish to Github pages",
-    "text": "Publish to Github pages\nWhere we left off\n\nPublish local git repo to github.com\nUncheck ‘Keep this code private’\nOpen repo on github.com\nSettings \\(\\rightarrow\\) Pages (left-sidebar)"
+    "text": "Publish to Github pages\n\nPublish local git repo to github.com\nUncheck ‘Keep this code private’\nOpen repo on github.com\nSettings \\(\\rightarrow\\) Pages (left-sidebar)"
   },
   {
     "objectID": "slides/24-git.html#publish-to-github-pages-2",
@@ -2489,14 +2489,14 @@
     "href": "slides/24-git.html#git-basics-4",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\nBasic commands\n\ngit pull origin main\ngit add .\ngit commit -m \"describe your changes or vent frustration\"\ngit push origin main\ngit pull origin main"
+    "text": "git Basics\nCollaboration\n\n\nWhen you collaborate, it’s clear who to blame\nSimultaneous editing can cause challenges \nPlease don’t create conflicts with yourself"
   },
   {
     "objectID": "slides/24-git.html#git-basics-5",
     "href": "slides/24-git.html#git-basics-5",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\n\n\nGit can be complicated\n\nOften used for serious software development\nBranches, conflicts, merges, rebase\nMassive online community to help with more sophisticated use"
+    "text": "git Basics\nBasic commands\n\ngit pull origin main\ngit add .\ngit commit -m \"describe your changes or vent frustration\"\ngit push origin main\ngit pull origin main"
   },
   {
     "objectID": "slides/24-git.html#assignments",
@@ -2518,5 +2518,12 @@
     "title": "Git, Github, Github Pages",
     "section": "Final Project Assignments",
     "text": "Final Project Assignments\n\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 17\n\n\nResearch Question and Data\nFeb 19\n\n\nResearch Design\nMar 5\n\n\nSubmit proposal\nApr 2\n\n\nSubmit final project\nMay 10"
+  },
+  {
+    "objectID": "slides/24-git.html#git-basics-6",
+    "href": "slides/24-git.html#git-basics-6",
+    "title": "Git, Github, Github Pages",
+    "section": "git Basics",
+    "text": "git Basics\n\n\nGit can be complicated\n\nOften used for serious software development\nBranches, conflicts, merges, rebase\nMassive online community to help with more sophisticated use"
   }
 ]
