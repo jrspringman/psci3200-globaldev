@@ -2188,28 +2188,28 @@
     "href": "slides/24-git.html#git-basics",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\nGit is a version control program, so you can avoid…\nanalysis.R\nanalysis_v1.R\nanalysis_v2.R\nanalysis_v2_FINAL.R\n\n\nGit hosts data and code\n\n“Remote” (main) on github.com\n“Local” on your harddrive(s) in a designated folder"
+    "text": "git Basics\nGit is a version control program, so you can avoid…\nanalysis.R\nanalysis_v1.R\nanalysis_v2.R\nanalysis_v2_FINAL.R\n\n\n\nShow off your productivity"
   },
   {
     "objectID": "slides/24-git.html#git-basics-1",
     "href": "slides/24-git.html#git-basics-1",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\nVersion control\n\nHelps avoid devastating loss/failure\nPrecisely tracks changes and can revert to old versions\nNote: everything is public by default\n\nCollaboration\n\nWhen you collaborate, it’s clear who to blame\nSimultaneous editing can cause challenges"
+    "text": "git Basics\n\n\nGit hosts data and code\n\n“Remote” (main) on github.com\n“Local” on your harddrive(s) in a designated folder\nResembles Dropbox/Drive synch + Version history\nMany advantages; a few disadvantages"
   },
   {
     "objectID": "slides/24-git.html#git-basics-2",
     "href": "slides/24-git.html#git-basics-2",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\nBasic commands\n\ngit pull origin main\ngit add .\ngit commit -m \"describe your changes or vent frustration\"\ngit push origin main\ngit pull origin main"
+    "text": "git Basics\nVersion control\n\n\nPrecisely tracks changes and can revert to old versions \nHelps avoid devastating loss/failure\nNote: everything is public by default"
   },
   {
     "objectID": "slides/24-git.html#git-basics-3",
     "href": "slides/24-git.html#git-basics-3",
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
-    "text": "git Basics\n\n\nGit can be complicated\n\nOften used for serious software development\nBranches, conflicts, merges, rebase\nMassive online community to help with more sophisticated use"
+    "text": "git Basics\nCollaboration\n\n\nWhen you collaborate, it’s clear who to blame\nSimultaneous editing can cause challenges \nPlease don’t create conflicts with yourself"
   },
   {
     "objectID": "slides/24-git.html#connect-your-github-account",
@@ -2482,6 +2482,41 @@
     "href": "materials/12_github.html#resources",
     "title": "Git, Github, Github Pages",
     "section": "Resources",
-    "text": "Resources\n\nTo learn more about using git with R, check out happygitwithr.com\n\n\nThis tutorial draws heavily on the website happygitwithr.com To learn more about using git with R, please visit the website, which covers introductory materials in greater details and guides new users through more advanced topics."
+    "text": "Resources\n\nTo learn more about using git with R, check out happygitwithr.com\nIf you don’t have git installed on your laptop, use these installation instructions"
+  },
+  {
+    "objectID": "slides/24-git.html#git-basics-4",
+    "href": "slides/24-git.html#git-basics-4",
+    "title": "Git, Github, Github Pages",
+    "section": "git Basics",
+    "text": "git Basics\nBasic commands\n\ngit pull origin main\ngit add .\ngit commit -m \"describe your changes or vent frustration\"\ngit push origin main\ngit pull origin main"
+  },
+  {
+    "objectID": "slides/24-git.html#git-basics-5",
+    "href": "slides/24-git.html#git-basics-5",
+    "title": "Git, Github, Github Pages",
+    "section": "git Basics",
+    "text": "git Basics\n\n\nGit can be complicated\n\nOften used for serious software development\nBranches, conflicts, merges, rebase\nMassive online community to help with more sophisticated use"
+  },
+  {
+    "objectID": "slides/24-git.html#assignments",
+    "href": "slides/24-git.html#assignments",
+    "title": "Git, Github, Github Pages",
+    "section": "Assignments",
+    "text": "Assignments\n\nExpect feedback on Research Question and Data by Wed EOD\nNext deadline is March 5\nLate assignments deduct 2 points per day\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 17\n\n\nResearch Question and Data\nFeb 19\n\n\nResearch Design\nMar 5\n\n\nSubmit proposal\nApr 2\n\n\nSubmit final project\nMay 10"
+  },
+  {
+    "objectID": "slides/24-git.html#final-project-assignments",
+    "href": "slides/24-git.html#final-project-assignments",
+    "title": "Git, Github, Github Pages",
+    "section": "Final Project Assignments",
+    "text": "Final Project Assignments\n\nExpect feedback on Research Question and Data by Wed EOD\nNext deadline is March 5\n\n\n\n\n\n\n\nWarning\n\n\nLate assignments deduct 2 points per day"
+  },
+  {
+    "objectID": "slides/24-git.html#final-project-assignments-1",
+    "href": "slides/24-git.html#final-project-assignments-1",
+    "title": "Git, Github, Github Pages",
+    "section": "Final Project Assignments",
+    "text": "Final Project Assignments\n\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 17\n\n\nResearch Question and Data\nFeb 19\n\n\nResearch Design\nMar 5\n\n\nSubmit proposal\nApr 2\n\n\nSubmit final project\nMay 10"
   }
 ]

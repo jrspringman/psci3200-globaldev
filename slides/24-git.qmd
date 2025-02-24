@@ -24,59 +24,38 @@ highlight-style: github
 bibliography: img/references.bib
 ---
 
+# Logistics
+
+## Final Project Assignments
+
+- Expect feedback on *Research Question and Data* by Wed EOD
+- Next deadline is March 5
+
+::: {.callout-warning}
+Late assignments deduct 2 points per day
+:::
+
+## Final Project Assignments
+
+\
+
+| Milestone                    | Due Date|
+|:-----------------------------|:--------|
+| [Create a GitHub repository](https://jrspringman.github.io/psci3200-globaldev/assignments/02_gitrepo.html)| Feb 17 |
+| [Research Question and Data](https://jrspringman.github.io/psci3200-globaldev/assignments/03_fprqd.html)  | Feb 19 |
+| [**Research Design**](https://jrspringman.github.io/psci3200-globaldev/assignments/04_fpdesign.html)          | Mar 5  |
+| [Submit proposal](https://jrspringman.github.io/psci3200-globaldev/assignments/05_fptest.html)            | Apr 2  |
+| [Submit final project](https://jrspringman.github.io/psci3200-globaldev/assignments/final_project.html)   | May 10 |
+
+
+
 # Git and Github
 
-## git Basics
+:::{.notes}
+- Before we talk about git, let's start the installation process
+- 
+:::
 
-**Git is a version control program**, so you can avoid...
-
-```{.default}
-analysis.R
-analysis_v1.R
-analysis_v2.R
-analysis_v2_FINAL.R
-```
-
-\
-
-**Git hosts data and code**
-
-- "Remote" (`main`) on github.com
-- "Local" on your harddrive(s) in a designated folder
-
-
-## git Basics
-
-**Version control**
-
-- Helps avoid devastating loss/failure
-- Precisely tracks changes and can revert to old versions
-- Note: everything is public by default
-
-**Collaboration**
-
-- When you collaborate, it's clear who to blame
-- Simultaneous editing can cause challenges
-
-## git Basics
-
-**Basic commands**
-
-- `git pull origin main`
-- `git add .`
-- `git commit -m "describe your changes or vent frustration"`
-- `git push origin main`
-- `git pull origin main`
-
-## git Basics
-
-\
-
-**Git can be complicated**
-
-- Often used for serious software development
-- Branches, conflicts, merges, rebase
-- Massive online community to help with more sophisticated use
 
 ## Installing git
 
@@ -137,6 +116,83 @@ git update-git-for-windows
 ## Installing git
 
 ![](img/git_installed.png){fig-align="center"}
+
+## git Basics
+
+**Git is a version control program**, so you can avoid...
+
+```{.default}
+analysis.R
+analysis_v1.R
+analysis_v2.R
+analysis_v2_FINAL.R
+```
+
+\
+
+:::{.fragment}
+**Show off your productivity**
+
+![](img/git_activity.png){fig-align="center"}
+:::
+
+
+## git Basics
+
+\
+
+**Git hosts data and code**
+
+- "Remote" (`main`) on github.com
+- "Local" on your harddrive(s) in a designated folder
+- Resembles Dropbox/Drive synch + Version history
+- Many advantages; a few disadvantages
+
+
+## git Basics
+
+**Version control**
+
+::: {.incremental}
+
+- Precisely tracks changes and can revert to old versions
+![](img/git_diff.png){fig-align="center"}
+- Helps avoid devastating loss/failure
+- Note: everything is public by default
+:::
+
+## git Basics
+
+**Collaboration**
+
+::: {.incremental}
+
+- When you collaborate, it's clear who to blame
+- Simultaneous editing can cause challenges
+![](img/git_merge.png){fig-align="center" width=40%}
+
+- Please don't create conflicts *with yourself*
+:::
+
+## git Basics
+
+**Basic commands**
+
+- `git pull origin main`
+- `git add .`
+- `git commit -m "describe your changes or vent frustration"`
+- `git push origin main`
+- `git pull origin main`
+
+## git Basics
+
+\
+
+**Git can be complicated**
+
+- Often used for serious software development
+- Branches, conflicts, merges, rebase
+- Massive online community to help with more sophisticated use
 
 
 ## Connect your GitHub account
