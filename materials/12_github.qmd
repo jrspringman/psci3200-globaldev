@@ -11,3 +11,11 @@ title: "Git, Github, Github Pages"
 - [Slides](/slides/24-git.html)
 
 
+## Resources
+
+- To learn more about using git with R, check out [happygitwithr.com](happygitwithr.com)
+
+:::{.notes}
+This tutorial draws heavily on the website happygitwithr.com
+To learn more about using git with R, please visit the website, which covers introductory materials in greater details and guides new users through more advanced topics.
+:::

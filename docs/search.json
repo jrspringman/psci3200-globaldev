@@ -2131,22 +2131,22 @@
     "objectID": "slides/24-git.html#installing-git",
     "href": "slides/24-git.html#installing-git",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "Open the terminal/command prompt\nCheck if you have git installed\n\ngit --version"
+    "section": "Installing git",
+    "text": "Installing git\n\nOpen the terminal/command prompt\nCheck if you have git installed\n\ngit --version"
   },
   {
     "objectID": "slides/24-git.html#installing-git-1",
     "href": "slides/24-git.html#installing-git-1",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "If yes, consider running an update\ngit update-git-for-windows"
+    "section": "Installing git",
+    "text": "Installing git\n\n\nIf yes, consider running an update\ngit update-git-for-windows"
   },
   {
     "objectID": "slides/24-git.html#installing-git-2",
     "href": "slides/24-git.html#installing-git-2",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "If no, install git\n\nInstallation instructions\n\nDownload .exe and double-click\n\nTwo things to watch for:\n\nAdjusting the name of the initial branch: Override the default branch name (select ‘main’)\nAdjusting your PATH: make sure to select command line and 3rd-party"
+    "section": "Installing git",
+    "text": "Installing git\nIf no, install git\n\nInstallation instructions\n\nDownload .exe and double-click\n\nTwo things to watch for:\n\nAdjusting the name of the initial branch: Override the default branch name (select ‘main’)\nAdjusting your PATH: make sure to select command line and 3rd-party"
   },
   {
     "objectID": "slides/24-git.html#installing-git-3",
@@ -2187,50 +2187,50 @@
     "objectID": "slides/24-git.html#git-basics",
     "href": "slides/24-git.html#git-basics",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "Git is a version control program, so you can avoid…\nanalysis.R\nanalysis_v1.R\nanalysis_v2.R\nanalysis_v2_FINAL.R\n\n\nGit hosts data and code\n\n“Remote” (main) on github.com\n“Local” on your harddrive(s) in a designated folder"
+    "section": "git Basics",
+    "text": "git Basics\nGit is a version control program, so you can avoid…\nanalysis.R\nanalysis_v1.R\nanalysis_v2.R\nanalysis_v2_FINAL.R\n\n\nGit hosts data and code\n\n“Remote” (main) on github.com\n“Local” on your harddrive(s) in a designated folder"
   },
   {
     "objectID": "slides/24-git.html#git-basics-1",
     "href": "slides/24-git.html#git-basics-1",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "Version control\n\nHelps avoid devastating loss/failure\nPrecisely tracks changes and can revert to old versions\nNote: everything is public by default\n\nCollaboration\n\nWhen you collaborate, it’s clear who to blame\nSimultaneous editing can cause challenges"
+    "section": "git Basics",
+    "text": "git Basics\nVersion control\n\nHelps avoid devastating loss/failure\nPrecisely tracks changes and can revert to old versions\nNote: everything is public by default\n\nCollaboration\n\nWhen you collaborate, it’s clear who to blame\nSimultaneous editing can cause challenges"
   },
   {
     "objectID": "slides/24-git.html#git-basics-2",
     "href": "slides/24-git.html#git-basics-2",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "Basic commands\n\ngit pull origin main\ngit add .\ngit commit -m \"describe your changes or vent frustration\"\ngit push origin main\ngit pull origin main"
+    "section": "git Basics",
+    "text": "git Basics\nBasic commands\n\ngit pull origin main\ngit add .\ngit commit -m \"describe your changes or vent frustration\"\ngit push origin main\ngit pull origin main"
   },
   {
     "objectID": "slides/24-git.html#git-basics-3",
     "href": "slides/24-git.html#git-basics-3",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "Git can be complicated\n\nOften used for serious software development\nBranches, conflicts, merges, rebase\nMassive online community to help with more sophisticated use"
+    "section": "git Basics",
+    "text": "git Basics\n\n\nGit can be complicated\n\nOften used for serious software development\nBranches, conflicts, merges, rebase\nMassive online community to help with more sophisticated use"
   },
   {
     "objectID": "slides/24-git.html#connect-your-github-account",
     "href": "slides/24-git.html#connect-your-github-account",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "Open the terminal and enter the code below\nReplace \"Your Name\"and \"yourname@email.edu\" with your name/email used to sign up for GitHub\nRun the code\n\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"yourname@email.edu\""
+    "section": "Connect your GitHub account",
+    "text": "Connect your GitHub account\n\n\n\nOpen the terminal and enter the code below\nReplace \"Your Name\"and \"yourname@email.edu\" with your name/email used to sign up for GitHub\nRun the code\n\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"yourname@email.edu\""
   },
   {
     "objectID": "slides/24-git.html#connect-your-github-account-1",
     "href": "slides/24-git.html#connect-your-github-account-1",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "Check that the confirmation worked\ngit config --list"
+    "section": "Connect your GitHub account",
+    "text": "Connect your GitHub account\nCheck that the confirmation worked\ngit config --list"
   },
   {
     "objectID": "slides/24-git.html#install-a-git-client",
     "href": "slides/24-git.html#install-a-git-client",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "Download GitHub Desktop .exe\nDouble click the .exe"
+    "section": "Install a git client",
+    "text": "Install a git client\n\nDownload GitHub Desktop .exe\nDouble click the .exe"
   },
   {
     "objectID": "slides/24-git.html#install-a-git-client-1",
@@ -2285,8 +2285,8 @@
     "objectID": "slides/24-git.html#create-a-website",
     "href": "slides/24-git.html#create-a-website",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "Moving to RStudio\n\nFile \\(\\rightarrow\\) New Project \\(\\rightarrow\\) New Directory \\(\\rightarrow\\) Quarto Website"
+    "section": "Create a website",
+    "text": "Create a website\nMoving to RStudio\n\nFile \\(\\rightarrow\\) New Project \\(\\rightarrow\\) New Directory \\(\\rightarrow\\) Quarto Website"
   },
   {
     "objectID": "slides/24-git.html#create-a-website-1",
@@ -2299,8 +2299,8 @@
     "objectID": "slides/24-git.html#create-a-website-2",
     "href": "slides/24-git.html#create-a-website-2",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "Change output director to docs"
+    "section": "Create a website",
+    "text": "Create a website\nChange output director to docs"
   },
   {
     "objectID": "slides/24-git.html#create-a-website-3",
@@ -2384,7 +2384,7 @@
     "href": "slides/24-git.html#host-your-final-project",
     "title": "Git, Github, Github Pages",
     "section": "Host Your Final Project",
-    "text": "Host Your Final Project\n\nDelete _site folder (now its using docs)\nCreate data folder to store your dataset\nAdd final project .qmd file to your repo (or drop it into index.qmd)\nUse _quarto.yml to add new pages to navigation bar\nRender index.qmd; confirm that other pages have been rendered\nPush commit and check that the website updated"
+    "text": "Host Your Final Project\n\nDelete _site folder (now its using docs)\nCreate data folder to store your dataset\nAdd final project .qmd file to your repo (or drop it into index.qmd)\nUse _quarto.yml to add new pages to navigation bar\nRender index.qmd; confirm that other pages have been rendered\nPush commit and check that the website updated\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
     "objectID": "materials/12_github.html",
@@ -2476,5 +2476,12 @@
     "title": "Crime and Punishment II",
     "section": "Suggested Reading",
     "text": "Suggested Reading\n\nSlough and Fariss, 2021"
+  },
+  {
+    "objectID": "materials/12_github.html#resources",
+    "href": "materials/12_github.html#resources",
+    "title": "Git, Github, Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nTo learn more about using git with R, check out happygitwithr.com\n\n\nThis tutorial draws heavily on the website happygitwithr.com To learn more about using git with R, please visit the website, which covers introductory materials in greater details and guides new users through more advanced topics."
   }
 ]

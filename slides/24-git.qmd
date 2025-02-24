@@ -26,6 +26,58 @@ bibliography: img/references.bib
 
 # Git and Github
 
+## git Basics
+
+**Git is a version control program**, so you can avoid...
+
+```{.default}
+analysis.R
+analysis_v1.R
+analysis_v2.R
+analysis_v2_FINAL.R
+```
+
+\
+
+**Git hosts data and code**
+
+- "Remote" (`main`) on github.com
+- "Local" on your harddrive(s) in a designated folder
+
+
+## git Basics
+
+**Version control**
+
+- Helps avoid devastating loss/failure
+- Precisely tracks changes and can revert to old versions
+- Note: everything is public by default
+
+**Collaboration**
+
+- When you collaborate, it's clear who to blame
+- Simultaneous editing can cause challenges
+
+## git Basics
+
+**Basic commands**
+
+- `git pull origin main`
+- `git add .`
+- `git commit -m "describe your changes or vent frustration"`
+- `git push origin main`
+- `git pull origin main`
+
+## git Basics
+
+\
+
+**Git can be complicated**
+
+- Often used for serious software development
+- Branches, conflicts, merges, rebase
+- Massive online community to help with more sophisticated use
+
 ## Installing git
 
 1. Open the terminal/command prompt
@@ -85,58 +137,6 @@ git update-git-for-windows
 ## Installing git
 
 ![](img/git_installed.png){fig-align="center"}
-
-## git Basics
-
-**Git is a version control program**, so you can avoid...
-
-```{.default}
-analysis.R
-analysis_v1.R
-analysis_v2.R
-analysis_v2_FINAL.R
-```
-
-\
-
-**Git hosts data and code**
-
-- "Remote" (`main`) on github.com
-- "Local" on your harddrive(s) in a designated folder
-
-
-## git Basics
-
-**Version control**
-
-- Helps avoid devastating loss/failure
-- Precisely tracks changes and can revert to old versions
-- Note: everything is public by default
-
-**Collaboration**
-
-- When you collaborate, it's clear who to blame
-- Simultaneous editing can cause challenges
-
-## git Basics
-
-**Basic commands**
-
-- `git pull origin main`
-- `git add .`
-- `git commit -m "describe your changes or vent frustration"`
-- `git push origin main`
-- `git pull origin main`
-
-## git Basics
-
-\
-
-**Git can be complicated**
-
-- Often used for serious software development
-- Branches, conflicts, merges, rebase
-- Massive online community to help with more sophisticated use
 
 
 ## Connect your GitHub account
