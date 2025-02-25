@@ -1,0 +1,280 @@
+---
+title: "Crime and Punishment I"
+subtitle: ""
+author: "Carolina Torreblanca"
+institute: "University of Pennsylvania"
+
+editor: source
+format:
+  revealjs:
+    toc: false
+    theme: [custom_iea.scss]
+    width: 1050
+    margin: 0.05
+    logo: DevLab_Logo_29Mar2023.png
+    embed-resources: true
+    template-partials:
+      - title-slide.html
+    gfm:
+    mermaid-format: png
+    highlight-style: atom-one-dark
+    code-overflow: wrap
+---
+
+## Agenda
+
+-  Bateson, 2012
+
+-  Weaver and Lerman, 2010
+
+## Why does the state exist?
+
+\
+**The provision of security as the central reason for the state**
+
+- Hobbes: Prevent chaos -> Protect our lives
+- Locke: Prevent abuse -> Protect our property (including our lives)
+
+## What do states do? 
+
+\
+**States provide public goods/services:**
+
+-  Health, schools, infrastructure
+- The provision of security (internal and external) 
+
+## Security and Development 
+
+- Security often thought as a prerequisite of development 
+- Conversely, internal violence (civil war) characterized as “development in reverse” (Collier, 2004)
+
+## The inevitablity of internal conflic
+
+- Yet, states often fail to provide internal security
+
+- Particularly developing states
+
+- Political violence, civil war, and most commonly… crime 
+
+## Crime in the Developing World
+
+**Crime often identifyed as main concern of developing-world citizens**
+
+[crime as top concern]
+
+## Crime in the Developing World
+
+\
+**Consequences for Development?**
+
+
+## Police
+
+- The state’s main tool to respond to insecurity is the police
+- Yet police in developing context (and broadly!) are often repressive, abusive, overtarget poor and marginalized communities. 
+- Poor policing might backfire and complicate development
+
+## Crime and its Punishmemnt
+
+- What are the consequences of criminal violence?
+- What are the consequences of poor policing?
+
+
+## Bateson, 2012
+
+Research Question: Can crime motivate people to particpate more in politics?
+
+Important implications! 
+
+- If the answer is “no” then crime could trigger a vicious circle of poor governance
+        - Disengagement, dissintrest, lack of support for democracy
+        - Worse developmental outcomes
+- If the answer is “yes” then violence today might(ironically) mean better outcomes tomorrow
+        - More accountability
+        - More participation
+        - Better development outcomes
+
+## Theoretical Expectations
+
+- Why might we expect crime to depress political participation?
+        - Fear
+        - Cost of participating
+
+- Why might we expect crime to spurr poiltical participation?
+        - Psychological reasons
+        - Instrumental reasons 
+
+- Goal of the paper is to adjudicate between these two possibilities
+
+## A quick aside
+
+\
+**What were your priors?**
+
+## Context / Data
+
+\
+**Author leverages four regional surveys**
+
+1. Americas Barometer
+2. Eurobarometer
+3. Asian Barometer
+4. Afrobarometer
+
+## Measurement
+
+What is the dependent variable?
+
+		- Non-electoral participation (community actin, protest, political interest, town meetings, etc.)
+
+What is the treatment or independent variable?
+
+		- Direct or indirect criminal victimization in the past year
+
+
+## Research Design 
+
+**Conditional Independence Assumption or Selection on Observables**
+
+- Treatment Group: 
+        - Direct or indirect victims
+- Control Group: 
+        - Non-victims
+- Controls: 
+        - Age, Education, Gender, Urban, Country FE
+
+
+## Threats to Inference
+
+**The author makes causal claims, what crucial assumption is she making?**
+
+- No confounders!
+    - After including controls, who gets victimized is independent of participation decisions
+
+- Assumption would not hold if:
+    - Political activists are more likely to be *crimed*
+    - Political activists are more likely to report they were *crimed*
+
+## Is Causality Plausible?
+
+[Table 2]
+
+## Results
+
+[Results]
+
+## Updating on the Results
+
+**Crime victims everywhere participate more in politics, regadless of the type of crime**
+
+- Effect is roughly the same as 5-10 years of education (!!!)
+- Author also finds that victims are more skeptical of democracy, support authoritarianism, and vigilantism
+
+Q1: Do we believe the results?
+Q2: What implications for democracy and development?
+
+
+## Weaver and Lerman, 2010
+
+** Context**
+
+- For US citizens, contact with the criminal justice system is more common now than ever before
+
+        - 1/100 US citizens are incarcerated
+        - 1/3 black men will sever time in prision 
+        - Citizens routinely have unwanted/disciplinary interawctions with police
+        - Especially the disadvantaged populations 
+
+- What do the authors refer to as the “carceral state”?
+
+        - spacially concentrated, punitive, surveillance-oriented system found in some (minority) communities. 
+
+
+## Research Question
+
+*How and in what ways encounters with the criminal justice system influence citizens’ political attitudes?*
+
+- More specifically:
+
+    - How does exposure to the criminal justice system socialize those exposed to it?
+    - What do people learn from constant, unwanted, aggressive, interactions with the state’s criminal system?
+
+## Theory
+
+Interactions with the criminal system shape participation through two channels:
+
+- Resources: 
+    - Policy, including security policy, shapes avaiablitity of resources. 
+    - Interactions with police limit resources (i.e. spend$ in court, have a criminal record, etc.)
+    - Fewer resources -> Less political participation 
+
+- Learning:
+    - What the authors call “interpretative effcts”
+    - Encounters with bureacurates teach citizens’ about the goals and nature of the government 
+    - Bad experiences with police, courts, guards, etc. may tranlate into bad impressions about the government, democracy, self-efficacy and one’s role in the polity
+
+## Hypotheses
+
+** Interactions with the criminal justice system will **
+
+1. Depress participation and civic engagement
+2. Reduce trust in the governmen 
+
+
+## Data 
+
+Data comes from two panel surveys
+
+1. National Longitudinal Study of Adolescent Health
+2. Fragile Families and Child Wellbeing Study 
+
+
+## Measurement 
+
+- Treatment: Criminal Justice Contact
+        - Several categories: no encounters, stopped by the police, charged, arrested, served time)
+- Outcomes: 
+        - Electoral participation 
+        - Civic participation
+        - Political participation
+        - Trust in government
+        - Civic obligations (jury, military)
+
+## Research Design 
+
+**Conditional Independence Assumption or Selection on Observables**
+
+- Multivariate OLS regression
+
+- Threats to inference: confounders!
+	- What might predict participation and contact with criminal system?
+	- Personality, criminality, income, education, etc. 
+
+- Authors try to control for all these and run placebos to test whether they might be driving the results
+ 
+## Results
+
+
+## Implications
+
+- Criminal justice contact deters political and civic life
+- Especially for marginalized populations who are overpoliced
+- Who should security policy be responsive to?
+- Implications for democracy? 
+- For inequality?
+
+## Bringing it together
+
+- Both crime and its punishment have important implications for politics
+- A cause and a consequence of development
+- What is the appropriate response to crime? A **very** hard question to answer
+
+## For researchers
+
+- Both of these papers were published in the highest ranked journal of political science
+- Both use survey data which you yourselfs could have downloaded
+- You could have run all the analyses!
+- Why are they published where they are?
+- Why are they so influential?
+
+

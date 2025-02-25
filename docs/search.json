@@ -2384,7 +2384,7 @@
     "href": "slides/24-git.html#host-your-final-project",
     "title": "Git, Github, Github Pages",
     "section": "Host Your Final Project",
-    "text": "Host Your Final Project\n\nDelete _site folder (now its using docs)\nCreate data folder to store your dataset\nAdd final project .qmd file to your repo (or drop it into index.qmd)\nUse _quarto.yml to add new pages to navigation bar\nRender index.qmd; confirm that other pages have been rendered\nPush commit and check that the website updated\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+    "text": "Host Your Final Project\n\nDelete _site folder (now its using docs)\nCreate data folder to store your dataset\nAdd final project .qmd file to your repo (or drop it into index.qmd)\nUse _quarto.yml to add new pages to navigation bar\nRender index.qmd; confirm that other pages have been rendered\nPush commit and check that the website updated"
   },
   {
     "objectID": "materials/12_github.html",
@@ -2454,7 +2454,7 @@
     "href": "slides/24-git.html",
     "title": "Git, Github, Github Pages",
     "section": "",
-    "text": "Open the terminal/command prompt\nCheck if you have git installed\n\ngit --version\n\n\n\n\n\n\n\n\n\n\n\n\nIf yes, consider running an update\ngit update-git-for-windows\n\n\n\nIf no, install git\n\nInstallation instructions\n\nDownload .exe and double-click\n\nTwo things to watch for:\n\nAdjusting the name of the initial branch: Override the default branch name (select ‘main’)\nAdjusting your PATH: make sure to select command line and 3rd-party\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGit is a version control program, so you can avoid…\nanalysis.R\nanalysis_v1.R\nanalysis_v2.R\nanalysis_v2_FINAL.R\n\n\nGit hosts data and code\n\n“Remote” (main) on github.com\n“Local” on your harddrive(s) in a designated folder\n\n\n\n\nVersion control\n\nHelps avoid devastating loss/failure\nPrecisely tracks changes and can revert to old versions\nNote: everything is public by default\n\nCollaboration\n\nWhen you collaborate, it’s clear who to blame\nSimultaneous editing can cause challenges\n\n\n\n\nBasic commands\n\ngit pull origin main\ngit add .\ngit commit -m \"describe your changes or vent frustration\"\ngit push origin main\ngit pull origin main\n\n\n\n\n\n\nGit can be complicated\n\nOften used for serious software development\nBranches, conflicts, merges, rebase\nMassive online community to help with more sophisticated use\n\n\n\n\n\n\n\nOpen the terminal and enter the code below\nReplace \"Your Name\"and \"yourname@email.edu\" with your name/email used to sign up for GitHub\nRun the code\n\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"yourname@email.edu\"\n\n\n\nCheck that the confirmation worked\ngit config --list\n\n\n\n\n\n\n\n\n\nDownload GitHub Desktop .exe\nDouble click the .exe\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMoving to RStudio\n\nFile \\(\\rightarrow\\) New Project \\(\\rightarrow\\) New Directory \\(\\rightarrow\\) Quarto Website\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChange output director to docs"
+    "text": "Expect feedback on Research Question and Data by Wed EOD\nNext deadline is March 5\n\n\n\n\n\n\n\nWarning\n\n\n\nLate assignments deduct 2 points per day\n\n\n\n\n\n\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 17\n\n\nResearch Question and Data\nFeb 19\n\n\nResearch Design\nMar 5\n\n\nSubmit proposal\nApr 2\n\n\nSubmit final project\nMay 10"
   },
   {
     "objectID": "materials/c4_crime.html",
@@ -2509,15 +2509,15 @@
     "objectID": "slides/24-git.html#final-project-assignments",
     "href": "slides/24-git.html#final-project-assignments",
     "title": "Git, Github, Github Pages",
-    "section": "Final Project Assignments",
-    "text": "Final Project Assignments\n\nExpect feedback on Research Question and Data by Wed EOD\nNext deadline is March 5\n\n\n\n\n\n\n\nWarning\n\n\nLate assignments deduct 2 points per day"
+    "section": "",
+    "text": "Expect feedback on Research Question and Data by Wed EOD\nNext deadline is March 5\n\n\n\n\n\n\n\nWarning\n\n\n\nLate assignments deduct 2 points per day"
   },
   {
     "objectID": "slides/24-git.html#final-project-assignments-1",
     "href": "slides/24-git.html#final-project-assignments-1",
     "title": "Git, Github, Github Pages",
-    "section": "Final Project Assignments",
-    "text": "Final Project Assignments\n\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 17\n\n\nResearch Question and Data\nFeb 19\n\n\nResearch Design\nMar 5\n\n\nSubmit proposal\nApr 2\n\n\nSubmit final project\nMay 10"
+    "section": "",
+    "text": "Milestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 17\n\n\nResearch Question and Data\nFeb 19\n\n\nResearch Design\nMar 5\n\n\nSubmit proposal\nApr 2\n\n\nSubmit final project\nMay 10"
   },
   {
     "objectID": "slides/24-git.html#git-basics-6",
@@ -2525,5 +2525,229 @@
     "title": "Git, Github, Github Pages",
     "section": "git Basics",
     "text": "git Basics\n\n\nGit can be complicated\n\nOften used for serious software development\nBranches, conflicts, merges, rebase\nMassive online community to help with more sophisticated use"
+  },
+  {
+    "objectID": "materials/c3_crime.html#slides",
+    "href": "materials/c3_crime.html#slides",
+    "title": "Crime and Punishment",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "slides/c3-crime.html",
+    "href": "slides/c3-crime.html",
+    "title": "Crime and Punishment I",
+    "section": "",
+    "text": "Bateson, 2012\nWeaver and Lerman, 2010"
+  },
+  {
+    "objectID": "slides/c3-crime.html#agenda",
+    "href": "slides/c3-crime.html#agenda",
+    "title": "Crime and Punishment I",
+    "section": "Agenda",
+    "text": "Agenda\n\nBateson, 2012\nWeaver and Lerman, 2010"
+  },
+  {
+    "objectID": "slides/c3-crime.html#what-do-states-do",
+    "href": "slides/c3-crime.html#what-do-states-do",
+    "title": "Crime and Punishment I",
+    "section": "What do states do?",
+    "text": "What do states do?\n\nStates provide public goods/services:\n\nHealth, schools, infrastructure\nThe provision of security (internal and external)"
+  },
+  {
+    "objectID": "slides/c3-crime.html#security-and-development",
+    "href": "slides/c3-crime.html#security-and-development",
+    "title": "Crime and Punishment I",
+    "section": "Security and Development",
+    "text": "Security and Development\n\nSecurity often thought as a prerequisite of development\nConversely, internal violence (civil war) characterized as “development in reverse” (Collier, 2004)"
+  },
+  {
+    "objectID": "slides/c3-crime.html#the-inevitablity-of-internal-conflic",
+    "href": "slides/c3-crime.html#the-inevitablity-of-internal-conflic",
+    "title": "Crime and Punishment I",
+    "section": "The inevitablity of internal conflic",
+    "text": "The inevitablity of internal conflic\n\nYet, states often fail to provide internal security\nParticularly developing states\nPolitical violence, civil war, and most commonly… crime"
+  },
+  {
+    "objectID": "slides/c3-crime.html#crime-in-the-developing-world",
+    "href": "slides/c3-crime.html#crime-in-the-developing-world",
+    "title": "Crime and Punishment I",
+    "section": "Crime in the Developing World",
+    "text": "Crime in the Developing World\nCrime often identifyed as main concern of developing-world citizens\n[crime as top concern]"
+  },
+  {
+    "objectID": "slides/c3-crime.html#crime-in-the-developing-world-1",
+    "href": "slides/c3-crime.html#crime-in-the-developing-world-1",
+    "title": "Crime and Punishment I",
+    "section": "Crime in the Developing World",
+    "text": "Crime in the Developing World\n\nConsequences for Development?"
+  },
+  {
+    "objectID": "slides/c3-crime.html#police",
+    "href": "slides/c3-crime.html#police",
+    "title": "Crime and Punishment I",
+    "section": "Police",
+    "text": "Police\n\nThe state’s main tool to respond to insecurity is the police\nYet police in developing context (and broadly!) are often repressive, abusive, overtarget poor and marginalized communities.\nPoor policing might backfire and complicate development"
+  },
+  {
+    "objectID": "slides/c3-crime.html#crime-and-its-punishmemnt",
+    "href": "slides/c3-crime.html#crime-and-its-punishmemnt",
+    "title": "Crime and Punishment I",
+    "section": "Crime and its Punishmemnt",
+    "text": "Crime and its Punishmemnt\n\nWhat are the consequences of criminal violence?\nWhat are the consequences of poor policing?"
+  },
+  {
+    "objectID": "slides/c3-crime.html#bateson-2012",
+    "href": "slides/c3-crime.html#bateson-2012",
+    "title": "Crime and Punishment I",
+    "section": "Bateson, 2012",
+    "text": "Bateson, 2012\nResearch Question: Can crime motivate people to particpate more in politics?\nImportant implications!\n\nIf the answer is “no” then crime could trigger a vicious circle of poor governance - Disengagement, dissintrest, lack of support for democracy - Worse developmental outcomes\nIf the answer is “yes” then violence today might(ironically) mean better outcomes tomorrow - More accountability - More participation - Better development outcomes"
+  },
+  {
+    "objectID": "slides/c3-crime.html#theoretical-expectations",
+    "href": "slides/c3-crime.html#theoretical-expectations",
+    "title": "Crime and Punishment I",
+    "section": "Theoretical Expectations",
+    "text": "Theoretical Expectations\n\nWhy might we expect crime to depress political participation? - Fear - Cost of participating\nWhy might we expect crime to spurr poiltical participation? - Psychological reasons - Instrumental reasons\nGoal of the paper is to adjudicate between these two possibilities"
+  },
+  {
+    "objectID": "slides/c3-crime.html#a-quick-aside",
+    "href": "slides/c3-crime.html#a-quick-aside",
+    "title": "Crime and Punishment I",
+    "section": "A quick aside",
+    "text": "A quick aside\n\nWhat were your priors?"
+  },
+  {
+    "objectID": "slides/c3-crime.html#context-data",
+    "href": "slides/c3-crime.html#context-data",
+    "title": "Crime and Punishment I",
+    "section": "Context / Data",
+    "text": "Context / Data\n\nAuthor leverages four regional surveys\n\nAmericas Barometer\nEurobarometer\nAsian Barometer\nAfrobarometer"
+  },
+  {
+    "objectID": "slides/c3-crime.html#measurement",
+    "href": "slides/c3-crime.html#measurement",
+    "title": "Crime and Punishment I",
+    "section": "Measurement",
+    "text": "Measurement\nWhat is the dependent variable?\n    - Non-electoral participation (community actin, protest, political interest, town meetings, etc.)\nWhat is the treatment or independent variable?\n    - Direct or indirect criminal victimization in the past year"
+  },
+  {
+    "objectID": "slides/c3-crime.html#research-design",
+    "href": "slides/c3-crime.html#research-design",
+    "title": "Crime and Punishment I",
+    "section": "Research Design",
+    "text": "Research Design\nConditional Independence Assumption or Selection on Observables\n\nTreatment Group: - Direct or indirect victims\nControl Group: - Non-victims\nControls: - Age, Education, Gender, Urban, Country FE"
+  },
+  {
+    "objectID": "slides/c3-crime.html#threats-to-inference",
+    "href": "slides/c3-crime.html#threats-to-inference",
+    "title": "Crime and Punishment I",
+    "section": "Threats to Inference",
+    "text": "Threats to Inference\nThe author makes causal claims, what crucial assumption is she making?\n\nNo confounders!\n\nAfter including controls, who gets victimized is independent of participation decisions\n\nAssumption would not hold if:\n\nPolitical activists are more likely to be crimed\nPolitical activists are more likely to report they were crimed"
+  },
+  {
+    "objectID": "slides/c3-crime.html#is-causality-plausible",
+    "href": "slides/c3-crime.html#is-causality-plausible",
+    "title": "Crime and Punishment I",
+    "section": "Is Causality Plausible?",
+    "text": "Is Causality Plausible?\n[Table 2]"
+  },
+  {
+    "objectID": "slides/c3-crime.html#results",
+    "href": "slides/c3-crime.html#results",
+    "title": "Crime and Punishment I",
+    "section": "Results",
+    "text": "Results\nResults"
+  },
+  {
+    "objectID": "slides/c3-crime.html#updating-on-the-results",
+    "href": "slides/c3-crime.html#updating-on-the-results",
+    "title": "Crime and Punishment I",
+    "section": "Updating on the Results",
+    "text": "Updating on the Results\nCrime victims everywhere participate more in politics, regadless of the type of crime\n\nEffect is roughly the same as 5-10 years of education (!!!)\nAuthor also finds that victims are more skeptical of democracy, support authoritarianism, and vigilantism\n\nQ1: Do we believe the results? Q2: What implications for democracy and development?"
+  },
+  {
+    "objectID": "slides/c3-crime.html#weaver-and-lerman-2010",
+    "href": "slides/c3-crime.html#weaver-and-lerman-2010",
+    "title": "Crime and Punishment I",
+    "section": "Weaver and Lerman, 2010",
+    "text": "Weaver and Lerman, 2010\n** Context**\n\nFor US citizens, contact with the criminal justice system is more common now than ever before\n  - 1/100 US citizens are incarcerated\n  - 1/3 black men will sever time in prision \n  - Citizens routinely have unwanted/disciplinary interawctions with police\n  - Especially the disadvantaged populations \nWhat do the authors refer to as the “carceral state”?\n  - spacially concentrated, punitive, surveillance-oriented system found in some (minority) communities."
+  },
+  {
+    "objectID": "slides/c3-crime.html#research-question",
+    "href": "slides/c3-crime.html#research-question",
+    "title": "Crime and Punishment I",
+    "section": "Research Question",
+    "text": "Research Question\nHow and in what ways encounters with the criminal justice system influence citizens’ political attitudes?\n\nMore specifically:\n\nHow does exposure to the criminal justice system socialize those exposed to it?\nWhat do people learn from constant, unwanted, aggressive, interactions with the state’s criminal system?"
+  },
+  {
+    "objectID": "slides/c3-crime.html#theory",
+    "href": "slides/c3-crime.html#theory",
+    "title": "Crime and Punishment I",
+    "section": "Theory",
+    "text": "Theory\nInteractions with the criminal system shape participation through two channels:\n\nResources:\n\nPolicy, including security policy, shapes avaiablitity of resources.\nInteractions with police limit resources (i.e. spend$ in court, have a criminal record, etc.)\nFewer resources -&gt; Less political participation\n\nLearning:\n\nWhat the authors call “interpretative effcts”\nEncounters with bureacurates teach citizens’ about the goals and nature of the government\nBad experiences with police, courts, guards, etc. may tranlate into bad impressions about the government, democracy, self-efficacy and one’s role in the polity"
+  },
+  {
+    "objectID": "slides/c3-crime.html#hypotheses",
+    "href": "slides/c3-crime.html#hypotheses",
+    "title": "Crime and Punishment I",
+    "section": "Hypotheses",
+    "text": "Hypotheses\n** Interactions with the criminal justice system will **\n\nDepress participation and civic engagement\nReduce trust in the governmen"
+  },
+  {
+    "objectID": "slides/c3-crime.html#data",
+    "href": "slides/c3-crime.html#data",
+    "title": "Crime and Punishment I",
+    "section": "Data",
+    "text": "Data\nData comes from two panel surveys\n\nNational Longitudinal Study of Adolescent Health\nFragile Families and Child Wellbeing Study"
+  },
+  {
+    "objectID": "slides/c3-crime.html#measurement-1",
+    "href": "slides/c3-crime.html#measurement-1",
+    "title": "Crime and Punishment I",
+    "section": "Measurement",
+    "text": "Measurement\n\nTreatment: Criminal Justice Contact - Several categories: no encounters, stopped by the police, charged, arrested, served time)\nOutcomes: - Electoral participation - Civic participation - Political participation - Trust in government - Civic obligations (jury, military)"
+  },
+  {
+    "objectID": "slides/c3-crime.html#research-design-1",
+    "href": "slides/c3-crime.html#research-design-1",
+    "title": "Crime and Punishment I",
+    "section": "Research Design",
+    "text": "Research Design\nConditional Independence Assumption or Selection on Observables\n\nMultivariate OLS regression\nThreats to inference: confounders!\n\nWhat might predict participation and contact with criminal system?\nPersonality, criminality, income, education, etc.\n\nAuthors try to control for all these and run placebos to test whether they might be driving the results"
+  },
+  {
+    "objectID": "slides/c3-crime.html#results-1",
+    "href": "slides/c3-crime.html#results-1",
+    "title": "Crime and Punishment I",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "slides/c3-crime.html#implications",
+    "href": "slides/c3-crime.html#implications",
+    "title": "Crime and Punishment I",
+    "section": "Implications",
+    "text": "Implications\n\nCriminal justice contact deters political and civic life\nEspecially for marginalized populations who are overpoliced\nWho should security policy be responsive to?\nImplications for democracy?\nFor inequality?"
+  },
+  {
+    "objectID": "slides/c3-crime.html#bringing-it-together",
+    "href": "slides/c3-crime.html#bringing-it-together",
+    "title": "Crime and Punishment I",
+    "section": "Bringing it together",
+    "text": "Bringing it together\n\nBoth crime and its punishment have important implications for politics\nA cause and a consequence of development\nWhat is the appropriate response to crime? A very hard question to answer"
+  },
+  {
+    "objectID": "slides/c3-crime.html#for-researchers",
+    "href": "slides/c3-crime.html#for-researchers",
+    "title": "Crime and Punishment I",
+    "section": "For researchers",
+    "text": "For researchers\n\nBoth of these papers were published in the highest ranked journal of political science\nBoth use survey data which you yourselfs could have downloaded\nYou could have run all the analyses!\nWhy are they published where they are?\nWhy are they so influential?"
+  },
+  {
+    "objectID": "slides/c3-crime.html#why-does-the-state-exist",
+    "href": "slides/c3-crime.html#why-does-the-state-exist",
+    "title": "Crime and Punishment I",
+    "section": "Why does the state exist?",
+    "text": "Why does the state exist?\n\nThe provision of security as the central reason for the state\n\nHobbes: Prevent chaos -&gt; Protect our lives\nLocke: Prevent abuse -&gt; Protect our property (including our lives)"
   }
 ]
