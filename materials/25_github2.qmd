@@ -2,12 +2,9 @@
 title: "Github Pages"
 ---
 
-## Required Readings
-
-- None
 
 ## Slides
 
-- [Slides](/slides/25-git2.html)
+- [Slides](/slides/24-git2.html)
 
 

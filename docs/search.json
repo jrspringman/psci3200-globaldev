@@ -2384,7 +2384,7 @@
     "href": "slides/24-git.html#host-your-final-project",
     "title": "Git, Github, Github Pages",
     "section": "Host Your Final Project",
-    "text": "Host Your Final Project\n\nDelete _site folder (now its using docs)\nCreate data folder to store your dataset\nAdd final project .qmd file to your repo (or drop it into index.qmd)\nUse _quarto.yml to add new pages to navigation bar\nRender index.qmd; confirm that other pages have been rendered\nPush commit and check that the website updated"
+    "text": "Host Your Final Project\n\nDelete _site folder (now its using docs)\nCreate data folder to store your dataset\nAdd final project .qmd file to your repo (or drop it into index.qmd)\nUse _quarto.yml to add new pages to navigation bar\nRender index.qmd; confirm that other pages have been rendered\nPush commit and check that the website updated\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
     "objectID": "materials/12_github.html",
@@ -2433,7 +2433,7 @@
     "href": "materials/25_github2.html",
     "title": "Github Pages",
     "section": "",
-    "text": "None"
+    "text": "Slides"
   },
   {
     "objectID": "materials/25_github2.html#required-readings",
@@ -2446,8 +2446,8 @@
     "objectID": "materials/25_github2.html#slides",
     "href": "materials/25_github2.html#slides",
     "title": "Github Pages",
-    "section": "Slides",
-    "text": "Slides\n\nSlides"
+    "section": "",
+    "text": "Slides"
   },
   {
     "objectID": "slides/24-git.html",
@@ -2509,15 +2509,15 @@
     "objectID": "slides/24-git.html#final-project-assignments",
     "href": "slides/24-git.html#final-project-assignments",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "Expect feedback on Research Question and Data by Wed EOD\nNext deadline is March 5\n\n\n\n\n\n\n\nWarning\n\n\n\nLate assignments deduct 2 points per day"
+    "section": "Final Project Assignments",
+    "text": "Final Project Assignments\n\nExpect feedback on Research Question and Data by Wed EOD\nNext deadline is March 5\n\n\n\n\n\n\n\nWarning\n\n\nLate assignments deduct 2 points per day"
   },
   {
     "objectID": "slides/24-git.html#final-project-assignments-1",
     "href": "slides/24-git.html#final-project-assignments-1",
     "title": "Git, Github, Github Pages",
-    "section": "",
-    "text": "Milestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 17\n\n\nResearch Question and Data\nFeb 19\n\n\nResearch Design\nMar 5\n\n\nSubmit proposal\nApr 2\n\n\nSubmit final project\nMay 10"
+    "section": "Final Project Assignments",
+    "text": "Final Project Assignments\n\n\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 17\n\n\nResearch Question and Data\nFeb 19\n\n\nResearch Design\nMar 5\n\n\nSubmit proposal\nApr 2\n\n\nSubmit final project\nMay 10"
   },
   {
     "objectID": "slides/24-git.html#git-basics-6",
@@ -2749,5 +2749,194 @@
     "title": "Crime and Punishment I",
     "section": "Why does the state exist?",
     "text": "Why does the state exist?\n\nThe provision of security as the central reason for the state\n\nHobbes: Prevent chaos -&gt; Protect our lives\nLocke: Prevent abuse -&gt; Protect our property (including our lives)"
+  },
+  {
+    "objectID": "slides/24-git2.html#update",
+    "href": "slides/24-git2.html#update",
+    "title": "Github Pages",
+    "section": "Update",
+    "text": "Update\n\nToday’s lecture shifted to Mon\nFeedback on Research Question and Data will come Thursday\nAny research proposals focused on environmental topics?\nMarch 5 Research Design shifted 24 hours\nSending .html files"
+  },
+  {
+    "objectID": "slides/24-git2.html#pull-from-your-repo",
+    "href": "slides/24-git2.html#pull-from-your-repo",
+    "title": "Git, Github, Github Pages",
+    "section": "Pull from your repo",
+    "text": "Pull from your repo\n\n\n\n\n\nChange output director to docs"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages",
+    "href": "slides/24-git2.html#publish-to-github-pages",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages\n\nPublish local git repo to github.com\nUncheck ‘Keep this code private’\nOpen repo on github.com\nSettings \\(\\rightarrow\\) Pages (left-sidebar)"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-1",
+    "href": "slides/24-git2.html#publish-to-github-pages-1",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages\nOpen Github Desktop and add repo"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-2",
+    "href": "slides/24-git2.html#publish-to-github-pages-2",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages\nOpen Github Desktop and add repo"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-3",
+    "href": "slides/24-git2.html#publish-to-github-pages-3",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages\nYou shouldn’t get this error"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-4",
+    "href": "slides/24-git2.html#publish-to-github-pages-4",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages\nUncheck ‘Keep this code private’"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-5",
+    "href": "slides/24-git2.html#publish-to-github-pages-5",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages\nOpen github.com/repo/settings"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-6",
+    "href": "slides/24-git2.html#publish-to-github-pages-6",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages\nSettings \\(\\rightarrow\\) Pages (left-sidebar)"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-7",
+    "href": "slides/24-git2.html#publish-to-github-pages-7",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages\nBranch \\(\\rightarrow\\) main \\(\\rightarrow\\) /docs \\(\\rightarrow\\) Save"
+  },
+  {
+    "objectID": "slides/24-git2.html#host-your-final-project",
+    "href": "slides/24-git2.html#host-your-final-project",
+    "title": "Github Pages",
+    "section": "Host Your Final Project",
+    "text": "Host Your Final Project\n\nDelete _site folder (now its using docs)\nCreate data folder to store your dataset\nAdd final project .qmd file to your repo (or drop it into index.qmd)\nUse _quarto.yml to add new pages to navigation bar\nRender index.qmd; confirm that other pages have been rendered\nPush commit and check that the website updated"
+  },
+  {
+    "objectID": "slides/24-git2.html#publishing-a-free-website-with-github-pages",
+    "href": "slides/24-git2.html#publishing-a-free-website-with-github-pages",
+    "title": "Github Pages",
+    "section": "Publishing a free website with Github pages",
+    "text": "Publishing a free website with Github pages\n\nKeep a repository of your website\nPush changes to your website via Github\nSee changes almost instantly"
+  },
+  {
+    "objectID": "slides/24-git2.html#approach",
+    "href": "slides/24-git2.html#approach",
+    "title": "Github Pages",
+    "section": "Approach",
+    "text": "Approach\n\nWe’re going to create a personal website using your git username\nYou can use this method to create separate websites that branch out from your personal site\n\nEx. My personal website \\(\\rightarrow\\) my course website"
+  },
+  {
+    "objectID": "slides/24-git2.html#create-a-website",
+    "href": "slides/24-git2.html#create-a-website",
+    "title": "Github Pages",
+    "section": "Create a website",
+    "text": "Create a website\nMoving to RStudio\n\nFile \\(\\rightarrow\\) New Project \\(\\rightarrow\\) New Directory \\(\\rightarrow\\) Quarto Website"
+  },
+  {
+    "objectID": "slides/24-git2.html#create-a-website-1",
+    "href": "slides/24-git2.html#create-a-website-1",
+    "title": "Github Pages",
+    "section": "Create a website",
+    "text": "Create a website\n\nDirectory Name: Use your git handle (ex. jrspringman)\nSubdirectory: use folder containing your repo from Monday"
+  },
+  {
+    "objectID": "slides/24-git2.html#create-a-website-2",
+    "href": "slides/24-git2.html#create-a-website-2",
+    "title": "Github Pages",
+    "section": "Create a website",
+    "text": "Create a website\n\nCheck Create a git repository\nUncheck Use visual markdown editor"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-8",
+    "href": "slides/24-git2.html#publish-to-github-pages-8",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-9",
+    "href": "slides/24-git2.html#publish-to-github-pages-9",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-10",
+    "href": "slides/24-git2.html#publish-to-github-pages-10",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-11",
+    "href": "slides/24-git2.html#publish-to-github-pages-11",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-12",
+    "href": "slides/24-git2.html#publish-to-github-pages-12",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages"
+  },
+  {
+    "objectID": "slides/24-git2.html#publish-to-github-pages-13",
+    "href": "slides/24-git2.html#publish-to-github-pages-13",
+    "title": "Github Pages",
+    "section": "Publish to Github pages",
+    "text": "Publish to Github pages"
+  },
+  {
+    "objectID": "slides/24-git2.html#create-a-free-website-with-github-pages",
+    "href": "slides/24-git2.html#create-a-free-website-with-github-pages",
+    "title": "Github Pages",
+    "section": "Create a free website with Github Pages",
+    "text": "Create a free website with Github Pages\n\nKeep a repository of your website\nPush changes to your website via Github\nSee changes almost instantly"
+  },
+  {
+    "objectID": "slides/24-git2.html#create-a-website-3",
+    "href": "slides/24-git2.html#create-a-website-3",
+    "title": "Github Pages",
+    "section": "Create a website",
+    "text": "Create a website\n6 files in your repo"
+  },
+  {
+    "objectID": "slides/24-git2.html#create-a-website-4",
+    "href": "slides/24-git2.html#create-a-website-4",
+    "title": "Github Pages",
+    "section": "Create a website",
+    "text": "Create a website\n\nRender index.qmd to view local instance in browser\nabout.qmd is additional tab\n_quarto.yml is yaml parameters for the entire website\n.Rproj is an R Project file"
+  },
+  {
+    "objectID": "slides/24-git2.html#create-a-website-5",
+    "href": "slides/24-git2.html#create-a-website-5",
+    "title": "Github Pages",
+    "section": "Create a website",
+    "text": "Create a website\nIn _quarto.yml, change output director to docs"
+  },
+  {
+    "objectID": "slides/24-git2.html#more-complex-stuff",
+    "href": "slides/24-git2.html#more-complex-stuff",
+    "title": "Github Pages",
+    "section": "More Complex Stuff",
+    "text": "More Complex Stuff\n\nTerminal: quarto render\nTerminal: quarto render file.qmd\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   }
 ]
