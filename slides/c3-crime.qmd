@@ -160,7 +160,7 @@ You can download all of these surveys yourself!
 ## Research Design
 
 \
-**Conditional Independence Assumption or Selection on Observables**
+**CIA or Selection on Observables**
 
 Treatment Group:
 
@@ -218,8 +218,7 @@ For US citizens, contact with the criminal justice system is more common now tha
 
 -   1/100 US citizens are incarcerate
 -   1/3 black men will sever time in prison
--   Citizens routinely have unwanted/disciplinary interactions with police
--   Especially the disadvantaged populations\
+-   Disadvantaged population routinely have unwanted/disciplinary interactions with police. 
 
 ::: fragment
 Authors call the spacial concentrated, punitive, surveillance-oriented system found in some (minority) communities "carceral state”
@@ -239,8 +238,7 @@ Authors call the spacial concentrated, punitive, surveillance-oriented system fo
 Interactions with the criminal system shape participation through two channels:
 
 -   Resources:
-    -   Policy, including security policy, shapes availability of resources (i.e. spend \$ in court, have a criminal record, etc.)
-    -   Fewer resources $\rightarrow$ less political participation
+    -   Fewer resources $\rightarrow$ less political participation (i.e. spend \$ in court, have a criminal record, etc.)
 -   Learning:
     -   What the authors call “interpretative effects”
     -   Encounters with bureaucrats teach citizens’ about the goals and nature of the government
@@ -272,7 +270,7 @@ Both surveys are publicly available and VERY RICH (and linked in the slides)
 Treatment:
 
 ::: fragment
--   Criminal Justice Contact: no encounters, stopped by the police, charged, arrested, served time)
+-   Criminal Justice Contact: no encounters, stopped by the police, charged, arrested, served time
 :::
 
 Outcomes:
@@ -287,7 +285,7 @@ Outcomes:
 
 ## Research Design
 
-**Conditional Independence Assumption or Selection on Observables**
+**CIA or Selection on Observables**
 
 -   Multivariate OLS regression
 

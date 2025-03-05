@@ -2636,7 +2636,7 @@
     "href": "slides/c3-crime.html#research-design",
     "title": "Crime and Punishment I",
     "section": "Research Design",
-    "text": "Research Design\n\nConditional Independence Assumption or Selection on Observables\nTreatment Group:\n\n\nDirect or indirect victims\n\n\nControl Group:\n\n\nNon-victims\n\n\nControls:\n\n\nAge, Education, Gender, Urban, Country FE"
+    "text": "Research Design\n\nCIA or Selection on Observables\nTreatment Group:\n\n\nDirect or indirect victims\n\n\nControl Group:\n\n\nNon-victims\n\n\nControls:\n\n\nAge, Education, Gender, Urban, Country FE"
   },
   {
     "objectID": "slides/c3-crime.html#threats-to-inference",
@@ -2685,7 +2685,7 @@
     "href": "slides/c3-crime.html#theory",
     "title": "Crime and Punishment I",
     "section": "Theory",
-    "text": "Theory\nInteractions with the criminal system shape participation through two channels:\n\nResources:\n\nPolicy, including security policy, shapes availability of resources (i.e. spend $ in court, have a criminal record, etc.)\nFewer resources \\(\\rightarrow\\) less political participation\n\nLearning:\n\nWhat the authors call “interpretative effects”\nEncounters with bureaucrats teach citizens’ about the goals and nature of the government\nBad experiences with police, courts, etc. may translate into bad impressions about the government"
+    "text": "Theory\nInteractions with the criminal system shape participation through two channels:\n\nResources:\n\nFewer resources \\(\\rightarrow\\) less political participation (i.e. spend $ in court, have a criminal record, etc.)\n\nLearning:\n\nWhat the authors call “interpretative effects”\nEncounters with bureaucrats teach citizens’ about the goals and nature of the government\nBad experiences with police, courts, etc. may translate into bad impressions about the government"
   },
   {
     "objectID": "slides/c3-crime.html#hypotheses",
@@ -2706,14 +2706,14 @@
     "href": "slides/c3-crime.html#measurement-1",
     "title": "Crime and Punishment I",
     "section": "Measurement",
-    "text": "Measurement\nTreatment:\n\n\nCriminal Justice Contact: no encounters, stopped by the police, charged, arrested, served time)\n\n\nOutcomes:\n\n\nElectoral participation\nCivic participation\nPolitical participation\nTrust in government\nCivic obligations (jury, military)"
+    "text": "Measurement\nTreatment:\n\n\nCriminal Justice Contact: no encounters, stopped by the police, charged, arrested, served time\n\n\nOutcomes:\n\n\nElectoral participation\nCivic participation\nPolitical participation\nTrust in government\nCivic obligations (jury, military)"
   },
   {
     "objectID": "slides/c3-crime.html#research-design-1",
     "href": "slides/c3-crime.html#research-design-1",
     "title": "Crime and Punishment I",
     "section": "Research Design",
-    "text": "Research Design\nConditional Independence Assumption or Selection on Observables\n\nMultivariate OLS regression\nThreats to inference: confounders!\nWhat might predict participation and contact with criminal system?\n\n\n\nPersonality, criminality, income, education, etc.\nAuthors try to control for all these and run placebos to test whether they might be driving the results"
+    "text": "Research Design\nCIA or Selection on Observables\n\nMultivariate OLS regression\nThreats to inference: confounders!\nWhat might predict participation and contact with criminal system?\n\n\n\nPersonality, criminality, income, education, etc.\nAuthors try to control for all these and run placebos to test whether they might be driving the results"
   },
   {
     "objectID": "slides/c3-crime.html#results-1",
@@ -2958,7 +2958,7 @@
     "href": "slides/c3-crime.html#context",
     "title": "Crime and Punishment I",
     "section": "Context",
-    "text": "Context\n\nFor US citizens, contact with the criminal justice system is more common now than ever before\n\n1/100 US citizens are incarcerate\n1/3 black men will sever time in prison\nCitizens routinely have unwanted/disciplinary interactions with police\nEspecially the disadvantaged populations\n\n\n\nAuthors call the spacial concentrated, punitive, surveillance-oriented system found in some (minority) communities “carceral state”"
+    "text": "Context\n\nFor US citizens, contact with the criminal justice system is more common now than ever before\n\n1/100 US citizens are incarcerate\n1/3 black men will sever time in prison\nDisadvantaged population routinely have unwanted/disciplinary interactions with police.\n\n\nAuthors call the spacial concentrated, punitive, surveillance-oriented system found in some (minority) communities “carceral state”"
   },
   {
     "objectID": "slides/c3-crime.html#upside-down-world",
