@@ -291,6 +291,7 @@ $Y = \alpha + \beta_1X + \beta_2Z + \beta_3(X*Z) + \epsilon$
 ## Think of it as another covariate!
 
 ```{r binary-table, echo=FALSE}
+require(tidyverse)
 # Create a table showing binary interaction
 binary_example <- data.frame(
   X = c(0, 1, 0, 1),
@@ -336,32 +337,28 @@ $Y_{i} = \alpha + \beta_1 * X_i + \beta_2 * Z_i + \beta_3 * Z_i * X_i \epsilon_{
 ## Practical Example
 
 - Lets simulate some data to see how we can fit an interactive model in R
-- We are going to look at a binary covariate-
+- We are going to look at a binary covariate
 
 ```{r}
 #| echo: true
 #| warning: false
-#| code-fold: true
 #| centering: true
-#| code-summary: "Show code"
 
-require(tidyverse)
-set.seed(12)
-beta_0 <- 1    # Intercept
+alpha <- 1
 beta_1 <- -.5    # Coefficient for women's representation
 beta_2 <- 1.5  # Coefficient for quota system
 beta_3 <- 3    # Coefficient for interaction term
-sigma <- 0.5   # Standard deviation of noise
 
+set.seed(12)
 interaction_data <- tibble(
-  women_representation = runif(100, 0, 1),
-  quota_system = sample(0:1, 100, replace = T)) %>%
-  mutate(
-    policy_outcome = beta_0 + 
-      beta_1 * women_representation + 
-      beta_2 * quota_system + 
-      beta_3 * (women_representation * quota_system) + 
-      rnorm(n(), 0, sigma))
+  women_representation = runif(100, 0, 1), # any number btw 0 and 1
+  quota_system = sample(0:1, 100, replace = T)) %>% # either 1 or 0
+  mutate(policy_outcome = alpha + 
+               beta_1 * women_representation + 
+               beta_2 * quota_system + 
+               beta_3 * (women_representation * quota_system) + 
+                rnorm(n(), 0, 0.5))
+
 
 ```
 

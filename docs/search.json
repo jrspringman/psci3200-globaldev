@@ -305,7 +305,7 @@
     "href": "slides/c5-gender.html#practical-example",
     "title": "Gender and Development",
     "section": "Practical Example",
-    "text": "Practical Example\n\nLets simulate some data to see how we can fit an interactive model in R\nWe are going to look at a binary covariate-\n\n\n\nShow code\nrequire(tidyverse)\nset.seed(12)\nbeta_0 &lt;- 1    # Intercept\nbeta_1 &lt;- -.5    # Coefficient for women's representation\nbeta_2 &lt;- 1.5  # Coefficient for quota system\nbeta_3 &lt;- 3    # Coefficient for interaction term\nsigma &lt;- 0.5   # Standard deviation of noise\n\ninteraction_data &lt;- tibble(\n  women_representation = runif(100, 0, 1),\n  quota_system = sample(0:1, 100, replace = T)) %&gt;%\n  mutate(\n    policy_outcome = beta_0 + \n      beta_1 * women_representation + \n      beta_2 * quota_system + \n      beta_3 * (women_representation * quota_system) + \n      rnorm(n(), 0, sigma))"
+    "text": "Practical Example\n\nLets simulate some data to see how we can fit an interactive model in R\nWe are going to look at a binary covariate\n\n\nalpha &lt;- 1\nbeta_1 &lt;- -.5    # Coefficient for women's representation\nbeta_2 &lt;- 1.5  # Coefficient for quota system\nbeta_3 &lt;- 3    # Coefficient for interaction term\n\nset.seed(12)\ninteraction_data &lt;- tibble(\n  women_representation = runif(100, 0, 1), # any number btw 0 and 1\n  quota_system = sample(0:1, 100, replace = T)) %&gt;% # either 1 or 0\n  mutate(policy_outcome = alpha + \n               beta_1 * women_representation + \n               beta_2 * quota_system + \n               beta_3 * (women_representation * quota_system) + \n                rnorm(n(), 0, 0.5))"
   },
   {
     "objectID": "slides/c5-gender.html#practical-example-1",
