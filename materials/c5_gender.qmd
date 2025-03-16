@@ -16,6 +16,4 @@ date: 2025-02-26
 - [Slides](/slides/c5-gender.html)
 
 
-## Data
 
-- [ANES, 2004](/slides/code/nes2004r.RData)
