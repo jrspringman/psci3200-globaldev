@@ -6,7 +6,9 @@ date: 2024-02-13
 
 ## Required Readings
 
-- 3ie [Addressing Root Causes and Drivers of Irregular Migration](https://www.3ieimpact.org/sites/default/files/2023-12/EGM30-Irregular-Migration-IOM-EGM-Report.pdf)
+
+
+- [Rozo and Grossman (2025)](https://voxdev.org/voxdevlit/refugees-and-other-forcibly-displaced-populations) (download the pdf and/or watch the YouTube video)
 - [Gazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck (2020)](https://voxdev.org/topic/migration-urbanisation/constraints-migration-evidence-comoros) 
 - [Sviatschi (2022)](https://voxdev.org/topic/migration-urbanisation/impact-us-deportation-policy-gang-activity-el-salvador)
 
@@ -17,6 +19,7 @@ date: 2024-02-13
 
 ## Interesting Stuff (non-required)
 
+- 3ie [Addressing Root Causes and Drivers of Irregular Migration](https://www.3ieimpact.org/sites/default/files/2023-12/EGM30-Irregular-Migration-IOM-EGM-Report.pdf)
 - 3ie [Evidence Gap Map](https://developmentevidence.3ieimpact.org/egm/addressing-root-causes-and-drivers-of-irregular-migration-an-evidence-gap-map)
 - TCD [Ch 3](/files/M23_deMesquita&Fowler_2021_Chapter13.pdf)
 - [Rose et al. 2021](https://www.cgdev.org/sites/default/files/addressing-root-causes-irregular-migration-central-america-evidence-agenda-usaid.pdf)
