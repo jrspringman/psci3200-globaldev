@@ -1593,7 +1593,7 @@
     "href": "slides/08-migration.html#identification-strategy",
     "title": "Migration 1",
     "section": "Identification strategy",
-    "text": "Identification strategy\nIn the real world, there are always threats to inference that we can’t observe (measure) or adjust for\n\nA research design that allows us to isolate a causal effect from observational data\nApproximates an experiment by ensuring that the treatment and control group are similar at baseline\nThese strategies rely on assumptions that we can attempt to validate"
+    "text": "Identification strategy\nIn the real world, there are always confounders that we can’t observe (measure) or adjust for\n\nA research design that allows us to isolate a causal effect from observational data\nApproximates an experiment by ensuring that the treatment and untreated (control) group are similar\nThese strategies rely on assumptions that we can attempt to validate"
   },
   {
     "objectID": "slides/08-migration.html#holy-trinity-of-causal-inference",
@@ -1614,14 +1614,14 @@
     "href": "slides/08-migration.html#simulation-example",
     "title": "Migration 1",
     "section": "Simulation Example",
-    "text": "Simulation Example\n\n\nShow code\n# Load required libraries\nlibrary(dplyr)\nlibrary(modelsummary)\n\n# Generate example data\nset.seed(123)\ndata &lt;- data.frame(\n  treatment = rep(c(1, 0), each = 100),\n  post = rep(c(1, 0), each = 50, times = 2),\n  outcome = c(rnorm(50, mean = 10, sd = 2), # control: pre-treatment\n              rnorm(50, mean = 10, sd = 2), # control: post-treatment\n              rnorm(50, mean = 10, sd = 2), # treatment: pre-treatment\n              rnorm(50, mean = 12, sd = 2)) # treatment: post-treatment\n)\n\nhead(data)\n\n\n  treatment post   outcome\n1         1    1  8.879049\n2         1    1  9.539645\n3         1    1 13.117417\n4         1    1 10.141017\n5         1    1 10.258575\n6         1    1 13.430130"
+    "text": "Simulation Example\n\n\nShow code\n# Load required libraries\nlibrary(dplyr)\nlibrary(modelsummary)\n\n# Generate example data\nset.seed(123)\ndata &lt;- data.frame(\n  treatment = rep(c(1, 0), each = 100),\n  post = rep(c(1, 0), each = 50, times = 2),\n  outcome = c(rnorm(50, mean = 10, sd = 4), # control: pre-treatment\n              rnorm(50, mean = 10, sd = 4), # control: post-treatment\n              rnorm(50, mean = 10, sd = 4), # treatment: pre-treatment\n              rnorm(50, mean = 12, sd = 4)) # treatment: post-treatment\n)\n\nhead(data)\n\n\n  treatment post   outcome\n1         1    1  7.758097\n2         1    1  9.079290\n3         1    1 16.234833\n4         1    1 10.282034\n5         1    1 10.517151\n6         1    1 16.860260"
   },
   {
     "objectID": "slides/08-migration.html#simulation-example-1",
     "href": "slides/08-migration.html#simulation-example-1",
     "title": "Migration 1",
     "section": "Simulation Example",
-    "text": "Simulation Example\n\n\nShow code\n# Summarize the output\nmodelsummary(\n  list(lm(outcome ~ treatment + post, data = data),# standard model\n       lm(outcome ~ treatment * post, data = data)), # difference-in-differences model\n  estimate  = \"{estimate}{stars} ({std.error})\",\n             statistic = NULL,\n  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')\n\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                 \n                (1)\n                (2)\n              \n        \n        \n        \n                \n                  (Intercept)\n                  11.487*** (0.241)\n                  12.078*** (0.265)\n                \n                \n                  treatment\n                  -0.604* (0.278)\n                  -1.785*** (0.375)\n                \n                \n                  post\n                  -1.405*** (0.278)\n                  -2.585*** (0.375)\n                \n                \n                  treatment × post\n                  \n                  2.361*** (0.531)\n                \n                \n                  Num.Obs.\n                  200\n                  200\n                \n                \n                  R2 Adj.\n                  0.124\n                  0.201"
+    "text": "Simulation Example\n\n\nShow code\n# Summarize the output\nmodelsummary(\n  list(lm(outcome ~ treatment + post, data = data),# standard model\n       lm(outcome ~ treatment * post, data = data)), # difference-in-differences model\n  estimate  = \"{estimate}{stars} ({std.error})\",\n             statistic = NULL,\n  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')\n\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                 \n                (1)\n                (2)\n              \n        \n        \n        \n                \n                  (Intercept)\n                  11.475*** (0.466)\n                  12.155*** (0.531)\n                \n                \n                  treatment\n                  -0.208 (0.538)\n                  -1.570* (0.751)\n                \n                \n                  post\n                  -1.809*** (0.538)\n                  -3.171*** (0.751)\n                \n                \n                  treatment × post\n                  \n                  2.723* (1.062)\n                \n                \n                  Num.Obs.\n                  200\n                  200\n                \n                \n                  R2 Adj.\n                  0.045\n                  0.072"
   },
   {
     "objectID": "slides/08-migration.html#did-assumptions",
@@ -4909,28 +4909,28 @@
   {
     "objectID": "materials/08_migration.html",
     "href": "materials/08_migration.html",
-    "title": "Causal Inference",
+    "title": "Migration",
     "section": "",
     "text": "Rozo and Grossman (2025) (download the pdf and/or watch the YouTube video)\nGazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck (2020)\nSviatschi (2022)"
   },
   {
     "objectID": "materials/08_migration.html#required-readings",
     "href": "materials/08_migration.html#required-readings",
-    "title": "Causal Inference",
+    "title": "Migration",
     "section": "",
     "text": "Rozo and Grossman (2025) (download the pdf and/or watch the YouTube video)\nGazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck (2020)\nSviatschi (2022)"
   },
   {
     "objectID": "materials/08_migration.html#slides",
     "href": "materials/08_migration.html#slides",
-    "title": "Causal Inference",
+    "title": "Migration",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/08_migration.html#interesting-stuff-non-required",
     "href": "materials/08_migration.html#interesting-stuff-non-required",
-    "title": "Causal Inference",
+    "title": "Migration",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\n\n3ie Addressing Root Causes and Drivers of Irregular Migration\n3ie Evidence Gap Map\nTCD Ch 3\nRose et al. 2021\nUN World Immigration Report\nEvidence Action We’re Shutting Down No Lean Season, Our Seasonal Migration Program: Here’s Why\nGamso and Yuldashev (2018)"
   },
@@ -8474,7 +8474,7 @@
     "href": "slides/08-migration.html#review",
     "title": "Migration 1",
     "section": "Review",
-    "text": "Review\n\n\n\nWhat is an interaction term?\nWhat are fixed effects?"
+    "text": "Review\n\n\n\nWhat is an interaction term?\nWhat are fixed effects?\nWhy do we like randomization?"
   },
   {
     "objectID": "slides/08-migration.html#quiz",
@@ -8558,7 +8558,7 @@
     "href": "slides/08-migration.html#supporting-migrants-1",
     "title": "Migration 1",
     "section": "Supporting Migrants",
-    "text": "Supporting Migrants\nCash transfers\n\nShort-term increases in consumption, well-being\n\nLabor market integration\n\nIncreased consumption, well-being\nReduced crime, fertility\nKakuma vs Kalobeyei; business mentors"
+    "text": "Supporting Migrants\nCash transfers\n\nShort-term increases in consumption, well-being\n\nLabor market integration\n\nIncreased consumption, well-being\nReduced crime, fertility\nKakuma vs Kalobeyei; Uganda business mentors"
   },
   {
     "objectID": "slides/08-migration.html#supporting-migrants-2",

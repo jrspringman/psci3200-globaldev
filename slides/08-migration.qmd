@@ -241,7 +241,7 @@ Hurt: unskilled (women, youth), informal businesses
 
 - Increased consumption, well-being
 - Reduced crime, fertility
-- Kakuma vs Kalobeyei; business mentors
+- Kakuma vs Kalobeyei; Uganda business mentors
 
 ## Supporting Migrants
 
@@ -334,14 +334,14 @@ Mechanisms:
 
 - What is an interaction term?
 - What are fixed effects?
-
+- Why do we like randomization?
 
 ## Identification strategy
 
-**In the real world, there are always threats to inference that we can't observe (measure) or adjust for**
+**In the real world, there are always confounders that we can't observe (measure) or adjust for**
 
 - A *research design* that allows us to isolate a causal effect from observational data
-- Approximates an experiment by ensuring that the treatment and control group are similar at baseline
+- Approximates an experiment by ensuring that the treatment and untreated (control) group are similar
 - These strategies rely on assumptions that we can *attempt* to validate
 
 
@@ -382,10 +382,10 @@ set.seed(123)
 data <- data.frame(
   treatment = rep(c(1, 0), each = 100),
   post = rep(c(1, 0), each = 50, times = 2),
-  outcome = c(rnorm(50, mean = 10, sd = 2), # control: pre-treatment
-              rnorm(50, mean = 10, sd = 2), # control: post-treatment
-              rnorm(50, mean = 10, sd = 2), # treatment: pre-treatment
-              rnorm(50, mean = 12, sd = 2)) # treatment: post-treatment
+  outcome = c(rnorm(50, mean = 10, sd = 4), # control: pre-treatment
+              rnorm(50, mean = 10, sd = 4), # control: post-treatment
+              rnorm(50, mean = 10, sd = 4), # treatment: pre-treatment
+              rnorm(50, mean = 12, sd = 4)) # treatment: post-treatment
 )
 
 head(data)
