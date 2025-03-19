@@ -25,20 +25,34 @@ editor: source
 ## Assignments
 
 - Today
-  + 3ie [Addressing Root Causes and Drivers of Irregular Migration](https://www.3ieimpact.org/sites/default/files/2023-12/EGM30-Irregular-Migration-IOM-EGM-Report.pdf)
+  + [Rozo and Grossman (2025)](https://voxdev.org/voxdevlit/refugees-and-other-forcibly-displaced-populations) (download the pdf and/or watch the YouTube video)
   + [Gazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck (2020)](https://voxdev.org/topic/migration-urbanisation/constraints-migration-evidence-comoros) 
   + [Sviatschi (2022)](https://voxdev.org/topic/migration-urbanisation/impact-us-deportation-policy-gang-activity-el-salvador)
-- Thursday 
-  + Guest lecture
-  + No readings (!)
+
 
 ## Agenda
 
 \
 
-1. Migration
-2. Causal Inference with Observational Data: Difference-in-Differences
-3. ~~Using git~~
+1. Research Design Debrief
+2. Migration
+3. Causal Inference with Observational Data: Difference-in-Differences
+
+# Research Design Debrief
+
+## Debrief
+
+**Submissions**
+
+- You need to *check* what you send me...
+- Read the basic instructions (quarto + html file)
+- I didn't penalize anyone, but next time I will
+
+**Research Designs**
+
+- Justify your sample
+- Just "controlling for observables" will not get you full credit
+- Next week, we'll cover essentials... bring your questions!
 
 # Migration Overview
 
@@ -117,89 +131,140 @@ editor: source
 - Migration is driven by prior links between individuals and households 
   + Social ties to households in the destination country
 
-# 3ie Evidence Review
+# Rozo & Grossman
 
-## Irregular Migration Evidence Review
+## Quiz
 
-**Objective:**
+**5 minutes: send me a Slack DM with something you learned from this article**
 
-- Review evidence efficacy of interventions designed to target the root causes of irregular migration
+## Trends: Displacement
 
-**Root causes: social and political conditions that induce departures**
+![](img/unhcr.png){fig-align="center"}
 
-1. Lack of economic opportunity
-2. Lack of capacity to adopt to shocks
-3. High levels of violence
-4. Lack of regular migration channels
+## Trends: Displacement
+
+![](img/unhcr2.png){fig-align="center"}
 
 
-## Irregular Migration Evidence Review
-
-\
-
-**What is irregular migration?**
-
-::: {.fragment}
-- Migration outside legal channels
-:::
-
-**Why is it different from regular migration?**
-
-::: {.fragment}
-- Additional risks relative to legal migration (violence, exploitation, access to legal system)
-:::
-
-<!-- ## Whats the process -->
-
-<!-- 1. Identify root causes of migration -->
-<!-- 2. Look for papers assessing interventions on these root causes and with some reference to migration -->
-<!-- 3. Find the subset of studies that specifically look at outcomes related to migration -->
-
-## Findings
-
-Studies reporting migration outcomes are concentrated on 3 intervention categories: 
-
-1. Human capital strengthening 
-2. Active labor market policies
-3. Information campaigns 
-<!-- legal rights, risks of irregular migration, legal alternatives, and/or working conditions -->
-
-<!-- ## Evidence base -->
-
-<!-- evidence base is concentrated in two domains: -->
-<!-- 1. economic opportunities and decent work (n = 64)  -->
-<!-- -- human capital strengthening (cash transfers) -->
-<!-- -- active labor market policies (vocational training) -->
-<!-- 2. orderly and safe migration managemen -->
-<!-- -- information campaigns -->
-
-<!-- we also see eivdnece on -->
-<!-- 1. strengthening resilience against shocks -->
-<!-- -- disaster risk financing (resistance seeds, crop management) -->
-
-<!-- No evidence on: -->
-<!-- - building safer communities through violence prevention -->
-<!-- -- likely due to long time lags -->
-
-<!-- ## Evidence base -->
-
-<!-- RCTs: -->
-<!-- - Cash transfers within the human-capital strengthening intervention category (e.g., -->
-<!-- Angelucci 2004, 2013; Barham, Macours, and Maluccio 2018; Gazeaud et al. -->
-<!-- 2022a); -->
-<!-- - Vocational trainings and other active labor market policies (e.g., Ahn et al. 2020; -->
-<!-- Hardy et al. 2019; Das 2017); and -->
-<!-- - Information campaigns on the risks of migrating irregularly and other risks (e.g., -->
-<!-- Beam, McKenzie, and Yang 2016; Tjaden and Dunsch 2021; Bah et al. 2023). -->
-
-## Conclusions
+## Trends: Conflict
 
 \
 
-- Some evidence on interventions that address the root causes of irregular migration
-- Almost no evidence looking at irregular migration as a primary outcome
-- A number of studies are ongoing
+::: {.incremental}
 
+- War deaths continue to decline
+- Interstate wars are rare by historical standards
+- Geopolitical tensions are increasing
+- Number, intensity, complexity, and duration of civil wars are increasing
+:::
+
+
+## Trends: Conflict
+
+![](img/ucpd.png){fig-align="center"}
+
+## Trends: Climate
+
+\
+
+- 78% of global land area has become drier over the past 30 years
+- Warmer temperatures are causing extreme weather events
+
+## Trends: Research
+
+![](img/rozo_methods.png){fig-align="center"}
+
+## Trends: Research
+
+![](img/rozo_topics.png){fig-align="center"}
+
+
+## Impact on Host: Labor markets
+
+\
+
+::: {.incremental}
+
+- Who gets hurt?
+- Who benefits?
+- Net effects effects?
+  + Short-term challenges
+  + Long-term growth
+
+:::
+
+
+::: {.notes}
+
+Benefit: skilled laborers, formal businesses
+Hurt: unskilled (women, youth), informal businesses
+
+:::
+
+## Impact on Host: Other
+
+\
+
+::: {.incremental}
+
+- Service provision
+  + Displacement effects (public to private)
+  + Disease burden
+- Politics
+  + Wealth
+  + Prior exposure
+  
+:::  
+  
+## Supporting Migrants
+
+\
+
+**Unique challenges for forced migrants?**
+
+::: {.fragment}
+
+- Loss of assets
+- Trauma and mental health
+- Legal uncertainty
+- Language and cultural barriers
+
+:::
+
+## Supporting Migrants
+
+**Cash transfers**
+
+- Short-term increases in consumption, well-being
+
+**Labor market integration**
+
+- Increased consumption, well-being
+- Reduced crime, fertility
+- Kakuma vs Kalobeyei; business mentors
+
+## Supporting Migrants
+
+\
+
+- Mental health
+- Social cohesion
+  + Teacher bias
+  + Shared aid + integration policies
+  + Perspective-taking, contact
+
+## Policy Implications
+
+\
+
+::: {.fragment}
+
+- Shift from humanitarian response to self-reliance
+- Allow hosts to benefit from aid
+- Increase labor market integration
+- Address discrimination and mental health
+
+:::
 
 # Gazeaud et al. (2023)
 
@@ -234,8 +299,10 @@ Mechanisms:
 ## Findings
 
 - Treatment households 38% more likely to migrate 
-- Spillovers?
-- Mechanisms?
+- How did they measure spillovers?
+- Mechanisms:
+  + What were the mechanisms at play?
+  + How did they reach these conclusions?
 
 
 ## Findings
@@ -244,6 +311,12 @@ Mechanisms:
 
 ## Policy Implications
 
+**How does this relate to the equilibrium model?**
+
+\
+
+**Policy implications**
+
 ::: {.fragment}
 - The poorest individuals in sending countries are not the most likely to migrate ([Clements and Mendola, 2020](https://www.cgdev.org/publication/migration-developing-countries-selection-income-elasticity-and-simpsons-paradox))
 - Improving welfare in sending countries will not necessarily reduce desire to migrate
@@ -251,11 +324,21 @@ Mechanisms:
 :::
 
 
+
+
 # Difference-in Differences
+
+## Review
+
+\
+
+- What is an interaction term?
+- What are fixed effects?
+
 
 ## Identification strategy
 
-**In the real world, there are always threats to inference that we can't measure/observe or understand well enough to adjust for**
+**In the real world, there are always threats to inference that we can't observe (measure) or adjust for**
 
 - A *research design* that allows us to isolate a causal effect from observational data
 - Approximates an experiment by ensuring that the treatment and control group are similar at baseline
@@ -319,12 +402,10 @@ head(data)
 #| code-fold: true
 #| code-summary: "Show code"
 
-# Run difference-in-differences model
-did_model <- lm(outcome ~ treatment * post, data = data)
-
 # Summarize the output
 modelsummary(
-  list(lm(outcome ~ treatment + post, data = data), lm(outcome ~ treatment * post, data = data)),
+  list(lm(outcome ~ treatment + post, data = data),# standard model
+       lm(outcome ~ treatment * post, data = data)), # difference-in-differences model
   estimate  = "{estimate}{stars} ({std.error})",
              statistic = NULL,
   gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
@@ -591,3 +672,87 @@ ggplot(data = dat, aes(x = Year, y = Outcome,  color = Treatment)) +
 <!-- Estimator: the procedure we use to generate the estimate.  -->
 <!-- Bias: errors that occur systematically -->
 <!-- Noise: idiosyncratic (unsystematic) errors -->
+
+
+# 3ie Evidence Review
+
+## Irregular Migration Evidence Review
+
+**Objective:**
+
+- Review evidence efficacy of interventions designed to target the root causes of irregular migration
+
+**Root causes: social and political conditions that induce departures**
+
+1. Lack of economic opportunity
+2. Lack of capacity to adopt to shocks
+3. High levels of violence
+4. Lack of regular migration channels
+
+
+## Irregular Migration Evidence Review
+
+\
+
+**What is irregular migration?**
+
+::: {.fragment}
+- Migration outside legal channels
+:::
+
+**Why is it different from regular migration?**
+
+::: {.fragment}
+- Additional risks relative to legal migration (violence, exploitation, access to legal system)
+:::
+
+<!-- ## Whats the process -->
+
+<!-- 1. Identify root causes of migration -->
+<!-- 2. Look for papers assessing interventions on these root causes and with some reference to migration -->
+<!-- 3. Find the subset of studies that specifically look at outcomes related to migration -->
+
+## Findings
+
+Studies reporting migration outcomes are concentrated on 3 intervention categories: 
+
+1. Human capital strengthening 
+2. Active labor market policies
+3. Information campaigns 
+<!-- legal rights, risks of irregular migration, legal alternatives, and/or working conditions -->
+
+<!-- ## Evidence base -->
+
+<!-- evidence base is concentrated in two domains: -->
+<!-- 1. economic opportunities and decent work (n = 64)  -->
+<!-- -- human capital strengthening (cash transfers) -->
+<!-- -- active labor market policies (vocational training) -->
+<!-- 2. orderly and safe migration managemen -->
+<!-- -- information campaigns -->
+
+<!-- we also see eivdnece on -->
+<!-- 1. strengthening resilience against shocks -->
+<!-- -- disaster risk financing (resistance seeds, crop management) -->
+
+<!-- No evidence on: -->
+<!-- - building safer communities through violence prevention -->
+<!-- -- likely due to long time lags -->
+
+<!-- ## Evidence base -->
+
+<!-- RCTs: -->
+<!-- - Cash transfers within the human-capital strengthening intervention category (e.g., -->
+<!-- Angelucci 2004, 2013; Barham, Macours, and Maluccio 2018; Gazeaud et al. -->
+<!-- 2022a); -->
+<!-- - Vocational trainings and other active labor market policies (e.g., Ahn et al. 2020; -->
+<!-- Hardy et al. 2019; Das 2017); and -->
+<!-- - Information campaigns on the risks of migrating irregularly and other risks (e.g., -->
+<!-- Beam, McKenzie, and Yang 2016; Tjaden and Dunsch 2021; Bah et al. 2023). -->
+
+## Conclusions
+
+\
+
+- Some evidence on interventions that address the root causes of irregular migration
+- Almost no evidence looking at irregular migration as a primary outcome
+- A number of studies are ongoing

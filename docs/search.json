@@ -1466,15 +1466,15 @@
     "objectID": "slides/08-migration.html#assignments",
     "href": "slides/08-migration.html#assignments",
     "title": "Migration 1",
-    "section": "",
-    "text": "Today\n\n3ie Addressing Root Causes and Drivers of Irregular Migration\nGazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck (2020)\nSviatschi (2022)\n\nThursday\n\nGuest lecture\nNo readings (!)"
+    "section": "Assignments",
+    "text": "Assignments\n\nToday\n\nRozo and Grossman (2025) (download the pdf and/or watch the YouTube video)\nGazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck (2020)\nSviatschi (2022)"
   },
   {
     "objectID": "slides/08-migration.html#agenda",
     "href": "slides/08-migration.html#agenda",
     "title": "Migration 1",
-    "section": "",
-    "text": "Migration\nCausal Inference with Observational Data: Difference-in-Differences\nUsing git"
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\nResearch Design Debrief\nMigration\nCausal Inference with Observational Data: Difference-in-Differences"
   },
   {
     "objectID": "slides/08-migration.html#overview-of-international-migration",
@@ -1544,14 +1544,14 @@
     "href": "slides/08-migration.html#findings",
     "title": "Migration 1",
     "section": "Findings",
-    "text": "Findings\nStudies reporting migration outcomes are concentrated on 3 intervention categories:\n\nHuman capital strengthening\nActive labor market policies\nInformation campaigns"
+    "text": "Findings\n\nTreatment households 38% more likely to migrate\nHow did they measure spillovers?\nMechanisms:\n\nWhat were the mechanisms at play?\nHow did they reach these conclusions?"
   },
   {
     "objectID": "slides/08-migration.html#conclusions",
     "href": "slides/08-migration.html#conclusions",
     "title": "Migration 1",
     "section": "Conclusions",
-    "text": "Conclusions\n\n\n\nSome evidence on interventions that address the root causes of irregular migration\nAlmost no evidence looking at irregular migration as a primary outcome\nA number of studies are ongoing"
+    "text": "Conclusions\n\n\n\nSome evidence on interventions that address the root causes of irregular migration\nAlmost no evidence looking at irregular migration as a primary outcome\nA number of studies are ongoing\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
     "objectID": "slides/08-migration.html#constraints-to-migration",
@@ -1572,7 +1572,7 @@
     "href": "slides/08-migration.html#findings-1",
     "title": "Migration 1",
     "section": "Findings",
-    "text": "Findings\n\nTreatment households 38% more likely to migrate\nSpillovers?\nMechanisms?"
+    "text": "Findings"
   },
   {
     "objectID": "slides/08-migration.html#findings-2",
@@ -1586,14 +1586,14 @@
     "href": "slides/08-migration.html#policy-implications",
     "title": "Migration 1",
     "section": "Policy Implications",
-    "text": "Policy Implications\n\n\nThe poorest individuals in sending countries are not the most likely to migrate (Clements and Mendola, 2020)\nImproving welfare in sending countries will not necessarily reduce desire to migrate\nNetworks may be less influential (over short time periods and with large pre-treatment migration)"
+    "text": "Policy Implications\n\n\n\n\nShift from humanitarian response to self-reliance\nAllow hosts to benefit from aid\nIncrease labor market integration\nAddress discrimination and mental health"
   },
   {
     "objectID": "slides/08-migration.html#identification-strategy",
     "href": "slides/08-migration.html#identification-strategy",
     "title": "Migration 1",
     "section": "Identification strategy",
-    "text": "Identification strategy\nIn the real world, there are always threats to inference that we can’t measure/observe or understand well enough to adjust for\n\nA research design that allows us to isolate a causal effect from observational data\nApproximates an experiment by ensuring that the treatment and control group are similar at baseline\nThese strategies rely on assumptions that we can attempt to validate"
+    "text": "Identification strategy\nIn the real world, there are always threats to inference that we can’t observe (measure) or adjust for\n\nA research design that allows us to isolate a causal effect from observational data\nApproximates an experiment by ensuring that the treatment and control group are similar at baseline\nThese strategies rely on assumptions that we can attempt to validate"
   },
   {
     "objectID": "slides/08-migration.html#holy-trinity-of-causal-inference",
@@ -1621,7 +1621,7 @@
     "href": "slides/08-migration.html#simulation-example-1",
     "title": "Migration 1",
     "section": "Simulation Example",
-    "text": "Simulation Example\n\n\nShow code\n# Run difference-in-differences model\ndid_model &lt;- lm(outcome ~ treatment * post, data = data)\n\n# Summarize the output\nmodelsummary(\n  list(lm(outcome ~ treatment + post, data = data), lm(outcome ~ treatment * post, data = data)),\n  estimate  = \"{estimate}{stars} ({std.error})\",\n             statistic = NULL,\n  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')\n\n\n\n\n\n\nModel 1\nModel 2\n\n\n\n\n(Intercept)\n11.487*** (0.241)\n12.078*** (0.265)\n\n\ntreatment\n−0.604* (0.278)\n−1.785*** (0.375)\n\n\npost\n−1.405*** (0.278)\n−2.585*** (0.375)\n\n\ntreatment × post\n\n2.361*** (0.531)\n\n\nNum.Obs.\n200\n200\n\n\nR2 Adj.\n0.124\n0.201"
+    "text": "Simulation Example\n\n\nShow code\n# Summarize the output\nmodelsummary(\n  list(lm(outcome ~ treatment + post, data = data),# standard model\n       lm(outcome ~ treatment * post, data = data)), # difference-in-differences model\n  estimate  = \"{estimate}{stars} ({std.error})\",\n             statistic = NULL,\n  gof_omit = 'IC|RMSE|Log|F|R2$|Std.')\n\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                 \n                (1)\n                (2)\n              \n        \n        \n        \n                \n                  (Intercept)\n                  11.487*** (0.241)\n                  12.078*** (0.265)\n                \n                \n                  treatment\n                  -0.604* (0.278)\n                  -1.785*** (0.375)\n                \n                \n                  post\n                  -1.405*** (0.278)\n                  -2.585*** (0.375)\n                \n                \n                  treatment × post\n                  \n                  2.361*** (0.531)\n                \n                \n                  Num.Obs.\n                  200\n                  200\n                \n                \n                  R2 Adj.\n                  0.124\n                  0.201"
   },
   {
     "objectID": "slides/08-migration.html#did-assumptions",
@@ -1698,14 +1698,14 @@
     "href": "slides/08-migration.html#findings-3",
     "title": "Migration 1",
     "section": "Findings",
-    "text": "Findings"
+    "text": "Findings\nStudies reporting migration outcomes are concentrated on 3 intervention categories:\n\nHuman capital strengthening\nActive labor market policies\nInformation campaigns"
   },
   {
     "objectID": "slides/08-migration.html#policy-implications-1",
     "href": "slides/08-migration.html#policy-implications-1",
     "title": "Migration 1",
     "section": "Policy Implications",
-    "text": "Policy Implications\n\n\n\nAddressing pull factors can have unintended affects on push factors in complex ways"
+    "text": "Policy Implications\nHow does this relate to the equilibrium model?\n\n\nPolicy implications\n\n\nThe poorest individuals in sending countries are not the most likely to migrate (Clements and Mendola, 2020)\nImproving welfare in sending countries will not necessarily reduce desire to migrate\nNetworks may be less influential (over short time periods and with large pre-treatment migration)"
   },
   {
     "objectID": "slides/08-migration.html#threats-to-inference",
@@ -8454,5 +8454,131 @@
     "title": "\n            Global Development\n        ",
     "section": "",
     "text": "Global Development\n        \n        \n            Intermediate Topics in Politics, Policy, and Data\n        \n        \n            PSCI 3200 • Spring 2025University of Pennsylvania\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\nInstructor\n\n   Jeremy Springman\n   jspr@sas.upenn.edu\n   PCPE 448\n   Schedule an appointment\n   Carolina Torreblanca\n   catba@sas.upenn.edu\n   PCPE 436\n\n\n\nCourse details\n\n   Mon/Wed\n   January 15th - April 30th\n   3:30–4:59 PM\n   PCPE 202\n   Slack\n\n\n\nContacting me\nGeneral questions about the course, materials, or assignments should be posted to the course Slack. This will allow other students to benefit from the answer(s) provided. For other issues (absences, accomodations, etc.), email me or send me a direct message on Slack. I will attempt to respond to these messages within 48 hours, but please be patient!"
+  },
+  {
+    "objectID": "slides/08-migration.html#sviatschi-2022-1",
+    "href": "slides/08-migration.html#sviatschi-2022-1",
+    "title": "Migration 1",
+    "section": "Sviatschi (2022)",
+    "text": "Sviatschi (2022)\n\n\n\nWhat is the effect of mass deportations on the root causes of migration?"
+  },
+  {
+    "objectID": "slides/08-migration.html#debrief",
+    "href": "slides/08-migration.html#debrief",
+    "title": "Migration 1",
+    "section": "Debrief",
+    "text": "Debrief\nSubmissions\n\nYou need to check what you send me…\nRead the basic instructions (quarto + html file)\nI didn’t penalize anyone, but next time I will\n\nResearch Designs\n\nJustify your sample\nJust “controlling for observables” will not get you full credit\nNext week, we’ll cover essentials… bring your questions!"
+  },
+  {
+    "objectID": "slides/08-migration.html#review",
+    "href": "slides/08-migration.html#review",
+    "title": "Migration 1",
+    "section": "Review",
+    "text": "Review\n\n\n\nWhat is an interaction term?\nWhat are fixed effects?"
+  },
+  {
+    "objectID": "slides/08-migration.html#quiz",
+    "href": "slides/08-migration.html#quiz",
+    "title": "Migration 1",
+    "section": "Quiz",
+    "text": "Quiz\n5 minutes: send me a Slack DM with something you learned from this article"
+  },
+  {
+    "objectID": "slides/08-migration.html#trends-displacement",
+    "href": "slides/08-migration.html#trends-displacement",
+    "title": "Migration 1",
+    "section": "Trends: Displacement",
+    "text": "Trends: Displacement"
+  },
+  {
+    "objectID": "slides/08-migration.html#trends-displacement-1",
+    "href": "slides/08-migration.html#trends-displacement-1",
+    "title": "Migration 1",
+    "section": "Trends: Displacement",
+    "text": "Trends: Displacement"
+  },
+  {
+    "objectID": "slides/08-migration.html#trends",
+    "href": "slides/08-migration.html#trends",
+    "title": "Migration 1",
+    "section": "Trends",
+    "text": "Trends\n\n\nWar deaths continue to decline\nInterstate wars are rare by historical standards\nGeopolitical tensions are increasing\nNumber, intensity, complexity, and duration of civil wars are increasing"
+  },
+  {
+    "objectID": "slides/08-migration.html#trends-conflict",
+    "href": "slides/08-migration.html#trends-conflict",
+    "title": "Migration 1",
+    "section": "Trends: Conflict",
+    "text": "Trends: Conflict\n\n\n\n\nWar deaths continue to decline\nInterstate wars are rare by historical standards\nGeopolitical tensions are increasing\nNumber, intensity, complexity, and duration of civil wars are increasing"
+  },
+  {
+    "objectID": "slides/08-migration.html#trends-climate",
+    "href": "slides/08-migration.html#trends-climate",
+    "title": "Migration 1",
+    "section": "Trends: Climate",
+    "text": "Trends: Climate\n\n\n\n78% of global land area has become drier over the past 30 years\nWarmer temperatures are causing extreme weather events"
+  },
+  {
+    "objectID": "slides/08-migration.html#trends-research",
+    "href": "slides/08-migration.html#trends-research",
+    "title": "Migration 1",
+    "section": "Trends: Research",
+    "text": "Trends: Research"
+  },
+  {
+    "objectID": "slides/08-migration.html#trends-research-1",
+    "href": "slides/08-migration.html#trends-research-1",
+    "title": "Migration 1",
+    "section": "Trends: Research",
+    "text": "Trends: Research"
+  },
+  {
+    "objectID": "slides/08-migration.html#impact-on-host-labor-markets",
+    "href": "slides/08-migration.html#impact-on-host-labor-markets",
+    "title": "Migration 1",
+    "section": "Impact on Host: Labor markets",
+    "text": "Impact on Host: Labor markets\n\n\n\n\nWho gets hurt?\nWho benefits?\nNet effects effects?\n\nShort-term challenges\nLong-term growth\n\n\n\n\nBenefit: skilled laborers, formal businesses Hurt: unskilled (women, youth), informal businesses"
+  },
+  {
+    "objectID": "slides/08-migration.html#impact-on-host-other",
+    "href": "slides/08-migration.html#impact-on-host-other",
+    "title": "Migration 1",
+    "section": "Impact on Host: Other",
+    "text": "Impact on Host: Other\n\n\n\n\nService provision\n\nDisplacement effects (public to private)\nDisease burden\n\nPolitics\n\nWealth\nPrior exposure"
+  },
+  {
+    "objectID": "slides/08-migration.html#supporting-migrants",
+    "href": "slides/08-migration.html#supporting-migrants",
+    "title": "Migration 1",
+    "section": "Supporting Migrants",
+    "text": "Supporting Migrants\n\n\nUnique challenges for forced migrants?\n\n\nLoss of assets\nTrauma and mental health\nLegal uncertainty\nLanguage and cultural barriers"
+  },
+  {
+    "objectID": "slides/08-migration.html#supporting-migrants-1",
+    "href": "slides/08-migration.html#supporting-migrants-1",
+    "title": "Migration 1",
+    "section": "Supporting Migrants",
+    "text": "Supporting Migrants\nCash transfers\n\nShort-term increases in consumption, well-being\n\nLabor market integration\n\nIncreased consumption, well-being\nReduced crime, fertility\nKakuma vs Kalobeyei; business mentors"
+  },
+  {
+    "objectID": "slides/08-migration.html#supporting-migrants-2",
+    "href": "slides/08-migration.html#supporting-migrants-2",
+    "title": "Migration 1",
+    "section": "Supporting Migrants",
+    "text": "Supporting Migrants\n\n\n\nMental health\nSocial cohesion\n\nTeacher bias\nShared aid + integration policies\nPerspective-taking, contact"
+  },
+  {
+    "objectID": "slides/08-migration.html#policy-implications-2",
+    "href": "slides/08-migration.html#policy-implications-2",
+    "title": "Migration 1",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\n\n\nAddressing pull factors can have unintended affects on push factors in complex ways"
+  },
+  {
+    "objectID": "slides/08-migration.html#trends-conflict-1",
+    "href": "slides/08-migration.html#trends-conflict-1",
+    "title": "Migration 1",
+    "section": "Trends: Conflict",
+    "text": "Trends: Conflict"
   }
 ]
