@@ -324,28 +324,28 @@
   {
     "objectID": "materials/c5_gender.html",
     "href": "materials/c5_gender.html",
-    "title": "Gender and Development",
+    "title": "Github Pages",
     "section": "",
     "text": "Chattopadhyay and Duflo, 2004"
   },
   {
     "objectID": "materials/c5_gender.html#required-readings",
     "href": "materials/c5_gender.html#required-readings",
-    "title": "Gender and Development",
+    "title": "Github Pages",
     "section": "",
     "text": "Chattopadhyay and Duflo, 2004"
   },
   {
     "objectID": "materials/c5_gender.html#suggested-readings",
     "href": "materials/c5_gender.html#suggested-readings",
-    "title": "Gender and Development",
+    "title": "Github Pages",
     "section": "Suggested Readings",
     "text": "Suggested Readings\n\nBrambor, Roberts and Golder, 2017"
   },
   {
     "objectID": "materials/c5_gender.html#slides",
     "href": "materials/c5_gender.html#slides",
-    "title": "Gender and Development",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
@@ -2083,7 +2083,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should complete the required readings before each meeting.\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting\nWorkshop (): A link to the workshop for that week\nAssignment (): This page contains the instructions for each assignment\n\nThe readings refer to following texts:\n\nDSS: Data Analysis for Social Science: A Friendly and Practical Introduction (DSS) by Kosuke Imai and Elena Llaudet \n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nWorkshop\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 15\n\n\nIntroduction to the course (JS)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 20\n\n\nMLK Jr. Day (no classes)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 22\n\n\nCorrelation vs. Causation (CT)\n\n\nDSS Ch 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 27\n\n\nCausality (CT)\n\n\nDSS Ch 5\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 29\n\n\nRstudio and Quarto Workshop (JS)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 3\n\n\nDemocracy and Autocracy (CT)\n\n\nPrzeworski 2024, Grossman et. al., 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 5\n\n\nDemocracy and Development (CT)\n\n\nAcemoglu et. al., 2008\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 10\n\n\nFinal Project Overview (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 12\n\n\nLinear Regression and Uncertainty (CT)\n\n\nDSS Ch 3 and 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 17\n\n\nRepresentation and Accountability (CT)\n\n\nManin, Przeworski, and Stokes, 1999; Ferraz and Finan, 2011\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 19\n\n\nRepresentation and Accountability Reconsidered (CT)\n\n\nDunning et. al. 2019\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 24\n\n\nGithub Workshop (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 26\n\n\nWorkshop\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 3\n\n\nCrime and Punishment (CT)\n\n\nBateson, 2012; Weaver and Lerman, 2010\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 5\n\n\nCrime and Punishment 2 (CT)\n\n\nGustavo A. Flores-Macías and Jessica Zarkin, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 10\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 12\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 17\n\n\nGender (CT)\n\n\nChattopadhyay and Duflo, 2004\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 19\n\n\nMigration 1 (JS)\n\n\nRozo and Grossman (2025); Sviatschi (2022); Gazeaud (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 24\n\n\nFinal Project Essentials (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 26\n\n\nText as Data workshop (CT)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nMarch 31\n\n\nForeign Aid and NGOs 1 (JS)\n\n\nBriggs (2016); Briggs (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 2\n\n\nForeign Aid and NGOs 2 (JS)\n\n\nCruz (2017); Bold et al. (2018)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 7\n\n\nClimate and Development (JS)\n\n\nO’Brien-Udry (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 9\n\n\nClimate and Development 2 (JS)\n\n\nNamrata (2023); Alberto et al. (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 14\n\n\nFinal Project Preparation (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 16\n\n\nGithub Pages (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 21\n\n\nState Capacity (JS)\n\n\nFukuyama (2013); Ekeh (1975); Di Maro et al. (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 23\n\n\nTBD (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nConclusion (JS)\n\n\nAssorted short pieces\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 17\n\n\n\n\nMay 10\n\n\nFinal Project Due"
+    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should complete the required readings before each meeting.\nHere’s a guide to the schedule:\n\nMaterials (): This page contains the readings and slides for the meeting\nWorkshop (): A link to the workshop for that week\nAssignment (): This page contains the instructions for each assignment\n\nThe readings refer to following texts:\n\nDSS: Data Analysis for Social Science: A Friendly and Practical Introduction (DSS) by Kosuke Imai and Elena Llaudet \n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nWorkshop\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nJanuary 15\n\n\nIntroduction to the course (JS)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nJanuary 20\n\n\nMLK Jr. Day (no classes)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 22\n\n\nCorrelation vs. Causation (CT)\n\n\nDSS Ch 2\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nJanuary 27\n\n\nCausality (CT)\n\n\nDSS Ch 5\n\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary 29\n\n\nRstudio and Quarto Workshop (JS)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nFebruary 3\n\n\nDemocracy and Autocracy (CT)\n\n\nPrzeworski 2024, Grossman et. al., 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 5\n\n\nDemocracy and Development (CT)\n\n\nAcemoglu et. al., 2008\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nFebruary 10\n\n\nFinal Project Overview (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 12\n\n\nLinear Regression and Uncertainty (CT)\n\n\nDSS Ch 3 and 4\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nFebruary 17\n\n\nRepresentation and Accountability (CT)\n\n\nManin, Przeworski, and Stokes, 1999; Ferraz and Finan, 2011\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 19\n\n\nRepresentation and Accountability Reconsidered (CT)\n\n\nDunning et. al. 2019\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nFebruary 24\n\n\nGithub Workshop (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary 26\n\n\nGithub Workshop (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nMarch 3\n\n\nCrime and Punishment (CT)\n\n\nBateson, 2012; Weaver and Lerman, 2010\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 5\n\n\nCrime and Punishment 2 (CT)\n\n\nGustavo A. Flores-Macías and Jessica Zarkin, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nMarch 10\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 12\n\n\nSpring Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nMarch 17\n\n\nGender (CT)\n\n\nChattopadhyay and Duflo, 2004\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 19\n\n\nMigration 1 (JS)\n\n\nRozo and Grossman (2025); Sviatschi (2022); Gazeaud (2020)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nMarch 24\n\n\nFinal Project Essentials (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch 26\n\n\nText as Data workshop (CT)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nMarch 31\n\n\nForeign Aid and NGOs 1 (JS)\n\n\nBriggs (2016); Briggs (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 2\n\n\nForeign Aid and NGOs 2 (JS)\n\n\nCruz (2017); Bold et al. (2018)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nApril 7\n\n\nClimate and Development (JS)\n\n\nO’Brien-Udry (2023)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 9\n\n\nClimate and Development 2 (JS)\n\n\nNamrata (2023); Alberto et al. (2022)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nApril 14\n\n\nFinal Project Preparation (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 16\n\n\nGithub Pages (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\n\n\nApril 21\n\n\nState Capacity (JS)\n\n\nFukuyama (2013); Ekeh (1975); Di Maro et al. (2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril 23\n\n\nTBD (JS)\n\n\nNo readings\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 16\n\n\n\n\nApril 30\n\n\nConclusion (JS)\n\n\nAssorted short pieces\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 17\n\n\n\n\nMay 10\n\n\nFinal Project Due"
   },
   {
     "objectID": "assignments/aau_survey.html",
@@ -4657,70 +4657,70 @@
   {
     "objectID": "materials/c4_crime.html",
     "href": "materials/c4_crime.html",
-    "title": "Crime and Punishment II",
+    "title": "Github Pages",
     "section": "",
     "text": "Flores-Macías and Zarkin, 2024"
   },
   {
     "objectID": "materials/c4_crime.html#required-readings",
     "href": "materials/c4_crime.html#required-readings",
-    "title": "Crime and Punishment II",
+    "title": "Github Pages",
     "section": "",
     "text": "Flores-Macías and Zarkin, 2024"
   },
   {
     "objectID": "materials/c4_crime.html#suggested-reading",
     "href": "materials/c4_crime.html#suggested-reading",
-    "title": "Crime and Punishment II",
+    "title": "Github Pages",
     "section": "Suggested Reading",
     "text": "Suggested Reading\n\nSlough and Fariss, 2021"
   },
   {
     "objectID": "materials/c2_accountability.html",
     "href": "materials/c2_accountability.html",
-    "title": "Representation and Accountability",
+    "title": "Github Pages",
     "section": "",
     "text": "Dunning et. al.(2019)"
   },
   {
     "objectID": "materials/c2_accountability.html#required-readings",
     "href": "materials/c2_accountability.html#required-readings",
-    "title": "Representation and Accountability",
+    "title": "Github Pages",
     "section": "",
     "text": "Dunning et. al.(2019)"
   },
   {
     "objectID": "materials/c2_accountability.html#slides",
     "href": "materials/c2_accountability.html#slides",
-    "title": "Representation and Accountability",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides\n\n\nWorkshop\n\nDownload the R Script for multiple regression basics"
   },
   {
     "objectID": "materials/27_conclusion.html",
     "href": "materials/27_conclusion.html",
-    "title": "Conclusion",
+    "title": "Github Pages",
     "section": "",
     "text": "Opalo’s blog post 1\nOpalo’s blog post 2\nBlattman on Cash Transfers\nSandefur et al. (2024)\n\nThere’s a longer version linked at the top if you’re interested"
   },
   {
     "objectID": "materials/27_conclusion.html#required-readings",
     "href": "materials/27_conclusion.html#required-readings",
-    "title": "Conclusion",
+    "title": "Github Pages",
     "section": "",
     "text": "Opalo’s blog post 1\nOpalo’s blog post 2\nBlattman on Cash Transfers\nSandefur et al. (2024)\n\nThere’s a longer version linked at the top if you’re interested"
   },
   {
     "objectID": "materials/27_conclusion.html#slides",
     "href": "materials/27_conclusion.html#slides",
-    "title": "Conclusion",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/27_conclusion.html#supplementary-readings-non-required",
     "href": "materials/27_conclusion.html#supplementary-readings-non-required",
-    "title": "Conclusion",
+    "title": "Github Pages",
     "section": "Supplementary Readings (non-required)",
     "text": "Supplementary Readings (non-required)\n\nOpalo on energy\nGiveDirectly on Cash Transfers\nSmall vs Large Cash Transfers\n\nFull-length version\n\nBlattman et al. (2017)\n\nYou can access this with a free Penn NYT subscription\nCheckout the follow-up study of longer-run effects if you’re interested"
   },
@@ -4741,343 +4741,343 @@
   {
     "objectID": "materials/22_climate1.html",
     "href": "materials/22_climate1.html",
-    "title": "Climate and Development 1",
+    "title": "Github Pages",
     "section": "",
-    "text": "O’Brien-Udry (working paper)\nSeiler et al. (2023)\nSeiler et al. (2023)"
+    "text": "O’Brien-Udry (working paper)\nSeiler et al. (2023)\nSeiler et al. (2023)\n\n\n\n\n\n\n\nNone\n\n\n\n\n\nSlides\n\n\n\n\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
   },
   {
     "objectID": "materials/22_climate1.html#required-readings",
     "href": "materials/22_climate1.html#required-readings",
-    "title": "Climate and Development 1",
+    "title": "Github Pages",
     "section": "",
     "text": "O’Brien-Udry (working paper)\nSeiler et al. (2023)\nSeiler et al. (2023)"
   },
   {
     "objectID": "materials/20_aid1.html",
     "href": "materials/20_aid1.html",
-    "title": "Foreign Aid 1",
+    "title": "Github Pages",
     "section": "",
     "text": "Briggs (2016)\nBriggs (2021)"
   },
   {
     "objectID": "materials/20_aid1.html#required-readings",
     "href": "materials/20_aid1.html#required-readings",
-    "title": "Foreign Aid 1",
+    "title": "Github Pages",
     "section": "",
     "text": "Briggs (2016)\nBriggs (2021)"
   },
   {
     "objectID": "materials/20_aid1.html#slides",
     "href": "materials/20_aid1.html#slides",
-    "title": "Foreign Aid 1",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/18_accountability2.html",
     "href": "materials/18_accountability2.html",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "",
     "text": "Jablonski and Seim (2023)"
   },
   {
     "objectID": "materials/18_accountability2.html#required-readings",
     "href": "materials/18_accountability2.html#required-readings",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "",
     "text": "Jablonski and Seim (2023)"
   },
   {
     "objectID": "materials/18_accountability2.html#slides",
     "href": "materials/18_accountability2.html#slides",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/16_democracy3.html",
     "href": "materials/16_democracy3.html",
-    "title": "Democracy and Autocratization 3",
+    "title": "Github Pages",
     "section": "",
     "text": "Hassan et al. (2022)\nLebas and Young (2023)"
   },
   {
     "objectID": "materials/16_democracy3.html#required-readings",
     "href": "materials/16_democracy3.html#required-readings",
-    "title": "Democracy and Autocratization 3",
+    "title": "Github Pages",
     "section": "",
     "text": "Hassan et al. (2022)\nLebas and Young (2023)"
   },
   {
     "objectID": "materials/16_democracy3.html#slides",
     "href": "materials/16_democracy3.html#slides",
-    "title": "Democracy and Autocratization 3",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/16_democracy3.html#interesting-stuff-non-required",
     "href": "materials/16_democracy3.html#interesting-stuff-non-required",
-    "title": "Democracy and Autocratization 3",
+    "title": "Github Pages",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\n\nGrillo et al. (2023)"
   },
   {
     "objectID": "materials/14_fp_essentials.html",
     "href": "materials/14_fp_essentials.html",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "",
     "text": "None"
   },
   {
     "objectID": "materials/14_fp_essentials.html#required-readings",
     "href": "materials/14_fp_essentials.html#required-readings",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "",
     "text": "None"
   },
   {
     "objectID": "materials/14_fp_essentials.html#slides",
     "href": "materials/14_fp_essentials.html#slides",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/14_fp_essentials.html#assignments",
     "href": "materials/14_fp_essentials.html#assignments",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "Assignments",
     "text": "Assignments\n\nFinal Project Research Question and Idea"
   },
   {
     "objectID": "materials/14_fp_essentials.html#workshop",
     "href": "materials/14_fp_essentials.html#workshop",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "Workshop",
     "text": "Workshop\n\nWorkshop Code and Data"
   },
   {
     "objectID": "materials/12_github.html",
     "href": "materials/12_github.html",
-    "title": "Git, Github, Github Pages",
+    "title": "Github Pages",
     "section": "",
     "text": "None"
   },
   {
     "objectID": "materials/12_github.html#required-readings",
     "href": "materials/12_github.html#required-readings",
-    "title": "Git, Github, Github Pages",
+    "title": "Github Pages",
     "section": "",
     "text": "None"
   },
   {
     "objectID": "materials/12_github.html#slides",
     "href": "materials/12_github.html#slides",
-    "title": "Git, Github, Github Pages",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/12_github.html#resources",
     "href": "materials/12_github.html#resources",
-    "title": "Git, Github, Github Pages",
+    "title": "Github Pages",
     "section": "Resources",
     "text": "Resources\n\nTo learn more about using git with R, check out happygitwithr.com\nIf you don’t have git installed on your laptop, use these installation instructions"
   },
   {
     "objectID": "materials/11_crime.html",
     "href": "materials/11_crime.html",
-    "title": "Crime and Corruption",
+    "title": "Github Pages",
     "section": "",
-    "text": "Angelova et al. (2023)\n\nYou can skim the section on “Model Setup.” Just focus on the big picture issue of humans and AI in decision-making.\n\n\n\n\n\n\nNone"
+    "text": "Angelova et al. (2023)\n\nYou can skim the section on “Model Setup.” Just focus on the big picture issue of humans and AI in decision-making.\n\n\n\n\n\n\nNone\n\n\n\n\n\n\n\n\n\n\nNone\n\n\n\n\n\nSlides\n\n\n\n\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
   },
   {
     "objectID": "materials/11_crime.html#required-readings",
     "href": "materials/11_crime.html#required-readings",
-    "title": "Crime and Corruption",
+    "title": "Github Pages",
     "section": "",
     "text": "Angelova et al. (2023)\n\nYou can skim the section on “Model Setup.” Just focus on the big picture issue of humans and AI in decision-making."
   },
   {
     "objectID": "materials/11_crime.html#slides",
     "href": "materials/11_crime.html#slides",
-    "title": "Crime and Corruption",
+    "title": "Github Pages",
     "section": "",
     "text": "None"
   },
   {
     "objectID": "materials/08_migration.html",
     "href": "materials/08_migration.html",
-    "title": "Migration",
+    "title": "Github Pages",
     "section": "",
     "text": "Rozo and Grossman (2025) (download the pdf and/or watch the YouTube video)\nGazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck (2020)\nSviatschi (2022)"
   },
   {
     "objectID": "materials/08_migration.html#required-readings",
     "href": "materials/08_migration.html#required-readings",
-    "title": "Migration",
+    "title": "Github Pages",
     "section": "",
     "text": "Rozo and Grossman (2025) (download the pdf and/or watch the YouTube video)\nGazeaud, Jules, Eric Mvukiyehe, and Olivier Sterck (2020)\nSviatschi (2022)"
   },
   {
     "objectID": "materials/08_migration.html#slides",
     "href": "materials/08_migration.html#slides",
-    "title": "Migration",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/08_migration.html#interesting-stuff-non-required",
     "href": "materials/08_migration.html#interesting-stuff-non-required",
-    "title": "Migration",
+    "title": "Github Pages",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\n\n3ie Addressing Root Causes and Drivers of Irregular Migration\n3ie Evidence Gap Map\nTCD Ch 3\nRose et al. 2021\nUN World Immigration Report\nEvidence Action We’re Shutting Down No Lean Season, Our Seasonal Migration Program: Here’s Why\nGamso and Yuldashev (2018)"
   },
   {
     "objectID": "materials/07_causal.html",
     "href": "materials/07_causal.html",
-    "title": "Causal Inference 3",
+    "title": "Github Pages",
     "section": "",
     "text": "DSS Ch 5\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
   },
   {
     "objectID": "materials/07_causal.html#required-readings",
     "href": "materials/07_causal.html#required-readings",
-    "title": "Causal Inference 3",
+    "title": "Github Pages",
     "section": "",
     "text": "DSS Ch 5\n\ninteractive visualization: linear model\ninteractive visualization: OLS"
   },
   {
     "objectID": "materials/07_causal.html#assignment",
     "href": "materials/07_causal.html#assignment",
-    "title": "Causal Inference 3",
+    "title": "Github Pages",
     "section": "Assignment",
     "text": "Assignment\n\nNone"
   },
   {
     "objectID": "materials/07_causal.html#slides",
     "href": "materials/07_causal.html#slides",
-    "title": "Causal Inference 3",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/07_causal.html#interesting-stuff-non-required",
     "href": "materials/07_causal.html#interesting-stuff-non-required",
-    "title": "Causal Inference 3",
+    "title": "Github Pages",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\n\nThe Peisakhin and Rozenas (2018) article that Llaudet discusses in the chapter"
   },
   {
     "objectID": "materials/06_autocracy2.html",
     "href": "materials/06_autocracy2.html",
-    "title": "Democracy and Autocracy II",
+    "title": "Github Pages",
     "section": "",
     "text": "Acemoglu et. al. (2008)"
   },
   {
     "objectID": "materials/06_autocracy2.html#required-readings",
     "href": "materials/06_autocracy2.html#required-readings",
-    "title": "Democracy and Autocracy II",
+    "title": "Github Pages",
     "section": "",
     "text": "Acemoglu et. al. (2008)"
   },
   {
     "objectID": "materials/06_autocracy2.html#slides",
     "href": "materials/06_autocracy2.html#slides",
-    "title": "Democracy and Autocracy II",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/06_autocracy2.html#interesting-stuff-non-required",
     "href": "materials/06_autocracy2.html#interesting-stuff-non-required",
-    "title": "Democracy and Autocracy II",
+    "title": "Github Pages",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\n\nA simple explanation of why we use Fixed Effects here"
   },
   {
     "objectID": "materials/05_autocracy1.html",
     "href": "materials/05_autocracy1.html",
-    "title": "Democracy and Autocracy",
+    "title": "Github Pages",
     "section": "",
     "text": "Adam Przeworski (2024)\nGrossman et. al. (2022)"
   },
   {
     "objectID": "materials/05_autocracy1.html#required-readings",
     "href": "materials/05_autocracy1.html#required-readings",
-    "title": "Democracy and Autocracy",
+    "title": "Github Pages",
     "section": "",
     "text": "Adam Przeworski (2024)\nGrossman et. al. (2022)"
   },
   {
     "objectID": "materials/05_autocracy1.html#slides",
     "href": "materials/05_autocracy1.html#slides",
-    "title": "Democracy and Autocracy",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/05_autocracy1.html#interesting-stuff-non-required",
     "href": "materials/05_autocracy1.html#interesting-stuff-non-required",
-    "title": "Democracy and Autocracy",
+    "title": "Github Pages",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\n\nA nice paper comparing the four main cross-country data sources on democracy-autocracy here\nA classic overview of theories what 1990’s empirical results tell us about theories of democratization. Check it out here"
   },
   {
     "objectID": "materials/03_causal.html",
     "href": "materials/03_causal.html",
-    "title": "Causality",
+    "title": "Github Pages",
     "section": "",
     "text": "DSS Ch 5"
   },
   {
     "objectID": "materials/03_causal.html#required-readings",
     "href": "materials/03_causal.html#required-readings",
-    "title": "Causality",
+    "title": "Github Pages",
     "section": "",
     "text": "DSS Ch 5"
   },
   {
     "objectID": "materials/03_causal.html#tasks",
     "href": "materials/03_causal.html#tasks",
-    "title": "Causality",
+    "title": "Github Pages",
     "section": "Tasks",
     "text": "Tasks\n\nCreate a github account and post your git handle to the #general channel on the course Slack"
   },
   {
     "objectID": "materials/03_causal.html#slides",
     "href": "materials/03_causal.html#slides",
-    "title": "Causality",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/03_causal.html#interesting-stuff-non-required",
     "href": "materials/03_causal.html#interesting-stuff-non-required",
-    "title": "Causality",
+    "title": "Github Pages",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\n\nCause, Effect, and the Structure of the Social World by Megan Stevenson\n\nThis very recent article argues that the types of interventions that get evaluated using RCTs are unlikely to create meaningful change because of the way the social world is structured. In essence, we are not actually able to engineer real change. Stevenson provides evidence from a meta-analysis of experimental criminology research."
   },
   {
     "objectID": "materials/01_intro.html",
     "href": "materials/01_intro.html",
-    "title": "Introduction to PSCI 3200",
+    "title": "Github Pages",
     "section": "",
     "text": "Review the syllabus and schedule"
   },
   {
     "objectID": "materials/01_intro.html#required-readings",
     "href": "materials/01_intro.html#required-readings",
-    "title": "Introduction to PSCI 3200",
+    "title": "Github Pages",
     "section": "",
     "text": "Review the syllabus and schedule"
   },
   {
     "objectID": "materials/01_intro.html#slides",
     "href": "materials/01_intro.html#slides",
-    "title": "Introduction to PSCI 3200",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nMonday (1/15) lecture: Slides"
   },
@@ -5140,448 +5140,448 @@
   {
     "objectID": "materials/02_causal.html",
     "href": "materials/02_causal.html",
-    "title": "Correlation and Causation",
+    "title": "Github Pages",
     "section": "",
     "text": "DSS Ch 2 (cheatsheet)"
   },
   {
     "objectID": "materials/02_causal.html#required-readings",
     "href": "materials/02_causal.html#required-readings",
-    "title": "Correlation and Causation",
+    "title": "Github Pages",
     "section": "",
     "text": "DSS Ch 2 (cheatsheet)"
   },
   {
     "objectID": "materials/02_causal.html#tasks",
     "href": "materials/02_causal.html#tasks",
-    "title": "Correlation and Causation",
+    "title": "Github Pages",
     "section": "Tasks",
     "text": "Tasks\n\nComplete the PSCI 3200 Student Survey\nGet logged-in on the course  Slack"
   },
   {
     "objectID": "materials/02_causal.html#slides",
     "href": "materials/02_causal.html#slides",
-    "title": "Correlation and Causation",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/04_sampling.html",
     "href": "materials/04_sampling.html",
-    "title": "Sampling and Population Characteristics",
+    "title": "Github Pages",
     "section": "",
     "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation"
   },
   {
     "objectID": "materials/04_sampling.html#required-readings",
     "href": "materials/04_sampling.html#required-readings",
-    "title": "Sampling and Population Characteristics",
+    "title": "Github Pages",
     "section": "",
     "text": "DSS Ch 3\n\ninteractive visualization: sampling\ninteractive visualization: mean and sd\ninteractive visualization: correlation"
   },
   {
     "objectID": "materials/04_sampling.html#assignment",
     "href": "materials/04_sampling.html#assignment",
-    "title": "Sampling and Population Characteristics",
+    "title": "Github Pages",
     "section": "Assignment",
     "text": "Assignment\n\nInstall Quarto and produce a blank document\n\nInstructions\nIntro to Quarto"
   },
   {
     "objectID": "materials/04_sampling.html#slides",
     "href": "materials/04_sampling.html#slides",
-    "title": "Sampling and Population Characteristics",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/04_sampling.html#interesting-stuff-non-required",
     "href": "materials/04_sampling.html#interesting-stuff-non-required",
-    "title": "Sampling and Population Characteristics",
+    "title": "Github Pages",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\n\nAndrew Heiss’s Quarto Resource\nHadley Wickham’s Quarto Guide"
   },
   {
     "objectID": "materials/05_quarto.html",
     "href": "materials/05_quarto.html",
-    "title": "R, RStudio, and Quarto",
+    "title": "Github Pages",
     "section": "",
     "text": "Install RStudio\n\nInstructions\n\nInstall Quarto\n\nInstructions"
   },
   {
     "objectID": "materials/05_quarto.html#assignment",
     "href": "materials/05_quarto.html#assignment",
-    "title": "R, RStudio, and Quarto",
+    "title": "Github Pages",
     "section": "",
     "text": "Install RStudio\n\nInstructions\n\nInstall Quarto\n\nInstructions"
   },
   {
     "objectID": "materials/05_quarto.html#materials",
     "href": "materials/05_quarto.html#materials",
-    "title": "R, RStudio, and Quarto",
+    "title": "Github Pages",
     "section": "Materials",
     "text": "Materials\nPlease download the R Tutorial Source script using the link below. I will be using the R Tutorial Source file (.qmd) to lead the session. The R Tutorial Visual contains a link to a rendered version of the R Tutorial Source that you can open as an .html document in your web browser. If you prefer, you can copy and paste code from the html file into RStudio.\n\nR + Quarto Slides\nR Tutorial Source (.qmd)\nR Tutorial Visual (.html)\nData\nGithub Slides\n\n\n\n\n\n\n\nNote\n\n\n\nAll materials for this course are available on the git repo. Rendered materials (usually .html) are available in the psci3200-globaldev/docs folder. Source code (usually .qmd) for slides, workshops, assignments, and all other materials are available in their respective subfolders."
   },
   {
     "objectID": "materials/06_regression.html",
     "href": "materials/06_regression.html",
-    "title": "Regression",
+    "title": "Github Pages",
     "section": "",
     "text": "DSS Ch 3\nDSS Ch 4"
   },
   {
     "objectID": "materials/06_regression.html#required-readings",
     "href": "materials/06_regression.html#required-readings",
-    "title": "Regression",
+    "title": "Github Pages",
     "section": "",
     "text": "DSS Ch 3\nDSS Ch 4"
   },
   {
     "objectID": "materials/06_regression.html#assignment",
     "href": "materials/06_regression.html#assignment",
-    "title": "Regression",
+    "title": "Github Pages",
     "section": "Assignment",
     "text": "Assignment\n\nCreate Github repo for the course\n\nInstructions\nGit with R\nBlackwell tutorial"
   },
   {
     "objectID": "materials/06_regression.html#slides",
     "href": "materials/06_regression.html#slides",
-    "title": "Regression",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/08_final_project.html",
     "href": "materials/08_final_project.html",
-    "title": "Final Project Overview",
+    "title": "Github Pages",
     "section": "",
     "text": "None"
   },
   {
     "objectID": "materials/08_final_project.html#required-readings",
     "href": "materials/08_final_project.html#required-readings",
-    "title": "Final Project Overview",
+    "title": "Github Pages",
     "section": "",
     "text": "None"
   },
   {
     "objectID": "materials/08_final_project.html#slides",
     "href": "materials/08_final_project.html#slides",
-    "title": "Final Project Overview",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/08_final_project.html#final-project-touchpoints",
     "href": "materials/08_final_project.html#final-project-touchpoints",
-    "title": "Final Project Overview",
+    "title": "Github Pages",
     "section": "Final Project Touchpoints",
     "text": "Final Project Touchpoints\n\n\n\nMilestone\nDue Date\n\n\n\n\nCreate a GitHub repository\nFeb 17\n\n\nResearch Question and Data\nFeb 19\n\n\nResearch Design\nMar 5\n\n\nSubmit proposal\nApr 2\n\n\nSubmit final project\nMay 10"
   },
   {
     "objectID": "materials/10_crime.html",
     "href": "materials/10_crime.html",
-    "title": "Crime and Corruption",
+    "title": "Github Pages",
     "section": "",
-    "text": "Dell (2015)\nSviatschi (2022)\n\n\n\n\n\nNone"
+    "text": "Dell (2015)\nSviatschi (2022)\n\n\n\n\n\nNone\n\n\n\n\n\n\n\n\n\n\nNone\n\n\n\n\n\nSlides\n\n\n\n\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
   },
   {
     "objectID": "materials/10_crime.html#required-readings",
     "href": "materials/10_crime.html#required-readings",
-    "title": "Crime and Corruption",
+    "title": "Github Pages",
     "section": "",
     "text": "Dell (2015)\nSviatschi (2022)"
   },
   {
     "objectID": "materials/10_crime.html#slides",
     "href": "materials/10_crime.html#slides",
-    "title": "Crime and Corruption",
+    "title": "Github Pages",
     "section": "",
     "text": "None"
   },
   {
     "objectID": "materials/12_conflict.html",
     "href": "materials/12_conflict.html",
-    "title": "Conflict and Cohesion",
+    "title": "Github Pages",
     "section": "",
     "text": "Paluck et al. (2021)\nMousa (2020)\nGrady et al. (2023)"
   },
   {
     "objectID": "materials/12_conflict.html#required-readings",
     "href": "materials/12_conflict.html#required-readings",
-    "title": "Conflict and Cohesion",
+    "title": "Github Pages",
     "section": "",
     "text": "Paluck et al. (2021)\nMousa (2020)\nGrady et al. (2023)"
   },
   {
     "objectID": "materials/12_conflict.html#slides",
     "href": "materials/12_conflict.html#slides",
-    "title": "Conflict and Cohesion",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/12_conflict.html#interesting-stuff-non-required",
     "href": "materials/12_conflict.html#interesting-stuff-non-required",
-    "title": "Conflict and Cohesion",
+    "title": "Github Pages",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\n\nRicart-Huguet and Paluck (2023)"
   },
   {
     "objectID": "materials/13_conflict.html",
     "href": "materials/13_conflict.html",
-    "title": "Conflict and Cohesion",
+    "title": "Github Pages",
     "section": "",
     "text": "None"
   },
   {
     "objectID": "materials/13_conflict.html#required-readings",
     "href": "materials/13_conflict.html#required-readings",
-    "title": "Conflict and Cohesion",
+    "title": "Github Pages",
     "section": "",
     "text": "None"
   },
   {
     "objectID": "materials/13_conflict.html#slides",
     "href": "materials/13_conflict.html#slides",
-    "title": "Conflict and Cohesion",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/13_conflict.html#workshop",
     "href": "materials/13_conflict.html#workshop",
-    "title": "Conflict and Cohesion",
+    "title": "Github Pages",
     "section": "Workshop",
     "text": "Workshop\n\nWorkshop\nData\nCode"
   },
   {
     "objectID": "materials/15_democracy2.html",
     "href": "materials/15_democracy2.html",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "",
     "text": "VDem (2024); pages 9-45\n\nInteractive visualization\n\nGarcia-Ponce and Wantchekon (2023)"
   },
   {
     "objectID": "materials/15_democracy2.html#required-readings",
     "href": "materials/15_democracy2.html#required-readings",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "",
     "text": "VDem (2024); pages 9-45\n\nInteractive visualization\n\nGarcia-Ponce and Wantchekon (2023)"
   },
   {
     "objectID": "materials/15_democracy2.html#slides",
     "href": "materials/15_democracy2.html#slides",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/15_democracy2.html#interesting-stuff-non-required",
     "href": "materials/15_democracy2.html#interesting-stuff-non-required",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "Interesting Stuff (non-required)",
     "text": "Interesting Stuff (non-required)\n\nBush et al. (2023)\nWaldner and Lust (2018)\nSvolik (2019)"
   },
   {
     "objectID": "materials/17_accountability1.html",
     "href": "materials/17_accountability1.html",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "",
     "text": "de la Sierra (2020)\nJablonski and Seim (2023)"
   },
   {
     "objectID": "materials/17_accountability1.html#required-readings",
     "href": "materials/17_accountability1.html#required-readings",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "",
     "text": "de la Sierra (2020)\nJablonski and Seim (2023)"
   },
   {
     "objectID": "materials/17_accountability1.html#slides",
     "href": "materials/17_accountability1.html#slides",
-    "title": "Final Project Essentials",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/19_accountability3.html",
     "href": "materials/19_accountability3.html",
-    "title": "Accountability and Information 3",
+    "title": "Github Pages",
     "section": "",
     "text": "Dunning et al. (2019)\n\nSupplementary Material"
   },
   {
     "objectID": "materials/19_accountability3.html#required-readings",
     "href": "materials/19_accountability3.html#required-readings",
-    "title": "Accountability and Information 3",
+    "title": "Github Pages",
     "section": "",
     "text": "Dunning et al. (2019)\n\nSupplementary Material"
   },
   {
     "objectID": "materials/19_accountability3.html#slides",
     "href": "materials/19_accountability3.html#slides",
-    "title": "Accountability and Information 3",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/19_accountability3.html#additional-readings-non-required",
     "href": "materials/19_accountability3.html#additional-readings-non-required",
-    "title": "Accountability and Information 3",
+    "title": "Github Pages",
     "section": "Additional Readings (non-required)",
     "text": "Additional Readings (non-required)\n\nAnnual Review on Accountability\nAnnual Review on Distributive Politics"
   },
   {
     "objectID": "materials/21_aid2.html",
     "href": "materials/21_aid2.html",
-    "title": "Foreign Aid 2",
+    "title": "Github Pages",
     "section": "",
     "text": "Cruz (2016)\nBold et al. (2018)"
   },
   {
     "objectID": "materials/21_aid2.html#required-readings",
     "href": "materials/21_aid2.html#required-readings",
-    "title": "Foreign Aid 2",
+    "title": "Github Pages",
     "section": "",
     "text": "Cruz (2016)\nBold et al. (2018)"
   },
   {
     "objectID": "materials/21_aid2.html#slides",
     "href": "materials/21_aid2.html#slides",
-    "title": "Foreign Aid 2",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/21_aid2.html#supplementary-readings-non-requred",
     "href": "materials/21_aid2.html#supplementary-readings-non-requred",
-    "title": "Foreign Aid 2",
+    "title": "Github Pages",
     "section": "Supplementary Readings (Non-Requred)",
     "text": "Supplementary Readings (Non-Requred)\n\nEvans et al. (2021)"
   },
   {
     "objectID": "materials/23_climate2.html",
     "href": "materials/23_climate2.html",
-    "title": "Climate and Development 2",
+    "title": "Github Pages",
     "section": "",
     "text": "Albert et al. (2022)\nNamrata (2023)\n\nVideo lecture version"
   },
   {
     "objectID": "materials/23_climate2.html#required-readings",
     "href": "materials/23_climate2.html#required-readings",
-    "title": "Climate and Development 2",
+    "title": "Github Pages",
     "section": "",
     "text": "Albert et al. (2022)\nNamrata (2023)\n\nVideo lecture version"
   },
   {
     "objectID": "materials/23_climate2.html#slides",
     "href": "materials/23_climate2.html#slides",
-    "title": "Climate and Development 2",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/23_climate2.html#supplementary-readings-non-required",
     "href": "materials/23_climate2.html#supplementary-readings-non-required",
-    "title": "Climate and Development 2",
+    "title": "Github Pages",
     "section": "Supplementary Readings (non-required)",
     "text": "Supplementary Readings (non-required)\n\nJayachandran (2017)\nJayachandran VoxDev Podcast\nBurgess VoxDev Podcast\nBurgess (2024)"
   },
   {
     "objectID": "materials/26_capacity.html",
     "href": "materials/26_capacity.html",
-    "title": "State Capacity and Development",
+    "title": "Github Pages",
     "section": "",
-    "text": "Fukuyama (2013)\nEkeh (1975)\nDi Maro et al. (2021)\n\nNote: Figures and tables are located after the Conclusion\n\n\n\n\n\n\nSlides"
+    "text": "Fukuyama (2013)\nEkeh (1975)\nDi Maro et al. (2021)\n\nNote: Figures and tables are located after the Conclusion\n\n\n\n\n\n\nSlides\n\n\n\n\n\n\n\nNone\n\n\n\n\n\nSlides\n\n\n\n\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
   },
   {
     "objectID": "materials/26_capacity.html#required-readings",
     "href": "materials/26_capacity.html#required-readings",
-    "title": "State Capacity and Development",
+    "title": "Github Pages",
     "section": "",
     "text": "Fukuyama (2013)\nEkeh (1975)\nDi Maro et al. (2021)\n\nNote: Figures and tables are located after the Conclusion"
   },
   {
     "objectID": "materials/26_capacity.html#slides",
     "href": "materials/26_capacity.html#slides",
-    "title": "State Capacity and Development",
+    "title": "Github Pages",
     "section": "",
     "text": "Slides"
   },
   {
     "objectID": "materials/c1_accountability.html",
     "href": "materials/c1_accountability.html",
-    "title": "Representation and Accountability",
+    "title": "Github Pages",
     "section": "",
     "text": "Manin, Przeworski, and Stokes. Chapter 1 (1999)\nFerraz and Finan, 2011"
   },
   {
     "objectID": "materials/c1_accountability.html#required-readings",
     "href": "materials/c1_accountability.html#required-readings",
-    "title": "Representation and Accountability",
+    "title": "Github Pages",
     "section": "",
     "text": "Manin, Przeworski, and Stokes. Chapter 1 (1999)\nFerraz and Finan, 2011"
   },
   {
     "objectID": "materials/c1_accountability.html#slides",
     "href": "materials/c1_accountability.html#slides",
-    "title": "Representation and Accountability",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/c3_crime.html",
     "href": "materials/c3_crime.html",
-    "title": "Crime and Punishment",
+    "title": "Github Pages",
     "section": "",
     "text": "Crime: Bateson (2012)\nPunishment: Weaver and Lerman (2010)"
   },
   {
     "objectID": "materials/c3_crime.html#required-readings",
     "href": "materials/c3_crime.html#required-readings",
-    "title": "Crime and Punishment",
+    "title": "Github Pages",
     "section": "",
     "text": "Crime: Bateson (2012)\nPunishment: Weaver and Lerman (2010)"
   },
   {
     "objectID": "materials/c3_crime.html#slides",
     "href": "materials/c3_crime.html#slides",
-    "title": "Crime and Punishment",
+    "title": "Github Pages",
     "section": "Slides",
     "text": "Slides\n\nSlides"
   },
   {
     "objectID": "materials/lees_R_session.html",
     "href": "materials/lees_R_session.html",
-    "title": "Live R Coding Session",
+    "title": "Github Pages",
     "section": "",
     "text": "This LEES Live Session will focus on using R and RStudio for data analysis. During this session, we will cover the following topics:\n\n\n\nActivity\nDescription\nDuration\n\n\n\n\nIntroductions and Sign-in\nFill out this form to sign into the session.\n5 min\n\n\nR Coding Review\nReview of basic R concepts covered in Module 2 Week 2.2\n10 min\n\n\nCleaning Data\nRead-in real data, create new variables, calculate quantities\n30 min\n\n\nData Visualization\nCreate tables and figures\n10 min\n\n\nRegressions\nRun regressions and store output in a presentable format\n10 min\n\n\nQ&A\nAsk questions and writing code or conducting analysis\n25 min\n\n\n\n\nPlease consult this document for a more detailed overview of what will be covered."
   },
   {
     "objectID": "materials/lees_R_session.html#overview",
     "href": "materials/lees_R_session.html#overview",
-    "title": "Live R Coding Session",
+    "title": "Github Pages",
     "section": "",
     "text": "This LEES Live Session will focus on using R and RStudio for data analysis. During this session, we will cover the following topics:\n\n\n\nActivity\nDescription\nDuration\n\n\n\n\nIntroductions and Sign-in\nFill out this form to sign into the session.\n5 min\n\n\nR Coding Review\nReview of basic R concepts covered in Module 2 Week 2.2\n10 min\n\n\nCleaning Data\nRead-in real data, create new variables, calculate quantities\n30 min\n\n\nData Visualization\nCreate tables and figures\n10 min\n\n\nRegressions\nRun regressions and store output in a presentable format\n10 min\n\n\nQ&A\nAsk questions and writing code or conducting analysis\n25 min\n\n\n\n\nPlease consult this document for a more detailed overview of what will be covered."
   },
   {
     "objectID": "materials/lees_R_session.html#required-preparation",
     "href": "materials/lees_R_session.html#required-preparation",
-    "title": "Live R Coding Session",
+    "title": "Github Pages",
     "section": "Required Preparation",
     "text": "Required Preparation\nBefore attending the live session, participants should have R and RStudio installed and have RStudio opened on their personal computer. Module 2 Week 2.2 included instructions on installing R and RStudio and provided a basic introduction to these tools."
   },
   {
     "objectID": "materials/lees_R_session.html#materials",
     "href": "materials/lees_R_session.html#materials",
-    "title": "Live R Coding Session",
+    "title": "Github Pages",
     "section": "Materials",
     "text": "Materials\nBefore attending the live session, please download the R Tutorial Source script using the link below. I will be using the R Tutorial Source file (.qmd) to lead the session. The R Tutorial Visual contains a link to a rendered version of the R Tutorial Source that you can open as an .html document in your web browser. If you prefer, you can copy and paste code from the html file into RStudio.\n\nSlides\nData\nR Tutorial Source (.qmd)\nR Tutorial Visual (.html)"
   },
   {
     "objectID": "materials/lees_R_session.html#optional-preparation",
     "href": "materials/lees_R_session.html#optional-preparation",
-    "title": "Live R Coding Session",
+    "title": "Github Pages",
     "section": "Optional Preparation",
     "text": "Optional Preparation\nI will be using a Quarto file (.qmd) to lead the session. Quarto is a specific type of file in RStudio that integrates code into document production. Quarto can be useful for producing .pdf or .html files that to share the results of data analysis with donors and policymakers. If you would like to install Quarto, please consult the materials below:\n\nInstructions\nIntro to Quarto"
   },
@@ -6520,8 +6520,8 @@
     "objectID": "slides/24-git2.html#update",
     "href": "slides/24-git2.html#update",
     "title": "Github Pages",
-    "section": "",
-    "text": "Today’s lecture shifted to Mon\nFeedback on Research Question and Data will come Thursday\nAny research proposals focused on environmental topics?\nMarch 5 Research Design shifted 24 hours\nSending .html files"
+    "section": "Update",
+    "text": "Update\n\nToday’s lecture shifted to Mon\nFeedback on Research Question and Data will come Thursday\nAny research proposals focused on environmental topics?\nMarch 5 Research Design shifted 24 hours\nSending .html files"
   },
   {
     "objectID": "slides/24-git2.html#approach",
@@ -6647,7 +6647,7 @@
     "href": "slides/24-git2.html#more-complex-stuff",
     "title": "Github Pages",
     "section": "More Complex Stuff",
-    "text": "More Complex Stuff\n\nTerminal: quarto render\nTerminal: quarto render file.qmd"
+    "text": "More Complex Stuff\n\nTerminal: quarto render\nTerminal: quarto render file.qmd\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   },
   {
     "objectID": "slides/c2-account1.html",
@@ -8580,5 +8580,789 @@
     "title": "Migration 1",
     "section": "Trends: Conflict",
     "text": "Trends: Conflict"
+  },
+  {
+    "objectID": "materials/lees_R_session.html#required-readings",
+    "href": "materials/lees_R_session.html#required-readings",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/lees_R_session.html#slides",
+    "href": "materials/lees_R_session.html#slides",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/lees_R_session.html#resources",
+    "href": "materials/lees_R_session.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/c4_crime.html#required-readings-1",
+    "href": "materials/c4_crime.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/c4_crime.html#slides",
+    "href": "materials/c4_crime.html#slides",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/c4_crime.html#resources",
+    "href": "materials/c4_crime.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/c2_accountability.html#required-readings-1",
+    "href": "materials/c2_accountability.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/c2_accountability.html#slides-1",
+    "href": "materials/c2_accountability.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/c2_accountability.html#resources",
+    "href": "materials/c2_accountability.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/27_conclusion.html#required-readings-1",
+    "href": "materials/27_conclusion.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/27_conclusion.html#slides-1",
+    "href": "materials/27_conclusion.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/27_conclusion.html#resources",
+    "href": "materials/27_conclusion.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/25_github2.html#required-readings",
+    "href": "materials/25_github2.html#required-readings",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/25_github2.html#slides-1",
+    "href": "materials/25_github2.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/25_github2.html#resources",
+    "href": "materials/25_github2.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/22_climate1.html#required-readings-1",
+    "href": "materials/22_climate1.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "",
+    "text": "None"
+  },
+  {
+    "objectID": "materials/22_climate1.html#slides",
+    "href": "materials/22_climate1.html#slides",
+    "title": "Github Pages",
+    "section": "",
+    "text": "Slides"
+  },
+  {
+    "objectID": "materials/22_climate1.html#resources",
+    "href": "materials/22_climate1.html#resources",
+    "title": "Github Pages",
+    "section": "",
+    "text": "Here’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/20_aid1.html#required-readings-1",
+    "href": "materials/20_aid1.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/20_aid1.html#slides-1",
+    "href": "materials/20_aid1.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/20_aid1.html#resources",
+    "href": "materials/20_aid1.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/18_accountability2.html#required-readings-1",
+    "href": "materials/18_accountability2.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/18_accountability2.html#slides-1",
+    "href": "materials/18_accountability2.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/18_accountability2.html#resources",
+    "href": "materials/18_accountability2.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/16_democracy3.html#required-readings-1",
+    "href": "materials/16_democracy3.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/16_democracy3.html#slides-1",
+    "href": "materials/16_democracy3.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/16_democracy3.html#resources",
+    "href": "materials/16_democracy3.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/14_fp_essentials.html#required-readings-1",
+    "href": "materials/14_fp_essentials.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/14_fp_essentials.html#slides-1",
+    "href": "materials/14_fp_essentials.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/14_fp_essentials.html#resources",
+    "href": "materials/14_fp_essentials.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/12_github2.html",
+    "href": "materials/12_github2.html",
+    "title": "Github Pages",
+    "section": "",
+    "text": "None"
+  },
+  {
+    "objectID": "materials/12_github2.html#required-readings",
+    "href": "materials/12_github2.html#required-readings",
+    "title": "Github Pages",
+    "section": "",
+    "text": "None"
+  },
+  {
+    "objectID": "materials/12_github2.html#slides",
+    "href": "materials/12_github2.html#slides",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/12_github2.html#resources",
+    "href": "materials/12_github2.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/12_github2.html#required-readings-1",
+    "href": "materials/12_github2.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/12_github2.html#slides-1",
+    "href": "materials/12_github2.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/12_github2.html#resources-1",
+    "href": "materials/12_github2.html#resources-1",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/12_conflict.html#required-readings-1",
+    "href": "materials/12_conflict.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/12_conflict.html#slides-1",
+    "href": "materials/12_conflict.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/12_conflict.html#resources",
+    "href": "materials/12_conflict.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/10_crime.html#required-readings-1",
+    "href": "materials/10_crime.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "",
+    "text": "None"
+  },
+  {
+    "objectID": "materials/10_crime.html#slides-1",
+    "href": "materials/10_crime.html#slides-1",
+    "title": "Github Pages",
+    "section": "",
+    "text": "Slides"
+  },
+  {
+    "objectID": "materials/10_crime.html#resources",
+    "href": "materials/10_crime.html#resources",
+    "title": "Github Pages",
+    "section": "",
+    "text": "Here’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/08_final_project.html#required-readings-1",
+    "href": "materials/08_final_project.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/08_final_project.html#slides-1",
+    "href": "materials/08_final_project.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/08_final_project.html#resources",
+    "href": "materials/08_final_project.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/06_regression.html#required-readings-1",
+    "href": "materials/06_regression.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/06_regression.html#slides-1",
+    "href": "materials/06_regression.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/06_regression.html#resources",
+    "href": "materials/06_regression.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/05_quarto.html#required-readings",
+    "href": "materials/05_quarto.html#required-readings",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/05_quarto.html#slides",
+    "href": "materials/05_quarto.html#slides",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/05_quarto.html#resources",
+    "href": "materials/05_quarto.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/04_sampling.html#required-readings-1",
+    "href": "materials/04_sampling.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/04_sampling.html#slides-1",
+    "href": "materials/04_sampling.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/04_sampling.html#resources",
+    "href": "materials/04_sampling.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/02_causal.html#required-readings-1",
+    "href": "materials/02_causal.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/02_causal.html#slides-1",
+    "href": "materials/02_causal.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/02_causal.html#resources",
+    "href": "materials/02_causal.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/01_intro.html#required-readings-1",
+    "href": "materials/01_intro.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/01_intro.html#slides-1",
+    "href": "materials/01_intro.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/01_intro.html#resources",
+    "href": "materials/01_intro.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/03_causal.html#required-readings-1",
+    "href": "materials/03_causal.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/03_causal.html#slides-1",
+    "href": "materials/03_causal.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/03_causal.html#resources",
+    "href": "materials/03_causal.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/05_autocracy1.html#required-readings-1",
+    "href": "materials/05_autocracy1.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/05_autocracy1.html#slides-1",
+    "href": "materials/05_autocracy1.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/05_autocracy1.html#resources",
+    "href": "materials/05_autocracy1.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/06_autocracy2.html#required-readings-1",
+    "href": "materials/06_autocracy2.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/06_autocracy2.html#slides-1",
+    "href": "materials/06_autocracy2.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/06_autocracy2.html#resources",
+    "href": "materials/06_autocracy2.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/07_causal.html#required-readings-1",
+    "href": "materials/07_causal.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/07_causal.html#slides-1",
+    "href": "materials/07_causal.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/07_causal.html#resources",
+    "href": "materials/07_causal.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/08_migration.html#required-readings-1",
+    "href": "materials/08_migration.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/08_migration.html#slides-1",
+    "href": "materials/08_migration.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/08_migration.html#resources",
+    "href": "materials/08_migration.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/11_crime.html#required-readings-1",
+    "href": "materials/11_crime.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "",
+    "text": "None"
+  },
+  {
+    "objectID": "materials/11_crime.html#slides-1",
+    "href": "materials/11_crime.html#slides-1",
+    "title": "Github Pages",
+    "section": "",
+    "text": "Slides"
+  },
+  {
+    "objectID": "materials/11_crime.html#resources",
+    "href": "materials/11_crime.html#resources",
+    "title": "Github Pages",
+    "section": "",
+    "text": "Here’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/12_github.html#required-readings-1",
+    "href": "materials/12_github.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/12_github.html#slides-1",
+    "href": "materials/12_github.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/12_github.html#resources-1",
+    "href": "materials/12_github.html#resources-1",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/13_conflict.html#required-readings-1",
+    "href": "materials/13_conflict.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/13_conflict.html#slides-1",
+    "href": "materials/13_conflict.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/13_conflict.html#resources",
+    "href": "materials/13_conflict.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/15_democracy2.html#required-readings-1",
+    "href": "materials/15_democracy2.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/15_democracy2.html#slides-1",
+    "href": "materials/15_democracy2.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/15_democracy2.html#resources",
+    "href": "materials/15_democracy2.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/17_accountability1.html#required-readings-1",
+    "href": "materials/17_accountability1.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/17_accountability1.html#slides-1",
+    "href": "materials/17_accountability1.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/17_accountability1.html#resources",
+    "href": "materials/17_accountability1.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/19_accountability3.html#required-readings-1",
+    "href": "materials/19_accountability3.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/19_accountability3.html#slides-1",
+    "href": "materials/19_accountability3.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/19_accountability3.html#resources",
+    "href": "materials/19_accountability3.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/21_aid2.html#required-readings-1",
+    "href": "materials/21_aid2.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/21_aid2.html#slides-1",
+    "href": "materials/21_aid2.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/21_aid2.html#resources",
+    "href": "materials/21_aid2.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/23_climate2.html#required-readings-1",
+    "href": "materials/23_climate2.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/23_climate2.html#slides-1",
+    "href": "materials/23_climate2.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/23_climate2.html#resources",
+    "href": "materials/23_climate2.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/26_capacity.html#required-readings-1",
+    "href": "materials/26_capacity.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "",
+    "text": "None"
+  },
+  {
+    "objectID": "materials/26_capacity.html#slides-1",
+    "href": "materials/26_capacity.html#slides-1",
+    "title": "Github Pages",
+    "section": "",
+    "text": "Slides"
+  },
+  {
+    "objectID": "materials/26_capacity.html#resources",
+    "href": "materials/26_capacity.html#resources",
+    "title": "Github Pages",
+    "section": "",
+    "text": "Here’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/c1_accountability.html#required-readings-1",
+    "href": "materials/c1_accountability.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/c1_accountability.html#slides-1",
+    "href": "materials/c1_accountability.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/c1_accountability.html#resources",
+    "href": "materials/c1_accountability.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/c3_crime.html#required-readings-1",
+    "href": "materials/c3_crime.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/c3_crime.html#slides-1",
+    "href": "materials/c3_crime.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/c3_crime.html#resources",
+    "href": "materials/c3_crime.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "materials/c5_gender.html#required-readings-1",
+    "href": "materials/c5_gender.html#required-readings-1",
+    "title": "Github Pages",
+    "section": "Required Readings",
+    "text": "Required Readings\n\nNone"
+  },
+  {
+    "objectID": "materials/c5_gender.html#slides-1",
+    "href": "materials/c5_gender.html#slides-1",
+    "title": "Github Pages",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/c5_gender.html#resources",
+    "href": "materials/c5_gender.html#resources",
+    "title": "Github Pages",
+    "section": "Resources",
+    "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
   }
 ]
