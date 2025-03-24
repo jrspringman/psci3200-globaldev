@@ -1,5 +1,5 @@
 ---
-title: "Final Project Essentials 1"
+title: "Final Project Essentials"
 subtitle: "Index Measures and Interaction Terms"
 author: "Jeremy Springman"
 institute: "University of Pennsylvania"
@@ -22,22 +22,24 @@ editor: source
 
 # Logistics
 
-## Assignments
-
-- Today
-  + Final Project Assignment 1: Research question and data source
-  + Check your submission (self-contained)
-- Thursday (3/14)
-  + Readings
-  
 ## Agenda
 
 \
 
-1. Final Project Review
-2. Workshop on Final Project Essentials
+1. Final project example
+2. Final project essential tools
+3. Final project essentials Workshop
 
-# Final Project Review
+# Final project example
+
+## Final project example
+
+**Check out `workshops/survey_data.(qmd|html)`**
+
+- `self-contained: true`
+- `bibliography: references.bib`
+- `modelsummary()` and `ggplot()`
+- `echo: false` and `warning: false`
 
 ## Research Question
 
@@ -48,12 +50,29 @@ editor: source
   + Youth that move have less information and experience with engagement in their new city
   + Youth that move probably have fewer social ties, and ties are important for facilitating engagement
 
+
+## Data and Variables
+
+**Data**
+
+- Random sample of 825 AAU students 
+- 2 waves (May-June, October-November of 2022)
+
+**Variables**
+
+- Outcome: survey questions measuring political participation
+- Treatment: whether student is originally from Addis Ababa
+- Building confidence: feelings of political efficacy, number of years since move, urban or rural origin, SES, etc.
+
+
 ## Research Design
 
-- **Design**: Estimate the relationship between *whether or not an individual moved to a new city to attend university* and their *level of political engagement*
-- **Assumption**: Individuals that moved to a new city had similar propensities to participate to those that did not, conditional on observable covariates 
-- **Diagnosis**: Unrealistic!
-- **Plan**: Build confidence by ruling-out potential differences in baseline propensity to participate among moving and non-moving students
+::: {.incremental}
+- **Design**: [Estimate the relationship between *whether or not an individual moved to a new city to attend university* and their *level of political engagement*]{.fragment}
+- **Assumption**: [Individuals that moved to a AA would have participated the same amount as those that already lived there]{.fragment}
+- **Diagnosis**: [Unrealistic... even if we condition on observable characteristics]{.fragment}
+- **Plan**: [Build confidence by ruling-out potential differences in baseline propensity to participate among moving and non-moving students]{.fragment}
+:::
 
 ## Researh Context
 
@@ -67,21 +86,30 @@ editor: source
 
 ## Building Confidence
 
-**Observable implications**
+**Conditioning on baseline characteristics**
 
-- Identify specific types of participation that are more and less likely to be affected by whether at student moves
-  + Some forms of participation rely on social ties or information about the environment, while others do not
-- Account for the length of time since respondents moved to their new city
-  + As students become more embedded, the gap between moving and non-moving students should become smaller
+::: {.incremental}
+- Urban vs rural home
+  + Students moving from another city will be less different (in their propensity to participate) than students from AA
+- Socio-Economic Status (SES)
+  + Students with similar SES will be less different (in their propensity to participate)
+:::
+
+
 
 ## Building Confidence
 
-**Conditioning**
+**Observable implications of the hypothesis (if it's causal)**
 
-- Students that move from one urban place to another urban place
-  + Students that move from one city to another city will be less different (in their propensity to participate) than those moving from rural to urban
-- Students with similar socio-economic status (SES)
-  + Students with similar SES will be less different (in their propensity to participate) than those with similar SES
+::: {.incremental}
+- Some types of participation are more likely to be affected by moving
+  + Those that rely on social ties or information about the environment
+  + Estimate separate models for high/low types of participation 
+- The effect of moving should decrease over time
+  + As students become more embedded, the gap between moving and non-moving students should become smaller
+  + Estimate how the relationship differs depending on # of years since moving
+:::
+
 
 ## Building Confidence
 
@@ -89,15 +117,18 @@ editor: source
 
 **Placebo tests**
 
-- Moving may affect feelings about your individual efficacy, but not the efficacy of youth in general
-- Moving may affect your participation recent engagement, but not an opportunity to engage that was provided within the survey
-
+::: {.incremental}
+- Self-efficacy is related to participation
+  + Moving may affect feelings about your individual efficacy, but not the efficacy of youth in general
+- Effort is related to moving
+  + Moving may affect your real-world engagement, but not an opportunity within the survey
+:::
 
 ## Data and Variables
 
 **Data**
 
-- Representative survey of 825 AAU students 
+- Random sample of 825 AAU students 
 - 2 waves (May-June, October-November of 2022)
 
 **Variables**
@@ -111,29 +142,37 @@ editor: source
 
 ## Creating Index Measures
 
-**When to create an index measure**
+**What is an index measure?**
 
+:::{.fragment}
+**When should we create an index measure?**
+
+::: {.incremental}
 - When you have many ways of measuring a single concept
   + This is true for outcome measures, treatment measures, and covariates
-
-**Benefits of index measures**
+  
+**What does this accomplish?**
 
 - Simplifies analysis (fewer graphs, tables, etc.)
 - Reduces number of hypotheses being tested
+:::
 
+:::
 
 ## Additive Scale
 
 **What is an additive scale?**
 
-- Simple sum across columns (index = column_1 + column_2)
+- Simple sum across columns (`index = column_1 + column_2`)
 
 **When to use an additive scale**
 
-- When variables are measured on a common scale
-- When you are interested in a cumulative amount of something
+::: {.incremental}
+- Variables are measured on a common scale
+- Interested in a cumulative amount of something
   + Number of times someone engaged in a specific behavior
   + Amount of money from several different sources
+:::
 
 ## Additive Scale
 
@@ -190,11 +229,29 @@ $$
 **What are interaction terms used for?**
 
 - Heterogeneous effects
+  + Gender
+  + Education
 - Difference-in-differences
+  + Treated and not-treated units
+
+$$
+Y_i = \alpha + \beta_1 X_{i1} + \beta_2 X_{i2} + \beta_3 X_{i1}*X_{i2} + \epsilon_i
+$$
+
+## Interaction Terms
+
+$$
+Y_i = \alpha + \beta_1 X_{i1} + \beta_2 X_{i2} + \beta_3 X_{i1}*X_{i2} + \epsilon_i
+$$
 
 **Example:** Continuous outcome with two binary predictors
 
-- $\alpha$: Intercept when $X_{i1}$ and $X_{i2}$ are 0
-- $\beta_1$ Slope when $X_{i2} = 0$
-- $\beta_2$ Difference in $\alpha$ between $X_{i2}=0$ and $X_{i2}=1$
-- $\beta_3$ Difference in $\beta_1$ between $X_{i2}=0$ and $X_{i2}=1$
+::: {.incremental}
+- $\alpha$: [Intercept when $X_{i1}$ and $X_{i2}$ are 0]{.fragment}
+- $\beta_1$: [Slope when $X_{i2} = 0$]{.fragment}
+- $\beta_2$: [Difference in $\alpha$ between $X_{i2}=0$ and $X_{i2}=1$]{.fragment}
+- $\beta_3$: [Difference in $\beta_1$ between $X_{i2}=0$ and $X_{i2}=1$]{.fragment}
+:::
+
+
+

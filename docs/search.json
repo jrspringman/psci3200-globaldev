@@ -3713,120 +3713,120 @@
     "objectID": "slides/14-fp-essentials.html#assignments",
     "href": "slides/14-fp-essentials.html#assignments",
     "title": "Final Project Essentials 1",
-    "section": "",
-    "text": "Today\n\nFinal Project Assignment 1: Research question and data source\nCheck your submission (self-contained)\n\nThursday (3/14)\n\nReadings"
+    "section": "Assignments",
+    "text": "Assignments\n\nToday\n\nFinal Project Assignment 1: Research question and data source\nCheck your submission (self-contained)\n\nThursday (3/14)\n\nReadings"
   },
   {
     "objectID": "slides/14-fp-essentials.html#agenda",
     "href": "slides/14-fp-essentials.html#agenda",
-    "title": "Final Project Essentials 1",
-    "section": "",
-    "text": "Final Project Review\nWorkshop on Final Project Essentials"
+    "title": "Final Project Essentials",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\nFinal project example\nFinal project essential tools\nFinal project essentials Workshop"
   },
   {
     "objectID": "slides/14-fp-essentials.html#research-question",
     "href": "slides/14-fp-essentials.html#research-question",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Research Question",
     "text": "Research Question\nDoes moving to a new city reduce the political engagement of young people?\n\nI hypothesize that moving to a new city will reduce young people’s likelihood of engaging in political or civic action\n\nYouth have low levels of political engagement, often driven by lack of information and experience\nYouth that move have less information and experience with engagement in their new city\nYouth that move probably have fewer social ties, and ties are important for facilitating engagement"
   },
   {
     "objectID": "slides/14-fp-essentials.html#research-design",
     "href": "slides/14-fp-essentials.html#research-design",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Research Design",
-    "text": "Research Design\n\nDesign: Estimate the relationship between whether or not an individual moved to a new city to attend university and their level of political engagement\nAssumption: Individuals that moved to a new city had similar propensities to participate to those that did not, conditional on observable covariates\nDiagnosis: Unrealistic!\nPlan: Build confidence by ruling-out potential differences in baseline propensity to participate among moving and non-moving students"
+    "text": "Research Design\n\n\nDesign: Estimate the relationship between whether or not an individual moved to a new city to attend university and their level of political engagement\nAssumption: Individuals that moved to a AA would have participated the same amount as those that already lived there\nDiagnosis: Unrealistic… even if we condition on observable characteristics\nPlan: Build confidence by ruling-out potential differences in baseline propensity to participate among moving and non-moving students"
   },
   {
     "objectID": "slides/14-fp-essentials.html#researh-context",
     "href": "slides/14-fp-essentials.html#researh-context",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Researh Context",
     "text": "Researh Context\n\n\n\nStudents at Addis Ababa University (AAU)\n\nYouth frequently move to a new city in order to obtain education\nAAU is Ethiopia’s top university, and students from around the country move to study there\nUniversities are important sites of political socialization"
   },
   {
     "objectID": "slides/14-fp-essentials.html#building-confidence",
     "href": "slides/14-fp-essentials.html#building-confidence",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Building Confidence",
-    "text": "Building Confidence\nObservable implications\n\nIdentify specific types of participation that are more and less likely to be affected by whether at student moves\n\nSome forms of participation rely on social ties or information about the environment, while others do not\n\nAccount for the length of time since respondents moved to their new city\n\nAs students become more embedded, the gap between moving and non-moving students should become smaller"
+    "text": "Building Confidence\nConditioning on baseline characteristics\n\n\nUrban vs rural home\n\nStudents moving from another city will be less different (in their propensity to participate) than students from AA\n\nSocio-Economic Status (SES)\n\nStudents with similar SES will be less different (in their propensity to participate)"
   },
   {
     "objectID": "slides/14-fp-essentials.html#building-confidence-1",
     "href": "slides/14-fp-essentials.html#building-confidence-1",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Building Confidence",
-    "text": "Building Confidence\nConditioning\n\nStudents that move from one urban place to another urban place\n\nStudents that move from one city to another city will be less different (in their propensity to participate) than those moving from rural to urban\n\nStudents with similar socio-economic status (SES)\n\nStudents with similar SES will be less different (in their propensity to participate) than those with similar SES"
+    "text": "Building Confidence\nObservable implications of the hypothesis (if it’s causal)\n\n\nSome types of participation are more likely to be affected by moving\n\nThose that rely on social ties or information about the environment\nEstimate separate models for high/low types of participation\n\nThe effect of moving should decrease over time\n\nAs students become more embedded, the gap between moving and non-moving students should become smaller\nEstimate how the relationship differs depending on # of years since moving"
   },
   {
     "objectID": "slides/14-fp-essentials.html#building-confidence-2",
     "href": "slides/14-fp-essentials.html#building-confidence-2",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Building Confidence",
-    "text": "Building Confidence\n\n\nPlacebo tests\n\nMoving may affect feelings about your individual efficacy, but not the efficacy of youth in general\nMoving may affect your participation recent engagement, but not an opportunity to engage that was provided within the survey"
+    "text": "Building Confidence\n\n\nPlacebo tests\n\n\nSelf-efficacy is related to participation\n\nMoving may affect feelings about your individual efficacy, but not the efficacy of youth in general\n\nEffort is related to moving\n\nMoving may affect your real-world engagement, but not an opportunity within the survey"
   },
   {
     "objectID": "slides/14-fp-essentials.html#data-and-variables",
     "href": "slides/14-fp-essentials.html#data-and-variables",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Data and Variables",
-    "text": "Data and Variables\nData\n\nRepresentative survey of 825 AAU students\n2 waves (May-June, October-November of 2022)\n\nVariables\n\nOutcome: survey questions measuring political participation\nTreatment: whether student is originally from Addis Ababa\nBuilding confidence: feelings of political efficacy, number of years since move, urban or rural origin, SES, etc."
+    "text": "Data and Variables\nData\n\nRandom sample of 825 AAU students\n2 waves (May-June, October-November of 2022)\n\nVariables\n\nOutcome: survey questions measuring political participation\nTreatment: whether student is originally from Addis Ababa\nBuilding confidence: feelings of political efficacy, number of years since move, urban or rural origin, SES, etc."
   },
   {
     "objectID": "slides/14-fp-essentials.html#creating-index-measures",
     "href": "slides/14-fp-essentials.html#creating-index-measures",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Creating Index Measures",
-    "text": "Creating Index Measures\nWhen to create an index measure\n\nWhen you have many ways of measuring a single concept\n\nThis is true for outcome measures, treatment measures, and covariates\n\n\nBenefits of index measures\n\nSimplifies analysis (fewer graphs, tables, etc.)\nReduces number of hypotheses being tested"
+    "text": "Creating Index Measures\nWhat is an index measure?\n\nWhen should we create an index measure?\n\n\nWhen you have many ways of measuring a single concept\n\nThis is true for outcome measures, treatment measures, and covariates\n\n\nWhat does this accomplish?\n\nSimplifies analysis (fewer graphs, tables, etc.)\nReduces number of hypotheses being tested"
   },
   {
     "objectID": "slides/14-fp-essentials.html#additive-scale",
     "href": "slides/14-fp-essentials.html#additive-scale",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Additive Scale",
-    "text": "Additive Scale\nWhat is an additive scale?\n\nSimple sum across columns (index = column_1 + column_2)\n\nWhen to use an additive scale\n\nWhen variables are measured on a common scale\nWhen you are interested in a cumulative amount of something\n\nNumber of times someone engaged in a specific behavior\nAmount of money from several different sources"
+    "text": "Additive Scale\nWhat is an additive scale?\n\nSimple sum across columns (index = column_1 + column_2)\n\nWhen to use an additive scale\n\n\nVariables are measured on a common scale\nInterested in a cumulative amount of something\n\nNumber of times someone engaged in a specific behavior\nAmount of money from several different sources"
   },
   {
     "objectID": "slides/14-fp-essentials.html#additive-scale-1",
     "href": "slides/14-fp-essentials.html#additive-scale-1",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Additive Scale",
     "text": "Additive Scale\n\n\nBenefits of additive scales\n\nInterpretability: number on the original scale\nSimplicity: Just plain addition"
   },
   {
     "objectID": "slides/14-fp-essentials.html#averaged-z-scores",
     "href": "slides/14-fp-essentials.html#averaged-z-scores",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Averaged Z-Scores",
     "text": "Averaged Z-Scores\nWhat is a z-score?\n\n\\(Z = (X - \\mu) / \\sigma\\)\nStandardized: Mean of 0 and standard deviation of 1\n\nWhen to use averaged z-scores\n\nWhen variables are measured on different scales\nWhen variables cannot be summed"
   },
   {
     "objectID": "slides/14-fp-essentials.html#averaged-z-scores-1",
     "href": "slides/14-fp-essentials.html#averaged-z-scores-1",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Averaged Z-Scores",
     "text": "Averaged Z-Scores\n\n\nBenefits of averaged z-scores\n\nInterpretability: Standard deviations from the mean\nOutlier detection: abs(3)"
   },
   {
     "objectID": "slides/14-fp-essentials.html#fancier-index-techniques",
     "href": "slides/14-fp-essentials.html#fancier-index-techniques",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Fancier index techniques",
     "text": "Fancier index techniques\n\n\n\nPrincipal Component Analysis\nFactor Analysis\nInverse Covariance Weighting"
   },
   {
     "objectID": "slides/14-fp-essentials.html#interaction-terms",
     "href": "slides/14-fp-essentials.html#interaction-terms",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Interaction Terms",
     "text": "Interaction Terms\nWhat is an interaction term?\n\nSimple linear models assume that the effect of predictors is independent of other factors\nInteraction terms allow us to estimate the difference in the slope of a predictor across unit characteristics\n\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\beta_3 X_{i1}*X_{i2} + \\epsilon_i\n\\]"
   },
   {
     "objectID": "slides/14-fp-essentials.html#interaction-terms-1",
     "href": "slides/14-fp-essentials.html#interaction-terms-1",
-    "title": "Final Project Essentials 1",
+    "title": "Final Project Essentials",
     "section": "Interaction Terms",
-    "text": "Interaction Terms\nWhat are interaction terms used for?\n\nHeterogeneous effects\nDifference-in-differences\n\nExample: Continuous outcome with two binary predictors\n\n\\(\\alpha\\): Intercept when \\(X_{i1}\\) and \\(X_{i2}\\) are 0\n\\(\\beta_1\\) Slope when \\(X_{i2} = 0\\)\n\\(\\beta_2\\) Difference in \\(\\alpha\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\\(\\beta_3\\) Difference in \\(\\beta_1\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)"
+    "text": "Interaction Terms\nWhat are interaction terms used for?\n\nHeterogeneous effects\n\nGender\nEducation\n\nDifference-in-differences\n\nTreated and not-treated units\n\n\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\beta_3 X_{i1}*X_{i2} + \\epsilon_i\n\\]"
   },
   {
     "objectID": "slides/12-conflict.html",
@@ -9364,5 +9364,40 @@
     "title": "Github Pages",
     "section": "Resources",
     "text": "Resources\n\nHere’s a helpful YouTube video. Be careful: some parts of this process are slightly different than what I will show you."
+  },
+  {
+    "objectID": "slides/14-fp-essentials.html#final-project-example-1",
+    "href": "slides/14-fp-essentials.html#final-project-example-1",
+    "title": "Final Project Essentials",
+    "section": "Final project example",
+    "text": "Final project example\nCheck out workshops/survey_data.(qmd|html)\n\nself-contained: true\nbibliography: references.bib\nmodelsummary() and ggplot()\necho: false and warning: false"
+  },
+  {
+    "objectID": "slides/14-fp-essentials.html#building-confidence-observable-implications",
+    "href": "slides/14-fp-essentials.html#building-confidence-observable-implications",
+    "title": "Final Project Essentials",
+    "section": "Building Confidence: Observable implications",
+    "text": "Building Confidence: Observable implications\nObservable implications of the hypothesis (if it’s causal)\n\n\nSome types of participation are more likely to be affected by moving\n\nThose that rely on social ties or information about the environment\nEstimate separate models for high/low types of participation\n\nThe effect of moving should decrease over time\n\nAs students become more embedded, the gap between moving and non-moving students should become smaller\nEstimate how the relationship differs depending on # of years since moving"
+  },
+  {
+    "objectID": "slides/14-fp-essentials.html#building-confidence-conditioning",
+    "href": "slides/14-fp-essentials.html#building-confidence-conditioning",
+    "title": "Final Project Essentials",
+    "section": "Building Confidence: Conditioning",
+    "text": "Building Confidence: Conditioning\nConditioning\n\nStudents that move from one urban place to another urban place\n\nStudents that move from one city to another city will be less different (in their propensity to participate) than those moving from rural to urban\n\nStudents with similar socio-economic status (SES)\n\nStudents with similar SES will be less different (in their propensity to participate) than those with similar SES"
+  },
+  {
+    "objectID": "slides/14-fp-essentials.html#data-and-variables-1",
+    "href": "slides/14-fp-essentials.html#data-and-variables-1",
+    "title": "Final Project Essentials",
+    "section": "Data and Variables",
+    "text": "Data and Variables\nData\n\nRandom sample of 825 AAU students\n2 waves (May-June, October-November of 2022)\n\nVariables\n\nOutcome: survey questions measuring political participation\nTreatment: whether student is originally from Addis Ababa\nBuilding confidence: feelings of political efficacy, number of years since move, urban or rural origin, SES, etc."
+  },
+  {
+    "objectID": "slides/14-fp-essentials.html#interaction-terms-2",
+    "href": "slides/14-fp-essentials.html#interaction-terms-2",
+    "title": "Final Project Essentials",
+    "section": "Interaction Terms",
+    "text": "Interaction Terms\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\beta_3 X_{i1}*X_{i2} + \\epsilon_i\n\\]\nExample: Continuous outcome with two binary predictors\n\n\n\\(\\alpha\\): Intercept when \\(X_{i1}\\) and \\(X_{i2}\\) are 0\n\\(\\beta_1\\): Slope when \\(X_{i2} = 0\\)\n\\(\\beta_2\\): Difference in \\(\\alpha\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\\(\\beta_3\\): Difference in \\(\\beta_1\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
   }
 ]

@@ -45,8 +45,8 @@ palette = MetBrewer::met.brewer(name = "Cross")
 I hypothesize that moving to a new city will reduce an individuals' likelihood of engaging in political or civic action. I argue that this is the case for several reasons:
 
 - Youth have low levels of political engagement, often driven by lack of information and experience [@holbein:hillygus:2020]
-- Youth that move have less information and experience with engagement in their new city
-- Youth that move probably have fewer social ties, and ties are important for facilitating engagement [@campbell:2013]
+- Youth that move will have less information and experience with engagement in their new city
+- Youth that move probably have fewer social ties in their new city, and ties are important for facilitating engagement [@campbell:2013]
 
 ## Research Design
 
@@ -54,7 +54,7 @@ I will use a linear model to estimate the relationship between levels of politic
 
 While this assumption is unrealistic, I will take several measures to rule-out potential sources of baseline differences in the propensity of moving and non-moving students to participate. 
 
-First, I will identify specific types of participation that are more and less likely to be affected by whether at student moves. If my hypothesis is correct, we should expect to see the more likely forms of participation to be different between moving and non-moving students, while the less likely forms of participation should nto be different between moving and non-moving students.
+First, I will identify *specific types of participation* that are more and less likely to be affected by whether at student moves. If my hypothesis is correct, we should expect to see the more likely forms of participation to be different between moving and non-moving students, while the less likely forms of participation should not be different between moving and non-moving students.
 
 Second, I will condition my analysis to students that move from one urban place to another urban place. While students that move from a rural area to a city are likely to be different in many important ways that could affect their propensity to participate, those that move from one city to another city will be less different.
 
