@@ -461,25 +461,6 @@ predictions <- predict(lm(z_participation_base ~ moved * year, dat), newdata = d
 # Create a dataframe with predictions
 prediction_df <- data.frame(year = dat$year, moved = dat$moved, prediction = predictions)
 
-# Plot the interaction
-ggplot(prediction_df %>% filter(!is.na(year)), 
-       aes(x = year, y = prediction, color = factor(moved), shape = factor(year))) +
-  geom_point(size = 4) + 
-  geom_text(aes(label = round(prediction, 2)), vjust = -1.2, size = 4) +
-  scale_x_continuous(breaks = c(0, 1), labels=c("Y1", "Y3")) +
-  expand_limits(y = c(.2, .2)) +
-  labs(x = "Year", y = "Predicted z_participation_base", color = "Moved", shape = "Year") +
-  ggtitle("Interaction Plot of z_participation_base by Year and Moved")
-
-```
-
-
-
-```{r}
-#| echo: false
-#| warning: false
-#| 
-
 ggplot(prediction_df %>% filter(!is.na(year)), 
        aes(x = factor(moved), y = prediction, group = factor(year), color = factor(year), shape = factor(year))) +
   geom_point(size = 4, position = position_dodge(width = 0.3)) + 
@@ -493,6 +474,26 @@ ggplot(prediction_df %>% filter(!is.na(year)),
   ggtitle("Interaction Plot of z_participation_base by Moved and Year") +
   coord_cartesian(clip = "off") +
   theme(plot.margin = margin(t = 20, r = 10, b = 10, l = 10))
+
+
+```
+
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| 
+
+# Plot the interaction
+ggplot(prediction_df %>% filter(!is.na(year)), 
+       aes(x = year, y = prediction, color = factor(moved), shape = factor(year))) +
+  geom_point(size = 4) + 
+  geom_text(aes(label = round(prediction, 2)), vjust = -1.2, size = 4) +
+  scale_x_continuous(breaks = c(0, 1), labels=c("Y1", "Y3")) +
+  expand_limits(y = c(.2, .2)) +
+  labs(x = "Year", y = "Predicted z_participation_base", color = "Moved", shape = "Year") +
+  ggtitle("Interaction Plot of z_participation_base by Year and Moved")
 
 ```
 
