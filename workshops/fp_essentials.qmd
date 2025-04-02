@@ -30,38 +30,110 @@ library(gt)
 library(modelsummary)
 
 # read-in data
-# cdat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/cambodia_ngos/data.csv")
-# dat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" ) %>%
-
-#dat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" ) %>%
-dat = read_csv(here::here("workshops/aau_survey/clean_endline_did.csv" )) %>%
-    # clean home region variable
-  mutate(q8_baseline = ifelse(q8_baseline == "Southern Nations, Nationalities, and Peoples Region", "SNNPR", q8_baseline), 
-         q8_baseline = str_remove(q8_baseline, " Region"))
-# create color palette for plotting
-palette = MetBrewer::met.brewer(name = "Cross")
+dat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev/main/workshops/aau_survey/clean_endline_did.csv" )
 
 ```
 
 # Index Variables
 
-## Additive Scale
+## Simple Additive Index
+
+- Measured on the same scale
+- Share direction
+- 
+
+### Adding numberical measures
+
+**Count of times a respondent...**
+
+- `q13_4_1`: Contacted gov't official
+- `q13_6_1`: Contacted a student representative
+- `q13_7_1`: Contacted an NGO
 
 ```{r}
 #| echo: false
 #| warning: false
 
-# Contacted gov't official
-# Signed a petition
+## Simplest approach
+dat$add_participation_end = dat$q13_4_1 + dat$q13_6_1 + dat$q13_7_1
 
-## Find participation measures that are based on a count
-add_ecols = grep("q13_4_1$|q13_5_1$", names(dat), value = T)
+## More complex method for larger lists
 
+# Find participation measures that are based on a count
+add_ecols = grep("q13_(4|6|7)_1$", 
+                 names(dat), 
+                 value = T)
+
+# use dplyr and `rowSums`
 dat = dat %>%
-  mutate(add_participation_end =  rowSums(across(add_ecols) ) )
-  #mutate(add_participation_end =  rowSums(across(add_ecols), na.rm = T) )
+  mutate(add_participation_end = rowSums(across(add_ecols), na.rm = T) )
 
-#dat$add_participation_end = dat$q13_4_1 + dat$q13_5_1
+
+```
+
+### Do they 'hang together'?
+
+```{r}
+#| echo: false
+#| warning: false
+
+
+cronbach_alpha <- function(items) {
+    k <- ncol(items)                           # number of items
+    item_var <- apply(items, 2, var, na.rm = TRUE)  # variance of each item
+    total_score <- rowSums(items, na.rm = TRUE)
+    total_var <- var(total_score, na.rm = TRUE)
+    
+    alpha <- (k / (k - 1)) * (1 - sum(item_var) / total_var)
+    return(alpha)
+}
+
+cronbach_alpha(dat[, add_ecols])
+# psych::alpha(dat[, add_ecols])
+
+```
+
+
+### Visualizing the result
+
+
+```{r}
+#| echo: false
+#| warning: false
+
+# participation
+participate = dat %>% 
+  select(c(add_ecols, add_participation_end)) %>% 
+  drop_na() %>% 
+  pivot_longer(everything()) %>% 
+  group_by(name, value) %>% 
+  tally() 
+
+# create color palette for plotting
+palette = MetBrewer::met.brewer(name = "Cross")
+
+ggplot(participate, aes(x = value, y = n)) + 
+  geom_col(fill = palette[9]) + 
+  facet_wrap(vars(name), scales = "free") + 
+  labs(y = "Number of times", x = NULL, 
+       title = "How often do youth participate?") 
+
+```
+
+
+### Thinking about weights
+
+```{r}
+#| echo: false
+#| warning: false
+
+## Weighted sum
+weights <- c(q13_4_1 = 2, q13_6_1 = 1, q13_7_1 = 1)
+
+dat <- dat %>%
+  mutate(add_participation_end = rowSums(across(all_of(names(weights))) * weights, na.rm = TRUE)
+  )
+
 
 ```
 
@@ -72,30 +144,128 @@ dat = dat %>%
 
 # participation
 participate = dat %>% 
-  select(`Additive Index` = add_participation_end, 
-         `Signed petition` = q13_5_1, 
-         `Contact official` = q13_4_1) %>% 
+  select(c(add_ecols, add_participation_end)) %>% 
   drop_na() %>% 
   pivot_longer(everything()) %>% 
   group_by(name, value) %>% 
-  tally() %>% 
-  mutate(pct = n/sum(n))
+  tally() 
 
 
-
-ggplot(participate, aes(x = value, y = pct)) + 
+ggplot(participate, aes(x = value, y = n)) + 
   geom_col(fill = palette[9]) + 
   facet_wrap(vars(name), scales = "free") + 
-  scale_y_continuous(labels = scales::percent) +
-  labs(y = "Percent of respondents", x = NULL, 
-       title = "How do youth participate?", 
-       subtitle = glue::glue("Number of respondents = {scales::comma(sum(participate$n)/7)}")) 
+  labs(y = "Number of times", x = NULL, 
+       title = "How often do youth participate?") 
 
 ```
 
 
+### Stretching the concept...
+
+**What if we wanted to add the count of times a respondent...**
+
+- `q13_5_1`: Signed a petition
+
+
+```{r}
+#| echo: false
+#| warning: false
+
+cronbach_alpha(dat[, c(add_ecols, "q13_5_1")])
+
+cor_matrix <- cor(dat[, c(add_ecols, "q13_5_1")], use = "pairwise.complete.obs")
+cor_df <- as.data.frame(as.table(cor_matrix))
+
+ggplot(cor_df, aes(Var1, Var2, fill = Freq)) +
+  geom_tile(color = "white") +
+  geom_text(aes(label = round(Freq, 2)), color = "black", size = 4) +
+  scale_fill_gradient2(low = "red", high = "blue", mid = "white",
+                       midpoint = 0, limit = c(-1, 1), name = "Correlation") +
+  theme_minimal()
+
+```
+
+
+### Adding likert measures
+
+- `q16_1`: Intention to join religious group
+- `q16_2`: Intention to join ethnic interest group
+- `q16_3`: Intention to join political party
+- `q16_4`: Intention to join voluntary org
+
+```{r}
+#| echo: false
+#| warning: false
+
+# Find participation measures that are based on a count
+add_ecols = grep("q16_[0-9]$", 
+                 names(dat), 
+                 value = T)
+
+# clean q13_
+levels = c("Not at all", "Not likely", "More than twice", "Somewhat likely", "Very likely", "Already a member")
+
+dat = dat %>% 
+  mutate(across(all_of(add_ecols),
+                ~ factor(.x, levels = levels))) %>%
+  mutate(across(all_of(add_ecols),
+                ~ as.numeric(.x))) %>%
+  mutate(add_intention_end = rowSums(across(add_ecols), na.rm = T) )
+
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+
+participate = dat %>% 
+  select(c(add_ecols, add_intention_end)) %>% 
+  drop_na() %>% 
+  pivot_longer(everything()) %>% 
+  group_by(name, value) %>% 
+  tally() 
+
+
+ggplot(participate, aes(x = value, y = n)) + 
+  geom_col(fill = palette[9]) + 
+  facet_wrap(vars(name), scales = "free") + 
+  labs(y = "Number of times", x = NULL, 
+       title = "How often do youth participate?") 
+
+
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+
+dat = dat %>% 
+  mutate(add_intention_end = add_intention_end / 4)
+
+participate = dat %>% 
+  select(c(add_ecols, add_intention_end)) %>% 
+  drop_na() %>% 
+  pivot_longer(everything()) %>% 
+  group_by(name, value) %>% 
+  tally() 
+
+
+ggplot(participate, aes(x = value, y = n)) + 
+  geom_col(fill = palette[9]) + 
+  facet_wrap(vars(name), scales = "free") + 
+  labs(y = "Number of times", x = NULL, 
+       title = "How often do youth participate?") 
+
+
+```
 
 ## Averaged Z-Scores
+
+- $Z = (X - \mu) / \sigma$
+- $z_i = \frac{X_i - \bar{X}}{s}$
+- Standardized: Mean of 0 and standard deviation of 1
 
 
 ```{r}
@@ -127,10 +297,10 @@ dat = dat %>%
 
 # Create z-score function from Kling, Liberman, and Katz (2007)
 z_score = function(x, y){
-  # calculate mean and sd of control group
+  # calculate column mean and sd
   c_mean = mean( as.numeric( unlist(x[, y])) , na.rm = T)
   c_sd = sd( as.numeric( unlist(x[, y])) , na.rm = T)
-  # subtract control group mean; divide by control group SD
+  # subtract column mean and divide by column SD
   ( as.numeric(x[, y, drop = TRUE]) - c_mean) / c_sd
 }
 
@@ -212,7 +382,41 @@ ggplot(participate , aes(x = value )) +
 
 ```
 
+```{r}
+#| echo: false
+#| warning: false
 
+dat[, paste0(add_ecols, "_st")] = dat[, add_ecols]
+ncols = paste0(add_ecols,"_st")
+
+# calculate z-scores
+for (i in c(ncols)) {
+  dat[,i] = z_score(dat, i)
+}
+
+dat = dat %>% 
+  rowwise() %>% 
+  mutate( z_participation_end = mean(c_across(all_of(c(ecols, ncols))), na.rm = TRUE)) %>% 
+  ungroup()
+
+
+# standardized
+participate = dat %>% 
+  select(c(ecols, ncols, z_participation_end)) %>% 
+  drop_na() %>% 
+  pivot_longer(everything()) 
+
+
+ggplot(participate , aes(x = value )) + 
+  geom_histogram(aes(y = after_stat(count / sum(count))), 
+                 binwidth=.5, fill = palette[9]) +
+  #geom_col(fill = palette[9]) + 
+  facet_wrap(vars(name),  ncol = 2) + 
+  scale_y_continuous(labels = scales::percent) +
+  labs(y = "Percent of respondents", x = NULL, 
+       title = "How do youth participate?")
+
+```
 
 
 # Interaction Terms
@@ -250,6 +454,7 @@ modelsummary(
 #| echo: false
 #| warning: false
 #| 
+
 # Predict values based on the model
 predictions <- predict(lm(z_participation_base ~ moved * year, dat), newdata = dat)
 
@@ -257,12 +462,37 @@ predictions <- predict(lm(z_participation_base ~ moved * year, dat), newdata = d
 prediction_df <- data.frame(year = dat$year, moved = dat$moved, prediction = predictions)
 
 # Plot the interaction
-ggplot(prediction_df, aes(x = year, y = prediction, color = factor(moved))) +
-  geom_line() +
-  geom_point() +
+ggplot(prediction_df %>% filter(!is.na(year)), 
+       aes(x = year, y = prediction, color = factor(moved), shape = factor(year))) +
+  geom_point(size = 4) + 
+  geom_text(aes(label = round(prediction, 2)), vjust = -1.2, size = 4) +
   scale_x_continuous(breaks = c(0, 1), labels=c("Y1", "Y3")) +
-  labs(x = "Year", y = "Predicted z_participation_base", color = "Moved") +
+  expand_limits(y = c(.2, .2)) +
+  labs(x = "Year", y = "Predicted z_participation_base", color = "Moved", shape = "Year") +
   ggtitle("Interaction Plot of z_participation_base by Year and Moved")
+
+```
+
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| 
+
+ggplot(prediction_df %>% filter(!is.na(year)), 
+       aes(x = factor(moved), y = prediction, group = factor(year), color = factor(year), shape = factor(year))) +
+  geom_point(size = 4, position = position_dodge(width = 0.3)) + 
+  geom_text(aes(label = round(prediction, 2)), 
+            vjust = -1.2, size = 4, 
+            position = position_dodge(width = 0.3)) +
+  geom_line(aes(group = factor(year)), 
+            position = position_dodge(width = 0.3), linewidth = 1) +  
+  scale_x_discrete(labels = c("0" = "Did not move", "1" = "Moved")) +
+  labs(x = "Moved", y = "Predicted z_participation_base", color = "Year", shape = "Year") +
+  ggtitle("Interaction Plot of z_participation_base by Moved and Year") +
+  coord_cartesian(clip = "off") +
+  theme(plot.margin = margin(t = 20, r = 10, b = 10, l = 10))
 
 ```
 

@@ -14,7 +14,7 @@ title: "State Capacity and Development"
 
 ## Slides
 
-- [Slides](slides/jeremysclass_statecapacity_v2.pdf)
+- [Slides](https://github.com/jrspringman/psci3200-globaldev/blob/main/slides/jeremysclass_statecapacity_v2.pdf)
 
 ## Non-Required Readings
 

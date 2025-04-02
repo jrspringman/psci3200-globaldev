@@ -9525,5 +9525,131 @@
     "title": "State Capacity and Development",
     "section": "",
     "text": "Ekeh (1975)\nDi Maro et al. (2021)"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#notes",
+    "href": "slides/14-fp-essentials2.html#notes",
+    "title": "Final Project Essentials",
+    "section": "Notes",
+    "text": "Notes\n\nAdded Maria’s slides to last week’s page\nAssignments\n\nExpanded Research Design due Friday (4/4)\nData Assignment 1 due Wednesday (4/9)"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#todays-agenda",
+    "href": "slides/14-fp-essentials2.html#todays-agenda",
+    "title": "Final Project Essentials",
+    "section": "Today’s Agenda",
+    "text": "Today’s Agenda\n\n\n\nFinal project essential tools\nFinal project essentials Workshop\n\n\nOpen workshop fp_essentials.qmd"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#building-confidence",
+    "href": "slides/14-fp-essentials2.html#building-confidence",
+    "title": "Final Project Essentials",
+    "section": "Building Confidence",
+    "text": "Building Confidence\nWithout a fancy identification strategy, how can we build confidence in the results of our hypothesis test?\n\n\n\n\n\nConditioning on baseline characteristics\nMechanisms and observable implications (dv)\nPlacebo tests (iv)\n\n\n\n\n\nSome types of participation are more likely to be affected by moving\nSelf-efficacy but not group efficacy\nThe effect of moving should decrease over time\nThe effect of moving should be weaker for"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#creating-index-measures",
+    "href": "slides/14-fp-essentials2.html#creating-index-measures",
+    "title": "Final Project Essentials",
+    "section": "Creating Index Measures",
+    "text": "Creating Index Measures\nWhat is an index measure?\n\nWhen should we create an index measure?\n\n\nWhen you have many ways of measuring a single concept\n\nThis is true for outcome measures, treatment measures, and covariates\n\n\nWhat does this accomplish?\n\nSimplifies analysis (fewer graphs, tables, etc.)\nReduces number of hypotheses being tested"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#additive-scale",
+    "href": "slides/14-fp-essentials2.html#additive-scale",
+    "title": "Final Project Essentials",
+    "section": "Additive Scale",
+    "text": "Additive Scale\nWhat is an additive scale?\n\nSimple sum across columns (index = column_1 + column_2)\n\nWhen to use an additive scale\n\n\nVariables are measured on a common scale\nInterested in a cumulative amount of something\n\nNumber of times someone engaged in a specific behavior\nAmount of money from several different sources"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#additive-scale-1",
+    "href": "slides/14-fp-essentials2.html#additive-scale-1",
+    "title": "Final Project Essentials",
+    "section": "Additive Scale",
+    "text": "Additive Scale\n\n\nBenefits of additive scales\n\nInterpretability: number on the original scale\nSimplicity: Just plain addition"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#averaged-z-scores",
+    "href": "slides/14-fp-essentials2.html#averaged-z-scores",
+    "title": "Final Project Essentials",
+    "section": "Averaged Z-Scores",
+    "text": "Averaged Z-Scores\nWhat is a z-score?\n\n\\(Z = (X - \\mu) / \\sigma\\)\nStandardized: Mean of 0 and standard deviation of 1\n\nWhen to use averaged z-scores\n\nWhen variables are measured on different scales\nWhen variables cannot be summed"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#averaged-z-scores-1",
+    "href": "slides/14-fp-essentials2.html#averaged-z-scores-1",
+    "title": "Final Project Essentials",
+    "section": "Averaged Z-Scores",
+    "text": "Averaged Z-Scores\n\n\nBenefits of averaged z-scores\n\nInterpretability: Standard deviations from the mean\nOutlier detection: abs(3)"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#fancier-index-techniques",
+    "href": "slides/14-fp-essentials2.html#fancier-index-techniques",
+    "title": "Final Project Essentials",
+    "section": "Fancier index techniques",
+    "text": "Fancier index techniques\n\n\n\nPrincipal Component Analysis\nFactor Analysis\nInverse Covariance Weighting"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#interaction-terms",
+    "href": "slides/14-fp-essentials2.html#interaction-terms",
+    "title": "Final Project Essentials",
+    "section": "Interaction Terms",
+    "text": "Interaction Terms\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\beta_3 X_{i1}*X_{i2} + \\epsilon_i\n\\]\nExample: Continuous outcome with two binary predictors\n\n\n\\(\\alpha\\): Intercept when \\(X_{i1}\\) and \\(X_{i2}\\) are 0\n\\(\\beta_1\\): Slope when \\(X_{i2} = 0\\)\n\\(\\beta_2\\): Difference in \\(\\alpha\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\\(\\beta_3\\): Difference in \\(\\beta_1\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#interaction-terms-1",
+    "href": "slides/14-fp-essentials2.html#interaction-terms-1",
+    "title": "Final Project Essentials",
+    "section": "Interaction Terms",
+    "text": "Interaction Terms\nWhat are interaction terms used for?\n\nHeterogeneous effects\n\nGender\nEducation\n\nDifference-in-differences\n\nTreated and not-treated units\n\n\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\beta_3 X_{i1}*X_{i2} + \\epsilon_i\n\\]"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#interaction-terms-2",
+    "href": "slides/14-fp-essentials2.html#interaction-terms-2",
+    "title": "Final Project Essentials",
+    "section": "Interaction Terms",
+    "text": "Interaction Terms\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\beta_3 X_{i1}*X_{i2} + \\epsilon_i\n\\]\nExample: Continuous outcome with two binary predictors\n\n\n\\(\\alpha\\): Intercept when \\(X_{i1}\\) and \\(X_{i2}\\) are 0\n\\(\\beta_1\\): Slope when \\(X_{i2} = 0\\)\n\\(\\beta_2\\): Difference in \\(\\alpha\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\\(\\beta_3\\): Difference in \\(\\beta_1\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\n\n\n\n\njrspringman.github.io/psci3200-globaldev/"
+  },
+  {
+    "objectID": "slides/14-fp-essentials2.html#regression-model",
+    "href": "slides/14-fp-essentials2.html#regression-model",
+    "title": "Final Project Essentials",
+    "section": "Regression Model",
+    "text": "Regression Model\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\epsilon_i\n\\]\nExample: Continuous outcome with two binary predictors\n\n\n\\(\\alpha\\): Intercept when \\(X_{i1}\\) and \\(X_{i2}\\) are 0\n\\(\\beta_1\\): Slope when holding \\(X_{i2}\\) constant\n\\(\\beta_2\\): Slope when holding \\(\\alpha\\) constant"
+  },
+  {
+    "objectID": "materials/14_fp_essentials2.html",
+    "href": "materials/14_fp_essentials2.html",
+    "title": "Final Project Essentials",
+    "section": "",
+    "text": "None"
+  },
+  {
+    "objectID": "materials/14_fp_essentials2.html#required-readings",
+    "href": "materials/14_fp_essentials2.html#required-readings",
+    "title": "Final Project Essentials",
+    "section": "",
+    "text": "None"
+  },
+  {
+    "objectID": "materials/14_fp_essentials2.html#slides",
+    "href": "materials/14_fp_essentials2.html#slides",
+    "title": "Final Project Essentials",
+    "section": "Slides",
+    "text": "Slides\n\nSlides"
+  },
+  {
+    "objectID": "materials/14_fp_essentials2.html#assignments",
+    "href": "materials/14_fp_essentials2.html#assignments",
+    "title": "Final Project Essentials",
+    "section": "Assignments",
+    "text": "Assignments\n\nExpanded Research Design (4/4)"
+  },
+  {
+    "objectID": "materials/14_fp_essentials2.html#workshop",
+    "href": "materials/14_fp_essentials2.html#workshop",
+    "title": "Final Project Essentials",
+    "section": "Workshop",
+    "text": "Workshop\n\nWorkshop Code and Data"
   }
 ]
