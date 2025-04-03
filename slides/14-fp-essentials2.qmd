@@ -74,7 +74,7 @@ $$
 ::: {.incremental}
 - $\alpha$: [Intercept when $X_{i1}$ and $X_{i2}$ are 0]{.fragment}
 - $\beta_1$: [Slope when holding $X_{i2}$ *constant*]{.fragment}
-- $\beta_2$: [Slope when holding $\alpha$ *constant*]{.fragment}
+- $\beta_2$: [Slope when holding $X_{i1}$ *constant*]{.fragment}
 :::
 
 

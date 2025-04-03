@@ -40,7 +40,6 @@ dat = read_csv("https://raw.githubusercontent.com/jrspringman/psci3200-globaldev
 
 - Measured on the same scale
 - Share direction
-- 
 
 ### Adding numberical measures
 
@@ -68,7 +67,7 @@ add_ecols = grep("q13_(4|6|7)_1$",
 dat = dat %>%
   mutate(add_participation_end = rowSums(across(add_ecols), na.rm = T) )
 
-
+dat$add_participation_end
 ```
 
 ### Do they 'hang together'?
@@ -480,22 +479,7 @@ ggplot(prediction_df %>% filter(!is.na(year)),
 
 
 
-```{r}
-#| echo: false
-#| warning: false
-#| 
 
-# Plot the interaction
-ggplot(prediction_df %>% filter(!is.na(year)), 
-       aes(x = year, y = prediction, color = factor(moved), shape = factor(year))) +
-  geom_point(size = 4) + 
-  geom_text(aes(label = round(prediction, 2)), vjust = -1.2, size = 4) +
-  scale_x_continuous(breaks = c(0, 1), labels=c("Y1", "Y3")) +
-  expand_limits(y = c(.2, .2)) +
-  labs(x = "Year", y = "Predicted z_participation_base", color = "Moved", shape = "Year") +
-  ggtitle("Interaction Plot of z_participation_base by Year and Moved")
-
-```
 
 ### Continuous-ish
 
@@ -525,6 +509,7 @@ modelsummary(
 ```{r}
 #| echo: false
 #| warning: false
+
 # Predict values based on the model
 predictions <- predict(lm(z_participation_base ~ moved * year, dat), newdata = dat)
 
@@ -538,6 +523,21 @@ ggplot(prediction_df, aes(x = year, y = prediction, color = factor(moved))) +
   scale_x_continuous(breaks = c(0, 1, 2), labels=c("Y1", "Y2", "Y3")) +
   labs(x = "Year", y = "Predicted z_participation_base", color = "Moved") +
   ggtitle("Interaction Plot of z_participation_base by Year and Moved")
+
+
+ggplot(prediction_df %>% filter(!is.na(year)), 
+       aes(x = factor(moved), y = prediction, group = factor(year), color = factor(year), shape = factor(year))) +
+  geom_point(size = 4, position = position_dodge(width = 0.3)) + 
+  geom_text(aes(label = round(prediction, 2)), 
+            vjust = -1.2, size = 4, 
+            position = position_dodge(width = 0.3)) +
+  geom_line(aes(group = factor(year)), 
+            position = position_dodge(width = 0.3), linewidth = 1) +  
+  scale_x_discrete(labels = c("0" = "Did not move", "1" = "Moved")) +
+  labs(x = "Moved", y = "Predicted z_participation_base", color = "Year", shape = "Year") +
+  ggtitle("Interaction Plot of z_participation_base by Moved and Year") +
+  coord_cartesian(clip = "off") +
+  theme(plot.margin = margin(t = 20, r = 10, b = 10, l = 10))
 
 ```
 

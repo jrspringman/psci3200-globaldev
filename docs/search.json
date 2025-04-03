@@ -9615,7 +9615,7 @@
     "href": "slides/14-fp-essentials2.html#regression-model",
     "title": "Final Project Essentials",
     "section": "Regression Model",
-    "text": "Regression Model\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\epsilon_i\n\\]\nExample: Continuous outcome with two binary predictors\n\n\n\\(\\alpha\\): Intercept when \\(X_{i1}\\) and \\(X_{i2}\\) are 0\n\\(\\beta_1\\): Slope when holding \\(X_{i2}\\) constant\n\\(\\beta_2\\): Slope when holding \\(\\alpha\\) constant"
+    "text": "Regression Model\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\epsilon_i\n\\]\nExample: Continuous outcome with two binary predictors\n\n\n\\(\\alpha\\): Intercept when \\(X_{i1}\\) and \\(X_{i2}\\) are 0\n\\(\\beta_1\\): Slope when holding \\(X_{i2}\\) constant\n\\(\\beta_2\\): Slope when holding \\(X_{i1}\\) constant"
   },
   {
     "objectID": "materials/14_fp_essentials2.html",
