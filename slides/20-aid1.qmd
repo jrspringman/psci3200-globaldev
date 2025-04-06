@@ -26,11 +26,9 @@ editor: source
 - Today
   + [Briggs (2016)](/files/does-foreign-aid-target-the-poorest.pdf)
   + [Briggs (2021)](https://voxdev.org/topic/institutions-political-economy/why-does-aid-not-target-poorest)
-- Thursday (4/4)
+- Wednesday (4/4)
+  + Data Assignment 1
   + Foreign aid readings
-  + Review of Data Assignment 1
-- April 11
-  + Final project proposal
   
 ## Agenda
 
