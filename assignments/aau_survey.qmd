@@ -18,7 +18,7 @@ editor: source
 
 This assignment is designed to test your understanding of some of the core concepts and your ability to implement some of the core tools that will be necessary for the final project. We have covered these concepts and tools in class, but you have not been required to use them on your own.
 
-This project should be submitted via Slack by **11:59pm EST on Thursday, March 28**. Your submission must include:
+This project should be submitted via Slack by **11:59pm EST on Friday, April 11**. Your submission must include:
 
 - An html file with your written answers, tables and figures, and printed code showing your work
 - A `.qmd` file that you used to generate the html file

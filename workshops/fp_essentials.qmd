@@ -436,12 +436,13 @@ dat = dat %>% mutate(year = as.numeric(case_when(class_year == "Year I" ~ 0,
 table(dat$year)
 
 models <- list()
-models[['Bivariate']] = lm(z_participation_base ~ moved, dat)
+# models[['Bivariate']] = lm(z_participation_base ~ moved, dat)
 models[['Multivariate']] = lm(z_participation_base ~ moved + year, dat)
 models[['Interaction']] = lm(z_participation_base ~ moved + year + moved*year, dat)
 
 modelsummary(
   models,
+  fmt = 2,
   estimate  = "{estimate}{stars} ({std.error})",
              statistic = NULL,
   gof_omit = 'IC|RMSE|Log|F|R2$|Std.')
@@ -455,21 +456,22 @@ modelsummary(
 #| 
 
 # Predict values based on the model
-predictions <- predict(lm(z_participation_base ~ moved * year, dat), newdata = dat)
+predictions <- predict(lm(z_participation_base ~ moved + year + moved*year, dat), newdata = dat)
 
 # Create a dataframe with predictions
 prediction_df <- data.frame(year = dat$year, moved = dat$moved, prediction = predictions)
 
 ggplot(prediction_df %>% filter(!is.na(year)), 
-       aes(x = factor(moved), y = prediction, group = factor(year), color = factor(year), shape = factor(year))) +
+       aes(x = factor(moved), y = prediction, group = factor(year), color = factor(year))) +
   geom_point(size = 4, position = position_dodge(width = 0.3)) + 
   geom_text(aes(label = round(prediction, 2)), 
             vjust = -1.2, size = 4, 
             position = position_dodge(width = 0.3)) +
   geom_line(aes(group = factor(year)), 
             position = position_dodge(width = 0.3), linewidth = 1) +  
-  scale_x_discrete(labels = c("0" = "Did not move", "1" = "Moved")) +
-  labs(x = "Moved", y = "Predicted z_participation_base", color = "Year", shape = "Year") +
+  scale_x_discrete(labels = c("0" = "Did not move (0)", "1" = "Moved (1)")) +
+  scale_color_discrete(labels = c("Freshman (0)", "Junior (1)")) +
+  labs(x = "Moved (X1)", y = "Predicted z_participation_base", color = "Year (X2)") +
   ggtitle("Interaction Plot of z_participation_base by Moved and Year") +
   coord_cartesian(clip = "off") +
   theme(plot.margin = margin(t = 20, r = 10, b = 10, l = 10))

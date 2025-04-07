@@ -6185,14 +6185,14 @@
     "href": "slides/20-aid1.html#assignments-and-upcoming",
     "title": "Foreign Aid 1",
     "section": "Assignments and Upcoming",
-    "text": "Assignments and Upcoming\n\nToday\n\nBriggs (2016)\nBriggs (2021)\n\nWednesday (4/4)\n\nData Assignment 1\nForeign aid readings"
+    "text": "Assignments and Upcoming\n\nToday\n\nBriggs (2016)\nBriggs (2021)\n\nWednesday (4/9)\n\nMore foreign aid readings\nData Assignment 1 (due Friday)\n\nMonday (4/14)\n\nForeign Aid Obituary\nFeedback on FP Extension"
   },
   {
     "objectID": "slides/20-aid1.html#agenda",
     "href": "slides/20-aid1.html#agenda",
     "title": "Foreign Aid 1",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\nOverview of Foreign Aid\nBriggs (2016)\nBriggs (2021)\nFinal Project Assignment 2"
+    "text": "Agenda\n\n\n\nFinishing up interaction terms\nOverview of Foreign Aid\nBriggs (2016)\nBriggs (2021)\nData Assignment 1"
   },
   {
     "objectID": "slides/20-aid1.html#aid-disbursements",
@@ -6276,7 +6276,7 @@
     "href": "slides/20-aid1.html#theory",
     "title": "Foreign Aid 1",
     "section": "Theory",
-    "text": "Theory\n\n\nWhy is it easier for multilateral donors to send aid to poorer countries?\n\nMultiple stakeholders mean aid must flow to places where preferences overlap\nDonor preferences are likely to overlap in the places with the greatest need"
+    "text": "Theory\n\n\nWhy is it easier for multilateral donors to send aid to poorer countries?\n\n\nMultiple stakeholders mean aid must flow to places where preferences overlap\nDonor preferences are likely to overlap in the places with the greatest need"
   },
   {
     "objectID": "slides/20-aid1.html#case-selection",
@@ -6297,7 +6297,7 @@
     "href": "slides/20-aid1.html#research-design",
     "title": "Foreign Aid 1",
     "section": "Research Design",
-    "text": "Research Design\n\n\n\n\nUnit Fixed Effects\nLagged IV \\(\\rightarrow\\) DV\nControl for obvious pre-treatment confounders"
+    "text": "Research Design\n\n\n\n\nUnit Fixed Effects\nLagged IV \\(\\rightarrow\\) DV\nControl for obvious pre-treatment confounders\nWhat is his “most likely” design?\nDoes he “identify” causal effects?"
   },
   {
     "objectID": "slides/20-aid1.html#measurement-1",
@@ -9651,5 +9651,96 @@
     "title": "Final Project Essentials",
     "section": "Workshop",
     "text": "Workshop\n\nWorkshop Code and Data"
+  },
+  {
+    "objectID": "slides/20-aid1.html#aid-disbursements-2",
+    "href": "slides/20-aid1.html#aid-disbursements-2",
+    "title": "Foreign Aid 1",
+    "section": "Aid Disbursements",
+    "text": "Aid Disbursements"
+  },
+  {
+    "objectID": "slides/20-aid1.html#aid-disbursements-3",
+    "href": "slides/20-aid1.html#aid-disbursements-3",
+    "title": "Foreign Aid 1",
+    "section": "Aid Disbursements",
+    "text": "Aid Disbursements"
+  },
+  {
+    "objectID": "slides/20-aid1.html#aid-disbursements-4",
+    "href": "slides/20-aid1.html#aid-disbursements-4",
+    "title": "Foreign Aid 1",
+    "section": "Aid Disbursements",
+    "text": "Aid Disbursements"
+  },
+  {
+    "objectID": "slides/20-aid1.html#aid-received-4",
+    "href": "slides/20-aid1.html#aid-received-4",
+    "title": "Foreign Aid 1",
+    "section": "Aid Received",
+    "text": "Aid Received"
+  },
+  {
+    "objectID": "slides/20-aid1.html#aid-impacts",
+    "href": "slides/20-aid1.html#aid-impacts",
+    "title": "Foreign Aid 1",
+    "section": "Aid Impacts",
+    "text": "Aid Impacts"
+  },
+  {
+    "objectID": "slides/20-aid1.html#aid-impacts-1",
+    "href": "slides/20-aid1.html#aid-impacts-1",
+    "title": "Foreign Aid 1",
+    "section": "Aid Impacts",
+    "text": "Aid Impacts"
+  },
+  {
+    "objectID": "slides/20-aid1.html#aid-impacts-2",
+    "href": "slides/20-aid1.html#aid-impacts-2",
+    "title": "Foreign Aid 1",
+    "section": "Aid Impacts",
+    "text": "Aid Impacts"
+  },
+  {
+    "objectID": "slides/20-aid1.html#aid-impacts-3",
+    "href": "slides/20-aid1.html#aid-impacts-3",
+    "title": "Foreign Aid 1",
+    "section": "Aid Impacts",
+    "text": "Aid Impacts"
+  },
+  {
+    "objectID": "slides/20-aid1.html#aid-distribution-2",
+    "href": "slides/20-aid1.html#aid-distribution-2",
+    "title": "Foreign Aid 1",
+    "section": "Aid Distribution",
+    "text": "Aid Distribution"
+  },
+  {
+    "objectID": "slides/20-aid1.html#interaction-terms",
+    "href": "slides/20-aid1.html#interaction-terms",
+    "title": "Foreign Aid 1",
+    "section": "Interaction Terms",
+    "text": "Interaction Terms\n\\[\nY_i = \\alpha + \\beta_1 X_{i1} + \\beta_2 X_{i2} + \\beta_3 X_{i1}*X_{i2} + \\epsilon_i\n\\]\nExample: Continuous outcome with two binary predictors\n\n\n\\(\\alpha\\): Intercept when \\(X_{i1}\\) and \\(X_{i2}\\) are 0\n\\(\\beta_1\\): Slope when \\(X_{i2} = 0\\)\n\\(\\beta_2\\): Difference in \\(\\alpha\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)\n\\(\\beta_3\\): Difference in \\(\\beta_1\\) between \\(X_{i2}=0\\) and \\(X_{i2}=1\\)"
+  },
+  {
+    "objectID": "slides/20-aid1.html#section",
+    "href": "slides/20-aid1.html#section",
+    "title": "Foreign Aid 1",
+    "section": "",
+    "text": "## Aid Disbursements"
+  },
+  {
+    "objectID": "slides/20-aid1.html#aid-disbursements-5",
+    "href": "slides/20-aid1.html#aid-disbursements-5",
+    "title": "Foreign Aid 1",
+    "section": "Aid Disbursements",
+    "text": "Aid Disbursements"
+  },
+  {
+    "objectID": "slides/20-aid1.html#policy-implications",
+    "href": "slides/20-aid1.html#policy-implications",
+    "title": "Foreign Aid 1",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\nMajority of people live in middle-income countries, but is that where we should send aid?"
   }
 ]
