@@ -1,6 +1,6 @@
 ---
 title: "Foreign Aid 2"
-subtitle: "Final Project Essentials: Fixed Effects"
+subtitle: "Credit, Service Delivery, and Accountability"
 author: "Jeremy Springman"
 institute: "University of Pennsylvania"
 
@@ -28,11 +28,15 @@ bibliography: img/references.bib
 
 - Today
   + [Cruz (2016)](/files/Cruz_2016_AJPS.pdf)
+  + Brief History of Non-State Service Provision
   + [Bold et al. (2018)](/files/bold_2018.pdf)
-- Tuesday (4/9)
-  + Climate and Development readings
-- April 11
-  + Final project proposal
+- Friday
+  + Data Assignment 1 due
+  + Submit to Caro and I by Slack
+- Monday (4/14)
+  + Foreign Aid Obituary
+  + I'll figure out the readings tomorrow...
+
   
 ## Agenda
 
@@ -40,7 +44,7 @@ bibliography: img/references.bib
 
 1. Cruz (2016)
 2. Bold et al. (2018)
-3. Review of Data Assignment 1
+3. Final Questions: Data Assignment 1
 
 
 # Cruz (2016)
@@ -402,21 +406,5 @@ bibliography: img/references.bib
 
 **What does this tell us about the limitations of NGOs?**
 
-
-# Review of Data Assignment 1
-
-## Additive Scale
-
-**What is an additive scale?**
-
-- Simple sum across columns (index = column_1 + column_2)
-
-**Takeaways**
-
-- When variables are measured on a common scale
-- When components contribute equally
-- When you are interested in a cumulative amount of something
-- *Not good for likert scales*
-- How to deal with NAs
 
 ## References

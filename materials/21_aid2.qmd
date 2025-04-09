@@ -14,4 +14,5 @@ title: "Foreign Aid 2"
 
 ## Supplementary Readings (Non-Requred)
 
+- [Baldwin & Winters (2023)](/files/project_muse_875319.pdf)
 - [Evans et al. (2021)](https://documents1.worldbank.org/curated/en/972301638988752613/pdf/Building-State-Capacity-What-Is-the-Impact-of-Development-Projects.pdf)
