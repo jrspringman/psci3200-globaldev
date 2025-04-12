@@ -691,7 +691,7 @@ modelsummary(
 ```{r}
 #| echo: false
 #| warning: false
-#| 
+#| eval: false
 
 # Predict values based on the model
 predictions <- predict(lm(z_participation ~ moved + time + moved*time + factor(response_id), regd), newdata = regd)
