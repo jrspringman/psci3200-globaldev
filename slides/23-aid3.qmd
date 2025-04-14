@@ -37,36 +37,7 @@ editor: source
 3. Briggs (2021)
 4. Final Project Assignment 2
 
-# U.S. Foreign Aid: An Obituary
 
-## Arenas 
-
-- Health
-- Soft Power
-- Democracy and governance
-
-
-
-
-## Health
-
-- HIV: 20.6 million people (600k children) no longer receiving treatment
-- Tuberculosis: 10.6 million cases and 2.2 million deaths will not be prevented 
-- Nutrition: HKI has stopped a programme that provides nutrition for 5.6 million children
-- Nutrition: In Sudan, ~80% of emergency food kitchens are closed
-- Nutrition: In Ethiopia, foods to treat ~1 million severely malnourished children will run out by May
-
-severe acute malnutrition: cut off treatment for 2.3 million children in low- and middle-income countries (LMICs). This would lead to 369,000 extra child deaths a year that would otherwise have been prevented.
-
- The World Bank estimates that every $1 invested in tackling undernutrition returns $23 in value in terms of child survival, human capital development and economic prosperity
- 
-## Health
-
-
-![](img/vox_hiv.png){fig-align="center"}
-
-
-## Soft Power
 
 
 

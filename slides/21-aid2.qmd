@@ -327,43 +327,49 @@ bibliography: img/references.bib
 
 ## Scaling Up Education Reforms
 
-**Hiring contract teachers to improve text scores**
+**Treatment: [Hiring contract teachers to improve text scores]{.fragment}**
 
+:::{.fragment}
 1. Smaller class sizes
 2. Higher motivation
+:::
 
-**Scaling up**
+:::{.fragment}
+**Complicating Factors:**
+:::
 
-- RCT pilot simultaneous with government scale-up
+:::{.incremental}
+1. Scale: [the size of the program]{.fragment}
+2. Implementation: [who is administering]{.fragment}
+:::
+
 
 ## Context
 
-**Contract teachers**
+**What's different about contract teachers?**
 
+:::{.incremental}
 - Lower cost
 - Similar qualifications
 - Different profile
   + Selection (firing)
   + Incentives (pay and retention)
 
-## Research Design
-
-![](img/bold_timeline.png){fig-align="center"}
+:::
 
 
 ## Scaling Up Education Reforms
 
 **Random assignment of:**
 
+:::{.fragment}
 - Government vs NGO implementation
+- SMC Training
 - Structure of contract
   + Local vs central control of hiring/firing
-  + Role of school management committees
-  + Salary
+  + Low vs High Salary
 
-## Research Design
-
-![](img/bold_map.png){fig-align="center"}
+:::
 
 
 ## Research Design
@@ -374,18 +380,176 @@ bibliography: img/references.bib
 
 
 
+## Research Design
+
+![](img/bold_map.png){fig-align="center"}
+
+## Findings
+
+- NGO implementation increased test scores
+- Government implementation had no effect
+  + Teacher quality: No
+  + Monitoring: No
+  + Bureaucratic delays in payment: Yes (⅓ of effect)
+  + Political economy factors: Yes (credible enforcement of contracts)
+
+:::{.fragment}
+**What does this tell us about the limitations of NGOs?**
+:::
 
 
+# U.S. Foreign Aid: An Obituary
+
+## Arenas 
+
+1. Health
+2. Democracy and governance
+3. Soft Power
+
+## Health
+
+- HIV: 20.6 million people (600k children) no longer receiving treatment
+- Tuberculosis: 10.6 million cases and 2.2 million deaths will not be prevented 
+- Nutrition: HKI has stopped a program that provides nutrition for 5.6 million children
+- Nutrition: In Sudan, ~80% of emergency food kitchens are closed
+- Nutrition: In Ethiopia, foods to treat ~1 million severely malnourished children will run out by May
+<!-- severe acute malnutrition: cut off treatment for 2.3 million children in low- and middle-income countries (LMICs). This would lead to 369,000 extra child deaths a year that would otherwise have been prevented. -->
+<!-- The World Bank estimates that every $1 invested in tackling undernutrition returns $23 in value in terms of child survival, human capital development and economic prosperity -->
+ 
+## Health
+
+
+![](img/vox_hiv.png){fig-align="center"}
+
+## Health  (Gibson et al., 2025)
+
+[The impact of aid sanctions on maternal and child mortality, 1990–2019](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(25)00058-0/fulltext)
+
+![](img/gibson_sanction1.jpg){fig-align="center"}
+
+## Health  (Gibson et al., 2025)
+
+**Sample**
+
+- 67 LMICs targeted by 88 unique aid sanction events (median duration: 5 years)
+- 66 LMICs never sanctioned
+- Infant, under-5, and maternal mortality declined 2.6%, 3.2%, 2%
+
+## Health  (Gibson et al., 2025)
+
+**Research Design**
+
+- Difference-in-differences
+- Country and year fixed effects, country-specific time trends, and multiple control variables
+- Sensitivity analyses, entropy balancing
+
+## Health  (Gibson et al., 2025)
+
+![](img/gibson_sanction2.jpg){fig-align="center"}
+
+## Health  (Gibson et al., 2025)
+
+![](img/gibson_sanction3.jpg){fig-align="center"}
+
+## Health  (Gibson et al., 2025)
+
+**Findings**
+
+- Aid sanctions reduced ODA by \$213m per year; DAH by \$16.42m
+- Sanctions negate 30% of overall improvements in infant and under-5 mortality
+- Increased infant, under-5, and maternal mortality by 3.1%, 3.6%, 6.4%
+- 129.3 infant deaths, 47.1 under-5 deaths, 10.9 maternal deaths per 100k births
+
+## Democracy and governance
+
+**Does Democracy promotion work?**
+
+- Non-trivial amount of democracy aid sounds stupid (workshops, capacity building, cultural programs)
+- Recipient country behavior suggests that enough of it does work... 
+
+## Democracy and governance
+
+![](img/fig_2_democracy aid.jpeg){fig-align="center"}
+
+## Democracy and governance
+
+![](img/law_map.png){fig-align="center"}
+
+## Democracy and governance
+
+**Does Democracy promotion work?**
+
+- U.S. aid withdrawal is already having a massive chilling effect on domestic civil society
+- U.S. has provided an umbrella of protection for NGOs (esp partners) in repressive countries
+
+## Democracy and governance
+
+**Serbia: U.S. has restrained Vucic from attacking NGOs**
+
+- 2020: [Probe of NGO finances](https://apnews.com/general-news-7733ba98001cc18cd26cc78fc83615a8)
+  + Investigation into anti-corruption and advocacy NGOs
+  + Accusations of money laundering and terrorist financing
+  + Public and private criticism by U.S. embassy and diplomats
+- 2025: [Decimation of NGOs](https://apnews.com/article/serbia-usaid-prosecutors-civil-society-probe-02af3400071175e0c4b717fb6b273493)
+  + Feb 2: Musk calls USAID a criminal organization
+  + Feb 25: Raids, corruption charges, and exile
+
+
+## Democracy and governance
+
+- [Carnegie and Marinov (2017)](https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12289) use random variation in aid to show positive effect on democracy
+- [Wright (2009)](https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12289) uses panel data to show conditionality increases democracy
+- [Finn and Tarp (2016)](https://www.sciencedirect.com/science/article/pii/S030438781500111X) us dynamic panel estimators to show that governance aid increases democracy
+- Democracy aid works, but we don't necessarily know how/why; effect is small and ephemeral 
+    
+
+## Soft Power
+
+**Does aid win hearts and minds (soft power)?
+
+- Aid improves health and education outcomes
+- Recipients seem to know who gives aid
+- Aid often comes with conditionality and corruption
+- [Andrabi and Das (2017)](https://direct.mit.edu/rest/article/99/3/371/58451/In-Aid-We-Trust-Hearts-and-Minds-and-the-Pakistan) use spatial data to show that disaster relief in Pakistan improved trust in US and Europe
+
+## Soft Power
+
+![](img/andrabi.png){fig-align="center"}
+
+## Soft Power
+
+![](img/andrabi2.png){fig-align="center"}
+
+
+## Soft Power
+
+![](img/andrabi3.png){fig-align="center"}
+
+
+## Soft Power
+
+![](img/freeze_awareness.png){fig-align="center"}
+
+## Soft Power
+
+![](img/freeze_perceptions.png){fig-align="center"}
+
+
+
+# Appendix
 
 ## Research Design
 
-- Attrition
+![](img/bold_timeline.png){fig-align="center"}
+
+## Research Design
+
 - Compliance
   + NGO implementation (+)
   + Local hiring (+)
   + Higher salaries (+)
   + Small class size reduction
-
+- Attrition
 
 ## Findings
 
@@ -394,17 +558,3 @@ bibliography: img/references.bib
 ## Findings
 
 ![](img/bold_effects.png){fig-align="center"}
-
-## Findings
-
-- NGO implementation increased test scores
-- Government implementation had no effect
-  + Teacher effort: No
-  + Government monitoring: No
-  + Bureaucratic delays in payment: Yes (⅓ of effect)
-  + Political economy factors: Yes (union identification)
-
-**What does this tell us about the limitations of NGOs?**
-
-
-## References
