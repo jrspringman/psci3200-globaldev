@@ -10,7 +10,7 @@ title: "Climate and Development 2"
 
 ## Slides
 
-- [Slides](/slides/23-climate2.html)
+- [Slides](/slides/24-climate1.html)
 
 
 ## Supplementary Readings (non-required)
