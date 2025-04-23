@@ -31,9 +31,17 @@ bibliography: img/references.bib
 - Today
   + Quick discussion
 - Wednesday
-  + Final Project Assignment 3
+  + 
 - May 10 
   + Final Project
+
+# 
+
+## 
+
+**How many of you planned to pursue careers in international development?**
+
+- Why?
 
 # Opalo
 
@@ -76,7 +84,7 @@ bibliography: img/references.bib
 
 :::{.incremental}
 - We spent a lot of time learning about the tools that academics use to understand the problems faced by developing countries
-- This isn't because I think that academic research does a good job or providing answers about how to advance development
+- This isn't because I think that academic research does a good job of providing answers about how to advance development
 - Rather, I think these tools can be useful to those who are well positioned/incentivized to do that
   + Think about the Kenya Education paper
   + Think about UCTs
