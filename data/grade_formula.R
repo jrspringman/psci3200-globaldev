@@ -2,12 +2,12 @@
 library(tidyverse)
 
 ## Read-in data
-dat = readxl::read_xlsx("/home/jeremy/Dropbox/Course/grades/ClassList.xlsx")
+dat = readxl::read_xlsx("/home/jeremy/Dropbox/psci_spring25/submissions.xlsx")
 
 ## Create assignment groups by column
 
 # quizzes and workshops (.025 each)
-qw = c("01_quarto", "w1_quarto", "02_gitrepo", "03_fprqd", "fp_essentials", "Quiz_1", "fp_essentials2", "quiz", "contribution")
+qw = c("01_quarto", "02_gitrepo", "03_fprqd",  "quiz")
 
 # data assignments (.12 each)
 da = c("aau_survey", "04_fpdesign", "05_fptest")
@@ -17,7 +17,7 @@ fp = c("final_project")
 
 
 dat <- dat %>%
-  mutate(across(qw, ~ .x * 2.5),    # Multiply columns in 'qw' by 0.025
+  mutate(across(qw, ~ .x * 5),    # Multiply columns in 'qw' by 0.025
          across(da, ~ .x * 0.12),     # Multiply columns in 'da' by 0.12
          final_project = final_project * 0.44,  # Multiply 'final_project' by 0.44
          grade = round(rowSums(across(c(qw, da, fp))), digits = 0))  # Calculate row sums across selected columns
@@ -33,7 +33,7 @@ ggplot(dat, aes(x=grade, color=Classification)) +
   theme_bw()
 
 write.csv(dat %>%
-            select(Name, Classification, grade), "/home/jeremy//Dropbox/Course/grades/final_grades.csv")
+            select(Name, grade), "/home/jeremy//Dropbox/psci_spring25/final_grades.csv")
 
 # Categorize the grades into specified ranges
 dat <- dat %>%
