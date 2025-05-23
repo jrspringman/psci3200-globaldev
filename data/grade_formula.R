@@ -2,7 +2,7 @@
 library(tidyverse)
 
 ## Read-in data
-dat = readxl::read_xlsx("/home/jeremy/Dropbox/psci_spring25/submissions.xlsx")
+dat = readxl::read_xlsx("C:/Users/jerem/Dropbox/psci_spring25/submissions.xlsx")
 
 ## Create assignment groups by column
 
